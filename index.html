@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script defer src="js/translations.js"></script>
     <script defer src="script.js"></script>
 </head>
 <body>
@@ -19,18 +20,25 @@
     <header id="header">
         <div class="header-container">
             <div class="logo">
-                <img src="assets/logo.png" alt="Aviolab AI Logo">
+                <a href="#home" class="logo-link">
+                    <img src="assets/logo.png" alt="Aviolab AI Logo">
+                    <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+                </a>
             </div>
             <nav>
                 <ul class="nav-links">
-                    <li><a href="#home" class="nav-link">Home</a></li>
-                    <li><a href="#products" class="nav-link">Solutions</a></li>
-                    <li><a href="#benefits" class="nav-link">Benefits</a></li>
-                    <li><a href="#case-study" class="nav-link">Case Studies</a></li>
-                    <li><a href="#about" class="nav-link">About</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="#home" class="nav-link" data-i18n="nav_home">Home</a></li>
+                    <li><a href="#products" class="nav-link" data-i18n="nav_solutions">Solutions</a></li>
+                    <li><a href="#benefits" class="nav-link" data-i18n="nav_benefits">Benefits</a></li>
+                    <li><a href="#case-study" class="nav-link" data-i18n="nav_case_studies">Case Studies</a></li>
+                    <li><a href="#about" class="nav-link" data-i18n="nav_about">About</a></li>
+                    <li><a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
                 </ul>
             </nav>
+            <div class="language-selector">
+                <div class="lang-option" data-lang="en">EN</div>
+                <div class="lang-option" data-lang="it">IT</div>
+            </div>
             <div class="mobile-menu-btn">
                 <span></span>
                 <span></span>
@@ -43,12 +51,12 @@
     <section id="home" class="hero-section">
         <div class="container">
             <div class="hero-content">
-                <h1>AI-Powered <span class="highlight">Legal Intelligence</span></h1>
-                <h2>One-Click Document Analysis for Legal & Technical Professionals</h2>
-                <p>Transforming how organizations handle intellectual property, legal contracts, research agreements, NDAs, and technical presentations with state-of-the-art artificial intelligence.</p>
+                <h1 data-i18n="hero_title">AI-Powered <span class="highlight">Legal Intelligence</span></h1>
+                <h2 data-i18n="hero_subtitle"><span class="highlight-quote">one-click</span> Document Analysis for Legal & Technical Professionals</h2>
+                <p data-i18n="hero_description">Transforming how organizations handle intellectual property, legal contracts, research agreements, NDAs, and technical presentations with state-of-the-art artificial intelligence.</p>
                 <div class="cta-buttons">
-                    <a href="#products" class="btn btn-primary">Explore Solutions</a>
-                    <a href="#contact" class="btn btn-secondary">Contact Us</a>
+                    <a href="#products" class="btn btn-primary" data-i18n="hero_btn_explore">Explore Solutions</a>
+                    <a href="#contact" class="btn btn-secondary" data-i18n="hero_btn_contact">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -59,17 +67,17 @@
     <section id="mission" class="section mission-section">
         <div class="container">
             <div class="section-header">
-                <h2>Our Mission</h2>
+                <h2 data-i18n="mission_title">Our Mission</h2>
                 <div class="underline"></div>
             </div>
             <div class="mission-content">
                 <div class="mission-text">
-                    <p>To revolutionize business document intelligence through <span class="highlight">innovative one-click AI solutions</span> that transform complex legal and technical document analysis into simple, accurate, and immediate insights.</p>
+                    <p data-i18n="mission_text">To revolutionize business document intelligence through innovative <span class="highlight-quote">one-click</span> AI solutions that transform complex legal and technical document analysis into simple, accurate, and immediate insights.</p>
                     <ul class="feature-list">
-                        <li><i class="fas fa-check-circle"></i> Process documents in seconds with zero learning curve</li>
-                        <li><i class="fas fa-check-circle"></i> Extract critical insights across multiple languages</li>
-                        <li><i class="fas fa-check-circle"></i> Generate comprehensive risk assessments and recommendations</li>
-                        <li><i class="fas fa-check-circle"></i> Ensure regulatory compliance and protect intellectual assets</li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="mission_feature_1">Process documents in seconds with zero learning curve</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="mission_feature_2">Extract critical insights across multiple languages</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="mission_feature_3">Generate comprehensive risk assessments and recommendations</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="mission_feature_4">Ensure regulatory compliance and protect intellectual assets</span></li>
                     </ul>
                 </div>
                 <div class="mission-image">
@@ -387,21 +395,24 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <img src="assets/logo.png" alt="Aviolab AI Logo">
-                    <p>Intelligent Document Analysis</p>
+                    <a href="#home" class="logo-link">
+                        <img src="assets/logo.png" alt="Aviolab AI Logo">
+                        <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+                    </a>
+                    <p data-i18n="footer_tagline">Intelligent Document Analysis</p>
                 </div>
                 <div class="footer-links">
-                    <h3>Quick Links</h3>
+                    <h3 data-i18n="footer_quick_links">Quick Links</h3>
                     <ul>
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#products">Solutions</a></li>
-                        <li><a href="#benefits">Benefits</a></li>
-                        <li><a href="#case-study">Case Studies</a></li>
-                        <li><a href="#about">About</a></li>
+                        <li><a href="#products" data-i18n="nav_solutions">Solutions</a></li>
+                        <li><a href="#benefits" data-i18n="nav_benefits">Benefits</a></li>
+                        <li><a href="#case-study" data-i18n="nav_case_studies">Case Studies</a></li>
+                        <li><a href="#about" data-i18n="nav_about">About</a></li>
                     </ul>
                 </div>
                 <div class="footer-social">
-                    <h3>Connect With Us</h3>
+                    <h3 data-i18n="footer_connect">Connect With Us</h3>
                     <div class="social-icons">
                         <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
                         <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -410,7 +421,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Aviolab AI. All rights reserved.</p>
+                <p data-i18n="footer_copyright">&copy; 2025 Aviolab AI. All rights reserved.</p>
             </div>
         </div>
     </footer>

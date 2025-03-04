@@ -1,4 +1,64 @@
 document.addEventListener("DOMContentLoaded", function () {
+    // Initialize language
+    let currentLanguage = localStorage.getItem('language') || 'en';
+    document.documentElement.lang = currentLanguage;
+    
+    // Language selector functionality
+    const languageSelector = document.querySelector('.language-selector');
+    if (languageSelector) {
+        languageSelector.querySelector(`[data-lang="${currentLanguage}"]`).classList.add('active');
+        
+        languageSelector.querySelectorAll('.lang-option').forEach(option => {
+            option.addEventListener('click', function() {
+                const lang = this.getAttribute('data-lang');
+                if (lang !== currentLanguage) {
+                    currentLanguage = lang;
+                    localStorage.setItem('language', lang);
+                    document.documentElement.lang = lang;
+                    
+                    // Update active class
+                    languageSelector.querySelectorAll('.lang-option').forEach(opt => {
+                        opt.classList.remove('active');
+                    });
+                    this.classList.add('active');
+                    
+                    // Apply translations
+                    applyTranslations();
+                }
+            });
+        });
+    }
+    
+    // Apply initial translations
+    applyTranslations();
+    
+    // Function to apply translations based on current language
+    function applyTranslations() {
+        const elements = document.querySelectorAll('[data-i18n]');
+        
+        elements.forEach(element => {
+            const key = element.getAttribute('data-i18n');
+            if (translations[currentLanguage] && translations[currentLanguage][key]) {
+                if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                    element.placeholder = translations[currentLanguage][key];
+                } else {
+                    element.innerHTML = translations[currentLanguage][key];
+                }
+            }
+        });
+        
+        // Handle form success messages
+        const contactForm = document.querySelector('.contact-form');
+        if (contactForm && contactForm.querySelector('.form-success')) {
+            contactForm.innerHTML = `
+                <div class="form-success">
+                    <h3>${translations[currentLanguage].contact_form_success_title}</h3>
+                    <p>${translations[currentLanguage].contact_form_success_message}</p>
+                </div>
+            `;
+        }
+    }
+    
     // Smooth scrolling for navigation
     document.querySelectorAll('.nav-link').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
@@ -91,8 +151,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 // For now, we'll just show a success message
                 contactForm.innerHTML = `
                     <div class="form-success">
-                        <h3>Thank you for your message!</h3>
-                        <p>We have received your inquiry and will get back to you soon.</p>
+                        <h3>${translations[currentLanguage].contact_form_success_title}</h3>
+                        <p>${translations[currentLanguage].contact_form_success_message}</p>
                     </div>
                 `;
             }

@@ -1,0 +1,148 @@
+Ecco il testo aggiornato con tutte le correzioni richieste:
+
+---
+
+## Navigazione
+- Home  
+- Soluzioni  
+- Vantaggi  
+- Casi di Studio  
+- Chi Siamo  
+- Contatti  
+
+## Sezione Hero
+- Intelligenza Legale Potenziata dall’IA  
+- Analisi Documentale “con un solo clic” per Professionisti Legali e Tecnici  
+- Trasformiamo il modo in cui le organizzazioni gestiscono la proprietà intellettuale, i contratti legali, gli accordi di ricerca, gli NDA e le presentazioni tecniche grazie ad un uso avanzato della IA.  
+- Scopri le Soluzioni  
+- Contattaci  
+
+## Sezione Mission
+- La Nostra Mission  
+- Rivoluziona l’intelligence documentale della tua azienda tramite soluzioni di IA innovative, in grado di trasformare un’analisi legale e tecnica complessa in insight semplici, accurati e immediati.  
+- Elabora documenti in pochi secondi senza alcuna curva di apprendimento  
+- Estrai informazioni critiche in diverse lingue  
+- Genera valutazioni di rischio complete e raccomandazioni operative  
+- Garantisci la conformità normativa e proteggi i tuoi asset intellettuali  
+
+## Sezione Soluzioni
+- Assistenti Potenziati dall’IA Attualmente Disponibili  
+- Soluzioni avanzate di analisi documentale progettate per reali esigenze di business  
+
+### Soluzione 1: Offerte e documenti correlati
+- Analisi completa che copre diversi aspetti, tra cui:  
+  - Mantenimento della riservatezza e gestione delle disclosure  
+  - Diritti di proprietà intellettuale e relative titolarità  
+  - Salvaguardia degli asset IP preesistenti  
+  - Clausole di assegnazione e licenza dei diritti  
+  - Obblighi e restrizioni per l’uso futuro  
+  - Rischi e misure di sicurezza nella gestione delle informazioni  
+
+### Soluzione 2: Accordi di Ricerca
+- Valutazione completa dei partenariati di ricerca, con attenzione a vari elementi, tra cui:  
+  - Definizione dell’ambito e dei confini del progetto  
+  - Metodologie operative e responsabilità  
+  - Meccanismi di compensazione e finanziamento  
+  - Titolarità dell’IP e diritti di trasferimento tecnologico  
+  - Disposizioni e restrizioni in materia di riservatezza  
+  - Clausole di allocazione e limitazione della responsabilità  
+
+### Soluzione 3: Analisi di Licenze
+- Valutazione approfondita degli accordi di licenza, esaminando fattori chiave come:  
+  - Ambito, territorialità e campo di applicazione della licenza  
+  - Strutture di royalty e condizioni economiche  
+  - Trasferimento tecnologico e diritti di implementazione  
+  - Clausole di esclusività e restrizioni di mercato  
+  - Diritti di sub-licenza e relative limitazioni  
+  - Obblighi di enforcement e rimedi in caso di violazioni  
+
+### Soluzione 4: Presentazioni Tecniche
+- Revisione accurata dei materiali aziendali, affrontando temi fondamentali, tra cui:  
+  - Contenuto proprietario e informazioni riservate  
+  - Classificazione dati sensibili e pubblici  
+  - Valutazione e categorizzazione del rischio informativo  
+  - Raccomandazioni strategiche di revisione  
+  - Analisi della possibile esposizione a concorrenti  
+  - Allineamento della strategia di protezione IP  
+
+### Soluzione 5: Tesi Accademiche
+- Esame approfondito dei lavori accademici, valutando vari aspetti, tra cui:  
+  - Identificazione di informazioni aziendali sensibili  
+  - Classificazione e priorità dei rischi  
+  - Raccomandazioni strategiche di redazione  
+  - Equilibrio tra finalità accademiche e commerciali  
+  - Prevenzione di conflitti con eventuali domande di brevetto  
+  - Analisi dell’impatto del timing di pubblicazione  
+
+### Soluzione 6: Valutazione di NDA
+- Analisi dettagliata degli accordi di riservatezza, coprendo elementi essenziali come:  
+  - Verifica e completezza degli aspetti fondamentali  
+  - Profilazione dei rischi e individuazione delle vulnerabilità  
+  - Esame puntuale clausola per clausola  
+  - Raccomandazioni strategiche di modifica  
+  - Integrazione con strutture contrattuali esistenti  
+  - Verifica di conformità ai requisiti di settore  
+
+- Scopri di più  
+
+## Sezione Vantaggi
+- Perché Scegliere Aviolab AI  
+- Le nostre soluzioni di IA offrono benefici concreti per la tua organizzazione  
+
+### Vantaggio 1: Efficienza
+- Riduci i tempi di analisi documentale da giorni a minuti, permettendo al tuo team di concentrarsi su attività ad alto valore aggiunto  
+
+### Vantaggio 2: Competenza
+- Ottieni report ad alta precisione grazie a un’IA avanzata, addestrata su migliaia di documenti legali e tecnici  
+
+### Vantaggio 3: Affidabilità
+- Assicura la conformità alle policy aziendali e agli standard legali con un’analisi ripetibile e completa  
+
+### Vantaggio 4: Zero Curva di Apprendimento
+- Utilizzare subito e pienamente la tecnologia: basta caricare i documenti e produrre istantaneamente l’analisi richiesta  
+
+### Vantaggio 5: Supporto Multilingue
+- Elabora documenti in più lingue, garantendo sempre la stessa accuratezza e profondità di analisi  
+
+### Vantaggio 6: Facilità d’Uso
+- Sfrutta un’interfaccia di IA semplice e intuitiva, pensata per professionisti con ritmi di lavoro intensi  
+
+## Sezione Casi di Studio
+- Storie di Successo  
+- Risultati reali ottenuti dai nostri clienti  
+
+### Caso di Studio Industriale: Trasformare la Gestione dei Documenti IP
+- Come Aviolab AI ha rivoluzionato il dipartimento di Proprietà Intellettuale di un’azienda manifatturiera Fortune 500:  
+  - Riduzione dei tempi di revisione degli NDA da 2 giorni a soli 15 minuti  
+  - Diminuzione del 95% degli errori nell’analisi di contratti multi-documento  
+  - Automazione dell’identificazione dei rischi su tutte le tipologie di accordi IP  
+  - Risparmio di oltre 2.000 ore di lavoro nel primo anno di utilizzo  
+  - Gestione di documenti in 5 lingue diverse con accuratezza costante  
+- "Prima di Aviolab AI, il nostro team impiegava innumerevoli ore per esaminare manualmente complessi accordi di proprietà intellettuale ed era sempre presente il rischio di trascurare dettagli critici in contratti multi-documento. Ora ci basta caricare i documenti per ottenere un’analisi completa in pochi minuti, con la certezza che sono stati esaminati tutti i fattori incrociati. Questa tecnologia ha trasformato il modo in cui proteggiamo i nostri asset intellettuali e gestiamo le relazioni contrattuali."  
+- — Direttore IP, Azienda Manifatturiera Globale  
+
+## Sezione Chi Siamo
+- Il Fondatore  
+- Riccardo Parenti  
+- Founder & CTO  
+- Riccardo Parenti è un esperto di soluzioni tecnico-legali basate sull’intelligenza artificiale, e sfrutta la sua esperienza sia nel settore tecnologico che legale per rivoluzionare l’analisi documentale.  
+
+## Sezione Contatti
+- Contattaci  
+- Interessato alle nostre soluzioni di IA? Saremo felici di ascoltare le tue esigenze.  
+- Email  
+- Sede  
+- Sito web  
+- Nome  
+- Email  
+- Azienda  
+- Messaggio  
+- Invia Messaggio  
+- Grazie per averci contattato!  
+- Abbiamo ricevuto la tua richiesta e ti risponderemo al più presto.  
+
+## Footer
+- Analisi Documentale Intelligente  
+- Link Rapidi  
+- Connettiti con Noi  
+- © 2025 Aviolab AI. Tutti i diritti riservati.
