@@ -319,22 +319,45 @@ img {
     background-color: white;
 }
 
-.mission-content {
+.centered-mission-statement {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 60px;
+    padding: 0 20px;
+}
+
+.mission-statement {
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--primary-color);
+    line-height: 1.5;
+}
+
+/* Capabilities Section */
+.capabilities-section {
+    background-color: #f8fafc;
+}
+
+.capabilities-content {
     display: flex;
     align-items: center;
     gap: 50px;
+    margin-top: 40px;
 }
 
-.mission-text {
+.capabilities-text {
     flex: 1;
 }
 
-.mission-text p {
+.capabilities-title {
     font-size: 1.2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--dark-color);
+    font-weight: 600;
 }
 
-.mission-image {
+.capabilities-image {
     flex: 1;
     box-shadow: var(--shadow);
     border-radius: var(--border-radius);

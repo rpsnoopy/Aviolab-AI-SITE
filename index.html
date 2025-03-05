@@ -28,6 +28,8 @@
             <nav>
                 <ul class="nav-links">
                     <li><a href="#home" class="nav-link" data-i18n="nav_home">Home</a></li>
+                    <li><a href="#mission" class="nav-link" data-i18n="nav_mission">Mission</a></li>
+                    <li><a href="#capabilities" class="nav-link" data-i18n="nav_capabilities">Capabilities</a></li>
                     <li><a href="#products" class="nav-link" data-i18n="nav_solutions">Solutions</a></li>
                     <li><a href="#benefits" class="nav-link" data-i18n="nav_benefits">Benefits</a></li>
                     <li><a href="#case-study" class="nav-link" data-i18n="nav_case_studies">Case Studies</a></li>
@@ -67,20 +69,39 @@
     <section id="mission" class="section mission-section">
         <div class="container">
             <div class="section-header">
-                <h2 data-i18n="mission_title">Our Mission</h2>
+                <h2 data-i18n="mission_title">MISSION</h2>
                 <div class="underline"></div>
             </div>
-            <div class="mission-content">
-                <div class="mission-text">
-                    <p data-i18n="mission_text">To revolutionize business document intelligence through innovative <span class="highlight-quote">one-click</span> AI solutions that transform complex legal and technical document analysis into simple, accurate, and immediate insights.</p>
+            
+            <!-- Centered mission statement -->
+            <div class="centered-mission-statement">
+                <p data-i18n="mission_text" class="mission-statement">To revolutionize business document intelligence through innovative AI solutions that transform complex technical and legal analyses into simple, accurate, and immediate <span class="highlight-quote">one-click</span> insights.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Technology Capabilities -->
+    <section id="capabilities" class="section capabilities-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="capabilities_heading">TECHNOLOGY CAPABILITIES</h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="capabilities-content">
+                <div class="capabilities-text">
+                    <h3 data-i18n="capabilities_title" class="capabilities-title">With our technologies, without any learning curve:</h3>
+                    
                     <ul class="feature-list">
-                        <li><i class="fas fa-check-circle"></i> <span data-i18n="mission_feature_1">Process documents in seconds with zero learning curve</span></li>
-                        <li><i class="fas fa-check-circle"></i> <span data-i18n="mission_feature_2">Extract critical insights across multiple languages</span></li>
-                        <li><i class="fas fa-check-circle"></i> <span data-i18n="mission_feature_3">Generate comprehensive risk assessments and recommendations</span></li>
-                        <li><i class="fas fa-check-circle"></i> <span data-i18n="mission_feature_4">Ensure regulatory compliance and protect intellectual assets</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="mission_feature_1">You can instantly analyze entire sets of complex and related multilingual legal documents</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="mission_feature_2">You can precisely extract all crucial and critical information, focusing attention where it truly matters</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="mission_feature_3">You can quickly generate precise risk assessments and suggest detailed revisions and operational recommendations</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="mission_feature_4">You can ensure perfect regulatory compliance and alignment with your company's policies</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="mission_feature_5">You can finally ensure effective protection of your intangible assets by managing the operational details of agreements signed by your company</span></li>
                     </ul>
                 </div>
-                <div class="mission-image">
+                <div class="capabilities-image">
                     <img src="assets/images/mission-image.jpg" alt="AI Document Analysis">
                 </div>
             </div>
@@ -91,9 +112,9 @@
     <section id="products" class="section solutions-section">
         <div class="container">
             <div class="section-header">
-                <h2>Available AI-Powered Assistants</h2>
+                <h2 data-i18n="solutions_title">Available AI-Powered Assistants</h2>
                 <div class="underline"></div>
-                <p>Advanced document analysis solutions tailored for specific business needs</p>
+                <p data-i18n="solutions_subtitle">Advanced document analysis solutions tailored for specific business needs</p>
             </div>
             
             <div class="solutions-grid">
@@ -101,18 +122,18 @@
                     <div class="solution-icon">
                         <i class="fas fa-file-contract"></i>
                     </div>
-                    <h3>Technical-Legal Proposals & Offers</h3>
-                    <p>Comprehensive analysis including but not limited to:</p>
+                    <h3 data-i18n="solution1_title">Technical-Legal Proposals & Offers</h3>
+                    <p data-i18n="solution1_intro">Comprehensive analysis including but not limited to:</p>
                     <ul>
-                        <li>Confidentiality protections and exposures</li>
-                        <li>Intellectual property ownership rights</li>
-                        <li>Protection of pre-existing IP assets</li>
-                        <li>Rights assignment and licensing terms</li>
-                        <li>Future usage obligations and restrictions</li>
-                        <li>Information management risks and safeguards</li>
+                        <li data-i18n="solution1_item1">Confidentiality protections and exposures</li>
+                        <li data-i18n="solution1_item2">Intellectual property ownership rights</li>
+                        <li data-i18n="solution1_item3">Protection of pre-existing IP assets</li>
+                        <li data-i18n="solution1_item4">Rights assignment and licensing terms</li>
+                        <li data-i18n="solution1_item5">Future usage obligations and restrictions</li>
+                        <li data-i18n="solution1_item6">Information management risks and safeguards</li>
                     </ul>
                     <div class="card-overlay">
-                        <a href="#contact" class="learn-more">Learn More</a>
+                        <a href="#contact" class="learn-more" data-i18n="learn_more">Learn More</a>
                     </div>
                 </div>
                 
@@ -120,18 +141,18 @@
                     <div class="solution-icon">
                         <i class="fas fa-handshake"></i>
                     </div>
-                    <h3>Research Agreements</h3>
-                    <p>Complete evaluation of research partnerships including:</p>
+                    <h3 data-i18n="solution2_title">Research Agreements</h3>
+                    <p data-i18n="solution2_intro">Complete evaluation of research partnerships including:</p>
                     <ul>
-                        <li>Project scope definition and boundaries</li>
-                        <li>Operational methodologies and responsibilities</li>
-                        <li>Compensation and funding mechanisms</li>
-                        <li>IP ownership and technology transfer rights</li>
-                        <li>Confidentiality provisions and restrictions</li>
-                        <li>Liability allocation and limitation clauses</li>
+                        <li data-i18n="solution2_item1">Project scope definition and boundaries</li>
+                        <li data-i18n="solution2_item2">Operational methodologies and responsibilities</li>
+                        <li data-i18n="solution2_item3">Compensation and funding mechanisms</li>
+                        <li data-i18n="solution2_item4">IP ownership and technology transfer rights</li>
+                        <li data-i18n="solution2_item5">Confidentiality provisions and restrictions</li>
+                        <li data-i18n="solution2_item6">Liability allocation and limitation clauses</li>
                     </ul>
                     <div class="card-overlay">
-                        <a href="#contact" class="learn-more">Learn More</a>
+                        <a href="#contact" class="learn-more" data-i18n="learn_more">Learn More</a>
                     </div>
                 </div>
                 
@@ -139,18 +160,18 @@
                     <div class="solution-icon">
                         <i class="fas fa-copyright"></i>
                     </div>
-                    <h3>License Analysis</h3>
-                    <p>Comprehensive assessment of licensing agreements including:</p>
+                    <h3 data-i18n="solution3_title">License Analysis</h3>
+                    <p data-i18n="solution3_intro">Comprehensive assessment of licensing agreements including:</p>
                     <ul>
-                        <li>License scope, territories, and field of use</li>
-                        <li>Royalty structures and economic terms</li>
-                        <li>Technology transfer and implementation rights</li>
-                        <li>Exclusivity provisions and market restrictions</li>
-                        <li>Sub-licensing rights and limitations</li>
-                        <li>Enforcement obligations and infringement remedies</li>
+                        <li data-i18n="solution3_item1">License scope, territories, and field of use</li>
+                        <li data-i18n="solution3_item2">Royalty structures and economic terms</li>
+                        <li data-i18n="solution3_item3">Technology transfer and implementation rights</li>
+                        <li data-i18n="solution3_item4">Exclusivity provisions and market restrictions</li>
+                        <li data-i18n="solution3_item5">Sub-licensing rights and limitations</li>
+                        <li data-i18n="solution3_item6">Enforcement obligations and infringement remedies</li>
                     </ul>
                     <div class="card-overlay">
-                        <a href="#contact" class="learn-more">Learn More</a>
+                        <a href="#contact" class="learn-more" data-i18n="learn_more">Learn More</a>
                     </div>
                 </div>
                 
@@ -158,18 +179,18 @@
                     <div class="solution-icon">
                         <i class="fas fa-chart-line"></i>
                     </div>
-                    <h3>Technical Presentations</h3>
-                    <p>In-depth review of corporate materials including:</p>
+                    <h3 data-i18n="solution4_title">Technical Presentations</h3>
+                    <p data-i18n="solution4_intro">In-depth review of corporate materials including:</p>
                     <ul>
-                        <li>Proprietary content and confidential information</li>
-                        <li>Sensitive vs. public data classification</li>
-                        <li>Information risk assessment and categorization</li>
-                        <li>Detailed revision recommendations</li>
-                        <li>Competitive intelligence exposure analysis</li>
-                        <li>IP protection strategy alignment</li>
+                        <li data-i18n="solution4_item1">Proprietary content and confidential information</li>
+                        <li data-i18n="solution4_item2">Sensitive vs. public data classification</li>
+                        <li data-i18n="solution4_item3">Information risk assessment and categorization</li>
+                        <li data-i18n="solution4_item4">Detailed revision recommendations</li>
+                        <li data-i18n="solution4_item5">Competitive intelligence exposure analysis</li>
+                        <li data-i18n="solution4_item6">IP protection strategy alignment</li>
                     </ul>
                     <div class="card-overlay">
-                        <a href="#contact" class="learn-more">Learn More</a>
+                        <a href="#contact" class="learn-more" data-i18n="learn_more">Learn More</a>
                     </div>
                 </div>
                 
@@ -177,18 +198,18 @@
                     <div class="solution-icon">
                         <i class="fas fa-book"></i>
                     </div>
-                    <h3>Academic Theses</h3>
-                    <p>Thorough examination of academic works including:</p>
+                    <h3 data-i18n="solution5_title">Academic Theses</h3>
+                    <p data-i18n="solution5_intro">Thorough examination of academic works including:</p>
                     <ul>
-                        <li>Sensitive corporate information identification</li>
-                        <li>Risk categorization and prioritization</li>
-                        <li>Strategic redaction recommendations</li>
-                        <li>Academic vs. commercial balance optimization</li>
-                        <li>Patent application conflict prevention</li>
-                        <li>Publication timing strategy recommendations</li>
+                        <li data-i18n="solution5_item1">Sensitive corporate information identification</li>
+                        <li data-i18n="solution5_item2">Risk categorization and prioritization</li>
+                        <li data-i18n="solution5_item3">Strategic redaction recommendations</li>
+                        <li data-i18n="solution5_item4">Academic vs. commercial balance optimization</li>
+                        <li data-i18n="solution5_item5">Patent application conflict prevention</li>
+                        <li data-i18n="solution5_item6">Publication timing strategy recommendations</li>
                     </ul>
                     <div class="card-overlay">
-                        <a href="#contact" class="learn-more">Learn More</a>
+                        <a href="#contact" class="learn-more" data-i18n="learn_more">Learn More</a>
                     </div>
                 </div>
                 
@@ -196,18 +217,18 @@
                     <div class="solution-icon">
                         <i class="fas fa-shield-alt"></i>
                     </div>
-                    <h3>NDA Assessment</h3>
-                    <p>Detailed analysis of confidentiality agreements including:</p>
+                    <h3 data-i18n="solution6_title">NDA Assessment</h3>
+                    <p data-i18n="solution6_intro">Detailed analysis of confidentiality agreements including:</p>
                     <ul>
-                        <li>Critical element verification and completeness</li>
-                        <li>Risk profiling and vulnerability identification</li>
-                        <li>Clause-by-clause detailed examination</li>
-                        <li>Strategic modification recommendations</li>
-                        <li>Integration with existing agreement structures</li>
-                        <li>Industry-specific compliance verification</li>
+                        <li data-i18n="solution6_item1">Critical element verification and completeness</li>
+                        <li data-i18n="solution6_item2">Risk profiling and vulnerability identification</li>
+                        <li data-i18n="solution6_item3">Clause-by-clause detailed examination</li>
+                        <li data-i18n="solution6_item4">Strategic modification recommendations</li>
+                        <li data-i18n="solution6_item5">Integration with existing agreement structures</li>
+                        <li data-i18n="solution6_item6">Industry-specific compliance verification</li>
                     </ul>
                     <div class="card-overlay">
-                        <a href="#contact" class="learn-more">Learn More</a>
+                        <a href="#contact" class="learn-more" data-i18n="learn_more">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -218,9 +239,9 @@
     <section id="benefits" class="section benefits-section">
         <div class="container">
             <div class="section-header">
-                <h2>Why Choose Aviolab AI</h2>
+                <h2 data-i18n="benefits_title">Why Choose Aviolab AI</h2>
                 <div class="underline"></div>
-                <p>Our AI solutions deliver tangible benefits to your organization</p>
+                <p data-i18n="benefits_subtitle">Our AI solutions deliver tangible benefits to your organization</p>
             </div>
             
             <div class="benefits-grid">
@@ -228,48 +249,48 @@
                     <div class="benefit-icon">
                         <i class="fas fa-bolt"></i>
                     </div>
-                    <h3>Efficiency</h3>
-                    <p>Reduce document analysis time from days to minutes, allowing your team to focus on high-value tasks</p>
+                    <h3 data-i18n="benefit1_title">Efficiency</h3>
+                    <p data-i18n="benefit1_text">Reduce document analysis time from days to minutes, allowing your team to focus on high-value tasks</p>
                 </div>
                 
                 <div class="benefit-card">
                     <div class="benefit-icon">
                         <i class="fas fa-chart-pie"></i>
                     </div>
-                    <h3>Competence</h3>
-                    <p>Receive high-accuracy reports backed by advanced AI trained on thousands of legal and technical documents</p>
+                    <h3 data-i18n="benefit2_title">Competence</h3>
+                    <p data-i18n="benefit2_text">Receive high-accuracy reports backed by advanced AI trained on thousands of legal and technical documents</p>
                 </div>
                 
                 <div class="benefit-card">
                     <div class="benefit-icon">
                         <i class="fas fa-check-double"></i>
                     </div>
-                    <h3>Reliability</h3>
-                    <p>Ensure compliance with company policies and legal standards through consistent, thorough analysis</p>
+                    <h3 data-i18n="benefit3_title">Reliability</h3>
+                    <p data-i18n="benefit3_text">Ensure compliance with company policies and legal standards through consistent, thorough analysis</p>
                 </div>
                 
                 <div class="benefit-card">
                     <div class="benefit-icon">
                         <i class="fas fa-user-graduate"></i>
                     </div>
-                    <h3>Zero Learning Curve</h3>
-                    <p>Start using immediately with no training required — simply upload documents and receive instant analysis</p>
+                    <h3 data-i18n="benefit4_title">Zero Learning Curve</h3>
+                    <p data-i18n="benefit4_text">Start using immediately with no training required — simply upload documents and receive instant analysis</p>
                 </div>
                 
                 <div class="benefit-card">
                     <div class="benefit-icon">
                         <i class="fas fa-language"></i>
                     </div>
-                    <h3>Multilingual Support</h3>
-                    <p>Process documents in multiple languages with the same level of accuracy and depth of analysis</p>
+                    <h3 data-i18n="benefit5_title">Multilingual Support</h3>
+                    <p data-i18n="benefit5_text">Process documents in multiple languages with the same level of accuracy and depth of analysis</p>
                 </div>
                 
                 <div class="benefit-card">
                     <div class="benefit-icon">
                         <i class="fas fa-desktop"></i>
                     </div>
-                    <h3>User-Friendly</h3>
-                    <p>Access powerful analysis through a simple, intuitive one-click AI interface designed for busy professionals</p>
+                    <h3 data-i18n="benefit6_title">User-Friendly</h3>
+                    <p data-i18n="benefit6_text">Access powerful analysis through a simple, intuitive one-click AI interface designed for busy professionals</p>
                 </div>
             </div>
         </div>
@@ -279,25 +300,25 @@
     <section id="case-study" class="section case-study-section">
         <div class="container">
             <div class="section-header">
-                <h2>Success Stories</h2>
+                <h2 data-i18n="case_study_title">Success Stories</h2>
                 <div class="underline"></div>
-                <p>Real-world results from our clients</p>
+                <p data-i18n="case_study_subtitle">Real-world results from our clients</p>
             </div>
             
             <div class="case-study-container">
                 <div class="case-study-content">
-                    <h3>Industrial Case Study: Transforming IP Document Management</h3>
-                    <p>How Aviolab AI revolutionized the Intellectual Property department of a Fortune 500 manufacturing company:</p>
+                    <h3 data-i18n="case_study_heading">Industrial Case Study: Transforming IP Document Management</h3>
+                    <p data-i18n="case_study_intro">How Aviolab AI revolutionized the Intellectual Property department of a Fortune 500 manufacturing company:</p>
                     <ul class="success-points">
-                        <li><i class="fas fa-check"></i> <span>Reduced NDA reviews from 2 days to just 15 minutes</span></li>
-                        <li><i class="fas fa-check"></i> <span>Decreased errors in multi-document contract analysis by 95%</span></li>
-                        <li><i class="fas fa-check"></i> <span>Automated risk identification across all types of IP agreements</span></li>
-                        <li><i class="fas fa-check"></i> <span>Saved over 2,000 labor hours in the first year of implementation</span></li>
-                        <li><i class="fas fa-check"></i> <span>Processed documents in 5 different languages with consistent accuracy</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="case_study_point1">Reduced NDA reviews from 2 days to just 15 minutes</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="case_study_point2">Decreased errors in multi-document contract analysis by 95%</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="case_study_point3">Automated risk identification across all types of IP agreements</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="case_study_point4">Saved over 2,000 labor hours in the first year of implementation</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="case_study_point5">Processed documents in 5 different languages with consistent accuracy</span></li>
                     </ul>
                     <div class="testimonial">
-                        <blockquote>"Before Aviolab AI, our team spent countless hours manually reviewing complex IP agreements and often missed critical details in multi-document contracts. Now, we upload documents and get comprehensive analysis in minutes. This technology has transformed how we protect our intellectual assets and manage contractual relationships."</blockquote>
-                        <cite>— IP Director, Global Manufacturing Company</cite>
+                        <blockquote data-i18n="case_study_quote">"Before Aviolab AI, our team spent countless hours manually reviewing complex IP agreements and often missed critical details in multi-document contracts. Now, we upload documents and get comprehensive analysis in minutes. This technology has transformed how we protect our intellectual assets and manage contractual relationships."</blockquote>
+                        <cite data-i18n="case_study_citation">— IP Director, Global Manufacturing Company</cite>
                     </div>
                 </div>
                 <div class="case-study-image">
@@ -311,7 +332,7 @@
     <section id="about" class="section about-section">
         <div class="container">
             <div class="section-header">
-                <h2>About the Founder</h2>
+                <h2 data-i18n="about_title">About the Founder</h2>
                 <div class="underline"></div>
             </div>
             
@@ -320,10 +341,10 @@
                     <img src="assets/founder01.jpg" alt="Riccardo Parenti">
                 </div>
                 <div class="founder-bio">
-                    <h3>Riccardo Parenti</h3>
-                    <h4>Founder & CTO</h4>
-                    <p>Riccardo Parenti is an expert in AI-driven legal and technical solutions, leveraging his experience in both technology and legal domains to revolutionize document analysis.</p>
-                    <p>With a background in artificial intelligence and legal tech, Riccardo founded Aviolab AI with a mission to transform how organizations handle intellectual property and legal documentation.</p>
+                    <h3 data-i18n="founder_name">Riccardo Parenti</h3>
+                    <h4 data-i18n="founder_position">Founder & CTO</h4>
+                    <p data-i18n="founder_bio1">Riccardo Parenti is an expert in AI-driven legal and technical solutions, leveraging his experience in both technology and legal domains to revolutionize document analysis.</p>
+                    <p data-i18n="founder_bio2">With a background in artificial intelligence and legal tech, Riccardo founded Aviolab AI with a mission to transform how organizations handle intellectual property and legal documentation.</p>
                     <div class="social-links">
                         <a href="https://www.linkedin.com/in/rparenti/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
                         <a href="mailto:riccardo.parenti@aviolab.ai" class="social-link"><i class="fas fa-envelope"></i></a>
@@ -337,9 +358,9 @@
     <section id="contact" class="section contact-section">
         <div class="container">
             <div class="section-header">
-                <h2>Get in Touch</h2>
+                <h2 data-i18n="contact_title">Get in Touch</h2>
                 <div class="underline"></div>
-                <p>Interested in our AI solutions? We'd love to hear from you.</p>
+                <p data-i18n="contact_subtitle">Interested in our AI solutions? We'd love to hear from you.</p>
             </div>
             
             <div class="contact-container">
@@ -347,21 +368,21 @@
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
                         <div>
-                            <h3>Email</h3>
+                            <h3 data-i18n="contact_email">Email</h3>
                             <p><a href="mailto:info@aviolab.ai">info@aviolab.ai</a></p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
-                            <h3>Location</h3>
+                            <h3 data-i18n="contact_location">Location</h3>
                             <p>Genova, Italy</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-globe"></i>
                         <div>
-                            <h3>Website</h3>
+                            <h3 data-i18n="contact_website">Website</h3>
                             <p><a href="https://www.aviolab.ai" target="_blank">www.aviolab.ai</a></p>
                         </div>
                     </div>
@@ -369,22 +390,22 @@
                 
                 <form class="contact-form">
                     <div class="form-group">
-                        <label for="name">Name</label>
+                        <label for="name" data-i18n="contact_form_name">Name</label>
                         <input type="text" id="name" name="name" required>
                     </div>
                     <div class="form-group">
-                        <label for="email">Email</label>
+                        <label for="email" data-i18n="contact_form_email">Email</label>
                         <input type="email" id="email" name="email" required>
                     </div>
                     <div class="form-group">
-                        <label for="company">Company</label>
+                        <label for="company" data-i18n="contact_form_company">Company</label>
                         <input type="text" id="company" name="company">
                     </div>
                     <div class="form-group">
-                        <label for="message">Message</label>
+                        <label for="message" data-i18n="contact_form_message">Message</label>
                         <textarea id="message" name="message" rows="5" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <button type="submit" class="btn btn-primary" data-i18n="contact_form_submit">Send Message</button>
                 </form>
             </div>
         </div>
@@ -405,6 +426,8 @@
                     <h3 data-i18n="footer_quick_links">Quick Links</h3>
                     <ul>
                         <li><a href="#home">Home</a></li>
+                        <li><a href="#mission" data-i18n="nav_mission">Mission</a></li>
+                        <li><a href="#capabilities" data-i18n="nav_capabilities">Capabilities</a></li>
                         <li><a href="#products" data-i18n="nav_solutions">Solutions</a></li>
                         <li><a href="#benefits" data-i18n="nav_benefits">Benefits</a></li>
                         <li><a href="#case-study" data-i18n="nav_case_studies">Case Studies</a></li>

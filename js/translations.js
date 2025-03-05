@@ -2,6 +2,8 @@ const translations = {
     en: {
         // Navigation
         nav_home: "Home",
+        nav_mission: "Mission",
+        nav_capabilities: "Capabilities",
         nav_solutions: "Solutions",
         nav_benefits: "Benefits",
         nav_case_studies: "Case Studies",
@@ -16,12 +18,15 @@ const translations = {
         hero_btn_contact: "Contact Us",
         
         // Mission Section
-        mission_title: "Our Mission",
-        mission_text: "To revolutionize business document intelligence through innovative <span class=\"highlight-quote\">one-click</span> AI solutions that transform complex legal and technical document analysis into simple, accurate, and immediate insights.",
-        mission_feature_1: "Process documents in seconds with zero learning curve",
-        mission_feature_2: "Extract critical insights across multiple languages",
-        mission_feature_3: "Generate comprehensive risk assessments and recommendations",
-        mission_feature_4: "Ensure regulatory compliance and protect intellectual assets",
+        mission_title: "MISSION",
+        mission_text: "To revolutionize business document intelligence through innovative AI solutions that transform complex technical and legal analyses into simple, accurate, and immediate <span class=\"highlight-quote\">one-click</span> insights.",
+        capabilities_heading: "TECHNOLOGY CAPABILITIES",
+        capabilities_title: "With our technologies, without any learning curve:",
+        mission_feature_1: "You can instantly analyze entire sets of complex and related multilingual legal documents",
+        mission_feature_2: "You can precisely extract all crucial and critical information, focusing attention where it truly matters",
+        mission_feature_3: "You can quickly generate precise risk assessments and suggest detailed revisions and operational recommendations",
+        mission_feature_4: "You can ensure perfect regulatory compliance and alignment with your company's policies",
+        mission_feature_5: "You can finally ensure effective protection of your intangible assets by managing the operational details of agreements signed by your company",
         
         // Solutions Section
         solutions_title: "AI-Powered Assistants Currently Available",
@@ -91,7 +96,7 @@ const translations = {
         
         // Benefits Section
         benefits_title: "Why Choose Aviolab AI",
-        benefits_subtitle: "Our AI solutions deliver concrete benefits for your organization",
+        benefits_subtitle: "Our AI solutions offer concrete benefits for your organization",
         
         benefit1_title: "Efficiency",
         benefit1_text: "Reduce document analysis time from days to minutes, allowing your team to focus on high-value added activities",
@@ -116,11 +121,11 @@ const translations = {
         case_study_subtitle: "Real results obtained from our clients",
         case_study_heading: "Industrial Case Study: Transforming IP Document Management",
         case_study_intro: "How Aviolab AI revolutionized the Intellectual Property department of a Fortune 500 manufacturing company:",
-        case_study_point1: "Reduced NDA reviews from 2 days to just 15 minutes",
-        case_study_point2: "Decreased errors in multi-document contract analysis by 95%",
-        case_study_point3: "Automated risk identification across all types of IP agreements",
-        case_study_point4: "Saved over 2,000 labor hours in the first year of implementation",
-        case_study_point5: "Handled documents in 5 different languages with consistent accuracy",
+        case_study_point1: "Reduction of NDA reviews from 2 days to just 15 minutes",
+        case_study_point2: "Decrease of 95% in errors in multi-document contract analysis",
+        case_study_point3: "Automation of risk identification across all types of IP agreements",
+        case_study_point4: "Savings of over 2,000 labor hours in the first year of use",
+        case_study_point5: "Management of documents in 5 different languages with consistent accuracy",
         case_study_quote: "Before Aviolab AI, our team spent countless hours manually reviewing complex IP agreements and there was always the risk of overlooking critical details in multi-document contracts. Now we simply upload the documents to obtain a comprehensive analysis in minutes, with the certainty that all cross-factors have been examined. This technology has transformed how we protect our intellectual assets and manage contractual relationships.",
         case_study_citation: "— IP Director, Global Manufacturing Company",
         
@@ -154,6 +159,8 @@ const translations = {
     it: {
         // Navigation
         nav_home: "Home",
+        nav_mission: "Mission",
+        nav_capabilities: "Capacità",
         nav_solutions: "Soluzioni",
         nav_benefits: "Vantaggi",
         nav_case_studies: "Casi di Studio",
@@ -168,12 +175,15 @@ const translations = {
         hero_btn_contact: "Contattaci",
         
         // Mission Section
-        mission_title: "La Nostra Mission",
-        mission_text: "Rivoluziona l'intelligence documentale della tua azienda tramite soluzioni di IA innovative <span class=\"highlight-quote\">one-click</span>, in grado di trasformare un'analisi legale e tecnica complessa in insight semplici, accurati e immediati.",
-        mission_feature_1: "Elabora documenti in pochi secondi senza alcuna curva di apprendimento",
-        mission_feature_2: "Estrai informazioni critiche in diverse lingue",
-        mission_feature_3: "Genera valutazioni di rischio complete e raccomandazioni operative",
-        mission_feature_4: "Garantisci la conformità normativa e proteggi i tuoi asset intellettuali",
+        mission_title: "MISSION",
+        mission_text: "Rivoluzionare l'intelligence documentale delle aziende mediante soluzioni IA innovative, in grado di trasformare le analisi tecnico-legali complesse in insight <span class=\"highlight-quote\">one-click</span> semplici, accurati e immediati.",
+        capabilities_heading: "CAPACITÀ TECNOLOGICHE",
+        capabilities_title: "Con le nostre tecnologie, senza scontare nessuna curva di apprendimento:",
+        mission_feature_1: "Puoi analizzare in un lampo interi set di documenti legali multilingue anche se complessi e correlati",
+        mission_feature_2: "Puoi estrarre puntualmente tutte le informazioni cruciali e critiche, concentrando l'attezione dove veramente serve",
+        mission_feature_3: "Puoi generare velocemente valutazioni puntuali di rischio e suggerire dettagliate revisioni e raccomandazioni operative",
+        mission_feature_4: "Puoi garantire la perfetta conformità normativa e la compliance con la policy della tua azienda",
+        mission_feature_5: "Puoi finalmente assicurare una efficace protezione dei tuoi asset immateriali curando i dettagli operativi degli accordi firmati dalla tua azienda",
         
         // Solutions Section
         solutions_title: "Assistenti Potenziati dall'IA Attualmente Disponibili",

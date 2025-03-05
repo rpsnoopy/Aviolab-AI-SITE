@@ -1,36 +1,30 @@
 # CLAUDE.md - Project Guide for Aviolab AI Website
 
 ## 🚀 Build & Run Commands
-- Open `index.html` in a browser to view the site
-- No build/compile step required (pure HTML/CSS/JS)
-- For development with live reload: Install [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) VSCode extension
+- **View Site**: Open `index.html` in a browser directly
+- **Development**: Use [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) VS Code extension
+- **Deployment**: Upload all files to web hosting (no build required)
+- **Image Optimization**: Use tools like [TinyPNG](https://tinypng.com/) for compressing new images
 
 ## 🎨 Code Style Guidelines
-- **HTML**: Semantic tags, proper indentation, consistent class naming, Font Awesome icons
-- **CSS**: Modern CSS with CSS variables, mobile-first responsive design, BEM-inspired naming
-- **JS**: ES6+ syntax, addEventListener pattern, modular approach to functionality
-- **Formatting**: 4-space indentation, trailing commas, consistent quotes
-- **Naming**: BEM-inspired classes (block__element--modifier), camelCase for JS variables
-- **Assets**: Images should be optimized for web (compression, appropriate size, alt tags)
+- **HTML**: Semantic tags, 4-space indentation, BEM-inspired class names, data-i18n attributes for translations
+- **CSS**: CSS variables (defined in :root), mobile-first design, BEM naming (block__element--modifier)
+- **JS**: ES6+, camelCase variables, addEventListener pattern, modules for functionality
+- **Formatting**: 4-space indents, consistent single quotes, trailing commas
+- **Translations**: Use translations.js with data-i18n attributes for multilingual content (EN/IT)
 
 ## 🏗️ Project Structure
-- Single page application with smooth scrolling navigation
-- Sections: Hero, Mission, AI Assistants, Benefits, Case Studies, About, Contact
-- Six AI assistants: Technical-Legal Proposals, Research Agreements, License Analysis, Technical Presentations, Academic Theses, NDA Assessment
-- External dependencies: Font Awesome (icons), Google Fonts (Montserrat, Open Sans)
-- Images stored locally in assets/images/ folder
+- `index.html` - Single page application with smooth scrolling navigation
+- `styles.css` - All styling with CSS variables and responsive design
+- `script.js` - Main JavaScript functionality (navigation, animations, form handling)
+- `js/translations.js` - Multilingual content (English and Italian)
+- `assets/` - Images, founder photo, and content files
+- `assets/images/` - Website imagery (hero, mission, case study)
 
-## 📝 Website Content
-- Professional modern design with blue color scheme
-- Focus on AI-powered legal tech solutions for document analysis
-- Key messaging on efficiency, accuracy, zero learning curve, and multilingual support
-- Company based in Genova, Italy
-- Copyright year is 2025
-- Responsive design works well on all device sizes
-
-## 🖼️ Image Assets
-- **Logo**: assets/logo.png - Company logo
-- **Founder**: assets/founder01.jpg - Riccardo Parenti profile photo
-- **Hero Background**: assets/images/hero-background.jpg - Background for hero section
-- **Mission Image**: assets/images/mission-image.jpg - Supporting image for mission section
-- **Case Study**: assets/images/case-study.jpg - Image for case study section
+## 📝 Content Guidelines
+- Professional modern blue color scheme (defined in CSS variables)
+- Focus on AI-powered legal document analysis solutions
+- Six key AI assistants with detailed capabilities
+- Emphasize efficiency, accuracy, zero learning curve, multilingual support
+- Maintain responsive design that works on all device sizes
+- Company information: Based in Genova, Italy; founded by Riccardo Parenti
