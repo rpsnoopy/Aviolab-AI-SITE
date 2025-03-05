@@ -7,6 +7,7 @@
 - **Deployment**: Upload files to web hosting (no build process required)
 - **Image Optimization**: Use [TinyPNG](https://tinypng.com/) for image compression
 - **Content Updates**: Edit text in `assets/english_texts.txt` and `assets/italian_texts.txt`
+- **Translation Updates**: Run `node update-translations.js` after editing text files
 
 ## 🎨 Code Style Guidelines
 - **HTML**: Semantic tags, 4-space indentation, BEM-inspired classes, data-i18n for translations
@@ -15,6 +16,7 @@
 - **Formatting**: 4-space indents, single quotes, trailing commas, descriptive class names
 - **Error Handling**: Form validation with clear user feedback, graceful fallbacks
 - **Translations**: data-i18n attributes with translations.js for multilingual support (EN/IT)
+- **Branding**: "AVIOLAB" in gray (#c0c0c0), "AI" in red (#ff0000), Verdana font for logo
 
 ## 🏗️ Project Structure
 - `index.html` - Single page application with smooth scrolling navigation
@@ -25,6 +27,7 @@
 - `assets/italian_texts.txt` - Source content for Italian translations (key: value format)
 - `assets/` - Images, logos, founder photos, and content files
 - `assets/images/` - Website imagery (hero, mission, case study)
+- `efforts/` - Additional assets like email signatures, letterheads, and templates
 
 ## 📝 Development Workflow
 
@@ -46,3 +49,9 @@
   3. Run update script to regenerate translations
 - Ensure responsive design works on all device sizes
 - Optimize any new images before committing
+
+### Company Information
+- Full Legal Name: AVIOLAB AI DI PARENTI RICCARDO
+- Address: Via XXV Aprile 251, IT16031 Pieve Ligure (GE)
+- VAT Number: P.IVA 02997110990
+- Business Registry: REA GE - 525625
