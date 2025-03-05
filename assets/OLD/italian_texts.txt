@@ -7,7 +7,7 @@
 ## Navigation
 nav_home: Home
 nav_mission: Mission
-nav_capabilities: Tecnologia
+nav_capabilities: Capacità
 nav_solutions: Soluzioni
 nav_benefits: Vantaggi
 nav_case_studies: Casi di Studio
@@ -17,31 +17,31 @@ nav_contact: Contatti
 ## Hero Section
 hero_title: Intelligenza Legale <span class="highlight">Potenziata dall'IA</span>
 hero_subtitle: Analisi Documentale <span class="highlight-quote">one-click</span> per Professionisti Legali e Tecnici
-hero_description: Trasformiamo il modo in cui le organizzazioni gestiscono la proprietà intellettuale, i contratti legali, gli accordi di ricerca, i contratti di licenza, gli NDA e le presentazioni tecniche grazie a un uso avanzato dell'IA.
+hero_description: Trasformiamo il modo in cui le organizzazioni gestiscono la proprietà intellettuale, i contratti legali, gli accordi di ricerca, gli NDA e le presentazioni tecniche grazie ad un uso avanzato della IA.
 hero_btn_explore: Scopri le Soluzioni
 hero_btn_contact: Contattaci
 
 ## Mission Section
-mission_title: OUR MISSION
+mission_title: MISSION
 mission_text: Rivoluzionare l'intelligence documentale delle aziende mediante soluzioni IA innovative, in grado di trasformare le analisi tecnico-legali complesse in insight <span class="highlight-quote">one-click</span> semplici, accurati e immediati.
 
 ## Capabilities Section
-capabilities_heading: TECNOLOGIA
-capabilities_title: Con le nostre tecnologie, senza scontare alcuna curva di apprendimento:
-mission_feature_1: Puoi analizzare in un lampo interi set di documenti legali multilingue, anche complessi e correlati
-mission_feature_2: Puoi estrarre puntualmente tutte le informazioni cruciali, concentrando l'attenzione dove veramente serve
-mission_feature_3: Puoi generare rapidamente precise valutazioni di rischio declinate sulle varie parti del documento e ottenere dettagliate raccomandazioni operative
-mission_feature_4: Puoi garantire la perfetta conformità normativa e la compliance con le policy aziendali
-mission_feature_5: Puoi assicurare un'efficace protezione dei tuoi asset immateriali, curando i dettagli operativi degli accordi firmati dalla tua azienda
+capabilities_heading: CAPACITÀ TECNOLOGICHE
+capabilities_title: Con le nostre tecnologie, senza scontare nessuna curva di apprendimento:
+mission_feature_1: Puoi analizzare in un lampo interi set di documenti legali multilingue anche se complessi e correlati
+mission_feature_2: Puoi estrarre puntualmente tutte le informazioni cruciali e critiche, concentrando l'attezione dove veramente serve
+mission_feature_3: Puoi generare velocemente valutazioni puntuali di rischio e suggerire dettagliate revisioni e raccomandazioni operative
+mission_feature_4: Puoi garantire la perfetta conformità normativa e la compliance con la policy della tua azienda
+mission_feature_5: Puoi finalmente assicurare una efficace protezione dei tuoi asset immateriali curando i dettagli operativi degli accordi firmati dalla tua azienda
 
 ## Solutions Section
-solutions_title: Assistenti IA Disponibili
-solutions_subtitle: Soluzioni avanzate di analisi documentale granulare, che analizzano <strong><u>ogni clausola e ogni paragrafo</u></strong>, calibrate sulle reali esigenze aziendali
+solutions_title: Assistenti Potenziati dall'IA Attualmente Disponibili
+solutions_subtitle: Soluzioni avanzate di analisi documentale progettate per reali esigenze di business
 
 # Solution 1
-solution1_title: ANALISI Offerte, Gare e Documenti Correlati (GTC, etc)
+solution1_title: Offerte e documenti correlati
 solution1_intro: Analisi completa che copre diversi aspetti, tra cui:
-solution1_item1: Gestione della riservatezza e delle disclosure
+solution1_item1: Mantenimento della riservatezza e gestione delle disclosure
 solution1_item2: Diritti di proprietà intellettuale e relative titolarità
 solution1_item3: Salvaguardia degli asset IP preesistenti
 solution1_item4: Clausole di assegnazione e licenza dei diritti
@@ -49,8 +49,8 @@ solution1_item5: Obblighi e restrizioni per l'uso futuro
 solution1_item6: Rischi e misure di sicurezza nella gestione delle informazioni
 
 # Solution 2
-solution2_title: ANALISI Accordi di Ricerca e di Partnership Tecnologica
-solution2_intro: Valutazione completa dei partenariati di ricerca, con attenzione a:
+solution2_title: Accordi di Ricerca
+solution2_intro: Valutazione completa dei partenariati di ricerca, con attenzione a vari elementi, tra cui:
 solution2_item1: Definizione dell'ambito e dei confini del progetto
 solution2_item2: Metodologie operative e responsabilità
 solution2_item3: Meccanismi di compensazione e finanziamento
@@ -59,7 +59,7 @@ solution2_item5: Disposizioni e restrizioni in materia di riservatezza
 solution2_item6: Clausole di allocazione e limitazione della responsabilità
 
 # Solution 3
-solution3_title: ANALISI di Contratti di Licenza
+solution3_title: Analisi di Licenze
 solution3_intro: Valutazione approfondita degli accordi di licenza, esaminando fattori chiave come:
 solution3_item1: Ambito, territorialità e campo di applicazione della licenza
 solution3_item2: Strutture di royalty e condizioni economiche
@@ -69,46 +69,46 @@ solution3_item5: Diritti di sub-licenza e relative limitazioni
 solution3_item6: Obblighi di enforcement e rimedi in caso di violazioni
 
 # Solution 4
-solution4_title: ANALISI delle Presentazioni Tecniche e Papers
-solution4_intro: Revisione accurata dei materiali aziendali, affrontando temi fondamentali come:
+solution4_title: Presentazioni Tecniche
+solution4_intro: Revisione accurata dei materiali aziendali, affrontando temi fondamentali, tra cui:
 solution4_item1: Contenuto proprietario e informazioni riservate
-solution4_item2: Classificazione di dati sensibili e pubblici
+solution4_item2: Classificazione dati sensibili e pubblici
 solution4_item3: Valutazione e categorizzazione del rischio informativo
 solution4_item4: Raccomandazioni strategiche di revisione
 solution4_item5: Analisi della possibile esposizione a concorrenti
-solution4_item6: Allineamento con la strategia di protezione IP
+solution4_item6: Allineamento della strategia di protezione IP
 
 # Solution 5
-solution5_title: ANALISI delle Tesi Accademiche
-solution5_intro: Esame approfondito dei lavori accademici, valutando aspetti come:
+solution5_title: Tesi Accademiche
+solution5_intro: Esame approfondito dei lavori accademici, valutando vari aspetti, tra cui:
 solution5_item1: Identificazione di informazioni aziendali sensibili
-solution5_item2: Classificazione e prioritizzatione dei rischi
+solution5_item2: Classificazione e priorità dei rischi
 solution5_item3: Raccomandazioni strategiche di redazione
 solution5_item4: Equilibrio tra finalità accademiche e commerciali
 solution5_item5: Prevenzione di conflitti con eventuali domande di brevetto
-solution5_item6: Analisi dell'impatto del timing della pubblicazione
+solution5_item6: Analisi dell'impatto del timing di pubblicazione
 
 # Solution 6
-solution6_title: ANALISI di Accordi di Disclosure Controllata e NdA
+solution6_title: Valutazione di NDA
 solution6_intro: Analisi dettagliata degli accordi di riservatezza, coprendo elementi essenziali come:
-solution6_item1: Verifica della completezza degli aspetti fondamentali
+solution6_item1: Verifica e completezza degli aspetti fondamentali
 solution6_item2: Profilazione dei rischi e individuazione delle vulnerabilità
-solution6_item3: Raccomandazioni strategiche di revisione
-solution6_item4: Integrazione con strutture contrattuali esistenti
-solution6_item5: Verifica di conformità ai requisiti di policy
-
+solution6_item3: Esame puntuale clausola per clausola
+solution6_item4: Raccomandazioni strategiche di modifica
+solution6_item5: Integrazione con strutture contrattuali esistenti
+solution6_item6: Verifica di conformità ai requisiti di settore
 
 learn_more: Scopri di più
 
 ## Benefits Section
-benefits_title: Perché Scegliere Soluzioni Aviolab AI
+benefits_title: Perché Scegliere Aviolab AI
 benefits_subtitle: Le nostre soluzioni di IA offrono benefici concreti per la tua organizzazione
 
 benefit1_title: Efficienza
 benefit1_text: Riduci i tempi di analisi documentale da giorni a minuti, permettendo al tuo team di concentrarsi su attività ad alto valore aggiunto
 
 benefit2_title: Competenza
-benefit2_text: Ottieni report ad alta precisione e dettaglio grazie a un'IA avanzata, addestrata su migliaia di documenti legali e tecnici
+benefit2_text: Ottieni report ad alta precisione grazie a un'IA avanzata, addestrata su migliaia di documenti legali e tecnici
 
 benefit3_title: Affidabilità
 benefit3_text: Assicura la conformità alle policy aziendali e agli standard legali con un'analisi ripetibile e completa
@@ -120,11 +120,11 @@ benefit5_title: Supporto Multilingue
 benefit5_text: Elabora documenti in più lingue, garantendo sempre la stessa accuratezza e profondità di analisi
 
 benefit6_title: Facilità d'Uso
-benefit6_text: Sfrutta un'interfaccia IA semplice e intuitiva <span class="highlight-quote">one-click</span>, pensata per professionisti con ritmi di lavoro intensi
+benefit6_text: Sfrutta un'interfaccia di IA semplice e intuitiva <span class="highlight-quote">one-click</span>, pensata per professionisti con ritmi di lavoro intensi
 
 ## Case Study Section
 case_study_title: Storie di Successo
-case_study_subtitle: Risultati concreti ottenuti dai nostri clienti
+case_study_subtitle: Risultati reali ottenuti dai nostri clienti
 case_study_heading: Caso di Studio Industriale: Trasformare la Gestione dei Documenti IP
 case_study_intro: Come Aviolab AI ha rivoluzionato il dipartimento di Proprietà Intellettuale di un'azienda manifatturiera Fortune 500:
 case_study_point1: Riduzione dei tempi di revisione degli NDA da 2 giorni a soli 15 minuti
@@ -132,19 +132,19 @@ case_study_point2: Diminuzione del 95% degli errori nell'analisi di contratti mu
 case_study_point3: Automazione dell'identificazione dei rischi su tutte le tipologie di accordi IP
 case_study_point4: Risparmio di oltre 2.000 ore di lavoro nel primo anno di utilizzo
 case_study_point5: Gestione di documenti in 5 lingue diverse con accuratezza costante
-case_study_quote: "Prima di Aviolab AI, il nostro team impiegava innumerevoli ore per esaminare manualmente complessi accordi di proprietà intellettuale, con il costante rischio di trascurare dettagli critici in contratti multi-documento. Ora ci basta caricare i documenti per ottenere un'analisi completa in pochi minuti, con la certezza che tutti i fattori incrociati siano stati esaminati. Questa tecnologia ha trasformato il modo in cui proteggiamo i nostri asset intellettuali e gestiamo le relazioni contrattuali."
+case_study_quote: "Prima di Aviolab AI, il nostro team impiegava innumerevoli ore per esaminare manualmente complessi accordi di proprietà intellettuale ed era sempre presente il rischio di trascurare dettagli critici in contratti multi-documento. Ora ci basta caricare i documenti per ottenere un'analisi completa in pochi minuti, con la certezza che sono stati esaminati tutti i fattori incrociati. Questa tecnologia ha trasformato il modo in cui proteggiamo i nostri asset intellettuali e gestiamo le relazioni contrattuali."
 case_study_citation: — Direttore IP, Azienda Manifatturiera Globale
 
 ## About Section
 about_title: Il Fondatore
 founder_name: Riccardo Parenti
 founder_position: Founder & CTO
-founder_bio1: Riccardo Parenti è un esperto di soluzioni tecnico-legali basate sull'intelligenza artificiale e sfrutta la sua esperienza nel settore tecnologico e legale per rivoluzionare l'analisi documentale.
+founder_bio1: Riccardo Parenti è un esperto di soluzioni tecnico-legali basate sull'intelligenza artificiale, e sfrutta la sua esperienza sia nel settore tecnologico che legale per rivoluzionare l'analisi documentale.
 founder_bio2: Con un background in intelligenza artificiale e tecnologia legale, Riccardo ha fondato Aviolab AI con la missione di trasformare il modo in cui le organizzazioni gestiscono la proprietà intellettuale e la documentazione legale.
 
 ## Contact Section
 contact_title: Contattaci
-contact_subtitle: Interessato alle nostre soluzioni IA? Saremo lieti di ascoltare le tue esigenze.
+contact_subtitle: Interessato alle nostre soluzioni di IA? Saremo felici di ascoltare le tue esigenze.
 contact_email: Email
 contact_location: Sede
 contact_website: Sito web
