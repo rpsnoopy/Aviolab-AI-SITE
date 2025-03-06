@@ -3,6 +3,30 @@ document.addEventListener("DOMContentLoaded", function () {
     let currentLanguage = localStorage.getItem('language') || 'en';
     document.documentElement.lang = currentLanguage;
     
+    // Check for thank you page parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('thanks') === 'true') {
+        const contactSection = document.getElementById('contact');
+        if (contactSection) {
+            // Scroll to contact section
+            window.scrollTo({
+                top: contactSection.offsetTop - 80,
+                behavior: 'smooth'
+            });
+            
+            // Show success message
+            const contactForm = document.querySelector('.contact-form');
+            if (contactForm) {
+                contactForm.innerHTML = `
+                    <div class="form-success">
+                        <h3>${translations[currentLanguage].contact_form_success_title}</h3>
+                        <p>${translations[currentLanguage].contact_form_success_message}</p>
+                    </div>
+                `;
+            }
+        }
+    }
+    
     // Language selector functionality
     const languageSelector = document.querySelector('.language-selector');
     if (languageSelector) {
@@ -134,30 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener('scroll', revealOnScroll);
     revealOnScroll();
     
-    // Form submission handling with validation
-    const contactForm = document.querySelector('.contact-form');
-    
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Basic form validation
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
-            
-            if (name && email && message) {
-                // In a real implementation, you would send the form data to a server
-                // For now, we'll just show a success message
-                contactForm.innerHTML = `
-                    <div class="form-success">
-                        <h3>${translations[currentLanguage].contact_form_success_title}</h3>
-                        <p>${translations[currentLanguage].contact_form_success_message}</p>
-                    </div>
-                `;
-            }
-        });
-    }
+    // Rimosso il gestore di eventi del modulo poiché ora utilizziamo FormSubmit
 });
 
 // Add CSS classes for animations

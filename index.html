@@ -347,7 +347,6 @@
                     <p data-i18n="founder_bio2">With a background in artificial intelligence and legal tech, Riccardo founded Aviolab AI with a mission to transform how organizations handle intellectual property and legal documentation.</p>
                     <div class="social-links">
                         <a href="https://www.linkedin.com/in/rparenti/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
-                        <a href="mailto:r.parenti@aviolab.ai" class="social-link"><i class="fas fa-envelope"></i></a>
                     </div>
                 </div>
             </div>
@@ -366,13 +365,6 @@
             <div class="contact-container">
                 <div class="contact-info">
                     <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h3 data-i18n="contact_email">Email</h3>
-                            <p><a href="mailto:r.parenti@aviolab.ai">r.parenti@aviolab.ai</a></p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
                             <h3 data-i18n="contact_location">Location</h3>
@@ -388,7 +380,7 @@
                     </div>
                 </div>
 
-                <form class="contact-form">
+                <form class="contact-form" action="https://formsubmit.co/r.parenti@aviolab.ai" method="POST">
                     <div class="form-group">
                         <label for="name" data-i18n="contact_form_name">Name</label>
                         <input type="text" id="name" name="name" required>
@@ -405,6 +397,10 @@
                         <label for="message" data-i18n="contact_form_message">Message</label>
                         <textarea id="message" name="message" rows="5" required></textarea>
                     </div>
+                    <!-- Campi di configurazione per FormSubmit -->
+                    <input type="hidden" name="_subject" value="Nuovo messaggio dal sito Aviolab AI">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_next" value="https://www.aviolab.ai?thanks=true">
                     <button type="submit" class="btn btn-primary" data-i18n="contact_form_submit">Send Message</button>
                 </form>
             </div>

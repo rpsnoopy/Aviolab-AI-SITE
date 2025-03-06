@@ -145,7 +145,6 @@ founder_bio2: Con un background in intelligenza artificiale e tecnologia legale,
 ## Contact Section
 contact_title: Contattaci
 contact_subtitle: Interessato alle nostre soluzioni IA? Saremo lieti di ascoltare le tue esigenze.
-contact_email: Email
 contact_location: Sede
 contact_website: Sito web
 contact_form_name: Nome

@@ -1,163 +1,163 @@
-# Aviolab AI Website - English Content
-# This file serves as the master content for the English version of the website
-# Each section corresponds to website sections and contains key-value pairs
-# Format: key: value
-# Keys match data-i18n attributes in the HTML
-
-## Navigation
-nav_home: Home
-nav_mission: Mission
-nav_capabilities: Technology
-nav_solutions: Solutions
-nav_benefits: Benefits
-nav_case_studies: Case Studies
-nav_about: About
-nav_contact: Contact
-
-## Hero Section
-hero_title: AI-Powered <span class="highlight">Legal Intelligence</span>
-hero_subtitle: <span class="highlight-quote">one-click</span> Document Analysis for Legal & Technical Professionals
-hero_description: Transforming how organizations handle intellectual property, legal contracts, research agreements, license agreements, NDAs and technical presentations with state-of-the-art artificial intelligence.
-hero_btn_explore: Explore Solutions
-hero_btn_contact: Contact Us
-
-## Mission Section
-mission_title: OUR MISSION
-mission_text: To revolutionize business document intelligence through innovative AI solutions that transform complex technical and legal analyses into simple, accurate, and immediate <span class="highlight-quote">one-click</span> insights.
-
-## Capabilities Section
-capabilities_heading: TECHNOLOGY
-capabilities_title: With our technologies, without any learning curve:
-mission_feature_1: You can instantly analyze entire sets of complex and related multilingual legal documents
-mission_feature_2: You can precisely extract all crucial information, focusing attention where it truly matters
-mission_feature_3: You can quickly generate precise risk assessments with detailed revision recommendations and operational guidance
-mission_feature_4: You can ensure perfect regulatory compliance and alignment with your company's policies
-mission_feature_5: You can effectively protect your intangible assets by managing the operational details of agreements signed by your company
-
-## Solutions Section
-solutions_title: AI Assistants Available
-solutions_subtitle: Advanced granular document analysis solutions that examine <strong><u>every clause and paragraph</u></strong>, tailored for real business needs
-
-# Solution 1
-solution1_title: ANALYSIS of Bids, Tenders and Related Documents (GTC, etc)
-solution1_intro: Comprehensive analysis covering various aspects, including:
-solution1_item1: Confidentiality management and disclosure controls
-solution1_item2: Intellectual property ownership rights
-solution1_item3: Protection of pre-existing IP assets
-solution1_item4: Rights assignment and licensing terms
-solution1_item5: Future usage obligations and restrictions
-solution1_item6: Information management risks and safeguards
-
-# Solution 2
-solution2_title: ANALYSIS of Research and Technology Partnership Agreements
-solution2_intro: Complete evaluation of research partnerships, focusing on:
-solution2_item1: Project scope definition and boundaries
-solution2_item2: Operational methodologies and responsibilities
-solution2_item3: Compensation and funding mechanisms
-solution2_item4: IP ownership and technology transfer rights
-solution2_item5: Confidentiality provisions and restrictions
-solution2_item6: Liability allocation and limitation clauses
-
-# Solution 3
-solution3_title: ANALYSIS of License Agreements
-solution3_intro: Comprehensive assessment of licensing agreements examining key factors such as:
-solution3_item1: License scope, territories, and field of use
-solution3_item2: Royalty structures and economic terms
-solution3_item3: Technology transfer and implementation rights
-solution3_item4: Exclusivity provisions and market restrictions
-solution3_item5: Sub-licensing rights and limitations
-solution3_item6: Enforcement obligations and infringement remedies
-
-# Solution 4
-solution4_title: ANALYSIS of Technical Presentations and Papers
-solution4_intro: In-depth review of corporate materials addressing key issues such as:
-solution4_item1: Proprietary content and confidential information
-solution4_item2: Sensitive vs. public data classification
-solution4_item3: Information risk assessment and categorization
-solution4_item4: Strategic revision recommendations
-solution4_item5: Competitive intelligence exposure analysis
-solution4_item6: Alignment with IP protection strategy
-
-# Solution 5
-solution5_title: ANALYSIS of Academic Theses
-solution5_intro: Thorough examination of academic works, evaluating aspects such as:
-solution5_item1: Sensitive corporate information identification
-solution5_item2: Risk classification and prioritization
-solution5_item3: Strategic redaction recommendations
-solution5_item4: Academic vs. commercial balance optimization
-solution5_item5: Patent application conflict prevention
-solution5_item6: Analysis of publication timing impact
-
-# Solution 6
-solution6_title: ANALYSIS of Controlled Disclosure Agreements and NDAs
-solution6_intro: Detailed analysis of confidentiality agreements, covering essential elements such as:
-solution6_item1: Verification of completeness of fundamental aspects
-solution6_item2: Risk profiling and vulnerability identification
-solution6_item3: Strategic revision recommendations
-solution6_item4: Integration with existing contractual structures
-solution6_item5: Policy compliance verification
-
-
-learn_more: Learn More
-
-## Benefits Section
-benefits_title: Why Choose Aviolab AI Solutions
-benefits_subtitle: Our AI solutions offer concrete benefits for your organization
-
-benefit1_title: Efficiency
-benefit1_text: Reduce document analysis time from days to minutes, allowing your team to focus on high-value activities
-
-benefit2_title: Competence
-benefit2_text: Obtain high-precision, detailed reports thanks to advanced AI trained on thousands of legal and technical documents
-
-benefit3_title: Reliability
-benefit3_text: Ensure compliance with company policies and legal standards through consistent, thorough analysis
-
-benefit4_title: Zero Learning Curve
-benefit4_text: Start using the technology immediately and fully: just upload your documents to instantly produce, <span class="highlight-quote">one-click</span>, the required analysis
-
-benefit5_title: Multilingual Support
-benefit5_text: Process documents in multiple languages, always ensuring the same accuracy and depth of analysis
-
-benefit6_title: User-Friendly
-benefit6_text: Leverage a simple and intuitive <span class="highlight-quote">one-click</span> AI interface, designed for professionals with intensive work schedules
-
-## Case Study Section
-case_study_title: Success Stories
-case_study_subtitle: Real results achieved by our clients
-case_study_heading: Industrial Case Study: Transforming IP Document Management
-case_study_intro: How Aviolab AI revolutionized the Intellectual Property department of a Fortune 500 manufacturing company:
-case_study_point1: Reduced NDA reviews from 2 days to just 15 minutes
-case_study_point2: Decreased errors in multi-document contract analysis by 95%
-case_study_point3: Automated risk identification across all types of IP agreements
-case_study_point4: Saved over 2,000 labor hours in the first year of implementation
-case_study_point5: Processed documents in 5 different languages with consistent accuracy
-case_study_quote: "Before Aviolab AI, our team spent countless hours manually reviewing complex IP agreements, with the constant risk of overlooking critical details in multi-document contracts. Now we simply upload documents to obtain comprehensive analysis in minutes, with certainty that all cross-factors have been examined. This technology has transformed how we protect our intellectual assets and manage contractual relationships."
-case_study_citation: — IP Director, Global Manufacturing Company
-
-## About Section
-about_title: About the Founder
-founder_name: Riccardo Parenti
-founder_position: Founder & CTO
-founder_bio1: Riccardo Parenti is an expert in AI-driven legal and technical solutions, leveraging his experience in both technology and legal sectors to revolutionize document analysis.
-founder_bio2: With a background in artificial intelligence and legal tech, Riccardo founded Aviolab AI with a mission to transform how organizations handle intellectual property and legal documentation.
-
-## Contact Section
-contact_title: Get in Touch
-contact_subtitle: Interested in our AI solutions? We would be happy to hear about your needs.
-contact_email: Email
-contact_location: Location
-contact_website: Website
-contact_form_name: Name
-contact_form_email: Email
-contact_form_company: Company
-contact_form_message: Message
-contact_form_submit: Send Message
-contact_form_success_title: Thank you for contacting us!
-contact_form_success_message: We have received your request and will get back to you as soon as possible.
-
-## Footer
-footer_tagline: Intelligent Document Analysis
-footer_quick_links: Quick Links
-footer_connect: Connect With Us
+# Aviolab AI Website - English Content
+# This file serves as the master content for the English version of the website
+# Each section corresponds to website sections and contains key-value pairs
+# Format: key: value
+# Keys match data-i18n attributes in the HTML
+
+## Navigation
+nav_home: Home
+nav_mission: Mission
+nav_capabilities: Technology
+nav_solutions: Solutions
+nav_benefits: Benefits
+nav_case_studies: Case Studies
+nav_about: About
+nav_contact: Contact
+
+## Hero Section
+hero_title: AI-Powered <span class="highlight">Legal Intelligence</span>
+hero_subtitle: <span class="highlight-quote">one-click</span> Document Analysis for Legal & Technical Professionals
+hero_description: Transforming how organizations handle intellectual property, legal contracts, research agreements, license agreements, NDAs and technical presentations with state-of-the-art artificial intelligence.
+hero_btn_explore: Explore Solutions
+hero_btn_contact: Contact Us
+
+## Mission Section
+mission_title: OUR MISSION
+mission_text: To revolutionize business document intelligence through innovative AI solutions that transform complex technical and legal analyses into simple, accurate, and immediate <span class="highlight-quote">one-click</span> insights.
+
+## Capabilities Section
+capabilities_heading: TECHNOLOGY
+capabilities_title: With our technologies, without any learning curve:
+mission_feature_1: You can instantly analyze entire sets of complex and related multilingual legal documents
+mission_feature_2: You can precisely extract all crucial information, focusing attention where it truly matters
+mission_feature_3: You can quickly generate precise risk assessments with detailed revision recommendations and operational guidance
+mission_feature_4: You can ensure perfect regulatory compliance and alignment with your company's policies
+mission_feature_5: You can effectively protect your intangible assets by managing the operational details of agreements signed by your company
+
+## Solutions Section
+solutions_title: AI Assistants Available
+solutions_subtitle: Advanced granular document analysis solutions that examine <strong><u>every clause and paragraph</u></strong>, tailored for real business needs
+
+# Solution 1
+solution1_title: ANALYSIS of Bids, Tenders and Related Documents (GTC, etc)
+solution1_intro: Comprehensive analysis covering various aspects, including:
+solution1_item1: Confidentiality management and disclosure controls
+solution1_item2: Intellectual property ownership rights
+solution1_item3: Protection of pre-existing IP assets
+solution1_item4: Rights assignment and licensing terms
+solution1_item5: Future usage obligations and restrictions
+solution1_item6: Information management risks and safeguards
+
+# Solution 2
+solution2_title: ANALYSIS of Research and Technology Partnership Agreements
+solution2_intro: Complete evaluation of research partnerships, focusing on:
+solution2_item1: Project scope definition and boundaries
+solution2_item2: Operational methodologies and responsibilities
+solution2_item3: Compensation and funding mechanisms
+solution2_item4: IP ownership and technology transfer rights
+solution2_item5: Confidentiality provisions and restrictions
+solution2_item6: Liability allocation and limitation clauses
+
+# Solution 3
+solution3_title: ANALYSIS of License Agreements
+solution3_intro: Comprehensive assessment of licensing agreements examining key factors such as:
+solution3_item1: License scope, territories, and field of use
+solution3_item2: Royalty structures and economic terms
+solution3_item3: Technology transfer and implementation rights
+solution3_item4: Exclusivity provisions and market restrictions
+solution3_item5: Sub-licensing rights and limitations
+solution3_item6: Enforcement obligations and infringement remedies
+
+# Solution 4
+solution4_title: ANALYSIS of Technical Presentations and Papers
+solution4_intro: In-depth review of corporate materials addressing key issues such as:
+solution4_item1: Proprietary content and confidential information
+solution4_item2: Sensitive vs. public data classification
+solution4_item3: Information risk assessment and categorization
+solution4_item4: Strategic revision recommendations
+solution4_item5: Competitive intelligence exposure analysis
+solution4_item6: Alignment with IP protection strategy
+
+# Solution 5
+solution5_title: ANALYSIS of Academic Theses
+solution5_intro: Thorough examination of academic works, evaluating aspects such as:
+solution5_item1: Sensitive corporate information identification
+solution5_item2: Risk classification and prioritization
+solution5_item3: Strategic redaction recommendations
+solution5_item4: Academic vs. commercial balance optimization
+solution5_item5: Patent application conflict prevention
+solution5_item6: Analysis of publication timing impact
+
+# Solution 6
+solution6_title: ANALYSIS of Controlled Disclosure Agreements and NDAs
+solution6_intro: Detailed analysis of confidentiality agreements, covering essential elements such as:
+solution6_item1: Verification of completeness of fundamental aspects
+solution6_item2: Risk profiling and vulnerability identification
+solution6_item3: Strategic revision recommendations
+solution6_item4: Integration with existing contractual structures
+solution6_item5: Policy compliance verification
+
+
+learn_more: Learn More
+
+## Benefits Section
+benefits_title: Why Choose Aviolab AI Solutions
+benefits_subtitle: Our AI solutions offer concrete benefits for your organization
+
+benefit1_title: Efficiency
+benefit1_text: Reduce document analysis time from days to minutes, allowing your team to focus on high-value activities
+
+benefit2_title: Competence
+benefit2_text: Obtain high-precision, detailed reports thanks to advanced AI trained on thousands of legal and technical documents
+
+benefit3_title: Reliability
+benefit3_text: Ensure compliance with company policies and legal standards through consistent, thorough analysis
+
+benefit4_title: Zero Learning Curve
+benefit4_text: Start using the technology immediately and fully: just upload your documents to instantly produce, <span class="highlight-quote">one-click</span>, the required analysis
+
+benefit5_title: Multilingual Support
+benefit5_text: Process documents in multiple languages, always ensuring the same accuracy and depth of analysis
+
+benefit6_title: User-Friendly
+benefit6_text: Leverage a simple and intuitive <span class="highlight-quote">one-click</span> AI interface, designed for professionals with intensive work schedules
+
+## Case Study Section
+case_study_title: Success Stories
+case_study_subtitle: Real results achieved by our clients
+case_study_heading: Industrial Case Study: Transforming IP Document Management
+case_study_intro: How Aviolab AI revolutionized the Intellectual Property department of a Fortune 500 manufacturing company:
+case_study_point1: Reduced NDA reviews from 2 days to just 15 minutes
+case_study_point2: Decreased errors in multi-document contract analysis by 95%
+case_study_point3: Automated risk identification across all types of IP agreements
+case_study_point4: Saved over 2,000 labor hours in the first year of implementation
+case_study_point5: Processed documents in 5 different languages with consistent accuracy
+case_study_quote: "Before Aviolab AI, our team spent countless hours manually reviewing complex IP agreements, with the constant risk of overlooking critical details in multi-document contracts. Now we simply upload documents to obtain comprehensive analysis in minutes, with certainty that all cross-factors have been examined. This technology has transformed how we protect our intellectual assets and manage contractual relationships."
+case_study_citation: — IP Director, Global Manufacturing Company
+
+## About Section
+about_title: About the Founder
+founder_name: Riccardo Parenti
+founder_position: Founder & CTO
+founder_bio1: Riccardo Parenti is an expert in AI-driven legal and technical solutions, leveraging his experience in both technology and legal sectors to revolutionize document analysis.
+founder_bio2: With a background in artificial intelligence and legal tech, Riccardo founded Aviolab AI with a mission to transform how organizations handle intellectual property and legal documentation.
+
+## Contact Section
+contact_title: Get in Touch
+contact_subtitle: Interested in our AI solutions? We would be happy to hear about your needs.
+
+contact_location: Location
+contact_website: Website
+contact_form_name: Name
+contact_form_email: Email
+contact_form_company: Company
+contact_form_message: Message
+contact_form_submit: Send Message
+contact_form_success_title: Thank you for contacting us!
+contact_form_success_message: We have received your request and will get back to you as soon as possible.
+
+## Footer
+footer_tagline: Intelligent Document Analysis
+footer_quick_links: Quick Links
+footer_connect: Connect With Us
 footer_copyright: © 2025 Aviolab AI. All rights reserved.
