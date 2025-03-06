@@ -8,6 +8,7 @@
 - **Image Optimization**: Use [TinyPNG](https://tinypng.com/) for image compression
 - **Content Updates**: Edit text in `assets/english_texts.txt` and `assets/italian_texts.txt`
 - **Translation Updates**: Run `node update-translations.js` after editing text files
+- **Contact Form**: Using FormSubmit.co service (action="https://formsubmit.co/ed4f9f2929019cdfc327f3485c8654e4" method="POST")
 
 ## 🎨 Code Style Guidelines
 - **HTML**: Semantic tags, 4-space indentation, BEM-inspired classes, data-i18n for translations
@@ -27,7 +28,7 @@
 - `assets/italian_texts.txt` - Source content for Italian translations (key: value format)
 - `assets/` - Images, logos, founder photos, and content files
 - `assets/images/` - Website imagery (hero, mission, case study)
-- `efforts/` - Additional assets like email signatures, letterheads, and templates
+- `efforts/` - Additional assets like email signatures (with clickable logo/name links to site), letterheads, and templates
 
 ## 📝 Development Workflow
 
