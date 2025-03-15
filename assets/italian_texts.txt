@@ -127,13 +127,18 @@ case_study_title: Storie di Successo
 case_study_subtitle: Risultati concreti ottenuti dai nostri clienti
 case_study_heading: Caso di Studio Industriale: Trasformare la Gestione dei Documenti IP
 case_study_intro: Come Aviolab AI ha rivoluzionato il dipartimento di Proprietà Intellettuale di un'azienda manifatturiera Fortune 500:
-case_study_point1: Riduzione dei tempi di revisione degli NDA da 2 giorni a soli 15 minuti
-case_study_point2: Diminuzione del 95% degli errori nell'analisi di contratti multi-documento
-case_study_point3: Automazione dell'identificazione dei rischi su tutte le tipologie di accordi IP
-case_study_point4: Risparmio di oltre 2.000 ore di lavoro nel primo anno di utilizzo
-case_study_point5: Gestione di documenti in 5 lingue diverse con accuratezza costante
-case_study_quote: "Prima di Aviolab AI, il nostro team impiegava innumerevoli ore per esaminare manualmente complessi accordi di proprietà intellettuale, con il costante rischio di trascurare dettagli critici in contratti multi-documento. Ora ci basta caricare i documenti per ottenere un'analisi completa in pochi minuti, con la certezza che tutti i fattori incrociati siano stati esaminati. Questa tecnologia ha trasformato il modo in cui proteggiamo i nostri asset intellettuali e gestiamo le relazioni contrattuali."
-case_study_citation: — Direttore IP, Azienda Manifatturiera Globale
+case_study_point1: Riduzione dei tempi di analisi contrattuale da giorni a ore o addirittura minuti
+case_study_point2: Maggiore affidabilità nell'elaborazione di accordi multi-documento
+case_study_point3: Generazione di commenti legali impeccabili in più lingue
+case_study_point4: Facilitazione della comunicazione tra team legali internazionali
+case_study_point5: Valutazione specifica del livello di rischio per ogni criticità rilevata
+case_study_point6: Rafforzamento del controllo sugli asset IP e della sicurezza nelle negoziazioni contrattuali
+case_study_quote_p1: "Prima di Aviolab AI, il nostro team impiegava innumerevoli ore per esaminare manualmente complessi accordi di proprietà intellettuale, con il costante rischio di trascurare dettagli critici in contratti multi-documento. Ora ci basta caricare i documenti per ottenere un'analisi completa in pochi minuti, con la certezza che tutti i fattori incrociati siano stati esaminati. Questa tecnologia ha trasformato il modo in cui proteggiamo i nostri asset intellettuali e gestiamo le relazioni contrattuali."
+case_study_quote_p2: "L'introduzione della suite di agenti specializzati di Aviolab AI nel nostro processo ha trasformato l'analisi di accordi e contratti con implicazioni sulla proprietà intellettuale, riducendo drasticamente i tempi e aumentando l'affidabilità del processo. Se in passato erano necessari giorni per l'esame di contratti articolati su più documenti, oggi l'intero processo si completa in poche ore o, nel caso di NDA e accordi di disclosure limitata, in pochi minuti."
+case_study_quote_p3: "Grazie alla capacità di generare commenti in un linguaggio legale impeccabile in qualsiasi lingua, la tecnologia di Aviolab AI garantisce coerenza e precisione, facilitando la comunicazione tra team legali internazionali. Questo ha ridefinito l'effort necessario ad implementare un paradigma di gestione della proprietà intellettuale di altissimo livello, rafforzando il nostro controllo sugli asset IP e la sicurezza delle negoziazioni contrattuali."
+case_study_citation_1: — Analista IP, Azienda Manifatturiera Globale
+case_study_citation_2: — Manager IP, Azienda Manifatturiera Globale
+case_study_citation_3: — Manager IP, Azienda Manifatturiera Globale
 
 ## About Section
 about_title: Il Fondatore
@@ -144,9 +149,11 @@ founder_bio2: Con un background in intelligenza artificiale e tecnologia legale,
 
 ## Contact Section
 contact_title: Contattaci
-contact_subtitle: Interessato alle nostre soluzioni IA? Saremo lieti di ascoltare le tue esigenze.
+contact_subtitle: Interessato alle nostre soluzioni IA? Saremo lieti di darti altre informazioni.
 contact_location: Sede
 contact_website: Sito web
+contact_email: Email
+contact_hours: Orari di Lavoro
 contact_form_name: Nome
 contact_form_email: Email
 contact_form_company: Azienda
