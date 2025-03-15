@@ -9,6 +9,7 @@
 - **Content Updates**: Edit text in `assets/english_texts.txt` and `assets/italian_texts.txt`
 - **Translation Updates**: Run `node update-translations.js` after editing text files
 - **Contact Form**: Using FormSubmit.co service (action="https://formsubmit.co/ed4f9f2929019cdfc327f3485c8654e4" method="POST")
+- **Git Workflow**: After making changes, add with `git add .`, commit with `git commit -m "Your message"` and push with `git push origin main`
 
 ## 🎨 Code Style Guidelines
 - **HTML**: Semantic tags, 4-space indentation, BEM-inspired classes, data-i18n for translations
@@ -40,7 +41,16 @@
    - Lines starting with # or ## are ignored (comments/section headers)
 2. Run `node update-translations.js` to regenerate translations.js
 3. Test changes with Live Server in both languages
-4. IMPORTANT: Never edit js/translations.js directly - changes will be lost
+4. Commit changes: `git add assets/english_texts.txt assets/italian_texts.txt js/translations.js`
+5. IMPORTANT: Never edit js/translations.js directly - changes will be lost
+
+### Adding New Components/Sections
+1. Create HTML structure with appropriate data-i18n attributes
+2. Add corresponding style rules in styles.css
+3. Add text entries in both language files
+4. Update translations.js with `node update-translations.js`
+5. Test in both languages
+6. Commit all changes
 
 ### Structure Updates
 - Make HTML/CSS structure changes in respective files
