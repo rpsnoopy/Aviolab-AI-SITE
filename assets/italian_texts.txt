@@ -125,7 +125,7 @@ benefit6_text: Sfrutta un'interfaccia IA semplice e intuitiva <span class="highl
 ## Case Study Section
 case_study_title: Storie di Successo
 case_study_subtitle: Risultati concreti ottenuti dai nostri clienti
-case_study_heading: Caso di Studio Industriale: Trasformare la Gestione dei Documenti IP
+case_study_heading: Caso di Studio: Trasformare la Gestione dei Documenti IP di un importante gruppo industriale
 case_study_intro: Come Aviolab AI ha rivoluzionato il dipartimento di Proprietà Intellettuale di un'azienda manifatturiera Fortune 500:
 case_study_point1: Riduzione dei tempi di analisi contrattuale da giorni a ore o addirittura minuti
 case_study_point2: Maggiore affidabilità nell'elaborazione di accordi multi-documento
@@ -133,12 +133,12 @@ case_study_point3: Generazione di commenti legali impeccabili in più lingue
 case_study_point4: Facilitazione della comunicazione tra team legali internazionali
 case_study_point5: Valutazione specifica del livello di rischio per ogni criticità rilevata
 case_study_point6: Rafforzamento del controllo sugli asset IP e della sicurezza nelle negoziazioni contrattuali
-case_study_quote_p1: "Prima di Aviolab AI, il nostro team impiegava innumerevoli ore per esaminare manualmente complessi accordi di proprietà intellettuale, con il costante rischio di trascurare dettagli critici in contratti multi-documento. Ora ci basta caricare i documenti per ottenere un'analisi completa in pochi minuti, con la certezza che tutti i fattori incrociati siano stati esaminati. Questa tecnologia ha trasformato il modo in cui proteggiamo i nostri asset intellettuali e gestiamo le relazioni contrattuali."
-case_study_quote_p2: "L'introduzione della suite di agenti specializzati di Aviolab AI nel nostro processo ha trasformato l'analisi di accordi e contratti con implicazioni sulla proprietà intellettuale, riducendo drasticamente i tempi e aumentando l'affidabilità del processo. Se in passato erano necessari giorni per l'esame di contratti articolati su più documenti, oggi l'intero processo si completa in poche ore o, nel caso di NDA e accordi di disclosure limitata, in pochi minuti."
-case_study_quote_p3: "Grazie alla capacità di generare commenti in un linguaggio legale impeccabile in qualsiasi lingua, la tecnologia di Aviolab AI garantisce coerenza e precisione, facilitando la comunicazione tra team legali internazionali. Questo ha ridefinito l'effort necessario ad implementare un paradigma di gestione della proprietà intellettuale di altissimo livello, rafforzando il nostro controllo sugli asset IP e la sicurezza delle negoziazioni contrattuali."
-case_study_citation_1: — Analista IP, Azienda Manifatturiera Globale
-case_study_citation_2: — Manager IP, Azienda Manifatturiera Globale
-case_study_citation_3: — Manager IP, Azienda Manifatturiera Globale
+founder_testimonial_title: Dal Fondatore
+founder_para_1: Quando ho creato Aviolab AI, sapevo quanto fosse complesso e rischioso analizzare contratti di proprietà intellettuale. Troppe variabili, troppi dettagli da verificare manualmente.
+founder_para_2: Oggi, con la Suite TTR, chi gestisce IP può caricare documenti e ottenere un'analisi completa in pochi minuti, con la certezza che ogni connessione sia stata valutata. Un grande gruppo industriale ci ha raccontato come prima impiegasse giorni per esaminare accordi complessi, mentre ora il lavoro si completa in poche ore, e per NDA o contratti più semplici, persino in pochi minuti.
+founder_para_3: Abbiamo anche migliorato la comunicazione tra team legali internazionali: la Suite TTR genera commenti impeccabili e proposte di revisione del testo in perfetto linguaggio legale in qualsiasi lingua, garantendo coerenza e precisione.
+founder_para_4: Abbiamo trasformato un processo critico in un vantaggio strategico. Con la Suite TTR, proteggere gli asset IP è più semplice, veloce e sicuro.
+founder_testimonial_citation: — Riccardo Parenti, Founder & CTO
 
 ## About Section
 about_title: Il Fondatore

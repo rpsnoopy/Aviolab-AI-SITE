@@ -66,7 +66,22 @@ document.addEventListener("DOMContentLoaded", function () {
                 if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
                     element.placeholder = translations[currentLanguage][key];
                 } else {
-                    element.innerHTML = translations[currentLanguage][key];
+                    // Gestione speciale per elementi che possono contenere testo con interruzioni di riga
+                    let content = translations[currentLanguage][key];
+                    
+                    // Gestione specifica per la testimonianza del fondatore
+                    if (key === 'founder_testimonial_text') {
+                        // Rimuoviamo le virgolette iniziali e finali
+                        content = content.replace(/^"|"$/g, '');
+                        
+                        // Dividiamo il testo in paragrafi usando i doppi ritorni a capo
+                        let paragraphs = content.split('\n\n');
+                        
+                        // Avvolgiamo ogni paragrafo in un tag <p>
+                        content = paragraphs.map(p => `<p>${p}</p>`).join('');
+                    }
+                    
+                    element.innerHTML = content;
                 }
             }
         });
