@@ -153,12 +153,14 @@ contact_subtitle: Interessato alle nostre soluzioni IA? Saremo lieti di darti al
 contact_location: Sede
 contact_website: Sito web
 contact_email: Email
-contact_hours: Orari di Lavoro
+contact_hours: Orario di Contatto Preferito
+contact_hours_value: Weekdays 9:00 - 18:00 (CET/Roma)
 contact_form_name: Nome
 contact_form_email: Email
 contact_form_company: Azienda
 contact_form_message: Messaggio
 contact_form_submit: Invia Messaggio
+contact_form_response_note: Rispondiamo generalmente entro un giorno lavorativo
 contact_form_success_title: Grazie per averci contattato!
 contact_form_success_message: Abbiamo ricevuto la tua richiesta e ti risponderemo al più presto.
 

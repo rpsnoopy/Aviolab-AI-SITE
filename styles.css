@@ -800,8 +800,18 @@ img {
 
 .form-buttons {
     display: flex;
-    gap: 15px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     margin-top: 30px;
+    width: 100%;
+}
+
+.response-note {
+    margin-left: 20px;
+    color: var(--gray-color);
+    font-style: italic;
+    font-size: 0.9rem;
 }
 
 .contact-cta {
@@ -965,6 +975,16 @@ img {
     .footer-content {
         flex-direction: column;
         gap: 30px;
+    }
+    
+    .form-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .response-note {
+        margin-left: 0;
+        margin-top: 10px;
     }
 }
 
