@@ -142,6 +142,14 @@ img {
     position: relative;
 }
 
+.old-times-text {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 20px;
+    opacity: 0.9;
+}
+
 .underline {
     width: 80px;
     height: 4px;
@@ -478,6 +486,27 @@ img {
 /* Benefits Section */
 .benefits-section {
     background-color: white;
+    position: relative;
+}
+
+.benefits-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.97)), url('assets/images/oldtimes.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.benefits-section .container {
+    position: relative;
+    z-index: 2;
 }
 
 .benefits-grid {

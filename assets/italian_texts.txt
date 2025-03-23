@@ -103,6 +103,7 @@ learn_more: Scopri di più
 ## Benefits Section
 benefits_title: Perché Scegliere Soluzioni Aviolab AI
 benefits_subtitle: Le nostre soluzioni di IA offrono benefici concreti per la tua organizzazione
+benefits_old_times: Abbandona pile di carta e processi manuali sui documenti
 
 benefit1_title: Efficienza
 benefit1_text: Riduci i tempi di analisi documentale da giorni a minuti, permettendo al tuo team di concentrarsi su attività ad alto valore aggiunto
