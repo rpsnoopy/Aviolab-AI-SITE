@@ -15,9 +15,9 @@ nav_about: Chi Siamo
 nav_contact: Contatti
 
 ## Hero Section
-hero_title: <span class="highlight">Intelligenza Legale</span><br>Potenziata dall'IA
-hero_subtitle: Analisi Documentale <span class="highlight-quote" data-tooltip="Trascina il documento e clicca 'Go' - ottieni analisi istantanee senza configurazioni complesse. Opzioni avanzate disponibili quando necessario.">One-Click</span> per Professionisti Legali e Tecnici
-hero_description: Trasformiamo il modo in cui le organizzazioni gestiscono la proprietà intellettuale, i contratti legali, gli accordi di ricerca, i contratti di licenza, gli NDA e le presentazioni tecniche grazie a un uso avanzato dell'IA.
+hero_title: <span class="highlight">Intelligenza Legale</span> Potenziata dall'IA
+hero_subtitle: Analisi Documentale<br><span class="highlight-quote" data-tooltip="Trascina il documento e clicca 'Go' - ottieni analisi istantanee senza configurazioni complesse. Opzioni avanzate disponibili quando necessario.">One-Click</span> per Professionisti Legali e Tecnici
+hero_description: Trasformiamo il modo in cui le organizzazioni gestiscono la proprietà intellettuale, i contratti legali, gli accordi di ricerca, i contratti di licenza, gli NDA e le presentazioni tecniche<br><strong><u>con intelligenza artificiale allo stato dell'arte.</u></strong>
 hero_btn_explore: Scopri le Soluzioni
 hero_btn_contact: Contattaci
 
@@ -39,7 +39,7 @@ solutions_title: Assistenti IA Disponibili
 solutions_subtitle: Soluzioni avanzate di analisi documentale granulare, che analizzano <strong><u>ogni clausola e ogni paragrafo</u></strong>, calibrate sulle reali esigenze aziendali
 
 # Solution 1
-solution1_title: ANALISI Offerte, Gare e Documenti Correlati (GTC, etc)
+solution1_title: ANALISI<br>Offerte, Gare e Documenti Correlati (GTC, etc)
 solution1_intro: Analisi completa che copre diversi aspetti, tra cui:
 solution1_item1: Gestione della riservatezza e delle disclosure
 solution1_item2: Diritti di proprietà intellettuale e relative titolarità
@@ -49,7 +49,7 @@ solution1_item5: Obblighi e restrizioni per l'uso futuro
 solution1_item6: Rischi e misure di sicurezza nella gestione delle informazioni
 
 # Solution 2
-solution2_title: ANALISI Accordi di Ricerca e di Partnership Tecnologica
+solution2_title: ANALISI<br>Accordi di Ricerca e di Partnership Tecnologica
 solution2_intro: Valutazione completa dei partenariati di ricerca, con attenzione a:
 solution2_item1: Definizione dell'ambito e dei confini del progetto
 solution2_item2: Metodologie operative e responsabilità
@@ -59,7 +59,7 @@ solution2_item5: Disposizioni e restrizioni in materia di riservatezza
 solution2_item6: Clausole di allocazione e limitazione della responsabilità
 
 # Solution 3
-solution3_title: ANALISI di Contratti di Licenza
+solution3_title: ANALISI<br>di Contratti di Licenza
 solution3_intro: Valutazione approfondita degli accordi di licenza, esaminando fattori chiave come:
 solution3_item1: Ambito, territorialità e campo di applicazione della licenza
 solution3_item2: Strutture di royalty e condizioni economiche
@@ -69,7 +69,7 @@ solution3_item5: Diritti di sub-licenza e relative limitazioni
 solution3_item6: Obblighi di enforcement e rimedi in caso di violazioni
 
 # Solution 4
-solution4_title: ANALISI delle Presentazioni Tecniche e Papers
+solution4_title: ANALISI<br>delle Presentazioni Tecniche e Papers
 solution4_intro: Revisione accurata dei materiali aziendali, affrontando temi fondamentali come:
 solution4_item1: Contenuto proprietario e informazioni riservate
 solution4_item2: Classificazione di dati sensibili e pubblici
@@ -79,7 +79,7 @@ solution4_item5: Analisi della possibile esposizione a concorrenti
 solution4_item6: Allineamento con la strategia di protezione IP
 
 # Solution 5
-solution5_title: ANALISI delle Tesi Accademiche
+solution5_title: ANALISI<br>delle Tesi Accademiche
 solution5_intro: Esame approfondito dei lavori accademici, valutando aspetti come:
 solution5_item1: Identificazione di informazioni aziendali sensibili
 solution5_item2: Classificazione e prioritizzatione dei rischi
@@ -89,7 +89,7 @@ solution5_item5: Prevenzione di conflitti con eventuali domande di brevetto
 solution5_item6: Analisi dell'impatto del timing della pubblicazione
 
 # Solution 6
-solution6_title: ANALISI di Accordi di Disclosure Controllata e NdA
+solution6_title: ANALISI<br>di Accordi di Disclosure Controllata e NdA
 solution6_intro: Analisi dettagliata degli accordi di riservatezza, coprendo elementi essenziali come:
 solution6_item1: Verifica della completezza degli aspetti fondamentali
 solution6_item2: Profilazione dei rischi e individuazione delle vulnerabilità
