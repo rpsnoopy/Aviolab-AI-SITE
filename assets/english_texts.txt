@@ -16,14 +16,14 @@ nav_contact: Contact
 
 ## Hero Section
 hero_title: <span class="highlight">AI-Powered</span> Legal Intelligence
-hero_subtitle: <span class="highlight-quote" data-tooltip="Drag & drop your document and click 'Go' - get instant analysis without complex setups. Advanced options available when needed.">One-Click</span> Document Analysis<br>for Legal & Technical Professionals
+hero_subtitle: <span class="tooltip-container">One-Click<span class="tooltip-text">Drag & drop your document and click 'Go' - get instant analysis without complex setups. Advanced options available when needed.</span></span> Document Analysis<br>for Legal & Technical Professionals
 hero_description: Transforming how organizations handle intellectual property, legal contracts, research agreements, license agreements, NDAs and technical presentations<br><strong><u>with state-of-the-art artificial intelligence.</u></strong>
 hero_btn_explore: Explore Solutions
 hero_btn_contact: Contact Us
 
 ## Mission Section
 mission_title: OUR MISSION
-mission_text: To revolutionize business document intelligence through innovative AI solutions that transform complex technical and legal analyses into simple, accurate, and immediate <span class="highlight-quote" data-tooltip="Drag & drop your document and click 'Go' - get instant analysis without complex setups. Advanced options available when needed.">One-Click</span> insights.
+mission_text: To revolutionize business document intelligence through innovative AI solutions that transform complex technical and legal analyses into simple, accurate, and immediate <span class="tooltip-container">One-Click<span class="tooltip-text">Drag & drop your document and click 'Go' - get instant analysis without complex setups. Advanced options available when needed.</span></span> insights.
 
 ## Capabilities Section
 capabilities_heading: TECHNOLOGY
@@ -115,13 +115,13 @@ benefit3_title: Reliability
 benefit3_text: Ensure compliance with your company policies and legal standards through consistent, thorough analysis
 
 benefit4_title: Zero Learning Curve
-benefit4_text: Start using the technology immediately and fully: just upload your documents to instantly produce, <span class="simple-quote" data-tooltip="Drag & drop your document and click 'Go' - get instant analysis without complex setups. Advanced options available when needed.">One-Click</span>, the required analysis
+benefit4_text: Start using the technology immediately and fully: just upload your documents to instantly produce, <span class="tooltip-container">One-Click<span class="tooltip-text">Drag & drop your document and click 'Go' - get instant analysis without complex setups. Advanced options available when needed.</span></span>, the required analysis
 
 benefit5_title: Multilingual Support
 benefit5_text: Process documents in multiple languages, always ensuring the same accuracy and depth of analysis
 
 benefit6_title: User-Friendly
-benefit6_text: Leverage a simple and intuitive <span class="simple-quote" data-tooltip="Drag & drop your document and click 'Go' - get instant analysis without complex setups. Advanced options available when needed.">One-Click</span> AI interface, designed for professionals with intensive work schedules
+benefit6_text: Leverage a simple and intuitive <span class="tooltip-container">One-Click<span class="tooltip-text">Drag & drop your document and click 'Go' - get instant analysis without complex setups. Advanced options available when needed.</span></span> AI interface, designed for professionals with intensive work schedules
 
 ## Case Study Section
 case_study_title: Success Stories
