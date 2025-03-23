@@ -137,8 +137,10 @@ img {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
     box-shadow: 0 2px 4px rgba(0,0,0,0.3);
     cursor: help;
+    border-bottom: 1px dotted var(--light-color);
 }
 
+/* Modern tooltip implementation */
 .highlight-quote::after,
 .simple-quote::after {
     content: attr(data-tooltip);
@@ -161,23 +163,21 @@ img {
     text-transform: none;
     border-left: 3px solid var(--primary-color);
     pointer-events: none;
+    /* Better bottom positioning */
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-/* Posizionamento intelligente del tooltip */
-/* Top-right (default per versione italiana) */
-.highlight-quote::after,
-.simple-quote::after {
-    top: -5px;
-    left: calc(100% + 15px);
-    transform: translateY(-100%);
-}
-
-/* Top-left (per versione inglese) */
-html[lang="en"] .highlight-quote::after,
-html[lang="en"] .simple-quote::after {
-    left: auto;
-    right: calc(100% + 15px);
-    transform: translateY(-100%);
+/* Mobile-friendly tooltip positioning */
+@media screen and (max-width: 768px) {
+    .highlight-quote::after,
+    .simple-quote::after {
+        width: 200px;
+        bottom: 130%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 
 .highlight-quote::before,
@@ -188,24 +188,15 @@ html[lang="en"] .simple-quote::after {
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease;
-    z-index: 100;
-}
-
-/* Freccia per top-right (default per versione italiana) */
-.highlight-quote::before,
-.simple-quote::before {
-    top: 10px;
-    right: -16px;
-    transform: translateY(-100%) rotate(90deg);
+    z-index: 9999;
+    pointer-events: none;
+    /* Arrow positioning for below element */
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
     border-bottom-color: white;
-}
-
-/* Freccia per top-left (per versione inglese) */
-html[lang="en"] .highlight-quote::before,
-html[lang="en"] .simple-quote::before {
-    right: auto;
-    left: -16px;
-    transform: translateY(-100%) rotate(-90deg);
+    border-width: 8px;
+    margin-bottom: -4px;
 }
 
 .highlight-quote:hover::after,
@@ -219,11 +210,8 @@ html[lang="en"] .simple-quote::before {
 
 .simple-quote {
     cursor: help;
-}
-
-/* Versione semplice per occorrenze secondarie */
-.simple-quote {
     position: relative;
+    border-bottom: 1px dotted var(--primary-color);
     display: inline-block;
     color: var(--primary-color);
     font-style: normal;
