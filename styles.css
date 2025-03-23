@@ -129,27 +129,41 @@ img {
     font-weight: 700;
     text-transform: none;
     text-shadow: 0 0 2px white, 0 0 4px white;
+    white-space: nowrap;
 }
 
 /* Special styling for hero section where background is dark */
 .hero-section .highlight-text {
-    color: white;
-    text-shadow: 0 0 3px var(--primary-color), 0 0 6px var(--primary-color);
+    color: #ff0000;
+    font-weight: 700;
+    text-shadow: none;
+    white-space: nowrap;
 }
 
 /* One-Click note in footer */
 .one-click-note {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 15px 0 5px;
+    padding: 15px 0;
     margin-top: 15px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .one-click-note p {
     font-size: 0.9rem;
-    color: var(--light-gray);
-    opacity: 0.8;
-    font-style: italic;
+    color: #ff0000;
+    opacity: 0.9;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.one-click-note b {
+    font-size: 0.9rem;
+    vertical-align: baseline;
 }
 
 /* Removed .simple-quote as we're using .tooltip-container instead */
