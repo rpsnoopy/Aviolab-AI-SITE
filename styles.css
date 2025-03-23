@@ -197,6 +197,17 @@ img {
     max-width: 90%;
 }
 
+.section-subtitle {
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #0c3280; /* Blu più scuro rispetto al primary-color */
+    margin: 20px auto 15px;
+    font-weight: 500;
+    display: inline-block;
+    padding-bottom: 8px;
+    max-width: 90%;
+}
+
 .underline {
     width: 80px;
     height: 4px;
