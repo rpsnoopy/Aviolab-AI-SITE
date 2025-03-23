@@ -13,6 +13,7 @@ nav_benefits: Vantaggi
 nav_case_studies: Casi di Studio
 nav_about: Chi Siamo
 nav_contact: Contatti
+nav_download: Download
 
 ## Hero Section
 hero_title: <span class="highlight">Intelligenza Legale</span> Potenziata dall'IA
