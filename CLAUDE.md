@@ -10,7 +10,7 @@
 - **Translation Updates**: Run `node update-translations.js` after editing text files
 - **Contact Form**: Using FormSubmit.co service (action="https://formsubmit.co/ed4f9f2929019cdfc327f3485c8654e4" method="POST")
 - **Git Workflow**: After making changes, add with `git add .`, commit with `git commit -m "Your message"` and push with `git push origin main`
-- **Current Version**: v1.0.64 - Standardized all section subtitles including Benefits section
+- **Current Version**: v1.0.71 - Added line breaks to capabilities headings in both languages
 
 ## 🎨 Code Style Guidelines
 - **HTML**: Semantic tags, 4-space indentation, BEM-inspired classes, data-i18n for translations

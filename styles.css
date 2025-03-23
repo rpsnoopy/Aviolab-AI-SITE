@@ -201,11 +201,17 @@ img {
     font-style: italic;
     font-size: 1.5rem;
     color: #0c3280; /* Blu più scuro rispetto al primary-color */
-    margin: 20px auto 15px;
+    margin: 0 auto 15px;
     font-weight: 500;
     display: inline-block;
     padding-bottom: 8px;
     max-width: 90%;
+}
+
+.benefits-subtitle {
+    color: #ff0000; /* Rosso del logo AI */
+    font-weight: normal;
+    font-size: 1.6rem;
 }
 
 .underline {
@@ -405,11 +411,16 @@ img {
 }
 
 .mission-statement {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 500;
     font-style: italic;
     color: var(--primary-color);
     line-height: 1.5;
+}
+
+.mission-red {
+    color: #ff0000;
+    font-weight: normal;
 }
 
 /* Capabilities Section */
@@ -429,7 +440,7 @@ img {
 }
 
 .capabilities-title {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-bottom: 1.5rem;
     color: var(--dark-color);
     font-weight: 600;
@@ -450,6 +461,7 @@ img {
     margin-bottom: 15px;
     display: flex;
     align-items: flex-start;
+    font-size: 1.1rem;
 }
 
 .feature-list li i {
@@ -611,6 +623,7 @@ img {
 
 .benefit-card p {
     color: var(--gray-color);
+    font-size: 1.1rem;
 }
 
 /* Case Study Section */
@@ -659,6 +672,7 @@ img {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+    font-size: 1.1rem;
 }
 
 .success-points li i {

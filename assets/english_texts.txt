@@ -28,11 +28,25 @@ mission_text: To revolutionize business document intelligence through innovative
 ## Capabilities Section
 capabilities_heading: TECHNOLOGY
 capabilities_title: With our <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span> technology<br>you have immediate complete solutions
+capabilities_headline: Enhancing IP and legal work<br>with focused AI solutions
+capabilities_headline_2: Comprehensive solutions for complex documents
 mission_feature_1: You can instantly analyze entire sets of complex and related multilingual legal documents
 mission_feature_2: You can precisely extract all crucial information, focusing attention where it truly matters
 mission_feature_3: You can quickly generate precise risk assessments with detailed revision recommendations and operational guidance
 mission_feature_4: You can ensure perfect regulatory compliance and alignment with your company's policies
 mission_feature_5: You can effectively protect your intangible assets by managing the operational details of agreements signed by your company
+capability_1: Intelligent document context understanding
+capability_2: Automatic clause extraction and analysis
+capability_3: Risk detection in legal agreements
+capability_4: Multi-language support for international teams
+capability_5: Complex document comparison and reconciliation
+capability_6: High-quality summarization of lengthy documents
+capability_7: Natural language processing for accurate contract interpretation
+capability_8: Secure handling of confidential documents
+capability_9: Integration with existing document management systems
+capability_10: Customizable analysis for specific document types
+capability_11: Continuous learning from user feedback
+capability_12: Automated reporting and insights generation
 
 ## Solutions Section
 solutions_title: AI Assistants Available
@@ -103,7 +117,7 @@ learn_more: Learn More
 ## Benefits Section
 benefits_title: Why Choose Aviolab AI Solutions
 benefits_subtitle: Our AI solutions offer concrete benefits for your organization
-benefits_old_times: Say goodbye to stacks of paper and manual document processing
+benefits_old_times: Say goodbye to stacks of paper and manual document processing!
 
 benefit1_title: Efficiency
 benefit1_text: Reduce document analysis time from days to minutes, allowing your team to focus on high-value activities

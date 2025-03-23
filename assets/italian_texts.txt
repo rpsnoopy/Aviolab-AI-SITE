@@ -28,11 +28,25 @@ mission_text: Rivoluzionare l'intelligence documentale delle aziende mediante so
 ## Capabilities Section
 capabilities_heading: TECNOLOGIA
 capabilities_title: Con la nostra tecnologia <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span><br>hai soluzioni complete immediate
+capabilities_headline: Potenziamento del lavoro IP e legale<br>con soluzioni IA mirate
+capabilities_headline_2: Soluzioni complete per documenti complessi
 mission_feature_1: Puoi analizzare in un lampo interi set di documenti legali multilingue, anche complessi e correlati
 mission_feature_2: Puoi estrarre puntualmente tutte le informazioni cruciali, concentrando l'attenzione dove veramente serve
 mission_feature_3: Puoi generare rapidamente precise valutazioni di rischio declinate sulle varie parti del documento e ottenere dettagliate raccomandazioni operative
 mission_feature_4: Puoi garantire la perfetta conformità normativa e la compliance con le policy aziendali
 mission_feature_5: Puoi assicurare un'efficace protezione dei tuoi asset immateriali, curando i dettagli operativi degli accordi firmati dalla tua azienda
+capability_1: Comprensione intelligente del contesto dei documenti
+capability_2: Estrazione e analisi automatica delle clausole
+capability_3: Rilevamento dei rischi negli accordi legali
+capability_4: Supporto multilingue per team internazionali
+capability_5: Confronto e riconciliazione di documenti complessi
+capability_6: Sintesi di alta qualità per documenti estesi
+capability_7: Elaborazione del linguaggio naturale per un'interpretazione accurata dei contratti
+capability_8: Gestione sicura dei documenti riservati
+capability_9: Integrazione con i sistemi di gestione documentale esistenti
+capability_10: Analisi personalizzabile per tipologie specifiche di documenti
+capability_11: Apprendimento continuo dal feedback degli utenti
+capability_12: Generazione automatizzata di report e insight
 
 ## Solutions Section
 solutions_title: Assistenti IA Disponibili
@@ -103,7 +117,7 @@ learn_more: Scopri di più
 ## Benefits Section
 benefits_title: Perché Scegliere Soluzioni Aviolab AI
 benefits_subtitle: Le nostre soluzioni di IA offrono benefici concreti per la tua organizzazione
-benefits_old_times: Abbandona pile di carta e processi manuali sui documenti
+benefits_old_times: Abbandona pile di carta e processi manuali sui documenti!
 
 benefit1_title: Efficienza
 benefit1_text: Riduci i tempi di analisi documentale da giorni a minuti, permettendo al tuo team di concentrarsi su attività ad alto valore aggiunto
