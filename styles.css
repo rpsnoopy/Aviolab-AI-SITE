@@ -157,9 +157,10 @@ img {
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease;
-    z-index: 100;
+    z-index: 9999;
     text-transform: none;
     border-left: 3px solid var(--primary-color);
+    pointer-events: none;
 }
 
 /* Posizionamento intelligente del tooltip */
@@ -213,6 +214,7 @@ html[lang="en"] .simple-quote::before {
 .simple-quote:hover::before {
     opacity: 1;
     visibility: visible;
+    z-index: 9999;
 }
 
 .simple-quote {

@@ -23,7 +23,7 @@ hero_btn_contact: Contact Us
 
 ## Mission Section
 mission_title: OUR MISSION
-mission_text: To revolutionize business document intelligence through innovative AI solutions that transform complex technical and legal analyses into simple, accurate, and immediate <span class="highlight-quote">one-click</span> insights.
+mission_text: To revolutionize business document intelligence through innovative AI solutions that transform complex technical and legal analyses into simple, accurate, and immediate <span class="highlight-quote" data-tooltip="Drag & drop your document and click 'Go' - get instant analysis without complex setups. Advanced options available when needed.">One-Click</span> insights.
 
 ## Capabilities Section
 capabilities_heading: TECHNOLOGY
