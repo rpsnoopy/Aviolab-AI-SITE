@@ -16,18 +16,18 @@ nav_contact: Contact
 
 ## Hero Section
 hero_title: <span class="highlight">AI-Powered</span> Legal Intelligence
-hero_subtitle: <strong class="highlight-text" data-text="One-Click*">One-Click*</strong> Document Analysis<br>for Legal & Technical Professionals
+hero_subtitle: <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span> Document Analysis<br>for Legal & Technical Professionals
 hero_description: Transforming how organizations handle intellectual property, legal contracts, research agreements, license agreements, NDAs and technical presentations<br><strong><u>with state-of-the-art artificial intelligence.</u></strong>
 hero_btn_explore: Explore Solutions
 hero_btn_contact: Contact Us
 
 ## Mission Section
 mission_title: OUR MISSION
-mission_text: To revolutionize business document intelligence through innovative AI solutions that transform complex technical and legal analyses into simple, accurate, and immediate <strong class="highlight-text">One-Click*</strong> insights.
+mission_text: To revolutionize business document intelligence through innovative AI solutions that transform complex technical and legal analyses into simple, accurate, and immediate <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span> insights.
 
 ## Capabilities Section
 capabilities_heading: TECHNOLOGY
-capabilities_title: With our technologies, without any learning curve, you can choose <span style="color:blue;font-weight:bold;">One-Click</span> solutions:
+capabilities_title: With our <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span> technology<br>you have complete solutions immediately
 mission_feature_1: You can instantly analyze entire sets of complex and related multilingual legal documents
 mission_feature_2: You can precisely extract all crucial information, focusing attention where it truly matters
 mission_feature_3: You can quickly generate precise risk assessments with detailed revision recommendations and operational guidance
@@ -115,13 +115,13 @@ benefit3_title: Reliability
 benefit3_text: Ensure compliance with your company policies and legal standards through consistent, thorough analysis
 
 benefit4_title: Zero Learning Curve
-benefit4_text: Start using the technology immediately and fully: just upload your documents to instantly produce, <strong class="highlight-text">One-Click*</strong>, the required analysis
+benefit4_text: Start using the technology immediately and fully: just upload your documents to instantly produce, <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span>, the required analysis
 
 benefit5_title: Multilingual Support
 benefit5_text: Process documents in multiple languages, always ensuring the same accuracy and depth of analysis
 
 benefit6_title: User-Friendly
-benefit6_text: Leverage a simple and intuitive <strong class="highlight-text">One-Click*</strong> AI interface, designed for professionals with intensive work schedules
+benefit6_text: Leverage a simple and intuitive <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span> AI interface, designed for professionals with intensive work schedules
 
 ## Case Study Section
 case_study_title: Success Stories
@@ -173,4 +173,4 @@ footer_connect: Connect With Us
 footer_copyright: © 2025 Aviolab AI. All rights reserved.
 
 ## One-Click Note
-one_click_note: <b>(*) One-Click</b> <i>means to simply drag & drop your document and click 'Go' for instant analysis. Advanced options available when needed.</i>
+one_click_note: <span style="font-size:1.1rem;font-weight:bold;">(*) One-Click</span> <i>means to simply drag & drop your document and click 'Go' for instant analysis. Advanced options available when needed.</i>

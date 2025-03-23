@@ -161,10 +161,11 @@ img {
     vertical-align: middle;
 }
 
-.one-click-note b {
+/* Remove as One-Click is styled inline now */
+/* .one-click-note b {
     font-size: 0.9rem;
     vertical-align: baseline;
-}
+} */
 
 /* Removed .simple-quote as we're using .tooltip-container instead */
 
