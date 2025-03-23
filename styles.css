@@ -912,7 +912,9 @@ img {
 }
 
 .footer-bottom {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding-top: 20px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -920,6 +922,12 @@ img {
 .footer-bottom p {
     color: var(--light-gray);
     font-size: 0.9rem;
+}
+
+.version-number {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: monospace;
 }
 
 /* Responsive Styles */
@@ -985,6 +993,11 @@ img {
     .response-note {
         margin-left: 0;
         margin-top: 10px;
+    }
+    
+    .footer-bottom {
+        flex-direction: column;
+        gap: 10px;
     }
 }
 
