@@ -172,9 +172,7 @@ img {
     gap: 50px; /* Add more space between elements */
 }
 
-.logo img {
-    height: 45px;
-}
+/* CSS regola rimossa perché in conflitto con .logo-link img */
 
 .logo-link {
     display: flex;
@@ -182,6 +180,11 @@ img {
     text-decoration: none;
     transition: var(--transition);
     margin-right: 30px; /* Add right margin to push content away */
+}
+
+.logo-link img {
+    height: 40px;
+    width: auto;
 }
 
 .logo-link:hover {
