@@ -104,9 +104,10 @@ img {
 
 .btn-secondary {
     background-color: transparent;
-    color: var(--primary-color);
+    color: white;
     border: 2px solid var(--primary-color);
     margin-left: 15px;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
 
 .btn-secondary:hover {
@@ -117,15 +118,116 @@ img {
 }
 
 .highlight {
-    color: var(--primary-color);
+    color: #ff0000; /* Rosso del logo AI */
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+    font-weight: 700;
 }
 
 .highlight-quote {
-    color: var(--accent-color);
-    font-style: italic;
+    color: white;
+    font-style: normal;
     font-weight: 700;
     letter-spacing: 0.5px;
-    text-transform: uppercase;
+    text-transform: none;
+    position: relative;
+    display: inline-block;
+    background-color: var(--primary-color);
+    padding: 2px 6px;
+    border-radius: 4px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    cursor: help;
+}
+
+.highlight-quote::after,
+.simple-quote::after {
+    content: attr(data-tooltip);
+    white-space: normal;
+    position: absolute;
+    width: 250px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    color: var(--dark-color);
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-shadow: none;
+    line-height: 1.4;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 100;
+    text-transform: none;
+    border-left: 3px solid var(--primary-color);
+}
+
+/* Posizionamento intelligente del tooltip */
+/* Top-right (default per versione italiana) */
+.highlight-quote::after,
+.simple-quote::after {
+    top: -5px;
+    left: calc(100% + 15px);
+    transform: translateY(-100%);
+}
+
+/* Top-left (per versione inglese) */
+html[lang="en"] .highlight-quote::after,
+html[lang="en"] .simple-quote::after {
+    left: auto;
+    right: calc(100% + 15px);
+    transform: translateY(-100%);
+}
+
+.highlight-quote::before,
+.simple-quote::before {
+    content: '';
+    position: absolute;
+    border: 8px solid transparent;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 100;
+}
+
+/* Freccia per top-right (default per versione italiana) */
+.highlight-quote::before,
+.simple-quote::before {
+    top: 10px;
+    right: -16px;
+    transform: translateY(-100%) rotate(90deg);
+    border-bottom-color: white;
+}
+
+/* Freccia per top-left (per versione inglese) */
+html[lang="en"] .highlight-quote::before,
+html[lang="en"] .simple-quote::before {
+    right: auto;
+    left: -16px;
+    transform: translateY(-100%) rotate(-90deg);
+}
+
+.highlight-quote:hover::after,
+.highlight-quote:hover::before,
+.simple-quote:hover::after,
+.simple-quote:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.simple-quote {
+    cursor: help;
+}
+
+/* Versione semplice per occorrenze secondarie */
+.simple-quote {
+    position: relative;
+    display: inline-block;
+    color: var(--primary-color);
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: none;
 }
 
 .section {
@@ -143,11 +245,17 @@ img {
 }
 
 .old-times-text {
-    font-style: italic;
-    font-size: 1.1rem;
-    color: #666;
-    margin-top: 20px;
-    opacity: 0.9;
+    font-style: normal;
+    font-size: 1.7rem;
+    color: var(--primary-color);
+    margin: 25px auto 15px;
+    opacity: 1;
+    font-weight: 600;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+    border-bottom: none;
+    display: inline-block;
+    padding-bottom: 8px;
+    max-width: 90%;
 }
 
 .underline {
@@ -485,28 +593,27 @@ img {
 
 /* Benefits Section */
 .benefits-section {
-    background-color: white;
+    background: url('assets/images/oldtimes.jpg');
+    background-size: cover;
+    background-position: center;
     position: relative;
 }
 
 .benefits-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.97)), url('assets/images/oldtimes.jpg');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.2;
-    z-index: 1;
-    pointer-events: none;
+    display: none;
 }
 
 .benefits-section .container {
     position: relative;
     z-index: 2;
+}
+
+.section-header {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
 }
 
 .benefits-grid {
@@ -520,6 +627,8 @@ img {
     padding: 30px;
     border-radius: var(--border-radius);
     transition: var(--transition);
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .benefit-card:hover {
@@ -607,9 +716,9 @@ img {
 }
 
 .founder-testimonial {
-    background-color: white;
+    background-color: rgba(244, 247, 252, 0.95);
     border-radius: var(--border-radius);
-    box-shadow: var(--shadow);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
     padding: 40px;
     margin-top: 40px;
     position: relative;
@@ -617,6 +726,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 95%;
+    border-left: 5px solid var(--primary-color);
 }
 
 .founder-testimonial h3 {
@@ -848,6 +958,14 @@ img {
 
 .contact-cta {
     margin-top: 30px;
+}
+
+.contact-cta .btn-secondary {
+    color: var(--primary-color);
+}
+
+.contact-cta .btn-secondary:hover {
+    color: white;
 }
 
 /* Footer */

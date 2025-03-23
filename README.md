@@ -11,7 +11,8 @@ This is a simple, elegant one-page website for Aviolab AI built with HTML, CSS, 
 - Single-page design with smooth scrolling navigation
 - Mobile-first, responsive layout
 - Bilingual support (English and Italian)
-- Modern design with CSS animations
+- Modern design with CSS animations and full-background imagery
+- Enhanced UI elements including testimonial boxes and benefit cards
 - Interactive elements and contact form
 
 ## Tech Stack

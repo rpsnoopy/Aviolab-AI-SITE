@@ -15,8 +15,8 @@ nav_about: Chi Siamo
 nav_contact: Contatti
 
 ## Hero Section
-hero_title: Intelligenza Legale <span class="highlight">Potenziata dall'IA</span>
-hero_subtitle: Analisi Documentale <span class="highlight-quote">one-click</span> per Professionisti Legali e Tecnici
+hero_title: <span class="highlight">Intelligenza Legale</span><br>Potenziata dall'IA
+hero_subtitle: Analisi Documentale <span class="highlight-quote" data-tooltip="Trascina il documento e clicca 'Go' - ottieni analisi istantanee senza configurazioni complesse. Opzioni avanzate disponibili quando necessario.">One-Click</span> per Professionisti Legali e Tecnici
 hero_description: Trasformiamo il modo in cui le organizzazioni gestiscono la proprietà intellettuale, i contratti legali, gli accordi di ricerca, i contratti di licenza, gli NDA e le presentazioni tecniche grazie a un uso avanzato dell'IA.
 hero_btn_explore: Scopri le Soluzioni
 hero_btn_contact: Contattaci
@@ -112,16 +112,16 @@ benefit2_title: Competenza
 benefit2_text: Ottieni report ad alta precisione e dettaglio grazie a un'IA avanzata, addestrata su migliaia di documenti legali e tecnici
 
 benefit3_title: Affidabilità
-benefit3_text: Assicura la conformità alle policy aziendali e agli standard legali con un'analisi ripetibile e completa
+benefit3_text: Assicura la conformità alle tue policy aziendali e agli standard legali con un'analisi ripetibile e completa
 
 benefit4_title: Zero Curva di Apprendimento
-benefit4_text: Utilizza subito e pienamente la tecnologia: basta caricare i documenti per produrre istantaneamente, <span class="highlight-quote">one-click</span>, l'analisi richiesta
+benefit4_text: Utilizza subito e pienamente la tecnologia: basta caricare i documenti per produrre istantaneamente, <span class="simple-quote" data-tooltip="Trascina il documento e clicca 'Go' - ottieni analisi istantanee senza configurazioni complesse. Opzioni avanzate disponibili quando necessario.">One-Click</span>, l'analisi richiesta
 
 benefit5_title: Supporto Multilingue
 benefit5_text: Elabora documenti in più lingue, garantendo sempre la stessa accuratezza e profondità di analisi
 
 benefit6_title: Facilità d'Uso
-benefit6_text: Sfrutta un'interfaccia IA semplice e intuitiva <span class="highlight-quote">one-click</span>, pensata per professionisti con ritmi di lavoro intensi
+benefit6_text: Sfrutta un'interfaccia IA semplice e intuitiva <span class="simple-quote" data-tooltip="Trascina il documento e clicca 'Go' - ottieni analisi istantanee senza configurazioni complesse. Opzioni avanzate disponibili quando necessario.">One-Click</span>, pensata per professionisti con ritmi di lavoro intensi
 
 ## Case Study Section
 case_study_title: Storie di Successo
