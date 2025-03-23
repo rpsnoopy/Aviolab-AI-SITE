@@ -16,14 +16,14 @@ nav_contact: Contatti
 
 ## Hero Section
 hero_title: <span class="highlight">Intelligenza Legale</span> Potenziata dall'IA
-hero_subtitle: Analisi Documentale<br><span class="tooltip-container">One-Click<span class="tooltip-text">Trascina il documento e clicca 'Go' - ottieni analisi istantanee senza configurazioni complesse. Opzioni avanzate disponibili quando necessario.</span></span> per Professionisti Legali e Tecnici
+hero_subtitle: Analisi Documentale<br><strong class="highlight-text">One-Click</strong>(*) per Professionisti Legali e Tecnici
 hero_description: Trasformiamo il modo in cui le organizzazioni gestiscono la proprietà intellettuale, i contratti legali, gli accordi di ricerca, i contratti di licenza, gli NDA e le presentazioni tecniche<br><strong><u>con intelligenza artificiale allo stato dell'arte.</u></strong>
 hero_btn_explore: Scopri le Soluzioni
 hero_btn_contact: Contattaci
 
 ## Mission Section
 mission_title: OUR MISSION
-mission_text: Rivoluzionare l'intelligence documentale delle aziende mediante soluzioni IA innovative, in grado di trasformare le analisi tecnico-legali complesse in insight <span class="tooltip-container">One-Click<span class="tooltip-text">Trascina il documento e clicca 'Go' - ottieni analisi istantanee senza configurazioni complesse. Opzioni avanzate disponibili quando necessario.</span></span> semplici, accurati e immediati.
+mission_text: Rivoluzionare l'intelligence documentale delle aziende mediante soluzioni IA innovative, in grado di trasformare le analisi tecnico-legali complesse in insight <strong class="highlight-text">One-Click</strong>(*) semplici, accurati e immediati.
 
 ## Capabilities Section
 capabilities_heading: TECNOLOGIA
@@ -115,13 +115,13 @@ benefit3_title: Affidabilità
 benefit3_text: Assicura la conformità alle tue policy aziendali e agli standard legali con un'analisi ripetibile e completa
 
 benefit4_title: Zero Curva di Apprendimento
-benefit4_text: Utilizza subito e pienamente la tecnologia: basta caricare i documenti per produrre istantaneamente, <span class="tooltip-container">One-Click<span class="tooltip-text">Trascina il documento e clicca 'Go' - ottieni analisi istantanee senza configurazioni complesse. Opzioni avanzate disponibili quando necessario.</span></span>, l'analisi richiesta
+benefit4_text: Utilizza subito e pienamente la tecnologia: basta caricare i documenti per produrre istantaneamente, <strong class="highlight-text">One-Click</strong>(*), l'analisi richiesta
 
 benefit5_title: Supporto Multilingue
 benefit5_text: Elabora documenti in più lingue, garantendo sempre la stessa accuratezza e profondità di analisi
 
 benefit6_title: Facilità d'Uso
-benefit6_text: Sfrutta un'interfaccia IA semplice e intuitiva <span class="tooltip-container">One-Click<span class="tooltip-text">Trascina il documento e clicca 'Go' - ottieni analisi istantanee senza configurazioni complesse. Opzioni avanzate disponibili quando necessario.</span></span>, pensata per professionisti con ritmi di lavoro intensi
+benefit6_text: Sfrutta un'interfaccia IA semplice e intuitiva <strong class="highlight-text">One-Click</strong>(*), pensata per professionisti con ritmi di lavoro intensi
 
 ## Case Study Section
 case_study_title: Storie di Successo
@@ -170,3 +170,6 @@ footer_tagline: Analisi Documentale Intelligente
 footer_quick_links: Link Rapidi
 footer_connect: Connettiti con Noi
 footer_copyright: © 2025 Aviolab AI. Tutti i diritti riservati.
+
+## One-Click Note
+one_click_note: One-Click: Trascina il documento e clicca 'Go' - ottieni analisi istantanee senza configurazioni complesse. Opzioni avanzate disponibili quando necessario.
