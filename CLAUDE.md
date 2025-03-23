@@ -10,6 +10,7 @@
 - **Translation Updates**: Run `node update-translations.js` after editing text files
 - **Contact Form**: Using FormSubmit.co service (action="https://formsubmit.co/ed4f9f2929019cdfc327f3485c8654e4" method="POST")
 - **Git Workflow**: After making changes, add with `git add .`, commit with `git commit -m "Your message"` and push with `git push origin main`
+- **Current Version**: v1.0.29 - All favicon files moved to root directory for maximum compatibility
 
 ## 🎨 Code Style Guidelines
 - **HTML**: Semantic tags, 4-space indentation, BEM-inspired classes, data-i18n for translations
@@ -30,6 +31,18 @@
 - `assets/` - Images, logos, founder photos, and content files
 - `assets/images/` - Website imagery (hero, mission, case study)
 - `efforts/` - Additional assets like email signatures (with clickable logo/name links to site), letterheads, and templates
+
+### Favicon Configuration
+- All favicon files are in the root directory:
+  - `favicon.ico` - Basic favicon (16x16, 32x32, 48x48)
+  - `favicon.svg` - Vector version
+  - `favicon-96x96.png` - 96x96 pixel version
+  - `apple-touch-icon.png` - For iOS/iPadOS
+  - `mstile-*.png` files - For Windows tiles
+  - `web-app-manifest-*.png` files - For PWA support
+  - `site.webmanifest` - Web app manifest file
+- HTML uses relative paths to these files in the root directory
+- The previous configuration with subfolders is archived in `OLD_Assets`
 
 ## 📝 Development Workflow
 
