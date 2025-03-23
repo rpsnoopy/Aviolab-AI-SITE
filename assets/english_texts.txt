@@ -27,7 +27,7 @@ mission_text: To revolutionize business document intelligence through innovative
 
 ## Capabilities Section
 capabilities_heading: TECHNOLOGY
-capabilities_title: With our <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span> technology<br>you have complete solutions immediately
+capabilities_title: With our <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span> technology<br>you have immediate complete solutions
 mission_feature_1: You can instantly analyze entire sets of complex and related multilingual legal documents
 mission_feature_2: You can precisely extract all crucial information, focusing attention where it truly matters
 mission_feature_3: You can quickly generate precise risk assessments with detailed revision recommendations and operational guidance

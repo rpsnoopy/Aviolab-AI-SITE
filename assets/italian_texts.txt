@@ -27,7 +27,7 @@ mission_text: Rivoluzionare l'intelligence documentale delle aziende mediante so
 
 ## Capabilities Section
 capabilities_heading: TECNOLOGIA
-capabilities_title: Con la nostra tecnologia <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span><br>hai soluzioni complete in modo immediato
+capabilities_title: Con la nostra tecnologia <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span><br>hai soluzioni complete immediate
 mission_feature_1: Puoi analizzare in un lampo interi set di documenti legali multilingue, anche complessi e correlati
 mission_feature_2: Puoi estrarre puntualmente tutte le informazioni cruciali, concentrando l'attenzione dove veramente serve
 mission_feature_3: Puoi generare rapidamente precise valutazioni di rischio declinate sulle varie parti del documento e ottenere dettagliate raccomandazioni operative
