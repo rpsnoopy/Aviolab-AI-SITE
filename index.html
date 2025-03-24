@@ -17,6 +17,19 @@
     <!-- iOS & iPadOS Icons -->
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <meta name="apple-mobile-web-app-title" content="Aviolab.ai">
+    
+    <!-- Fix for Italian title colors -->
+    <style>
+        .it .hero-content h1 span:first-child {
+            color: white !important;
+            text-shadow: none !important;
+        }
+        .it .hero-content h1 span:last-child {
+            color: #ff0000 !important;
+            text-shadow: 0 0 6px rgba(0, 0, 0, 0.6) !important;
+            font-weight: 700 !important;
+        }
+    </style>
 
     <!-- Windows Icons -->
     <meta name="application-name" content="Aviolab.ai">
@@ -509,7 +522,7 @@
             </div>
             <div class="footer-bottom">
                 <p data-i18n="footer_copyright">&copy; 2025 Aviolab AI. All rights reserved.</p>
-                <p class="version-number">v1.0.92</p>
+                <p class="version-number">v1.0.93</p>
             </div>
         </div>
     </footer>

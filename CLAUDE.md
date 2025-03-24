@@ -10,7 +10,7 @@
 - **Translation Updates**: Run `node update-translations.js` after editing text files
 - **Contact Form**: Using FormSubmit.co service (action="https://formsubmit.co/ed4f9f2929019cdfc327f3485c8654e4" method="POST")
 - **Git Workflow**: After making changes, add with `git add .`, commit with `git commit -m "Your message"` and push with `git push origin main`
-- **Current Version**: v1.0.92 - Fixed hero title color formatting in Italian version with stronger style override
+- **Current Version**: v1.0.93 - Fixed hero title color formatting in Italian version with direct CSS rules in head
 - **Version Numbering**: After every revision, increment the rightmost number of the version string (e.g., v1.1.00 → v1.1.01)
 
 ## 🎨 Code Style Guidelines
