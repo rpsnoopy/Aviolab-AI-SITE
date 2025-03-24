@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aviolab AI - Download Area">
+    <meta name="author" content="Riccardo Parenti">
+    <meta name="keywords" content="AI, legal tech, document analysis, NDA, intellectual property, contract analysis">
+    <title>Aviolab AI | Download Area</title>
+
+    <!-- Basic Favicons - all in root directory -->
+    <link rel="icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- iOS & iPadOS Icons -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="Aviolab.ai">
+
+    <!-- Windows Icons -->
+    <meta name="application-name" content="Aviolab.ai">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="mstile-150x150.png">
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png">
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png">
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png">
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="site.webmanifest">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="download-styles.css">
+    <script defer src="js/translations.js"></script>
+    <script defer src="script.js"></script>
+    <script defer src="download.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header id="header">
+        <div class="header-container">
+            <a href="index.html" class="logo-link">
+                <img src="assets/logo.png" alt="Aviolab AI Logo">
+                <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html#mission" class="nav-link" data-i18n="nav_mission">Mission</a></li>
+                    <li><a href="index.html#capabilities" class="nav-link" data-i18n="nav_capabilities">Capabilities</a></li>
+                    <li><a href="index.html#products" class="nav-link" data-i18n="nav_solutions">Solutions</a></li>
+                    <li class="dropdown">
+                        <a href="index.html#benefits" class="nav-link" data-i18n="nav_benefits">Benefits</a>
+                        <div class="dropdown-content">
+                            <a href="index.html#case-study" data-i18n="nav_case_studies">Case Studies</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="index.html#about" class="nav-link" data-i18n="nav_about">About</a>
+                        <div class="dropdown-content">
+                            <a href="index.html#contact" data-i18n="nav_contact">Contact</a>
+                        </div>
+                    </li>
+                    <li><a href="download.html" class="nav-link download-link active" data-i18n="nav_download">Download</a></li>
+                </ul>
+            </nav>
+            <div class="language-selector">
+                <div class="lang-option" data-lang="en">EN</div>
+                <div class="lang-option" data-lang="it">IT</div>
+            </div>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="download-area">
+        <div class="container">
+            <div class="auth-container" id="authContainer">
+                <div class="section-header">
+                    <h2 data-i18n="download_title">Download Area</h2>
+                    <div class="underline"></div>
+                    <p class="section-subtitle" data-i18n="download_subtitle">Access your personalized resources</p>
+                </div>
+                
+                <div class="auth-box">
+                    <div class="auth-step" id="emailStep">
+                        <h3 data-i18n="auth_email_title">Enter Your Email</h3>
+                        <p data-i18n="auth_email_desc">Please enter your registered email address to receive a verification code.</p>
+                        <div class="form-group">
+                            <input type="email" id="emailInput" placeholder="Your email address" required>
+                        </div>
+                        <button class="btn btn-primary" id="requestCodeBtn" data-i18n="auth_request_code">Request Code</button>
+                        <div class="auth-message" id="emailMessage"></div>
+                    </div>
+
+                    <div class="auth-step" id="codeStep">
+                        <h3 data-i18n="auth_code_title">Enter Verification Code</h3>
+                        <p data-i18n="auth_code_desc">We've sent a verification code to your email. Please enter it below.</p>
+                        <p class="email-display"><span id="displayEmail"></span></p>
+                        <div class="form-group verification-code">
+                            <input type="text" id="codeInput" placeholder="6-digit code" maxlength="6" required>
+                        </div>
+                        <div class="timer-container">
+                            <span data-i18n="auth_code_expires">Code expires in:</span> <span id="codeTimer">5:00</span>
+                        </div>
+                        <div class="auth-buttons">
+                            <button class="btn btn-primary" id="verifyCodeBtn" data-i18n="auth_verify_code">Verify Code</button>
+                            <button class="btn btn-secondary" id="resendCodeBtn" data-i18n="auth_resend_code">Resend Code</button>
+                            <button class="btn btn-secondary" id="backToEmailBtn" data-i18n="auth_back">Back</button>
+                        </div>
+                        <div class="auth-message" id="codeMessage"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="files-container" id="filesContainer">
+                <div class="section-header">
+                    <h2 data-i18n="files_area_title">Your Files</h2>
+                    <div class="underline"></div>
+                    <p class="welcome-message" id="welcomeMessage"></p>
+                </div>
+
+                <div class="files-controls">
+                    <div class="upload-section">
+                        <input type="file" id="fileUpload" class="file-input" multiple>
+                        <label for="fileUpload" class="file-input-label">
+                            <i class="fas fa-cloud-upload-alt"></i> <span data-i18n="upload_files">Upload Files</span>
+                        </label>
+                        <button id="uploadBtn" class="btn btn-primary" data-i18n="upload_button">Upload</button>
+                    </div>
+                    <div class="search-section">
+                        <input type="text" id="searchFiles" placeholder="Search files..." data-i18n-placeholder="search_placeholder">
+                    </div>
+                </div>
+
+                <div class="files-table-container">
+                    <table class="files-table">
+                        <thead>
+                            <tr>
+                                <th data-i18n="file_name">File Name</th>
+                                <th data-i18n="file_size">Size</th>
+                                <th data-i18n="file_uploaded">Uploaded</th>
+                                <th data-i18n="file_by">By</th>
+                                <th data-i18n="file_checksum">Checksum (SHA-256)</th>
+                                <th data-i18n="file_actions">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="filesList">
+                            <!-- Files will be populated here via JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="no-files" id="noFiles" data-i18n="no_files">No files available. Upload some files to get started.</div>
+
+                <div class="logout-section">
+                    <button id="logoutBtn" class="btn btn-secondary">
+                        <i class="fas fa-sign-out-alt"></i> <span data-i18n="logout">Logout</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html" class="logo-link">
+                        <img src="assets/logo.png" alt="Aviolab AI Logo">
+                        <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+                    </a>
+                    <p data-i18n="footer_tagline">Intelligent Document Analysis</p>
+                    <div class="legal-info">
+                        <p>AVIOLAB AI DI PARENTI RICCARDO</p>
+                        <p>Via XXV Aprile 251</p>
+                        <p>IT16031 Pieve Ligure (GE)</p>
+                        <p>P.IVA 02997110990</p>
+                        <p>REA GE - 525625</p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3 data-i18n="footer_quick_links">Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#mission" data-i18n="nav_mission">Mission</a></li>
+                        <li><a href="index.html#capabilities" data-i18n="nav_capabilities">Capabilities</a></li>
+                        <li><a href="index.html#products" data-i18n="nav_solutions">Solutions</a></li>
+                        <li><a href="index.html#benefits" data-i18n="nav_benefits">Benefits</a></li>
+                        <li><a href="index.html#case-study" data-i18n="nav_case_studies">Case Studies</a></li>
+                        <li><a href="index.html#about" data-i18n="nav_about">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3 data-i18n="footer_connect">Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer_copyright">&copy; 2025 Aviolab AI. All rights reserved.</p>
+                <p class="version-number">v1.1.00</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

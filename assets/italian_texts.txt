@@ -15,6 +15,48 @@ nav_about: Chi Siamo
 nav_contact: Contatti
 nav_download: Download
 
+# Download Area translations
+download_title: Area Download
+download_subtitle: Accedi alle tue risorse personalizzate
+auth_email_title: Inserisci la tua email
+auth_email_desc: Inserisci il tuo indirizzo email registrato per ricevere un codice di verifica.
+auth_request_code: Richiedi Codice
+auth_code_title: Inserisci il Codice di Verifica
+auth_code_desc: Abbiamo inviato un codice di verifica alla tua email. Inseriscilo qui sotto.
+auth_code_expires: Il codice scade in:
+auth_verify_code: Verifica Codice
+auth_resend_code: Nuovo Codice
+auth_back: Indietro
+files_area_title: I Tuoi File
+upload_files: Carica File
+upload_button: Carica
+search_placeholder: Cerca file...
+file_name: Nome File
+file_size: Dimensione
+file_uploaded: Caricato il
+file_by: Da
+file_checksum: Checksum (SHA-256)
+file_actions: Azioni
+no_files: Nessun file disponibile. Carica alcuni file per iniziare.
+logout: Esci
+welcome: Benvenuto
+email_required: Inserisci il tuo indirizzo email
+email_invalid: Inserisci un indirizzo email valido
+email_not_registered: Questa email non è registrata
+code_required: Inserisci il codice di verifica
+code_expired: Il codice di verifica è scaduto
+code_incorrect: Codice di verifica errato. Riprova.
+code_attempts_exceeded: Troppi tentativi errati. Richiedi un nuovo codice.
+code_resent: Un nuovo codice di verifica è stato inviato alla tua email
+no_files_selected: Seleziona i file da caricare
+files_uploaded: File caricati con successo
+no_files_found: Nessun file corrisponde alla tua ricerca
+file_not_found: File non trovato
+downloading: Download in corso
+confirm_delete: Sei sicuro di voler eliminare
+download: Scarica
+delete: Elimina
+
 ## Hero Section
 hero_title: <span class="highlight">Intelligenza Legale</span> Potenziata dall'IA
 hero_subtitle: Analisi Documentale <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span><br>per Professionisti Legali e Tecnici

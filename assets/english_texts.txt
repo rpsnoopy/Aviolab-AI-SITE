@@ -15,6 +15,48 @@ nav_about: About
 nav_contact: Contact
 nav_download: Download
 
+# Download Area translations
+download_title: Download Area
+download_subtitle: Access your personalized resources
+auth_email_title: Enter Your Email
+auth_email_desc: Please enter your registered email address to receive a verification code.
+auth_request_code: Request Code
+auth_code_title: Enter Verification Code
+auth_code_desc: We've sent a verification code to your email. Please enter it below.
+auth_code_expires: Code expires in:
+auth_verify_code: Verify Code
+auth_resend_code: Resend Code
+auth_back: Back
+files_area_title: Your Files
+upload_files: Upload Files
+upload_button: Upload
+search_placeholder: Search files...
+file_name: File Name
+file_size: Size
+file_uploaded: Uploaded
+file_by: By
+file_checksum: Checksum (SHA-256)
+file_actions: Actions
+no_files: No files available. Upload some files to get started.
+logout: Logout
+welcome: Welcome
+email_required: Please enter your email address
+email_invalid: Please enter a valid email address
+email_not_registered: This email is not registered
+code_required: Please enter the verification code
+code_expired: Verification code has expired
+code_incorrect: Incorrect verification code. Please try again.
+code_attempts_exceeded: Too many incorrect attempts. Please request a new code.
+code_resent: A new verification code has been sent to your email
+no_files_selected: Please select files to upload
+files_uploaded: Files uploaded successfully
+no_files_found: No files matching your search
+file_not_found: File not found
+downloading: Downloading
+confirm_delete: Are you sure you want to delete
+download: Download
+delete: Delete
+
 ## Hero Section
 hero_title: <span class="highlight">AI-Powered</span> Legal Intelligence
 hero_subtitle: <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span> Document Analysis<br>for Legal & Technical Professionals
