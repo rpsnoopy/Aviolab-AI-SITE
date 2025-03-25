@@ -476,8 +476,12 @@ body.it .hero-content h1 span:last-child {
     font-size: 14px;
     color: #ffffff;
     margin: 0;
-    font-style: italic;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.hero-one-click-note i {
+    font-style: italic;
+    font-weight: normal;
 }
 
 /* Mission Section */
