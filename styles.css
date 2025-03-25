@@ -457,8 +457,27 @@ body.it .hero-content h1 span:last-child {
     opacity: 0.9;
 }
 
-.cta-buttons {
-    margin-top: 2rem;
+.hero-content .cta-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.hero-one-click-note {
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 12px 20px;
+    border-radius: 6px;
+    max-width: 90%;
+    border-left: 3px solid var(--accent-color);
+}
+
+.hero-one-click-note p {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0;
+    font-style: italic;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 /* Mission Section */
