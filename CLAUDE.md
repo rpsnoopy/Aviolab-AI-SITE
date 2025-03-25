@@ -10,7 +10,7 @@
 - **Translation Updates**: Run `node update-translations.js` after editing text files
 - **Contact Form**: Using FormSubmit.co service (action="https://formsubmit.co/ed4f9f2929019cdfc327f3485c8654e4" method="POST")
 - **Git Workflow**: After making changes, add with `git add .`, commit with `git commit -m "Your message"` and push with `git push origin main`
-- **Current Version**: v1.1.11 - Migliorata struttura progetto con cartella unica OLD per file archivio
+- **Current Version**: v1.1.12 - Implementata rilevazione paese da IP per selezione automatica della lingua
 - **Version Numbering**: After every revision, increment the rightmost number of the version string (e.g., v1.1.00 → v1.1.01) both in CLAUDE.md and in the footer of index.html
 
 ## 🎨 Code Style Guidelines
