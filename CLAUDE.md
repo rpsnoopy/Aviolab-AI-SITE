@@ -10,7 +10,7 @@
 - **Translation Updates**: Run `node update-translations.js` after editing text files
 - **Contact Form**: Using FormSubmit.co service (action="https://formsubmit.co/ed4f9f2929019cdfc327f3485c8654e4" method="POST")
 - **Git Workflow**: After making changes, add with `git add .`, commit with `git commit -m "Your message"` and push with `git push origin main`
-- **Current Version**: v1.1.08 - Added direct CSS selector for Italian title highlight regardless of HTML structure
+- **Current Version**: v1.1.09 - Migrated Font Awesome from CDN to local hosting for reduced external dependencies
 - **Version Numbering**: After every revision, increment the rightmost number of the version string (e.g., v1.1.00 → v1.1.01)
 
 ## 🎨 Code Style Guidelines
@@ -32,6 +32,7 @@
 - `assets/` - Images, logos, founder photos, and content files
 - `assets/images/` - Website imagery (hero, mission, case study)
 - `efforts/` - Additional assets like email signatures (with clickable logo/name links to site), letterheads, and templates
+- `fonts/fontawesome/` - Locally hosted Font Awesome icons (v6.4.0)
 
 ### Favicon Configuration
 - All favicon files are in the root directory:
