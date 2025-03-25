@@ -1,19 +1,28 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Initialize language
-    // Controlla se l'utente ha già una preferenza di lingua salvata
-    let userLanguagePreference = localStorage.getItem('language');
-
-    // Se non c'è preferenza salvata, determiniamo la lingua in base all'IP
-    if (!userLanguagePreference) {
-        detectUserLocation();
-    } else {
-        // Utilizziamo la preferenza salvata ma se è IT mostriamo sempre il prompt
-        setLanguage(userLanguagePreference);
+    // Prima controlliamo se c'è una preferenza per la sessione corrente
+    let sessionLanguagePreference = sessionStorage.getItem('language');
+    let permanentLanguagePreference = localStorage.getItem('language');
+    
+    if (sessionLanguagePreference) {
+        // Usiamo la preferenza di sessione se disponibile
+        setLanguage(sessionLanguagePreference);
         
-        // Se la lingua salvata è italiano, mostriamo comunque il prompt di selezione lingua
-        if (userLanguagePreference === 'it' && !localStorage.getItem('languagePromptDismissed')) {
+        // Controlliamo se mostrare il prompt per la lingua italiana
+        if (sessionLanguagePreference === 'it' && !sessionStorage.getItem('languagePromptDismissed')) {
             setTimeout(showLanguagePrompt, 1500);
         }
+    } else if (permanentLanguagePreference) {
+        // Altrimenti usiamo la preferenza permanente se disponibile
+        setLanguage(permanentLanguagePreference);
+        
+        // Se la lingua è italiana, mostriamo sempre il prompt all'inizio di una nuova sessione
+        if (permanentLanguagePreference === 'it') {
+            setTimeout(showLanguagePrompt, 1500);
+        }
+    } else {
+        // Se non ci sono preferenze, determiniamo la lingua in base all'IP
+        detectUserLocation();
     }
 
     // Funzione per impostare la lingua dell'interfaccia
@@ -89,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <button class="btn-switch-english">Switch to English</button>
                 </div>
                 <label class="remember-choice">
-                    <input type="checkbox" id="remember-lang-choice"> Ricorda la mia scelta
+                    <input type="checkbox" id="remember-lang-choice"> Ricorda la mia scelta per questa sessione
                 </label>
             </div>
         `;
@@ -222,17 +231,20 @@ document.addEventListener("DOMContentLoaded", function () {
         keepItalianBtn.addEventListener('click', function() {
             setLanguage('it');
             if (rememberChoiceCheckbox.checked) {
-                localStorage.setItem('language', 'it');
-                localStorage.setItem('languagePromptDismissed', 'true');
+                sessionStorage.setItem('language', 'it');
+                sessionStorage.setItem('languagePromptDismissed', 'true');
             }
             removePrompt();
         });
         
         switchEnglishBtn.addEventListener('click', function() {
             setLanguage('en');
-            localStorage.setItem('language', 'en');
             if (rememberChoiceCheckbox.checked) {
-                localStorage.setItem('languagePromptDismissed', 'true');
+                sessionStorage.setItem('language', 'en');
+                sessionStorage.setItem('languagePromptDismissed', 'true');
+            } else {
+                // Se non deve ricordare, salva in localStorage solo per questa volta
+                localStorage.setItem('language', 'en');
             }
             
             // Ricarica la pagina per applicare le traduzioni
