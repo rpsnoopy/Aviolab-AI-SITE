@@ -151,7 +151,7 @@ const translations = {
         "footer_quick_links": "Quick Links",
         "footer_connect": "Connect With Us",
         "footer_copyright": "© 2025 Aviolab AI. All rights reserved.",
-        "one_click_note": "<span style=\"font-size:1.1rem;font-weight:bold;\">(*) One-Click</span> <i>means to simply drag & drop your document and click 'Go' for instant analysis. Advanced options available when needed.</i>"
+        "one_click_note": "<span style=\"font-size:1.1rem;font-weight:bold;color:#ff0000;\">(*) One-Click</span> <i>means you have to simply drag & drop your document and click 'Go' to obtain immediately a complete analysis. Advanced options available when needed.</i>"
     },
     "it": {
         "nav_home": "Home",
@@ -300,6 +300,6 @@ const translations = {
         "footer_quick_links": "Link Rapidi",
         "footer_connect": "Connettiti con Noi",
         "footer_copyright": "© 2025 Aviolab AI. Tutti i diritti riservati.",
-        "one_click_note": "<span style=\"font-size:1.1rem;font-weight:bold;\">(*) One-Click</span> <i>significa trascinare il documento e cliccare 'Go' per un'analisi istantanea. Opzioni avanzate disponibili se necessario.</i>"
+        "one_click_note": "<span style=\"font-size:1.1rem;font-weight:bold;color:#ff0000;\">(*) One-Click</span> <i>significa dover semplicemente trascinare il documento e cliccare 'Go' per ottenere istantaneamente una analisi completa. Opzioni avanzate disponibili se necessario.</i>"
     }
 };

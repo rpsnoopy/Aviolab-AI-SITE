@@ -341,7 +341,19 @@ document.addEventListener("DOMContentLoaded", function () {
                         content = paragraphs.map(p => `<p>${p}</p>`).join('');
                     }
                     
-                    element.innerHTML = content;
+                    // Se l'elemento ha la classe preserve-formatting, applichiamo l'HTML senza sovrascrivere stili
+                    if (element.classList.contains('preserve-formatting')) {
+                        element.innerHTML = content;
+                        // Assicuriamo che gli stili inline siano preservati
+                        const spans = element.querySelectorAll('span');
+                        spans.forEach(span => {
+                            if (span.style.color) span.style.color = span.style.color;
+                            if (span.style.fontWeight) span.style.fontWeight = span.style.fontWeight;
+                            if (span.style.fontSize) span.style.fontSize = span.style.fontSize;
+                        });
+                    } else {
+                        element.innerHTML = content;
+                    }
                 }
             }
         });
