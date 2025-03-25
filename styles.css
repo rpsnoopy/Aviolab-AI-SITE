@@ -337,10 +337,16 @@ img {
     font-weight: 500;
     font-size: 0.85rem;
     transition: var(--transition);
+    border-left: 3px solid transparent;
+}
+
+.dropdown-content a:first-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .dropdown-content a:hover {
     background-color: rgba(59, 130, 246, 0.2);
+    border-left: 3px solid var(--accent-color);
 }
 
 .dropdown:hover .dropdown-content {
