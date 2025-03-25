@@ -26,6 +26,7 @@ hero_btn_contact: Contact Us
 mission_title: OUR MISSION
 mission_text: To revolutionize business document intelligence through innovative AI solutions that transform complex technical and legal analyses into simple, accurate, and immediate <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span> insights.
 mission_statement: We create intelligent AI systems that transform the way legal professionals work with complex documents, making sophisticated analysis accessible, accurate, and efficient for everyone.
+mission_subtitle: Building AI-powered solutions for legal challenges
 
 ## Capabilities Section
 capabilities_heading: TECHNOLOGY

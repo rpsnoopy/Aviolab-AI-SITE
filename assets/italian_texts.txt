@@ -26,6 +26,7 @@ hero_btn_contact: Contattaci
 mission_title: LA NOSTRA MISSIONE
 mission_text: Rivoluzionare l'intelligence documentale delle aziende mediante soluzioni IA innovative, in grado di trasformare le analisi tecnico-legali complesse in insight <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span> semplici, accurati e immediati.
 mission_statement: Creiamo sistemi IA intelligenti che trasformano il modo in cui i professionisti legali lavorano con documenti complessi, rendendo l'analisi sofisticata accessibile, accurata ed efficiente per tutti.
+mission_subtitle: Costruiamo soluzioni basate sull'IA per sfide legali
 
 ## Capabilities Section
 capabilities_heading: TECNOLOGIA
