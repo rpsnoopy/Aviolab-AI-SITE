@@ -72,7 +72,13 @@ document.addEventListener("DOMContentLoaded", function () {
         promptElement.className = 'language-prompt';
         promptElement.innerHTML = `
             <div class="language-prompt-container">
-                <p>Sembra che tu stia visitando dall'Italia. Preferisci visualizzare il sito in inglese?</p>
+                <div class="prompt-header">
+                    <div class="prompt-logo-container">
+                        <img src="assets/logo.png" alt="Aviolab AI Logo" class="prompt-logo">
+                        <span class="prompt-logo-text">AVIOLAB <span class="prompt-logo-text-highlight">AI</span></span>
+                    </div>
+                    <p>Benvenuto! Sembra che tu stia visitando dall'Italia.<br>Preferisci visualizzare il sito in inglese?</p>
+                </div>
                 <div class="language-prompt-buttons">
                     <button class="btn-keep-italian">Mantieni Italiano</button>
                     <button class="btn-switch-english">Switch to English</button>
@@ -91,57 +97,97 @@ document.addEventListener("DOMContentLoaded", function () {
                 bottom: 20px;
                 left: 50%;
                 transform: translateX(-50%);
-                background-color: rgba(255, 255, 255, 0.95);
-                box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-                padding: 15px;
+                background-color: #1a1a1a;
+                color: #fff;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+                padding: 20px;
                 border-radius: 8px;
                 z-index: 1000;
-                max-width: 500px;
+                max-width: 550px;
                 width: 90%;
                 animation: fadeIn 0.3s ease-in-out;
+                border: 1px solid rgba(255, 0, 0, 0.3);
             }
             
             .language-prompt-container {
                 text-align: center;
             }
             
-            .language-prompt p {
+            .prompt-header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            
+            .prompt-logo-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
                 margin-bottom: 15px;
+            }
+            
+            .prompt-logo {
+                width: 70px;
+                height: auto;
+                margin-bottom: 8px;
+            }
+            
+            .prompt-logo-text {
+                font-family: Verdana, sans-serif;
+                font-weight: bold;
                 font-size: 16px;
+                color: #c0c0c0;
+                letter-spacing: 1px;
+            }
+            
+            .prompt-logo-text-highlight {
+                color: #ff0000;
+            }
+            
+            .language-prompt p {
+                margin: 0;
+                font-size: 16px;
+                text-align: center;
+                line-height: 1.4;
+                max-width: 450px;
             }
             
             .language-prompt-buttons {
                 display: flex;
                 justify-content: center;
                 gap: 15px;
-                margin-bottom: 10px;
+                margin: 15px 0 10px;
             }
             
             .language-prompt button {
-                padding: 8px 16px;
+                padding: 10px 18px;
                 border: none;
                 border-radius: 4px;
                 cursor: pointer;
                 font-weight: 500;
-                transition: background-color 0.2s;
+                transition: all 0.2s;
+                font-size: 15px;
             }
             
             .btn-keep-italian {
-                background-color: #f0f0f0;
-                color: #333;
+                background-color: #333333;
+                color: #fff;
+                border: 1px solid rgba(255, 255, 255, 0.2);
             }
             
             .btn-switch-english {
-                background-color: var(--primary-color);
+                background-color: #ff0000;
                 color: white;
             }
             
             .btn-keep-italian:hover {
-                background-color: #e0e0e0;
+                background-color: #444444;
             }
             
             .btn-switch-english:hover {
-                background-color: var(--accent-color);
+                background-color: #cc0000;
             }
             
             .remember-choice {
@@ -150,6 +196,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 align-items: center;
                 justify-content: center;
                 gap: 5px;
+                color: #bbbbbb;
             }
             
             @keyframes fadeIn {
