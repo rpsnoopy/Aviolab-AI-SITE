@@ -11,6 +11,7 @@
     --transition: all 0.3s ease;
     --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
     --border-radius: 8px;
+    --highlight-color: #ff0000;
 }
 
 * {
@@ -432,9 +433,16 @@ img {
 }
 
 .hero-content h1 .highlight {
-    color: #ff0000;
-    text-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
-    font-weight: 700;
+    color: #ff0000 !important;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.6) !important;
+    font-weight: 700 !important;
+}
+
+/* Stile specifico per titolo hero in italiano */
+body.it .hero-content h1 span:last-child {
+    color: #ff0000 !important;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.6) !important;
+    font-weight: 700 !important;
 }
 
 .hero-content h2 {
