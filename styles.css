@@ -431,6 +431,12 @@ img {
     line-height: 1.2;
 }
 
+.hero-content h1 .highlight {
+    color: #ff0000;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+    font-weight: 700;
+}
+
 .hero-content h2 {
     font-size: 1.8rem;
     font-weight: 500;
