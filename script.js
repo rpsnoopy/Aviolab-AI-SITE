@@ -7,8 +7,13 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!userLanguagePreference) {
         detectUserLocation();
     } else {
-        // Utilizziamo la preferenza salvata
+        // Utilizziamo la preferenza salvata ma se è IT mostriamo sempre il prompt
         setLanguage(userLanguagePreference);
+        
+        // Se la lingua salvata è italiano, mostriamo comunque il prompt di selezione lingua
+        if (userLanguagePreference === 'it' && !localStorage.getItem('languagePromptDismissed')) {
+            setTimeout(showLanguagePrompt, 1500);
+        }
     }
 
     // Funzione per impostare la lingua dell'interfaccia
