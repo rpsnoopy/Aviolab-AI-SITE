@@ -32,40 +32,40 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
     
-    // Language selector functionality
+    // Language selector functionality - NUOVO APPROCCIO CON RICARICAMENTO PAGINA
     const languageSelector = document.querySelector('.language-selector');
     if (languageSelector) {
+        // Aggiungi la classe active all'opzione della lingua corrente
         languageSelector.querySelector(`[data-lang="${currentLanguage}"]`).classList.add('active');
         
+        // Gestione del cambio lingua con ricaricamento della pagina
         languageSelector.querySelectorAll('.lang-option').forEach(option => {
             option.addEventListener('click', function() {
                 const lang = this.getAttribute('data-lang');
                 if (lang !== currentLanguage) {
-                    currentLanguage = lang;
+                    // Salva la nuova preferenza di lingua
                     localStorage.setItem('language', lang);
-                    document.documentElement.lang = lang;
                     
-                    // Update body class for styling
-                    if (lang === 'it') {
-                        document.body.classList.add('it');
-                    } else {
-                        document.body.classList.remove('it');
-                    }
+                    // Salva la posizione di scorrimento attuale per ripristinarla dopo il ricaricamento
+                    const currentScroll = window.scrollY;
+                    sessionStorage.setItem('scrollPosition', currentScroll);
                     
-                    // Update active class
-                    languageSelector.querySelectorAll('.lang-option').forEach(opt => {
-                        opt.classList.remove('active');
-                    });
-                    this.classList.add('active');
-                    
-                    // Apply translations
-                    applyTranslations();
+                    // Ricarica la pagina per applicare la nuova lingua
+                    window.location.reload();
                 }
             });
         });
     }
     
-    // Apply initial translations
+    // Ripristina la posizione di scorrimento dopo il cambio lingua
+    if (sessionStorage.getItem('scrollPosition')) {
+        const savedPosition = parseInt(sessionStorage.getItem('scrollPosition'));
+        window.scrollTo(0, savedPosition);
+        // Pulisci la posizione salvata dopo averla usata
+        sessionStorage.removeItem('scrollPosition');
+    }
+    
+    // Apply translations
     applyTranslations();
     
     // Function to apply translations based on current language
@@ -185,66 +185,8 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener('scroll', revealOnScroll);
     revealOnScroll();
     
-    // Rimosso il gestore di eventi del modulo poiché ora utilizziamo FormSubmit
-});
-
-// Add CSS classes for animations
-document.addEventListener("DOMContentLoaded", function () {
     // Add a class to body after page load to trigger animations
     setTimeout(function() {
         document.body.classList.add('loaded');
     }, 100);
-});
-
-// Funzione per garantire la corretta colorazione del titolo evidenziato
-function ensureHighlightStyling() {
-    // Per la versione inglese
-    if (document.documentElement.lang === 'en' || document.body.classList.contains('en')) {
-        const englishHighlight = document.querySelector('.hero-content h1 .highlight');
-        if (englishHighlight) {
-            englishHighlight.style.color = '#ff0000';
-            englishHighlight.style.textShadow = '0 0 6px rgba(0, 0, 0, 0.6)';
-            englishHighlight.style.fontWeight = '700';
-        }
-    }
-
-    // Per la versione italiana
-    if (document.documentElement.lang === 'it' || document.body.classList.contains('it')) {
-        // Trova tutti gli elementi span nel titolo hero
-        const italianTitleSpans = document.querySelectorAll('.hero-content h1 span');
-        italianTitleSpans.forEach(span => {
-            // Tre condizioni: 
-            // 1. Contiene la frase "Potenziata dall'IA" 
-            // 2. Ha la classe highlight
-            // 3. Ha già uno stile inline con color:#ff0000
-            if (span.textContent.includes("Potenziata dall'IA") || 
-                span.classList.contains('highlight') || 
-                (span.getAttribute('style') && span.getAttribute('style').includes('color:#ff0000'))) {
-                
-                // Forza lo stile tramite JS per garantire la compatibilità con tutti i browser
-                span.style.cssText += '; color: #ff0000 !important; text-shadow: 0 0 6px rgba(0, 0, 0, 0.6) !important; font-weight: 700 !important;';
-            }
-        });
-    }
-}
-
-// Esegui la funzione dopo che il DOM è completamente caricato
-document.addEventListener('DOMContentLoaded', function() {
-    // Esegui subito
-    ensureHighlightStyling();
-
-    // Esegui anche dopo un breve ritardo per assicurarti che le traduzioni siano state applicate
-    setTimeout(ensureHighlightStyling, 100);
-
-    // Per sicurezza, esegui anche dopo un ritardo più lungo
-    setTimeout(ensureHighlightStyling, 500);
-
-    // Inoltre, aggancia la funzione all'evento di cambio lingua
-    const langOptions = document.querySelectorAll('.lang-option');
-    langOptions.forEach(option => {
-        option.addEventListener('click', function() {
-            // Aspetta un momento per dare tempo al sistema di traduzione di fare il suo lavoro
-            setTimeout(ensureHighlightStyling, 100);
-        });
-    });
 });
