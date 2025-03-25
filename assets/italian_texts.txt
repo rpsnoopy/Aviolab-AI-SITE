@@ -16,7 +16,7 @@ nav_contact: Contatti
 nav_download: Download
 
 ## Hero Section
-hero_title: <span>Intelligenza Legale</span> <span class="highlight">Potenziata dall'IA</span>
+hero_title: <span>Intelligenza Legale</span> <span style="color:#ff0000;text-shadow:0 0 6px rgba(0,0,0,0.6);font-weight:700;">Potenziata dall'IA</span>
 hero_subtitle: Analisi Documentale <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span><br>per Professionisti Legali e Tecnici
 hero_description: Trasformiamo il modo in cui le organizzazioni gestiscono la proprietà intellettuale, i contratti legali, gli accordi di ricerca, i contratti di licenza, gli NDA e le presentazioni tecniche<br><strong><u>con intelligenza artificiale allo stato dell'arte.</u></strong>
 hero_btn_explore: Scopri le Soluzioni

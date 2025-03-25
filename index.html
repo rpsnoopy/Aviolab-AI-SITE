@@ -20,8 +20,9 @@
     
     <!-- Fix for title colors -->
     <style>
-        /* All versions */
-        .hero-content h1 .highlight {
+        /* Direct styling with high specificity for hero titles */
+        .hero-content h1 .highlight,
+        body.it .hero-content h1 span:last-child {
             color: #ff0000 !important;
             text-shadow: 0 0 6px rgba(0, 0, 0, 0.6) !important;
             font-weight: 700 !important;
@@ -521,7 +522,7 @@
             </div>
             <div class="footer-bottom">
                 <p data-i18n="footer_copyright">&copy; 2025 Aviolab AI. All rights reserved.</p>
-                <p class="version-number">v1.0.99</p>
+                <p class="version-number">v1.1.00</p>
             </div>
         </div>
     </footer>
