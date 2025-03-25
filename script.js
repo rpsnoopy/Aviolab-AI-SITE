@@ -213,11 +213,16 @@ function ensureHighlightStyling() {
         // Trova tutti gli elementi span nel titolo hero
         const italianTitleSpans = document.querySelectorAll('.hero-content h1 span');
         italianTitleSpans.forEach(span => {
-            // Se contiene la frase "Potenziata dall'IA" o ha la classe highlight
-            if (span.textContent.includes("Potenziata dall'IA") || span.classList.contains('highlight')) {
-                span.style.color = '#ff0000';
-                span.style.textShadow = '0 0 6px rgba(0, 0, 0, 0.6)';
-                span.style.fontWeight = '700';
+            // Tre condizioni: 
+            // 1. Contiene la frase "Potenziata dall'IA" 
+            // 2. Ha la classe highlight
+            // 3. Ha già uno stile inline con color:#ff0000
+            if (span.textContent.includes("Potenziata dall'IA") || 
+                span.classList.contains('highlight') || 
+                (span.getAttribute('style') && span.getAttribute('style').includes('color:#ff0000'))) {
+                
+                // Forza lo stile tramite JS per garantire la compatibilità con tutti i browser
+                span.style.cssText += '; color: #ff0000 !important; text-shadow: 0 0 6px rgba(0, 0, 0, 0.6) !important; font-weight: 700 !important;';
             }
         });
     }

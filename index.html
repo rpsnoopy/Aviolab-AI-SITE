@@ -20,10 +20,22 @@
     
     <!-- Fix for title colors -->
     <style>
-        /* Direct styling with high specificity for hero titles - improved targeting for Italian version */
+        /* Soluzione robusta per la colorazione dei titoli - massima compatibilità con tutti i browser */
+        /* Versione inglese */
         .hero-content h1 .highlight,
+        
+        /* Versione italiana - triplo selettore per massima compatibilità */
         body.it .hero-content h1 span[style*="color:#ff0000"],
-        body.it .hero-content h1 .highlight {
+        body.it .hero-content h1 .highlight,
+        body.it .hero-content h1 span:contains("Potenziata dall'IA") {
+            color: #ff0000 !important;
+            text-shadow: 0 0 6px rgba(0, 0, 0, 0.6) !important;
+            font-weight: 700 !important;
+        }
+        
+        /* Styling backup per effettuare l'override di qualsiasi stile contrastante */
+        [data-i18n="hero_title"] span.highlight,
+        [data-i18n="hero_title"] span[style*="color:#ff0000"] {
             color: #ff0000 !important;
             text-shadow: 0 0 6px rgba(0, 0, 0, 0.6) !important;
             font-weight: 700 !important;
@@ -521,7 +533,7 @@
             </div>
             <div class="footer-bottom">
                 <p data-i18n="footer_copyright">&copy; 2025 Aviolab AI. All rights reserved.</p>
-                <p class="version-number">v1.1.05</p>
+                <p class="version-number">v1.1.06</p>
             </div>
         </div>
     </footer>
