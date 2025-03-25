@@ -2,6 +2,11 @@ document.addEventListener("DOMContentLoaded", function () {
     // Initialize language
     let currentLanguage = localStorage.getItem('language') || 'en';
     document.documentElement.lang = currentLanguage;
+    if (currentLanguage === 'it') {
+        document.body.classList.add('it');
+    } else {
+        document.body.classList.remove('it');
+    }
     
     // Check for thank you page parameter
     const urlParams = new URLSearchParams(window.location.search);
@@ -39,6 +44,13 @@ document.addEventListener("DOMContentLoaded", function () {
                     currentLanguage = lang;
                     localStorage.setItem('language', lang);
                     document.documentElement.lang = lang;
+                    
+                    // Update body class for styling
+                    if (lang === 'it') {
+                        document.body.classList.add('it');
+                    } else {
+                        document.body.classList.remove('it');
+                    }
                     
                     // Update active class
                     languageSelector.querySelectorAll('.lang-option').forEach(opt => {
