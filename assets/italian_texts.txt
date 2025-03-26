@@ -13,27 +13,23 @@ nav_benefits: Vantaggi
 nav_case_studies: Casi di Studio
 nav_about: Chi Siamo
 nav_contact: Contatti
-nav_download: Download
 
 ## Hero Section
-hero_title: <span>Intelligenza Legale</span> <span class="highlight" style="color:#ff0000;text-shadow:0 0 6px rgba(0,0,0,0.6);font-weight:700;">Potenziata dall'IA</span>
+hero_title: <span class="highlight">Intelligenza Legale</span> Potenziata dall'IA
 hero_subtitle: Analisi Documentale <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span><br>per Professionisti Legali e Tecnici
-hero_description: La nostra tecnologia AI avanzata aiuta i team legali e i professionisti a gestire, analizzare ed estrarre valore da documenti complessi in modo più efficiente che mai.
+hero_description: Trasformiamo il modo in cui le organizzazioni gestiscono la proprietà intellettuale, i contratti legali, gli accordi di ricerca, i contratti di licenza, gli NDA e le presentazioni tecniche<br><strong><u>con intelligenza artificiale allo stato dell'arte.</u></strong>
 hero_btn_explore: Scopri le Soluzioni
 hero_btn_contact: Contattaci
 
 ## Mission Section
-mission_title: LA NOSTRA MISSIONE
+mission_title: OUR MISSION
 mission_text: Rivoluzionare l'intelligence documentale delle aziende mediante soluzioni IA innovative, in grado di trasformare le analisi tecnico-legali complesse in insight <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span> semplici, accurati e immediati.
-mission_statement: Creiamo sistemi IA intelligenti che trasformano il modo in cui i professionisti legali lavorano con documenti complessi, rendendo l'analisi sofisticata accessibile, accurata ed efficiente per tutti.
-mission_subtitle: Costruiamo soluzioni basate sull'IA per sfide legali
 
 ## Capabilities Section
 capabilities_heading: TECNOLOGIA
 capabilities_title: Con la nostra tecnologia <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span><br>hai soluzioni complete immediate
 capabilities_headline: Potenziamento del lavoro IP e legale<br>con soluzioni IA mirate
 capabilities_headline_2: Soluzioni complete per documenti complessi
-capabilities_subtitle: Come la nostra IA potenzia la gestione dei tuoi documenti
 mission_feature_1: Puoi analizzare in un lampo interi set di documenti legali multilingue, anche complessi e correlati
 mission_feature_2: Puoi estrarre puntualmente tutte le informazioni cruciali, concentrando l'attenzione dove veramente serve
 mission_feature_3: Puoi generare rapidamente precise valutazioni di rischio declinate sulle varie parti del documento e ottenere dettagliate raccomandazioni operative
@@ -57,7 +53,7 @@ solutions_title: Assistenti IA Disponibili
 solutions_subtitle: Soluzioni avanzate di analisi documentale granulare, che analizzano <strong><u>ogni clausola e ogni paragrafo</u></strong>, calibrate sulle reali esigenze aziendali
 
 # Solution 1
-solution1_title: ANALISI IP<br>Offerte, Gare e Documenti Correlati (GTC, etc)
+solution1_title: ANALISI IP<br>di Offerte, Gare e Documenti Correlati (GTC, etc)
 solution1_intro: Analisi completa che copre diversi aspetti, tra cui:
 solution1_item1: Gestione della riservatezza e delle disclosure
 solution1_item2: Diritti di proprietà intellettuale e relative titolarità
@@ -67,7 +63,7 @@ solution1_item5: Obblighi e restrizioni per l'uso futuro
 solution1_item6: Rischi e misure di sicurezza nella gestione delle informazioni
 
 # Solution 2
-solution2_title: ANALISI IP<br>Accordi di Ricerca e di Partnership Tecnologica
+solution2_title: ANALISI IP<br>di Accordi di Ricerca e di Partnership Tecnologica
 solution2_intro: Valutazione completa dei partenariati di ricerca, con attenzione a:
 solution2_item1: Definizione dell'ambito e dei confini del progetto
 solution2_item2: Metodologie operative e responsabilità
@@ -115,7 +111,6 @@ solution6_item3: Raccomandazioni strategiche di revisione
 solution6_item4: Integrazione con strutture contrattuali esistenti
 solution6_item5: Verifica di conformità ai requisiti di policy
 
-
 learn_more: Scopri di più
 
 ## Benefits Section
@@ -161,7 +156,6 @@ founder_testimonial_citation: — Riccardo Parenti, Founder & CTO
 
 ## About Section
 about_title: Il Fondatore
-about_subtitle: Conosci l'esperto dietro Aviolab AI
 founder_name: Riccardo Parenti
 founder_position: Founder & CTO
 founder_bio1: Riccardo Parenti è un esperto di soluzioni tecnico-legali basate sull'intelligenza artificiale e sfrutta la sua esperienza nel settore tecnologico e legale per rivoluzionare l'analisi documentale.
@@ -191,4 +185,4 @@ footer_connect: Connettiti con Noi
 footer_copyright: © 2025 Aviolab AI. Tutti i diritti riservati.
 
 ## One-Click Note
-one_click_note: <span style="color:#ff0000;font-weight:bold;white-space:nowrap;font-size:1.1rem;">(*) One-Click</span> <i>puoi semplicemente trascinare il documento con il mouse nella applicazione e cliccare 'Go' per ottenere un'analisi istantanea e completa. Opzioni avanzate disponibili se necessario.</i>
+one_click_note: <span style="font-size:1.1rem;font-weight:bold;">(*) One-Click</span> <i>significa trascinare il documento e cliccare 'Go' per un'analisi istantanea. Opzioni avanzate disponibili se necessario.</i>
