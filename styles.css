@@ -12,6 +12,8 @@
     --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
     --border-radius: 8px;
     --highlight-color: #ff0000;
+    --one-click-color: #ff0000;
+    --one-click-font-size: 1.8rem;
 }
 
 * {
@@ -500,8 +502,21 @@ body.it .hero-content h1 span:last-child {
     gap: 5px;
 }
 
+.one-click {
+    color: var(--one-click-color) !important;
+    font-weight: bold !important;
+    font-family: var(--font-primary);
+    white-space: nowrap !important;
+    letter-spacing: -0.2px;
+}
+
+/* One-Click nella hero section con dimensione specifica */
+.hero-content .one-click {
+    font-size: 1.8rem !important;
+}
+
 .hero-one-click-note span {
-    color: #ff0000 !important;
+    color: var(--one-click-color) !important;
     font-weight: bold !important;
     font-family: var(--font-primary);
     letter-spacing: -0.2px;
