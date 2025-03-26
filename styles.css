@@ -499,7 +499,7 @@ body.it .hero-content h1 span:last-child {
     height: 100%;
     width: 100%;
     position: relative;
-    animation: marqueeSlide 20s linear infinite;
+    animation: marqueeSlide 15s linear infinite;
     transform: translateZ(0); /* Force hardware acceleration */
     will-change: transform; /* Hint for browser optimization */
 }
@@ -522,7 +522,7 @@ body.it .hero-content h1 span:last-child {
 
 @keyframes marqueeSlide {
     0% {
-        transform: translateX(100%);
+        transform: translateX(20%);
     }
     100% {
         transform: translateX(-100%);
