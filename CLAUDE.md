@@ -11,7 +11,7 @@
 - **Contact Form**: Using FormSubmit.co service (action="https://formsubmit.co/ed4f9f2929019cdfc327f3485c8654e4" method="POST")
 - **Git Workflow**: After making changes, add with `git add .`, commit with `git commit -m "Your message"` and push with `git push origin main`
 - **⚠️ IMPORTANT**: Claude can ONLY help with commits but will NEVER push changes to remote repositories
-- **Current Version**: v1.1.27 - Migliorata sezione fondatore con testo più professionale ed efficace
+- **Current Version**: v1.1.28 - Aggiunta informazione su deployment flessibile (cloud e locale) nella sezione hero
 - **Version Numbering**: After every revision, increment the rightmost number of the version string (e.g., v1.1.00 → v1.1.01) both in CLAUDE.md and in the footer of index.html
 
 ## 🎨 Code Style Guidelines
