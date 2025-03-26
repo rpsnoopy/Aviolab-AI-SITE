@@ -495,11 +495,16 @@ body.it .hero-content h1 span:last-child {
     display: flex;
     align-items: center;
     justify-content: center;
-    white-space: nowrap;
     height: 100%;
     width: 100%;
     position: relative;
-    animation: marqueeSlide 15s linear infinite;
+    overflow: hidden;
+}
+
+.marquee-items {
+    display: flex;
+    white-space: nowrap;
+    animation: marqueeContinuous 12s linear infinite;
     transform: translateZ(0); /* Force hardware acceleration */
     will-change: transform; /* Hint for browser optimization */
 }
@@ -510,7 +515,7 @@ body.it .hero-content h1 span:last-child {
     font-size: 1.2rem;
     font-weight: 500;
     text-align: center;
-    padding: 0 20px; /* Add padding for better visibility */
+    padding: 0 50px; /* Add padding between copies */
 }
 
 .marquee-content span .highlight {
@@ -520,9 +525,9 @@ body.it .hero-content h1 span:last-child {
     font-size: 1.4rem;
 }
 
-@keyframes marqueeSlide {
+@keyframes marqueeContinuous {
     0% {
-        transform: translateX(20%);
+        transform: translateX(0);
     }
     100% {
         transform: translateX(-100%);
