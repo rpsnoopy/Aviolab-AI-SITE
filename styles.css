@@ -437,6 +437,7 @@ img {
     background-position: center;
     margin-top: 0;
     padding-top: 80px;
+    padding-bottom: 50px; /* Space for the ticker banner */
     color: white;
 }
 
@@ -477,16 +478,47 @@ body.it .hero-content h1 span:last-child {
     opacity: 0.9;
 }
 
-.hero-deployment {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-size: 1.1rem;
-    padding: 12px 15px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-left: 3px solid #ff0000;
-    border-radius: 3px;
-    text-align: left;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+/* Ticker Banner */
+.hero-ticker-banner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(30, 64, 175, 0.8);
+    overflow: hidden;
+    height: 50px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ticker-content {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    height: 100%;
+    animation: ticker 25s linear infinite;
+}
+
+.ticker-content span {
+    display: inline-block;
+    padding: 0 50px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.ticker-content span .highlight {
+    color: #ff0000;
+    font-weight: 700;
+    padding-right: 5px;
+}
+
+@keyframes ticker {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); /* Scorri fino al punto di duplicazione */
+    }
 }
 
 .hero-content .cta-buttons {
