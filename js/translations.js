@@ -150,7 +150,14 @@ const translations = {
         "footer_quick_links": "Quick Links",
         "footer_connect": "Connect With Us",
         "footer_copyright": "© 2025 Aviolab AI. All rights reserved.",
-        "one_click_note": "<span style=\"font-size:1.2rem;font-weight:bold;color:#ff0000;\">One-Click</span><span style=\"font-size:1.2rem;color:#ff0000;\">*</span> means you just drag and drop your document into the application and click <span style=\"font-size:1.3rem;font-weight:bold;color:#ff0000;\">GO</span> to receive an instant, comprehensive analysis. Advanced options are available as needed."
+        "one_click_note": "<span style=\"font-size:1.2rem;font-weight:bold;color:#ff0000;\">One-Click</span><span style=\"font-size:1.2rem;color:#ff0000;\">*</span> means you just drag and drop your document into the application and click <span style=\"font-size:1.3rem;font-weight:bold;color:#ff0000;\">GO</span> to receive an instant, comprehensive analysis. Advanced options are available as needed.",
+        "download_title": "Download",
+        "download_subtitle": "Get our brochures and presentation materials",
+        "download_brochure_en": "English Brochure",
+        "download_brochure_en_desc": "Comprehensive information about Aviolab AI solutions in English",
+        "download_brochure_it": "Italian Brochure",
+        "download_brochure_it_desc": "Comprehensive information about Aviolab AI solutions in Italian",
+        "download_btn": "Download PDF"
     },
     "it": {
         "nav_home": "Home",
@@ -298,6 +305,13 @@ const translations = {
         "footer_quick_links": "Link Rapidi",
         "footer_connect": "Connettiti con Noi",
         "footer_copyright": "© 2025 Aviolab AI. Tutti i diritti riservati.",
-        "one_click_note": "<span style=\"font-size:1.2rem;font-weight:bold;color:#ff0000;\">One-Click</span><span style=\"font-size:1.2rem;color:#ff0000;\">*</span> significa che è sufficiente trascinare il documento nell'applicazione e cliccare su <span style=\"font-size:1.3rem;font-weight:bold;color:#ff0000;\">GO</span><br>per ottenere un'analisi immediata e completa. Opzioni avanzate sono disponibili quando necessario."
+        "one_click_note": "<span style=\"font-size:1.2rem;font-weight:bold;color:#ff0000;\">One-Click</span><span style=\"font-size:1.2rem;color:#ff0000;\">*</span> significa che è sufficiente trascinare il documento nell'applicazione e cliccare su <span style=\"font-size:1.3rem;font-weight:bold;color:#ff0000;\">GO</span><br>per ottenere un'analisi immediata e completa. Opzioni avanzate sono disponibili quando necessario.",
+        "download_title": "Download",
+        "download_subtitle": "Scarica le nostre brochure e i materiali di presentazione",
+        "download_brochure_en": "Brochure in Inglese",
+        "download_brochure_en_desc": "Informazioni complete sulle soluzioni Aviolab AI in inglese",
+        "download_brochure_it": "Brochure in Italiano",
+        "download_brochure_it_desc": "Informazioni complete sulle soluzioni Aviolab AI in italiano",
+        "download_btn": "Scarica PDF"
     }
 };
