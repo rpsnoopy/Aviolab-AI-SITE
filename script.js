@@ -274,6 +274,10 @@ document.addEventListener("DOMContentLoaded", function () {
     // Check for thank you page parameter
     const urlParams = new URLSearchParams(window.location.search);
     if (urlParams.get('thanks') === 'true') {
+        // Imposta sempre che il prompt della lingua è già stato mostrato
+        // così che non riappaia quando torniamo dal form
+        sessionStorage.setItem('languagePromptShown', 'true');
+        
         const contactSection = document.getElementById('contact');
         if (contactSection) {
             // Scroll to contact section
