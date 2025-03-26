@@ -17,16 +17,18 @@ nav_contact: Contatti
 ## Hero Section
 hero_title: <span class="highlight">Intelligenza Legale</span> Potenziata dall'IA
 hero_subtitle: Analisi Documentale <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span><br>per Professionisti Legali e Tecnici
-hero_description: Trasformiamo il modo in cui le organizzazioni gestiscono la proprietà intellettuale, i contratti legali, gli accordi di ricerca, i contratti di licenza, gli NDA e le presentazioni tecniche<br><strong><u>con intelligenza artificiale allo stato dell'arte.</u></strong>
+hero_description: Trasformiamo il modo in cui le organizzazioni gestiscono proprietà intellettuale, contratti legali, accordi di ricerca, licenze, NDA e documentazione tecnica<br><strong><u>grazie a un'intelligenza artificiale allo stato dell'arte.</u></strong>
 hero_btn_explore: Scopri le Soluzioni
 hero_btn_contact: Contattaci
 
 ## Mission Section
-mission_title: OUR MISSION
-mission_text: Rivoluzionare l'intelligence documentale delle aziende mediante soluzioni IA innovative, in grado di trasformare le analisi tecnico-legali complesse in insight <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span> semplici, accurati e immediati.
+mission_title: MISSION
+mission_subtitle: Soluzioni potenziate dall'AI per le sfide legali
+mission_statement: Progettiamo sistemi di intelligenza artificiale che trasformano il modo in cui i professionisti legali lavorano con documenti complessi, rendendo l'analisi avanzata accessibile, precisa ed efficiente.
 
 ## Capabilities Section
 capabilities_heading: TECNOLOGIA
+capabilities_subtitle: Come la nostra IA potenzia la gestione dei tuoi documenti
 capabilities_title: Con la nostra tecnologia <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span><br>hai soluzioni complete immediate
 capabilities_headline: Potenziamento del lavoro IP e legale<br>con soluzioni IA mirate
 capabilities_headline_2: Soluzioni complete per documenti complessi
@@ -38,9 +40,9 @@ mission_feature_5: Puoi assicurare un'efficace protezione dei tuoi asset immater
 capability_1: Comprensione intelligente del contesto dei documenti
 capability_2: Estrazione e analisi automatica delle clausole
 capability_3: Rilevamento dei rischi negli accordi legali
-capability_4: Supporto multilingue per team internazionali
+capability_4: Supporto in più lingue per team globali
 capability_5: Confronto e riconciliazione di documenti complessi
-capability_6: Sintesi di alta qualità per documenti estesi
+capability_6: Sintesi di qualità per documenti complessi
 capability_7: Elaborazione del linguaggio naturale per un'interpretazione accurata dei contratti
 capability_8: Gestione sicura dei documenti riservati
 capability_9: Integrazione con i sistemi di gestione documentale esistenti
@@ -116,7 +118,7 @@ learn_more: Scopri di più
 ## Benefits Section
 benefits_title: Perché Scegliere Soluzioni Aviolab AI
 benefits_subtitle: Le nostre soluzioni di IA offrono benefici concreti per la tua organizzazione
-benefits_old_times: Abbandona pile di carta e processi manuali sui documenti!
+benefits_old_times: Dimentica pile di carta e processi manuali: semplifica il lavoro con l'analisi intelligente dei documenti.
 
 benefit1_title: Efficienza
 benefit1_text: Riduci i tempi di analisi documentale da giorni a minuti, permettendo al tuo team di concentrarsi su attività ad alto valore aggiunto
@@ -149,13 +151,14 @@ case_study_point5: Valutazione specifica del livello di rischio per ogni critici
 case_study_point6: Rafforzamento del controllo sugli asset IP e della sicurezza nelle negoziazioni contrattuali
 founder_testimonial_title: Dal Fondatore
 founder_para_1: Quando ho creato Aviolab AI, sapevo quanto fosse complesso e rischioso analizzare contratti di proprietà intellettuale. Troppe variabili, troppi dettagli da verificare manualmente.
-founder_para_2: Oggi, con la Suite TTR, chi gestisce IP può caricare documenti e ottenere un'analisi completa in pochi minuti, con la certezza che ogni connessione sia stata valutata. Un grande gruppo industriale ci ha raccontato come prima impiegasse giorni per esaminare accordi complessi, mentre ora il lavoro si completa in poche ore, e per NDA o contratti più semplici, persino in pochi minuti.
+founder_para_2: Oggi, con la Suite TTR, chi gestisce IP può caricare documenti e ottenere un'analisi completa in pochi minuti, con la certezza che ogni connessione sia stata valutata. Un grande gruppo industriale ci ha raccontato come prima impiegasse giorni per esaminare accordi complessi, mentre oggi le stesse attività richiedono poche ore — o persino minuti, nel caso di NDA o contratti semplici.
 founder_para_3: Abbiamo anche migliorato la comunicazione tra team legali internazionali: la Suite TTR genera commenti impeccabili e proposte di revisione del testo in perfetto linguaggio legale in qualsiasi lingua, garantendo coerenza e precisione.
 founder_para_4: Abbiamo trasformato un processo critico in un vantaggio strategico. Con la Suite TTR, proteggere gli asset IP è più semplice, veloce e sicuro.
 founder_testimonial_citation: — Riccardo Parenti, Founder & CTO
 
 ## About Section
 about_title: Il Fondatore
+about_subtitle: Conosci l'esperto dietro Aviolab AI
 founder_name: Riccardo Parenti
 founder_position: Founder & CTO
 founder_bio1: Riccardo Parenti è un esperto di soluzioni tecnico-legali basate sull'intelligenza artificiale e sfrutta la sua esperienza nel settore tecnologico e legale per rivoluzionare l'analisi documentale.
@@ -185,4 +188,4 @@ footer_connect: Connettiti con Noi
 footer_copyright: © 2025 Aviolab AI. Tutti i diritti riservati.
 
 ## One-Click Note
-one_click_note: <span style="font-size:1.1rem;font-weight:bold;">(*) One-Click</span> <i>significa trascinare il documento e cliccare 'Go' per un'analisi istantanea. Opzioni avanzate disponibili se necessario.</i>
+one_click_note: <span style="font-size:1.2rem;font-weight:bold;color:#ff0000;">One-Click</span><span style="font-size:1.2rem;color:#ff0000;">*</span> significa che è sufficiente trascinare il documento nell'applicazione e cliccare su <span style="font-size:1.3rem;font-weight:bold;color:#ff0000;">GO</span><br>per ottenere un'analisi immediata e completa. Opzioni avanzate sono disponibili quando necessario.

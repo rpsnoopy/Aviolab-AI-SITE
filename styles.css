@@ -488,7 +488,7 @@ body.it .hero-content h1 span:last-child {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 12px 20px;
     border-radius: 6px;
-    max-width: 90%;
+    max-width: 95%;
     border-left: 3px solid var(--accent-color);
 }
 
@@ -496,10 +496,9 @@ body.it .hero-content h1 span:last-child {
     font-size: 14px;
     margin: 0;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 5px;
+    white-space: normal;
+    word-break: keep-all;
+    word-wrap: normal;
 }
 
 .one-click {
@@ -520,6 +519,7 @@ body.it .hero-content h1 span:last-child {
     font-weight: bold !important;
     font-family: var(--font-primary);
     letter-spacing: -0.2px;
+    display: inline !important;
 }
 
 .hero-one-click-note i {
