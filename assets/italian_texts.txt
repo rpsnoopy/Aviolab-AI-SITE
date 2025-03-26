@@ -191,4 +191,4 @@ footer_connect: Connettiti con Noi
 footer_copyright: © 2025 Aviolab AI. Tutti i diritti riservati.
 
 ## One-Click Note
-one_click_note: <span style="font-size:1.1rem;font-weight:bold;">(*) One-Click</span> <i>significa trascinare il documento e cliccare 'Go' per un'analisi istantanea. Opzioni avanzate disponibili se necessario.</i>
+one_click_note: <span style="color:#ff0000;font-weight:bold;white-space:nowrap;font-size:1.1rem;">(*) One-Click</span> <i>significa trascinare il documento e cliccare 'Go' per un'analisi istantanea. Opzioni avanzate disponibili se necessario.</i>

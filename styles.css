@@ -494,11 +494,17 @@ body.it .hero-content h1 span:last-child {
     font-size: 14px;
     margin: 0;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 
 .hero-one-click-note span {
     color: #ff0000 !important;
     font-weight: bold !important;
+    font-family: var(--font-primary);
+    letter-spacing: -0.2px;
 }
 
 .hero-one-click-note i {
