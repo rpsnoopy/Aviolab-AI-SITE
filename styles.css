@@ -484,7 +484,7 @@ body.it .hero-content h1 span:last-child {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(30, 64, 175, 0.8);
+    background-color: var(--dark-color); /* Stesso colore dell'header */
     overflow: hidden;
     height: 50px;
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
@@ -495,7 +495,8 @@ body.it .hero-content h1 span:last-child {
     align-items: center;
     white-space: nowrap;
     height: 100%;
-    animation: ticker 40s linear infinite; /* Aumentata durata per testo più lungo */
+    animation: ticker 40s linear infinite;
+    transform: translateX(50%); /* Inizia da metà schermo */
 }
 
 .ticker-content span {
@@ -510,14 +511,15 @@ body.it .hero-content h1 span:last-child {
     color: #ff0000;
     font-weight: 700;
     padding-right: 5px;
+    font-size: 1.4rem; /* Dimensione maggiore per "Flexible Deployment" */
 }
 
 @keyframes ticker {
     0% {
-        transform: translateX(0);
+        transform: translateX(50%); /* Inizia da metà schermo */
     }
     100% {
-        transform: translateX(-50%); /* Scorri fino al punto di duplicazione */
+        transform: translateX(-100%); /* Scorre completamente fuori */
     }
 }
 
