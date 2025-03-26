@@ -427,6 +427,7 @@ img {
 
 /* Hero Section */
 .hero-section {
+    height: 100vh;
     min-height: 700px;
     display: flex;
     align-items: center;
@@ -436,7 +437,7 @@ img {
     background-position: center;
     margin-top: 0;
     padding-top: 80px;
-    padding-bottom: 40px;
+    padding-bottom: 60px; /* Space for the deployment banner */
     color: white;
 }
 
@@ -477,39 +478,55 @@ body.it .hero-content h1 span:last-child {
     opacity: 0.9;
 }
 
-/* Static Banner */
-.hero-static-banner {
+/* Marquee Banner */
+.hero-marquee-banner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
     background-color: var(--dark-color);
     height: 60px;
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
-    margin-top: 30px;
+    overflow: hidden;
     z-index: 10;
-    border-radius: var(--border-radius);
 }
 
-.static-content {
+.marquee-content {
     display: flex;
     align-items: center;
     justify-content: center;
+    white-space: nowrap;
     height: 100%;
     width: 100%;
-    padding: 0 15px;
+    position: relative;
+    animation: marqueeSlide 20s linear infinite;
+    transform: translateZ(0); /* Force hardware acceleration */
+    will-change: transform; /* Hint for browser optimization */
 }
 
-.static-content span {
+.marquee-content span {
+    display: inline-block;
     color: white;
     font-size: 1.2rem;
     font-weight: 500;
     text-align: center;
-    line-height: 1.4;
+    padding: 0 20px; /* Add padding for better visibility */
 }
 
-.static-content span .highlight {
+.marquee-content span .highlight {
     color: #ff0000;
     font-weight: 700;
     padding-right: 5px;
     font-size: 1.4rem;
+}
+
+@keyframes marqueeSlide {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 .hero-content .cta-buttons {
@@ -1398,16 +1415,6 @@ body.it .hero-content h1 span:last-child {
         font-size: 1.5rem;
     }
     
-    .hero-static-banner {
-        height: auto;
-        min-height: 60px;
-        padding: 10px 0;
-    }
-    
-    .static-content span {
-        font-size: 1rem;
-    }
-    
     .solutions-grid,
     .benefits-grid {
         grid-template-columns: 1fr;
@@ -1450,14 +1457,5 @@ body.it .hero-content h1 span:last-child {
     
     .section-header {
         margin-bottom: 40px;
-    }
-    
-    .hero-static-banner {
-        min-height: 80px;
-        padding: 15px 10px;
-    }
-    
-    .static-content span {
-        font-size: 0.9rem;
     }
 }
