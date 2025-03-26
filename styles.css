@@ -478,8 +478,8 @@ body.it .hero-content h1 span:last-child {
     opacity: 0.9;
 }
 
-/* Deployment Banner - Modern Style */
-.hero-deployment-banner {
+/* Marquee Banner */
+.hero-marquee-banner {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -487,95 +487,39 @@ body.it .hero-content h1 span:last-child {
     background-color: var(--dark-color);
     height: 60px;
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    overflow: hidden;
     z-index: 10;
 }
 
-.deployment-content {
+.marquee-content {
     display: flex;
     align-items: center;
-    justify-content: center;
+    white-space: nowrap;
     height: 100%;
-    max-width: 1000px;
-    padding: 0 20px;
+    padding-left: 50%;
+    animation: marquee 35s linear infinite alternate;
 }
 
-.highlight-title {
-    color: #ff0000;
-    font-weight: 700;
-    font-size: 1.4rem;
-    margin-right: 10px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-.deployment-separator {
-    color: rgba(255, 255, 255, 0.3);
-    font-size: 1.6rem;
-    margin: 0 15px;
-}
-
-.deployment-text {
+.marquee-content span {
+    display: inline-block;
     color: white;
     font-size: 1.2rem;
-    font-weight: 400;
-    display: flex;
-    align-items: center;
+    font-weight: 500;
 }
 
-.deployment-static {
-    white-space: nowrap;
+.marquee-content span .highlight {
+    color: #ff0000;
+    font-weight: 700;
+    padding-right: 5px;
+    font-size: 1.4rem;
 }
 
-.deployment-highlight {
-    position: relative;
-    display: inline-block;
-    margin-left: 5px;
-    height: 1.5em;
-    min-width: 250px; /* Garantisce spazio per il testo che si alterna */
-    overflow: hidden;
-}
-
-.highlight-word {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: auto;
-    height: 100%;
-    color: #3b82f6;
-    font-weight: 600;
-    white-space: nowrap;
-    opacity: 0;
-    transform: translateY(100%);
-    transition: transform 0.5s ease, opacity 0.5s ease;
-}
-
-.highlight-word.cloud {
-    animation: showWord 4s infinite;
-    animation-fill-mode: both;
-    display: inline-block;
-}
-
-.highlight-word.onprem {
-    animation: showWord 4s infinite 2s;
-    animation-fill-mode: both;
-    display: inline-block;
-}
-
-@keyframes showWord {
-    0%, 25% {
-        opacity: 0;
-        transform: translateY(100%);
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
     }
-    30%, 70% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-    75%, 100% {
-        opacity: 0;
-        transform: translateY(-100%);
+    100% {
+        transform: translateX(-90%);
     }
 }
 
