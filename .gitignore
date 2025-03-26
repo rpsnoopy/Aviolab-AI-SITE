@@ -1,0 +1,7 @@
+# Ignore backup files
+js/*.backup
+js/original_*.js
+
+# Misc
+.DS_Store
+node_modules/

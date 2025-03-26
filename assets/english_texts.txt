@@ -27,8 +27,8 @@ mission_text: To revolutionize business document intelligence through innovative
 
 ## Capabilities Section
 capabilities_heading: TECHNOLOGY
-capabilities_subtitle: How our AI empowers your document management
-capabilities_title: With our <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span> technology<br>you have immediate complete solutions
+capabilities_subtitle: How our AI enhances your document workflows
+capabilities_title: Our <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span> technology<br>delivers immediate, comprehensive solutions
 capabilities_headline: Enhancing IP and legal work<br>with focused AI solutions
 capabilities_headline_2: Comprehensive solutions for complex documents
 mission_feature_1: You can instantly analyze entire sets of complex and related multilingual legal documents
@@ -51,7 +51,7 @@ capability_12: Automated reporting and insights generation
 
 ## Solutions Section
 solutions_title: AI Assistants Available
-solutions_subtitle: Advanced granular document analysis solutions that examine <strong><u>every clause and paragraph</u></strong>, tailored for real business needs
+solutions_subtitle: Advanced granular analysis tools that examine <strong><u>every clause and paragraph</u></strong>, tailored to real business needs
 
 # Solution 1
 solution1_title: IP ANALYSIS<br>of Bids, Tenders and Related Documents (GTC, etc)
@@ -75,12 +75,12 @@ solution2_item6: Liability allocation and limitation clauses
 
 # Solution 3
 solution3_title: IP ANALYSIS<br>of License Agreements
-solution3_intro: Comprehensive assessment of licensing agreements examining key factors such as:
+solution3_intro: Comprehensive assessment of licensing agreements, focusing on key factors such as:
 solution3_item1: License scope, territories, and field of use
-solution3_item2: Royalty structures and economic terms
+solution3_item2: Royalty models and financial terms
 solution3_item3: Technology transfer and implementation rights
 solution3_item4: Exclusivity provisions and market restrictions
-solution3_item5: Sub-licensing rights and limitations
+solution3_item5: Sublicense rights and related restrictions
 solution3_item6: Enforcement obligations and infringement remedies
 
 # Solution 4
@@ -144,8 +144,8 @@ case_study_heading: Case Study: Transforming IP Document Management for a Major 
 case_study_intro: How Aviolab AI revolutionized the Intellectual Property department of a Fortune 500 manufacturing company:
 case_study_point1: Reduced contract analysis time from days to hours or even minutes
 case_study_point2: Enhanced reliability of multi-document agreement processing
-case_study_point3: Generated impeccable legal comments in multiple languages
-case_study_point4: Facilitated seamless communication between international legal teams
+case_study_point3: Generated precise legal commentary in multiple languages
+case_study_point4: Facilitated clear communication across international legal teams
 case_study_point5: Specific risk level assessment for each identified critical issue
 case_study_point6: Strengthened control over IP assets and contractual negotiation security
 founder_testimonial_title: From the Founder
@@ -153,19 +153,19 @@ founder_para_1: When I created Aviolab AI, I knew how complex and risky it was t
 founder_para_2: Today, with the TTR Suite, IP managers can upload documents and get a complete analysis in minutes, with the certainty that every connection has been evaluated. A major industrial group told us how they used to spend days examining complex agreements, while now the work is completed in a few hours, and for NDAs or simpler contracts, even in minutes.
 founder_para_3: We have also improved communication between international legal teams: the TTR Suite generates impeccable comments and revision proposals in perfect legal language in any language, ensuring consistency and precision.
 founder_para_4: We have transformed a critical process into a strategic advantage. With the TTR Suite, protecting IP assets is simpler, faster, and more secure.
-founder_testimonial_citation: — Riccardo Parenti, Founder & CTO
+founder_testimonial_citation: — Riccardo Parenti, Founder and CTO
 
 ## About Section
 about_title: About the Founder
 about_subtitle: Meet the expert behind Aviolab AI
 founder_name: Riccardo Parenti
-founder_position: Founder & CTO
+founder_position: Founder and CTO
 founder_bio1: Riccardo Parenti is an expert in AI-driven legal and technical solutions, leveraging his experience in both technology and legal sectors to revolutionize document analysis.
 founder_bio2: With a background in artificial intelligence and legal tech, Riccardo founded Aviolab AI with a mission to transform how organizations handle intellectual property and legal documentation.
 
 ## Contact Section
 contact_title: Get in Touch
-contact_subtitle: Interested in our AI solutions? We would be happy to provide more information.
+contact_subtitle: Interested in our AI solutions? We'll be happy to provide further information.
 
 contact_location: Location
 contact_website: Website
@@ -188,4 +188,4 @@ footer_connect: Connect With Us
 footer_copyright: © 2025 Aviolab AI. All rights reserved.
 
 ## One-Click Note
-one_click_note: <span style="font-size:1.2rem;font-weight:bold;color:#ff0000;">One-Click</span><span style="font-size:1.2rem;color:#ff0000;">*</span> means that you simply drag and drop your document with your mouse into the application and click <span style="font-size:1.3rem;font-weight:bold;color:#ff0000;">GO</span> to get an instant and comprehensive analysis. Advanced options are available when needed.
+one_click_note: <span style="font-size:1.2rem;font-weight:bold;color:#ff0000;">One-Click</span><span style="font-size:1.2rem;color:#ff0000;">*</span> means you just drag and drop your document into the application and click <span style="font-size:1.3rem;font-weight:bold;color:#ff0000;">GO</span> to receive an instant, comprehensive analysis. Advanced options are available as needed.
