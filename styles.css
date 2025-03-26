@@ -496,7 +496,7 @@ body.it .hero-content h1 span:last-child {
     white-space: nowrap;
     height: 100%;
     animation: ticker 40s linear infinite;
-    transform: translateX(50%); /* Inizia da metà schermo */
+    transform: translateX(5%); /* Inizia quasi alla fine del testo, con "LLM" che sta uscendo */
 }
 
 .ticker-content span {
@@ -516,7 +516,7 @@ body.it .hero-content h1 span:last-child {
 
 @keyframes ticker {
     0% {
-        transform: translateX(50%); /* Inizia da metà schermo */
+        transform: translateX(5%); /* Inizia quasi alla fine del testo, con "LLM" che sta uscendo */
     }
     100% {
         transform: translateX(-100%); /* Scorre completamente fuori */
