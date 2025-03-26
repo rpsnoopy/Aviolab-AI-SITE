@@ -534,6 +534,7 @@ body.it .hero-content h1 span:last-child {
     display: inline-block;
     margin-left: 5px;
     height: 1.5em;
+    min-width: 250px; /* Garantisce spazio per il testo che si alterna */
     overflow: hidden;
 }
 
@@ -541,7 +542,7 @@ body.it .hero-content h1 span:last-child {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: auto;
     height: 100%;
     color: #3b82f6;
     font-weight: 600;
@@ -553,22 +554,26 @@ body.it .hero-content h1 span:last-child {
 
 .highlight-word.cloud {
     animation: showWord 4s infinite;
+    animation-fill-mode: both;
+    display: inline-block;
 }
 
 .highlight-word.onprem {
     animation: showWord 4s infinite 2s;
+    animation-fill-mode: both;
+    display: inline-block;
 }
 
 @keyframes showWord {
-    0%, 45% {
+    0%, 25% {
         opacity: 0;
         transform: translateY(100%);
     }
-    50%, 95% {
+    30%, 70% {
         opacity: 1;
         transform: translateY(0);
     }
-    100% {
+    75%, 100% {
         opacity: 0;
         transform: translateY(-100%);
     }
