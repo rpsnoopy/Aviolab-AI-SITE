@@ -18,7 +18,7 @@ nav_download: Download
 ## Hero Section
 hero_title: <span class="highlight">AI-Powered</span> Legal Intelligence
 hero_subtitle: <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span> Document Analysis<br>for Legal & Technical Professionals
-hero_description: Transforming how organizations handle intellectual property, legal contracts, research agreements, license agreements, NDAs and technical presentations<br><strong><u>with state-of-the-art artificial intelligence.</u></strong>
+hero_description: Our advanced AI technology helps legal teams and professionals manage, analyze, and extract value from complex documents more efficiently than ever.
 hero_btn_explore: Explore Solutions
 hero_btn_contact: Contact Us
 
@@ -56,7 +56,7 @@ solutions_title: AI Assistants Available
 solutions_subtitle: Advanced granular document analysis solutions that examine <strong><u>every clause and paragraph</u></strong>, tailored for real business needs
 
 # Solution 1
-solution1_title: ANALYSIS<br>of Bids, Tenders and Related Documents (GTC, etc)
+solution1_title: IP ANALYSIS<br>of Bids, Tenders and Related Documents (GTC, etc)
 solution1_intro: Comprehensive analysis covering various aspects, including:
 solution1_item1: Confidentiality management and disclosure controls
 solution1_item2: Intellectual property ownership rights
@@ -66,7 +66,7 @@ solution1_item5: Future usage obligations and restrictions
 solution1_item6: Information management risks and safeguards
 
 # Solution 2
-solution2_title: ANALYSIS<br>of Research and Technology Partnership Agreements
+solution2_title: IP ANALYSIS<br>of Research and Technology Partnership Agreements
 solution2_intro: Complete evaluation of research partnerships, focusing on:
 solution2_item1: Project scope definition and boundaries
 solution2_item2: Operational methodologies and responsibilities
@@ -76,7 +76,7 @@ solution2_item5: Confidentiality provisions and restrictions
 solution2_item6: Liability allocation and limitation clauses
 
 # Solution 3
-solution3_title: ANALYSIS<br>of License Agreements
+solution3_title: IP ANALYSIS<br>of License Agreements
 solution3_intro: Comprehensive assessment of licensing agreements examining key factors such as:
 solution3_item1: License scope, territories, and field of use
 solution3_item2: Royalty structures and economic terms
@@ -86,7 +86,7 @@ solution3_item5: Sub-licensing rights and limitations
 solution3_item6: Enforcement obligations and infringement remedies
 
 # Solution 4
-solution4_title: ANALYSIS<br>of Technical Presentations and Papers
+solution4_title: IP ANALYSIS<br>of Technical Presentations and Papers
 solution4_intro: In-depth review of corporate materials addressing key issues such as:
 solution4_item1: Proprietary content and confidential information
 solution4_item2: Sensitive vs. public data classification
@@ -96,7 +96,7 @@ solution4_item5: Competitive intelligence exposure analysis
 solution4_item6: Alignment with IP protection strategy
 
 # Solution 5
-solution5_title: ANALYSIS<br>of Academic Theses
+solution5_title: IP ANALYSIS<br>of Academic Theses
 solution5_intro: Thorough examination of academic works, evaluating aspects such as:
 solution5_item1: Sensitive corporate information identification
 solution5_item2: Risk classification and prioritization
@@ -106,7 +106,7 @@ solution5_item5: Patent application conflict prevention
 solution5_item6: Analysis of publication timing impact
 
 # Solution 6
-solution6_title: ANALYSIS<br>of Controlled Disclosure Agreements and NDAs
+solution6_title: IP ANALYSIS<br>of Controlled Disclosure Agreements and NDAs
 solution6_intro: Detailed analysis of confidentiality agreements, covering essential elements such as:
 solution6_item1: Verification of completeness of fundamental aspects
 solution6_item2: Risk profiling and vulnerability identification

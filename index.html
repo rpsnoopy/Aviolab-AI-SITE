@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="html-root">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,8 +38,16 @@
     <meta name="msapplication-square150x150logo" content="mstile-150x150.png">
     <meta name="msapplication-square310x310logo" content="mstile-310x310.png">
 
-    <!-- Web App Manifest -->
-    <link rel="manifest" href="site.webmanifest">
+    <!-- Web App Manifest - Caricato in modo condizionale solo per HTTP/HTTPS -->
+    <script>
+        // Carica il manifest solo se non siamo in modalità file:// per evitare errori CORS
+        if (window.location.protocol !== 'file:') {
+            const manifestLink = document.createElement('link');
+            manifestLink.rel = 'manifest';
+            manifestLink.href = 'site.webmanifest';
+            document.head.appendChild(manifestLink);
+        }
+    </script>
 
     <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="fonts/fonts.css">
@@ -78,8 +86,12 @@
                 </ul>
             </nav>
             <div class="language-selector">
-                <div class="lang-option" data-lang="en">EN</div>
-                <div class="lang-option" data-lang="it">IT</div>
+                <div class="lang-option" data-lang="en">
+                    <img src="assets/images/flags/flag-gb.svg" alt="English" class="flag-icon"> EN
+                </div>
+                <div class="lang-option" data-lang="it">
+                    <img src="assets/images/flags/flag-it.svg" alt="Italiano" class="flag-icon"> IT
+                </div>
             </div>
             <div class="mobile-menu-btn">
                 <span></span>
@@ -95,7 +107,7 @@
             <div class="hero-content">
                 <h1 data-i18n="hero_title">Intelligent Document Analysis</h1>
                 <h2 data-i18n="hero_subtitle">AI-powered legal tech solutions for document analysis and management</h2>
-                <p data-i18n="hero_description">Our advanced AI technology helps legal teams and professionals manage, analyze, and extract value from complex documents more efficiently than ever before.</p>
+                <p data-i18n="hero_description">Our advanced AI technology helps legal teams and professionals manage, analyze, and extract value from complex documents more efficiently than ever.</p>
                 <div class="cta-buttons">
                     <a href="#contact" class="btn btn-primary" data-i18n="hero_btn_contact">Contact Us</a>
                     <a href="#products" class="btn btn-secondary" data-i18n="hero_btn_explore">Explore Solutions</a>
@@ -522,7 +534,7 @@
             <!-- Note: One-click note spostata nella hero section -->
             <div class="footer-bottom">
                 <p data-i18n="footer_copyright">&copy; 2025 Aviolab AI. All rights reserved.</p>
-                <p class="version-number">v1.1.18</p>
+                <p class="version-number">v1.1.29</p>
             </div>
         </div>
     </footer>

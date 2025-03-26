@@ -1,28 +1,24 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Initialize language
-    // Prima controlliamo se c'è una preferenza per la sessione corrente
-    let sessionLanguagePreference = sessionStorage.getItem('language');
     let permanentLanguagePreference = localStorage.getItem('language');
+    let languageChoiceMade = localStorage.getItem('languageChoiceMade');
+    let languagePromptShown = sessionStorage.getItem('languagePromptShown');
     
-    if (sessionLanguagePreference) {
-        // Usiamo la preferenza di sessione se disponibile
-        setLanguage(sessionLanguagePreference);
-        
-        // Controlliamo se mostrare il prompt per la lingua italiana
-        if (sessionLanguagePreference === 'it' && !sessionStorage.getItem('languagePromptDismissed')) {
-            setTimeout(showLanguagePrompt, 1500);
-        }
-    } else if (permanentLanguagePreference) {
-        // Altrimenti usiamo la preferenza permanente se disponibile
+    // All'inizio carichiamo sempre in inglese, ma la sovrascriviamo subito se necessario
+    setLanguage('en');
+    
+    // Se l'utente ha già fatto una scelta di lingua in precedenza
+    if (permanentLanguagePreference && languageChoiceMade) {
+        // Usiamo la preferenza memorizzata
         setLanguage(permanentLanguagePreference);
-        
-        // Se la lingua è italiana, mostriamo sempre il prompt all'inizio di una nuova sessione
-        if (permanentLanguagePreference === 'it') {
-            setTimeout(showLanguagePrompt, 1500);
-        }
     } else {
-        // Se non ci sono preferenze, determiniamo la lingua in base all'IP
-        detectUserLocation();
+        // Se invece non c'è una preferenza già memorizzata e il prompt non è già stato mostrato in questa sessione
+        if (!languagePromptShown) {
+            // Segniamo che il prompt è stato mostrato in questa sessione per non mostrarlo più volte
+            sessionStorage.setItem('languagePromptShown', 'true');
+            // Controlliamo la localizzazione per decidere se mostrare il prompt
+            setTimeout(detectUserLocation, 100);
+        }
     }
 
     // Funzione per impostare la lingua dell'interfaccia
@@ -50,6 +46,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Funzione per rilevare la posizione utente tramite API di geolocalizzazione
     function detectUserLocation() {
+        // Segniamo che il prompt è stato mostrato in questa sessione
+        sessionStorage.setItem('languagePromptShown', 'true');
+        
         fetch('https://ipapi.co/json/')
             .then(response => response.json())
             .then(data => {
@@ -57,30 +56,22 @@ document.addEventListener("DOMContentLoaded", function () {
                 const isItaly = data.country_code === 'IT';
                 
                 if (isItaly) {
-                    // Se l'utente è in Italia, imposta italiano ma chiedi conferma
-                    setLanguage('it');
-                    
-                    // Verifica se l'utente ha già scelto di non vedere più il prompt
-                    if (!localStorage.getItem('languagePromptDismissed')) {
-                        // Mostra il prompt dopo un breve ritardo
-                        setTimeout(showLanguagePrompt, 1500);
-                    }
+                    // Se l'utente è in Italia, mostriamo prompt per la selezione della lingua
+                    showLanguageSelectionPrompt();
                 } else {
-                    // Per tutti gli altri paesi, imposta inglese e salva la preferenza
-                    setLanguage('en');
+                    // Per tutti gli altri paesi, lasciamo l'inglese (già impostato)
                     localStorage.setItem('language', 'en');
                 }
             })
             .catch(error => {
-                // In caso di errore, utilizza l'inglese come fallback
+                // In caso di errore, resta in inglese (già impostato)
                 console.error('Error detecting location:', error);
-                setLanguage('en');
                 localStorage.setItem('language', 'en');
             });
     }
 
-    // Funzione per mostrare il prompt di conferma lingua
-    function showLanguagePrompt() {
+    // Funzione per mostrare il prompt di selezione lingua per utenti italiani
+    function showLanguageSelectionPrompt() {
         // Crea l'elemento del prompt
         const promptElement = document.createElement('div');
         promptElement.className = 'language-prompt';
@@ -91,15 +82,17 @@ document.addEventListener("DOMContentLoaded", function () {
                         <img src="assets/logo.png" alt="Aviolab AI Logo" class="prompt-logo">
                         <span class="prompt-logo-text">AVIOLAB <span class="prompt-logo-text-highlight">AI</span></span>
                     </div>
-                    <p>Benvenuto! Sembra che tu stia visitando dall'Italia.<br>Preferisci visualizzare il sito in inglese?</p>
+                    <p>Benvenuto! Sembra che tu stia visitando dall'Italia.<br>Ti fa piacere il sito in Italiano?</p>
                 </div>
                 <div class="language-prompt-buttons">
-                    <button class="btn-keep-italian">Mantieni Italiano</button>
-                    <button class="btn-switch-english">Switch to English</button>
+                    <button class="btn-english">
+                        <img src="assets/images/flags/flag-gb.svg" alt="English" class="flag-icon"> English
+                    </button>
+                    <button class="btn-italian">
+                        <img src="assets/images/flags/flag-it.svg" alt="Italiano" class="flag-icon"> Italiano
+                    </button>
                 </div>
-                <label class="remember-choice">
-                    <input type="checkbox" id="remember-lang-choice"> Ricorda la mia scelta per questa sessione
-                </label>
+                <!-- Checkbox rimossa poiché memorizziamo sempre la scelta -->
             </div>
         `;
         
@@ -183,24 +176,28 @@ document.addEventListener("DOMContentLoaded", function () {
                 font-weight: 500;
                 transition: all 0.2s;
                 font-size: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 6px;
             }
             
-            .btn-keep-italian {
+            .btn-english {
                 background-color: #333333;
                 color: #fff;
                 border: 1px solid rgba(255, 255, 255, 0.2);
             }
             
-            .btn-switch-english {
+            .btn-italian {
                 background-color: #ff0000;
                 color: white;
             }
             
-            .btn-keep-italian:hover {
+            .btn-english:hover {
                 background-color: #444444;
             }
             
-            .btn-switch-english:hover {
+            .btn-italian:hover {
                 background-color: #cc0000;
             }
             
@@ -224,33 +221,27 @@ document.addEventListener("DOMContentLoaded", function () {
         document.body.appendChild(promptElement);
         
         // Gestisci i click sui pulsanti
-        const keepItalianBtn = document.querySelector('.btn-keep-italian');
-        const switchEnglishBtn = document.querySelector('.btn-switch-english');
+        const italianBtn = document.querySelector('.btn-italian');
+        const englishBtn = document.querySelector('.btn-english');
         const rememberChoiceCheckbox = document.getElementById('remember-lang-choice');
         
-        keepItalianBtn.addEventListener('click', function() {
+        italianBtn.addEventListener('click', function() {
             setLanguage('it');
-            if (rememberChoiceCheckbox.checked) {
-                sessionStorage.setItem('language', 'it');
-                sessionStorage.setItem('languagePromptDismissed', 'true');
-            }
+            // Sempre salviamo la scelta dell'utente in localStorage per ricordarla tra sessioni
+            localStorage.setItem('language', 'it');
+            // Memorizziamo che il popup è stato visto e la scelta è stata fatta
+            localStorage.setItem('languageChoiceMade', 'true');
+            // Ricarica la pagina per applicare le traduzioni
+            reloadPage();
             removePrompt();
         });
         
-        switchEnglishBtn.addEventListener('click', function() {
-            setLanguage('en');
-            if (rememberChoiceCheckbox.checked) {
-                sessionStorage.setItem('language', 'en');
-                sessionStorage.setItem('languagePromptDismissed', 'true');
-            } else {
-                // Se non deve ricordare, salva in localStorage solo per questa volta
-                localStorage.setItem('language', 'en');
-            }
-            
-            // Ricarica la pagina per applicare le traduzioni
-            const currentScroll = window.scrollY;
-            sessionStorage.setItem('scrollPosition', currentScroll);
-            window.location.reload();
+        englishBtn.addEventListener('click', function() {
+            // Già siamo in inglese, quindi basta salvare la preferenza
+            localStorage.setItem('language', 'en');
+            // Memorizziamo che il popup è stato visto e la scelta è stata fatta
+            localStorage.setItem('languageChoiceMade', 'true');
+            removePrompt();
         });
         
         function removePrompt() {
@@ -272,6 +263,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 fadeOutStyle.remove();
             }, 300);
         }
+    }
+    
+    // Funzione per ricaricare la pagina mantenendo la posizione di scroll
+    function reloadPage() {
+        const currentScroll = window.scrollY;
+        sessionStorage.setItem('scrollPosition', currentScroll);
+        window.location.reload();
     }
     // Check for thank you page parameter
     const urlParams = new URLSearchParams(window.location.search);
@@ -297,28 +295,48 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
     
-    // Language selector functionality - NUOVO APPROCCIO CON RICARICAMENTO PAGINA
+    // Language selector functionality
     const languageSelector = document.querySelector('.language-selector');
     if (languageSelector) {
-        // Gestione del cambio lingua con ricaricamento della pagina
-        languageSelector.querySelectorAll('.lang-option').forEach(option => {
-            option.addEventListener('click', function() {
-                const lang = this.getAttribute('data-lang');
-                const currentLang = document.documentElement.lang;
+        // Ottieni riferimenti diretti ai bottoni
+        const enOption = languageSelector.querySelector('[data-lang="en"]');
+        const itOption = languageSelector.querySelector('[data-lang="it"]');
+        
+        // Gestione diretta per il bottone inglese
+        if (enOption) {
+            enOption.addEventListener('click', function(e) {
+                e.preventDefault(); // Previeni comportamenti default
                 
-                if (lang !== currentLang) {
-                    // Salva la nuova preferenza di lingua
-                    localStorage.setItem('language', lang);
+                // Cambia lingua solo se non siamo già in inglese
+                if (document.documentElement.lang !== 'en') {
+                    // Salva preferenze
+                    localStorage.setItem('language', 'en');
+                    localStorage.setItem('languageChoiceMade', 'true');
+                    sessionStorage.setItem('languagePromptShown', 'true');
                     
-                    // Salva la posizione di scorrimento attuale per ripristinarla dopo il ricaricamento
-                    const currentScroll = window.scrollY;
-                    sessionStorage.setItem('scrollPosition', currentScroll);
-                    
-                    // Ricarica la pagina per applicare la nuova lingua
-                    window.location.reload();
+                    // Ricarica immediatamente
+                    window.location.href = window.location.pathname + '?lang=en';
                 }
             });
-        });
+        }
+        
+        // Gestione diretta per il bottone italiano
+        if (itOption) {
+            itOption.addEventListener('click', function(e) {
+                e.preventDefault(); // Previeni comportamenti default
+                
+                // Cambia lingua solo se non siamo già in italiano
+                if (document.documentElement.lang !== 'it') {
+                    // Salva preferenze
+                    localStorage.setItem('language', 'it');
+                    localStorage.setItem('languageChoiceMade', 'true');
+                    sessionStorage.setItem('languagePromptShown', 'true');
+                    
+                    // Ricarica immediatamente
+                    window.location.href = window.location.pathname + '?lang=it';
+                }
+            });
+        }
     }
     
     // Ripristina la posizione di scorrimento dopo il cambio lingua
