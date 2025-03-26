@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVIOLAB AI - Company Overview</title>
+    <link rel="stylesheet" href="../../fonts/fonts.css">
+    <style>
+        :root {
+            --primary-color: #1e40af;
+            --secondary-color: #2563eb;
+            --accent-color: #3b82f6;
+            --light-color: #f8fafc; 
+            --dark-color: #0f172a;
+            --gray-color: #64748b;
+            --light-gray: #e2e8f0;
+            --font-primary: 'Montserrat', sans-serif;
+            --font-secondary: 'Open Sans', sans-serif;
+            --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            --border-radius: 8px;
+            --highlight-color: #ff0000;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: var(--font-secondary);
+            line-height: 1.6;
+            color: var(--dark-color);
+            background-color: var(--light-color);
+            padding: 0;
+            margin: 0;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-primary);
+            font-weight: 600;
+            margin-bottom: 1rem;
+            line-height: 1.3;
+            color: var(--primary-color);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+        
+        h2 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+            width: fit-content;
+        }
+        
+        h3 {
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+            color: var(--secondary-color);
+        }
+        
+        p {
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+        
+        ul, ol {
+            margin-bottom: 1.5rem;
+            padding-left: 2rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .highlight {
+            color: var(--highlight-color);
+            font-weight: bold;
+        }
+        
+        .container {
+            max-width: 840px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: white;
+            box-shadow: var(--shadow);
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            border-radius: var(--border-radius);
+        }
+        
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--light-gray);
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo img {
+            height: 50px;
+            margin-right: 1rem;
+        }
+        
+        .logo-text {
+            font-family: Verdana, sans-serif;
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: #c0c0c0;
+            letter-spacing: 1px;
+        }
+        
+        .logo-text-highlight {
+            color: #ff0000;
+        }
+        
+        .section {
+            margin-bottom: 2.5rem;
+        }
+        
+        .footer {
+            text-align: center;
+            color: var(--gray-color);
+            font-size: 0.8rem;
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--light-gray);
+        }
+
+        .one-click {
+            color: #ff0000;
+            font-weight: bold;
+        }
+
+        .footnote {
+            font-size: 0.8rem;
+            border-top: 1px solid var(--light-gray);
+            padding-top: 1rem;
+            margin-top: 2rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.5rem;
+        }
+
+        table, th, td {
+            border: 1px solid var(--light-gray);
+        }
+
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+        }
+
+        .case-study-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .case-study-list li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid var(--light-gray);
+        }
+
+        .contact-info {
+            background-color: #f8f9fa;
+            padding: 1rem;
+            border-radius: var(--border-radius);
+            margin-top: 1rem;
+        }
+
+        @media print {
+            body {
+                background-color: white;
+            }
+            
+            .container {
+                margin: 0;
+                padding: 1rem;
+                box-shadow: none;
+                max-width: 100%;
+            }
+            
+            @page {
+                margin: 1.5cm;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="../../assets/logo.png" alt="Aviolab AI Logo">
+                <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+            </div>
+        </div>
+        
+        <!-- TITOLO PRINCIPALE -->
+        <h1>AVIOLAB AI</h1>
+        
+        <!-- SEZIONE 1: Company Information -->
+        <div class="section">
+            <h2>1. Company Information</h2>
+            <table>
+                <tr>
+                    <th>Company Name</th>
+                    <td>Aviolab.ai</td>
+                </tr>
+                <tr>
+                    <th>Industry</th>
+                    <td>LLM-based Applications for the Technical-Legal Sector</td>
+                </tr>
+                <tr>
+                    <th>Headquarters</th>
+                    <td>Genoa, Italy</td>
+                </tr>
+                <tr>
+                    <th>Expertise</th>
+                    <td>Creation of AI assistants for the evaluation and generation of technical-legal and IP documents</td>
+                </tr>
+            </table>
+        </div>
+        
+        <!-- SEZIONE 2: Introduction and Mission -->
+        <div class="section">
+            <h2>2. Introduction and Mission</h2>
+            <p>
+                Aviolab.ai has developed innovative <span class="one-click">One-Click<sup>*</sup></span> AI assistants, designed to revolutionize document analysis in the technical-legal and IP sectors.
+            </p>
+            <p>
+                The AI assistants are true multi-agent AI systems, developed as Windows applications, capable of autonomously communicating with LLM inference engines (local or commercial). These assistants can quickly analyze uploaded documents providing, with a simple click, detailed feedback on critical points, accompanied by operational tables, detailed suggestions, and risk assessments.
+            </p>
+            <p>
+                All developed solutions also allow for additional natural language interaction (chat) for in-depth analysis or specific evaluations, supporting the entire process: from section revision to final document generation, integrated with all approved modifications.
+            </p>
+            <p>
+                It is important to emphasize that each solution is customized during the specific development phase, combining the client's corporate policies with in-depth technical-legal and general IP know-how.
+            </p>
+            <p>
+                Currently, Aviolab.ai offers an IP Suite, composed of specialized AI assistants, each designed to address specific needs in the technical-legal and IP sector, complete with supporting tools that facilitate document management through embedded AI, ensuring solutions that are absolutely concrete and immediately adaptable to client needs.
+            </p>
+        </div>
+        
+        <!-- SEZIONE 3: Applications Available in the IP Suite -->
+        <div class="section">
+            <h2>3. Applications Available in the IP Suite</h2>
+
+            <h3>IP Analysis of Bids, Tenders and Related Documents (GTC, etc)</h3>
+            <p>
+                Analyzes contractual documents, focusing on critical clauses, particularly those related to Intellectual Property. The system examines six key areas (confidentiality, ownership of results, pre-existing IP protection, rights assignment/licensing, future use, and shared information management) and produces an executive summary, analysis tables, and solutions for ambiguous clauses.
+            </p>
+
+            <h3>IP Analysis of Research Agreements</h3>
+            <p>
+                Evaluates research agreements between companies and academic institutions. Verifies nine fundamental elements (scope, operational methods, compensation, IP rights, confidentiality, duration, responsibilities, legal clauses, and limitations) and provides a structured analysis with executive summary, detailed tables, modification proposals, and multilingual revision.
+            </p>
+
+            <h3>IP Analysis of License Agreements</h3>
+            <p>
+                Comprehensive assessment of licensing agreements, focusing on key factors such as scope and field of use, economic conditions, implementation rights, exclusivity clauses, sub-licenses, and enforcement obligations in case of violations.
+            </p>
+
+            <h3>IP Analysis of Technical Presentations</h3>
+            <p>
+                Examines corporate presentations to identify proprietary content and distinguish between sensitive information and public domain data. The system verifies the status of content through patent databases and public sources, assigning risk levels (High, Moderate, Low) and offering recommendations for revisions that preserve communicative effectiveness.
+            </p>
+
+            <h3>IP Analysis of Academic Theses</h3>
+            <p>
+                Designed for academic theses in collaboration with companies, the system protects proprietary data without compromising academic value. It analyzes the document to identify sensitive assets, organizational structures, and confidential details, producing an analytical table with references, risk categorization, and revision suggestions.
+            </p>
+
+            <h3>IP Analysis of Non-Disclosure Agreements (NDAs)</h3>
+            <p>
+                Examines confidentiality agreements to verify the presence of essential elements and evaluate the risk of each clause. The system provides a structured analysis with overall assessment, detailed clause review, and solutions for ambiguities, customizable based on jurisdiction and regulatory compliance needs.
+            </p>
+        </div>
+        
+        <!-- SEZIONE 4: Technology and Functionality -->
+        <div class="section">
+            <h2>4. Technology and Functionality</h2>
+            <p>
+                The applications offer an intuitive interface: upload a PDF file and start the analysis with just one click. Integration with Large Language Models (LLM) allows for personalized explanations and revisions, based on reference documents to ensure compliance with corporate policies. The solutions work with remote or local LLMs, offering flexibility and security in data management.
+            </p>
+        </div>
+        
+        <!-- SEZIONE 5: Benefits for the Client -->
+        <div class="section">
+            <h2>5. Benefits for the Client</h2>
+            <p><strong>Efficiency:</strong> Significant reduction in document analysis and evaluation time</p>
+            <p><strong>Competence:</strong> Effective support for less experienced operators to produce detailed and accurate reports</p>
+            <p><strong>Reliability:</strong> Perfect adherence and compliance with client's corporate policies thanks to advanced customizations</p>
+            <p><strong>Simplicity:</strong> Intuitive interface and simplified analysis process</p>
+            <p><strong>Adaptability:</strong> Possibility to evolve policies and corporate rules for tailored and always up-to-date analysis</p>
+        </div>
+        
+        <!-- SEZIONE 6: Scalability and Future -->
+        <div class="section">
+            <h2>6. Scalability and Future</h2>
+            <p>
+                The roadmap includes expanding existing functionalities with new automated evaluation metrics and introducing applications for advanced document evaluation, first in adjacent technical-legal fields typically of great interest to medium-large industries, and then scaling with other applications even more verticalized toward small and medium enterprises. The ability of <span class="one-click">One-Click<sup>*</sup></span> assistants to use both local and remote LLM engines ensures the necessary flexibility and security.
+            </p>
+        </div>
+        
+        <!-- SEZIONE 7: Case Study -->
+        <div class="section">
+            <h2>7. Case Study: The Experience of a Major Industrial Group</h2>
+            <p>
+                A major Italian group in the energy sector implemented the complete suite of <span class="one-click">One-Click<sup>*</sup></span> assistants, achieving remarkable results:
+            </p>
+
+            <h3>Reduction in Analysis Time</h3>
+            <ul class="case-study-list">
+                <li>Non-disclosure agreement: from 1-2 days to 10-15 minutes</li>
+                <li>Theses and scientific articles: from 3-5 days to 10-15 minutes</li>
+                <li>Technical presentations: from 3-4 days to 5-10 minutes</li>
+                <li>Commercial offers and proposals: from 5-7 days to 15-20 minutes</li>
+            </ul>
+
+            <h3>Quality Improvement</h3>
+            <ul class="case-study-list">
+                <li>95% reduction in errors in NDA analyses</li>
+                <li>Systematic identification of risks in Research Agreements</li>
+                <li>Standardization of evaluations in line with company policies</li>
+            </ul>
+
+            <h3>Organizational Impact</h3>
+            <ul class="case-study-list">
+                <li>Junior operators capable of producing senior-level analyses</li>
+                <li>Elimination of document backlog</li>
+                <li>Uniformity in evaluations</li>
+            </ul>
+
+            <p>
+                The client highlighted how the suite enables complex document analysis with the quality, precision, meticulousness, and effectiveness achievable only by a senior officer with decades of experience in the sector.
+            </p>
+        </div>
+        
+        <!-- SEZIONE 8: Contact -->
+        <div class="section">
+            <h2>8. Contact</h2>
+            <p>To request a demo or more information:</p>
+            <div class="contact-info">
+                <p>Email: r.parenti@aviolab.ai</p>
+            </div>
+        </div>
+        
+        <!-- FOOTNOTE -->
+        <div class="footnote">
+            <p><span class="one-click">One-Click<sup>*</sup></span> means you just drag and drop your document into the application and click <span class="one-click">GO</span> to receive an instant, comprehensive analysis. Advanced options are available as needed.</p>
+        </div>
+        
+        <!-- FOOTER -->
+        <div class="footer">
+            <p>&copy; 2025 Aviolab AI. All rights reserved.</p>
+            <p>AVIOLAB AI DI PARENTI RICCARDO - P.IVA 02997110990 - REA GE - 525625</p>
+        </div>
+    </div>
+</body>
+</html>
