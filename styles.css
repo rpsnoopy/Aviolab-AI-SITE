@@ -495,7 +495,7 @@ body.it .hero-content h1 span:last-child {
     align-items: center;
     white-space: nowrap;
     height: 100%;
-    animation: ticker 25s linear infinite;
+    animation: ticker 40s linear infinite; /* Aumentata durata per testo più lungo */
 }
 
 .ticker-content span {
