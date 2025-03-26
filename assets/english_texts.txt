@@ -18,7 +18,7 @@ nav_contact: Contact
 hero_title: <span class="highlight">AI-Powered</span> Legal Intelligence
 hero_subtitle: <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span> Document Analysis<br>for Legal & Technical Professionals
 hero_description: Transforming how organizations handle intellectual property, legal contracts, research agreements, license agreements, NDAs and technical presentations<br><strong><u>with state-of-the-art artificial intelligence.</u></strong>
-hero_deployment_flexibility: <span class="highlight">Flexible Deployment:</span> Our systems operate with both cloud-based LLMs and secure on-premises models
+hero_deployment_flexibility: <span class="highlight">Flexible Deployment:</span> Our systems operate in the cloud or confined within your own IT infrastructure
 hero_btn_explore: Explore Solutions
 hero_btn_contact: Contact Us
 
