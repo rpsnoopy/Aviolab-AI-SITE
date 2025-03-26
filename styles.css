@@ -518,14 +518,14 @@ body.it .hero-content h1 span:last-child {
 }
 
 @keyframes bounce {
-    0%, 10% {
-        transform: translateX(-10%);
-    }
-    45%, 55% {
+    0% {
         transform: translateX(10%);
     }
-    90%, 100% {
+    50% {
         transform: translateX(-10%);
+    }
+    100% {
+        transform: translateX(10%);
     }
 }
 
