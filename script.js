@@ -477,8 +477,52 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
     
-    window.addEventListener('scroll', revealOnScroll);
+    // Highlight current section in navigation
+    function highlightCurrentSection() {
+        // Get all sections that have an ID
+        const sections = document.querySelectorAll('section[id]');
+        
+        // Determine which section is currently in view
+        let currentSectionId = '';
+        let minDistance = Infinity;
+        
+        sections.forEach(section => {
+            const sectionTop = section.getBoundingClientRect().top;
+            // Find the section closest to the top of the viewport
+            if (Math.abs(sectionTop) < minDistance && sectionTop <= 100) {
+                minDistance = Math.abs(sectionTop);
+                currentSectionId = section.id;
+            }
+        });
+        
+        // Remove active class from all nav links and dots
+        document.querySelectorAll('.nav-link, .section-indicator .dot').forEach(item => {
+            item.classList.remove('active');
+        });
+        
+        // Add active class to current section's nav link and dot
+        if (currentSectionId) {
+            const activeNavLink = document.querySelector(`.nav-link[href="#${currentSectionId}"]`);
+            const activeDot = document.querySelector(`.section-indicator .dot[href="#${currentSectionId}"]`);
+            
+            if (activeNavLink) {
+                activeNavLink.classList.add('active');
+            }
+            
+            if (activeDot) {
+                activeDot.classList.add('active');
+            }
+        }
+    }
+    
+    window.addEventListener('scroll', function() {
+        revealOnScroll();
+        highlightCurrentSection();
+    });
+    
+    // Initialize on page load
     revealOnScroll();
+    highlightCurrentSection();
     
     // Add a class to body after page load to trigger animations
     setTimeout(function() {
