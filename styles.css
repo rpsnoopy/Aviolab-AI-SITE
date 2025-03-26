@@ -499,7 +499,7 @@ body.it .hero-content h1 span:last-child {
     height: 100%;
     width: 100%;
     position: relative;
-    animation: bounce 14s ease-in-out infinite alternate;
+    animation: bounce 35s ease-in-out infinite alternate;
 }
 
 .marquee-content span {
