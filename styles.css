@@ -437,7 +437,7 @@ img {
     background-position: center;
     margin-top: 0;
     padding-top: 80px;
-    padding-bottom: 50px; /* Space for the ticker banner */
+    padding-bottom: 60px; /* Space for the deployment banner */
     color: white;
 }
 
@@ -478,48 +478,99 @@ body.it .hero-content h1 span:last-child {
     opacity: 0.9;
 }
 
-/* Ticker Banner */
-.hero-ticker-banner {
+/* Deployment Banner - Modern Style */
+.hero-deployment-banner {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: var(--dark-color); /* Stesso colore dell'header */
-    overflow: hidden;
-    height: 50px;
+    background-color: var(--dark-color);
+    height: 60px;
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
 }
 
-.ticker-content {
+.deployment-content {
     display: flex;
     align-items: center;
-    white-space: nowrap;
+    justify-content: center;
     height: 100%;
-    animation: ticker 40s linear infinite;
-    transform: translateX(5%); /* Inizia quasi alla fine del testo, con "LLM" che sta uscendo */
+    max-width: 1000px;
+    padding: 0 20px;
 }
 
-.ticker-content span {
-    display: inline-block;
-    padding: 0 50px;
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 500;
-}
-
-.ticker-content span .highlight {
+.highlight-title {
     color: #ff0000;
     font-weight: 700;
-    padding-right: 5px;
-    font-size: 1.4rem; /* Dimensione maggiore per "Flexible Deployment" */
+    font-size: 1.4rem;
+    margin-right: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
-@keyframes ticker {
-    0% {
-        transform: translateX(5%); /* Inizia quasi alla fine del testo, con "LLM" che sta uscendo */
+.deployment-separator {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 1.6rem;
+    margin: 0 15px;
+}
+
+.deployment-text {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.deployment-static {
+    white-space: nowrap;
+}
+
+.deployment-highlight {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    height: 1.5em;
+    overflow: hidden;
+}
+
+.highlight-word {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #3b82f6;
+    font-weight: 600;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.highlight-word.cloud {
+    animation: showWord 4s infinite;
+}
+
+.highlight-word.onprem {
+    animation: showWord 4s infinite 2s;
+}
+
+@keyframes showWord {
+    0%, 45% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    50%, 95% {
+        opacity: 1;
+        transform: translateY(0);
     }
     100% {
-        transform: translateX(-100%); /* Scorre completamente fuori */
+        opacity: 0;
+        transform: translateY(-100%);
     }
 }
 
