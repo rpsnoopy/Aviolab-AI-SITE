@@ -478,8 +478,8 @@ body.it .hero-content h1 span:last-child {
     opacity: 0.9;
 }
 
-/* Marquee Banner */
-.hero-marquee-banner {
+/* Static Banner */
+.hero-banner {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -487,51 +487,30 @@ body.it .hero-content h1 span:last-child {
     background-color: var(--dark-color);
     height: 60px;
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
     z-index: 10;
 }
 
-.marquee-content {
+.banner-content {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
     width: 100%;
-    position: relative;
-    overflow: hidden;
 }
 
-.marquee-items {
-    display: flex;
-    white-space: nowrap;
-    animation: marqueeContinuous 12s linear infinite;
-    transform: translateZ(0); /* Force hardware acceleration */
-    will-change: transform; /* Hint for browser optimization */
-}
-
-.marquee-content span {
-    display: inline-block;
+.banner-content span {
     color: white;
     font-size: 1.2rem;
     font-weight: 500;
     text-align: center;
-    padding: 0 50px; /* Add padding between copies */
+    line-height: 1.4;
 }
 
-.marquee-content span .highlight {
+.banner-content span .highlight {
     color: #ff0000;
     font-weight: 700;
     padding-right: 5px;
     font-size: 1.4rem;
-}
-
-@keyframes marqueeContinuous {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
 }
 
 .hero-content .cta-buttons {
@@ -1420,6 +1399,16 @@ body.it .hero-content h1 span:last-child {
         font-size: 1.5rem;
     }
     
+    .hero-banner {
+        height: auto;
+        min-height: 60px;
+    }
+    
+    .banner-content span {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+    
     .solutions-grid,
     .benefits-grid {
         grid-template-columns: 1fr;
@@ -1462,5 +1451,14 @@ body.it .hero-content h1 span:last-child {
     
     .section-header {
         margin-bottom: 40px;
+    }
+    
+    .hero-banner {
+        min-height: 80px;
+    }
+    
+    .banner-content span {
+        font-size: 0.9rem;
+        padding: 15px 10px;
     }
 }
