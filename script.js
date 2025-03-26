@@ -314,6 +314,10 @@ document.addEventListener("DOMContentLoaded", function () {
                     localStorage.setItem('languageChoiceMade', 'true');
                     sessionStorage.setItem('languagePromptShown', 'true');
                     
+                    // Salva la posizione di scorrimento attuale
+                    const currentScroll = window.scrollY;
+                    sessionStorage.setItem('scrollPosition', currentScroll);
+                    
                     // Ricarica immediatamente
                     window.location.href = window.location.pathname + '?lang=en';
                 }
@@ -331,6 +335,10 @@ document.addEventListener("DOMContentLoaded", function () {
                     localStorage.setItem('language', 'it');
                     localStorage.setItem('languageChoiceMade', 'true');
                     sessionStorage.setItem('languagePromptShown', 'true');
+                    
+                    // Salva la posizione di scorrimento attuale
+                    const currentScroll = window.scrollY;
+                    sessionStorage.setItem('scrollPosition', currentScroll);
                     
                     // Ricarica immediatamente
                     window.location.href = window.location.pathname + '?lang=it';
