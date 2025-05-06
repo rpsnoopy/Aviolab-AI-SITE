@@ -155,13 +155,13 @@ founder_para_1: Quando ho creato Aviolab AI, sapevo quanto fosse complesso e ris
 founder_para_2: Oggi, con la Suite TTR, chi gestisce IP può caricare documenti e ottenere un'analisi completa in pochi minuti, con la certezza che ogni connessione sia stata valutata. Un grande gruppo industriale ci ha raccontato come prima impiegasse giorni per esaminare accordi complessi, mentre oggi le stesse attività richiedono poche ore — o persino minuti, nel caso di NDA o contratti semplici.
 founder_para_3: Abbiamo anche migliorato la comunicazione tra team legali internazionali: la Suite TTR genera commenti impeccabili e proposte di revisione del testo in perfetto linguaggio legale in qualsiasi lingua, garantendo coerenza e precisione.
 founder_para_4: Abbiamo trasformato un processo critico in un vantaggio strategico. Con la Suite TTR, proteggere gli asset IP è più semplice, veloce e sicuro.
-founder_testimonial_citation: — Riccardo Parenti, Founder & CTO
+founder_testimonial_citation: — Riccardo Parenti, Founder & Technical Lead
 
 ## About Section
 about_title: Il Fondatore
 about_subtitle: Conosci l'esperto dietro Aviolab AI
 founder_name: Riccardo Parenti
-founder_position: Founder & CTO
+founder_position: Founder & Technical Lead
 founder_bio1: Riccardo Parenti è un esperto di soluzioni tecnico-legali basate sull'intelligenza artificiale e sfrutta la sua esperienza nel settore tecnologico e legale per rivoluzionare l'analisi documentale.
 founder_bio2: Con un background in intelligenza artificiale e tecnologia legale, Riccardo ha fondato Aviolab AI con la missione di trasformare il modo in cui le organizzazioni gestiscono la proprietà intellettuale e la documentazione legale.
 
