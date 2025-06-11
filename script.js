@@ -417,33 +417,25 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
     
-    // Smooth scrolling for navigation
-    document.querySelectorAll('.nav-link').forEach(anchor => {
+    // Smooth scrolling for navigation - only for internal anchor links
+    document.querySelectorAll('.nav-link[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
-            const targetId = this.getAttribute('href');
+            e.preventDefault();
             
-            // Only prevent default for internal anchor links (starting with #)
-            if (targetId && targetId.startsWith('#')) {
-                e.preventDefault();
+            const targetId = this.getAttribute('href');
+            const targetSection = document.querySelector(targetId);
+            
+            if (targetSection) {
+                window.scrollTo({
+                    top: targetSection.offsetTop - 80,
+                    behavior: 'smooth'
+                });
                 
-                const targetSection = document.querySelector(targetId);
-                
-                if (targetSection) {
-                    window.scrollTo({
-                        top: targetSection.offsetTop - 80,
-                        behavior: 'smooth'
-                    });
-                    
-                    // Close mobile menu if open
-                    if (document.body.classList.contains('mobile-menu-open')) {
-                        document.body.classList.remove('mobile-menu-open');
-                    }
+                // Close mobile menu if open
+                if (document.body.classList.contains('mobile-menu-open')) {
+                    document.body.classList.remove('mobile-menu-open');
                 }
-            } else if (targetId && targetId.includes('.html')) {
-                // Explicit handling for external HTML files (Edge compatibility)
-                window.location.href = targetId;
             }
-            // For other external links, let the default behavior happen
         });
     });
     
