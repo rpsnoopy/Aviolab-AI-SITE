@@ -439,15 +439,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
     
-    // Explicit handling for Downloads link (Edge compatibility)
-    const downloadsLink = document.querySelector('a[href="downloads.html"]');
-    if (downloadsLink) {
-        downloadsLink.addEventListener('click', function(e) {
-            // Force navigation for Edge compatibility
-            e.preventDefault();
-            window.open('downloads.html', '_self');
-        });
-    }
     
     // Mobile menu toggle
     const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
