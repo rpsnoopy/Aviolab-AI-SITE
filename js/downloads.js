@@ -38,13 +38,12 @@ document.addEventListener('DOMContentLoaded', function() {
         // Add placeholder for additional public files
         // You can manually add more items here or implement dynamic loading
         const additionalPublicFiles = [
-            // Example structure - uncomment and modify when you add public files
-            // {
-            //     name: 'Demo Software',
-            //     description: 'Try our software with sample data',
-            //     icon: 'fas fa-download',
-            //     file: 'downloads/public/demo.zip'
-            // }
+            {
+                name: 'TTR-PROBE',
+                description: 'Technical analysis tool',
+                icon: 'fas fa-cog',
+                file: 'downloads/public/TTR-PROBE.zip'
+            }
         ];
 
         additionalPublicFiles.forEach(file => {
@@ -101,6 +100,9 @@ document.addEventListener('DOMContentLoaded', function() {
             'TEST123': [
                 { name: 'Test Application', file: 'test-app.zip', size: '5.1 MB', type: 'software' },
                 { name: 'Configuration Guide', file: 'config-guide.pdf', size: '1.2 MB', type: 'documentation' }
+            ],
+            'AEN-TTR': [
+                { name: 'TTR-PROBE', file: 'TTR-PROBE.zip', size: 'Unknown', type: 'software' }
             ]
         };
 
