@@ -11,8 +11,10 @@
 - **Contact Form**: Using FormSubmit.co service (action="https://formsubmit.co/ed4f9f2929019cdfc327f3485c8654e4" method="POST")
 - **Git Workflow**: After making changes, add with `git add .`, commit with `git commit -m "Your message"` and push with `git push origin main`
 - **⚠️ IMPORTANT**: Claude can ONLY help with commits but will NEVER push changes to remote repositories
-- **Current Version**: v1.1.66 - Rimosso Contact e applicato stesso stile rosso Downloads su pagina download
-- **Previous Version**: v1.1.65 - Download link in grassetto su entrambe le pagine per uniformità visiva
+- **🌐 DEPLOYMENT**: Cloudflare Pages monitora automaticamente il repository GitHub - ogni commit viene deployato automaticamente
+- **📊 MONITORING**: Accedi a pages.cloudflare.com per monitorare deploy e risolvere eventuali problemi
+- **Current Version**: v1.1.67 - Aggiornata documentazione completa con Cloudflare Pages e sistema download
+- **Previous Version**: v1.1.66 - Rimosso Contact e applicato stesso stile rosso Downloads su pagina download
 - **Version Numbering**: After every revision, increment the rightmost number of the version string (e.g., v1.1.00 → v1.1.01) both in CLAUDE.md and in the footer of index.html
 
 ## 🎨 Code Style Guidelines
@@ -85,14 +87,44 @@
 - Business Registry: REA GE - 525625
 
 ## 📥 Downloads System
-- **Downloads Page**: \ - Area download con sezione pubblica e area clienti
-- **Directory Structure**: 
-  - \ - File pubblici per tutti
-  - \ - Cartelle specifiche per ogni cliente
+- **Downloads Page**: downloads.html - Area download con sezione pubblica e area clienti
+- **GitHub Repository**: `aviolab-ai-downloads` - File hosting su GitHub per affidabilità e velocità
+- **Link Structure**: 
+  - Public: `https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/filename.zip`
+  - Client: `https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/clients/CLIENT-ID/filename.zip`
 - **Client Management**: Gestione tramite ID cliente, file ZIP protetti da password
-- **Documentation**: Vedi \ per istruzioni complete
-- **Test Clients**: \ e \ configurati per testing
+- **Documentation**: Vedi AVIOLAB_DOWNLOAD_SYSTEM_GUIDE.md e DOWNLOAD_MANAGEMENT.md per istruzioni complete
+- **Test Clients**: AEN-TTR, TEST123 e DEMO001 configurati per testing
 - **Security**: File protetti da password ZIP, credenziali comunicate separatamente
+
+### 🎯 Come Richiedere Nuovi Download
+**Comandi per Claude:**
+- "Aggiungi [filename.zip] per cliente [CLIENT-ID]"
+- "Aggiungi [filename.zip] nell'area pubblica"
+- "Crea nuovo cliente [CLIENT-ID]"
+- "Rimuovi [filename.zip] per cliente [CLIENT-ID]"
+
+**Operazioni Automatiche di Claude:**
+1. **Per file clienti**: Aggiorna `js/downloads.js` nell'array `exampleClients`
+2. **Per file pubblici**: Aggiorna `js/downloads.js` nell'array `additionalPublicFiles`
+3. **Commit automatico**: Salva modifiche con messaggio descrittivo
+4. **Istruzioni GitHub**: Fornisce link esatto dove caricare il file ZIP
+
+### 🔧 Procedura Manuale (se Claude non disponibile)
+**1. Per aggiungere file cliente:**
+- Modifica `js/downloads.js` → array `exampleClients`
+- Aggiungi: `'CLIENT-ID': [{ name: 'Nome File', file: 'filename.zip', size: 'X MB', type: 'software' }]`
+- Carica file ZIP su: `https://github.com/rpsnoopy/aviolab-ai-downloads/tree/main/clients/CLIENT-ID/`
+
+**2. Per aggiungere file pubblico:**
+- Modifica `js/downloads.js` → array `additionalPublicFiles`
+- Aggiungi: `{ name: 'Nome', description: 'Descrizione', icon: 'fas fa-icon', file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/filename.zip' }`
+- Carica file ZIP su: `https://github.com/rpsnoopy/aviolab-ai-downloads/tree/main/public/`
+
+**3. Commit modifiche:**
+- `git add js/downloads.js`
+- `git commit -m "Add filename.zip for CLIENT-ID"`
+- Push → Deploy automatico via Cloudflare Pages
 
 ## 🔄 Stato Progetto - Sessione Attuale
 - ✅ Area download implementata e funzionante
