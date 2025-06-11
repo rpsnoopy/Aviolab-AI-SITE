@@ -13,6 +13,7 @@ nav_benefits: Vantaggi
 nav_case_studies: Casi di Studio
 nav_about: Chi Siamo
 nav_contact: Contatti
+nav_download: Download
 
 ## Hero Section
 hero_title: <span class="highlight">Intelligenza Legale</span> Potenziata dall'IA
@@ -190,3 +191,22 @@ footer_copyright: © 2025 Aviolab AI. Tutti i diritti riservati.
 
 ## One-Click Note
 one_click_note: <span style="font-size:1.2rem;font-weight:bold;color:#ff0000;">One-Click</span><span style="font-size:1.2rem;color:#ff0000;">*</span> significa che è sufficiente trascinare il documento nell'applicazione e cliccare su <span style="font-size:1.3rem;font-weight:bold;color:#ff0000;">GO</span><br>per ottenere un'analisi immediata e completa. Opzioni avanzate sono disponibili quando necessario.
+
+
+## Downloads Section
+downloads_title: Download
+downloads_subtitle: Accedi alle nostre risorse e software per clienti
+downloads_public_title: Risorse Pubbliche
+downloads_public_description: Risorse gratuite disponibili per tutti
+downloads_client_title: Area Clienti
+downloads_client_description: Software e risorse dedicati ai nostri clienti
+downloads_client_id_label: ID Cliente
+downloads_client_id_placeholder: Inserisci il tuo ID Cliente
+downloads_access_btn: Accedi ai File
+downloads_help_text: Se non hai un ID Cliente, contattaci all'indirizzo <a href="mailto:info@aviolab.ai">info@aviolab.ai</a>
+downloads_instructions_title: Istruzioni
+downloads_instruction_1: I file potrebbero essere protetti da password. Controlla la tua email per le credenziali di accesso.
+downloads_instruction_2: Tutto il software è fornito secondo il nostro accordo di licenza standard.
+downloads_instruction_3: Per supporto tecnico, contatta <a href="mailto:info@aviolab.ai">info@aviolab.ai</a>
+download_brochure: Brochure Aziendale
+download_brochure_desc: Panoramica completa dei nostri servizi

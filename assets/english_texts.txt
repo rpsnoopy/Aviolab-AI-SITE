@@ -13,6 +13,7 @@ nav_benefits: Benefits
 nav_case_studies: Case Studies
 nav_about: About
 nav_contact: Contact
+nav_download: Download
 
 ## Hero Section
 hero_title: <span class="highlight">AI-Powered</span> Legal Intelligence
@@ -190,3 +191,22 @@ footer_copyright: © 2025 Aviolab AI. All rights reserved.
 
 ## One-Click Note
 one_click_note: <span style="font-size:1.2rem;font-weight:bold;color:#ff0000;">One-Click</span><span style="font-size:1.2rem;color:#ff0000;">*</span> means you just drag and drop your document into the application and click <span style="font-size:1.3rem;font-weight:bold;color:#ff0000;">GO</span> to receive an instant, comprehensive analysis. Advanced options are available as needed.
+
+
+## Downloads Section
+downloads_title: Downloads
+downloads_subtitle: Access our resources and client software
+downloads_public_title: Public Resources
+downloads_public_description: Free resources available for everyone
+downloads_client_title: Client Area
+downloads_client_description: Dedicated software and resources for our clients
+downloads_client_id_label: Client ID
+downloads_client_id_placeholder: Enter your Client ID
+downloads_access_btn: Access Files
+downloads_help_text: If you don't have a Client ID, please contact us at <a href="mailto:info@aviolab.ai">info@aviolab.ai</a>
+downloads_instructions_title: Instructions
+downloads_instruction_1: Files may be password protected. Check your email for access credentials.
+downloads_instruction_2: All software is provided under our standard license agreement.
+downloads_instruction_3: For technical support, contact <a href="mailto:info@aviolab.ai">info@aviolab.ai</a>
+download_brochure: Company Brochure
+download_brochure_desc: Complete overview of our services

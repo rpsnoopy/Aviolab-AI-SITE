@@ -420,22 +420,27 @@ document.addEventListener("DOMContentLoaded", function () {
     // Smooth scrolling for navigation
     document.querySelectorAll('.nav-link').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            
             const targetId = this.getAttribute('href');
-            const targetSection = document.querySelector(targetId);
             
-            if (targetSection) {
-                window.scrollTo({
-                    top: targetSection.offsetTop - 80,
-                    behavior: 'smooth'
-                });
+            // Only prevent default for internal anchor links (starting with #)
+            if (targetId && targetId.startsWith('#')) {
+                e.preventDefault();
                 
-                // Close mobile menu if open
-                if (document.body.classList.contains('mobile-menu-open')) {
-                    document.body.classList.remove('mobile-menu-open');
+                const targetSection = document.querySelector(targetId);
+                
+                if (targetSection) {
+                    window.scrollTo({
+                        top: targetSection.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    if (document.body.classList.contains('mobile-menu-open')) {
+                        document.body.classList.remove('mobile-menu-open');
+                    }
                 }
             }
+            // For external links (like downloads.html), let the default behavior happen
         });
     });
     

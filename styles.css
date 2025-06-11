@@ -48,6 +48,274 @@ h1 {
 
 h2 {
     font-size: 2.5rem;
+}
+
+/* Downloads Page Styles */
+.downloads-section {
+    padding: 2rem 0;
+    min-height: calc(100vh - 200px);
+}
+
+.downloads-category {
+    margin-bottom: 3rem;
+}
+
+.downloads-category h2 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.downloads-category p {
+    color: var(--gray-color);
+    margin-bottom: 2rem;
+}
+
+.downloads-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.download-item {
+    background: white;
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    border: 1px solid var(--light-gray);
+}
+
+.download-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 25px -5px rgba(0, 0, 0, 0.15);
+}
+
+.download-icon {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.download-icon i {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+
+.download-info h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: var(--dark-color);
+}
+
+.download-info p {
+    color: var(--gray-color);
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.download-links {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.btn-small {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+    border-radius: 4px;
+    text-decoration: none;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: var(--transition);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-small:hover {
+    background: var(--secondary-color);
+    transform: translateY(-1px);
+}
+
+.client-access-form {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    margin-bottom: 2rem;
+}
+
+.client-access-form .form-group {
+    display: flex;
+    gap: 1rem;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+.client-access-form label {
+    font-weight: 600;
+    color: var(--dark-color);
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.client-access-form input {
+    flex: 1;
+    min-width: 200px;
+    padding: 0.75rem;
+    border: 2px solid var(--light-gray);
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
+.client-access-form input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.help-text {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: var(--gray-color);
+}
+
+.help-text a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.help-text a:hover {
+    text-decoration: underline;
+}
+
+.client-files {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    margin-top: 2rem;
+}
+
+.client-files h3 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.loading-message {
+    text-align: center;
+    padding: 2rem;
+    color: var(--gray-color);
+}
+
+.loading-message i {
+    margin-right: 0.5rem;
+}
+
+.no-files-message {
+    text-align: center;
+    padding: 2rem;
+    color: var(--gray-color);
+}
+
+.no-files-message i {
+    font-size: 3rem;
+    color: var(--light-gray);
+    margin-bottom: 1rem;
+}
+
+.no-files-message h3 {
+    color: var(--dark-color);
+    margin-bottom: 1rem;
+}
+
+.no-files-message a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.no-files-message a:hover {
+    text-decoration: underline;
+}
+
+.client-instructions {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: var(--light-color);
+    border-radius: 4px;
+    border-left: 4px solid var(--primary-color);
+}
+
+.instructions-content {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+.instruction-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: var(--light-color);
+    border-radius: 4px;
+}
+
+.instruction-item:last-child {
+    margin-bottom: 0;
+}
+
+.instruction-item i {
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    margin-top: 0.25rem;
+    flex-shrink: 0;
+}
+
+.instruction-item p {
+    margin: 0;
+    color: var(--dark-color);
+}
+
+.instruction-item a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.instruction-item a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation active state */
+.nav-link.active {
+    color: var(--highlight-color) !important;
+    font-weight: 600;
+}
+
+/* Responsive design for downloads */
+@media (max-width: 768px) {
+    .downloads-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .client-access-form .form-group {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .client-access-form input {
+        min-width: auto;
+    }
+    
+    .download-links {
+        justify-content: center;
+    }
+}
     font-weight: 600;
 }
 

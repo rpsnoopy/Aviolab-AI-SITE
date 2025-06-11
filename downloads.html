@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" id="html-root">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aviolab AI Downloads - Software and resources for clients">
+    <meta name="author" content="Riccardo Parenti">
+    <title>Downloads | Aviolab AI</title>
+
+    <!-- Favicons -->
+    <link rel="icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="js/translations.js"></script>
+    <script defer src="script.js"></script>
+    <script defer src="js/downloads.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header id="header">
+        <div class="header-container">
+            <a href="index.html#home" class="logo-link">
+                <img src="assets/logo.png" alt="Aviolab AI Logo">
+                <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html#mission" class="nav-link" data-i18n="nav_mission">Mission</a></li>
+                    <li><a href="index.html#capabilities" class="nav-link" data-i18n="nav_capabilities">Capabilities</a></li>
+                    <li><a href="index.html#products" class="nav-link" data-i18n="nav_solutions">Solutions</a></li>
+                    <li><a href="index.html#benefits" class="nav-link" data-i18n="nav_benefits">Benefits</a></li>
+                    <li><a href="index.html#about" class="nav-link" data-i18n="nav_about">About</a></li>
+                    <li><a href="downloads.html" class="nav-link active" data-i18n="nav_download">Download</a></li>
+                    <li><a href="index.html#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="language-selector">
+                <div class="lang-option" data-lang="en">
+                    <img src="assets/images/flags/flag-gb.svg" alt="English" class="flag-icon"> EN
+                </div>
+                <div class="lang-option" data-lang="it">
+                    <img src="assets/images/flags/flag-it.svg" alt="Italiano" class="flag-icon"> IT
+                </div>
+            </div>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Downloads Section -->
+    <section class="section downloads-section">
+        <div class="container">
+            <div class="section-header">
+                <h1 data-i18n="downloads_title">Downloads</h1>
+                <div class="underline"></div>
+                <p class="section-subtitle" data-i18n="downloads_subtitle">Access our resources and client software</p>
+            </div>
+
+            <!-- Public Downloads -->
+            <div class="downloads-category">
+                <h2 data-i18n="downloads_public_title">Public Resources</h2>
+                <p data-i18n="downloads_public_description">Free resources available for everyone</p>
+                <div class="downloads-grid" id="public-downloads">
+                    <div class="download-item">
+                        <div class="download-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <div class="download-info">
+                            <h3 data-i18n="download_brochure">Company Brochure</h3>
+                            <p data-i18n="download_brochure_desc">Complete overview of our services</p>
+                            <div class="download-links">
+                                <a href="assets/brochures/aviolab-ai-company-overview-en.pdf" download class="btn btn-small" data-lang="en">
+                                    <i class="fas fa-download"></i> English
+                                </a>
+                                <a href="assets/brochures/aviolab-ai-company-overview-it.pdf" download class="btn btn-small" data-lang="it">
+                                    <i class="fas fa-download"></i> Italiano
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Additional public files will be loaded dynamically -->
+                </div>
+            </div>
+
+            <!-- Client Access -->
+            <div class="downloads-category">
+                <h2 data-i18n="downloads_client_title">Client Area</h2>
+                <p data-i18n="downloads_client_description">Dedicated software and resources for our clients</p>
+                
+                <div class="client-access-form">
+                    <div class="form-group">
+                        <label for="client-id" data-i18n="downloads_client_id_label">Client ID:</label>
+                        <input type="text" id="client-id" placeholder="Enter your Client ID" data-i18n-placeholder="downloads_client_id_placeholder">
+                        <button type="button" id="access-client-area" class="btn btn-primary" data-i18n="downloads_access_btn">Access Files</button>
+                    </div>
+                    <p class="help-text" data-i18n="downloads_help_text">If you don't have a Client ID, please contact us at <a href="mailto:info@aviolab.ai">info@aviolab.ai</a></p>
+                </div>
+
+                <div class="client-files" id="client-files" style="display: none;">
+                    <h3 id="client-area-title">Client Files</h3>
+                    <div class="downloads-grid" id="client-downloads">
+                        <!-- Client files will be loaded dynamically -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Instructions -->
+            <div class="downloads-category">
+                <h2 data-i18n="downloads_instructions_title">Instructions</h2>
+                <div class="instructions-content">
+                    <div class="instruction-item">
+                        <i class="fas fa-info-circle"></i>
+                        <p data-i18n="downloads_instruction_1">Files may be password protected. Check your email for access credentials.</p>
+                    </div>
+                    <div class="instruction-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <p data-i18n="downloads_instruction_2">All software is provided under our standard license agreement.</p>
+                    </div>
+                    <div class="instruction-item">
+                        <i class="fas fa-headset"></i>
+                        <p data-i18n="downloads_instruction_3">For technical support, contact <a href="mailto:info@aviolab.ai">info@aviolab.ai</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html#home" class="logo-link">
+                        <img src="assets/logo.png" alt="Aviolab AI Logo">
+                        <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+                    </a>
+                    <p data-i18n="footer_tagline">Intelligent Document Analysis</p>
+                </div>
+                <div class="footer-links">
+                    <h3 data-i18n="footer_quick_links">Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#mission" data-i18n="nav_mission">Mission</a></li>
+                        <li><a href="index.html#capabilities" data-i18n="nav_capabilities">Capabilities</a></li>
+                        <li><a href="index.html#products" data-i18n="nav_solutions">Solutions</a></li>
+                        <li><a href="index.html#contact" data-i18n="nav_contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer_copyright">&copy; 2025 Aviolab AI. All rights reserved.</p>
+                <p class="version-number">v1.1.58</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -11,7 +11,8 @@
 - **Contact Form**: Using FormSubmit.co service (action="https://formsubmit.co/ed4f9f2929019cdfc327f3485c8654e4" method="POST")
 - **Git Workflow**: After making changes, add with `git add .`, commit with `git commit -m "Your message"` and push with `git push origin main`
 - **⚠️ IMPORTANT**: Claude can ONLY help with commits but will NEVER push changes to remote repositories
-- **Current Version**: v1.1.58 - Cambiato ruolo di Riccardo Parenti da Founder & CTO in Founder & Technical Lead
+- **Current Version**: v1.1.59 - Implementata area download con gestione clienti
+- **Previous Version**: v1.1.58 - Cambiato ruolo di Riccardo Parenti da Founder & CTO in Founder & Technical Lead
 - **Version Numbering**: After every revision, increment the rightmost number of the version string (e.g., v1.1.00 → v1.1.01) both in CLAUDE.md and in the footer of index.html
 
 ## 🎨 Code Style Guidelines
@@ -82,3 +83,27 @@
 - Address: Via XXV Aprile 251, IT16031 Pieve Ligure (GE)
 - VAT Number: P.IVA 02997110990
 - Business Registry: REA GE - 525625
+
+## 📥 Downloads System
+- **Downloads Page**: \ - Area download con sezione pubblica e area clienti
+- **Directory Structure**: 
+  - \ - File pubblici per tutti
+  - \ - Cartelle specifiche per ogni cliente
+- **Client Management**: Gestione tramite ID cliente, file ZIP protetti da password
+- **Documentation**: Vedi \ per istruzioni complete
+- **Test Clients**: \ e \ configurati per testing
+- **Security**: File protetti da password ZIP, credenziali comunicate separatamente
+
+## 🔄 Stato Progetto - Sessione Attuale
+- ✅ Area download implementata e funzionante
+- ✅ Fix navigazione menu principale per link esterni
+- ✅ Sistema client ID configurato e testato
+- ✅ Traduzioni EN/IT complete per area download
+- ✅ Documentazione gestione sistema creata
+
+## 📋 Prossimi Passi Pianificati
+1. **Deploy Produzione**: Caricare file aggiornati sul server web
+2. **Primi Clienti**: Configurare ID clienti reali e caricare primi file ZIP
+3. **Versioning**: Aggiornare footer con nuova versione v1.1.59
+4. **Commit Changes**: Salvare modifiche con git commit
+5. **Testing Finale**: Verificare funzionamento completo online
