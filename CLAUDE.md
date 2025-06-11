@@ -11,8 +11,8 @@
 - **Contact Form**: Using FormSubmit.co service (action="https://formsubmit.co/ed4f9f2929019cdfc327f3485c8654e4" method="POST")
 - **Git Workflow**: After making changes, add with `git add .`, commit with `git commit -m "Your message"` and push with `git push origin main`
 - **⚠️ IMPORTANT**: Claude can ONLY help with commits but will NEVER push changes to remote repositories
-- **Current Version**: v1.1.61 - Implementato sistema download GitHub-based con gestione automatizzata
-- **Previous Version**: v1.1.60 - Aggiunti file ZIP TTR-PROBE in area download pubblica e cliente AEN-TTR
+- **Current Version**: v1.1.62 - Fix navigazione Downloads per compatibilità Microsoft Edge
+- **Previous Version**: v1.1.61 - Implementato sistema download GitHub-based con gestione automatizzata
 - **Version Numbering**: After every revision, increment the rightmost number of the version string (e.g., v1.1.00 → v1.1.01) both in CLAUDE.md and in the footer of index.html
 
 ## 🎨 Code Style Guidelines
