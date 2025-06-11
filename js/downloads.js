@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 name: 'TTR-PROBE',
                 description: 'Technical analysis tool',
                 icon: 'fas fa-cog',
-                file: 'downloads/public/TTR-PROBE.zip'
+                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/TTR-PROBE.zip'
             }
         ];
 
@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <h3>${file.name}</h3>
                     <p>Size: ${file.size}</p>
                     <div class="download-links">
-                        <a href="downloads/clients/${clientId}/${file.file}" download class="btn btn-small">
+                        <a href="https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/clients/${clientId}/${file.file}" download class="btn btn-small">
                             <i class="fas fa-download"></i> Download
                         </a>
                     </div>
