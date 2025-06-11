@@ -587,6 +587,11 @@ img {
     font-weight: 600;
 }
 
+.nav-download-highlight {
+    color: var(--highlight-color) !important;
+    font-weight: 600;
+}
+
 /* Dropdown menu styling */
 .dropdown {
     position: relative;
