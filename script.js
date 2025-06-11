@@ -439,8 +439,11 @@ document.addEventListener("DOMContentLoaded", function () {
                         document.body.classList.remove('mobile-menu-open');
                     }
                 }
+            } else if (targetId && targetId.includes('.html')) {
+                // Explicit handling for external HTML files (Edge compatibility)
+                window.location.href = targetId;
             }
-            // For external links (like downloads.html), let the default behavior happen
+            // For other external links, let the default behavior happen
         });
     });
     
