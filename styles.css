@@ -587,9 +587,13 @@ img {
     font-weight: 600;
 }
 
-.nav-download-highlight {
+a.nav-link.nav-download-highlight {
     color: var(--highlight-color) !important;
     font-weight: 600;
+}
+
+a.nav-link.nav-download-highlight:hover {
+    color: var(--highlight-color) !important;
 }
 
 /* Dropdown menu styling */
