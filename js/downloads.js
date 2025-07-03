@@ -43,6 +43,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 description: 'Technical analysis tool',
                 icon: 'fas fa-cog',
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/TTR-PROBE.zip'
+            },
+            {
+                name: 'TTR-SUITE',
+                description: 'Complete TTR suite package',
+                icon: 'fas fa-box',
+                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/TTR-SUITE.zip'
             }
         ];
 
