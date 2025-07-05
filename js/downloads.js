@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 name: 'TTR-SUITE',
                 description: 'Complete TTR suite package',
                 icon: 'fas fa-box',
-                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/TTR-SUITE.zip'
+                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/v.3.0/TTR-SUITE.zip'
             }
         ];
 
