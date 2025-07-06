@@ -52,9 +52,9 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             {
                 name: 'Install Agents',
-                description: 'Agent installation script for TTR-SUITE',
+                description: 'Agent installation script for TTR-SUITE (includes documentation)',
                 icon: 'fas fa-download',
-                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/install-agents.bat'
+                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/install-agents.zip'
             }
         ];
 
