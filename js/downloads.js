@@ -108,7 +108,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 { name: 'Configuration Guide', file: 'config-guide.pdf', size: '1.2 MB', type: 'documentation' }
             ],
             'AEN-TTR': [
-                { name: 'TTR-PROBE', file: 'TTR-PROBE.zip', size: 'Unknown', type: 'software' }
+                { name: 'TTR-PROBE', file: 'TTR-PROBE.zip', size: '60 MB', type: 'software' },
+                { name: 'ANS-003745 Agents', file: 'ANS-003745-agents.zip', size: '123 KB', type: 'software' },
+                { name: 'ANS-004833 Agents', file: 'ANS-004833-agents.zip', size: '123 KB', type: 'software' }
             ]
         };
 
