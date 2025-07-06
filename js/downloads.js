@@ -49,6 +49,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 description: 'Complete TTR suite package',
                 icon: 'fas fa-box',
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/v.3.2.0006/TTR-SUITE.zip'
+            },
+            {
+                name: 'Install Agents',
+                description: 'Agent installation script for TTR-SUITE',
+                icon: 'fas fa-download',
+                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/install-agents.bat'
             }
         ];
 
