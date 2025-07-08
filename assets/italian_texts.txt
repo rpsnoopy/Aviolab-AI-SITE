@@ -197,7 +197,9 @@ one_click_note: <span style="font-size:1.2rem;font-weight:bold;color:#ff0000;">O
 downloads_title: Download
 downloads_subtitle: Accedi alle nostre risorse e software per clienti
 downloads_public_title: Risorse Pubbliche
-downloads_public_description: Risorse gratuite disponibili per tutti
+downloads_public_description: Software e risorse gratuite disponibili per tutti
+downloads_doc_title: Documentazione
+downloads_doc_description: Brochure aziendali e documentazione tecnica
 downloads_client_title: Area Clienti
 downloads_client_description: Software e risorse dedicati ai nostri clienti
 downloads_client_id_label: ID Cliente
@@ -210,3 +212,5 @@ downloads_instruction_2: Tutto il software è fornito secondo il nostro accordo 
 downloads_instruction_3: Per supporto tecnico, contatta <a href="mailto:info@aviolab.ai">info@aviolab.ai</a>
 download_brochure: Brochure Aziendale
 download_brochure_desc: Panoramica completa dei nostri servizi
+download_troubleshooting: Guida Risoluzione Problemi TTR-SUITE
+download_troubleshooting_desc: Guida di supporto tecnico per installazione e utilizzo di TTR-SUITE
