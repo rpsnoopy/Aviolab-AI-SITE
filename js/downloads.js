@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Load public downloads from directory
     loadPublicDownloads();
-    
+
     // Handle client area access
     if (accessBtn) {
         accessBtn.addEventListener('click', function() {
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // This function will scan the downloads/public directory
         // For now, we'll add the existing brochures and placeholder for future files
         const publicDownloadsContainer = document.getElementById('public-downloads');
-        
+
         // Add placeholder for additional public files
         // You can manually add more items here or implement dynamic loading
         const additionalPublicFiles = [
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function loadClientFiles(clientId) {
         // Clear previous results
         clientDownloads.innerHTML = '';
-        
+
         // Show loading state
         clientDownloads.innerHTML = '<div class="loading-message"><i class="fas fa-spinner fa-spin"></i> Loading files...</div>';
         clientFilesSection.style.display = 'block';
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function checkClientDirectory(clientId) {
         // This is a client-side approximation
         // In practice, you'll need to manually manage this or use a server-side script
-        
+
         // For demonstration, we'll create some example clients
         const exampleClients = {
             'DEMO001': [
@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function() {
         };
 
         const clientFiles = exampleClients[clientId.toUpperCase()];
-        
+
         if (clientFiles && clientFiles.length > 0) {
             displayClientFiles(clientFiles, clientId);
         } else {
@@ -131,13 +131,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function displayClientFiles(files, clientId) {
         clientDownloads.innerHTML = '';
-        
+
         files.forEach(file => {
             const fileItem = document.createElement('div');
             fileItem.className = 'download-item';
-            
+
             const iconClass = getFileIcon(file.type);
-            
+
             fileItem.innerHTML = `
                 <div class="download-icon">
                     <i class="${iconClass}"></i>
@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                 </div>
             `;
-            
+
             clientDownloads.appendChild(fileItem);
         });
 
@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function addClientExample() {
     // This is a helper function to show how to structure client data
     // In practice, you'll create directories and files manually
-    
+
     console.log('To add a new client:');
     console.log('1. Create directory: downloads/clients/CLIENT_ID/');
     console.log('2. Add files to the directory');
