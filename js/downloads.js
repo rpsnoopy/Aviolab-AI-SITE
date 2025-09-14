@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (clientId) {
                 loadClientFiles(clientId);
             } else {
-                alert('Please enter a valid Client ID');
+                alert(translations[currentLanguage]?.please_enter_valid_client_id || 'Inserisci un ID Cliente valido');
             }
         });
     }
@@ -97,9 +97,9 @@ document.addEventListener('DOMContentLoaded', function() {
         clientDownloads.innerHTML = '';
 
         // Show loading state
-        clientDownloads.innerHTML = '<div class="loading-message"><i class="fas fa-spinner fa-spin"></i> Loading files...</div>';
+        clientDownloads.innerHTML = `<div class="loading-message"><i class="fas fa-spinner fa-spin"></i> ${translations[currentLanguage]?.loading_files || 'Caricamento file...'}</div>`;
         clientFilesSection.style.display = 'block';
-        clientAreaTitle.textContent = `Files for Client: ${clientId}`;
+        clientAreaTitle.textContent = `${translations[currentLanguage]?.client_files_for || 'File per Cliente:'} ${clientId}`;
 
         // Simulate checking for client directory
         // In a real implementation, this would be an API call or server-side script
@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', function() {
         instructionDiv.innerHTML = `
             <div class="instruction-item">
                 <i class="fas fa-lock"></i>
-                <p>Files may be password protected. Check your email for access credentials.</p>
+                <p>${translations[currentLanguage]?.files_may_be_password_protected || 'I file potrebbero essere protetti da password. Controlla la tua email per le credenziali di accesso.'}</p>
             </div>
         `;
         clientDownloads.appendChild(instructionDiv);
@@ -181,8 +181,8 @@ document.addEventListener('DOMContentLoaded', function() {
         clientDownloads.innerHTML = `
             <div class="no-files-message">
                 <i class="fas fa-folder-open"></i>
-                <h3>No files found for Client ID: ${clientId}</h3>
-                <p>Please check your Client ID or contact us at <a href="mailto:info@aviolab.ai">info@aviolab.ai</a> for assistance.</p>
+                <h3>${translations[currentLanguage]?.no_files_found_for_client || 'Nessun file trovato per ID Cliente:'} ${clientId}</h3>
+                <p>${translations[currentLanguage]?.check_client_id_or_contact || 'Verifica il tuo ID Cliente o contattaci a'} <a href="mailto:info@aviolab.ai">info@aviolab.ai</a> ${translations[currentLanguage]?.for_assistance || 'per assistenza.'}</p>
             </div>
         `;
     }

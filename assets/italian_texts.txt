@@ -218,3 +218,12 @@ license_connection_test_desc: Tool per il testing automatico della modalità di 
 ttr_probe_desc: Strumento di analisi tecnica
 ttr_suite_desc: Pacchetto completo TTR suite
 install_agents_desc: Script di installazione agenti per TTR-SUITE (include documentazione)
+download_english: English
+download_italian: Italiano
+client_files_for: File per Cliente:
+loading_files: Caricamento file...
+please_enter_valid_client_id: Inserisci un ID Cliente valido
+no_files_found_for_client: Nessun file trovato per ID Cliente:
+check_client_id_or_contact: Verifica il tuo ID Cliente o contattaci a
+for_assistance: per assistenza.
+files_may_be_password_protected: I file potrebbero essere protetti da password. Controlla la tua email per le credenziali di accesso.
