@@ -55,6 +55,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 description: 'Agent installation script for TTR-SUITE (includes documentation)',
                 icon: 'fas fa-download',
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/install-agents.zip'
+            },
+            {
+                name: 'LicenseConnectionTest',
+                description: 'Tool per il testing automatico della modalita\' di connessione utilizzabile su rete aziendale',
+                icon: 'fas fa-network-wired',
+                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/LicenseConnectionTest.exe'
             }
         ];
 
