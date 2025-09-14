@@ -42,25 +42,25 @@ document.addEventListener('DOMContentLoaded', function() {
         // You can manually add more items here or implement dynamic loading
         const additionalPublicFiles = [
             {
-                name: 'TTR-PROBE',
+                name: translations[currentLanguage]?.ttr_probe_title || 'TTR-PROBE',
                 description: translations[currentLanguage]?.ttr_probe_desc || 'Strumento di analisi tecnica',
                 icon: 'fas fa-cog',
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/TTR-PROBE.zip'
             },
             {
-                name: 'TTR-SUITE',
+                name: translations[currentLanguage]?.ttr_suite_title || 'TTR-SUITE',
                 description: translations[currentLanguage]?.ttr_suite_desc || 'Pacchetto completo TTR suite',
                 icon: 'fas fa-box',
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/TTR-SUITE/TTR-SUITE.zip'
             },
             {
-                name: 'Install Agents',
+                name: translations[currentLanguage]?.install_agents_title || 'Installa Agenti',
                 description: translations[currentLanguage]?.install_agents_desc || 'Script di installazione agenti per TTR-SUITE (include documentazione)',
                 icon: 'fas fa-download',
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/install-agents.zip'
             },
             {
-                name: 'LicenseConnectionTest',
+                name: translations[currentLanguage]?.license_connection_test_title || 'Test Connessione Licenza',
                 description: translations[currentLanguage]?.license_connection_test_desc || 'Tool per il testing automatico della modalità di connessione utilizzabile su rete aziendale',
                 icon: 'fas fa-network-wired',
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/LicenseConnectionTest.exe'

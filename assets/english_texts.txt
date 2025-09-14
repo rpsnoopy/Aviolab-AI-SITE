@@ -227,3 +227,7 @@ no_files_found_for_client: No files found for Client ID:
 check_client_id_or_contact: Please check your Client ID or contact us at
 for_assistance: for assistance.
 files_may_be_password_protected: Files may be password protected. Check your email for access credentials.
+ttr_probe_title: TTR-PROBE
+ttr_suite_title: TTR-SUITE
+install_agents_title: Install Agents
+license_connection_test_title: LicenseConnectionTest
