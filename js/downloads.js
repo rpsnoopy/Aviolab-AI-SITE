@@ -43,19 +43,19 @@ document.addEventListener('DOMContentLoaded', function() {
         const additionalPublicFiles = [
             {
                 name: 'TTR-PROBE',
-                description: 'Technical analysis tool',
+                description: translations[currentLanguage]?.ttr_probe_desc || 'Strumento di analisi tecnica',
                 icon: 'fas fa-cog',
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/TTR-PROBE.zip'
             },
             {
                 name: 'TTR-SUITE',
-                description: 'Complete TTR suite package',
+                description: translations[currentLanguage]?.ttr_suite_desc || 'Pacchetto completo TTR suite',
                 icon: 'fas fa-box',
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/TTR-SUITE/TTR-SUITE.zip'
             },
             {
                 name: 'Install Agents',
-                description: 'Agent installation script for TTR-SUITE (includes documentation)',
+                description: translations[currentLanguage]?.install_agents_desc || 'Script di installazione agenti per TTR-SUITE (include documentazione)',
                 icon: 'fas fa-download',
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/install-agents.zip'
             },

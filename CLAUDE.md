@@ -105,8 +105,11 @@
 - "Rimuovi [filename.zip] per cliente [CLIENT-ID]"
 
 **Operazioni Automatiche di Claude:**
-1. **Per file clienti**: Aggiorna `js/downloads.js` nell'array `exampleClients`
-2. **Per file pubblici**: Aggiorna `js/downloads.js` nell'array `additionalPublicFiles`
+1. **Per file pubblici**:
+   - Aggiunge traduzioni in `assets/english_texts.txt` e `assets/italian_texts.txt`
+   - Esegue `node update-translations.js` per rigenerare translations.js
+   - Aggiorna `js/downloads.js` nell'array `additionalPublicFiles` usando sistema traduzioni
+2. **Per file clienti**: Aggiorna `js/downloads.js` nell'array `exampleClients`
 3. **Commit automatico**: Salva modifiche con messaggio descrittivo
 4. **Istruzioni GitHub**: Fornisce link esatto dove caricare il file ZIP
 
@@ -117,12 +120,15 @@
 - Carica file ZIP su: `https://github.com/rpsnoopy/aviolab-ai-downloads/tree/main/clients/CLIENT-ID/`
 
 **2. Per aggiungere file pubblico:**
+- ⚠️ **IMPORTANTE**: Prima aggiungere traduzioni in `assets/english_texts.txt` e `assets/italian_texts.txt`
+- Aggiungere chiave tipo: `nuovo_file_desc: Descrizione in inglese` / `nuovo_file_desc: Descrizione in italiano`
+- Eseguire `node update-translations.js` per rigenerare translations.js
 - Modifica `js/downloads.js` → array `additionalPublicFiles`
-- Aggiungi: `{ name: 'Nome', description: 'Descrizione', icon: 'fas fa-icon', file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/filename.zip' }`
+- Usare sistema traduzioni: `description: translations[currentLanguage]?.nuovo_file_desc || 'Descrizione fallback'`
 - Carica file ZIP su: `https://github.com/rpsnoopy/aviolab-ai-downloads/tree/main/public/`
 
 **3. Commit modifiche:**
-- `git add js/downloads.js`
+- `git add assets/english_texts.txt assets/italian_texts.txt js/translations.js js/downloads.js`
 - `git commit -m "Add filename.zip for CLIENT-ID"`
 - Push → Deploy automatico via Cloudflare Pages
 
