@@ -214,3 +214,4 @@ download_brochure: Brochure Aziendale
 download_brochure_desc: Panoramica completa dei nostri servizi
 download_troubleshooting: Guida Risoluzione Problemi TTR-SUITE
 download_troubleshooting_desc: Guida di supporto tecnico per installazione e utilizzo di TTR-SUITE
+license_connection_test_desc: Tool per il testing automatico della modalità di connessione utilizzabile su rete aziendale

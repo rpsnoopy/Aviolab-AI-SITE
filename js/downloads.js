@@ -6,6 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const clientDownloads = document.getElementById('client-downloads');
     const clientAreaTitle = document.getElementById('client-area-title');
 
+    // Get current language from localStorage or default to 'it'
+    const currentLanguage = localStorage.getItem('language') || 'it';
+
     // Load public downloads from directory
     loadPublicDownloads();
 
@@ -58,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             {
                 name: 'LicenseConnectionTest',
-                description: 'Tool per il testing automatico della modalita\' di connessione utilizzabile su rete aziendale',
+                description: translations[currentLanguage]?.license_connection_test_desc || 'Tool per il testing automatico della modalità di connessione utilizzabile su rete aziendale',
                 icon: 'fas fa-network-wired',
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/LicenseConnectionTest.exe'
             }
