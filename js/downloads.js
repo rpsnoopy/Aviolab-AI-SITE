@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 name: translations[currentLanguage]?.ttr_suite_title || 'TTR-SUITE',
                 description: translations[currentLanguage]?.ttr_suite_desc || 'Pacchetto completo TTR suite',
                 icon: 'fas fa-box',
-                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/TTR-SUITE/TTR-SUITE.zip'
+                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/TTR-SUITE-4.3.000/TTR-SUITE.zip'
             },
             {
                 name: translations[currentLanguage]?.install_agents_title || 'Installa Agenti',
