@@ -13,7 +13,7 @@
 - **⚠️ IMPORTANT**: Claude can ONLY help with commits but will NEVER push changes to remote repositories
 - **🌐 DEPLOYMENT**: Cloudflare Pages monitora automaticamente il repository GitHub - ogni commit viene deployato automaticamente
 - **📊 MONITORING**: Accedi a pages.cloudflare.com per monitorare deploy e risolvere eventuali problemi
-- **Current Version**: v1.1.68 - Aggiornato link TTR-SUITE.zip e aggiunta procedura di aggiornamento
+- **Current Version**: v1.1.69 - Aggiornato TTR-SUITE alla versione 4.3.000
 - **Previous Version**: v1.1.67 - Aggiornata documentazione completa con Cloudflare Pages e sistema download
 - **Version Numbering**: After every revision, increment the rightmost number of the version string (e.g., v1.1.00 → v1.1.01) both in CLAUDE.md and in the footer of index.html
 
