@@ -48,10 +48,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/TTR-PROBE.zip'
             },
             {
-                name: translations[currentLanguage]?.ttr_suite_title || 'TTR-SUITE',
-                description: translations[currentLanguage]?.ttr_suite_desc || 'Pacchetto completo TTR suite',
-                icon: 'fas fa-box',
-                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/TTR-SUITE-4.3.000/TTR-SUITE.zip'
+                name: translations[currentLanguage]?.ttr_updater_title || 'TTR-SUITE Installer',
+                description: translations[currentLanguage]?.ttr_updater_desc || 'Programma di installazione automatica TTR-SUITE (scarica e installa automaticamente l\'ultima versione)',
+                icon: 'fas fa-download',
+                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/TTR-UPDATER.exe'
             },
             {
                 name: translations[currentLanguage]?.install_agents_title || 'Installa Agenti',

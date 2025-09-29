@@ -216,7 +216,7 @@ download_troubleshooting: Guida Risoluzione Problemi TTR-SUITE
 download_troubleshooting_desc: Guida di supporto tecnico per installazione e utilizzo di TTR-SUITE
 license_connection_test_desc: Tool per il testing automatico della modalità di connessione utilizzabile su rete aziendale
 ttr_probe_desc: Strumento di analisi tecnica
-ttr_suite_desc: Pacchetto completo TTR suite v4.3.000
+ttr_updater_desc: Programma di installazione automatica TTR-SUITE (scarica e installa automaticamente l'ultima versione)
 install_agents_desc: Script di installazione agenti per TTR-SUITE (include documentazione)
 download_english: English
 download_italian: Italiano
@@ -228,6 +228,6 @@ check_client_id_or_contact: Verifica il tuo ID Cliente o contattaci a
 for_assistance: per assistenza.
 files_may_be_password_protected: I file potrebbero essere protetti da password. Controlla la tua email per le credenziali di accesso.
 ttr_probe_title: TTR-PROBE
-ttr_suite_title: TTR-SUITE
+ttr_updater_title: TTR-SUITE Installer
 install_agents_title: Installa Agenti
 license_connection_test_title: Test Connessione Licenza
