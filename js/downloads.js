@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 name: translations[currentLanguage]?.ttr_updater_title || 'TTR-SUITE Installer',
                 description: translations[currentLanguage]?.ttr_updater_desc || 'Programma di installazione automatica TTR-SUITE (scarica e installa automaticamente l\'ultima versione)',
                 icon: 'fas fa-download',
-                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/TTR-UPDATER.exe'
+                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/TTR-SUITE/TTR-UPDATER.exe'
             },
             {
                 name: translations[currentLanguage]?.install_agents_title || 'Installa Agenti',
