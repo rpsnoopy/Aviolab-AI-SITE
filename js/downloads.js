@@ -54,10 +54,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/TTR-SUITE/TTR-UPDATER.exe'
             },
             {
-                name: translations[currentLanguage]?.install_agents_title || 'Installa Agenti',
-                description: translations[currentLanguage]?.install_agents_desc || 'Script di installazione agenti per TTR-SUITE (include documentazione)',
-                icon: 'fas fa-download',
-                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/install-agents.zip'
+                name: translations[currentLanguage]?.md_to_docx_title || 'Convertitore MD-to-DOCX',
+                description: translations[currentLanguage]?.md_to_docx_desc || 'Convertitore Markdown a Word - tool drag & drop con integrazione automatica pandoc',
+                icon: 'fas fa-file-word',
+                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/MD-to-DOCX-Converter.exe'
             },
             {
                 name: translations[currentLanguage]?.license_connection_test_title || 'Test Connessione Licenza',

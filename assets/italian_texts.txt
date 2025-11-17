@@ -217,7 +217,7 @@ download_troubleshooting_desc: Guida di supporto tecnico per installazione e uti
 license_connection_test_desc: Tool per il testing automatico della modalità di connessione utilizzabile su rete aziendale
 ttr_probe_desc: Strumento di analisi tecnica
 ttr_updater_desc: Programma di installazione automatica TTR-SUITE (scarica e installa automaticamente l'ultima versione)
-install_agents_desc: Script di installazione agenti per TTR-SUITE (include documentazione)
+md_to_docx_desc: Convertitore Markdown a Word - tool drag & drop con integrazione automatica pandoc
 download_english: English
 download_italian: Italiano
 client_files_for: File per Cliente:
@@ -229,5 +229,5 @@ for_assistance: per assistenza.
 files_may_be_password_protected: I file potrebbero essere protetti da password. Controlla la tua email per le credenziali di accesso.
 ttr_probe_title: TTR-PROBE
 ttr_updater_title: TTR-SUITE Installer
-install_agents_title: Installa Agenti
+md_to_docx_title: Convertitore MD-to-DOCX
 license_connection_test_title: Test Connessione Licenza
