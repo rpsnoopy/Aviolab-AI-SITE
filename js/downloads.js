@@ -60,10 +60,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/MD-to-DOCX-Converter.exe'
             },
             {
-                name: translations[currentLanguage]?.license_connection_test_title || 'Test Connessione Licenza',
-                description: translations[currentLanguage]?.license_connection_test_desc || 'Tool per il testing automatico della modalità di connessione utilizzabile su rete aziendale',
-                icon: 'fas fa-network-wired',
-                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/LicenseConnectionTest.exe'
+                name: translations[currentLanguage]?.ttr_suite_user_guide_title || 'Guida Utente TTR-SUITE',
+                description: translations[currentLanguage]?.ttr_suite_user_guide_desc || 'Guida utente completa per TTR-SUITE - descrizione interfaccia, funzionalità e istruzioni d\'uso',
+                icon: 'fas fa-book',
+                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/SUITE-TTR-USER-GUIDE.pdf'
             }
         ];
 

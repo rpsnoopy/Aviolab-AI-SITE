@@ -214,7 +214,7 @@ download_brochure: Brochure Aziendale
 download_brochure_desc: Panoramica completa dei nostri servizi
 download_troubleshooting: Guida Risoluzione Problemi TTR-SUITE
 download_troubleshooting_desc: Guida di supporto tecnico per installazione e utilizzo di TTR-SUITE
-license_connection_test_desc: Tool per il testing automatico della modalità di connessione utilizzabile su rete aziendale
+ttr_suite_user_guide_desc: Guida utente completa per TTR-SUITE - descrizione interfaccia, funzionalità e istruzioni d'uso
 ttr_probe_desc: Strumento di analisi tecnica
 ttr_updater_desc: Programma di installazione automatica TTR-SUITE (scarica e installa automaticamente l'ultima versione)
 md_to_docx_desc: Convertitore Markdown a Word - tool drag & drop con integrazione automatica pandoc
@@ -230,4 +230,4 @@ files_may_be_password_protected: I file potrebbero essere protetti da password. 
 ttr_probe_title: TTR-PROBE
 ttr_updater_title: TTR-SUITE Installer
 md_to_docx_title: Convertitore MD-to-DOCX
-license_connection_test_title: Test Connessione Licenza
+ttr_suite_user_guide_title: Guida Utente TTR-SUITE
