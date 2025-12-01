@@ -231,3 +231,5 @@ ttr_probe_title: TTR-PROBE
 ttr_updater_title: TTR-SUITE Installer
 md_to_docx_title: MD-to-DOCX Converter
 ttr_suite_user_guide_title: TTR-SUITE User Guide
+ttr_agents_quick_guide_title: TTR-SUITE Agents Quick Guide
+ttr_agents_quick_guide_desc: Quick reference guide for TTR-SUITE agents - essential functions and practical usage tips (Italian only)
