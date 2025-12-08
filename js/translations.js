@@ -190,7 +190,9 @@ const translations = {
         "md_to_docx_title": "MD-to-DOCX Converter",
         "ttr_suite_user_guide_title": "TTR-SUITE User Guide",
         "ttr_agents_quick_guide_title": "TTR-SUITE Agents Quick Guide",
-        "ttr_agents_quick_guide_desc": "Quick reference guide for TTR-SUITE agents - essential functions and practical usage tips (Italian only)"
+        "ttr_agents_quick_guide_desc": "Quick reference guide for TTR-SUITE agents - essential functions and practical usage tips (Italian only)",
+        "ttr_network_diagnostic_title": "TTR Network Diagnostic Tool",
+        "ttr_network_diagnostic_desc": "Network connectivity diagnostic tool for TTR-SUITE - tests license download and LLM API access in corporate environments"
     },
     "it": {
         "nav_home": "Home",
@@ -378,6 +380,8 @@ const translations = {
         "md_to_docx_title": "Convertitore MD-to-DOCX",
         "ttr_suite_user_guide_title": "Guida Utente TTR-SUITE",
         "ttr_agents_quick_guide_title": "Guida Rapida Agenti TTR-SUITE",
-        "ttr_agents_quick_guide_desc": "Guida rapida di riferimento per gli agenti TTR-SUITE - funzioni essenziali e consigli pratici d'uso"
+        "ttr_agents_quick_guide_desc": "Guida rapida di riferimento per gli agenti TTR-SUITE - funzioni essenziali e consigli pratici d'uso",
+        "ttr_network_diagnostic_title": "Strumento Diagnostico di Rete TTR",
+        "ttr_network_diagnostic_desc": "Strumento diagnostico di connettività di rete per TTR-SUITE - testa download licenze e accesso API LLM in ambienti aziendali"
     }
 };

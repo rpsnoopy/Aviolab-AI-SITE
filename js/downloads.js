@@ -70,6 +70,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 description: translations[currentLanguage]?.ttr_agents_quick_guide_desc || 'Guida rapida di riferimento per gli agenti TTR-SUITE - funzioni essenziali e consigli pratici d\'uso',
                 icon: 'fas fa-bookmark',
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/GUIDA-RAPIDA-AGENTI-TTR-SUITE-ver-5.7.pdf'
+            },
+            {
+                name: translations[currentLanguage]?.ttr_network_diagnostic_title || 'Strumento Diagnostico di Rete TTR',
+                description: translations[currentLanguage]?.ttr_network_diagnostic_desc || 'Strumento diagnostico di connettività di rete per TTR-SUITE - testa download licenze e accesso API LLM in ambienti aziendali',
+                icon: 'fas fa-network-wired',
+                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/LicenseConnectionTest.exe'
             }
         ];
 
