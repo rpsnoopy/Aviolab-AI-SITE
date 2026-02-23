@@ -6,9 +6,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const clientDownloads = document.getElementById('client-downloads');
     const clientAreaTitle = document.getElementById('client-area-title');
 
+    // Get current language from localStorage or default to 'it'
+    const currentLanguage = localStorage.getItem('language') || 'it';
+
     // Load public downloads from directory
     loadPublicDownloads();
-    
+
     // Handle client area access
     if (accessBtn) {
         accessBtn.addEventListener('click', function() {
@@ -16,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (clientId) {
                 loadClientFiles(clientId);
             } else {
-                alert('Please enter a valid Client ID');
+                alert(translations[currentLanguage]?.please_enter_valid_client_id || 'Inserisci un ID Cliente valido');
             }
         });
     }
@@ -34,27 +37,45 @@ document.addEventListener('DOMContentLoaded', function() {
         // This function will scan the downloads/public directory
         // For now, we'll add the existing brochures and placeholder for future files
         const publicDownloadsContainer = document.getElementById('public-downloads');
-        
+
         // Add placeholder for additional public files
         // You can manually add more items here or implement dynamic loading
         const additionalPublicFiles = [
             {
-                name: 'TTR-PROBE',
-                description: 'Technical analysis tool',
+                name: translations[currentLanguage]?.ttr_probe_title || 'TTR-PROBE',
+                description: translations[currentLanguage]?.ttr_probe_desc || 'Strumento di analisi tecnica',
                 icon: 'fas fa-cog',
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/TTR-PROBE.zip'
             },
             {
-                name: 'TTR-SUITE',
-                description: 'Complete TTR suite package',
-                icon: 'fas fa-box',
-                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/3.2.0006/TTR-SUITE.zip'
+                name: translations[currentLanguage]?.ttr_updater_title || 'TTR-SUITE Installer',
+                description: translations[currentLanguage]?.ttr_updater_desc || 'Programma di installazione automatica TTR-SUITE (scarica e installa automaticamente l\'ultima versione)',
+                icon: 'fas fa-download',
+                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/TTR-SUITE/TTR-UPDATER.exe'
             },
             {
-                name: 'Install Agents',
-                description: 'Agent installation script for TTR-SUITE (includes documentation)',
-                icon: 'fas fa-download',
-                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/install-agents.zip'
+                name: translations[currentLanguage]?.md_to_docx_title || 'Convertitore MD-to-DOCX',
+                description: translations[currentLanguage]?.md_to_docx_desc || 'Convertitore Markdown a Word - tool drag & drop con integrazione automatica pandoc',
+                icon: 'fas fa-file-word',
+                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/MD-to-DOCX-Converter.exe'
+            },
+            {
+                name: translations[currentLanguage]?.ttr_suite_user_guide_title || 'Guida Utente TTR-SUITE',
+                description: translations[currentLanguage]?.ttr_suite_user_guide_desc || 'Guida utente completa per TTR-SUITE - descrizione interfaccia, funzionalità e istruzioni d\'uso',
+                icon: 'fas fa-book',
+                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/SUITE-TTR-USER-GUIDE.pdf'
+            },
+            {
+                name: translations[currentLanguage]?.ttr_agents_quick_guide_title || 'Guida Rapida Agenti TTR-SUITE',
+                description: translations[currentLanguage]?.ttr_agents_quick_guide_desc || 'Guida rapida di riferimento per gli agenti TTR-SUITE - funzioni essenziali e consigli pratici d\'uso',
+                icon: 'fas fa-bookmark',
+                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/GUIDA-RAPIDA-AGENTI-TTR-SUITE-ver-5.7.pdf'
+            },
+            {
+                name: translations[currentLanguage]?.ttr_network_diagnostic_title || 'Strumento Diagnostico di Rete TTR',
+                description: translations[currentLanguage]?.ttr_network_diagnostic_desc || 'Strumento diagnostico di connettività di rete per TTR-SUITE - testa download licenze e accesso API LLM in ambienti aziendali',
+                icon: 'fas fa-network-wired',
+                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/LicenseConnectionTest.exe'
             }
         ];
 
@@ -86,11 +107,11 @@ document.addEventListener('DOMContentLoaded', function() {
     function loadClientFiles(clientId) {
         // Clear previous results
         clientDownloads.innerHTML = '';
-        
+
         // Show loading state
-        clientDownloads.innerHTML = '<div class="loading-message"><i class="fas fa-spinner fa-spin"></i> Loading files...</div>';
+        clientDownloads.innerHTML = `<div class="loading-message"><i class="fas fa-spinner fa-spin"></i> ${translations[currentLanguage]?.loading_files || 'Caricamento file...'}</div>`;
         clientFilesSection.style.display = 'block';
-        clientAreaTitle.textContent = `Files for Client: ${clientId}`;
+        clientAreaTitle.textContent = `${translations[currentLanguage]?.client_files_for || 'File per Cliente:'} ${clientId}`;
 
         // Simulate checking for client directory
         // In a real implementation, this would be an API call or server-side script
@@ -102,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function checkClientDirectory(clientId) {
         // This is a client-side approximation
         // In practice, you'll need to manually manage this or use a server-side script
-        
+
         // For demonstration, we'll create some example clients
         const exampleClients = {
             'DEMO001': [
@@ -121,7 +142,7 @@ document.addEventListener('DOMContentLoaded', function() {
         };
 
         const clientFiles = exampleClients[clientId.toUpperCase()];
-        
+
         if (clientFiles && clientFiles.length > 0) {
             displayClientFiles(clientFiles, clientId);
         } else {
@@ -131,13 +152,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function displayClientFiles(files, clientId) {
         clientDownloads.innerHTML = '';
-        
+
         files.forEach(file => {
             const fileItem = document.createElement('div');
             fileItem.className = 'download-item';
-            
+
             const iconClass = getFileIcon(file.type);
-            
+
             fileItem.innerHTML = `
                 <div class="download-icon">
                     <i class="${iconClass}"></i>
@@ -152,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                 </div>
             `;
-            
+
             clientDownloads.appendChild(fileItem);
         });
 
@@ -162,7 +183,7 @@ document.addEventListener('DOMContentLoaded', function() {
         instructionDiv.innerHTML = `
             <div class="instruction-item">
                 <i class="fas fa-lock"></i>
-                <p>Files may be password protected. Check your email for access credentials.</p>
+                <p>${translations[currentLanguage]?.files_may_be_password_protected || 'I file potrebbero essere protetti da password. Controlla la tua email per le credenziali di accesso.'}</p>
             </div>
         `;
         clientDownloads.appendChild(instructionDiv);
@@ -172,8 +193,8 @@ document.addEventListener('DOMContentLoaded', function() {
         clientDownloads.innerHTML = `
             <div class="no-files-message">
                 <i class="fas fa-folder-open"></i>
-                <h3>No files found for Client ID: ${clientId}</h3>
-                <p>Please check your Client ID or contact us at <a href="mailto:info@aviolab.ai">info@aviolab.ai</a> for assistance.</p>
+                <h3>${translations[currentLanguage]?.no_files_found_for_client || 'Nessun file trovato per ID Cliente:'} ${clientId}</h3>
+                <p>${translations[currentLanguage]?.check_client_id_or_contact || 'Verifica il tuo ID Cliente o contattaci a'} <a href="mailto:info@aviolab.ai">info@aviolab.ai</a> ${translations[currentLanguage]?.for_assistance || 'per assistenza.'}</p>
             </div>
         `;
     }
@@ -194,7 +215,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function addClientExample() {
     // This is a helper function to show how to structure client data
     // In practice, you'll create directories and files manually
-    
+
     console.log('To add a new client:');
     console.log('1. Create directory: downloads/clients/CLIENT_ID/');
     console.log('2. Add files to the directory');

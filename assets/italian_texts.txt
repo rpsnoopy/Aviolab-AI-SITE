@@ -214,3 +214,22 @@ download_brochure: Brochure Aziendale
 download_brochure_desc: Panoramica completa dei nostri servizi
 download_troubleshooting: Guida Risoluzione Problemi TTR-SUITE
 download_troubleshooting_desc: Guida di supporto tecnico per installazione e utilizzo di TTR-SUITE
+ttr_suite_user_guide_desc: Guida utente completa per TTR-SUITE - descrizione interfaccia, funzionalità e istruzioni d'uso
+ttr_probe_desc: Strumento di analisi tecnica
+ttr_updater_desc: Programma di installazione automatica TTR-SUITE (scarica e installa automaticamente l'ultima versione)
+md_to_docx_desc: Convertitore Markdown a Word - tool drag & drop con integrazione automatica pandoc
+download_english: English
+download_italian: Italiano
+client_files_for: File per Cliente:
+loading_files: Caricamento file...
+please_enter_valid_client_id: Inserisci un ID Cliente valido
+no_files_found_for_client: Nessun file trovato per ID Cliente:
+check_client_id_or_contact: Verifica il tuo ID Cliente o contattaci a
+for_assistance: per assistenza.
+files_may_be_password_protected: I file potrebbero essere protetti da password. Controlla la tua email per le credenziali di accesso.
+ttr_probe_title: TTR-PROBE
+ttr_updater_title: TTR-SUITE Installer
+md_to_docx_title: Convertitore MD-to-DOCX
+ttr_suite_user_guide_title: Guida Utente TTR-SUITE
+ttr_agents_quick_guide_title: Guida Rapida Agenti TTR-SUITE
+ttr_agents_quick_guide_desc: Guida rapida di riferimento per gli agenti TTR-SUITE - funzioni essenziali e consigli pratici d'uso

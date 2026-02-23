@@ -33,7 +33,11 @@
       "Bash(git -C /mnt/c/Users/rpsno/Documents/GitHub/aviolab-ai-downloads commit -m \"$(cat <<''EOF''\nUpdate install-agents.zip with improved UX\n\n- Auto-detect ZIP files in current directory\n- Show numbered menu for multiple ZIP files\n- Clearer error messages and instructions\n- Better installation summary and feedback\n- Updated documentation (EN/IT)\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
       "Bash(git -C /mnt/c/Users/rpsno/Documents/GitHub/aviolab-ai-downloads status)",
       "Bash(git -C /mnt/c/Users/rpsno/Documents/GitHub/aviolab-ai-downloads add public/README_EN.md public/README_IT.md public/install-agents.bat)",
-      "Bash(git -C /mnt/c/Users/rpsno/Documents/GitHub/aviolab-ai-downloads commit -m \"$(cat <<''EOF''\nRemove old install-agents files replaced by ZIP\n\nOld individual files (install-agents.bat, README_EN.md, README_IT.md) are now packaged in install-agents.zip for better distribution.\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+      "Bash(git -C /mnt/c/Users/rpsno/Documents/GitHub/aviolab-ai-downloads commit -m \"$(cat <<''EOF''\nRemove old install-agents files replaced by ZIP\n\nOld individual files (install-agents.bat, README_EN.md, README_IT.md) are now packaged in install-agents.zip for better distribution.\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Read(//mnt/c/Users/rpsno/OneDrive/Documents/GitHub/aviolab-ai-downloads/**)",
+      "Bash(git -C \"/mnt/c/Users/rpsno/OneDrive/Documents/GitHub/aviolab-ai-downloads\" status)",
+      "Bash(git -C \"/mnt/c/Users/rpsno/OneDrive/Documents/GitHub/aviolab-ai-downloads\" tag --list)",
+      "WebFetch(domain:aviolab.ai)"
     ],
     "deny": []
   }
