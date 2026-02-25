@@ -37,7 +37,10 @@
       "Read(//mnt/c/Users/rpsno/OneDrive/Documents/GitHub/aviolab-ai-downloads/**)",
       "Bash(git -C \"/mnt/c/Users/rpsno/OneDrive/Documents/GitHub/aviolab-ai-downloads\" status)",
       "Bash(git -C \"/mnt/c/Users/rpsno/OneDrive/Documents/GitHub/aviolab-ai-downloads\" tag --list)",
-      "WebFetch(domain:aviolab.ai)"
+      "WebFetch(domain:aviolab.ai)",
+      "Bash(gh repo:*)",
+      "Skill(clipboard-reader)",
+      "Bash(curl:*)"
     ],
     "deny": []
   }
