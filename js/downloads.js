@@ -54,12 +54,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/TTR-SUITE/TTR-UPDATER.exe'
             },
             {
-                name: translations[currentLanguage]?.md_to_docx_title || 'Convertitore MD-to-DOCX',
-                description: translations[currentLanguage]?.md_to_docx_desc || 'Convertitore Markdown a Word - tool drag & drop con integrazione automatica pandoc',
-                icon: 'fas fa-file-word',
-                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/MD-to-DOCX-Converter.exe'
-            },
-            {
                 name: translations[currentLanguage]?.ttr_network_diagnostic_title || 'Strumento Diagnostico di Rete TTR',
                 description: translations[currentLanguage]?.ttr_network_diagnostic_desc || 'Strumento diagnostico di connettività di rete per TTR-SUITE - testa download licenze e accesso API LLM in ambienti aziendali',
                 icon: 'fas fa-network-wired',
