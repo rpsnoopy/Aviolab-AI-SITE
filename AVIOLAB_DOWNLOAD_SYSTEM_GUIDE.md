@@ -54,7 +54,8 @@ https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/clients/[CLIENT-ID]/[f
 ```
 
 ### Examples
-- Public: `https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/TTR-PROBE.zip`
+- Public tool (GitHub release): `https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/TTR-SUITE/TTR-PROBE.exe`
+- Public doc (public/ dir): `https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/MD-to-DOCX-Converter.exe`
 - Client: `https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/clients/AEN-TTR/TTR-PROBE.zip`
 
 ## 🛠️ File Management Workflow

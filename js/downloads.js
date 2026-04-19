@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 name: translations[currentLanguage]?.ttr_probe_title || 'TTR-PROBE',
                 description: translations[currentLanguage]?.ttr_probe_desc || 'Strumento di analisi tecnica',
                 icon: 'fas fa-cog',
-                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/TTR-PROBE.zip'
+                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/TTR-SUITE/TTR-PROBE.exe'
             },
             {
                 name: translations[currentLanguage]?.ttr_updater_title || 'TTR-SUITE Installer',
@@ -60,22 +60,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/MD-to-DOCX-Converter.exe'
             },
             {
-                name: translations[currentLanguage]?.ttr_suite_user_guide_title || 'Guida Utente TTR-SUITE',
-                description: translations[currentLanguage]?.ttr_suite_user_guide_desc || 'Guida utente completa per TTR-SUITE - descrizione interfaccia, funzionalità e istruzioni d\'uso',
-                icon: 'fas fa-book',
-                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/SUITE-TTR-USER-GUIDE.pdf'
-            },
-            {
-                name: translations[currentLanguage]?.ttr_agents_quick_guide_title || 'Guida Rapida Agenti TTR-SUITE',
-                description: translations[currentLanguage]?.ttr_agents_quick_guide_desc || 'Guida rapida di riferimento per gli agenti TTR-SUITE - funzioni essenziali e consigli pratici d\'uso',
-                icon: 'fas fa-bookmark',
-                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/GUIDA-RAPIDA-AGENTI-TTR-SUITE-ver-5.7.pdf'
-            },
-            {
                 name: translations[currentLanguage]?.ttr_network_diagnostic_title || 'Strumento Diagnostico di Rete TTR',
                 description: translations[currentLanguage]?.ttr_network_diagnostic_desc || 'Strumento diagnostico di connettività di rete per TTR-SUITE - testa download licenze e accesso API LLM in ambienti aziendali',
                 icon: 'fas fa-network-wired',
-                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/LicenseConnectionTest.exe'
+                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/TTR-SUITE/LicenseConnectionTest.exe'
             }
         ];
 
