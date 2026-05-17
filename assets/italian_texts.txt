@@ -22,10 +22,10 @@ hero_description: Trasformiamo il modo in cui le organizzazioni gestiscono propr
 hero_deployment_flexibility: <span class="highlight">Deployment Flessibile:</span> I nostri sistemi possono funzionare in cloud o confinati all'interno della vostra infrastruttura IT
 hero_btn_explore: Scopra le Soluzioni
 hero_btn_contact: Ci contatti
-hero_btn_pa: TTR-SUITE per la PA Locale &rarr;
-hero_btn_pa_sub: Per Comuni e amministrazioni locali
-hero_btn_ip: TTR-SUITE IP Legal &rarr;
-hero_btn_ip_sub: Per team legali e dipartimenti IP
+hero_btn_pa: TTR-SUITE per la PA Locale
+hero_btn_pa_sub: (Per Comuni e Amministrazioni Locali)
+hero_btn_ip: TTR-SUITE IP Legal
+hero_btn_ip_sub: (Per team legali e dipartimenti IP)
 contact_cta_products: Scopra le nostre suite
 iplegal_hero_cta_contact: Ci contatti
 iplegal_hero_cta_explore: Veda le capabilities

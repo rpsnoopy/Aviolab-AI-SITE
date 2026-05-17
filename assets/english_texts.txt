@@ -22,10 +22,10 @@ hero_description: Transforming how organizations handle intellectual property, l
 hero_deployment_flexibility: <span class="highlight">Flexible Deployment:</span> Our systems can operate in the cloud or confined within your own IT infrastructure
 hero_btn_explore: Explore Solutions
 hero_btn_contact: Contact Us
-hero_btn_pa: TTR-SUITE for local Public Administration &rarr;
-hero_btn_pa_sub: For Italian municipalities and local administrations
-hero_btn_ip: TTR-SUITE IP Legal &rarr;
-hero_btn_ip_sub: For legal teams and IP departments
+hero_btn_pa: TTR-SUITE for local Public Administration
+hero_btn_pa_sub: (For Italian municipalities and local administrations)
+hero_btn_ip: TTR-SUITE IP Legal
+hero_btn_ip_sub: (For legal teams and IP departments)
 contact_cta_products: Discover our suites
 iplegal_hero_cta_contact: Get in touch
 iplegal_hero_cta_explore: Explore capabilities
