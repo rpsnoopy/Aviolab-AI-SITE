@@ -233,3 +233,107 @@ md_to_docx_title: Convertitore MD-to-DOCX
 ttr_suite_user_guide_title: Guida Utente TTR-SUITE
 ttr_agents_quick_guide_title: Guida Rapida Agenti TTR-SUITE
 ttr_agents_quick_guide_desc: Guida rapida di riferimento per gli agenti TTR-SUITE - funzioni essenziali e consigli pratici d'uso
+
+## --- v1.2.00 — Aggiunte sito ombrello (home, landing IP Legal) ---
+
+footer_tagline_umbrella: AI applicata al diritto e alla Pubblica Amministrazione
+footer_solutions: Soluzioni
+
+home_hero_title: AI applicata al <span class="highlight">diritto e alla Pubblica Amministrazione</span>
+home_hero_subtitle: Due suite specializzate, un solo motore
+home_hero_description: Aviolab AI realizza soluzioni AI focalizzate su due ambiti distinti: la pubblica amministrazione locale italiana e l'analisi documentale di proprietà intellettuale e contratti per i team legali. Pubblici diversi, lo stesso impegno per risultati con fonti verificate, tracciabili e di livello professionale.
+home_mission_subtitle: AI per le sfide del diritto e dell'amministrazione
+home_mission_statement: Realizziamo sistemi AI intelligenti che trasformano il modo in cui i professionisti del diritto e i funzionari della Pubblica Amministrazione lavorano con documenti complessi — rendendo l'analisi sofisticata accessibile, accurata e tracciabile per tutti.
+home_capabilities_headline: AI focalizzata su due ambiti distinti
+home_products_title: Le nostre soluzioni
+home_products_subtitle: Due suite progettate per due pubblici distinti
+
+home_card_pa_badge: Novità
+home_card_pa_title: TTR-SUITE per la PA Locale
+home_card_pa_tagline: Consulenza giuridica e amministrativa AI per i Comuni italiani
+home_card_pa_text: Progettata per i Comuni italiani sotto i 5.000 abitanti e per i funzionari che li presidiano. Pareri sulla norma vigente, atti redatti e pronti per la firma, fascicolo digitale conforme allo standard SInCRO. Architettura coperta da domanda di brevetto.
+home_card_pa_feat1: 16+1 agenti specialisti per aree tematiche e ruoli
+home_card_pa_feat2: Fonti normative certificate — zero errori sulle citazioni
+home_card_pa_feat3: Redazione atti: delibere, determine, ordinanze, titoli edilizi
+home_card_pa_feat4: Fascicolo digitale SInCRO (UNI 11386, art. 41 CAD)
+home_card_pa_feat5: Conformità AI Act art. 50 + GDPR by design
+home_card_pa_cta: Scopri TTR-SUITE per la PA Locale
+
+home_card_ip_title: TTR-SUITE IP Legal
+home_card_ip_tagline: Analisi documentale AI per team legali e dipartimenti IP
+home_card_ip_text: Pensata per professionisti del diritto, dipartimenti di proprietà intellettuale e uffici di trasferimento tecnologico. Ora <strong>redige e analizza</strong> NDA, contratti di ricerca e accordi commerciali con output validati internamente. Multilingua, clausola per clausola.
+home_card_ip_feat1: Analisi IP di gare d'appalto e documenti correlati
+home_card_ip_feat2: Accordi di ricerca e partnership tecnologiche
+home_card_ip_feat3: Revisione di accordi di licenza con estrazione termini chiave
+home_card_ip_feat4: Valutazione rischi su presentazioni e paper tecnici
+home_card_ip_feat5: Validata su deployment in dipartimento IP Fortune 500
+home_card_ip_cta: Scopri TTR-SUITE IP Legal
+
+iplegal_hero_title: TTR-SUITE <span class="highlight">IP Legal</span>
+iplegal_hero_lead: Analisi documentale AI per proprietà intellettuale, NDA, accordi di ricerca, contratti di licenza e presentazioni tecniche. Realizzata per team legali, dipartimenti IP e uffici di trasferimento tecnologico.
+iplegal_intro_title: Costruita per la complessità di IP e contratti
+iplegal_intro_subtitle: Il nostro motore AI legge, confronta e valuta documenti legali e tecnici complessi in più lingue, evidenziando rischi e obblighi clausola per clausola.
+iplegal_xlink_title: Cerchi la versione per la Pubblica Amministrazione italiana?
+iplegal_xlink_text:  Visita la pagina dedicata a <a href="pa-locale.html">TTR-SUITE per la PA Locale</a>, la nostra suite per i Comuni italiani — AI di consulenza giuridica e amministrativa con fonti normative certificate e fascicolo digitale conforme allo standard SInCRO.
+iplegal_cta_title: Pronto a trasformare i flussi di lavoro IP e contrattuali?
+iplegal_cta_text: Contattaci per vedere come TTR-SUITE IP Legal può accelerare l'analisi del tuo team e le decisioni su accordi complessi.
+
+## --- v1.2.01 — Modulo Patent Preparation sulla landing IP Legal ---
+
+iplegal_patent_badge: Early access · Capability avanzata
+iplegal_patent_title: Preparazione end-to-end della <span class="highlight">domanda di brevetto</span>
+iplegal_patent_subtitle: Dal colloquio con l'inventore alla domanda pronta per il deposito — UIBM, EPO e principali uffici nazionali. Stesura, ricerca di anteriorità, generazione dei claim e validazione adversariale in un unico flusso.
+
+iplegal_patent_step1_title: Colloquio strutturato con l'inventore
+iplegal_patent_step1_text: Conversazione guidata che estrae dall'inventore il concetto inventivo, le caratteristiche tecniche e le motivazioni — senza richiedere familiarità con il lessico brevettuale.
+iplegal_patent_step2_title: Ricerca di anteriorità
+iplegal_patent_step2_text: Ricerca sistematica nella letteratura brevettuale e nello stato dell'arte tecnico. Riferimenti più vicini identificati, mappati e sintetizzati rispetto al concetto inventivo.
+iplegal_patent_step3_title: Generazione dei claim
+iplegal_patent_step3_text: Claim indipendenti e dipendenti redatti per catturare il contributo inventivo con l'ampiezza corretta, strutturati per le formalità UIBM ed EPO.
+iplegal_patent_step4_title: Descrizione e abstract
+iplegal_patent_step4_text: Descrizione tecnica completa con background, sommario, descrizione dettagliata e riferimenti alle figure. Abstract allineato ai claim depositati.
+iplegal_patent_step5_title: Attacco adversariale ai claim
+iplegal_patent_step5_text: Attacchi reali a ciascun claim utilizzando anteriorità e brevetti esistenti — <strong>anche in combinazione</strong>. Punti deboli evidenziati, indicazioni di revisione emesse.
+iplegal_patent_step6_title: Disco verde al deposito
+iplegal_patent_step6_text: Approvazione emessa solo quando ogni indicazione di revisione è stata recepita e i claim sopravvivono al riesame adversariale. Niente disco verde, niente deposito.
+
+iplegal_patent_validation_title: Primo utilizzo reale: il nostro brevetto
+iplegal_patent_validation_tag: Auto-validato
+iplegal_patent_validation_text: Questo flusso è già stato utilizzato per preparare la domanda di brevetto di Aviolab — quella che protegge l'architettura multi-agente alla base di TTR-SUITE. Il sistema ha redatto, attaccato e validato il proprio deposito.
+iplegal_patent_stat_office: Ufficio
+iplegal_patent_stat_number: N. domanda
+iplegal_patent_stat_date: Data deposito
+iplegal_patent_stat_cycle: Avvio → deposito
+iplegal_patent_availability: <strong>Programma early access.</strong> Disponibile su richiesta a partner selezionati — <a href="#contact" style="color:#fecaca; text-decoration:underline;">parliamone</a>.
+
+home_card_ip_feat6: Preparazione domande di brevetto — usata internamente per il deposito Aviolab (11h dall'avvio)
+
+## --- v1.2.02 — Modulo Stesura Assistita sulla landing IP Legal ---
+
+iplegal_drafting_tag: Ora redige, non solo analizza
+iplegal_drafting_title: Stesura assistita di contratti e accordi
+iplegal_drafting_subtitle: Oltre l'analisi clausola per clausola: TTR-SUITE IP Legal ora redige NDA, contratti di ricerca e accordi commerciali affiancando l'operatore — producendo draft validati internamente, pronti per la negoziazione.
+
+iplegal_drafting_claim_title: Ogni draft è validato internamente prima di arrivare all'operatore
+iplegal_drafting_claim_text: Nessun first-draft sparato da un singolo modello. Ogni output passa attraverso un ciclo di revisione interno che verifica l'intento dell'operatore, il quadro applicabile e i pattern di clausole standard. Quello che arriva sulla scrivania è già controllato.
+
+iplegal_drafting_nda_title: Accordi di Riservatezza (NDA)
+iplegal_drafting_nda_lead: NDA unilaterali, mutui e multi-parte, calibrati sullo scopo dell'operatore e sul profilo della controparte.
+iplegal_drafting_nda_i1: Perimetro delle informazioni riservate ed esclusioni
+iplegal_drafting_nda_i2: Durata, clausole di sopravvivenza, restituzione/distruzione
+iplegal_drafting_nda_i3: Disclosure permesse e perimetro need-to-know
+iplegal_drafting_nda_i4: Rimedi, tutela inibitoria, legge applicabile e foro
+
+iplegal_drafting_research_title: Contratti di ricerca e partnership
+iplegal_drafting_research_lead: Collaborazione, ricerca sponsorizzata, sviluppo congiunto e accordi di trasferimento tecnologico tra imprese ed enti di ricerca.
+iplegal_drafting_research_i1: Ambito del progetto, deliverable e milestone
+iplegal_drafting_research_i2: Allocazione di background, foreground e sideground IP
+iplegal_drafting_research_i3: Finanziamento, cost sharing e diritti di pubblicazione
+iplegal_drafting_research_i4: Responsabilità, manleve e scenari di risoluzione
+
+iplegal_drafting_commercial_title: Accordi commerciali
+iplegal_drafting_commercial_lead: Contratti di licenza, distribuzione, fornitura, agenzia e servizi redatti secondo l'intento commerciale dell'operatore e il profilo di rischio.
+iplegal_drafting_commercial_i1: Concessione di licenza, esclusiva, territorio e campo d'uso
+iplegal_drafting_commercial_i2: Prezzi, royalty, milestone e obblighi di reportistica
+iplegal_drafting_commercial_i3: SLA, garanzie e limitazione di responsabilità
+iplegal_drafting_commercial_i4: Compliance, diritti di audit e clausole di uscita

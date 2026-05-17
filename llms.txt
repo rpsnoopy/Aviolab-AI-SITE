@@ -1,0 +1,34 @@
+# Aviolab AI
+
+> Agentic AI for IP Legal and public administration. Two specialized suites built on the same engine: **TTR-SUITE IP Legal** for legal teams, IP departments and technology transfer offices, and **TTR-SUITE per la PA Locale** for Italian municipalities under 5,000 inhabitants. Source-verified, traceable, professional-grade results. Architecture covered by patent application (UIBM).
+
+Aviolab AI builds focused AI solutions for two distinct domains: intellectual property and contract work for legal professionals, and legal/administrative consulting for the Italian public administration at the municipal level. The same multi-agent engine — a ReAct-loop runtime with 15+ specialized tools and certified normative sources — powers both suites. Different audiences, the same commitment to verifiable outputs, traceability, and professional-grade reliability.
+
+## Products
+
+- [TTR-SUITE IP Legal](https://aviolab.ai/ip-legal.html): AI-powered analysis and drafting for legal teams and IP departments. Document analysis for IP, NDAs, research and technology partnership agreements, license agreements, technical presentations and papers. Assisted drafting of NDAs, research agreements and commercial contracts with internally validated outputs. End-to-end patent application preparation across UIBM, EPO and major national offices — structured inventor interview, prior art search, claims generation, description and abstract drafting, adversarial claim attack, filing green light.
+
+- [TTR-SUITE per la PA Locale](https://aviolab.ai/pa-locale.html): Consulenza giuridica e amministrativa AI per i Comuni italiani. Pareri su norme vigenti, redazione di atti pronti per la firma (delibere, determine, ordinanze, titoli edilizi), fascicolo digitale conforme SInCRO (UNI 11386, art. 41 CAD) con titolario di classificazione (11 provider supportati, integrazione nativa Halley S.I.C.). 16+1 agenti specialisti per aree tematiche e ruoli. Affiancamento esperto ai funzionari su qualsiasi richiesta, dalla domanda di base al caso complesso. Conformità AI Act art. 50 + GDPR by design.
+
+## Company
+
+- [Aviolab AI — Homepage](https://aviolab.ai/): Company overview, mission, solutions umbrella with both verticals.
+- Founder: Riccardo Parenti
+- Patent: Aviolab triadic AI architecture, filed with UIBM 2026-05-07
+
+## Resources
+
+- [Downloads](https://aviolab.ai/downloads.html): Public downloads (TTR-PROBE, installation scripts, English and Italian docs) and password-protected per-client packages.
+- [Company overview brochure (EN)](https://aviolab.ai/assets/brochures/aviolab-ai-company-overview-en.pdf)
+- [Company overview brochure (IT)](https://aviolab.ai/assets/brochures/aviolab-ai-company-overview-it.pdf)
+- [Privacy notice (IT/EN)](https://aviolab.ai/privacy.html): GDPR privacy notice, data controller, lawful bases, retention, your rights.
+
+## Compliance & security
+
+- AES-256 encryption with machine-specific keys (TTR-probe hardware fingerprinting)
+- TOTP multi-factor authentication
+- License validation via aviolab.ai
+- Security audit: GOLD eligible, 95/100
+- AI Act art. 50 compliance
+- GDPR by design
+- DPA available for enterprise customers

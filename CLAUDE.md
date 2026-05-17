@@ -13,9 +13,10 @@
 - **⚠️ IMPORTANT**: Claude can ONLY help with commits but will NEVER push changes to remote repositories
 - **🌐 DEPLOYMENT**: Cloudflare Pages monitora automaticamente il repository GitHub - ogni commit viene deployato automaticamente
 - **📊 MONITORING**: Accedi a pages.cloudflare.com per monitorare deploy e risolvere eventuali problemi
-- **Current Version**: v1.1.69 - Aggiornato TTR-SUITE alla versione 4.3.000
-- **Previous Version**: v1.1.67 - Aggiornata documentazione completa con Cloudflare Pages e sistema download
-- **Version Numbering**: After every revision, increment the rightmost number of the version string (e.g., v1.1.00 → v1.1.01) both in CLAUDE.md and in the footer of index.html
+- **Current Version**: v1.2.02 - Aggiunto modulo Assisted Drafting sulla landing IP Legal: stesura assistita di NDA, contratti di ricerca e accordi commerciali con draft validati internamente. Card IP dell'index aggiornata: "drafts and analyses" come nuovo posizionamento.
+- **Previous Version**: v1.2.01 - Aggiunto modulo Patent Preparation (early access) sulla landing IP Legal: pipeline end-to-end UIBM/EPO, trust box auto-validazione col brevetto Aviolab UIBM 102026000013123 (ciclo 11 ore avvio→deposito)
+- **Version Numbering**: After every revision, increment the rightmost number of the version string (e.g., v1.1.00 → v1.1.01) both in CLAUDE.md and in the footer of index.html. Architectural changes warrant minor bumps (e.g., v1.1.x → v1.2.00).
+- **⚠️ NEXT REPO**: lavoro di riassetto dual-product effettuato nel repo separato `Aviolab-AI-SITE-NEXT` (clone locale, no remote) per non disturbare il sito di produzione che gestisce licenze e autorizzazioni realtime sulle suite. Le dir critiche `/version` e `/lic` non sono state modificate.
 
 ## 🎨 Code Style Guidelines
 - **HTML**: Semantic tags, 4-space indentation, BEM-inspired classes, data-i18n for translations
@@ -27,16 +28,22 @@
 - **Branding**: "AVIOLAB" in gray (#c0c0c0), "AI" in red (#ff0000), Verdana font for logo
 
 ## 🏗️ Project Structure
-- `index.html` - Single page application with smooth scrolling navigation
-- `styles.css` - All styling with CSS variables and responsive design
+- `index.html` - Umbrella home: Aviolab AI as a two-product company (EN/IT). Hero + Mission + 2 large product cards linking to the dedicated landings + Benefits + About + Contact
+- `pa-locale.html` - **NEW (v1.2.00)** Dedicated landing for TTR-SUITE per la PA Locale. Italian-only (target Italian municipalities), formal "Lei" address. Pain killer, 16+1 agents, AI Act + GDPR compliance, patent trust block, no competitor names
+- `ip-legal.html` - **NEW (v1.2.00)** Dedicated landing for TTR-SUITE IP Legal (EN/IT). Inherits the 6 IP solution cards and the Fortune 500 case study previously on index.html
+- `downloads.html` - Downloads area (public + client area, GitHub-hosted ZIPs)
+- `styles.css` - All styling with CSS variables and responsive design. Landing-specific CSS lives inline in `pa-locale.html` and `ip-legal.html` for isolation
 - `script.js` - Core JavaScript (navigation, animations, translations, form handling)
-- `js/translations.js` - Multilingual content dictionary (English and Italian)
+- `js/translations.js` - Multilingual content dictionary (English and Italian) — auto-generated
 - `assets/english_texts.txt` - Source content for English translations (key: value format)
 - `assets/italian_texts.txt` - Source content for Italian translations (key: value format)
 - `assets/` - Images, logos, founder photos, and content files
-- `assets/images/` - Website imagery (hero, mission, case study)
+- `assets/images/` - Website imagery (hero, mission, case study, **ttr-suite-pa-infografica.png**)
+- `assets/downloads/` - **NEW (v1.2.00)** PDF/asset downloads served directly from the site (vs the GitHub-hosted client/public ZIPs). Contains `ttr-suite-pa-brochure.pdf`
 - `efforts/` - Additional assets like email signatures (with clickable logo/name links to site), letterheads, and templates
 - `fonts/fontawesome/` - Locally hosted Font Awesome icons (v6.4.0)
+- `version/` - **⚠️ PRODUCTION CRITICAL** — used by the TTR-SUITE clients for version checks. Do not modify in development branches.
+- `lic/` - **⚠️ PRODUCTION CRITICAL** — used by the TTR-SUITE clients for license validation (realtime). Do not modify in development branches.
 
 ### Favicon Configuration
 - All favicon files are in the root directory:
@@ -132,16 +139,19 @@
 - `git commit -m "Add filename.zip for CLIENT-ID"`
 - Push → Deploy automatico via Cloudflare Pages
 
-## 🔄 Stato Progetto - Sessione Attuale
-- ✅ Area download implementata e funzionante
-- ✅ Fix navigazione menu principale per link esterni
-- ✅ Sistema client ID configurato e testato
-- ✅ Traduzioni EN/IT complete per area download
-- ✅ Documentazione gestione sistema creata
+## 🔄 Stato Progetto - Sessione Attuale (v1.2.00, repo NEXT)
+- ✅ Repo `Aviolab-AI-SITE-NEXT` clonato da Aviolab-AI-SITE (locale, no remote, isolato dalla produzione)
+- ✅ Nuova landing `pa-locale.html` per TTR-SUITE per la PA Locale (IT-only, forma di cortesia)
+- ✅ Pain killer in evidenza (il dubbio del funzionario), 16+1 agenti, brevetto UIBM 102026000013123 del 08/05/2026
+- ✅ Sezione conformità AI Act art. 50 + GDPR + AgID Determinazione 43/2026
+- ✅ Nuova landing `ip-legal.html` (EN/IT) con i 6 IP solution card e il case study Fortune 500
+- ✅ `index.html` riscritta come home ombrello con 2 product card grandi
+- ✅ Traduzioni EN/IT estese (~30 chiavi nuove) e `js/translations.js` rigenerato
+- ✅ Versione 1.2.00 applicata a tutti i footer (index, pa-locale, ip-legal, downloads)
 
 ## 📋 Prossimi Passi Pianificati
-1. **Deploy Produzione**: Caricare file aggiornati sul server web
-2. **Primi Clienti**: Configurare ID clienti reali e caricare primi file ZIP
-3. **Versioning**: Aggiornare footer con nuova versione v1.1.59
-4. **Commit Changes**: Salvare modifiche con git commit
-5. **Testing Finale**: Verificare funzionamento completo online
+1. **Review utente** del lavoro nel repo NEXT (apertura locale nel browser, verifica testi e visual)
+2. **Iterazioni di rifinitura** sulle landing (testi, visual, copy)
+3. **Decisione produzione**: quando il sito NEXT è pronto, trasferire i file modificati nel repo di produzione `Aviolab-AI-SITE` preservando `version/` e `lic/`
+4. **Pubblicazione**: commit nel repo di produzione + auto-deploy Cloudflare Pages
+5. **Verifiche post-deploy**: licensing TTR-SUITE clients continua a funzionare, traduzioni caricate correttamente, link cross-product corretti

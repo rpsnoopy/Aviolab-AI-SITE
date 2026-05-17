@@ -3,10 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Aviolab AI - AI-powered legal tech solutions for document analysis and management">
+    <meta name="theme-color" content="#1e40af">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <meta name="description" content="Agentic AI for IP Legal and public administration. Two specialized suites, one engine: TTR-SUITE IP Legal for legal teams and IP departments, TTR-SUITE per la PA Locale for Italian municipalities. Source-verified, traceable, professional-grade results.">
     <meta name="author" content="Riccardo Parenti">
-    <meta name="keywords" content="AI, legal tech, document analysis, NDA, intellectual property, contract analysis">
-    <title>Aviolab AI | Intelligent Document Analysis</title>
+    <meta name="keywords" content="Agentic AI, AI agents, legal tech, public administration, intellectual property, IP, document analysis, contract drafting, patent drafting, Italian municipalities, Comuni, SInCRO, TTR-SUITE, Aviolab">
+    <title>Aviolab AI | Agentic AI for IP Legal and public administration</title>
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://aviolab.ai/">
+
+    <!-- Open Graph / Social previews (LinkedIn, WhatsApp, Slack, Telegram, iMessage, Outlook, etc.) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Aviolab AI">
+    <meta property="og:url" content="https://aviolab.ai/">
+    <meta property="og:title" content="Agentic AI for IP Legal and public administration | Aviolab AI">
+    <meta property="og:description" content="Two specialized suites, one engine. Source-verified, traceable, professional-grade results.">
+    <meta property="og:image" content="https://aviolab.ai/assets/og/og-index.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Aviolab AI, Agentic AI for IP Legal and public administration">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="it_IT">
+
+    <!-- Structured data: Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Aviolab AI",
+      "url": "https://aviolab.ai/",
+      "logo": "https://aviolab.ai/assets/logo.png",
+      "description": "Agentic AI for IP Legal and public administration. Two specialized suites: TTR-SUITE IP Legal for legal teams and IP departments, and TTR-SUITE per la PA Locale for Italian municipalities.",
+      "founder": {
+        "@type": "Person",
+        "name": "Riccardo Parenti"
+      },
+      "sameAs": ["https://aviolab.ai/"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "TTR-SUITE",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "SoftwareApplication",
+              "name": "TTR-SUITE IP Legal",
+              "applicationCategory": "BusinessApplication",
+              "url": "https://aviolab.ai/ip-legal.html",
+              "description": "AI-powered analysis and drafting for legal teams and IP departments, NDAs, research agreements, licenses, patent drafting."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "SoftwareApplication",
+              "name": "TTR-SUITE per la PA Locale",
+              "applicationCategory": "BusinessApplication",
+              "url": "https://aviolab.ai/pa-locale.html",
+              "description": "Consulenza giuridica, redazione di atti, fascicolo SInCRO e affiancamento esperto ai funzionari per i Comuni italiani."
+            }
+          }
+        ]
+      }
+    }
+    </script>
 
     <!-- Basic Favicons - all in root directory -->
     <link rel="icon" href="favicon.ico">
@@ -20,7 +81,6 @@
 
     <!-- Basic styling for title highlights - backup for initial page load -->
     <style>
-        /* Backup styling for highlighted title parts */
         .hero-content h1 .highlight,
         body.it .hero-content h1 span[style*="color:#ff0000"],
         body.it .hero-content h1 .highlight {
@@ -38,9 +98,8 @@
     <meta name="msapplication-square150x150logo" content="mstile-150x150.png">
     <meta name="msapplication-square310x310logo" content="mstile-310x310.png">
 
-    <!-- Web App Manifest - Caricato in modo condizionale solo per HTTP/HTTPS -->
+    <!-- Web App Manifest -->
     <script>
-        // Carica il manifest solo se non siamo in modalità file:// per evitare errori CORS
         if (window.location.protocol !== 'file:') {
             const manifestLink = document.createElement('link');
             manifestLink.rel = 'manifest';
@@ -54,6 +113,137 @@
     <link rel="stylesheet" href="styles.css">
     <script defer src="js/translations.js"></script>
     <script defer src="script.js"></script>
+
+    <!-- Stili specifici per home ombrello (product cards grandi) -->
+    <style>
+        .product-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2.5rem;
+            margin-top: 2rem;
+        }
+        .product-card-big {
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px -5px rgba(0,0,0,0.12);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            color: inherit;
+            position: relative;
+        }
+        .product-card-big:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 40px -10px rgba(30,64,175,0.25);
+        }
+        .product-card-big__head {
+            padding: 2rem 2rem 1rem;
+            color: #fff;
+            position: relative;
+        }
+        .product-card-big--pa .product-card-big__head {
+            background: linear-gradient(135deg, #ff0000 0%, #b91c1c 100%);
+        }
+        .product-card-big--ip .product-card-big__head {
+            background: linear-gradient(135deg, #1e40af 0%, #0f172a 100%);
+        }
+        .product-card-big__badge {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: rgba(255,255,255,0.2);
+            backdrop-filter: blur(6px);
+            color: #fff;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            text-transform: uppercase;
+        }
+        .product-card-big__icon {
+            font-size: 2.6rem;
+            margin-bottom: 0.8rem;
+            opacity: 0.95;
+        }
+        .product-card-big h3 {
+            color: #fff;
+            font-size: 1.55rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+        }
+        .product-card-big__tagline {
+            color: #fef2f2;
+            opacity: 0.95;
+            font-size: 1rem;
+            min-height: 4.2em;
+            line-height: 1.4;
+            margin: 0;
+        }
+        .product-card-big--ip .product-card-big__tagline { color: #dbeafe; }
+        .product-card-big__body {
+            padding: 1.8rem 2rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .product-card-big__body p {
+            color: #475569;
+            margin-bottom: 1.2rem;
+            font-size: 0.97rem;
+        }
+        .product-card-big__features {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 1.5rem 0;
+        }
+        .product-card-big__features li {
+            position: relative;
+            padding: 0.4rem 0 0.4rem 1.8rem;
+            color: #334155;
+            font-size: 0.93rem;
+            border-bottom: 1px solid #f1f5f9;
+        }
+        .product-card-big__features li:last-child { border-bottom: none; }
+        .product-card-big__features li::before {
+            content: "\f00c";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            top: 0.5rem;
+            font-size: 0.85rem;
+        }
+        .product-card-big--pa .product-card-big__features li::before { color: #ff0000; }
+        .product-card-big--ip .product-card-big__features li::before { color: #1e40af; }
+        .product-card-big__cta {
+            margin-top: auto;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 700;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding-top: 0.8rem;
+            border-top: 2px solid #f1f5f9;
+        }
+        .product-card-big--pa .product-card-big__cta { color: #ff0000; }
+        .product-card-big--ip .product-card-big__cta { color: #1e40af; }
+        .product-card-big:hover .product-card-big__cta .fa-arrow-right {
+            transform: translateX(4px);
+        }
+        .product-card-big__cta .fa-arrow-right { transition: transform 0.2s ease; }
+
+        @media (max-width: 768px) {
+            .product-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+            .product-card-big__head { padding: 1.5rem; }
+            .product-card-big h3 { font-size: 1.3rem; }
+            .product-card-big__body { padding: 1.5rem; }
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -66,31 +256,20 @@
             <nav>
                 <ul class="nav-links">
                     <li><a href="#mission" class="nav-link" data-i18n="nav_mission">Mission</a></li>
-                    <li><a href="#capabilities" class="nav-link" data-i18n="nav_capabilities">Capabilities</a></li>
                     <li><a href="#products" class="nav-link" data-i18n="nav_solutions">Solutions</a></li>
-                    <li class="dropdown">
-                        <a href="#benefits" class="nav-link" data-i18n="nav_benefits">Benefits</a>
-                        <div class="dropdown-content">
-                            <a href="#benefits" data-i18n="nav_benefits">Benefits</a>
-                            <a href="#case-study" data-i18n="nav_case_studies">Case Studies</a>
-                        </div>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#about" class="nav-link" data-i18n="nav_about">About</a>
-                        <div class="dropdown-content">
-                            <a href="#about" data-i18n="nav_about">About</a>
-                            <a href="#contact" data-i18n="nav_contact">Contact</a>
-                        </div>
-                    </li>
+                    <li><a href="pa-locale.html" class="nav-link">PA Locale</a></li>
+                    <li><a href="ip-legal.html" class="nav-link">IP Legal</a></li>
+                    <li><a href="#about" class="nav-link" data-i18n="nav_about">About</a></li>
+                    <li><a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
                     <li><a href="downloads.html" class="nav-link" style="color: var(--highlight-color) !important; font-weight: bold;" data-i18n="nav_download">Download</a></li>
                 </ul>
             </nav>
             <div class="language-selector">
                 <div class="lang-option" data-lang="en">
-                    <img src="assets/images/flags/flag-gb.svg" alt="English" class="flag-icon"> EN
+                    <img src="assets/images/flags/flag-gb.svg" alt="English" class="flag-icon" loading="lazy" decoding="async"> EN
                 </div>
                 <div class="lang-option" data-lang="it">
-                    <img src="assets/images/flags/flag-it.svg" alt="Italiano" class="flag-icon"> IT
+                    <img src="assets/images/flags/flag-it.svg" alt="Italiano" class="flag-icon" loading="lazy" decoding="async"> IT
                 </div>
             </div>
             <div class="mobile-menu-btn">
@@ -105,20 +284,17 @@
     <section id="home" class="hero-section">
         <div class="container">
             <div class="hero-content">
-                <h1 data-i18n="hero_title">Intelligent Document Analysis</h1>
-                <h2 data-i18n="hero_subtitle">AI-powered legal tech solutions for document analysis and management</h2>
-                <p data-i18n="hero_description">Our advanced AI technology helps legal teams and professionals manage, analyze, and extract value from complex documents more efficiently than ever.</p>
+                <h1 data-i18n="home_hero_title"><span class="highlight">Agentic AI</span> for IP Legal<br>and public administration</h1>
+                <h2 data-i18n="home_hero_subtitle">Two specialized suites, one engine</h2>
+                <p data-i18n="home_hero_description">Aviolab AI builds Agentic AI for two distinct domains: Italian public administration at the municipal level, and intellectual property, contracts and patent work for legal teams. Different audiences, the same commitment to source-verified, traceable, professional-grade results.</p>
                 <div class="cta-buttons">
-                    <a href="#contact" class="btn btn-primary" data-i18n="hero_btn_contact">Contact Us</a>
-                    <a href="#products" class="btn btn-secondary" data-i18n="hero_btn_explore">Explore Solutions</a>
-                </div>
-                <div class="hero-one-click-note">
-                    <p data-i18n="one_click_note" class="preserve-formatting"></p>
+                    <a href="#products" class="btn btn-primary" data-i18n="hero_btn_explore">Explore Solutions</a>
+                    <a href="#contact" class="btn btn-secondary" data-i18n="hero_btn_contact">Contact Us</a>
                 </div>
             </div>
             <div class="hero-banner">
                 <div class="banner-content">
-                    <span data-i18n="hero_deployment_flexibility"></span>
+                    <span data-i18n="hero_deployment_flexibility"><span class="highlight">Flexible Deployment:</span> Our systems can operate in the cloud or confined within your own IT infrastructure</span>
                 </div>
             </div>
         </div>
@@ -130,16 +306,16 @@
             <div class="section-header">
                 <h2 data-i18n="mission_title">Our Mission</h2>
                 <div class="underline"></div>
-                <p class="section-subtitle" data-i18n="mission_subtitle">Building AI-powered solutions for legal challenges</p>
+                <p class="section-subtitle" data-i18n="home_mission_subtitle">Building Agentic AI for legal and administrative work</p>
             </div>
 
             <div class="centered-mission-statement">
-                <p class="mission-statement mission-red" data-i18n="mission_statement">We create intelligent AI systems that transform the way legal professionals work with complex documents, making sophisticated analysis accessible, accurate, and efficient for everyone.</p>
+                <p class="mission-statement mission-red" data-i18n="home_mission_statement">We create intelligent AI systems that transform the way legal professionals and public administration officials work with complex documents, making sophisticated analysis accessible, accurate and traceable for everyone.</p>
             </div>
 
             <div class="capabilities-content">
                 <div class="capabilities-text">
-                    <p class="capabilities-title" data-i18n="capabilities_headline">Enhancing legal work with focused AI solutions</p>
+                    <p class="capabilities-title" data-i18n="home_capabilities_headline">Focused Agentic AI for two distinct domains</p>
                     <ul class="feature-list">
                         <li><i class="fas fa-check"></i> <span data-i18n="capability_1">Intelligent document context understanding</span></li>
                         <li><i class="fas fa-check"></i> <span data-i18n="capability_2">Automatic clause extraction and analysis</span></li>
@@ -150,167 +326,78 @@
                     </ul>
                 </div>
                 <div class="capabilities-image">
-                    <img src="assets/images/mission-image.jpg" alt="AI-powered document analysis">
+                    <img src="assets/images/mission-image.jpg" alt="AI-powered document analysis" loading="lazy" decoding="async">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Capabilities Section -->
-    <section id="capabilities" class="section capabilities-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 data-i18n="capabilities_title">Core Capabilities</h2>
-                <div class="underline"></div>
-                <p class="section-subtitle" data-i18n="capabilities_subtitle">How our AI empowers your document management</p>
-            </div>
-
-            <div class="capabilities-content">
-                <div class="capabilities-image">
-                    <img src="assets/images/capabilities-image.jpg" alt="Modern legal document analysis">
-                </div>
-                <div class="capabilities-text">
-                    <p class="capabilities-title" data-i18n="capabilities_headline_2">Comprehensive solutions for complex documents</p>
-                    <ul class="feature-list">
-                        <li><i class="fas fa-check"></i> <span data-i18n="capability_7">Natural language processing for accurate contract interpretation</span></li>
-                        <li><i class="fas fa-check"></i> <span data-i18n="capability_8">Secure handling of confidential documents</span></li>
-                        <li><i class="fas fa-check"></i> <span data-i18n="capability_9">Integration with existing document management systems</span></li>
-                        <li><i class="fas fa-check"></i> <span data-i18n="capability_10">Customizable analysis for specific document types</span></li>
-                        <li><i class="fas fa-check"></i> <span data-i18n="capability_11">Continuous learning from user feedback</span></li>
-                        <li><i class="fas fa-check"></i> <span data-i18n="capability_12">Automated reporting and insights generation</span></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Products Section -->
+    <!-- Products Section: 2 big product cards -->
     <section id="products" class="section solutions-section">
         <div class="container">
             <div class="section-header">
-                <h2 data-i18n="solutions_title">Our Solutions</h2>
+                <h2 data-i18n="home_products_title">Our Solutions</h2>
                 <div class="underline"></div>
-                <p class="section-subtitle" data-i18n="solutions_subtitle">Purpose-built tools for legal document challenges</p>
+                <p class="section-subtitle" data-i18n="home_products_subtitle">Two purpose-built suites for two distinct audiences</p>
             </div>
 
-            <div class="solutions-grid">
-                <div class="solution-card">
-                    <div class="solution-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3 data-i18n="solution1_title">NDA Analyzer</h3>
-                    <p data-i18n="solution1_intro">Rapidly analyze non-disclosure agreements to identify and assess key obligations, restrictions, and potential risks.</p>
-                    <ul>
-                        <li data-i18n="solution1_item1">Automatically flags unusual terms and conditions</li>
-                        <li data-i18n="solution1_item2">Compares against your standard templates</li>
-                        <li data-i18n="solution1_item3">Highlights missing or altered clauses</li>
-                        <li data-i18n="solution1_item4">Rights assignment and licensing terms</li>
-                        <li data-i18n="solution1_item5">Future usage obligations and restrictions</li>
-                        <li data-i18n="solution1_item6">Information management risks and safeguards</li>
-                    </ul>
-                    <div class="card-overlay">
-                        <a href="#contact" class="learn-more" data-i18n="learn_more">Learn More</a>
-                    </div>
-                </div>
+            <div class="product-grid">
 
-                <div class="solution-card">
-                    <div class="solution-icon">
-                        <i class="fas fa-file-contract"></i>
+                <!-- Card 1: TTR-SUITE PA Locale -->
+                <a href="pa-locale.html" class="product-card-big product-card-big--pa">
+                    <div class="product-card-big__head">
+                        <span class="product-card-big__badge" data-i18n="home_card_pa_badge">New</span>
+                        <div class="product-card-big__icon"><i class="fas fa-landmark"></i></div>
+                        <h3 data-i18n="home_card_pa_title">TTR-SUITE per la PA Locale</h3>
+                        <p class="product-card-big__tagline" data-i18n="home_card_pa_tagline">Consulenza giuridica e amministrativa AI per i Comuni italiani</p>
                     </div>
-                    <h3 data-i18n="solution2_title">Contract Assistant</h3>
-                    <p data-i18n="solution2_intro">Comprehensive contract analysis and management tool that streamlines review processes and ensures consistency.</p>
-                    <ul>
-                        <li data-i18n="solution2_item1">Extracts and organizes key contract terms</li>
-                        <li data-i18n="solution2_item2">Tracks changes across multiple versions</li>
-                        <li data-i18n="solution2_item3">Generates customized executive summaries</li>
-                        <li data-i18n="solution2_item4">IP ownership and technology transfer rights</li>
-                        <li data-i18n="solution2_item5">Confidentiality provisions and restrictions</li>
-                        <li data-i18n="solution2_item6">Liability allocation and limitation clauses</li>
-                    </ul>
-                    <div class="card-overlay">
-                        <a href="#contact" class="learn-more" data-i18n="learn_more">Learn More</a>
+                    <div class="product-card-big__body">
+                        <p data-i18n="home_card_pa_text">Mainly designed for Italian municipalities under 5,000 inhabitants and the officials who run them. Legal opinions and analytical problem-solving under current law, drafted acts ready for signature, SInCRO-compliant digital filing. Patent-pending architecture.</p>
+                        <ul class="product-card-big__features">
+                            <li data-i18n="home_card_pa_feat1">Legal opinions and analytical studies on concrete administrative problems under current law</li>
+                            <li data-i18n="home_card_pa_feat2">22+2 specialist agents for thematic areas and roles</li>
+                            <li data-i18n="home_card_pa_feat3">Certified normative sources, zero citation errors</li>
+                            <li data-i18n="home_card_pa_feat4">Drafting of acts: resolutions, determinations, ordinances, building titles</li>
+                            <li data-i18n="home_card_pa_feat5">SInCRO-compliant digital file (UNI 11386, art. 41 CAD)</li>
+                            <li data-i18n="home_card_pa_feat6">AI Act art. 50 compliance + GDPR by design</li>
+                        </ul>
+                        <span class="product-card-big__cta">
+                            <span data-i18n="home_card_pa_cta">Discover TTR-SUITE for PA Locale</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
                     </div>
-                </div>
+                </a>
 
-                <div class="solution-card">
-                    <div class="solution-icon">
-                        <i class="fas fa-lightbulb"></i>
+                <!-- Card 2: TTR-SUITE IP Legal -->
+                <a href="ip-legal.html" class="product-card-big product-card-big--ip">
+                    <div class="product-card-big__head">
+                        <div class="product-card-big__icon"><i class="fas fa-balance-scale"></i></div>
+                        <h3 data-i18n="home_card_ip_title">TTR-SUITE IP Legal</h3>
+                        <p class="product-card-big__tagline" data-i18n="home_card_ip_tagline">AI-powered analysis and drafting for IP legal teams and IP departments</p>
                     </div>
-                    <h3 data-i18n="solution3_title">IP Document Manager</h3>
-                    <p data-i18n="solution3_intro">Specialized tool for intellectual property documents that enhances protection and portfolio management.</p>
-                    <ul>
-                        <li data-i18n="solution3_item1">Maps and visualizes patent portfolios</li>
-                        <li data-i18n="solution3_item2">Analyzes license agreements for compliance</li>
-                        <li data-i18n="solution3_item3">Tracks invention disclosures and filing deadlines</li>
-                        <li data-i18n="solution3_item4">Exclusivity provisions and market restrictions</li>
-                        <li data-i18n="solution3_item5">Sub-licensing rights and limitations</li>
-                        <li data-i18n="solution3_item6">Enforcement obligations and infringement remedies</li>
-                    </ul>
-                    <div class="card-overlay">
-                        <a href="#contact" class="learn-more" data-i18n="learn_more">Learn More</a>
+                    <div class="product-card-big__body">
+                        <p data-i18n="home_card_ip_text">Built for IP departments, in-house legal teams handling IP work and technology transfer offices. Now <strong>drafts and analyses</strong> NDAs, research agreements and commercial contracts with internally validated outputs. Multi-language, clause-by-clause.</p>
+                        <ul class="product-card-big__features">
+                            <li data-i18n="home_card_ip_feat1">IP analysis of bids, tenders and related documents</li>
+                            <li data-i18n="home_card_ip_feat2">Research and technology partnership agreements</li>
+                            <li data-i18n="home_card_ip_feat3">License agreement review with key term extraction</li>
+                            <li data-i18n="home_card_ip_feat4">Technical presentations and papers risk assessment</li>
+                            <li data-i18n="home_card_ip_feat5">Production-validated in the IP department of a major international corporation</li>
+                            <li data-i18n="home_card_ip_feat6">End-to-end patent application preparation: structured inventor interview, thorough prior art search, claims drafting</li>
+                            <li data-i18n="home_card_ip_feat7">Adversarial claim stress test, AI agents attack each claim with prior-art rewordings and combinations of known or patented techniques</li>
+                        </ul>
+                        <span class="product-card-big__cta">
+                            <span data-i18n="home_card_ip_cta">Discover TTR-SUITE IP Legal</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
                     </div>
-                </div>
+                </a>
 
-                <div class="solution-card">
-                    <div class="solution-icon">
-                        <i class="fas fa-globe"></i>
-                    </div>
-                    <h3 data-i18n="solution4_title">MultiLingual Extractor</h3>
-                    <p data-i18n="solution4_intro">Advanced translation and analysis tool that works seamlessly across multiple languages and legal systems.</p>
-                    <ul>
-                        <li data-i18n="solution4_item1">Supports major European and Asian languages</li>
-                        <li data-i18n="solution4_item2">Maintains legal meaning across translations</li>
-                        <li data-i18n="solution4_item3">Highlights jurisdiction-specific clauses and risks</li>
-                        <li data-i18n="solution4_item4">Strategic revision recommendations</li>
-                        <li data-i18n="solution4_item5">Competitive intelligence exposure analysis</li>
-                        <li data-i18n="solution4_item6">Alignment with IP protection strategy</li>
-                    </ul>
-                    <div class="card-overlay">
-                        <a href="#contact" class="learn-more" data-i18n="learn_more">Learn More</a>
-                    </div>
-                </div>
-
-                <div class="solution-card">
-                    <div class="solution-icon">
-                        <i class="fas fa-balance-scale"></i>
-                    </div>
-                    <h3 data-i18n="solution5_title">Compliance Checker</h3>
-                    <p data-i18n="solution5_intro">Ensures your legal documents align with current regulations, industry standards, and internal policies.</p>
-                    <ul>
-                        <li data-i18n="solution5_item1">Scans for regulatory compliance issues</li>
-                        <li data-i18n="solution5_item2">Provides remediation recommendations</li>
-                        <li data-i18n="solution5_item3">Updates in response to regulatory changes</li>
-                        <li data-i18n="solution5_item4">Academic vs. commercial balance optimization</li>
-                        <li data-i18n="solution5_item5">Patent application conflict prevention</li>
-                        <li data-i18n="solution5_item6">Analysis of publication timing impact</li>
-                    </ul>
-                    <div class="card-overlay">
-                        <a href="#contact" class="learn-more" data-i18n="learn_more">Learn More</a>
-                    </div>
-                </div>
-
-                <div class="solution-card">
-                    <div class="solution-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3 data-i18n="solution6_title">Analytics Dashboard</h3>
-                    <p data-i18n="solution6_intro">Visualize and analyze your document portfolio to identify trends, risks, and opportunities.</p>
-                    <ul>
-                        <li data-i18n="solution6_item1">Creates customizable data visualizations</li>
-                        <li data-i18n="solution6_item2">Generates periodic compliance reports</li>
-                        <li data-i18n="solution6_item3">Tracks key metrics and performance indicators</li>
-                        <li data-i18n="solution6_item4">Integration with existing contractual structures</li>
-                        <li data-i18n="solution6_item5">Policy compliance verification</li>
-                    </ul>
-                    <div class="card-overlay">
-                        <a href="#contact" class="learn-more" data-i18n="learn_more">Learn More</a>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
-    <!-- Benefits Section -->
+    <!-- Benefits Section (neutra, vale per entrambi i prodotti) -->
     <section id="benefits" class="section benefits-section">
         <div class="container">
             <div class="section-header">
@@ -321,93 +408,34 @@
 
             <div class="benefits-grid">
                 <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-tachometer-alt"></i>
-                    </div>
+                    <div class="benefit-icon"><i class="fas fa-tachometer-alt"></i></div>
                     <h3 data-i18n="benefit1_title">Time Efficiency</h3>
                     <p data-i18n="benefit1_text">Reduce document review time by up to 80%, allowing your team to focus on strategic analysis rather than routine processing</p>
                 </div>
-
                 <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-chart-bar"></i>
-                    </div>
+                    <div class="benefit-icon"><i class="fas fa-chart-bar"></i></div>
                     <h3 data-i18n="benefit2_title">Accuracy</h3>
                     <p data-i18n="benefit2_text">Achieve consistent, reliable analyses that minimize human error and capture details that might otherwise be overlooked</p>
                 </div>
-
                 <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-search-dollar"></i>
-                    </div>
+                    <div class="benefit-icon"><i class="fas fa-search-dollar"></i></div>
                     <h3 data-i18n="benefit3_title">Cost Reduction</h3>
                     <p data-i18n="benefit3_text">Significantly lower document processing costs while improving quality and consistency of results</p>
                 </div>
-
                 <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-users"></i>
-                    </div>
+                    <div class="benefit-icon"><i class="fas fa-users"></i></div>
                     <h3 data-i18n="benefit4_title">Team Collaboration</h3>
                     <p data-i18n="benefit4_text">Enable seamless collaboration across departments and offices with consistent document analysis and shared insights</p>
                 </div>
-
                 <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-cogs"></i>
-                    </div>
+                    <div class="benefit-icon"><i class="fas fa-cogs"></i></div>
                     <h3 data-i18n="benefit5_title">Customization</h3>
                     <p data-i18n="benefit5_text">Solutions tailored to your specific industry needs, document types, and internal processes for maximum relevance</p>
                 </div>
-
                 <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-desktop"></i>
-                    </div>
+                    <div class="benefit-icon"><i class="fas fa-desktop"></i></div>
                     <h3 data-i18n="benefit6_title">User-Friendly</h3>
                     <p data-i18n="benefit6_text">Access powerful analysis through a simple, intuitive one-click AI interface designed for busy professionals</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Case Study -->
-    <section id="case-study" class="section case-study-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 data-i18n="case_study_title">Success Stories</h2>
-                <div class="underline"></div>
-                <p class="section-subtitle" data-i18n="case_study_subtitle">Real-world results from our clients</p>
-            </div>
-
-            <div class="case-study-container">
-                <div class="case-study-header">
-                    <h3 data-i18n="case_study_heading">Industrial Case Study: Transforming IP Document Management</h3>
-                    <p data-i18n="case_study_intro">How Aviolab AI revolutionized the Intellectual Property department of a Fortune 500 manufacturing company:</p>
-                </div>
-
-                <div class="case-study-highlights">
-                    <div class="success-points-container">
-                        <ul class="success-points">
-                            <li><i class="fas fa-check"></i> <span data-i18n="case_study_point1">Reduced contract analysis time from days to hours or even minutes</span></li>
-                            <li><i class="fas fa-check"></i> <span data-i18n="case_study_point2">Enhanced reliability of multi-document agreement processing</span></li>
-                            <li><i class="fas fa-check"></i> <span data-i18n="case_study_point3">Generated impeccable legal comments in multiple languages</span></li>
-                            <li><i class="fas fa-check"></i> <span data-i18n="case_study_point4">Facilitated seamless communication between international legal teams</span></li>
-                            <li><i class="fas fa-check"></i> <span data-i18n="case_study_point5">Specific risk level assessment for each identified critical issue</span></li>
-                            <li><i class="fas fa-check"></i> <span data-i18n="case_study_point6">Strengthened control over IP assets and contractual negotiation security</span></li>
-                        </ul>
-                    </div>
-                    <div class="case-study-image">
-                        <img src="assets/images/case-study.jpg" alt="Business professional">
-                    </div>
-                </div>
-
-                <div class="founder-testimonial">
-                    <h3 data-i18n="founder_testimonial_title">Founder's Perspective</h3>
-                    <blockquote class="founder-testimonial-content">
-                        <p><span data-i18n="founder_para_1"></span> <span data-i18n="founder_para_2"></span> <span data-i18n="founder_para_3"></span> <span data-i18n="founder_para_4"></span></p>
-                    </blockquote>
-                    <cite data-i18n="founder_testimonial_citation">— Riccardo Parenti, Founder & Technical Lead</cite>
                 </div>
             </div>
         </div>
@@ -424,7 +452,7 @@
 
             <div class="about-content">
                 <div class="founder-image">
-                    <img src="assets/founder01.jpg" alt="Riccardo Parenti - Founder">
+                    <img src="assets/founder01.jpg" alt="Riccardo Parenti - Founder" loading="lazy" decoding="async">
                 </div>
                 <div class="founder-bio">
                     <h3 data-i18n="founder_name">Riccardo Parenti</h3>
@@ -433,7 +461,7 @@
                     <p data-i18n="founder_bio2"></p>
                     <p data-i18n="founder_bio3"></p>
                     <div class="social-links">
-                        <a href="https://www.linkedin.com/in/rparenti/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/rparenti/" class="social-link" target="_blank" rel="noopener" aria-label="Riccardo Parenti on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
@@ -462,7 +490,7 @@
                         <i class="fas fa-globe"></i>
                         <div>
                             <h3 data-i18n="contact_website">Website</h3>
-                            <p><a href="https://www.aviolab.ai" target="_blank">www.aviolab.ai</a></p>
+                            <p><a href="https://www.aviolab.ai" target="_blank" rel="noopener noreferrer">www.aviolab.ai</a></p>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -494,14 +522,13 @@
                         <input type="email" id="email" name="email" required>
                     </div>
                     <div class="form-group">
-                        <label for="company" data-i18n="contact_form_company">Company</label>
+                        <label for="company" data-i18n="contact_form_company">Company / Organisation</label>
                         <input type="text" id="company" name="company">
                     </div>
                     <div class="form-group">
                         <label for="message" data-i18n="contact_form_message">Message</label>
                         <textarea id="message" name="message" rows="5" required></textarea>
                     </div>
-                    <!-- Campi di configurazione per FormSubmit -->
                     <input type="hidden" name="_subject" value="Nuovo messaggio dal sito Aviolab AI">
                     <input type="hidden" name="_template" value="table">
                     <input type="hidden" name="_next" value="https://www.aviolab.ai?thanks=true">
@@ -514,21 +541,17 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <!-- Section Indicator (Dots) -->
     <aside class="section-indicator">
         <ul>
             <li><a href="#home" class="dot"></a><span class="tooltip">Home</span></li>
             <li><a href="#mission" class="dot"></a><span class="tooltip">Mission</span></li>
-            <li><a href="#capabilities" class="dot"></a><span class="tooltip">Technology</span></li>
             <li><a href="#products" class="dot"></a><span class="tooltip">Solutions</span></li>
             <li><a href="#benefits" class="dot"></a><span class="tooltip">Benefits</span></li>
-            <li><a href="#case-study" class="dot"></a><span class="tooltip">Success Stories</span></li>
             <li><a href="#about" class="dot"></a><span class="tooltip">About</span></li>
             <li><a href="#contact" class="dot"></a><span class="tooltip">Contact</span></li>
         </ul>
     </aside>
-
 
     <footer class="footer">
         <div class="container">
@@ -538,7 +561,7 @@
                         <img src="assets/logo.png" alt="Aviolab AI Logo">
                         <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
                     </a>
-                    <p data-i18n="footer_tagline">Intelligent Document Analysis</p>
+                    <p data-i18n="footer_tagline_umbrella">AI applied to law and public administration</p>
                     <div class="legal-info">
                         <p>AVIOLAB AI DI PARENTI RICCARDO</p>
                         <p>Via XXV Aprile 251</p>
@@ -548,30 +571,24 @@
                     </div>
                 </div>
                 <div class="footer-links">
-                    <h3 data-i18n="footer_quick_links">Quick Links</h3>
+                    <h3 data-i18n="footer_solutions">Solutions</h3>
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#mission" data-i18n="nav_mission">Mission</a></li>
-                        <li><a href="#capabilities" data-i18n="nav_capabilities">Capabilities</a></li>
-                        <li><a href="#products" data-i18n="nav_solutions">Solutions</a></li>
-                        <li><a href="#benefits" data-i18n="nav_benefits">Benefits</a></li>
-                        <li><a href="#case-study" data-i18n="nav_case_studies">Case Studies</a></li>
-                        <li><a href="#about" data-i18n="nav_about">About</a></li>
+                        <li><a href="pa-locale.html">TTR-SUITE PA Locale</a></li>
+                        <li><a href="ip-legal.html">TTR-SUITE IP Legal</a></li>
+                        <li><a href="downloads.html" data-i18n="nav_download">Download</a></li>
+                        <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-social">
                     <h3 data-i18n="footer_connect">Connect With Us</h3>
                     <div class="social-icons">
-                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/rparenti/" target="_blank"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>
-            <!-- Note: One-click note spostata nella hero section -->
             <div class="footer-bottom">
-                <p data-i18n="footer_copyright">&copy; 2025 Aviolab AI. All rights reserved.</p>
-                <p class="version-number">v1.1.69</p>
+                <p data-i18n="footer_copyright">&copy; 2026 Aviolab AI. All rights reserved.</p>
+                <p class="version-number">v1.2.02</p>
             </div>
         </div>
     </footer>

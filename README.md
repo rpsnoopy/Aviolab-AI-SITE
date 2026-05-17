@@ -1,145 +1,148 @@
-# Aviolab AI Website
+# Aviolab AI — Website (NEXT)
 
-Modern, responsive website for Aviolab AI, a company specializing in AI-powered legal document analysis.
+Production website for **Aviolab AI**, served at [aviolab.ai](https://aviolab.ai) via **Cloudflare Pages**.
 
-## About the Project
+This is the **dual-product** version of the site. The previous single-page version remains in the [`Aviolab-AI-SITE`](../Aviolab-AI-SITE/) repository as historical archive.
 
-This is a simple, elegant one-page website for Aviolab AI built with HTML, CSS, and JavaScript. The site features responsive design, multilingual support (English and Italian), and a smooth scrolling experience. It showcases the company's AI-powered document analysis solutions.
+## What this site is
 
-## Features
+Aviolab AI delivers **Agentic AI** for two distinct domains:
 
-- Single-page design with smooth scrolling navigation
-- Mobile-first, responsive layout
-- Bilingual support (English and Italian)
-- Modern design with CSS animations and full-background imagery
-- Enhanced UI elements including testimonial boxes and benefit cards
-- Interactive elements and contact form
-- Comprehensive download system with public and client areas
-- GitHub-hosted file distribution with password-protected ZIP files
-- Downloadable company brochures in PDF format
-- Language-specific content delivery
+- **TTR-SUITE IP Legal** — AI-powered document analysis and assisted drafting for legal teams and IP departments. NDAs, research and technology partnership agreements, license agreements, contract review, end-to-end patent application preparation (UIBM, EPO).
+- **TTR-SUITE per la PA Locale** — Consulenza giuridica e amministrativa AI per i Comuni italiani. Pareri, redazione di atti, fascicolo digitale SInCRO conforme UNI 11386 / art. 41 CAD, affiancamento esperto ai funzionari.
 
-## Tech Stack
+The site reflects that split: an **umbrella home** (`index.html`) introduces both verticals, while two dedicated landings (`ip-legal.html`, `pa-locale.html`) sell each suite to its audience.
 
-- HTML5
-- CSS3 with custom variables
-- Vanilla JavaScript
-- Font Awesome icons (locally hosted)
-- Custom webfonts (Montserrat and Open Sans)
+## Page map
 
-## Getting Started
+| URL | Role | Default language |
+|-----|------|-------|
+| `/` (`index.html`) | Umbrella home — mission, two product cards, contact form | EN (auto-switch to IT) |
+| `/ip-legal.html` | TTR-SUITE IP Legal landing | EN |
+| `/pa-locale.html` | TTR-SUITE per la PA Locale landing | IT |
+| `/downloads.html` | Public + per-client downloads area | EN/IT |
+| `/privacy.html` | GDPR privacy notice (bilingual tab switcher) | IT default |
 
-### Prerequisites
+Auxiliary files at the repo root:
 
-- No build process required
-- Can be viewed directly in a browser
-- For local development, [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension for VS Code is recommended
+| File | Purpose |
+|------|---------|
+| `robots.txt` | Crawler policy + explicit allow for 15 major AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Applebot-Extended, …) |
+| `llms.txt` | LLM-friendly site map per the [llms.txt](https://llmstxt.org/) standard — Markdown summary of the site for AI assistants |
+| `sitemap.xml` | XML sitemap for search engines |
+| `site.webmanifest` | Web app manifest |
 
-### Installation
+## Tech stack
 
-1. Clone the repository
-2. Open the project in your code editor
-3. If using VS Code with Live Server, right-click on index.html and select "Open with Live Server"
+- Static HTML5 + CSS3 + vanilla JavaScript — no build step
+- Cloudflare Pages for hosting and CDN
+- Cloudflare Web Analytics for traffic measurement (cookieless, GDPR-compliant — enabled from the Cloudflare dashboard, no code injection required)
+- Font Awesome 6 icons (locally hosted under `fonts/fontawesome/`)
+- Custom webfonts: **Montserrat** (titles/UI) and **Open Sans** (body), both locally hosted under `fonts/`
+- Bilingual EN/IT via `data-i18n="…"` attributes resolved at runtime by `js/translations.js`
+- Contact form via [FormSubmit](https://formsubmit.co)
+- Per-client downloads system backed by [aviolab-ai-downloads](https://github.com/rpsnoopy/aviolab-ai-downloads) repo (password-protected ZIPs)
 
-## Content Management
+## SEO, social, AI indexing
 
-The website content is managed through text files that allow for easy updates without diving into HTML code:
+Every public HTML page carries a consistent metadata block:
 
-1. **Edit Content:**
-   - English content: `assets/english_texts.txt`
-   - Italian content: `assets/italian_texts.txt`
+- `<title>` and `<meta name="description">` aligned with the page's primary value proposition
+- `<link rel="canonical">` to the production URL
+- **Open Graph** tags (`og:title`, `og:description`, `og:image`, `og:type`, `og:locale`, `og:locale:alternate`) — used for previews on LinkedIn, WhatsApp, Telegram, Slack, Microsoft Teams, iMessage, Outlook, etc.
+- Dedicated 1200×630 OG images per page under `assets/og/` (Montserrat-rendered, brand-coherent)
+- **JSON-LD schema.org** structured data:
+  - `Organization` + `OfferCatalog` (with both products) on the umbrella home
+  - `SoftwareApplication` with feature list and audience on each landing
+- **Cloudflare Web Analytics** is enabled at the Pages level — no `<script>` tag committed in the repo, beacon is injected automatically by Cloudflare
 
-2. **Update Translations:**
-   - After editing the text files, run:
-   ```
-   node update-translations.js
-   ```
-   - This will regenerate the `js/translations.js` file with your updated content
+## Privacy and cookies
 
-3. **Test Changes:**
-   - Refresh the page in your browser to see the updated content
-   - Test in both English and Italian language modes
+The site does **not use tracking or profiling cookies**. The only data flows are:
 
-## Project Structure
+- The contact form (FormSubmit) — explicit user submission
+- Cloudflare Web Analytics — aggregate, anonymous, cookieless
+- The downloads area accepts a client ID (manual ZIP password gating)
 
-- `index.html` - Main HTML structure
-- `styles.css` - All styling with CSS variables
-- `script.js` - Core JavaScript functionality
-- `downloads.html` - Download page with public and client file access
-- `js/downloads.js` - Download system functionality and file management
-- `js/translations.js` - Multilingual content (auto-generated)
-- `assets/` - Images, logos, founder photos, and content files
-- `assets/brochures/` - Downloadable PDF brochures in English and Italian
-- `assets/images/` - Website imagery (hero, mission, case study)
-- `update-translations.js` - Script to generate translations from text files
-- `fonts/fontawesome/` - Locally hosted Font Awesome icons (v6.4.0)
-- `fonts/montserrat/` and `fonts/open-sans/` - Custom web fonts
-- `CLAUDE.md` - Detailed project documentation and version history
+A full bilingual GDPR notice is published at `/privacy.html` with the Data Controller details, lawful bases, retention, recipients (Cloudflare, FormSubmit, LLM providers for TTR-SUITE customers only), Standard Contractual Clauses for extra-EU transfers, and data subject rights (art. 15–21 GDPR).
+
+## Local development
+
+No build step required.
+
+```bash
+# Open in VS Code with Live Server, or any static HTTP server:
+python3 -m http.server 8080
+# Then visit http://localhost:8080/
+```
+
+For language switching to work correctly the page must be served over HTTP (not opened as `file://`) because of `fetch()`-based translation loading.
+
+## Content management
+
+Bilingual content lives in `js/translations.js`. Two ways to update:
+
+1. **Direct edit** — modify the desired keys in both the `en` and `it` blocks of `js/translations.js`, save, refresh.
+2. **Sources-then-regenerate** — edit `assets/english_texts.txt` and `assets/italian_texts.txt`, then run `node update-translations.js` to regenerate `js/translations.js`.
+
+After any content change, retest both EN and IT modes by clicking the language toggle.
 
 ## Deployment
 
-This website uses **Cloudflare Pages** for automatic deployment:
+Push to `main` triggers automatic Cloudflare Pages deployment.
 
-1. **Automatic Deployment**: Every commit to the main branch triggers automatic deployment
-2. **Monitoring**: Visit [pages.cloudflare.com](https://pages.cloudflare.com) to monitor deployments and resolve issues
-3. **No Build Process**: Static files are deployed directly
-4. **File Structure**: Ensure file structure remains intact for proper deployment
+```bash
+git add <specific-files>
+git commit -m "<conventional message>"
+git push origin main
+```
 
-### Deployment Workflow
-1. Make changes locally
-2. Commit with `git add .` and `git commit -m "message"`
-3. Push with `git push origin main`
-4. Cloudflare Pages automatically deploys within minutes
-5. Monitor deployment status on Cloudflare dashboard
+Monitor deployments at [pages.cloudflare.com](https://pages.cloudflare.com).
 
-## Download System Management
+To enable / configure Web Analytics, go to the Pages project → **Settings** → **Web Analytics** → **Enable**. No repo changes needed.
 
-### Adding New Downloads (via Claude AI)
+## Downloads system
 
-Use these simple commands with Claude:
-- `"Aggiungi [filename.zip] per cliente [CLIENT-ID]"` - Add client-specific file
-- `"Aggiungi [filename.zip] nell'area pubblica"` - Add public file
-- `"Crea nuovo cliente [CLIENT-ID]"` - Create new client
-- `"Rimuovi [filename.zip] per cliente [CLIENT-ID]"` - Remove client file
+The downloads area at `/downloads.html` distributes:
 
-### What Claude Does Automatically
-1. Updates `js/downloads.js` with new file entries
-2. Commits changes with descriptive message
-3. Provides GitHub link where to upload the ZIP file
-4. Ensures proper file structure and security
+- **Public files** (TTR-PROBE, install scripts, English/Italian readmes) — open to all visitors
+- **Per-client files** (TTR-SUITE licence packages, agent bundles) — accessed via a client ID entered by the visitor; the actual ZIPs sit in [`aviolab-ai-downloads/clients/<CLIENT-ID>/`](https://github.com/rpsnoopy/aviolab-ai-downloads/tree/main/clients) and are password-protected. Passwords are communicated to clients out-of-band.
 
-### Manual Process (if Claude unavailable)
-1. **For Client Files:**
-   - Edit `js/downloads.js` → `exampleClients` array
-   - Add: `'CLIENT-ID': [{ name: 'File Name', file: 'filename.zip', size: 'X MB', type: 'software' }]`
-   - Upload ZIP to: `https://github.com/rpsnoopy/aviolab-ai-downloads/tree/main/clients/CLIENT-ID/`
+To add a new download, edit `js/downloads.js` (the `exampleClients` map for per-client files, or `additionalPublicFiles` for public files), then upload the matching ZIP to the `aviolab-ai-downloads` repo. See `GESTIONE_DOWNLOADS.md` and `DOWNLOAD_MANAGEMENT.md` for the full procedure.
 
-2. **For Public Files:**
-   - Edit `js/downloads.js` → `additionalPublicFiles` array
-   - Add: `{ name: 'Name', description: 'Description', icon: 'fas fa-icon', file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/filename.zip' }`
-   - Upload ZIP to: `https://github.com/rpsnoopy/aviolab-ai-downloads/tree/main/public/`
+## Repository structure
 
-3. **Commit:** `git add js/downloads.js && git commit -m "Add filename.zip" && git push`
-
-**Security:** All files must be password-protected ZIP archives. Passwords are communicated separately.
-
-## Version Control
-
-- Current version: v1.1.66
-- See `CLAUDE.md` for detailed version history and change log
-- Each feature implementation or bug fix receives a version bump (v1.1.xx format)
-
-## Contributing
-
-For guidelines on contributing to this project, please refer to the `CLAUDE.md` file, which contains:
-- Build and run commands
-- Code style guidelines
-- Project structure details
-- Development workflow instructions
-- Company information
+```
+.
+├── index.html              # Umbrella home (dual-product)
+├── ip-legal.html           # IP Legal landing (EN-first)
+├── pa-locale.html          # PA Locale landing (IT-first)
+├── downloads.html          # Public + per-client downloads
+├── privacy.html            # GDPR privacy notice (IT/EN tabbed)
+├── robots.txt              # Crawler policy (incl. AI bots)
+├── llms.txt                # LLM-friendly site map
+├── sitemap.xml             # XML sitemap
+├── styles.css              # Shared site styles
+├── script.js               # Core JS (nav, language toggle, animations)
+├── update-translations.js  # Build script: txt sources → translations.js
+├── js/
+│   ├── translations.js     # Generated EN/IT translations
+│   └── downloads.js        # Downloads UI logic
+├── assets/
+│   ├── logo.png            # Aviolab AI shield logo
+│   ├── og/                 # 1200×630 Open Graph images per page
+│   ├── brochures/          # Company overview brochures EN/IT (PDF+HTML)
+│   ├── downloads/          # PA brochure for the PA Locale landing
+│   └── images/             # Hero, mission, case study, capabilities imagery
+├── fonts/
+│   ├── fontawesome/        # Font Awesome 6 (local)
+│   ├── montserrat/         # Montserrat woff/woff2
+│   └── open-sans/          # Open Sans woff/woff2
+└── lic/                    # License system endpoints
+```
 
 ## Contact
 
-Riccardo Parenti - info@aviolab.ai
-
-Website: [Aviolab AI](https://www.aviolab.ai)
+**Riccardo Parenti** — Aviolab AI Founder
+Email: [info@aviolab.ai](mailto:info@aviolab.ai)
+Website: [aviolab.ai](https://aviolab.ai)

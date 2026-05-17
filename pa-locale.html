@@ -1,0 +1,1548 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1e40af">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <meta name="description" content="TTR-SUITE per la PA Locale: consulenza giuridica e amministrativa AI per i Comuni italiani. Pareri, redazione di atti, fascicolo digitale SInCRO e affiancamento esperto ai funzionari, dalla domanda di base al caso complesso. Conformità AI Act art. 50 e GDPR. Architettura coperta da domanda di brevetto UIBM.">
+    <meta name="author" content="Riccardo Parenti">
+    <meta name="keywords" content="Agentic AI, AI agenti, TTR-SUITE, PA Locale, Comuni, segretario comunale, consulenza giuridica AI, redazione atti, affiancamento funzionari, fascicolo digitale, SInCRO, UNI 11386, Normattiva, AI Act, GDPR, brevetto UIBM, Halley, S.I.C.">
+    <title>TTR-SUITE per la PA Locale, Consulenza giuridica AI per i Comuni | Aviolab AI</title>
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://aviolab.ai/pa-locale.html">
+
+    <!-- Open Graph / Anteprime social (LinkedIn, WhatsApp, Slack, Telegram, iMessage, Outlook, ecc.) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Aviolab AI">
+    <meta property="og:url" content="https://aviolab.ai/pa-locale.html">
+    <meta property="og:title" content="TTR-SUITE per la PA Locale, Consulenza giuridica AI per i Comuni | Aviolab AI">
+    <meta property="og:description" content="Consulenza giuridica, redazione di atti, fascicolo SInCRO e affiancamento esperto ai funzionari. Dalla base al caso complesso.">
+    <meta property="og:image" content="https://aviolab.ai/assets/og/og-pa-locale.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="TTR-SUITE per la PA Locale, Consulenza giuridica AI per i Comuni italiani">
+    <meta property="og:locale" content="it_IT">
+    <meta property="og:locale:alternate" content="en_US">
+
+    <!-- Structured data: TTR-SUITE per la PA Locale -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "TTR-SUITE per la PA Locale",
+      "url": "https://aviolab.ai/pa-locale.html",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Windows",
+      "inLanguage": "it",
+      "description": "Consulenza giuridica e amministrativa AI per i Comuni italiani. Pareri su norme vigenti, redazione di atti pronti per la firma, fascicolo digitale conforme a SInCRO (UNI 11386, art. 41 CAD) e affiancamento esperto ai funzionari. Architettura coperta da domanda di brevetto.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Aviolab AI",
+        "url": "https://aviolab.ai/"
+      },
+      "featureList": [
+        "22+2 agenti specialisti per aree tematiche e ruoli",
+        "Fonti normative certificate, zero errori di citazione",
+        "Redazione di atti: delibere, determine, ordinanze, titoli edilizi",
+        "Fascicolo digitale conforme SInCRO (UNI 11386, art. 41 CAD)",
+        "Conformità AI Act art. 50 + GDPR by design",
+        "Affiancamento dei funzionari su qualsiasi richiesta"
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Italian municipalities under 5000 inhabitants"
+      }
+    }
+    </script>
+
+    <!-- Favicons -->
+    <link rel="icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="Aviolab.ai">
+
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+
+    <style>
+        /* Stili specifici per pa-locale (pagina IT-only) */
+        .pa-hero {
+            background: linear-gradient(135deg, #0f172a 0%, #1e40af 100%);
+            color: #fff;
+            padding: 8rem 0 5rem;
+            text-align: center;
+        }
+        .pa-hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+        }
+        .pa-hero h1 .highlight {
+            color: #ff0000;
+        }
+        .pa-hero .lead {
+            font-size: 1.25rem;
+            max-width: 880px;
+            margin: 0 auto 2rem;
+            color: #e2e8f0;
+        }
+        .pa-hero .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        /* PAIN KILLER BLOCK, il dubbio del funzionario */
+        .pain-killer {
+            background: linear-gradient(180deg, #ffffff 0%, #fee2e2 100%);
+            padding: 5rem 0;
+            position: relative;
+        }
+        .pain-killer-wrapper {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+        .pain-killer-quote {
+            position: relative;
+            padding: 1rem 0 1rem 2.5rem;
+            border-left: 5px solid #ff0000;
+        }
+        .pain-killer-quote .fa-quote-left {
+            position: absolute;
+            top: -10px; left: 1rem;
+            font-size: 2rem;
+            color: #fecaca;
+        }
+        .pain-killer-quote p {
+            font-size: 1.35rem;
+            color: #0f172a;
+            font-style: italic;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+        .pain-killer-quote cite {
+            font-style: normal;
+            color: #64748b;
+            font-size: 0.95rem;
+        }
+        .pain-killer-answer h2 {
+            color: #0f172a;
+            font-size: 1.7rem;
+            margin-bottom: 1.2rem;
+            line-height: 1.3;
+        }
+        .pain-killer-answer h2 .highlight {
+            color: #ff0000;
+        }
+        .pain-killer-answer ul {
+            list-style: none;
+            padding: 0;
+        }
+        .pain-killer-answer ul li {
+            padding-left: 2rem;
+            position: relative;
+            margin-bottom: 0.9rem;
+            color: #1e293b;
+            font-size: 1.02rem;
+            line-height: 1.55;
+        }
+        .pain-killer-answer ul li::before {
+            content: "\f00c";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            color: #ff0000;
+            position: absolute;
+            left: 0; top: 0.15rem;
+            font-size: 1.05rem;
+        }
+
+        .pa-section {
+            padding: 5rem 0;
+        }
+        .pa-section--alt {
+            background-color: #f8fafc;
+        }
+        .pa-section--dark {
+            background: #0f172a;
+            color: #e2e8f0;
+        }
+        .pa-section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .pa-section-title h2 {
+            font-size: 2.2rem;
+            color: #0f172a;
+        }
+        .pa-section--dark .pa-section-title h2 {
+            color: #fff;
+        }
+        .pa-section-title .underline {
+            width: 60px;
+            height: 4px;
+            background: #ff0000;
+            margin: 1rem auto;
+        }
+        .pa-section-title p {
+            max-width: 820px;
+            margin: 1rem auto 0;
+            color: #64748b;
+            font-size: 1.1rem;
+        }
+        .pa-section--dark .pa-section-title p {
+            color: #cbd5e1;
+        }
+        .pain-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        .pain-card {
+            background: #fff;
+            border-left: 4px solid #ff0000;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.08);
+        }
+        .pain-card h3 {
+            color: #1e40af;
+            font-size: 1.15rem;
+            margin-bottom: 0.6rem;
+        }
+        .pain-card p {
+            color: #334155;
+            font-size: 0.98rem;
+        }
+
+        /* Capabilities (cosa fa) */
+        .capa-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.5rem;
+        }
+        .capa-card {
+            background: #fff;
+            border-top: 4px solid #1e40af;
+            border-radius: 8px;
+            padding: 1.8rem 1.4rem;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.08);
+            transition: transform 0.2s ease;
+        }
+        .capa-card:hover { transform: translateY(-3px); }
+        .capa-card .icon {
+            font-size: 1.8rem;
+            color: #ff0000;
+            margin-bottom: 0.8rem;
+        }
+        .capa-card h3 {
+            color: #0f172a;
+            font-size: 1.15rem;
+            margin-bottom: 0.6rem;
+        }
+        .capa-card p {
+            color: #475569;
+            font-size: 0.95rem;
+        }
+        .capa-card ul {
+            margin: 0.6rem 0 0 1.2rem;
+            padding-left: 0.6rem;
+            color: #475569;
+            font-size: 0.9rem;
+            list-style-type: disc;
+            list-style-position: outside;
+        }
+        .capa-card ul li {
+            margin-bottom: 0.3rem;
+            list-style-type: disc;
+        }
+        .capa-card ul li.more {
+            list-style-type: none;
+            color: #94a3b8;
+            font-style: italic;
+            margin-left: -0.6rem;
+            margin-top: 0.4rem;
+        }
+
+        /* Dalla domanda alla firma, guided path */
+        .guided-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+        .guided-step {
+            background: #fff;
+            border-radius: 10px;
+            padding: 1.8rem 1.5rem 1.6rem;
+            position: relative;
+            box-shadow: 0 4px 10px -3px rgba(0,0,0,0.08);
+            border-left: 4px solid #ff0000;
+        }
+        .guided-step__num {
+            position: absolute;
+            top: -14px;
+            left: 20px;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: #1e40af;
+            color: #fff;
+            font-weight: 700;
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+        }
+        .guided-step__icon {
+            font-size: 1.8rem;
+            color: #1e40af;
+            margin-bottom: 0.7rem;
+            margin-top: 0.3rem;
+        }
+        .guided-step h3 {
+            color: #0f172a;
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            line-height: 1.3;
+        }
+        .guided-step p {
+            color: #475569;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin: 0;
+        }
+        .guided-path-closing {
+            margin-top: 2.5rem;
+            background: #f1f5f9;
+            border-left: 4px solid #1e40af;
+            border-radius: 6px;
+            padding: 1.2rem 1.5rem;
+            text-align: center;
+        }
+        .guided-path-closing p {
+            font-size: 1.05rem;
+            color: #0f172a;
+            margin: 0;
+            line-height: 1.6;
+        }
+        .guided-step__badge {
+            position: absolute;
+            top: 0.9rem;
+            right: 0.9rem;
+            background: #e0e7ff;
+            color: #1e40af;
+            font-size: 0.68rem;
+            font-weight: 700;
+            letter-spacing: 1.2px;
+            padding: 0.25rem 0.6rem;
+            border-radius: 10px;
+            text-transform: uppercase;
+        }
+        .guided-step--optional h3 {
+            padding-right: 5.5rem;
+        }
+
+        /* Corte dei Conti */
+        .cdc-intro {
+            text-align: center;
+            max-width: 820px;
+            margin: 0 auto 2.5rem;
+            color: #334155;
+            font-size: 1.05rem;
+            line-height: 1.6;
+        }
+        .cdc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.3rem;
+        }
+        .cdc-card {
+            background: #fff;
+            border-radius: 8px;
+            padding: 1.4rem 1.3rem;
+            box-shadow: 0 3px 8px -2px rgba(0,0,0,0.08);
+            border-top: 3px solid #1e40af;
+        }
+        .cdc-card .icon {
+            font-size: 1.5rem;
+            color: #1e40af;
+            margin-bottom: 0.6rem;
+        }
+        .cdc-card h3 {
+            color: #0f172a;
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
+        }
+        .cdc-card p {
+            color: #475569;
+            font-size: 0.9rem;
+            line-height: 1.55;
+            margin: 0;
+        }
+
+        /* Esempi di domande per area */
+        .examples-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+            gap: 1.2rem;
+            margin-top: 1rem;
+        }
+        .example-card {
+            background: #fff;
+            border-radius: 8px;
+            padding: 1.3rem 1.3rem 1.4rem;
+            box-shadow: 0 3px 8px -2px rgba(0,0,0,0.08);
+            border-left: 3px solid #ff0000;
+            display: flex;
+            flex-direction: column;
+        }
+        .example-card__head {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            color: #1e40af;
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 0.9rem;
+            padding-bottom: 0.7rem;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .example-card__head i {
+            font-size: 1.1rem;
+        }
+        .example-card__q {
+            font-style: italic;
+            color: #334155;
+            font-size: 0.92rem;
+            line-height: 1.55;
+            margin: 0 0 0.9rem;
+            position: relative;
+            padding-left: 1.2rem;
+        }
+        .example-card__q::before {
+            content: '\201C';
+            position: absolute;
+            left: 0;
+            top: -0.2rem;
+            font-size: 1.6rem;
+            color: #cbd5e1;
+            font-style: normal;
+            line-height: 1;
+        }
+        .example-card__a {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-style: italic;
+            color: #1e293b;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            margin: 0;
+            background: #f1f5f9;
+            border-left: 3px solid #1e40af;
+            padding: 0.7rem 0.9rem 0.7rem 0.85rem;
+            border-radius: 0 5px 5px 0;
+        }
+
+        /* Come funziona - 22+2 agenti */
+        .agents-wrapper {
+            display: block;
+        }
+        .agents-header {
+            display: grid;
+            grid-template-columns: minmax(220px, auto) 1fr;
+            gap: 2rem;
+            align-items: center;
+            margin-bottom: 2.2rem;
+        }
+        .agents-header .agents-intro p {
+            color: #475569;
+            font-size: 0.97rem;
+            margin: 0 0 0.7rem;
+            line-height: 1.6;
+        }
+        .agents-header .agents-intro p:last-child { margin-bottom: 0; }
+        .agents-section-title {
+            color: #1e40af;
+            font-size: 1.05rem;
+            margin: 0 0 0.8rem;
+        }
+        .coord-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 2.2rem;
+        }
+        .coord-card {
+            background: #fff;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 1rem 1.2rem;
+        }
+        .coord-card__name {
+            font-weight: 700;
+            color: #0f172a;
+            font-size: 1rem;
+            margin-bottom: 0.35rem;
+            letter-spacing: 0.5px;
+        }
+        .coord-card__name i {
+            color: #1e40af;
+            margin-right: 0.5rem;
+        }
+        .coord-card__desc {
+            color: #475569;
+            font-size: 0.88rem;
+            line-height: 1.5;
+        }
+        .specializations {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2.5rem;
+        }
+        .agents-count {
+            background: linear-gradient(135deg, #ff0000, #b91c1c);
+            color: #fff;
+            border-radius: 10px;
+            padding: 1.5rem;
+            text-align: center;
+            margin-bottom: 0;
+        }
+        .agents-count .big-number {
+            font-size: 3rem;
+            font-weight: 800;
+            line-height: 1;
+            font-family: var(--font-primary, 'Montserrat'), sans-serif;
+        }
+        .agents-count .label {
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-top: 0.4rem;
+            opacity: 0.95;
+        }
+        .agents-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.7rem;
+        }
+        .agent-chip {
+            background: #fff;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 0.8rem 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+            font-weight: 500;
+            color: #0f172a;
+            font-size: 0.95rem;
+        }
+        .agent-chip i {
+            color: #1e40af;
+            font-size: 1.1rem;
+        }
+        .agents-note {
+            grid-column: 1 / -1;
+            background: linear-gradient(135deg, #1e40af, #3b82f6);
+            color: #fff;
+            border-radius: 8px;
+            padding: 1.1rem 1.3rem;
+            margin-top: 0.5rem;
+            font-size: 0.95rem;
+        }
+        .agents-note strong { color: #fff; }
+        .infografica-img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15);
+        }
+
+        /* Cosa ottieni */
+        .value-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        .value-card {
+            background: #fff;
+            border-radius: 8px;
+            padding: 2rem 1.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.08);
+            transition: transform 0.2s ease;
+        }
+        .value-card:hover { transform: translateY(-4px); }
+        .value-card .icon {
+            font-size: 2.2rem;
+            color: #ff0000;
+            margin-bottom: 1rem;
+        }
+        .value-card h3 {
+            color: #1e40af;
+            font-size: 1.2rem;
+            margin-bottom: 0.6rem;
+        }
+        .value-card p { color: #334155; }
+
+        /* Conformità AI Act / GDPR */
+        .compliance-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        .compliance-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 8px;
+            padding: 1.8rem 1.5rem;
+        }
+        .compliance-card .badge {
+            display: inline-block;
+            background: #ff0000;
+            color: #fff;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            padding: 0.25rem 0.7rem;
+            border-radius: 4px;
+            margin-bottom: 0.9rem;
+        }
+        .compliance-card h3 {
+            color: #fff;
+            font-size: 1.15rem;
+            margin-bottom: 0.8rem;
+        }
+        .compliance-card ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .compliance-card ul li {
+            position: relative;
+            padding-left: 1.6rem;
+            margin-bottom: 0.6rem;
+            color: #e2e8f0;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+        .compliance-card ul li::before {
+            content: "\f00c";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            color: #22c55e;
+            position: absolute;
+            left: 0; top: 0.2rem;
+        }
+        .compliance-docs {
+            margin-top: 2.5rem;
+            background: rgba(255,255,255,0.03);
+            border: 1px dashed rgba(255,255,255,0.2);
+            border-radius: 8px;
+            padding: 1.5rem 2rem;
+            text-align: center;
+        }
+        .compliance-docs h4 {
+            color: #fff;
+            font-size: 1rem;
+            margin-bottom: 0.8rem;
+        }
+        .compliance-docs span {
+            display: inline-block;
+            background: rgba(255,255,255,0.08);
+            color: #e2e8f0;
+            padding: 0.4rem 0.9rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin: 0.25rem;
+        }
+
+        /* Brevetto */
+        .patent-section {
+            background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+            padding: 5rem 0;
+        }
+        .patent-card {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px -10px rgba(30,64,175,0.2);
+            padding: 3rem 2.5rem;
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 2rem;
+            align-items: center;
+        }
+        .patent-seal {
+            width: 110px;
+            height: 110px;
+            background: linear-gradient(135deg, #1e40af, #0f172a);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 3rem;
+            box-shadow: 0 10px 20px -5px rgba(30,64,175,0.4);
+            border: 4px solid #ff0000;
+        }
+        .patent-content h3 {
+            color: #0f172a;
+            font-size: 1.5rem;
+            margin-bottom: 0.4rem;
+        }
+        .patent-content .patent-claim {
+            color: #1e40af;
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+        .patent-refs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 1.2rem 0;
+        }
+        .patent-ref {
+            background: #f1f5f9;
+            border-left: 3px solid #ff0000;
+            padding: 0.6rem 1rem;
+            border-radius: 4px;
+            font-size: 0.92rem;
+        }
+        .patent-ref strong {
+            display: block;
+            color: #0f172a;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.2rem;
+        }
+        .patent-ref span {
+            color: #1e40af;
+            font-weight: 600;
+            font-family: 'Courier New', monospace;
+        }
+        .patent-note {
+            color: #64748b;
+            font-size: 0.88rem;
+            font-style: italic;
+            margin-top: 0.8rem;
+        }
+
+        /* Modello commerciale */
+        .commercial-box {
+            background: #0f172a;
+            color: #fff;
+            border-radius: 8px;
+            padding: 2.5rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 2rem;
+        }
+        .commercial-item h4 {
+            color: #ff0000;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.5rem;
+        }
+        .commercial-item p {
+            color: #e2e8f0;
+            font-size: 1rem;
+        }
+        .commercial-footer {
+            grid-column: 1 / -1;
+            margin-top: 0.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255,255,255,0.15);
+            color: #cbd5e1;
+            font-size: 0.97rem;
+            text-align: center;
+            line-height: 1.55;
+        }
+        .commercial-footer strong { color: #fff; }
+
+        /* Dubbio → Risposta (sostituisce la tabella competitor) */
+        .qa-table {
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1);
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .qa-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .qa-row:last-child { border-bottom: none; }
+        .qa-row > div {
+            padding: 1.3rem 1.6rem;
+        }
+        .qa-row.header > div {
+            background: #0f172a;
+            color: #fff;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 0.82rem;
+            letter-spacing: 0.5px;
+            padding: 1rem;
+        }
+        .qa-row.header > div:first-child {
+            background: #1e293b;
+        }
+        .qa-row > div:first-child {
+            background: #fef2f2;
+            color: #0f172a;
+            font-style: italic;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        .qa-row > div:first-child::before {
+            content: "\f10d";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            color: #fecaca;
+            margin-right: 0.5rem;
+        }
+        .qa-row > div:nth-child(2) {
+            color: #0f172a;
+            font-weight: 500;
+            border-left: 3px solid #ff0000;
+            font-size: 0.97rem;
+        }
+
+        /* CTA */
+        .pa-cta {
+            background: linear-gradient(135deg, #1e40af 0%, #ff0000 100%);
+            color: #fff;
+            text-align: center;
+            padding: 5rem 0;
+        }
+        .pa-cta h2 {
+            color: #fff;
+            font-size: 2.2rem;
+            margin-bottom: 1rem;
+        }
+        .pa-cta p {
+            font-size: 1.15rem;
+            margin-bottom: 2rem;
+            max-width: 720px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .pa-cta .btn { margin: 0.4rem; }
+        .secondary-note {
+            background: #fff;
+            border-left: 4px solid #1e40af;
+            padding: 1.2rem 1.5rem;
+            margin-top: 2rem;
+            border-radius: 6px;
+            color: #334155;
+        }
+        .secondary-note a {
+            color: #1e40af;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .secondary-note a:hover { text-decoration: underline; }
+
+        @media (max-width: 768px) {
+            .pa-hero { padding: 6rem 0 3.5rem; }
+            .pa-hero h1 { font-size: 2rem; }
+            .pa-hero .lead { font-size: 1.05rem; }
+            .pain-killer-wrapper { grid-template-columns: 1fr; gap: 2rem; }
+            .pain-killer-quote p { font-size: 1.15rem; }
+            .agents-header { grid-template-columns: 1fr; }
+            .coord-row { grid-template-columns: 1fr; }
+            .specializations { grid-template-columns: 1fr; gap: 1.5rem; }
+            .agents-list { grid-template-columns: 1fr; }
+            .commercial-box { padding: 1.8rem; }
+            .qa-row { grid-template-columns: 1fr; }
+            .qa-row > div { border-bottom: 1px solid #e2e8f0; }
+            .qa-row > div:nth-child(2) { border-left: none; border-top: 3px solid #ff0000; }
+            .patent-card { grid-template-columns: 1fr; text-align: center; padding: 2rem 1.5rem; }
+            .patent-seal { margin: 0 auto; }
+            .patent-refs { justify-content: center; }
+        }
+    </style>
+</head>
+<body class="it">
+
+    <!-- Navigation Bar -->
+    <header id="header">
+        <div class="header-container">
+            <a href="index.html#home" class="logo-link">
+                <img src="assets/logo.png" alt="Aviolab AI Logo">
+                <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html#mission" class="nav-link">Mission</a></li>
+                    <li><a href="index.html#products" class="nav-link">Soluzioni</a></li>
+                    <li><a href="pa-locale.html" class="nav-link active">PA Locale</a></li>
+                    <li><a href="ip-legal.html" class="nav-link">IP Legal</a></li>
+                    <li><a href="index.html#about" class="nav-link">Chi siamo</a></li>
+                    <li><a href="downloads.html" class="nav-link" style="color: var(--highlight-color) !important; font-weight: bold;">Download</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="pa-hero">
+        <div class="container">
+            <h1>Consulenza giuridica e amministrativa <span class="highlight">AI</span><br>per i Comuni</h1>
+            <p class="lead">
+                <strong>TTR-SUITE per la PA Locale</strong>: pareri su norma vigente, redazione di atti pronti per la firma,
+                fascicolo digitale conforme allo standard SInCRO. Sulla scrivania del funzionario, in minuti invece che in giorni.
+            </p>
+            <div class="cta-buttons">
+                <a href="#cta" class="btn btn-primary">Richieda una demo</a>
+                <a href="assets/downloads/ttr-suite-pa-brochure.pdf" class="btn btn-secondary" target="_blank" rel="noopener">
+                    <i class="fas fa-file-pdf"></i> Scarichi la brochure (PDF)
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAIN KILLER: il dubbio del funzionario -->
+    <section class="pain-killer">
+        <div class="container">
+            <div class="pain-killer-wrapper">
+                <div class="pain-killer-quote">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Devo emettere questo atto. Ho fatto del mio meglio. Ma sarà tutto giusto? Sto correndo rischi legali, economici, di responsabilità personale?"</p>
+                    <cite>Il dubbio prima della firma</cite>
+                </div>
+                <div class="pain-killer-quote">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"E tra cinque anni, quando arriverà il controllo della Corte dei Conti? Riuscirò ancora a difendere questo provvedimento o emergerà un rilievo che oggi non vedo?"</p>
+                    <cite>Il dubbio sul controllo futuro</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- IL CONTESTO -->
+    <section class="pa-section pa-section--alt">
+        <div class="container">
+            <div class="pa-section-title">
+                <h2>Il contesto dei piccoli Comuni</h2>
+                <div class="underline"></div>
+                <p>
+                    Oltre il 70% dei Comuni italiani ha meno di 5.000 abitanti. In questi Enti un solo funzionario
+                    presidia spesso più materie, senza un ufficio legale interno; le consulenze esterne sono lente
+                    e raramente sostenibili sul singolo quesito, e il Segretario Comunale, spesso in convenzione
+                    tra più Enti, ha tempo limitato da dedicare alla singola pratica.
+                </p>
+            </div>
+
+            <div class="pain-grid">
+                <div class="pain-card">
+                    <h3><i class="fas fa-hourglass-half"></i> Tempi della consulenza</h3>
+                    <p>Pareri esterni in giorni o settimane, quando la decisione deve essere presa oggi. Per il singolo quesito il costo è raramente sostenibile.</p>
+                </div>
+                <div class="pain-card">
+                    <h3><i class="fas fa-exclamation-triangle"></i> AI generaliste inaffidabili</h3>
+                    <p>Gli assistenti AI di uso comune producono strutturalmente risposte plausibili ma, IN MODO CASUALE, giuridicamente errate, citando leggi, sentenze e articoli specifici che non esistono o che non sono più in vigore ("allucinazione").</p>
+                </div>
+                <div class="pain-card">
+                    <h3><i class="fas fa-file-signature"></i> Atti da sanare</h3>
+                    <p>Determine, delibere e ordinanze già emesse che richiedono autotutela o sanatoria per vizi rilevati a posteriori.</p>
+                </div>
+                <div class="pain-card">
+                    <h3><i class="fas fa-people-arrows"></i> Spostamenti di personale</h3>
+                    <p>Il funzionario passa da un'area all'altra dell'Ente e si trova a presidiare materie nuove, senza una memoria organizzativa strutturata che faciliti il passaggio.</p>
+                </div>
+                <div class="pain-card">
+                    <h3><i class="fas fa-balance-scale-right"></i> Tracciabilità della decisione</h3>
+                    <p>Il funzionario deve poter giustificare a posteriori, anche in sede contenziosa, su quale base giuridica ha agito.</p>
+                </div>
+                <div class="pain-card">
+                    <h3><i class="fas fa-user-tie"></i> Segretario in convenzione</h3>
+                    <p>Il Segretario Comunale opera spesso in convenzione tra più Enti: il tempo disponibile per ogni singola pratica è ridotto, e il funzionario può restare praticamente solo su scelte di merito di materie complesse.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DALLA DOMANDA ALLA FIRMA -->
+    <section class="pa-section guided-path-section">
+        <div class="container">
+            <div class="pa-section-title">
+                <h2>Essere guidati dalla prima definizione dell'obiettivo alla firma dei dispositivi conclusivi del procedimento</h2>
+                <div class="underline"></div>
+                <p>
+                    TTR-SUITE PA non si limita a scrivere atti. È una guida puntuale lungo tutto il percorso decisionale:
+                    accompagna il funzionario dal problema concreto fino alla sequenza completa degli atti da emettere, illumina le alternative con presupposti e conseguenze, prepara i draft e indica l'ordine di esecuzione.
+                </p>
+            </div>
+
+            <div class="guided-steps">
+                <div class="guided-step">
+                    <div class="guided-step__num">1</div>
+                    <div class="guided-step__icon"><i class="fas fa-comments"></i></div>
+                    <h3>Il problema, in linguaggio naturale</h3>
+                    <p>
+                        Il funzionario porta il caso come gli si presenta, anche se non conosce la materia,
+                        anche se non sa quale ufficio sia competente. TTR-SUITE classifica il quesito
+                        e individua il nodo giuridico-procedimentale da sciogliere.
+                    </p>
+                </div>
+
+                <div class="guided-step">
+                    <div class="guided-step__num">2</div>
+                    <div class="guided-step__icon"><i class="fas fa-route"></i></div>
+                    <h3>Tutte le alternative praticabili, non solo la prima</h3>
+                    <p>
+                        La suite non propone una sola strada: identifica <strong>tutte le opzioni legittime</strong>
+                        alla luce della normativa vigente, anche quelle che il funzionario non aveva considerato.
+                        Procedimento ordinario, procedure semplificate, autotutela, deroghe regolamentate,
+                        percorsi alternativi previsti dalla legge.
+                    </p>
+                </div>
+
+                <div class="guided-step">
+                    <div class="guided-step__num">3</div>
+                    <div class="guided-step__icon"><i class="fas fa-balance-scale"></i></div>
+                    <h3>Pro e contro esaustivi di ogni alternativa</h3>
+                    <p>
+                        Per ciascuna opzione: presupposti necessari, vincoli applicabili, rischi prevedibili,
+                        oneri amministrativi e tempi attesi. Esposizione <strong>non sintetica ma esaustiva</strong>:
+                        il funzionario riceve gli elementi per decidere in autonomia, non un suggerimento opaco.
+                    </p>
+                </div>
+
+                <div class="guided-step">
+                    <div class="guided-step__num">4</div>
+                    <div class="guided-step__icon"><i class="fas fa-list-check"></i></div>
+                    <h3>La struttura completa dell'intervento</h3>
+                    <p>
+                        Una volta scelta la strada, la suite redige la <strong>sequenza concreta degli atti</strong>
+                        da adottare: ordine cronologico, atto per atto, con riferimento normativo puntuale, bozza
+                        del documento e adempimenti collegati (protocollo, pubblicazione, comunicazioni, ANAC).
+                        Il funzionario ha davanti il percorso completo, dalla decisione alla firma.
+                    </p>
+                </div>
+
+                <div class="guided-step guided-step--optional">
+                    <div class="guided-step__num">5</div>
+                    <span class="guided-step__badge">Opzionale</span>
+                    <div class="guided-step__icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Rilettura Legale Adversariale</h3>
+                    <p>
+                        Per provvedimenti particolarmente delicati (rilevante impegno di bilancio, sanzioni
+                        o pre-contenzioso) può essere invocata una speciale revisione adversariale dedicata:
+                        aggiunge un ulteriore stress test al ragionamento, alla ricerca di buchi argomentativi,
+                        omissioni, scenari di rischio o altri punti deboli prima della firma. Nella maggior
+                        parte delle pratiche la verifica automatica già attiva di default è sufficiente.
+                    </p>
+                </div>
+
+                <div class="guided-step guided-step--optional">
+                    <div class="guided-step__num">6</div>
+                    <span class="guided-step__badge">Opzionale</span>
+                    <div class="guided-step__icon"><i class="fas fa-clipboard-check"></i></div>
+                    <h3>Revisore Corte dei Conti</h3>
+                    <p>
+                        Un revisore dedicato ed indipendente può essere invocato per emettere in modo dettagliato
+                        un parere di criticità elencando tutti i rilievi eventualmente possibili da parte della
+                        Corte dei Conti, valutandone anche la probabilità reale e la gravità eventuale. Non
+                        necessario, ma utile quando si desideri agire con "maggiore prudenza".
+                    </p>
+                </div>
+            </div>
+
+            <div class="guided-path-closing">
+                <p>
+                    <strong>Con TTR-SUITE PA il funzionario non resta MAI solo con il suo problema davanti al corpus legislativo e alle prassi consolidate (che talvolta può anche non conoscere direttamente).</strong>
+                    Nessuno stress per essere sicuri di rispettare la normativa, chi conosce la materia
+                    esegue più rapido, chi non la conosce è guidato passo per passo fino a un risultato
+                    amministrativamente solido.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- LA SUITE IN AZIONE -->
+    <section class="pa-section">
+        <div class="container">
+            <div class="pa-section-title">
+                <h2>La suite in azione: cosa fa, cosa Le arriva</h2>
+                <div class="underline"></div>
+                <p>
+                    TTR-SUITE per la PA Locale lavora con il funzionario lungo l'intero arco di una pratica:
+                    dalla prima consulenza alla redazione degli atti, dalle verifiche di legittimità
+                    all'archiviazione digitale conforme. E quando serve, anche su atti già emessi.
+                </p>
+            </div>
+
+            <div class="capa-grid">
+                <div class="capa-card">
+                    <div class="icon"><i class="fas fa-comments"></i></div>
+                    <h3>Consulenza preventiva</h3>
+                    <p>Pareri strutturati con citazione di articoli, commi e lettere, applicazione al caso e appendice con estratti normativi letterali.</p>
+                </div>
+                <div class="capa-card">
+                    <div class="icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                    <h3>Affiancamento in itinere</h3>
+                    <p>Discussione aperta con esplicitazione del ragionamento giuridico: prevalenza tra norme, casi-limite, alternative scartate. Particolarmente utile per il funzionario che debba occuparsi di aree o materie nuove, fuori dalla sua esperienza pregressa.</p>
+                </div>
+                <div class="capa-card">
+                    <div class="icon"><i class="fas fa-file-alt"></i></div>
+                    <h3>Redazione di atti</h3>
+                    <p>Bozze pronte per la rifinitura del funzionario in <strong>Markdown + DOCX editabile</strong>:</p>
+                    <ul>
+                        <li>Deliberazioni (Consiglio, Giunta…)</li>
+                        <li>Decreti, determinazioni, ordinanze</li>
+                        <li>Regolamenti, verbali, convenzioni</li>
+                        <li>Titoli edilizi (PdC, SCIA, CILA, CILAS)</li>
+                        <li>Avvisi pubblici, capitolati, contratti</li>
+                        <li class="more">…e molte altre tipologie</li>
+                    </ul>
+                </div>
+                <div class="capa-card">
+                    <div class="icon"><i class="fas fa-check-double"></i></div>
+                    <h3>Verifica indipendente</h3>
+                    <p>Ogni risposta, ogni atto, ogni revisione passa sempre attraverso almeno due agenti distinti, che attuano controlli incrociati e analisi in tempo reale delle fonti normative per garantire verifiche indipendenti su fonti, citazioni, coerenza e formato.</p>
+                </div>
+                <div class="capa-card">
+                    <div class="icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Rilettura Legale Adversariale</h3>
+                    <p>Per provvedimenti particolarmente delicati (rilevante impegno di bilancio, sanzioni o pre-contenzioso) può essere invocata una speciale revisione adversariale dedicata: aggiunge un ulteriore stress test al ragionamento, alla ricerca di buchi argomentativi, omissioni, scenari di rischio o altri punti deboli prima della firma. Nella maggior parte delle pratiche la verifica automatica già attiva di default è sufficiente.</p>
+                </div>
+                <div class="capa-card">
+                    <div class="icon"><i class="fas fa-clipboard-check"></i></div>
+                    <h3>Revisore Corte dei Conti</h3>
+                    <p>Un revisore dedicato ed indipendente può essere invocato per emettere in modo dettagliato un parere di criticità elencando tutti i rilievi eventualmente possibili da parte della Corte dei Conti, valutandone anche la probabilità reale e la gravità eventuale. Non necessario, ma utile quando si desideri agire con "maggiore prudenza".</p>
+                </div>
+                <div class="capa-card">
+                    <div class="icon"><i class="fas fa-folder-tree"></i></div>
+                    <h3>Fascicolo digitale</h3>
+                    <p>Ogni sessione è una pratica: cartelle organizzate (riferimenti normativi, atti istruttori, deliverable, note), metadati completi, hash SHA-256, audit trail. Il fascicolo chiuso può essere riletto in qualsiasi momento, rigenerando una sessione identica a quella che lo aveva prodotto.</p>
+                </div>
+                <div class="capa-card">
+                    <div class="icon"><i class="fas fa-search-plus"></i></div>
+                    <h3>Verifica autotutela</h3>
+                    <p>Analisi ex-post di provvedimenti già emessi: individuazione di vizi, base normativa per sanatoria o annullamento in autotutela, motivazione ricostruita con la solidità del controllo amministrativo-contabile.</p>
+                </div>
+            </div>
+
+            <div style="margin-top: 4rem; text-align: center;">
+                <h3 style="color: #1e40af; font-size: 1.5rem; margin-bottom: 0.5rem;">Il deliverable che arriva al funzionario</h3>
+                <p style="color: #64748b; font-size: 1rem; max-width: 720px; margin: 0 auto 2rem;">
+                    Non una risposta generica, ma un deliverable strutturato (parere o atto)
+                    con fonti certificate e fascicolo pronto per il gestionale documentale del Comune.
+                </p>
+            </div>
+
+            <div class="value-grid">
+                <div class="value-card">
+                    <div class="icon"><i class="fas fa-shield-check"></i></div>
+                    <h3>Fonti normative certificate</h3>
+                    <p>
+                        Ogni articolo, comma e lettera citato è verificato sulla normativa vigente da fonti
+                        istituzionali ufficiali (Normattiva, Gazzetta Ufficiale, ARAN, ISTAT, MEF, Funzione Pubblica, INPS).
+                        <strong>Zero errori sulle citazioni.</strong>
+                    </p>
+                </div>
+                <div class="value-card">
+                    <div class="icon"><i class="fas fa-list-ol"></i></div>
+                    <h3>Risposta strutturata</h3>
+                    <p>
+                        Classificazione del caso, quadro normativo con citazioni puntuali, applicazione al caso concreto,
+                        fonti con link, appendice con estratti letterali della norma.
+                    </p>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- ESEMPI DI DOMANDE PER AREA -->
+    <section class="pa-section">
+        <div class="container">
+            <div class="pa-section-title">
+                <h2>Esempi: domanda del funzionario, risposta di TTR-SUITE</h2>
+                <div class="underline"></div>
+                <p>
+                    Domanda posta dal funzionario in linguaggio naturale e un possibile esempio
+                    di risposta, sempre fornita di citazioni normative puntuali con applicazione
+                    specifica al caso concreto.
+                </p>
+            </div>
+
+            <div class="examples-grid">
+                <div class="example-card">
+                    <div class="example-card__head"><i class="fas fa-stamp"></i> Segreteria Generale</div>
+                    <p class="example-card__q">Quando posso procedere con affidamento diretto senza gara per un servizio?</p>
+                    <p class="example-card__a">L'affidamento diretto è consentito sotto la soglia comunitaria ai sensi dell'art. 50 del D.Lgs. 36/2023 nei seguenti casi…</p>
+                </div>
+
+                <div class="example-card">
+                    <div class="example-card__head"><i class="fas fa-users"></i> Personale &middot; Risorse Umane</div>
+                    <p class="example-card__q">Il dipendente può rifiutare le ferie assegnate d'ufficio dal Comune?</p>
+                    <p class="example-card__a">Il dipendente può rifiutare le ferie assegnate d'ufficio solo nei seguenti casi…</p>
+                </div>
+
+                <div class="example-card">
+                    <div class="example-card__head"><i class="fas fa-id-card"></i> Servizi Demografici</div>
+                    <p class="example-card__q">Un cittadino extracomunitario con permesso di soggiorno può iscriversi all'anagrafe?</p>
+                    <p class="example-card__a">Sì, l'iscrizione anagrafica è dovuta al cittadino extracomunitario in possesso di permesso di soggiorno in corso di validità, ai sensi dell'art. 6 del D.Lgs. 286/1998…</p>
+                </div>
+
+                <div class="example-card">
+                    <div class="example-card__head"><i class="fas fa-hard-hat"></i> Ufficio Tecnico</div>
+                    <p class="example-card__q">Sotto soglia comunitaria: posso usare procedura negoziata senza bando?</p>
+                    <p class="example-card__a">La procedura negoziata senza pubblicazione del bando è ammessa sotto soglia ai sensi dell'art. 50 del D.Lgs. 36/2023, a condizione che…</p>
+                </div>
+
+                <div class="example-card">
+                    <div class="example-card__head"><i class="fas fa-shield-alt"></i> Polizia Municipale</div>
+                    <p class="example-card__q">Verbale notificato oltre i 90 giorni dall'accertamento: è nullo?</p>
+                    <p class="example-card__a">L'art. 201 del Codice della Strada fissa in 90 giorni il termine perentorio per la notifica del verbale. Oltre tale termine il verbale è da considerarsi…</p>
+                </div>
+
+                <div class="example-card">
+                    <div class="example-card__head"><i class="fas fa-coins"></i> Ragioneria &middot; Servizio Finanziario</div>
+                    <p class="example-card__q">Termini di pagamento PA: cosa succede se il Comune paga in ritardo?</p>
+                    <p class="example-card__a">Il D.Lgs. 231/2002 (modificato dal D.Lgs. 192/2012) impone alla PA un termine di pagamento di 30 giorni; oltre tale termine maturano interessi moratori al tasso BCE maggiorato di 8 punti, oltre a…</p>
+                </div>
+
+                <div class="example-card">
+                    <div class="example-card__head"><i class="fas fa-hand-holding-heart"></i> Servizi Sociali</div>
+                    <p class="example-card__q">Contributo straordinario: serve graduatoria o si procede per bisogno urgente?</p>
+                    <p class="example-card__a">L'erogazione di contributi in via straordinaria per bisogno urgente è ammessa senza preventiva graduatoria, a condizione che ricorrano…</p>
+                </div>
+
+                <div class="example-card">
+                    <div class="example-card__head"><i class="fas fa-graduation-cap"></i> Istruzione &middot; Cultura</div>
+                    <p class="example-card__q">Il patrocinio comunale è gratuito o implica contributo economico?</p>
+                    <p class="example-card__a">Il patrocinio comunale è di norma una forma di adesione morale e non implica oneri economici. Distinto è invece il contributo economico, che richiede…</p>
+                </div>
+
+                <div class="example-card">
+                    <div class="example-card__head"><i class="fas fa-history"></i> <strong style="text-transform: uppercase; letter-spacing: 0.5px;">Tutte le aree</strong></div>
+                    <p class="example-card__q">Qualche tempo fa abbiamo emesso questo provvedimento: era a posto? È ancora valido? Ci sono profili di rischio o lacune che non avevamo considerato?</p>
+                    <p class="example-card__a">No, in questo caso conviene annullare l'atto e riemetterlo in conformità alla normativa vigente: dal 31 dicembre 2024, con l'entrata in vigore del D.Lgs. 209/2024 (correttivo al Codice dei Contratti), sono cambiate le condizioni per gli affidamenti sotto soglia…</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COME FUNZIONA (22+2 agenti) -->
+    <section class="pa-section pa-section--alt">
+        <div class="container">
+            <div class="pa-section-title">
+                <h2>Sotto al cofano: un'orchestra di specialisti</h2>
+                <div class="underline"></div>
+                <p>
+                    TTR-SUITE per la PA Locale non è un chatbot AI generalista,
+                    dove un'unica AI prova a rispondere a tutto. È una squadra di
+                    agenti specializzati che collaborano, coordinati da <strong>ARBITER</strong>.
+                    Ogni agente è un'AI distinta, specializzata e addestrata per fornire
+                    supporto su una singola tematica precisa.
+                </p>
+            </div>
+
+            <div class="agents-wrapper">
+                <!-- HEADER: big-number + intro -->
+                <div class="agents-header">
+                    <div class="agents-count">
+                        <div class="big-number">22<span style="font-size:1.8rem; opacity:0.85;"> + 2</span></div>
+                        <div class="label">Agenti specialisti più due coordinatori</div>
+                    </div>
+                    <div class="agents-intro">
+                        <p>
+                            Una squadra di <strong>ben 24 agenti specializzati</strong> che collaborano lungo
+                            l'intero ciclo di vita del deliverable. Ogni atto attraversa <strong>più agenti
+                            distinti</strong>, ciascuno con il proprio ruolo specifico, con verifiche indipendenti
+                            fra un passaggio e l'altro, ogni passaggio è tracciato.
+                        </p>
+                        <p>
+                            Ognuna delle otto aree del Comune è presidiata da <strong>due agenti</strong>
+                            con specializzazioni complementari, in tutto <strong>sedici agenti d'area</strong>.
+                            A questi si aggiungono sei ruoli trasversali per verifiche, archiviazione e gestione
+                            documentale, più due coordinatori speciali.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- COORDINAMENTO AGENTI -->
+                <h3 class="agents-section-title">Coordinamento agenti</h3>
+                <div class="coord-row">
+                    <div class="coord-card">
+                        <div class="coord-card__name"><i class="fas fa-sitemap"></i> ARBITER</div>
+                        <div class="coord-card__desc">Classifica i quesiti e si assicura che, in ogni momento, le risposte vengano generate dagli agenti più competenti.</div>
+                    </div>
+                    <div class="coord-card">
+                        <div class="coord-card__name"><i class="fas fa-comments"></i> INTERPRES</div>
+                        <div class="coord-card__desc">Interpreta approfonditamente la richiesta dell'utente e fa emergere le competenze necessarie a rispondere.</div>
+                    </div>
+                </div>
+
+                <!-- SPECIALIZZAZIONI: due colonne affiancate -->
+                <div class="specializations">
+                    <div>
+                        <h3 class="agents-section-title">Otto aree tematiche</h3>
+                        <div class="agents-list">
+                            <div class="agent-chip"><i class="fas fa-building"></i> Segreteria Generale</div>
+                            <div class="agent-chip"><i class="fas fa-users-cog"></i> Personale &middot; Risorse Umane</div>
+                            <div class="agent-chip"><i class="fas fa-id-card"></i> Servizi Demografici</div>
+                            <div class="agent-chip"><i class="fas fa-hard-hat"></i> Ufficio Tecnico</div>
+                            <div class="agent-chip"><i class="fas fa-shield-alt"></i> Polizia Municipale</div>
+                            <div class="agent-chip"><i class="fas fa-calculator"></i> Ragioneria &middot; Finanziario</div>
+                            <div class="agent-chip"><i class="fas fa-hand-holding-heart"></i> Servizi Sociali</div>
+                            <div class="agent-chip"><i class="fas fa-graduation-cap"></i> Istruzione &middot; Cultura</div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="agents-section-title">Otto ruoli specialistici</h3>
+                        <div class="agents-list">
+                            <div class="agent-chip"><i class="fas fa-pen-nib"></i> Presidio di area</div>
+                            <div class="agent-chip"><i class="fas fa-check-double"></i> Presidio normativo</div>
+                            <div class="agent-chip"><i class="fas fa-shield-halved"></i> Rilettura legale adversariale</div>
+                            <div class="agent-chip"><i class="fas fa-clipboard-check"></i> Legittimità Corte dei Conti</div>
+                            <div class="agent-chip"><i class="fas fa-folder-tree"></i> Fascicolo Informatico</div>
+                            <div class="agent-chip"><i class="fas fa-file-lines"></i> Documenti elettronici</div>
+                            <div class="agent-chip"><i class="fas fa-headset"></i> Supporto generale</div>
+                            <div class="agent-chip"><i class="fas fa-user-cog"></i> Gestione utente</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CORTE DEI CONTI -->
+    <section class="pa-section pa-section--alt cdc-section">
+        <div class="container">
+            <div class="pa-section-title">
+                <h2>Costruita con il rigore richiesto dalla Corte dei Conti</h2>
+                <div class="underline"></div>
+            </div>
+            <p class="cdc-intro">
+                Ogni atto, ogni parere, ogni motivazione è prodotto con il livello di rigore documentale
+                e argomentativo che il controllo amministrativo-contabile pretende. Il funzionario firma
+                sapendo di aver costruito un provvedimento solido e difendibile in concreto.
+            </p>
+
+            <div class="cdc-grid">
+                <div class="cdc-card">
+                    <div class="icon"><i class="fas fa-bookmark"></i></div>
+                    <h3>Citazione puntuale obbligatoria</h3>
+                    <p>Articolo, comma, lettera. Mai parafrasi vaghe né riferimenti generici. Ogni passaggio normativo è verificabile alla fonte.</p>
+                </div>
+                <div class="cdc-card">
+                    <div class="icon"><i class="fas fa-paperclip"></i></div>
+                    <h3>Estratti normativi letterali in appendice</h3>
+                    <p>Testo integrale delle norme applicate e citate, depositato nel fascicolo, pronto per allegare l'istruttoria alla pratica senza riaprire le banche dati.</p>
+                </div>
+                <div class="cdc-card">
+                    <div class="icon"><i class="fas fa-route"></i></div>
+                    <h3>Tracciabilità del ragionamento</h3>
+                    <p>Presupposti dichiarati, scelta discrezionale motivata, alternative scartate e ragioni dello scarto. La decisione è ricostruibile ex-post, a distanza di anni.</p>
+                </div>
+                <div class="cdc-card">
+                    <div class="icon"><i class="fas fa-user-shield"></i></div>
+                    <h3>Rilettura Legale Adversariale per atti ad alto rischio</h3>
+                    <p>Per provvedimenti particolarmente delicati (rilevante impegno di bilancio, sanzioni o pre-contenzioso) può essere invocata una speciale revisione adversariale dedicata: aggiunge un ulteriore stress test al ragionamento, alla ricerca di buchi argomentativi, omissioni, scenari di rischio o altri punti deboli prima della firma. Nella maggior parte delle pratiche la verifica automatica già attiva di default è sufficiente.</p>
+                </div>
+                <div class="cdc-card">
+                    <div class="icon"><i class="fas fa-clipboard-check"></i></div>
+                    <h3>Revisore Corte dei Conti</h3>
+                    <p>Un revisore dedicato ed indipendente può essere invocato per emettere in modo dettagliato un parere di criticità elencando tutti i rilievi eventualmente possibili da parte della Corte dei Conti, valutandone anche la probabilità reale e la gravità eventuale. Non necessario, ma utile quando si desideri agire con "maggiore prudenza".</p>
+                </div>
+                <div class="cdc-card">
+                    <div class="icon"><i class="fas fa-folder-open"></i></div>
+                    <h3>Workspace fascicolare ispezionabile</h3>
+                    <p>Copia fisica di ogni fonte consultata, hash SHA-256, manifest XML: non bisogna fidarsi, si controlla. Il fascicolo è ricaricabile in qualsiasi momento per condurre ulteriori analisi o approfondimenti, senza soluzione di continuità, anche a distanza di anni.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONFORMITÀ AI ACT + GDPR -->
+    <section class="pa-section pa-section--dark">
+        <div class="container">
+            <div class="pa-section-title">
+                <h2>Conformità AI Act e GDPR by design</h2>
+                <div class="underline"></div>
+                <p>
+                    Nata dopo l'entrata in vigore del Regolamento UE 2024/1689 (AI Act),
+                    TTR-SUITE è progettata fin dall'origine per essere conforme. Pronta per le procedure
+                    di acquisto della Pubblica Amministrazione e allineata alle Linee Guida AgID
+                    sui sistemi di IA nella PA (Det. 43/2026).
+                </p>
+            </div>
+
+            <div class="compliance-grid">
+                <div class="compliance-card">
+                    <span class="badge">AI Act</span>
+                    <h3>Rischio limitato (art. 50)</h3>
+                    <ul>
+                        <li>Sistema di supporto consultivo: non assume decisioni vincolanti, non sostituisce la firma del funzionario</li>
+                        <li>Informativa AI Act in dashboard e disclaimer in ogni deliverable</li>
+                        <li>Documentazione tecnica completa e versionamento dei prompt</li>
+                        <li>Validazione anti-prompt-injection e temperatura controllata</li>
+                    </ul>
+                </div>
+                <div class="compliance-card">
+                    <span class="badge">Human-in-the-loop &amp; Trasparenza</span>
+                    <h3>Supervisione umana e verificabilità delle fonti</h3>
+                    <ul>
+                        <li>Il sistema non modifica documenti, non invia comunicazioni, non protocolla in autonomia: il funzionario resta unico responsabile e mantiene editing completo</li>
+                        <li>Ragionamento sempre visibile, output etichettato come AI-generated, logging delle decisioni umane (accettazione, modifica, scarto)</li>
+                        <li>Ogni affermazione accompagnata dal riferimento puntuale ad articoli, commi e lettere + appendice con estratti letterali della norma vigente</li>
+                        <li>Audit JSON di sessione con tracciamento completo del ragionamento; capacità e limitazioni dichiarate esplicitamente all'utente</li>
+                    </ul>
+                </div>
+                <div class="compliance-card">
+                    <span class="badge">GDPR</span>
+                    <h3>Protezione dei dati</h3>
+                    <ul>
+                        <li>Zero Data Retention contrattualizzata con il provider AI: cancellazione immediata a risposta trasmessa</li>
+                        <li>Storage esclusivamente locale sul PC del funzionario, area riservata SO + binding hardware</li>
+                        <li>Nessun log di analisi sui server Aviolab (server usati solo per validazione licenza)</li>
+                        <li>Comunicazioni cifrate TLS 1.3, DPA disponibile in fase di contratto</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="compliance-docs">
+                <h4><i class="fas fa-file-shield"></i> Documentazione di compliance consegnata al cliente</h4>
+                <span>Data Processing Addendum (DPA)</span>
+                <span>Classificazione del Rischio AI Act</span>
+                <span>Scheda Tecnica del Sistema AI</span>
+                <span>Informativa Trasparenza AI Act</span>
+                <span>Indice documentazione</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- BREVETTO -->
+    <section class="patent-section">
+        <div class="container">
+            <div class="patent-card">
+                <div class="patent-seal">
+                    <i class="fas fa-stamp"></i>
+                </div>
+                <div class="patent-content">
+                    <h3>Tecnologia coperta da domanda di brevetto</h3>
+                    <p class="patent-claim">L'architettura multi-agente di TTR-SUITE è oggetto di una domanda di brevetto per invenzione industriale depositata presso UIBM.</p>
+                    <div class="patent-refs">
+                        <div class="patent-ref">
+                            <strong>Numero domanda</strong>
+                            <span>102026000013123</span>
+                        </div>
+                        <div class="patent-ref">
+                            <strong>Data deposito</strong>
+                            <span>08 maggio 2026</span>
+                        </div>
+                        <div class="patent-ref">
+                            <strong>Ente</strong>
+                            <span>UIBM, MIMIT</span>
+                        </div>
+                    </div>
+                    <p class="patent-note">
+                        <i class="fas fa-lock"></i>
+                        Architettura del sistema soggetta a riservatezza brevettuale (18 mesi dalla data di deposito).
+                        Pubblicazione UIBM successiva alla scadenza del periodo di segretezza.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODELLO COMMERCIALE -->
+    <section class="pa-section pa-section--alt">
+        <div class="container">
+            <div class="pa-section-title">
+                <h2>Modello di installazione</h2>
+                <div class="underline"></div>
+                <p>
+                    On-premise sul PC del funzionario, LLM-agnostic, licensing centralizzato.
+                    Compatibile con le procedure di acquisto della Pubblica Amministrazione.
+                </p>
+            </div>
+
+            <div class="commercial-box">
+                <div class="commercial-item">
+                    <h4>Installazione</h4>
+                    <p>Locale sul PC dell'Ente o sulla sua infrastruttura. Nessun dato sensibile transita sui server Aviolab. Aggiornamenti automatici e gratuiti.</p>
+                </div>
+                <div class="commercial-item">
+                    <h4>Modello AI</h4>
+                    <p>LLM-agnostic: può usare OpenAI, Anthropic, Google, Copilot, LLM locali. Incluso Azure OpenAI tenant UE per data residency.</p>
+                </div>
+                <div class="commercial-item">
+                    <h4>Licensing</h4>
+                    <p>Validazione centralizzata, completamente criptata e localizzata. Nessuno può usare altrove la licenza attivata sul PC del funzionario.</p>
+                </div>
+                <div class="commercial-item">
+                    <h4>Estensioni d'uso</h4>
+                    <p>Utilizzabile senza modifiche da Comuni fino a 100.000 abitanti, Unioni di Comuni, Comunità Montane, Province, Città Metropolitane.</p>
+                </div>
+                <div class="commercial-footer">
+                    Compatibile con procedure CIG/CUP e acquisto pubblico. Conforme GDPR e AI Act.
+                </div>
+            </div>
+
+            <div class="secondary-note">
+                <strong>Sta cercando la versione per studi legali e dipartimenti IP?</strong>
+                Visiti la pagina dedicata a <a href="ip-legal.html">TTR-SUITE IP Legal</a>,
+                la nostra suite per l'analisi di NDA, contratti e proprietà intellettuale.
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA FINALE -->
+    <section id="cta" class="pa-cta">
+        <div class="container">
+            <h2>Vuole vederla in azione nel Suo Comune?</h2>
+            <p>
+                Organizziamo facilmente e senza nessun impegno una demo concreta su un caso
+                reale del Suo Ente. Le mostriamo come TTR-SUITE per la PA Locale risponde,
+                cita le fonti, redige l'atto e prepara il fascicolo digitale conforme.
+            </p>
+            <a href="index.html#contact" class="btn btn-primary"><i class="fas fa-envelope"></i> Richieda una demo</a>
+            <a href="assets/downloads/ttr-suite-pa-brochure.pdf" class="btn btn-secondary" target="_blank" rel="noopener">
+                <i class="fas fa-file-pdf"></i> Scarichi la brochure
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html#home" class="logo-link">
+                        <img src="assets/logo.png" alt="Aviolab AI Logo">
+                        <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+                    </a>
+                    <p>AI applicata al diritto e alla Pubblica Amministrazione</p>
