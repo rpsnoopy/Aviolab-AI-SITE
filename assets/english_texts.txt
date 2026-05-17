@@ -250,7 +250,7 @@ home_hero_title: AI applied to <span class="highlight">law and public administra
 home_hero_subtitle: Two specialized suites, one engine
 home_hero_description: Aviolab AI builds Agentic AI for two distinct domains: Italian local public administration, and intellectual property, contract and patent work for legal teams. Different audiences, the same commitment to top-tier professional results with sources that are always verified and traceable.
 home_mission_subtitle: Building AI for legal and administrative challenges
-home_mission_statement: We create intelligent AI systems that transform the way legal professionals and public administration officials work with complex documents — making sophisticated analysis accessible, accurate and traceable for everyone.
+home_mission_statement: We build artificial intelligence systems that transform the work of legal professionals and public administration officials, bringing within everyone's reach the kind of rigorous analysis, anchored in correct and up-to-date legal sources, that until today required the effort of dedicated specialist teams, available only in large organisations or major law firms.
 home_capabilities_headline: Focused AI for two distinct domains
 home_products_title: Our Solutions
 home_products_subtitle: Two purpose-built suites for two distinct audiences

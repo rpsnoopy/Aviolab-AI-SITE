@@ -250,7 +250,7 @@ home_hero_title: AI applicata al <span class="highlight">diritto e alla Pubblica
 home_hero_subtitle: Due suite specializzate, un solo motore
 home_hero_description: Aviolab AI realizza Agentic AI per due ambiti distinti: la pubblica amministrazione locale italiana e il lavoro di proprietà intellettuale, contratti e brevetti per i team legali. Pubblici diversi, lo stesso impegno per risultati di altissimo livello professionale con fonti sempre verificate e tracciabili.
 home_mission_subtitle: AI per le sfide del diritto e dell'amministrazione
-home_mission_statement: Realizziamo sistemi AI intelligenti che trasformano il modo in cui i professionisti del diritto e i funzionari della Pubblica Amministrazione lavorano con documenti complessi — rendendo l'analisi sofisticata accessibile, accurata e tracciabile per tutti.
+home_mission_statement: Realizziamo sistemi di intelligenza artificiale che trasformano il lavoro dei professionisti del diritto e dei funzionari della Pubblica Amministrazione, mettendo alla portata di tutti quel livello di analisi rigorosa, ancorata alle fonti normative corrette e aggiornate, che fino ad oggi richiedeva l'impegno di team di specialisti dedicati, disponibili solo nelle grandi organizzazioni o nei grandi studi legali.
 home_capabilities_headline: AI focalizzata su due ambiti distinti
 home_products_title: Le nostre soluzioni
 home_products_subtitle: Due suite progettate per due pubblici distinti
