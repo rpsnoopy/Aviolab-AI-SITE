@@ -10,7 +10,7 @@
 - **Translation Updates**: Run `node update-translations.js` after editing text files
 - **Contact Form**: Using FormSubmit.co service (action="https://formsubmit.co/ed4f9f2929019cdfc327f3485c8654e4" method="POST")
 - **Git Workflow**: After making changes, add with `git add .`, commit with `git commit -m "Your message"` and push with `git push origin main`
-- **⚠️ IMPORTANT**: Claude can ONLY help with commits but will NEVER push changes to remote repositories
+- **⚠️ IMPORTANT**: Claude can commit autonomously, but pushes to remote require an explicit user request in the same conversation ("fai push", "push", "pusha", etc.). Without that explicit request, never push.
 - **🌐 DEPLOYMENT**: Cloudflare Pages monitora automaticamente il repository GitHub - ogni commit viene deployato automaticamente
 - **📊 MONITORING**: Accedi a pages.cloudflare.com per monitorare deploy e risolvere eventuali problemi
 - **Current Version**: v1.2.02 - Aggiunto modulo Assisted Drafting sulla landing IP Legal: stesura assistita di NDA, contratti di ricerca e accordi commerciali con draft validati internamente. Card IP dell'index aggiornata: "drafts and analyses" come nuovo posizionamento.
