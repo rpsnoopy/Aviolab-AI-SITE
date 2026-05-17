@@ -942,6 +942,7 @@ body.it .hero-content h1 span:last-child {
     font-style: italic;
     color: var(--primary-color);
     line-height: 1.5;
+    text-wrap: balance;
 }
 
 .mission-red {
