@@ -389,6 +389,57 @@ img {
     box-shadow: var(--shadow);
 }
 
+/* Vertical stacked CTA buttons (hero index.html) */
+.cta-buttons--vertical {
+    flex-direction: column !important;
+    align-items: flex-start;
+    gap: 14px !important;
+    max-width: 460px;
+}
+
+.cta-buttons--vertical .btn {
+    width: 100%;
+    max-width: 460px;
+}
+
+.btn--with-sub {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 28px;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.btn--with-sub .btn__label {
+    display: block;
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
+.btn--with-sub .btn__sub {
+    display: block;
+    font-size: 0.82rem;
+    font-weight: 400;
+    opacity: 0.92;
+    margin-top: 4px;
+}
+
+.btn--with-sub.btn-secondary {
+    margin-left: 0;
+}
+
+@media (max-width: 600px) {
+    .cta-buttons--vertical {
+        max-width: 100%;
+    }
+    .cta-buttons--vertical .btn {
+        max-width: 100%;
+    }
+}
+
 .highlight {
     color: #ff0000; /* Rosso del logo AI */
     text-shadow: 0 0 6px rgba(0, 0, 0, 0.6);

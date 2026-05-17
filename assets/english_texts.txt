@@ -22,6 +22,13 @@ hero_description: Transforming how organizations handle intellectual property, l
 hero_deployment_flexibility: <span class="highlight">Flexible Deployment:</span> Our systems can operate in the cloud or confined within your own IT infrastructure
 hero_btn_explore: Explore Solutions
 hero_btn_contact: Contact Us
+hero_btn_pa: TTR-SUITE for local Public Administration &rarr;
+hero_btn_pa_sub: For Italian municipalities and local administrations
+hero_btn_ip: TTR-SUITE IP Legal &rarr;
+hero_btn_ip_sub: For legal teams and IP departments
+contact_cta_products: Discover our suites
+iplegal_hero_cta_contact: Get in touch
+iplegal_hero_cta_explore: Explore capabilities
 
 ## Mission Section
 mission_title: MISSION
@@ -241,7 +248,7 @@ footer_solutions: Solutions
 
 home_hero_title: AI applied to <span class="highlight">law and public administration</span>
 home_hero_subtitle: Two specialized suites, one engine
-home_hero_description: Aviolab AI builds focused AI solutions for two distinct domains: Italian public administration at the municipal level, and intellectual property and contract analysis for legal teams. Different audiences, the same commitment to source-verified, traceable, professional-grade results.
+home_hero_description: Aviolab AI builds Agentic AI for two distinct domains: Italian local public administration, and intellectual property, contract and patent work for legal teams. Different audiences, the same commitment to top-tier professional results with sources that are always verified and traceable.
 home_mission_subtitle: Building AI for legal and administrative challenges
 home_mission_statement: We create intelligent AI systems that transform the way legal professionals and public administration officials work with complex documents — making sophisticated analysis accessible, accurate and traceable for everyone.
 home_capabilities_headline: Focused AI for two distinct domains
