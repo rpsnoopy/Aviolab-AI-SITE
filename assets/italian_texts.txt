@@ -127,7 +127,7 @@ learn_more: Scopra di più
 ## Benefits Section
 benefits_title: Perché Scegliere Soluzioni Aviolab AI
 benefits_subtitle: Le nostre soluzioni di IA offrono benefici concreti per la Sua organizzazione
-benefits_old_times: Dimentica pile di carta e processi manuali: semplifica il lavoro con l'analisi intelligente dei documenti.
+benefits_old_times: Dimentichi pile di carta e processi manuali: semplifichi il lavoro con l'analisi intelligente dei documenti.
 
 benefit1_title: Efficienza
 benefit1_text: Riduca i tempi di analisi documentale da giorni a minuti, permettendo al Suo team di concentrarsi su attività ad alto valore aggiunto
@@ -139,13 +139,13 @@ benefit3_title: Affidabilità
 benefit3_text: Assicuri la conformità alle Sue policy aziendali e agli standard legali con un'analisi ripetibile e completa
 
 benefit4_title: Zero Curva di Apprendimento
-benefit4_text: Utilizza subito e pienamente la tecnologia: basta caricare i documenti per produrre istantaneamente, <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span>, l'analisi richiesta
+benefit4_text: Utilizzi subito e pienamente la tecnologia: le basta caricare i documenti per produrre istantaneamente, <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span>, l'analisi richiesta
 
 benefit5_title: Supporto Multilingue
 benefit5_text: Elabora documenti in più lingue, garantendo sempre la stessa accuratezza e profondità di analisi
 
 benefit6_title: Facilità d'Uso
-benefit6_text: Sfrutta un'interfaccia IA semplice e intuitiva <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span>, pensata per professionisti con ritmi di lavoro intensi
+benefit6_text: Sfrutti un'interfaccia IA semplice e intuitiva <span style="color:#ff0000;font-weight:bold;white-space:nowrap;">One-Click<sup style="color:#ff0000;">*</sup></span>, pensata per professionisti con ritmi di lavoro intensi
 
 ## Case Study Section
 case_study_title: Storie di Successo
@@ -175,7 +175,7 @@ founder_bio2: Con un background in intelligenza artificiale e tecnologia legale,
 
 ## Contact Section
 contact_title: Ci contatti
-contact_subtitle: Interessato alle nostre soluzioni IA? Saremo lieti di darti altre informazioni.
+contact_subtitle: Interessato alle nostre soluzioni IA? Saremo lieti di fornirLe altre informazioni.
 contact_location: Sede
 contact_website: Sito web
 contact_email: Email
