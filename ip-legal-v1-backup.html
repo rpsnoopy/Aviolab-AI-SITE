@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en" id="html-root">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1e40af">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <meta name="description" content="TTR-SUITE IP Legal, AI-powered analysis and drafting for legal teams and IP departments. NDAs, research and technology partnership agreements, license agreements, contract review and end-to-end patent application preparation across UIBM and EPO.">
+    <meta name="author" content="Riccardo Parenti">
+    <meta name="keywords" content="Agentic AI, AI agents, legal tech, IP, intellectual property, NDA, contract analysis, contract drafting, license agreement, research agreement, patent drafting, patent application, UIBM, EPO, TTR-SUITE">
+    <title>TTR-SUITE IP Legal, AI analysis, drafting and patents | Aviolab AI</title>
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://aviolab.ai/ip-legal.html">
+
+    <!-- Open Graph / Social previews -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Aviolab AI">
+    <meta property="og:url" content="https://aviolab.ai/ip-legal.html">
+    <meta property="og:title" content="TTR-SUITE IP Legal, AI analysis, drafting and patents | Aviolab AI">
+    <meta property="og:description" content="AI-powered analysis and drafting for legal teams and IP departments, NDAs, research agreements, licenses, patent drafting.">
+    <meta property="og:image" content="https://aviolab.ai/assets/og/og-ip-legal.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="TTR-SUITE IP Legal, AI-powered analysis, drafting and patent preparation">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="it_IT">
+
+    <!-- Structured data: TTR-SUITE IP Legal -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "TTR-SUITE IP Legal",
+      "url": "https://aviolab.ai/ip-legal.html",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Windows",
+      "description": "AI-powered analysis and drafting for legal teams and IP departments, NDAs, research and technology partnership agreements, license agreements, contract review, patent drafting.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Aviolab AI",
+        "url": "https://aviolab.ai/"
+      },
+      "featureList": [
+        "IP analysis of bids, tenders and related documents",
+        "Research and technology partnership agreements analysis",
+        "License agreement review with key term extraction",
+        "Technical presentations and papers risk assessment",
+        "Assisted drafting of NDAs, research agreements and commercial contracts",
+        "End-to-end patent application preparation (UIBM, EPO)"
+      ]
+    }
+    </script>
+
+    <!-- Favicons -->
+    <link rel="icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="Aviolab.ai">
+
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="js/translations.js"></script>
+    <script defer src="script.js"></script>
+
+    <style>
+        /* Stili specifici per ip-legal */
+        .ip-hero {
+            background: linear-gradient(135deg, #0f172a 0%, #1e40af 100%);
+            color: #fff;
+            padding: 8rem 0 5rem;
+            text-align: center;
+        }
+        .ip-hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+        .ip-hero h1 .highlight { color: #ff0000; }
+        .ip-hero .lead {
+            font-size: 1.2rem;
+            max-width: 850px;
+            margin: 0 auto 2rem;
+            color: #e2e8f0;
+        }
+        .ip-hero .cta-buttons {
+            display: flex; gap: 1rem;
+            justify-content: center; flex-wrap: wrap;
+        }
+        .ip-section { padding: 5rem 0; }
+        .ip-section--alt { background: #f8fafc; }
+        .ip-section-title { text-align: center; margin-bottom: 3rem; }
+        .ip-section-title h2 { font-size: 2.2rem; color: #0f172a; }
+        .ip-section-title .underline {
+            width: 60px; height: 4px;
+            background: #ff0000;
+            margin: 1rem auto;
+        }
+        .ip-section-title p {
+            max-width: 800px;
+            margin: 1rem auto 0;
+            color: #64748b;
+            font-size: 1.1rem;
+        }
+        .secondary-note {
+            background: #fff;
+            border-left: 4px solid #1e40af;
+            padding: 1.2rem 1.5rem;
+            margin-top: 2rem;
+            border-radius: 6px;
+            color: #334155;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .secondary-note a {
+            color: #1e40af;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .secondary-note a:hover { text-decoration: underline; }
+        .ip-cta {
+            background: linear-gradient(135deg, #1e40af 0%, #ff0000 100%);
+            color: #fff;
+            text-align: center;
+            padding: 5rem 0;
+        }
+        .ip-cta h2 { color: #fff; font-size: 2.2rem; margin-bottom: 1rem; }
+        .ip-cta p {
+            font-size: 1.15rem; margin-bottom: 2rem;
+            max-width: 720px; margin-left: auto; margin-right: auto;
+        }
+        .ip-cta .btn { margin: 0.4rem; }
+
+        /* Assisted Drafting module (NDA, research, commercial) */
+        .drafting-module {
+            background: linear-gradient(180deg, #fff 0%, #f1f5f9 100%);
+            padding: 5rem 0;
+        }
+        .drafting-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .drafting-headline-tag {
+            display: inline-block;
+            background: #1e40af;
+            color: #fff;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            margin-bottom: 1rem;
+        }
+        .drafting-header h2 {
+            color: #0f172a;
+            font-size: 2.2rem;
+            margin-bottom: 0.6rem;
+            line-height: 1.2;
+        }
+        .drafting-header h2 .highlight { color: #ff0000; }
+        .drafting-header p {
+            color: #475569;
+            max-width: 820px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+        }
+        .drafting-claim-bar {
+            max-width: 980px;
+            margin: 0 auto 2.5rem;
+            background: #0f172a;
+            color: #fff;
+            border-radius: 8px;
+            padding: 1.2rem 1.8rem;
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 1.2rem;
+            align-items: center;
+        }
+        .drafting-claim-bar .icon {
+            font-size: 2rem;
+            color: #ff0000;
+        }
+        .drafting-claim-bar h3 {
+            color: #fff;
+            font-size: 1.05rem;
+            margin-bottom: 0.2rem;
+        }
+        .drafting-claim-bar p {
+            color: #cbd5e1;
+            font-size: 0.95rem;
+            margin: 0;
+        }
+        .drafting-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.8rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .drafting-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 6px 16px -4px rgba(0,0,0,0.1);
+            padding: 2rem 1.8rem;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            border-top: 4px solid #1e40af;
+        }
+        .drafting-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 28px -8px rgba(30,64,175,0.2);
+        }
+        .drafting-card__icon {
+            font-size: 2.4rem;
+            color: #1e40af;
+            margin-bottom: 1rem;
+        }
+        .drafting-card h3 {
+            color: #0f172a;
+            font-size: 1.25rem;
+            margin-bottom: 0.6rem;
+        }
+        .drafting-card__lead {
+            color: #475569;
+            font-size: 0.97rem;
+            margin-bottom: 1rem;
+        }
+        .drafting-card ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .drafting-card ul li {
+            position: relative;
+            padding: 0.4rem 0 0.4rem 1.5rem;
+            color: #334155;
+            font-size: 0.9rem;
+            border-top: 1px solid #f1f5f9;
+        }
+        .drafting-card ul li:first-child { border-top: none; }
+        .drafting-card ul li::before {
+            content: "\f105";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            color: #ff0000;
+            position: absolute;
+            left: 0;
+            top: 0.45rem;
+            font-size: 0.95rem;
+        }
+        @media (max-width: 900px) {
+            .drafting-grid { grid-template-columns: 1fr; gap: 1.2rem; }
+            .drafting-claim-bar { grid-template-columns: 1fr; text-align: center; }
+        }
+
+        /* Patent Preparation module (early access) */
+        .patent-module {
+            background: #0f172a;
+            color: #e2e8f0;
+            padding: 5rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .patent-module::before {
+            content: "";
+            position: absolute;
+            top: 0; right: -100px;
+            width: 400px; height: 400px;
+            background: radial-gradient(circle, rgba(255,0,0,0.15) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        .patent-module-header {
+            text-align: center;
+            margin-bottom: 3.5rem;
+            position: relative;
+            z-index: 1;
+        }
+        .patent-module-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff0000, #b91c1c);
+            color: #fff;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            margin-bottom: 1rem;
+        }
+        .patent-module-header h2 {
+            color: #fff;
+            font-size: 2.3rem;
+            margin-bottom: 0.6rem;
+            line-height: 1.2;
+        }
+        .patent-module-header h2 .highlight { color: #ff0000; }
+        .patent-module-header p {
+            color: #cbd5e1;
+            max-width: 780px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+        }
+        .pipeline {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            max-width: 1100px;
+            margin: 0 auto 3.5rem;
+            position: relative;
+            z-index: 1;
+        }
+        .pipeline-step {
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 10px;
+            padding: 1.6rem 1.4rem;
+            position: relative;
+            transition: all 0.2s ease;
+        }
+        .pipeline-step:hover {
+            background: rgba(255,255,255,0.07);
+            border-color: rgba(255,0,0,0.3);
+        }
+        .pipeline-step__num {
+            position: absolute;
+            top: -16px;
+            left: 1.4rem;
+            width: 36px; height: 36px;
+            background: linear-gradient(135deg, #ff0000, #b91c1c);
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1rem;
+            box-shadow: 0 4px 10px rgba(255,0,0,0.3);
+        }
+        .pipeline-step h3 {
+            color: #fff;
+            font-size: 1.1rem;
+            margin: 0.6rem 0 0.5rem;
+        }
+        .pipeline-step p {
+            color: #cbd5e1;
+            font-size: 0.92rem;
+            line-height: 1.5;
+        }
+        .pipeline-step__icon {
+            color: #ff0000;
+            font-size: 1.5rem;
+            margin-bottom: 0.4rem;
+        }
+        .patent-validation {
+            max-width: 980px;
+            margin: 0 auto;
+            background: linear-gradient(135deg, rgba(255,255,255,0.06), rgba(255,0,0,0.05));
+            border: 1px solid rgba(255,0,0,0.3);
+            border-radius: 12px;
+            padding: 2.5rem;
+            position: relative;
+            z-index: 1;
+        }
+        .patent-validation-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .patent-validation-header h3 {
+            color: #fff;
+            font-size: 1.4rem;
+            margin: 0;
+            flex: 1;
+            min-width: 200px;
+        }
+        .patent-validation-tag {
+            background: rgba(255,0,0,0.2);
+            color: #fecaca;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 0.35rem 0.9rem;
+            border-radius: 20px;
+            border: 1px solid rgba(255,0,0,0.4);
+        }
+        .patent-validation > p {
+            color: #e2e8f0;
+            font-size: 1.02rem;
+            margin-bottom: 1.5rem;
+        }
+        .patent-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1.2rem;
+        }
+        .patent-stat {
+            background: rgba(15,23,42,0.5);
+            border-left: 3px solid #ff0000;
+            padding: 1rem 1.2rem;
+            border-radius: 4px;
+        }
+        .patent-stat__label {
+            color: #fecaca;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 700;
+            margin-bottom: 0.3rem;
+        }
+        .patent-stat__value {
+            color: #fff;
+            font-size: 1.15rem;
+            font-weight: 600;
+            font-family: 'Courier New', monospace;
+        }
+        .patent-stat__value--big {
+            color: #ff0000;
+            font-size: 2rem;
+            font-family: var(--font-primary, 'Montserrat'), sans-serif;
+            line-height: 1;
+        }
+        .patent-availability {
+            text-align: center;
+            margin-top: 2rem;
+            color: #cbd5e1;
+            font-size: 0.95rem;
+            font-style: italic;
+        }
+        .patent-availability strong { color: #fff; font-style: normal; }
+
+        @media (max-width: 900px) {
+            .pipeline { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 768px) {
+            .ip-hero { padding: 6rem 0 3.5rem; }
+            .ip-hero h1 { font-size: 2rem; }
+            .ip-hero .lead { font-size: 1.05rem; }
+            .pipeline { grid-template-columns: 1fr; }
+            .patent-validation { padding: 1.8rem 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header id="header">
+        <div class="header-container">
+            <a href="index.html#home" class="logo-link">
+                <img src="assets/logo.png" alt="Aviolab AI Logo">
+                <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html#mission" class="nav-link" data-i18n="nav_mission">Mission</a></li>
+                    <li><a href="index.html#products" class="nav-link" data-i18n="nav_solutions">Solutions</a></li>
+                    <li><a href="pa-locale.html" class="nav-link">PA Locale</a></li>
+                    <li><a href="ip-legal.html" class="nav-link active">IP Legal</a></li>
+                    <li><a href="index.html#about" class="nav-link" data-i18n="nav_about">About</a></li>
+                    <li><a href="downloads.html" class="nav-link" style="color: var(--highlight-color) !important; font-weight: bold;" data-i18n="nav_download">Download</a></li>
+                </ul>
+            </nav>
+            <div class="language-selector">
+                <div class="lang-option" data-lang="en">
+                    <img src="assets/images/flags/flag-gb.svg" alt="English" class="flag-icon" loading="lazy" decoding="async"> EN
+                </div>
+                <div class="lang-option" data-lang="it">
+                    <img src="assets/images/flags/flag-it.svg" alt="Italiano" class="flag-icon" loading="lazy" decoding="async"> IT
+                </div>
+            </div>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="ip-hero">
+        <div class="container">
+            <h1 data-i18n="iplegal_hero_title">TTR-SUITE <span class="highlight">IP Legal</span></h1>
+            <p class="lead" data-i18n="iplegal_hero_lead">
+                AI-powered analysis and drafting for legal teams, IP departments and technology transfer offices.
+                NDAs, research and technology partnership agreements, license agreements, contract review
+                and end-to-end patent application preparation across UIBM and EPO.
+            </p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary" data-i18n="iplegal_hero_cta_contact">Get in touch</a>
+                <a href="#capabilities" class="btn btn-secondary" data-i18n="iplegal_hero_cta_explore">Explore capabilities</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTRO / CAPABILITIES -->
+    <section class="ip-section">
+        <div class="container">
+            <div class="ip-section-title">
+                <h2 data-i18n="iplegal_intro_title">Built for IP and contract complexity</h2>
+                <div class="underline"></div>
+                <p data-i18n="iplegal_intro_subtitle">
+                    Our AI engine reads, compares and assesses complex legal and technical documents
+                    across multiple languages, surfacing risks and obligations clause by clause.
+                </p>
+            </div>
+
+            <div class="capabilities-content">
+                <div class="capabilities-text">
+                    <p class="capabilities-title" data-i18n="capabilities_headline">Enhancing IP and legal work with focused AI solutions</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> <span data-i18n="capability_1">Intelligent document context understanding</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="capability_2">Automatic clause extraction and analysis</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="capability_3">Risk detection in legal agreements</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="capability_4">Multi-language support for international teams</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="capability_5">Complex document comparison and reconciliation</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="capability_6">High-quality summarization of lengthy documents</span></li>
+                    </ul>
+                </div>
+                <div class="capabilities-image">
+                    <img src="assets/images/mission-image.jpg" alt="AI-powered document analysis" loading="lazy" decoding="async">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOLUTIONS GRID (i 6 card IP esistenti) -->
+    <section id="products" class="ip-section ip-section--alt solutions-section">
+        <div class="container">
+            <div class="ip-section-title">
+                <h2 data-i18n="solutions_title">AI Assistants Available</h2>
+                <div class="underline"></div>
+                <p data-i18n="solutions_subtitle">Advanced granular analysis tools that examine <strong><u>every clause and paragraph</u></strong>, tailored to real business needs</p>
+            </div>
+
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <div class="solution-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3 data-i18n="solution1_title">IP ANALYSIS of Bids, Tenders and Related Documents</h3>
+                    <p data-i18n="solution1_intro">Comprehensive analysis covering various aspects, including:</p>
+                    <ul>
+                        <li data-i18n="solution1_item1">Confidentiality management and disclosure controls</li>
+                        <li data-i18n="solution1_item2">Intellectual property ownership rights</li>
+                        <li data-i18n="solution1_item3">Protection of pre-existing IP assets</li>
+                        <li data-i18n="solution1_item4">Rights assignment and licensing terms</li>
+                        <li data-i18n="solution1_item5">Future usage obligations and restrictions</li>
+                        <li data-i18n="solution1_item6">Information management risks and safeguards</li>
+                    </ul>
+                    <div class="card-overlay">
+                        <a href="#contact" class="learn-more" data-i18n="learn_more">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="solution-card">
+                    <div class="solution-icon"><i class="fas fa-file-contract"></i></div>
+                    <h3 data-i18n="solution2_title">IP ANALYSIS of Research and Technology Partnership Agreements</h3>
+                    <p data-i18n="solution2_intro">Complete evaluation of research partnerships, focusing on:</p>
+                    <ul>
+                        <li data-i18n="solution2_item1">Project scope definition and boundaries</li>
+                        <li data-i18n="solution2_item2">Operational methodologies and responsibilities</li>
+                        <li data-i18n="solution2_item3">Compensation and funding mechanisms</li>
+                        <li data-i18n="solution2_item4">IP ownership and technology transfer rights</li>
+                        <li data-i18n="solution2_item5">Confidentiality provisions and restrictions</li>
+                        <li data-i18n="solution2_item6">Liability allocation and limitation clauses</li>
+                    </ul>
+                    <div class="card-overlay">
+                        <a href="#contact" class="learn-more" data-i18n="learn_more">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="solution-card">
+                    <div class="solution-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3 data-i18n="solution3_title">IP ANALYSIS of License Agreements</h3>
+                    <p data-i18n="solution3_intro">Comprehensive assessment of licensing agreements, focusing on key factors such as:</p>
+                    <ul>
+                        <li data-i18n="solution3_item1">License scope, territories, and field of use</li>
+                        <li data-i18n="solution3_item2">Royalty models and financial terms</li>
+                        <li data-i18n="solution3_item3">Technology transfer and implementation rights</li>
+                        <li data-i18n="solution3_item4">Exclusivity provisions and market restrictions</li>
+                        <li data-i18n="solution3_item5">Sublicense rights and related restrictions</li>
+                        <li data-i18n="solution3_item6">Enforcement obligations and infringement remedies</li>
+                    </ul>
+                    <div class="card-overlay">
+                        <a href="#contact" class="learn-more" data-i18n="learn_more">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="solution-card">
+                    <div class="solution-icon"><i class="fas fa-globe"></i></div>
+                    <h3 data-i18n="solution4_title">IP ANALYSIS of Technical Presentations and Papers</h3>
+                    <p data-i18n="solution4_intro">In-depth review of corporate materials addressing key issues such as:</p>
+                    <ul>
+                        <li data-i18n="solution4_item1">Proprietary content and confidential information</li>
+                        <li data-i18n="solution4_item2">Sensitive vs. public data classification</li>
+                        <li data-i18n="solution4_item3">Information risk assessment and categorization</li>
+                        <li data-i18n="solution4_item4">Strategic revision recommendations</li>
+                        <li data-i18n="solution4_item5">Competitive intelligence exposure analysis</li>
+                        <li data-i18n="solution4_item6">Alignment with IP protection strategy</li>
+                    </ul>
+                    <div class="card-overlay">
+                        <a href="#contact" class="learn-more" data-i18n="learn_more">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="solution-card">
+                    <div class="solution-icon"><i class="fas fa-balance-scale"></i></div>
+                    <h3 data-i18n="solution5_title">Compliance Checker</h3>
+                    <p data-i18n="solution5_intro">Ensures your legal documents align with current regulations, industry standards, and internal policies.</p>
+                    <ul>
+                        <li data-i18n="solution5_item1">Scans for regulatory compliance issues</li>
+                        <li data-i18n="solution5_item2">Provides remediation recommendations</li>
+                        <li data-i18n="solution5_item3">Updates in response to regulatory changes</li>
+                        <li data-i18n="solution5_item4">Academic vs. commercial balance optimization</li>
+                        <li data-i18n="solution5_item5">Patent application conflict prevention</li>
+                        <li data-i18n="solution5_item6">Analysis of publication timing impact</li>
+                    </ul>
+                    <div class="card-overlay">
+                        <a href="#contact" class="learn-more" data-i18n="learn_more">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="solution-card">
+                    <div class="solution-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3 data-i18n="solution6_title">Analytics Dashboard</h3>
+                    <p data-i18n="solution6_intro">Visualize and analyze your document portfolio to identify trends, risks, and opportunities.</p>
+                    <ul>
+                        <li data-i18n="solution6_item1">Creates customizable data visualizations</li>
+                        <li data-i18n="solution6_item2">Generates periodic compliance reports</li>
+                        <li data-i18n="solution6_item3">Tracks key metrics and performance indicators</li>
+                        <li data-i18n="solution6_item4">Integration with existing contractual structures</li>
+                        <li data-i18n="solution6_item5">Policy compliance verification</li>
+                    </ul>
+                    <div class="card-overlay">
+                        <a href="#contact" class="learn-more" data-i18n="learn_more">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ASSISTED DRAFTING MODULE (NDA, research, commercial) -->
+    <section class="drafting-module">
+        <div class="container">
+            <div class="drafting-header">
+                <span class="drafting-headline-tag" data-i18n="iplegal_drafting_tag">Now drafting, not just analysing</span>
+                <h2 data-i18n="iplegal_drafting_title">Assisted drafting of contracts and agreements</h2>
+                <p data-i18n="iplegal_drafting_subtitle">Beyond clause-by-clause analysis: TTR-SUITE IP Legal now drafts NDAs, research agreements and commercial contracts side-by-side with the operator, producing internally validated drafts ready for negotiation.</p>
+            </div>
+
+            <div class="drafting-claim-bar">
+                <div class="icon"><i class="fas fa-circle-check"></i></div>
+                <div>
+                    <h3 data-i18n="iplegal_drafting_claim_title">Every draft is internally validated before it reaches you</h3>
+                    <p data-i18n="iplegal_drafting_claim_text">No first-draft sent straight from a single model. Each output passes through an internal review cycle on the operator's intent, the applicable framework and standard clause patterns. What lands on your desk is already cross-checked.</p>
+                </div>
+            </div>
+
+            <div class="drafting-grid">
+                <!-- NDA -->
+                <div class="drafting-card">
+                    <div class="drafting-card__icon"><i class="fas fa-user-secret"></i></div>
+                    <h3 data-i18n="iplegal_drafting_nda_title">Non-Disclosure Agreements</h3>
+                    <p class="drafting-card__lead" data-i18n="iplegal_drafting_nda_lead">Unilateral, mutual and multi-party NDAs, tuned to the operator's purpose and counterpart profile.</p>
+                    <ul>
+                        <li data-i18n="iplegal_drafting_nda_i1">Scope of confidential information and exclusions</li>
+                        <li data-i18n="iplegal_drafting_nda_i2">Duration, survival clauses and return/destruction</li>
+                        <li data-i18n="iplegal_drafting_nda_i3">Permitted disclosures and need-to-know perimeter</li>
+                        <li data-i18n="iplegal_drafting_nda_i4">Remedies, injunctive relief, governing law and forum</li>
+                    </ul>
+                </div>
+
+                <!-- Research Agreements -->
+                <div class="drafting-card">
+                    <div class="drafting-card__icon"><i class="fas fa-flask"></i></div>
+                    <h3 data-i18n="iplegal_drafting_research_title">Research and partnership agreements</h3>
+                    <p class="drafting-card__lead" data-i18n="iplegal_drafting_research_lead">Collaboration, sponsored research, joint development and technology transfer arrangements between companies and research bodies.</p>
+                    <ul>
+                        <li data-i18n="iplegal_drafting_research_i1">Project scope, deliverables and milestones</li>
+                        <li data-i18n="iplegal_drafting_research_i2">Background, foreground and sideground IP allocation</li>
+                        <li data-i18n="iplegal_drafting_research_i3">Funding, cost sharing and publication rights</li>
+                        <li data-i18n="iplegal_drafting_research_i4">Liability, indemnities and termination scenarios</li>
+                    </ul>
+                </div>
+
+                <!-- Commercial Agreements -->
+                <div class="drafting-card">
+                    <div class="drafting-card__icon"><i class="fas fa-handshake"></i></div>
+                    <h3 data-i18n="iplegal_drafting_commercial_title">Commercial agreements</h3>
+                    <p class="drafting-card__lead" data-i18n="iplegal_drafting_commercial_lead">License, distribution, supply, agency and service agreements drafted to the operator's commercial intent and risk profile.</p>
+                    <ul>
+                        <li data-i18n="iplegal_drafting_commercial_i1">License grant, exclusivity, territory and field of use</li>
+                        <li data-i18n="iplegal_drafting_commercial_i2">Pricing, royalties, milestones and reporting duties</li>
+                        <li data-i18n="iplegal_drafting_commercial_i3">SLA, warranties and limitation of liability</li>
+                        <li data-i18n="iplegal_drafting_commercial_i4">Compliance, audit rights and exit clauses</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PATENT PREPARATION MODULE (early access) -->
+    <section class="patent-module">
+        <div class="container">
+            <div class="patent-module-header">
+                <span class="patent-module-badge" data-i18n="iplegal_patent_badge">Early access · Advanced capability</span>
+                <h2 data-i18n="iplegal_patent_title">End-to-end <span class="highlight">patent application</span> preparation</h2>
+                <p data-i18n="iplegal_patent_subtitle">From the inventor's interview to the filing-ready application, across UIBM, EPO and major national offices. Drafting, prior art search, claim generation and adversarial validation in a single workflow.</p>
+            </div>
+
+            <div class="pipeline">
+                <div class="pipeline-step">
+                    <span class="pipeline-step__num">1</span>
+                    <div class="pipeline-step__icon"><i class="fas fa-microphone"></i></div>
+                    <h3 data-i18n="iplegal_patent_step1_title">Structured inventor interview</h3>
+                    <p data-i18n="iplegal_patent_step1_text">Guided conversation that extracts the inventive concept, technical features and motivations from the inventor, no IP-vocabulary fluency required.</p>
+                </div>
+                <div class="pipeline-step">
+                    <span class="pipeline-step__num">2</span>
+                    <div class="pipeline-step__icon"><i class="fas fa-search"></i></div>
+                    <h3 data-i18n="iplegal_patent_step2_title">Prior art search</h3>
+                    <p data-i18n="iplegal_patent_step2_text">Systematic search across patent literature and technical state of the art. Closest references identified, mapped and summarised against the inventive concept.</p>
+                </div>
+                <div class="pipeline-step">
+                    <span class="pipeline-step__num">3</span>
+                    <div class="pipeline-step__icon"><i class="fas fa-list-check"></i></div>
+                    <h3 data-i18n="iplegal_patent_step3_title">Claims generation</h3>
+                    <p data-i18n="iplegal_patent_step3_text">Independent and dependent claims drafted to capture the inventive contribution with the appropriate scope, structured for both UIBM and EPO formalities.</p>
+                </div>
+                <div class="pipeline-step">
+                    <span class="pipeline-step__num">4</span>
+                    <div class="pipeline-step__icon"><i class="fas fa-file-lines"></i></div>
+                    <h3 data-i18n="iplegal_patent_step4_title">Description and abstract</h3>
+                    <p data-i18n="iplegal_patent_step4_text">Full technical description with background, summary, detailed description and figure references. Abstract aligned to the granted claims.</p>
+                </div>
+                <div class="pipeline-step">
+                    <span class="pipeline-step__num">5</span>
+                    <div class="pipeline-step__icon"><i class="fas fa-shield-halved"></i></div>
+                    <h3 data-i18n="iplegal_patent_step5_title">Adversarial claim attack</h3>
+                    <p data-i18n="iplegal_patent_step5_text">Real attacks on each claim using prior art and existing patents, <strong>also in combination</strong>. Weak points exposed, revision guidance issued.</p>
+                </div>
+                <div class="pipeline-step">
+                    <span class="pipeline-step__num">6</span>
+                    <div class="pipeline-step__icon"><i class="fas fa-circle-check"></i></div>
+                    <h3 data-i18n="iplegal_patent_step6_title">Filing green light</h3>
+                    <p data-i18n="iplegal_patent_step6_text">Approval issued only when every revision recommendation has been incorporated and the claims survive the adversarial review. No green light, no filing.</p>
+                </div>
+            </div>
+
+            <!-- TRUST BOX: self-validation -->
+            <div class="patent-validation">
+                <div class="patent-validation-header">
+                    <h3 data-i18n="iplegal_patent_validation_title">First real-world deployment: our own patent</h3>
+                    <span class="patent-validation-tag" data-i18n="iplegal_patent_validation_tag">Self-validated</span>
+                </div>
+                <p data-i18n="iplegal_patent_validation_text">
+                    This workflow has already been used to prepare Aviolab's own patent application, the one protecting the
+                    multi-agent architecture behind TTR-SUITE. The system drafted, attacked and validated its own filing.
+                </p>
+                <div class="patent-stats">
+                    <div class="patent-stat">
+                        <div class="patent-stat__label" data-i18n="iplegal_patent_stat_office">Office</div>
+                        <div class="patent-stat__value">UIBM, MIMIT</div>
+                    </div>
+                    <div class="patent-stat">
+                        <div class="patent-stat__label" data-i18n="iplegal_patent_stat_number">Application no.</div>
+                        <div class="patent-stat__value">102026000013123</div>
+                    </div>
+                    <div class="patent-stat">
+                        <div class="patent-stat__label" data-i18n="iplegal_patent_stat_date">Filing date</div>
+                        <div class="patent-stat__value">08 May 2026</div>
+                    </div>
+                    <div class="patent-stat">
+                        <div class="patent-stat__label" data-i18n="iplegal_patent_stat_cycle">Inception → filing</div>
+                        <div class="patent-stat__value patent-stat__value--big">11h</div>
+                    </div>
+                </div>
+                <p class="patent-availability" data-i18n="iplegal_patent_availability">
+                    <strong>Early access programme.</strong> Available to selected partners on request, <a href="#contact" style="color:#fecaca; text-decoration:underline;">talk to us</a>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFITS -->
+    <section class="ip-section benefits-section">
+        <div class="container">
+            <div class="ip-section-title">
+                <h2 data-i18n="benefits_title">Key Benefits</h2>
+                <div class="underline"></div>
+                <p data-i18n="benefits_old_times">Say goodbye to stacks of paper and manual document processing!</p>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-tachometer-alt"></i></div>
+                    <h3 data-i18n="benefit1_title">Time Efficiency</h3>
+                    <p data-i18n="benefit1_text">Reduce document review time by up to 80%, allowing your team to focus on strategic analysis rather than routine processing</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h3 data-i18n="benefit2_title">Accuracy</h3>
+                    <p data-i18n="benefit2_text">Achieve consistent, reliable analyses that minimize human error and capture details that might otherwise be overlooked</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-search-dollar"></i></div>
+                    <h3 data-i18n="benefit3_title">Cost Reduction</h3>
+                    <p data-i18n="benefit3_text">Significantly lower document processing costs while improving quality and consistency of results</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-users"></i></div>
+                    <h3 data-i18n="benefit4_title">Team Collaboration</h3>
+                    <p data-i18n="benefit4_text">Enable seamless collaboration across departments and offices with consistent document analysis and shared insights</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-cogs"></i></div>
+                    <h3 data-i18n="benefit5_title">Customization</h3>
+                    <p data-i18n="benefit5_text">Solutions tailored to your specific industry needs, document types, and internal processes for maximum relevance</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fas fa-desktop"></i></div>
+                    <h3 data-i18n="benefit6_title">User-Friendly</h3>
+                    <p data-i18n="benefit6_text">Access powerful analysis through a simple, intuitive one-click AI interface designed for busy professionals</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CASE STUDY -->
+    <section class="ip-section ip-section--alt case-study-section">
+        <div class="container">
+            <div class="ip-section-title">
+                <h2 data-i18n="case_study_title">Success Stories</h2>
+                <div class="underline"></div>
+                <p data-i18n="case_study_subtitle">Real-world results from our clients</p>
+            </div>
+
+            <div class="case-study-container">
+                <div class="case-study-header">
+                    <h3 data-i18n="case_study_heading">Industrial Case Study: Transforming IP Document Management</h3>
+                    <p data-i18n="case_study_intro">How Aviolab AI revolutionized the Intellectual Property department of a major international manufacturing corporation:</p>
+                </div>
+
+                <div class="case-study-highlights">
+                    <div class="success-points-container">
+                        <ul class="success-points">
+                            <li><i class="fas fa-check"></i> <span data-i18n="case_study_point1">Reduced contract analysis time from days to hours or even minutes</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="case_study_point2">Enhanced reliability of multi-document agreement processing</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="case_study_point3">Generated impeccable legal comments in multiple languages</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="case_study_point4">Facilitated seamless communication between international legal teams</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="case_study_point5">Specific risk level assessment for each identified critical issue</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="case_study_point6">Strengthened control over IP assets and contractual negotiation security</span></li>
+                        </ul>
+                    </div>
+                    <div class="case-study-image">
+                        <img src="assets/images/case-study.jpg" alt="Business professional" loading="lazy" decoding="async">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CROSS-LINK A PA LOCALE -->
+    <section class="ip-section">
+        <div class="container">
+            <div class="secondary-note">
+                <strong data-i18n="iplegal_xlink_title">Looking for the Italian Public Administration version?</strong>
+                <span data-i18n="iplegal_xlink_text"> Visit the dedicated page for <a href="pa-locale.html">TTR-SUITE per la PA Locale</a>, our suite for Italian municipalities, legal and administrative consulting AI with certified normative sources and SInCRO-compliant digital filing.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="contact" class="ip-cta">
+        <div class="container">
+            <h2 data-i18n="iplegal_cta_title">Ready to transform your IP and contract workflo
+
+<!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html#home" class="logo-link">
+                        <img src="assets/logo.png" alt="Aviolab AI Logo">
+                        <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+                    </a>
+                    <p data-i18n="footer_tagline_umbrella">AI applied to law and public administration</p>
+                    <div class="legal-info">
+                        <p>AVIOLAB AI DI PARENTI RICCARDO</p>
+                        <p>Via XXV Aprile 251</p>
+                        <p>IT16031 Pieve Ligure (GE)</p>
+                        <p>P.IVA 02997110990</p>
+                        <p>REA GE - 525625</p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3 data-i18n="footer_solutions">Solutions</h3>
+                    <ul>
+                        <li><a href="pa-locale.html">TTR-SUITE PA Locale</a></li>
+                        <li><a href="ip-legal.html">TTR-SUITE IP Legal</a></li>
+                        <li><a href="downloads.html" data-i18n="nav_download">Download</a></li>
+                        <li><a href="index.html#contact" data-i18n="nav_contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3 data-i18n="footer_connect">Connect With Us</h3>
+                    <p><a href="mailto:info@aviolab.ai" style="color:inherit;"><i class="fas fa-envelope"></i> info@aviolab.ai</a></p>
+                    <p><a href="https://www.aviolab.ai" target="_blank" style="color:inherit;"><i class="fas fa-globe"></i> www.aviolab.ai</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer_copyright">&copy; 2026 Aviolab AI. All rights reserved.</p>
+                <p class="version-number">v1.2.05</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
