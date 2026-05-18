@@ -64,7 +64,7 @@
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="styles.css">
     <!-- CACHE_VER: 131 -->
-    <script defer src="js/translations.js?v=131"></script>
+    <script defer src="js/translations.js?v=132"></script>
     <script defer src="script.js"></script>
 
     <style>
@@ -132,6 +132,60 @@
             color: #64748b;
             font-size: 1.1rem;
             text-wrap: balance;
+        }
+        /* Documentation & certifications */
+        .ipl-docs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.5rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .ipl-doc-card {
+            background: #fff;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 1.8rem;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            gap: 1.2rem;
+            align-items: stretch;
+            box-shadow: 0 4px 15px -5px rgba(0,0,0,0.08);
+            transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+        }
+        .ipl-doc-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15);
+            border-color: #ff0000;
+        }
+        .ipl-doc-card__icon {
+            flex-shrink: 0;
+            font-size: 2.2rem;
+            color: #ff0000;
+            line-height: 1;
+        }
+        .ipl-doc-card__body {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .ipl-doc-card__body h3 {
+            margin: 0 0 0.5rem;
+            font-size: 1.1rem;
+            color: #0f172a;
+        }
+        .ipl-doc-card__body p {
+            margin: 0 0 0.6rem;
+            font-size: 0.95rem;
+            color: #475569;
+            line-height: 1.5;
+        }
+        .ipl-doc-card__meta {
+            font-size: 0.85rem;
+            color: #64748b;
+            font-style: italic;
+            margin-top: auto;
         }
         .ip-cta {
             background: linear-gradient(135deg, #1e40af 0%, #ff0000 100%);
@@ -802,6 +856,7 @@
                     <li><a href="pa-locale.html" class="nav-link">PA Locale</a></li>
                     <li><a href="ip-legal.html" class="nav-link active">IP Legal</a></li>
                     <li><a href="index.html#about" class="nav-link" data-i18n="nav_about">About</a></li>
+                    <li><a href="index.html#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
                     <li><a href="downloads.html" class="nav-link" style="color: var(--highlight-color) !important; font-weight: bold;" data-i18n="nav_download">Download</a></li>
                 </ul>
             </nav>
@@ -829,8 +884,8 @@
                 <span data-i18n="ipl2_hero_proof">Validated on our own patent, filed at UIBM in 11 hours.</span>
             </div>
             <div class="cta-buttons">
-                <a href="#contact" class="btn btn-primary" data-i18n="ipl2_hero_cta_contact">Get in touch</a>
-                <a href="#capabilities" class="btn btn-secondary" data-i18n="ipl2_hero_cta_explore">Explore capabilities</a>
+                <a href="assets/brochures/aviolab-ai-company-overview-en.pdf" download class="btn btn-primary" data-i18n="ipl2_hero_cta_brochure"><i class="fas fa-file-pdf"></i> Brochure (PDF)</a>
+                <a href="#documentation" class="btn btn-secondary" data-i18n="ipl2_hero_cta_docs"><i class="fas fa-file-shield"></i> Documentation: GDPR, AI Act</a>
             </div>
         </div>
     </section>
@@ -1300,6 +1355,66 @@
         </div>
     </section>
 
+    <!-- ============ 9b. DOCUMENTATION & CERTIFICATIONS ============ -->
+    <section id="documentation" class="ip-section ip-section--alt">
+        <div class="container">
+            <div class="ip-section-title">
+                <h2 data-i18n="ipl2_doc_title">Documentation & certifications</h2>
+                <div class="underline"></div>
+                <p data-i18n="ipl2_doc_subtitle">Public compliance documentation for TTR-SUITE Enterprise Edition v6.1: signed PDFs aligned with the EU AI Act (Regulation 2024/1689) and the GDPR (Regulation 2016/679). The same set is shared with every Enterprise client; client-specific addenda (IP policy integration, licensing) are delivered separately.</p>
+            </div>
+            <div class="ipl-docs-grid">
+                <div class="ipl-doc-card">
+                    <div class="ipl-doc-card__icon"><i class="fas fa-file-pdf"></i></div>
+                    <div class="ipl-doc-card__body">
+                        <h3 data-i18n="ipl2_doc_brochure_title">Aviolab AI &mdash; Company brochure</h3>
+                        <p data-i18n="ipl2_doc_brochure_text">Company overview: who we are, what we ship, how we approach AI in IP and the public sector. Available in English and Italian.</p>
+                        <div style="display:flex; gap:.5rem; flex-wrap:nowrap; margin-top:auto; padding-top:1.2rem;">
+                            <a href="assets/brochures/aviolab-ai-company-overview-en.pdf" download class="btn btn-primary" style="padding:.45rem .85rem; font-size:.9rem; margin-left:0; white-space:nowrap;">
+                                <i class="fas fa-download"></i> English
+                            </a>
+                            <a href="assets/brochures/aviolab-ai-company-overview-it.pdf" download class="btn btn-primary" style="padding:.45rem .85rem; font-size:.9rem; margin-left:0; white-space:nowrap;">
+                                <i class="fas fa-download"></i> Italiano
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <a href="assets/downloads/ttr-suite-classificazione-rischio-ai-act.pdf" class="ipl-doc-card" target="_blank" rel="noopener">
+                    <div class="ipl-doc-card__icon"><i class="fas fa-file-shield"></i></div>
+                    <div class="ipl-doc-card__body">
+                        <h3 data-i18n="ipl2_doc_classrisk_title">AI Act risk classification</h3>
+                        <p data-i18n="ipl2_doc_classrisk_text">Formal risk classification under EU Regulation 2024/1689: art. 5 prohibited practices check, art. 6/Annex III high-risk check, final classification at Limited Risk (art. 50).</p>
+                        <span class="ipl-doc-card__meta" data-i18n="ipl2_doc_classrisk_meta">Signed PDF &middot; 327 KB</span>
+                    </div>
+                </a>
+                <a href="assets/downloads/ttr-suite-informativa-trasparenza-ai-act.pdf" class="ipl-doc-card" target="_blank" rel="noopener">
+                    <div class="ipl-doc-card__icon"><i class="fas fa-file-circle-check"></i></div>
+                    <div class="ipl-doc-card__body">
+                        <h3 data-i18n="ipl2_doc_transparency_title">AI Act transparency notice</h3>
+                        <p data-i18n="ipl2_doc_transparency_text">End-user notice under AI Act art. 50: how the AI works, capabilities, limitations, role of the human operator, accuracy figures, golden rules for correct use.</p>
+                        <span class="ipl-doc-card__meta" data-i18n="ipl2_doc_transparency_meta">Signed PDF &middot; 340 KB</span>
+                    </div>
+                </a>
+                <a href="assets/downloads/ttr-suite-dpa-zdr-gdpr.pdf" class="ipl-doc-card" target="_blank" rel="noopener">
+                    <div class="ipl-doc-card__icon"><i class="fas fa-file-contract"></i></div>
+                    <div class="ipl-doc-card__body">
+                        <h3 data-i18n="ipl2_doc_dpa_title">DPA &mdash; Zero Data Retention (GDPR)</h3>
+                        <p data-i18n="ipl2_doc_dpa_text">Data Processing Addendum with Zero Data Retention architecture: GDPR roles, data flows, encryption, Inference Provider, extra-EU transfers, data breach handling.</p>
+                        <span class="ipl-doc-card__meta" data-i18n="ipl2_doc_dpa_meta">Signed PDF &middot; 311 KB</span>
+                    </div>
+                </a>
+                <a href="assets/downloads/ttr-suite-scheda-tecnica.pdf" class="ipl-doc-card" target="_blank" rel="noopener">
+                    <div class="ipl-doc-card__icon"><i class="fas fa-microchip"></i></div>
+                    <div class="ipl-doc-card__body">
+                        <h3 data-i18n="ipl2_doc_techspec_title">Technical specification</h3>
+                        <p data-i18n="ipl2_doc_techspec_text">Technical documentation under AI Act art. 50: architecture, AI model, security, capabilities (~95% accuracy, 1200 pages), limitations, human oversight.</p>
+                        <span class="ipl-doc-card__meta" data-i18n="ipl2_doc_techspec_meta">Signed PDF &middot; 351 KB</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- ============ 10. CTA ============ -->
     <section id="contact" class="ip-cta">
         <div class="container">
@@ -1347,7 +1462,7 @@
             </div>
             <div class="footer-bottom">
                 <p data-i18n="footer_copyright">&copy; 2026 Aviolab AI. All rights reserved.</p>
-                <p class="version-number">v1.3.01</p>
+                <p class="version-number">v1.3.02</p>
             </div>
         </div>
     </footer>
