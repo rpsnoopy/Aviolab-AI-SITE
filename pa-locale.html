@@ -778,6 +778,56 @@
         }
         .commercial-footer strong { color: #fff; }
 
+        /* Documentazione e certificazioni */
+        .docs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.5rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .doc-card {
+            background: #fff;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 1.8rem;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            gap: 1.2rem;
+            align-items: flex-start;
+            box-shadow: 0 4px 15px -5px rgba(0,0,0,0.08);
+            transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+        }
+        .doc-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15);
+            border-color: #ff0000;
+        }
+        .doc-card__icon {
+            flex-shrink: 0;
+            font-size: 2.2rem;
+            color: #ff0000;
+            line-height: 1;
+        }
+        .doc-card__body { flex: 1; }
+        .doc-card__body h3 {
+            margin: 0 0 0.5rem;
+            font-size: 1.1rem;
+            color: #0f172a;
+        }
+        .doc-card__body p {
+            margin: 0 0 0.6rem;
+            font-size: 0.95rem;
+            color: #475569;
+            line-height: 1.5;
+        }
+        .doc-card__meta {
+            font-size: 0.85rem;
+            color: #64748b;
+            font-style: italic;
+        }
+
         /* Dubbio → Risposta (sostituisce la tabella competitor) */
         .qa-table {
             background: #fff;
@@ -921,9 +971,11 @@
                 fascicolo digitale conforme allo standard SInCRO. Sulla scrivania del funzionario, in minuti invece che in giorni.
             </p>
             <div class="cta-buttons">
-                <a href="#cta" class="btn btn-primary">Richieda una demo</a>
                 <a href="assets/downloads/ttr-suite-pa-brochure.pdf" class="btn btn-secondary" target="_blank" rel="noopener">
-                    <i class="fas fa-file-pdf"></i> Scarichi la brochure (PDF)
+                    <i class="fas fa-file-pdf"></i> Brochure (PDF)
+                </a>
+                <a href="assets/downloads/ttr-suite-pa-scheda-agid.pdf" class="btn btn-secondary" target="_blank" rel="noopener">
+                    <i class="fas fa-file-signature"></i> Scheda AGID di comparazione
                 </a>
             </div>
         </div>
@@ -1519,6 +1571,35 @@
         </div>
     </section>
 
+    <!-- DOCUMENTAZIONE E CERTIFICAZIONI -->
+    <section class="pa-section">
+        <div class="container">
+            <div class="pa-section-title">
+                <h2>Documentazione e certificazioni</h2>
+                <div class="underline"></div>
+                <p>Documenti pubblici della TTR-SUITE per la PA Locale, scaricabili direttamente dal sito.</p>
+            </div>
+            <div class="docs-grid">
+                <a href="assets/downloads/ttr-suite-pa-scheda-agid.pdf" class="doc-card" target="_blank" rel="noopener">
+                    <div class="doc-card__icon"><i class="fas fa-file-signature"></i></div>
+                    <div class="doc-card__body">
+                        <h3>Scheda comparativa AGID</h3>
+                        <p>Documento PDF firmato digitalmente, redatto secondo lo schema di valutazione comparativa delle soluzioni software per la Pubblica Amministrazione.</p>
+                        <span class="doc-card__meta">PDF firmato &middot; 364 KB</span>
+                    </div>
+                </a>
+                <a href="assets/downloads/ttr-suite-pa-brochure.pdf" class="doc-card" target="_blank" rel="noopener">
+                    <div class="doc-card__icon"><i class="fas fa-file-pdf"></i></div>
+                    <div class="doc-card__body">
+                        <h3>Brochure TTR-SUITE per la PA Locale</h3>
+                        <p>Sintesi commerciale del prodotto: capability, casi d'uso, modello di installazione e licensing.</p>
+                        <span class="doc-card__meta">PDF &middot; 1 MB</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- CTA FINALE -->
     <section id="cta" class="pa-cta">
         <div class="container">
@@ -1529,9 +1610,6 @@
                 cita le fonti, redige l'atto e prepara il fascicolo digitale conforme.
             </p>
             <a href="index.html#contact" class="btn btn-primary"><i class="fas fa-envelope"></i> Richieda una demo</a>
-            <a href="assets/downloads/ttr-suite-pa-brochure.pdf" class="btn btn-secondary" target="_blank" rel="noopener">
-                <i class="fas fa-file-pdf"></i> Scarichi la brochure
-            </a>
         </div>
     </section>
 

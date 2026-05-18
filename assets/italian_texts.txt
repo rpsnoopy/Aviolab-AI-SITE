@@ -344,3 +344,6 @@ iplegal_drafting_commercial_i1: Concessione di licenza, esclusiva, territorio e 
 iplegal_drafting_commercial_i2: Prezzi, royalty, milestone e obblighi di reportistica
 iplegal_drafting_commercial_i3: SLA, garanzie e limitazione di responsabilità
 iplegal_drafting_commercial_i4: Compliance, diritti di audit e clausole di uscita
+
+pa_scheda_agid_title: Scheda comparativa firmata AGID — TTR-SUITE per la PA Locale
+pa_scheda_agid_desc: Scheda comparativa AGID predisposta secondo lo schema di valutazione delle soluzioni software per la Pubblica Amministrazione. PDF firmato digitalmente, 364 KB.

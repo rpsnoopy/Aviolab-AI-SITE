@@ -63,7 +63,8 @@
     <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="styles.css">
-    <script defer src="js/translations.js"></script>
+    <!-- CACHE_VER: 131 -->
+    <script defer src="js/translations.js?v=131"></script>
     <script defer src="script.js"></script>
 
     <style>
@@ -156,33 +157,37 @@
         .secondary-note a { color: #1e40af; font-weight: 600; text-decoration: none; }
         .secondary-note a:hover { text-decoration: underline; }
 
-        /* === Pain killer (Sez. 2) === */
-        .pain-section { background: #fff; padding: 5rem 0; }
+        /* === Pain killer (Sez. 2) - schema PA Locale === */
+        .pain-section {
+            background: linear-gradient(180deg, #ffffff 0%, #fee2e2 100%);
+            padding: 5rem 0;
+            position: relative;
+        }
         .pain-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 1.8rem;
+            gap: 2rem;
             max-width: 1100px;
             margin: 0 auto;
         }
         .pain-quote {
-            background: #f8fafc;
-            border-left: 4px solid #ff0000;
-            padding: 1.6rem 1.5rem;
-            border-radius: 0 8px 8px 0;
-            font-style: italic;
-            color: #334155;
-            font-size: 1rem;
-            line-height: 1.5;
             position: relative;
+            padding: 1rem 0 1rem 2rem;
+            border-left: 5px solid #ff0000;
+            font-style: italic;
+            color: #0f172a;
+            font-size: 1.05rem;
+            line-height: 1.5;
+            font-weight: 500;
         }
         .pain-quote::before {
-            content: "\201C";
+            content: "\f10d";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
             position: absolute;
-            top: -10px; left: 14px;
-            font-size: 3rem;
-            color: #ff0000;
-            font-family: Georgia, serif;
+            top: -6px; left: 0.7rem;
+            font-size: 1.5rem;
+            color: #fecaca;
             line-height: 1;
         }
         .pain-quote__attr {
@@ -190,7 +195,7 @@
             margin-top: 1rem;
             color: #64748b;
             font-style: normal;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
             font-weight: 600;
         }
         @media (max-width: 900px) { .pain-grid { grid-template-columns: 1fr; } }
@@ -836,7 +841,7 @@
             <div class="ip-section-title">
                 <h2 data-i18n="ipl2_pain_title">The pressure on legal and IP work</h2>
                 <div class="underline"></div>
-                <p data-i18n="ipl2_pain_subtitle">Three voices we hear consistently from legal teams, IP departments and partners in small to mid-size firms.</p>
+                <p data-i18n="ipl2_pain_subtitle">Three recurring problems we hear from legal teams, IP departments and partners in small to mid-size firms.</p>
             </div>
             <div class="pain-grid">
                 <div class="pain-quote">
@@ -861,7 +866,7 @@
             <div class="ip-section-title">
                 <h2 data-i18n="ipl2_cap_title">Four capabilities, tuned to your IP policy</h2>
                 <div class="underline"></div>
-                <p data-i18n="ipl2_cap_subtitle">TTR-SUITE IP Legal reads, drafts, prepares patents and stress-tests them on the same engine. Each agent is specialised on your group's internal IP policy and clause preferences, so the output is compliant with your standards out of the box, not after a round of corrections.</p>
+                <p data-i18n="ipl2_cap_subtitle">TTR-SUITE IP Legal reads, analyses, drafts, prepares patents and stress-tests them on the same engine. <strong>Each agent is tuned to your group's internal IP policy and your preferences before delivery</strong>, so the output is compliant with your in-house standards from day one, not after a round of corrections.</p>
             </div>
             <div class="capability-grid">
 
@@ -872,13 +877,13 @@
                     </div>
                     <p class="capability-card__tagline" data-i18n="ipl2_cap1_tagline">Six specialist agents, one per document family.</p>
                     <ul class="capability-card__bullets">
-                        <li data-i18n="ipl2_cap1_b1">NDAs &mdash; unilateral, mutual, multi-party</li>
+                        <li data-i18n="ipl2_cap1_b1">NDAs &mdash; unilateral, bilateral, multi-party</li>
                         <li data-i18n="ipl2_cap1_b2">Research agreements with academic institutions</li>
                         <li data-i18n="ipl2_cap1_b3">Commercial agreements, licenses, technology transfer</li>
-                        <li data-i18n="ipl2_cap1_b4">Presentations, papers, theses</li>
+                        <li data-i18n="ipl2_cap1_b4">Presentations, papers, theses (with figure analysis)</li>
                     </ul>
                     <div class="capability-card__proof">
-                        <i class="fas fa-gauge-high"></i><span data-i18n="ipl2_cap1_proof">Clause-by-clause, multi-language, risk scored 0&#8211;100.</span>
+                        <i class="fas fa-gauge-high"></i><span data-i18n="ipl2_cap1_proof">Clause-by-clause, multi-language, risk measure 0&#8211;100%.</span>
                     </div>
                 </div>
 
@@ -890,12 +895,12 @@
                     <p class="capability-card__tagline" data-i18n="ipl2_cap2_tagline">From blank page to negotiation-ready draft.</p>
                     <ul class="capability-card__bullets">
                         <li data-i18n="ipl2_cap2_b1">NDAs, research agreements, commercial agreements</li>
-                        <li data-i18n="ipl2_cap2_b2">Drafted to your IP policy framework</li>
-                        <li data-i18n="ipl2_cap2_b3">Counterparty-aware (academic vs commercial)</li>
-                        <li data-i18n="ipl2_cap2_b4">Placeholders only where human decision is needed</li>
+                        <li data-i18n="ipl2_cap2_b2"><strong>Always</strong> drafted to your IP policy framework</li>
+                        <li data-i18n="ipl2_cap2_b3">Counterparty assessment (academic vs commercial)</li>
+                        <li data-i18n="ipl2_cap2_b4">Placeholders only where data is missing or human decision is needed</li>
                     </ul>
                     <div class="capability-card__proof">
-                        <i class="fas fa-shield-halved"></i><span data-i18n="ipl2_cap2_proof">Internal review pass already incorporated.</span>
+                        <i class="fas fa-shield-halved"></i><span data-i18n="ipl2_cap2_proof">Adversarial drafting, with <strong>AT LEAST</strong> two cooperating agents.</span>
                     </div>
                 </div>
 
@@ -912,7 +917,7 @@
                         <li data-i18n="ipl2_cap3_b4">Multi-domain, multi-jurisdiction (IT, EP, US, PCT)</li>
                     </ul>
                     <div class="capability-card__proof">
-                        <i class="fas fa-circle-check"></i><span data-i18n="ipl2_cap3_proof">Every patent number verified against Espacenet or Google Patents.</span>
+                        <i class="fas fa-circle-check"></i><span data-i18n="ipl2_cap3_proof">Every cited patent verified against patent databases: Espacenet, EPO Register, WIPO PATENTSCOPE, Google, Lens.org, UIBM, USPTO.</span>
                     </div>
                     <span class="capability-card__tag" data-i18n="ipl2_cap3_tag">Early access programme</span>
                 </div>
@@ -925,13 +930,14 @@
                     <p class="capability-card__tagline" data-i18n="ipl2_cap4_tagline">Demolish the draft before the examiner does.</p>
                     <ul class="capability-card__bullets">
                         <li data-i18n="ipl2_cap4_b1">Aggressive prior art aimed at invalidation</li>
-                        <li data-i18n="ipl2_cap4_b2">Attacks on each claim with patent combinations</li>
+                        <li data-i18n="ipl2_cap4_b2">Attacks on each claim with combinations of existing patents and state of the art</li>
                         <li data-i18n="ipl2_cap4_b3">Weak-points report with severity ranking</li>
                         <li data-i18n="ipl2_cap4_b4">Narrowing recommendations preserving the broadest scope</li>
                     </ul>
                     <div class="capability-card__proof">
-                        <i class="fas fa-thumbs-up"></i><span data-i18n="ipl2_cap4_proof">Survival verdict when the draft is robust as it stands.</span>
+                        <i class="fas fa-chart-column"></i><span data-i18n="ipl2_cap4_proof">Structured risk factors on novelty, inventive step, sufficiency, clarity, eligibility, scope vs defensibility.</span>
                     </div>
+                    <span class="capability-card__tag" data-i18n="ipl2_cap4_tag">Early access programme</span>
                 </div>
 
             </div>
@@ -942,30 +948,30 @@
     <section class="ip-section">
         <div class="container">
             <div class="ip-section-title">
-                <h2 data-i18n="ipl2_deliv_title">What lands on your desk, by case</h2>
+                <h2 data-i18n="ipl2_deliv_title">What does TTR-SUITE actually produce?</h2>
                 <div class="underline"></div>
-                <p data-i18n="ipl2_deliv_subtitle">Different documents require different outputs. Here is, case by case, what the suite produces.</p>
+                <p data-i18n="ipl2_deliv_subtitle">Different matters require different document outputs. Case by case, here is what the suite produces.</p>
             </div>
 
             <div class="usecase-stack">
 
                 <div class="usecase-card">
                     <div class="usecase-card__head">
-                        <span class="usecase-card__tag" data-i18n="ipl2_uc_tag_new">From a blank page</span>
+                        <span class="usecase-card__tag" data-i18n="ipl2_uc_tag_new">From blank page to negotiation-ready draft</span>
                         <h3 data-i18n="ipl2_uc1_title">NDA, Research Agreement, Commercial Agreement &mdash; new draft</h3>
                     </div>
                     <p class="usecase-card__lead" data-i18n="ipl2_uc1_lead">When the agreement does not exist yet and you want a first version to negotiate from.</p>
                     <ul class="usecase-card__deliv">
-                        <li data-i18n="ipl2_uc1_d1"><strong>Full text of the draft</strong> in the document language, structured to your IP policy framework</li>
-                        <li data-i18n="ipl2_uc1_d2"><strong>Placeholder map</strong> for the fields where a human decision is still required (counterparty data, economics, dates)</li>
-                        <li data-i18n="ipl2_uc1_d3"><strong>Internal review pass</strong> already incorporated &mdash; you receive the post-review version, with a change log against the first internal draft</li>
-                        <li data-i18n="ipl2_uc1_d4"><strong>Iteration menu</strong> to keep working on specific clauses or trigger a further specialist review</li>
+                        <li data-i18n="ipl2_uc1_d1"><strong>Full text of the draft</strong> (in docx, md, pdf) in the language most useful to you, carefully structured to your IP policy framework</li>
+                        <li data-i18n="ipl2_uc1_d2"><strong>Placeholder map</strong> with markers inserted by TTR-SUITE at every field that requires information currently unavailable or a specific human decision</li>
+                        <li data-i18n="ipl2_uc1_d3"><strong>Internal review cycle incorporated:</strong> the drafter produces a first draft, hands it to the specialist reviewer for the agreement type (NDA, research or commercial), incorporates the modifications and delivers the revised draft</li>
+                        <li data-i18n="ipl2_uc1_d4"><strong>Interactive refinement</strong> to refine specific clauses or to trigger a further review on specific points</li>
                     </ul>
                 </div>
 
                 <div class="usecase-card">
                     <div class="usecase-card__head">
-                        <span class="usecase-card__tag usecase-card__tag--analysis" data-i18n="ipl2_uc_tag_analysis">On an existing document</span>
+                        <span class="usecase-card__tag usecase-card__tag--analysis" data-i18n="ipl2_uc_tag_analysis">Analysis of an existing document vs policy/convenience</span>
                         <h3 data-i18n="ipl2_uc2_title">NDA, Research Agreement, Commercial Agreement &mdash; analysis of an existing document</h3>
                     </div>
                     <p class="usecase-card__lead" data-i18n="ipl2_uc2_lead">When the counterparty sent a draft, or you inherited an agreement and need to know what you are signing.</p>
@@ -979,12 +985,12 @@
 
                 <div class="usecase-card">
                     <div class="usecase-card__head">
-                        <span class="usecase-card__tag usecase-card__tag--analysis" data-i18n="ipl2_uc_tag_disclosure">Disclosure compliance</span>
+                        <span class="usecase-card__tag usecase-card__tag--analysis" data-i18n="ipl2_uc_tag_disclosure">Pre-disclosure compliance analysis</span>
                         <h3 data-i18n="ipl2_uc3_title">Presentations, scientific papers, theses &mdash; IP review of the document</h3>
                     </div>
                     <p class="usecase-card__lead" data-i18n="ipl2_uc3_lead">When the company wants something published, shared at a conference, or defended at university, and you need to know what is safe to disclose.</p>
                     <ul class="usecase-card__deliv">
-                        <li data-i18n="ipl2_uc3_d1"><strong>Element-by-element review</strong> &mdash; slide by slide, section by section, chapter by chapter &mdash; with risk score and replicability assessment</li>
+                        <li data-i18n="ipl2_uc3_d1"><strong>Element-by-element review</strong> &mdash; slide by slide, section by section, chapter by chapter, figure by figure &mdash; with risk score and replicability assessment</li>
                         <li data-i18n="ipl2_uc3_d2"><strong>Prohibited-content verification</strong> against your internal disclosure policy (facility data, internal procedures, unpublished specifications, proprietary methodologies)</li>
                         <li data-i18n="ipl2_uc3_d3"><strong>Audience-specific recommendations</strong> &mdash; what is safe internally, with technical partners under NDA, with commercial counterparts, with the general public</li>
                         <li data-i18n="ipl2_uc3_d4"><strong>Compliant alternative wording</strong> for the sections that score above threshold, preserving scientific or communicative value</li>
@@ -1017,7 +1023,7 @@
                         <li data-i18n="ipl2_uc5_d2"><strong>Attacks on every claim</strong> using combinations of existing patents and state of the art, also in combination</li>
                         <li data-i18n="ipl2_uc5_d3"><strong>Weak-points report</strong> with severity ranking on the claims that did not survive the attack</li>
                         <li data-i18n="ipl2_uc5_d4"><strong>Narrowing recommendations</strong> on the claims that need tightening, preserving the broadest defensible scope</li>
-                        <li data-i18n="ipl2_uc5_d5"><strong>Survival verdict</strong> when the application is robust enough to file as it stands &mdash; no narrowing imposed when none is needed</li>
+                        <li data-i18n="ipl2_uc5_d5"><strong>Structured merit synthesis</strong> (novelty, inventive step, scope vs defensibility, eligibility), no spurious grant percentages, no narrowing imposed when the claims already survive as filed</li>
                     </ul>
                 </div>
 
@@ -1029,26 +1035,26 @@
     <section class="ip-section ip-section--alt">
         <div class="container">
             <div class="ip-section-title">
-                <h2 data-i18n="ipl2_ex_title">How the conversation goes</h2>
+                <h2 data-i18n="ipl2_ex_title">Sample conversations</h2>
                 <div class="underline"></div>
                 <p data-i18n="ipl2_ex_subtitle">Concrete examples, from the operator's question to what TTR-SUITE IP Legal does next.</p>
             </div>
             <div class="example-grid">
                 <div class="example-card">
                     <div class="example-card__q" data-i18n="ipl2_ex1_q">The counterparty sent this NDA. I sign on Friday. What am I agreeing to?</div>
-                    <div class="example-card__a" data-i18n="ipl2_ex1_a">Clause-by-clause analysis of the NDA. Risk score per clause, fairness level overall, OFAC compliance check, AI/ML training prohibition check, market-standard deviations flagged. Proposed alternative wording where the clause is below target.</div>
+                    <div class="example-card__a" data-i18n="ipl2_ex1_a">Clause-by-clause analysis of the NDA. Risk score per clause, overall Fairness Level, OFAC compliance check, AI/ML training prohibition check, deviations from your IP policy framework flagged. Proposed alternative wording where the clause is below target.</div>
                 </div>
                 <div class="example-card">
                     <div class="example-card__q" data-i18n="ipl2_ex2_q">We're entering a research partnership with this university. There is no agreement yet.</div>
-                    <div class="example-card__a" data-i18n="ipl2_ex2_a">Drafting from a blank page: scope, deliverables, background/foreground/sideground IP, funding model, publication rights, governance, liability, exit. Internally validated against the research-agreement reference framework before delivery, placeholders left only on the fields that require a human decision.</div>
+                    <div class="example-card__a" data-i18n="ipl2_ex2_a">Drafting from a blank page: scope, deliverables, background and foreground IP, funding model, publication rights, governance, liability, exit. Internally validated against the research-agreement reference framework before delivery, placeholders left only on the fields that require a human decision.</div>
                 </div>
                 <div class="example-card">
                     <div class="example-card__q" data-i18n="ipl2_ex3_q">I need to review this license agreement with a US supplier before next week.</div>
-                    <div class="example-card__a" data-i18n="ipl2_ex3_a">Commercial agreement analysis: IP allocation, royalty model, exclusivity, audit rights, SLA, liability cap, governing law and jurisdiction. ITAR/EAR applicability triggered automatically when the counterparty is non-EU. Verbatim clause recommended where export control is missing.</div>
+                    <div class="example-card__a" data-i18n="ipl2_ex3_a">Commercial agreement analysis: IP allocation, royalty model, exclusivity, audit rights, SLA, liability cap, governing law and jurisdiction. Verbatim export-control clause check (EU Reg. 833/2014); clause recommended where missing. US ITAR/EAR implications flagged for external review when the counterparty is outside the EU.</div>
                 </div>
                 <div class="example-card">
                     <div class="example-card__q" data-i18n="ipl2_ex4_q">I want to protect this invention. Where do we start?</div>
-                    <div class="example-card__a" data-i18n="ipl2_ex4_a">Six-phase pipeline: structured inventor interview, prior art search, patentability triage, claim drafting (independent + dependent), full specification with abstract, iteration against examiner objections. Multi-domain, multi-jurisdiction. Every cited patent number is verified against Espacenet or Google Patents before it lands in the draft.</div>
+                    <div class="example-card__a" data-i18n="ipl2_ex4_a">Six-phase pipeline: structured inventor interview, prior art search, patentability triage, claim drafting (independent + dependent), full specification with abstract, iteration against examiner objections. Multi-domain, multi-jurisdiction. Every cited patent number is verified against official patent databases before it lands in the draft.</div>
                 </div>
                 <div class="example-card">
                     <div class="example-card__q" data-i18n="ipl2_ex5_q">We have a draft patent application. Is it really novel?</div>
@@ -1065,6 +1071,10 @@
                 <div class="example-card">
                     <div class="example-card__q" data-i18n="ipl2_ex8_q">I'm presenting this slide deck at a conference next month.</div>
                     <div class="example-card__a" data-i18n="ipl2_ex8_a">Presentation review, slide by slide. Replicability scoring against competitors, prohibited-content verification (facility photos, internal procedures, unpublished specs), audience-specific recommendations: internal, technical-with-NDA, commercial, public.</div>
+                </div>
+                <div class="example-card">
+                    <div class="example-card__q" data-i18n="ipl2_ex9_q">This agreement is in German, the counterparty is Swiss. What IP risks are hidden in the clauses?</div>
+                    <div class="example-card__a" data-i18n="ipl2_ex9_a">Clause-by-clause analysis <strong>directly in German</strong>, no preliminary translation. Scored against <strong>your IP policy</strong>: per-clause risk (ownership, licensing, confidentiality, post-termination), overall Fairness Level. Verbatim export-control clause check (EU Reg. 833/2014); US ITAR/EAR implications flagged for external review when the counterparty is outside the EU. Alternative wording proposed <strong>in the original language</strong>.</div>
                 </div>
             </div>
         </div>
@@ -1088,11 +1098,11 @@
                 <div class="agents-header">
                     <div class="agents-count">
                         <div class="big-number">9<span style="font-size:1.8rem; opacity:0.85;"> + 2</span></div>
-                        <div class="label" data-i18n="ipl2_arch_count_label">Specialist agents plus two coordinators</div>
+                        <div class="label" data-i18n="ipl2_arch_count_label">8 active specialists + 1 in early access (patent reviewer) + 2 coordinators</div>
                     </div>
                     <div class="agents-intro">
                         <p data-i18n="ipl2_arch_intro1">
-                            A team of <strong>eleven dedicated agents</strong> covering the IP and contract domain.
+                            A team of <strong>dedicated specialist agents</strong> covering the IP and contract domain.
                             Every case is handled by the agents with the right perimeter, with independent verifications
                             between steps and full traceability of the reasoning.
                         </p>
@@ -1168,7 +1178,7 @@
                 <div class="trust-card">
                     <div class="trust-card__icon"><i class="fas fa-circle-check"></i></div>
                     <h4 data-i18n="ipl2_trust2_title">Patent number verification at the source</h4>
-                    <p data-i18n="ipl2_trust2_text">Every patent number cited in a draft, prior-art table or claim comparison is verified against Espacenet or Google Patents before it appears in the output. Numbers that cannot be verified are removed and flagged.</p>
+                    <p data-i18n="ipl2_trust2_text">Every patent number cited in a draft, prior-art table or claim comparison is verified against public patent databases (Espacenet, EPO Register, WIPO PATENTSCOPE, Google, Lens.org, UIBM, USPTO) before it appears in the output. Numbers that cannot be verified are removed and flagged.</p>
                 </div>
                 <div class="trust-card">
                     <div class="trust-card__icon"><i class="fas fa-gauge-high"></i></div>
@@ -1203,7 +1213,7 @@
                 <p data-i18n="ipl2_sv_subtitle">The most rigorous proof we could think of: we used the system to prepare its own patent application.</p>
             </div>
             <div class="selfval-box">
-                <p data-i18n="ipl2_sv_text">The patent protecting the multi-agent architecture behind TTR-SUITE was drafted, attacked and validated by the system itself. From the inventor interview to the UIBM filing: a continuous workflow, one operator alongside, one engine producing the artefacts.</p>
+                <p data-i18n="ipl2_sv_text">The patent protecting the multi-agent architecture behind TTR-SUITE was drafted, attacked and validated by TTR-SUITE itself, in <strong>DIRECT</strong> interaction with the agentic coding system used to develop the software. Under close human supervision, the flow from the inventor interview to the UIBM filing was executed as an <strong>MCP</strong> interaction between the two AI systems: a continuous flow with minimal human intervention, one operator alongside, one engine producing the artefacts.</p>
                 <div class="selfval-stats">
                     <div class="selfval-stat">
                         <div class="selfval-stat__label" data-i18n="ipl2_sv_office">Office</div>
@@ -1230,13 +1240,13 @@
     <section class="ip-section">
         <div class="container">
             <div class="ip-section-title">
-                <h2 data-i18n="ipl2_case_title">Field test: Fortune 500 IP department</h2>
+                <h2 data-i18n="ipl2_case_title">Field test: IP department of a major international industrial group</h2>
                 <div class="underline"></div>
             </div>
             <div class="case-compact">
                 <div class="case-compact__header">
                     <h3 data-i18n="ipl2_case_heading">Transforming IP document management at a major international manufacturer</h3>
-                    <p class="case-compact__intro" data-i18n="ipl2_case_intro">An Aviolab AI deployment inside the IP department of a Fortune 500 industrial group, results across a quarter of operation:</p>
+                    <p class="case-compact__intro" data-i18n="ipl2_case_intro">An Aviolab AI deployment inside the IP department of a major international industrial group, results across a quarter of operation:</p>
                 </div>
                 <ul class="case-compact__bullets">
                     <li data-i18n="ipl2_case_b1">Contract analysis time reduced from days to hours, sometimes minutes</li>
@@ -1337,7 +1347,7 @@
             </div>
             <div class="footer-bottom">
                 <p data-i18n="footer_copyright">&copy; 2026 Aviolab AI. All rights reserved.</p>
-                <p class="version-number">v1.3.00</p>
+                <p class="version-number">v1.3.01</p>
             </div>
         </div>
     </footer>

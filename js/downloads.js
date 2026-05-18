@@ -42,6 +42,12 @@ document.addEventListener('DOMContentLoaded', function() {
         // You can manually add more items here or implement dynamic loading
         const additionalPublicFiles = [
             {
+                name: translations[currentLanguage]?.pa_scheda_agid_title || 'Scheda comparativa firmata AGID — TTR-SUITE per la PA Locale',
+                description: translations[currentLanguage]?.pa_scheda_agid_desc || 'Scheda comparativa AGID predisposta secondo lo schema di valutazione delle soluzioni software per la Pubblica Amministrazione. PDF firmato digitalmente, 364 KB.',
+                icon: 'fas fa-file-signature',
+                file: 'assets/downloads/ttr-suite-pa-scheda-agid.pdf'
+            },
+            {
                 name: translations[currentLanguage]?.ttr_probe_title || 'TTR-PROBE',
                 description: translations[currentLanguage]?.ttr_probe_desc || 'Strumento di analisi tecnica',
                 icon: 'fas fa-cog',
