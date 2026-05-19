@@ -355,6 +355,46 @@
             padding-right: 5.5rem;
         }
 
+        /* Diagramma di flow (sintesi visiva del percorso) */
+        .flow-diagram-wrap {
+            margin: 4rem auto 0;
+            max-width: 1100px;
+            text-align: center;
+        }
+        .flow-diagram-wrap picture {
+            display: block;
+            margin-bottom: 1rem;
+        }
+        .flow-diagram-wrap img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 14px 35px -10px rgba(15,23,42,0.2);
+            border: 1px solid #e2e8f0;
+            background: #fff;
+        }
+        .flow-diagram-wrap figcaption {
+            color: #475569;
+            font-size: 0.95rem;
+            font-style: italic;
+            line-height: 1.55;
+            max-width: 820px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        .flow-diagram-wrap figcaption a {
+            color: #1e40af;
+            text-decoration: none;
+            font-weight: 600;
+            font-style: normal;
+            white-space: nowrap;
+        }
+        .flow-diagram-wrap figcaption a:hover { text-decoration: underline; }
+        .flow-diagram-wrap figcaption a i {
+            margin-left: 0.25rem;
+            font-size: 0.85em;
+        }
+
         /* Corte dei Conti */
         .cdc-intro {
             text-align: center;
@@ -985,8 +1025,8 @@
                 fascicolo digitale conforme allo standard SInCRO. Sulla scrivania del funzionario, in minuti invece che in giorni.
             </p>
             <div class="cta-buttons">
-                <a href="assets/downloads/ttr-suite-pa-brochure.pdf" class="btn btn-secondary" target="_blank" rel="noopener">
-                    <i class="fas fa-file-pdf"></i> Brochure (PDF)
+                <a href="pa-locale-in-azione.html" class="btn btn-primary">
+                    <i class="fas fa-photo-film"></i> Veda TTR-SUITE in azione
                 </a>
                 <a href="#documentazione" class="btn btn-secondary">
                     <i class="fas fa-file-shield"></i> Documentazione AGID, GDPR, AI Act
@@ -1151,6 +1191,20 @@
                     amministrativamente solido.
                 </p>
             </div>
+
+            <figure class="flow-diagram-wrap">
+                <picture>
+                    <source type="image/webp" srcset="assets/images/pa-locale/diagram-come-funziona.webp">
+                    <img src="assets/images/pa-locale/diagram-come-funziona.png"
+                         alt="Come funziona TTR-SUITE in quattro passaggi: 1) il funzionario formula il quesito operativo in linguaggio naturale; 2) riceve una consulenza strutturata con citazioni puntuali; 3) la risposta passa una verifica indipendente con doppio controllo; 4) viene generato l'atto pronto per la firma e per il fascicolo digitale. La suite è compatibile con i principali gestionali documentali italiani (Halley, Maggioli, Dedagroup, GPI, PA Digitale, 3D Informatica, Engineering)."
+                         loading="lazy" decoding="async"
+                         width="1535" height="610">
+                </picture>
+                <figcaption>
+                    I quattro passaggi operativi: dal quesito del funzionario, in linguaggio naturale, fino all'atto pronto per la firma e archiviato nel fascicolo digitale conforme a SInCRO.
+                    <a href="pa-locale-in-azione.html">Veda una sessione reale<i class="fas fa-arrow-right"></i></a>
+                </figcaption>
+            </figure>
         </div>
     </section>
 
@@ -1654,13 +1708,14 @@
                 Organizziamo facilmente e senza nessun impegno una demo concreta su un caso
                 reale del Suo Ente. Le mostriamo come TTR-SUITE per la PA Locale risponde,
                 cita le fonti, redige l'atto e prepara il fascicolo digitale conforme.
+                Nel frattempo, può vedere una sessione reale in pochi screenshot.
             </p>
+            <a href="pa-locale-in-azione.html" class="btn btn-secondary"><i class="fas fa-photo-film"></i> Veda TTR-SUITE in azione</a>
             <a href="index.html#contact" class="btn btn-primary"><i class="fas fa-envelope"></i> Richieda una demo</a>
         </div>
     </section>
 
     <!-- Footer -->
-
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
@@ -1670,3 +1725,35 @@
                         <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
                     </a>
                     <p>AI applicata al diritto e alla Pubblica Amministrazione</p>
+                    <div class="legal-info">
+                        <p>AVIOLAB AI DI PARENTI RICCARDO</p>
+                        <p>Via XXV Aprile 251</p>
+                        <p>IT16031 Pieve Ligure (GE)</p>
+                        <p>P.IVA 02997110990</p>
+                        <p>REA GE - 525625</p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Soluzioni</h3>
+                    <ul>
+                        <li><a href="pa-locale.html">TTR-SUITE PA Locale</a></li>
+                        <li><a href="pa-locale-in-azione.html">TTR-SUITE in azione</a></li>
+                        <li><a href="ip-legal.html">TTR-SUITE IP Legal</a></li>
+                        <li><a href="downloads.html">Download</a></li>
+                        <li><a href="index.html#contact">Contatti</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Resti in contatto</h3>
+                    <p><a href="mailto:info@aviolab.ai" style="color:inherit;"><i class="fas fa-envelope"></i> info@aviolab.ai</a></p>
+                    <p><a href="https://www.aviolab.ai" target="_blank" style="color:inherit;"><i class="fas fa-globe"></i> www.aviolab.ai</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Aviolab AI. Tutti i diritti riservati.</p>
+                <p class="version-number">v1.3.04</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
