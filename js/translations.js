@@ -299,7 +299,7 @@ const translations = {
         "iplegal_drafting_commercial_i3": "SLA, warranties and limitation of liability",
         "iplegal_drafting_commercial_i4": "Compliance, audit rights and exit clauses",
         "pa_scheda_agid_title": "AGID signed comparison sheet — TTR-SUITE for Local Public Administration",
-        "pa_scheda_agid_desc": "AGID comparison sheet prepared according to the evaluation framework for public-administration software. Digitally signed PDF, 364 KB."
+        "pa_scheda_agid_desc": "AGID comparison sheet prepared according to the evaluation framework for public-administration software. Digitally signed PDF, 261 KB."
     },
     "it": {
         "nav_home": "Home",
@@ -816,6 +816,6 @@ const translations = {
         "ipl2_cta_text": "Ci contatti. Le mostriamo il sistema su un Suo caso reale, un NDA, una licenza, una bozza di claim, qualsiasi cosa ha sulla scrivania questa settimana.",
         "ipl2_cta_btn_form": "Usi il form di contatto",
         "pa_scheda_agid_title": "Scheda comparativa firmata AGID — TTR-SUITE per la PA Locale",
-        "pa_scheda_agid_desc": "Scheda comparativa AGID predisposta secondo lo schema di valutazione delle soluzioni software per la Pubblica Amministrazione. PDF firmato digitalmente, 364 KB."
+        "pa_scheda_agid_desc": "Scheda comparativa AGID predisposta secondo lo schema di valutazione delle soluzioni software per la Pubblica Amministrazione. PDF firmato digitalmente, 261 KB."
     }
 };
