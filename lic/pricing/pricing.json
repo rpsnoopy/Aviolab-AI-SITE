@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-05-31",
-  "bootstrapVersion": 3,
+  "bootstrapVersion": 4,
   "models": {
     "claude-opus-4-8": {
       "inputPerMillion": 5.0,
@@ -165,10 +165,10 @@
       "outputPerMillion": 4.5
     },
     "glm-4.5-flash": {
-      "inputPerMillion": 0.0,
+      "inputPerMillion": 1e-08,
       "cacheReadPerMillion": 0.0,
       "cacheCreatePerMillion": 0.0,
-      "outputPerMillion": 0.0
+      "outputPerMillion": 1e-08
     }
   }
 }
