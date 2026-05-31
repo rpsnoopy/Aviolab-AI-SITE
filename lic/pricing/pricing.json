@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-05-31",
-  "bootstrapVersion": 4,
+  "bootstrapVersion": 5,
   "models": {
     "claude-opus-4-8": {
       "inputPerMillion": 5.0,
