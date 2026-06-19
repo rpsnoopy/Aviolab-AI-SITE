@@ -299,6 +299,43 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
     
+    // Autorisposta FormSubmit: imposta il testo di cortesia nella lingua attiva al momento dell'invio
+    const contactFormForReply = document.querySelector('.contact-form');
+    if (contactFormForReply) {
+        contactFormForReply.addEventListener('submit', function () {
+            const autoResponseField = contactFormForReply.querySelector('input[name="_autoresponse"]');
+            if (!autoResponseField) return;
+
+            const messageIt = [
+                'Gentile cliente,',
+                '',
+                'grazie per averci contattato. Abbiamo ricevuto correttamente il Suo messaggio e Le risponderemo quanto prima, normalmente entro un giorno lavorativo.',
+                '',
+                'Per richieste urgenti puo\' contattarci telefonicamente al +39 335 605 0950 (giorni feriali, 9:00-18:00, CET/Roma).',
+                '',
+                'Cordiali saluti,',
+                'Aviolab AI',
+                'AVIOLAB AI DI PARENTI RICCARDO',
+                'info@aviolab.ai - www.aviolab.ai'
+            ].join('\n');
+
+            const messageEn = [
+                'Dear Sir or Madam,',
+                '',
+                'thank you for contacting us. We have successfully received your message and will get back to you as soon as possible, normally within one business day.',
+                '',
+                'For urgent matters you can reach us by phone at +39 335 605 0950 (weekdays, 9:00-18:00, CET/Rome).',
+                '',
+                'Kind regards,',
+                'Aviolab AI',
+                'AVIOLAB AI DI PARENTI RICCARDO',
+                'info@aviolab.ai - www.aviolab.ai'
+            ].join('\n');
+
+            autoResponseField.value = (document.documentElement.lang === 'it') ? messageIt : messageEn;
+        });
+    }
+
     // Language selector functionality
     const languageSelector = document.querySelector('.language-selector');
     if (languageSelector) {
