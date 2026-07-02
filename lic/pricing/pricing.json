@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-05-31",
-  "bootstrapVersion": 5,
+  "updatedAt": "2026-07-02",
+  "bootstrapVersion": 7,
   "models": {
+    "claude-fable-5": {
+      "inputPerMillion": 10.0,
+      "cacheReadPerMillion": 1.0,
+      "cacheCreatePerMillion": 12.5,
+      "outputPerMillion": 50.0
+    },
+    "claude-mythos-5": {
+      "inputPerMillion": 10.0,
+      "cacheReadPerMillion": 1.0,
+      "cacheCreatePerMillion": 12.5,
+      "outputPerMillion": 50.0
+    },
     "claude-opus-4-8": {
       "inputPerMillion": 5.0,
       "cacheReadPerMillion": 0.5,
@@ -31,6 +43,12 @@
       "cacheReadPerMillion": 1.5,
       "cacheCreatePerMillion": 18.75,
       "outputPerMillion": 75.0
+    },
+    "claude-sonnet-5": {
+      "inputPerMillion": 3.0,
+      "cacheReadPerMillion": 0.3,
+      "cacheCreatePerMillion": 3.75,
+      "outputPerMillion": 15.0
     },
     "claude-sonnet-4-6": {
       "inputPerMillion": 3.0,
