@@ -146,3 +146,5 @@ To add a new download, edit `js/downloads.js` (the `exampleClients` map for per-
 **Riccardo Parenti** — Aviolab AI Founder
 Email: [info@aviolab.ai](mailto:info@aviolab.ai)
 Website: [aviolab.ai](https://aviolab.ai)
+
+<!-- deploy retrigger 2026-07-20 00:12 -->
