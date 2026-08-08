@@ -1,0 +1,7 @@
+# Dati di lavoro della TTR-SERVICE-CONSOLE (registro macchine e database chiavi
+# API): sono cifrati, ma non sono destinati al pubblico. Queste regole li
+# nascondono dal sito servito da Cloudflare Pages, mentre le licenze dei
+# clienti (/lic/licenses/*) e i pacchetti agenti (/lic/agents/*) restano
+# scaricabili come sempre.
+/lic/machine-registry.json* / 302
+/lic/api-keys-db.json* / 302
