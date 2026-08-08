@@ -6,3 +6,10 @@ js/original_*.js
 .DS_Store
 node_modules/
 /~/.claude-api
+
+# TTR-SERVICE-CONSOLE: chiave di firma delle licenze e password memorizzata.
+# La cartella nasce accanto all'eseguibile della console: se la console venisse
+# mai eseguita da dentro questo repo, questi file NON devono poter essere
+# committati (il push di questo repo equivale a pubblicare su aviolab.ai).
+.ttr-generator/
+**/.ttr-generator/
