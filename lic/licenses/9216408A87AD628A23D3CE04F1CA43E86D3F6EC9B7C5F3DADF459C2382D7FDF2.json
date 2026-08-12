@@ -1,6 +1,34 @@
 ﻿{
-  "ExpiresAt": "2027-08-12T16:13:30Z",
-  "ApiKeys": {
-    "ANTHROPIC": "L8HHXrNmzxOMqYk4rRFvjlXEEymchdOIZU+72yloPauY4ApFfo+buE5gzX/bcjCyVT61kXiQe2zkQu6EKCjvJ+fhpTIeLcsP/ZP/MyjEWsVeAftMHCBaYq2X5SOCdmORI+o5R7QGk4TFn+KBeUxw397v+JA9+0qHhoVI8JzEIE4="
+  "schemaVersion": 2,
+  "format": "TTR-LICENSE-V2",
+  "licenseSeed": "9216408A87AD628A23D3CE04F1CA43E86D3F6EC9B7C5F3DADF459C2382D7FDF2",
+  "machineKeyId": "sha256:eeffc7b402fe2231faee27a7fcddb4a32f1e93c3fd1e00c535f139e9bc0c3aa9",
+  "issuedAtUtc": "2026-08-12T16:23:39.9442978Z",
+  "expiresAtUtc": "2027-08-31T16:30:08.0000000Z",
+  "status": "active",
+  "entitlements": {
+    "licenseType": "Enterprise"
+  },
+  "sealedSecrets": {
+    "schemaVersion": 2,
+    "contentAlgorithm": "A256GCM",
+    "keyWrapAlgorithm": "RSA-OAEP-256",
+    "associatedDataSha256": "c995493cc27ce42387629f1ba679a0b4786bb748b46cf360840d9fbc65e5db7f",
+    "nonceBase64": "HcnSXlTUCd2Vbnh/",
+    "ciphertextBase64": "xxZzv8MuGOuPo4f1ddsvHHOd9oSgFgUCIqUi48yHP8yv9GAb1AHlebH2bYTePA6zd13kbdP7cy0DlI9efC14jAfHqjA/QDjxXdjb19hLxFWjV4sln8vVyUZhar419XFoOO\u002BievKzIwvyz46hRV3R7ykasDgk8YvA8AdBGdK3Abwfm530KixQXmZYtw5TSZ9ffo57LDrb9cM/gQ==",
+    "tagBase64": "GwYgwnFemkn7luViZA6OOw==",
+    "recipients": [
+      {
+        "role": "machine",
+        "keyId": "sha256:eeffc7b402fe2231faee27a7fcddb4a32f1e93c3fd1e00c535f139e9bc0c3aa9",
+        "wrappedKeyBase64": "NuZrA20SSbbnXwLbfzO\u002BTCSkp8zPfdfdSzuWdTf5uUIuC9fISDw6lyTe1CP4DXMnyFgz/Le0HJa6PC\u002BnL903CpcJfzmCs28MGrmWmlY2r920ogppiKW4OoPp/EKdlcywZuaLTP7kjK5IEGIBvh\u002BYKFVkltdQ5z0kGrA4jDWMryGJDj7cmMAJJekmyyVxz1DzRxQWEqVzV91zgZXafQ4xm11r0j9q2R0jnh/GOUukpNcGovMuR6BFOszwS7Tmk1IR37RhjblMT1Bh504/vk12r/JzOspNzqMNhGZODcyC67JtkQ7oSAbLOBxBifvyLG2NwISJbpNjDE\u002BfDWh\u002BDJtl6h1UORuWm7wv1mnCDsQ8KAOrGqanrpCHFBl5JzhMsdO/ejdm0poPuwPFu/12s3AcuMp7cy\u002BoLb4UHZq8tCbosWCMPQgeeRhRT16rC5Eor1A1q/qOtwqklNeCQPpp32cd6DmsT6trjI3fy/\u002B7C26ljH27FhVTzIJ0RwxzQnBk3vus"
+      }
+    ]
+  },
+  "signature": {
+    "schemaVersion": 2,
+    "algorithm": "ECDSA-P256-SHA256-P1363",
+    "keyId": "sha256:e337df4e0c1ecf264596fd6c9858db328ef042875a2ccd12ffce440cd54eb316",
+    "valueBase64": "s\u002Bo1n5b86Z4NbNWs948fdG5hXzW4QZgH9NI5cXJQ1BXF0Nuy2YdxM4ldY8c91OKRDoDYOH\u002BZBgPLIKc1qMjrsw=="
   }
 }
