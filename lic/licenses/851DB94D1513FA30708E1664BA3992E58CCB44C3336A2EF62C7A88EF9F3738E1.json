@@ -1,34 +1,6 @@
 ﻿{
-  "schemaVersion": 2,
-  "format": "TTR-LICENSE-V2",
-  "licenseSeed": "851DB94D1513FA30708E1664BA3992E58CCB44C3336A2EF62C7A88EF9F3738E1",
-  "machineKeyId": "sha256:9112576e19967ef116f169c7a1f7a55d2f17bfb24cec47be786abecf7b195ca9",
-  "issuedAtUtc": "2026-08-12T15:58:16.2705368Z",
-  "expiresAtUtc": "2027-08-31T18:30:08.0000000Z",
-  "status": "active",
-  "entitlements": {
-    "licenseType": "Enterprise"
-  },
-  "sealedSecrets": {
-    "schemaVersion": 2,
-    "contentAlgorithm": "A256GCM",
-    "keyWrapAlgorithm": "RSA-OAEP-256",
-    "associatedDataSha256": "e1bb33b00c57b7e0e4d4f25aabcd5a4ba2373175a4f3c35fc278ddcbec92493f",
-    "nonceBase64": "G5ZOZh5wfmjuJ5pq",
-    "ciphertextBase64": "6Kgl1JMdQzeTy5rWwYfyA52/JXU6ucZ/WQSC5KqwFqpYOdDR4zKyzFKGVummEdO16jAGmQAu1HuSc7elZTccQJnD\u002BzO78zySKAT7SOk6eO4CiHeQ7DjhuNWb1QdopM1rq1C10pW\u002B8ZKmfUffKC\u002Bg6IF4SCUt1KgjM\u002Br5UjfCXHEN5cyI9bJ/9qWnXkCvZY/bE8RBYMi7D4kmDQ==",
-    "tagBase64": "XBzJB\u002BmnC9GwjDIk450PyQ==",
-    "recipients": [
-      {
-        "role": "machine",
-        "keyId": "sha256:9112576e19967ef116f169c7a1f7a55d2f17bfb24cec47be786abecf7b195ca9",
-        "wrappedKeyBase64": "mbxUJb7I9ys80aHLG88w58nvU6fbaePt2lYrbWOXnBC7FqZXUkz1ydCDlKoMAqZTK/i92SBmURuPyRTG6ng9rrkzNQoNapDs4KHhOlj0oNw6iQer4J8J54ahShK/J0Y5NdTrBZ0/OXDK5HaIxgGyQmQzuCVyQ99u5hxBrVnQDDnVFG5ZcxWU0pSSNQb4ApT17KDfJPvJZ0v4xRCcjl10ybt8B9sERyRirRN3gaAvC3/AVXWLQrX/DTHh/GiG7zXKoN5il\u002BYudykL4XMW3SsqxE\u002BqImZtptW57tcccuEGSYRSaWeUYFbARYKLJ7AODU6pXIqdvVewE0Xlw3vYZP2mKis7KHszJBl\u002BfPW5GxjcxjGuvZ5RIs8MKeyRE4VqpOz8edgS2eiuraRkaYvhQb3YChHWjkBP3mD1SaTOG3ku4H6DoUy2xR8IquDa7QSEXu0Wh5XT7Q1qBxEM5okAXoKm1BRXfYqOx65Iim0DwaK/GDv1RA1O\u002BG4y1qfxBXCx5Ze3"
-      }
-    ]
-  },
-  "signature": {
-    "schemaVersion": 2,
-    "algorithm": "ECDSA-P256-SHA256-P1363",
-    "keyId": "sha256:e337df4e0c1ecf264596fd6c9858db328ef042875a2ccd12ffce440cd54eb316",
-    "valueBase64": "ZSYS\u002BB/Sc/If2XfejjA66QITP0mF/HDwvNjNEAOcxfPGlXyBVCC/yFbuB\u002BmAiDxro6zQDUC6FY7TxJZUHhzOqw=="
+  "ExpiresAt": "2027-08-12T16:13:44Z",
+  "ApiKeys": {
+    "ANTHROPIC": "dTy2skCA/oZJnC27NVgcVVrIihGLqwzd0p8RMDzxbi/MffnTFTdUGHEslk7qhOBGh5E8b0V0hxUC8NDpHDfTXrf6sEJ7rFO20S0Ng4WsC4Ll2KVS29reXJQXFYzYvHg0OLatxzz1faFfYki8tnQ6gfUcM/eybvneVXCUuItB1Gs="
   }
 }

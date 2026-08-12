@@ -1,34 +1,6 @@
 ﻿{
-  "schemaVersion": 2,
-  "format": "TTR-LICENSE-V2",
-  "licenseSeed": "20074FC760F32145929FE21A66A2F345AF80960CAA25F75BFCAADB7B8C715F1A",
-  "machineKeyId": "sha256:bc6eda885c83ade4d3ac4d1613235f25085a31c770a0fb5be66594f8b0c87aa3",
-  "issuedAtUtc": "2026-08-12T16:08:58.5384152Z",
-  "expiresAtUtc": "2027-08-31T18:30:08.0000000Z",
-  "status": "active",
-  "entitlements": {
-    "licenseType": "Enterprise"
-  },
-  "sealedSecrets": {
-    "schemaVersion": 2,
-    "contentAlgorithm": "A256GCM",
-    "keyWrapAlgorithm": "RSA-OAEP-256",
-    "associatedDataSha256": "9ed8dd84b20550b5d25de75b6313ad46993f50b1ea02e0ac1cca6de86049451d",
-    "nonceBase64": "YSZRIH\u002BZg1xQU18w",
-    "ciphertextBase64": "MWguBlV0a69LqCTLWGxvu16KZigNMTrwGxEpXXqzVwe46eqo5NthyQh/Sjn7CvAERNB1x1So5F3NqEA9SbMfDaaKSn2zUmBY7NOavZAGyJwgIHZg/Pv\u002B\u002Bnc5WHmgZDikaQsQ2aKqVTgxfTiHKB4Ocxz/T1PlxD0\u002B3YCZO\u002B0jUrc3u0QWrZ6zZN20bgfQPqxxQ/Wkkq/0IlReUQ==",
-    "tagBase64": "e/btxxmhwbZp/ZiY3dqrdQ==",
-    "recipients": [
-      {
-        "role": "machine",
-        "keyId": "sha256:bc6eda885c83ade4d3ac4d1613235f25085a31c770a0fb5be66594f8b0c87aa3",
-        "wrappedKeyBase64": "wmlRzB6g\u002BMbeyMvhpSyNvAEV/6G\u002BV9rVNvfHJC9C3LW7E6RFeREGIZPT04DPP3jKnkC9PVnLOF4tQwhm9AW/matozNsSCPXvs\u002BWy9XufXlRIGdpSdkR5tMbmJrihjxXn7mAm3EzPZ2asaAwjcRRqqR1dl17MAXzla6LBtCmXt9RbfFrYUnt/x1VyqzJOyt6DjpNQO\u002B0\u002BKtV9aiWV0nPa8tdi5ZOeSrRzZg0uIhp7EI1yKeP1FQbjYpKJ6JgLk1UyP5\u002BHAQLpcPtyptT4DJnONZHwsWiSBQS7AO1KUYIIaOaozcw1ct6VM2wZ8jDMFac6VScGVZtIk9NSVIYipBT5Y0/RHiICKlf2XbvETBpf6KrUwhu94eGD\u002BkVqqCwem2HYiM04p8P8rwFF3kQl5Y\u002BdHo8glF\u002BZEYgC/Wh\u002Bo/bJoiLq5GuEDocnELBWfu9VNhzHqDLBBCukF9rkX0iGk8z3Q4lHXKbrXLB7fUh7OpR6B3U27TzGwyzn3DW/naam2jLY"
-      }
-    ]
-  },
-  "signature": {
-    "schemaVersion": 2,
-    "algorithm": "ECDSA-P256-SHA256-P1363",
-    "keyId": "sha256:e337df4e0c1ecf264596fd6c9858db328ef042875a2ccd12ffce440cd54eb316",
-    "valueBase64": "gFEWUvanYaq/dGaMjd9j7eF4QxRHjUk3nk1fT5siR365JJpSvJLJtdi4I3BaECiMgy5jamAjLqP8ucG8NPeavg=="
+  "ExpiresAt": "2027-08-12T16:13:37Z",
+  "ApiKeys": {
+    "ANTHROPIC": "yGlb3kmna2sf59hlDxPRY/OjnholI7SA/s8v9+WxUl8kS1xjgk9S6NRd7MRRVDDE/EWShLQ0Om0DXzQl6AdY60+T85ebGeUNkK484EsIGN9wfoeRGtM2fuyiDIBVwxaYTYmlboaQIua2fNJJcKOIJYntclhztjM4nbYTd+5sGEA="
   }
 }
