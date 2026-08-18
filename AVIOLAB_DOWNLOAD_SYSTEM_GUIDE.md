@@ -24,7 +24,7 @@ The download system consists of two main components:
 aviolab-ai-downloads/
 ├── README.md                    # Repository documentation
 ├── public/                      # Public downloads (everyone)
-│   ├── TTR-PROBE.zip           # Technical analysis tool
+│   ├── MD-to-DOCX-Converter.exe # Markdown to Word converter
 │   ├── company-brochure.pdf    # Marketing materials
 │   └── demo-software.zip       # Trial versions
 ├── clients/                     # Client-specific files
@@ -54,7 +54,7 @@ https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/clients/[CLIENT-ID]/[f
 ```
 
 ### Examples
-- Public tool (GitHub release): `https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/TTR-SUITE/TTR-PROBE.exe`
+- Public tool (GitHub release): `https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/TTR-SUITE/TTR-UPDATER.exe`
 - Public doc (public/ dir): `https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/MD-to-DOCX-Converter.exe`
 - Client: `https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/clients/AEN-TTR/TTR-PROBE.zip`
 

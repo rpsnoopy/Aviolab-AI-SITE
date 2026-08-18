@@ -40,13 +40,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Add placeholder for additional public files
         // You can manually add more items here or implement dynamic loading
+        // NOTA: TTR-PROBE non e' piu' una risorsa pubblica (rimosso 2026-08-18).
+        // L'installazione senza licenza lancia da se' il probe di dotazione,
+        // quindi il download separato non serve piu' e non va ripristinato.
         const additionalPublicFiles = [
-            {
-                name: translations[currentLanguage]?.ttr_probe_title || 'TTR-PROBE',
-                description: translations[currentLanguage]?.ttr_probe_desc || 'Strumento di analisi tecnica',
-                icon: 'fas fa-cog',
-                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/TTR-SUITE/TTR-PROBE.exe'
-            },
             {
                 name: translations[currentLanguage]?.ttr_updater_title || 'TTR-SUITE Installer',
                 description: translations[currentLanguage]?.ttr_updater_desc || 'Programma di installazione automatica TTR-SUITE (scarica e installa automaticamente l\'ultima versione)',

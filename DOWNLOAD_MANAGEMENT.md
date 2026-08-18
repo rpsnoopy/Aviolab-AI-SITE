@@ -7,8 +7,8 @@
 ## 📁 Structure
 ```
 aviolab-ai-downloads/
-├── public/              # Public downloads
-│   └── TTR-PROBE.zip
+├── public/              # Public downloads (no TTR-PROBE: withdrawn 2026-08-18)
+│   └── MD-to-DOCX-Converter.exe
 ├── clients/            # Client-specific files
 │   ├── AEN-TTR/
 │   ├── TEST123/

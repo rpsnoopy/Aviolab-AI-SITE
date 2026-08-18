@@ -105,7 +105,7 @@ To enable / configure Web Analytics, go to the Pages project → **Settings** �
 
 The downloads area at `/downloads.html` distributes:
 
-- **Public files** (TTR-PROBE, install scripts, English/Italian readmes) — open to all visitors
+- **Public files** (TTR-SUITE installer, network diagnostic tool, install scripts, English/Italian readmes) — open to all visitors. TTR-PROBE is **not** among them: the unlicensed installation runs the dotation probe by itself, so the standalone download was removed on 2026-08-18.
 - **Per-client files** (TTR-SUITE licence packages, agent bundles) — accessed via a client ID entered by the visitor; the actual ZIPs sit in [`aviolab-ai-downloads/clients/<CLIENT-ID>/`](https://github.com/rpsnoopy/aviolab-ai-downloads/tree/main/clients) and are password-protected. Passwords are communicated to clients out-of-band.
 
 To add a new download, edit `js/downloads.js` (the `exampleClients` map for per-client files, or `additionalPublicFiles` for public files), then upload the matching ZIP to the `aviolab-ai-downloads` repo. See `GESTIONE_DOWNLOADS.md` and `DOWNLOAD_MANAGEMENT.md` for the full procedure.
