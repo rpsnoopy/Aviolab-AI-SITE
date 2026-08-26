@@ -224,7 +224,7 @@ download_troubleshooting_desc: Guida di supporto tecnico per installazione e uti
 ttr_suite_user_guide_desc: Guida utente completa per TTR-SUITE - descrizione interfaccia, funzionalità e istruzioni d'uso
 ttr_updater_desc: Programma di installazione automatica TTR-SUITE (scarica e installa automaticamente l'ultima versione)
 ttr_network_diagnostic_desc: Strumento diagnostico di connettività di rete per TTR-SUITE - testa download licenze e accesso API LLM in ambienti aziendali
-copyright_finder_desc: Strumento gratuito per Windows per verificare la provenienza delle immagini: ricerca inversa, descrizioni AI con Google Gemini/Cloud Vision, ricerche Serper generate da ogni descrizione, indice visivo calcolato localmente e report PDF. Le ricerche online richiedono chiavi API personali.
+copyright_finder_desc: Strumento gratuito per Windows per verificare la provenienza delle immagini: ricerche visuali e semantiche indipendenti, drag & drop di immagini e cartelle, descrizioni AI modificabili, indice visivo locale e report PDF. Le ricerche online richiedono chiavi API personali.
 md_to_docx_desc: Convertitore Markdown a Word - tool drag & drop con integrazione automatica pandoc
 download_english: English
 download_italian: Italiano
@@ -237,7 +237,7 @@ for_assistance: per assistenza.
 files_may_be_password_protected: I file potrebbero essere protetti da password. Controlli la Sua email per le credenziali di accesso.
 ttr_updater_title: TTR-SUITE Installer
 ttr_network_diagnostic_title: Strumento Diagnostico di Rete TTR
-copyright_finder_title: Copyright Finder
+copyright_finder_title: IMAGE COPYRIGHT FINDER
 md_to_docx_title: Convertitore MD-to-DOCX
 ttr_suite_user_guide_title: Guida Utente TTR-SUITE
 ttr_agents_quick_guide_title: Guida Rapida Agenti TTR-SUITE

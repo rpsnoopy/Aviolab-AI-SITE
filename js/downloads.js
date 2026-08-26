@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // quindi il download separato non serve piu' e non va ripristinato.
         const additionalPublicFiles = [
             {
-                name: translations[currentLanguage]?.copyright_finder_title || 'Copyright Finder',
+                name: translations[currentLanguage]?.copyright_finder_title || 'IMAGE COPYRIGHT FINDER',
                 description: translations[currentLanguage]?.copyright_finder_desc || 'Strumento gratuito per Windows con ricerca inversa, descrizione AI tramite Google Gemini/Cloud Vision, ricerca Serper dalla descrizione, indice visivo locale e report PDF. Le ricerche online richiedono chiavi API personali.',
                 icon: 'fas fa-images',
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/copyright-finder-v1.2.0/ImageCopyrightFinder-v1.2.0-win-x64.zip'
