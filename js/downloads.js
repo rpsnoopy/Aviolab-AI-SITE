@@ -45,6 +45,12 @@ document.addEventListener('DOMContentLoaded', function() {
         // quindi il download separato non serve piu' e non va ripristinato.
         const additionalPublicFiles = [
             {
+                name: translations[currentLanguage]?.copyright_finder_title || 'Copyright Finder',
+                description: translations[currentLanguage]?.copyright_finder_desc || 'Strumento gratuito per Windows che aiuta a verificare la provenienza delle immagini prima della pubblicazione. Le ricerche online richiedono chiavi API personali.',
+                icon: 'fas fa-images',
+                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/copyright-finder-v1.0.0/CopyrightFinder-v1.0.0-win-x64.zip'
+            },
+            {
                 name: translations[currentLanguage]?.ttr_updater_title || 'TTR-SUITE Installer',
                 description: translations[currentLanguage]?.ttr_updater_desc || 'Programma di installazione automatica TTR-SUITE (scarica e installa automaticamente l\'ultima versione)',
                 icon: 'fas fa-download',
