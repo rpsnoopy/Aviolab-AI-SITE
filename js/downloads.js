@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const additionalPublicFiles = [
             {
                 name: translations[currentLanguage]?.copyright_finder_title || 'Copyright Finder',
-                description: translations[currentLanguage]?.copyright_finder_desc || 'Strumento gratuito per Windows che aiuta a verificare la provenienza delle immagini prima della pubblicazione. Le ricerche online richiedono chiavi API personali.',
+                description: translations[currentLanguage]?.copyright_finder_desc || 'Strumento gratuito per Windows con ricerca inversa, descrizione AI tramite Google Gemini/Cloud Vision, ricerca Serper dalla descrizione, indice visivo locale e report PDF. Le ricerche online richiedono chiavi API personali.',
                 icon: 'fas fa-images',
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/copyright-finder-v1.1.0/CopyrightFinder-v1.1.0-win-x64.zip'
             },
