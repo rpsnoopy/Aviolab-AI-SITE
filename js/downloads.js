@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const additionalPublicFiles = [
             {
                 name: translations[currentLanguage]?.copyright_finder_title || 'IMAGE COPYRIGHT FINDER',
-                description: translations[currentLanguage]?.copyright_finder_desc || 'Strumento gratuito per Windows con ricerca inversa, descrizione AI tramite Google Gemini/Cloud Vision, ricerca Serper dalla descrizione, indice visivo locale e report PDF. Le ricerche online richiedono chiavi API personali.',
+                description: translations[currentLanguage]?.copyright_finder_desc || 'Scopri dove compare un’immagine, individua possibili fonti e documenta i risultati in pochi passaggi. IMAGE COPYRIGHT FINDER è lo strumento gratuito offerto da Aviolab AI a creativi, professionisti e organizzazioni per effettuare ricerche visuali e semantiche, analizzare immagini e intere cartelle, creare descrizioni con l’AI, costruire un archivio visivo locale e generare report PDF. Le ricerche online richiedono chiavi API personali.',
                 icon: 'fas fa-images',
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/copyright-finder-v1.3.2/ImageCopyrightFinder-v1.3.2-win-x64.exe'
             },

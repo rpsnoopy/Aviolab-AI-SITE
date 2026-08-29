@@ -224,7 +224,7 @@ download_troubleshooting_desc: Guida di supporto tecnico per installazione e uti
 ttr_suite_user_guide_desc: Guida utente completa per TTR-SUITE - descrizione interfaccia, funzionalità e istruzioni d'uso
 ttr_updater_desc: Programma di installazione automatica TTR-SUITE (scarica e installa automaticamente l'ultima versione)
 ttr_network_diagnostic_desc: Strumento diagnostico di connettività di rete per TTR-SUITE - testa download licenze e accesso API LLM in ambienti aziendali
-copyright_finder_desc: Strumento gratuito per Windows per verificare la provenienza delle immagini: ricerche visuali e semantiche indipendenti, drag & drop di immagini e cartelle, descrizioni AI modificabili, indice visivo locale e report PDF. Le ricerche online richiedono chiavi API personali.
+copyright_finder_desc: Scopri dove compare un’immagine, individua possibili fonti e documenta i risultati in pochi passaggi. IMAGE COPYRIGHT FINDER è lo strumento gratuito offerto da Aviolab AI a creativi, professionisti e organizzazioni per effettuare ricerche visuali e semantiche, analizzare immagini e intere cartelle, creare descrizioni con l’AI, costruire un archivio visivo locale e generare report PDF. Le ricerche online richiedono chiavi API personali.
 md_to_docx_desc: Convertitore Markdown a Word - tool drag & drop con integrazione automatica pandoc
 download_english: English
 download_italian: Italiano
