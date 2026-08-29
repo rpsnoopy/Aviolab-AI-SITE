@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 name: translations[currentLanguage]?.copyright_finder_title || 'IMAGE COPYRIGHT FINDER',
                 description: translations[currentLanguage]?.copyright_finder_desc || 'Strumento gratuito per Windows con ricerca inversa, descrizione AI tramite Google Gemini/Cloud Vision, ricerca Serper dalla descrizione, indice visivo locale e report PDF. Le ricerche online richiedono chiavi API personali.',
                 icon: 'fas fa-images',
-                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/copyright-finder-v1.3.0/ImageCopyrightFinder-v1.3.0-win-x64.zip'
+                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/copyright-finder-v1.3.1/ImageCopyrightFinder-v1.3.1-win-x64.exe'
             },
             {
                 name: translations[currentLanguage]?.ttr_updater_title || 'TTR-SUITE Installer',
