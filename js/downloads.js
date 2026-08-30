@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 name: translations[currentLanguage]?.copyright_finder_title || 'IMAGE COPYRIGHT FINDER',
                 description: translations[currentLanguage]?.copyright_finder_desc || 'Prima di pubblicare la tua immagine, cerca opere uguali o molto simili e riduci il rischio di violare diritti altrui. Se non emergono corrispondenze rilevanti, IMAGE COPYRIGHT FINDER documenta in un report PDF datato le verifiche svolte in buona fede, così puoi conservare una traccia del controllo e pubblicare l’opera con la tua indicazione di copyright. Lo strumento gratuito offerto da Aviolab AI combina ricerche visuali e semantiche, analisi di immagini e cartelle, descrizioni AI modificabili e un archivio visivo locale. Le ricerche online richiedono chiavi API personali e non garantiscono l’assenza di diritti di terzi.',
                 icon: 'fas fa-images',
-                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/copyright-finder-v1.3.3/ImageCopyrightFinder-v1.3.3-win-x64.exe'
+                file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/copyright-finder-v1.3.4/ImageCopyrightFinder-v1.3.4-win-x64.exe'
             },
             {
                 name: translations[currentLanguage]?.ttr_updater_title || 'TTR-SUITE Installer',
