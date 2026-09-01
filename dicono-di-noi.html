@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1e40af">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <meta name="description" content="Dicono di noi: comunicati stampa e articoli su Aviolab AI e TTR-SUITE. Il Comune di Pieve Ligure adotta l'intelligenza artificiale nel lavoro amministrativo di ogni giorno dopo una sperimentazione conclusa con esito positivo.">
+    <meta name="author" content="Riccardo Parenti">
+    <meta name="keywords" content="Aviolab AI, TTR-SUITE, rassegna stampa, comunicato stampa, Comune di Pieve Ligure, intelligenza artificiale Comuni, PA Locale, Pieve Ligure">
+    <title>Dicono di noi, Rassegna stampa | Aviolab AI</title>
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://aviolab.ai/dicono-di-noi.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Aviolab AI">
+    <meta property="og:url" content="https://aviolab.ai/dicono-di-noi.html">
+    <meta property="og:title" content="Dicono di noi | Aviolab AI">
+    <meta property="og:description" content="Il Comune di Pieve Ligure adotta l'intelligenza artificiale: pratiche più rapide e più tempo per i Cittadini e le Cittadine. Comunicati e articoli su TTR-SUITE.">
+    <meta property="og:image" content="https://aviolab.ai/assets/og/og-pa-locale.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Dicono di noi: rassegna stampa Aviolab AI">
+    <meta property="og:locale" content="it_IT">
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Dicono di noi",
+      "url": "https://aviolab.ai/dicono-di-noi.html",
+      "inLanguage": "it",
+      "publisher": { "@type": "Organization", "name": "Aviolab AI", "url": "https://aviolab.ai/" },
+      "hasPart": [
+        {
+          "@type": "NewsArticle",
+          "headline": "Pieve Ligure porta 43 intelligenze artificiali negli uffici: controlleranno atti e norme",
+          "datePublished": "2026-09-01",
+          "inLanguage": "it",
+          "publisher": { "@type": "Organization", "name": "Genova Quotidiana" },
+          "url": "https://genovaquotidiana.com/2026/09/01/pieve-ligure-porta-43-intelligenze-artificiali-negli-uffici-controlleranno-atti-e-norme/"
+        },
+        {
+          "@type": "NewsArticle",
+          "headline": "Il Comune di Pieve Ligure adotta l'intelligenza artificiale: pratiche più rapide e più tempo per i Cittadini e le Cittadine",
+          "datePublished": "2026-09-01",
+          "inLanguage": "it",
+          "publisher": { "@type": "Organization", "name": "Comune di Pieve Ligure" },
+          "url": "https://mailchi.mp/b6b0a3531dc2/ilcomune-di-pieve-ligure-adotta-lintelligenza-artificiale-pratiche-pi-rapide-e-pi-tempo-per-i-cittadini-e-le-cittadine"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Favicons -->
+    <link rel="icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="Aviolab.ai">
+
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+
+    <style>
+        /* Stili specifici per dicono-di-noi (pagina IT-only) */
+        .dn-hero {
+            background: linear-gradient(135deg, #0f172a 0%, #1e40af 100%);
+            color: #fff;
+            padding: 8rem 0 4rem;
+            text-align: center;
+        }
+        .dn-hero h1 { font-size: 2.8rem; margin-bottom: 1rem; }
+        .dn-hero h1 .highlight { color: #ff0000; }
+        .dn-hero .lead {
+            font-size: 1.2rem;
+            max-width: 820px;
+            margin: 0 auto;
+            color: #e2e8f0;
+        }
+
+        .dn-section { padding: 4.5rem 0; }
+        .dn-section--alt { background: #f8fafc; }
+        .dn-section-title { text-align: center; margin-bottom: 2.5rem; }
+        .dn-section-title h2 { font-size: 2rem; color: #0f172a; margin-bottom: 0.6rem; }
+        .dn-section-title .underline {
+            width: 70px; height: 4px; background: #ff0000; margin: 0.6rem auto 1rem; border-radius: 2px;
+        }
+        .dn-section-title p { color: #64748b; max-width: 760px; margin: 0 auto; }
+
+        /* Card in evidenza (comunicato stampa) */
+        .dn-feature {
+            max-width: 980px;
+            margin: 0 auto;
+            background: #fff;
+            border: 1px solid #e2e8f0;
+            border-left: 6px solid #ff0000;
+            border-radius: 12px;
+            padding: 2.2rem 2.4rem;
+            box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+        }
+        .dn-feature__meta {
+            display: flex; flex-wrap: wrap; gap: 0.6rem 1.2rem; align-items: center;
+            font-size: 0.85rem; color: #64748b; text-transform: uppercase; letter-spacing: 1px;
+            margin-bottom: 1rem;
+        }
+        .dn-feature__meta .dn-tag {
+            background: #fee2e2; color: #b91c1c; padding: 0.2rem 0.7rem; border-radius: 999px;
+            font-weight: 700; letter-spacing: 1px;
+        }
+        .dn-feature h3 { font-size: 1.6rem; color: #0f172a; line-height: 1.3; margin-bottom: 0.6rem; }
+        .dn-feature .dn-subtitle { color: #1e40af; font-weight: 600; margin-bottom: 1.4rem; }
+        .dn-feature p { color: #334155; line-height: 1.7; margin-bottom: 1rem; }
+        .dn-feature blockquote {
+            margin: 1.4rem 0; padding: 1rem 1.4rem;
+            background: #f8fafc; border-left: 4px solid #1e40af; border-radius: 6px;
+            color: #0f172a; font-style: italic; line-height: 1.7;
+        }
+        .dn-feature blockquote cite {
+            display: block; margin-top: 0.6rem; font-style: normal; font-weight: 600; color: #1e40af; font-size: 0.95rem;
+        }
+        .dn-facts {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem; margin: 1.6rem 0;
+        }
+        .dn-fact {
+            background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 1rem 1.1rem;
+        }
+        .dn-fact .dn-fact__k { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 1px; color: #64748b; margin-bottom: 0.3rem; }
+        .dn-fact .dn-fact__v { color: #0f172a; font-weight: 600; line-height: 1.4; }
+        .dn-feature .cta-buttons { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.4rem; }
+        .dn-feature .btn-secondary { color: #1e40af; border-color: #1e40af; background: transparent; }
+        .dn-feature .btn-secondary:hover { background: #1e40af; color: #fff; }
+
+        /* Rassegna stampa */
+        .dn-list { max-width: 980px; margin: 0 auto; display: grid; gap: 1.2rem; }
+        .dn-item {
+            display: grid; grid-template-columns: 150px 1fr; gap: 1.2rem; align-items: start;
+            background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 1.3rem 1.5rem;
+            transition: box-shadow 0.2s ease, transform 0.2s ease;
+        }
+        .dn-item:hover { box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08); transform: translateY(-2px); }
+        .dn-item__date { color: #64748b; font-size: 0.9rem; line-height: 1.5; }
+        .dn-item__date strong { display: block; color: #0f172a; font-size: 1rem; }
+        .dn-item h3 { font-size: 1.15rem; color: #0f172a; margin-bottom: 0.4rem; line-height: 1.4; }
+        .dn-item h3 a { color: inherit; text-decoration: none; }
+        .dn-item h3 a:hover { color: #1e40af; }
+        .dn-item p { color: #475569; line-height: 1.6; margin-bottom: 0.5rem; }
+        .dn-item .dn-item__link { color: #ff0000; font-weight: 600; text-decoration: none; font-size: 0.95rem; }
+        .dn-item .dn-item__link:hover { text-decoration: underline; }
+        .dn-empty {
+            max-width: 980px; margin: 0 auto; text-align: center; color: #64748b;
+            background: #fff; border: 1px dashed #cbd5e1; border-radius: 10px; padding: 1.6rem;
+        }
+
+        /* Contatti stampa */
+        .dn-press {
+            max-width: 980px; margin: 0 auto;
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.2rem;
+        }
+        .dn-press__card {
+            background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 1.5rem;
+        }
+        .dn-press__card h3 { font-size: 1.1rem; color: #1e40af; margin-bottom: 0.8rem; }
+        .dn-press__card p { color: #334155; line-height: 1.7; margin: 0.2rem 0; }
+        .dn-press__card a { color: #0f172a; text-decoration: none; }
+        .dn-press__card a:hover { color: #ff0000; }
+        .dn-press__card i { width: 1.4rem; color: #ff0000; }
+
+        @media (max-width: 768px) {
+            .dn-hero { padding: 6rem 0 3rem; }
+            .dn-hero h1 { font-size: 2rem; }
+            .dn-feature { padding: 1.6rem 1.3rem; }
+            .dn-feature h3 { font-size: 1.3rem; }
+            .dn-item { grid-template-columns: 1fr; gap: 0.5rem; }
+        }
+    </style>
+</head>
+<body class="it">
+    <header id="header">
+        <div class="header-container">
+            <a href="index.html#home" class="logo-link">
+                <img src="assets/logo.png" alt="Aviolab AI Logo">
+                <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html#mission" class="nav-link">Mission</a></li>
+                    <li><a href="index.html#products" class="nav-link">Soluzioni</a></li>
+                    <li><a href="pa-locale.html" class="nav-link">PA Locale</a></li>
+                    <li><a href="ip-legal.html" class="nav-link">IP Legal</a></li>
+                    <li><a href="index.html#about" class="nav-link">Chi siamo</a></li>
+                    <li><a href="index.html#contact" class="nav-link">Contatti</a></li>
+                    <li><a href="dicono-di-noi.html" class="nav-link active">Dicono di noi</a></li>
+                    <li><a href="downloads.html" class="nav-link" style="color: var(--highlight-color) !important; font-weight: bold;">Download</a></li>
+                </ul>
+            </nav>
+            <div class="language-selector">
+                <div class="lang-option" data-lang="en">
+                    <img src="assets/images/flags/flag-gb.svg" alt="English" class="flag-icon" loading="lazy" decoding="async"> EN
+                </div>
+                <div class="lang-option" data-lang="it">
+                    <img src="assets/images/flags/flag-it.svg" alt="Italiano" class="flag-icon" loading="lazy" decoding="async"> IT
+                </div>
+            </div>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="dn-hero">
+        <div class="container">
+            <h1>Dicono <span class="highlight">di noi</span></h1>
+            <p class="lead">
+                Comunicati stampa e articoli su Aviolab AI e su <strong>TTR-SUITE</strong>,
+                il sistema di intelligenza artificiale progettato per il lavoro quotidiano degli uffici comunali.
+            </p>
+        </div>
+    </section>
+
+    <!-- IN EVIDENZA: comunicato stampa Comune di Pieve Ligure -->
+    <section class="dn-section" id="pieve-ligure">
+        <div class="container">
+            <div class="dn-section-title">
+                <h2>In evidenza</h2>
+                <div class="underline"></div>
+            </div>
+
+            <article class="dn-feature">
+                <div class="dn-feature__meta">
+                    <span class="dn-tag">Comunicato stampa</span>
+                    <span><i class="fas fa-landmark"></i> Comune di Pieve Ligure, Città Metropolitana di Genova</span>
+                    <span><i class="far fa-calendar"></i> 1° settembre 2026</span>
+                </div>
+                <h3>Il Comune di Pieve Ligure adotta l'intelligenza artificiale: pratiche più rapide e più tempo per i Cittadini e le Cittadine</h3>
+                <p class="dn-subtitle">Pieve Ligure è tra i primi piccoli Comuni in Italia a portare l'intelligenza artificiale nel lavoro amministrativo di ogni giorno.</p>
+
+                <p>
+                    Dopo una sperimentazione conclusa con esito positivo, il Comune di Pieve Ligure ha deciso di proseguire
+                    l'utilizzo di un sistema di intelligenza artificiale progettato su misura per il lavoro quotidiano degli uffici comunali.
+                    Il sistema affianca il funzionario, confronta ogni atto con la normativa vigente e fornisce revisioni e riferimenti
+                    puntuali, già pronti per il fascicolo. È sviluppato appositamente per la Pubblica Amministrazione, è semplice da usare
+                    e si basa su <strong>43 diverse intelligenze artificiali che collaborano al risultato</strong>. Ogni atto verificato diventa
+                    disponibile in una <strong>biblioteca digitale che resta patrimonio del Comune</strong> e cresce con l'uso.
+                </p>
+
+                <blockquote>
+                    «L'obiettivo è molto concreto: un Comune che risponde prima, risponde meglio e assiste di più i Cittadini e le Cittadine.
+                    E abbiamo lasciato prendere la decisione a chi lavora sulle pratiche tutti i giorni: i responsabili dei servizi hanno
+                    provato il sistema sul campo e sono stati loro a chiederci di mantenerlo stabilmente in dotazione agli uffici.
+                    L'innovazione ha senso se serve a chi lavora e a chi aspetta una risposta, non se è una vetrina.»
+                    <cite>Paola Negro, Sindaca di Pieve Ligure</cite>
+                </blockquote>
+
+                <div class="dn-facts">
+                    <div class="dn-fact">
+                        <div class="dn-fact__k">Uffici della sperimentazione</div>
+                        <div class="dn-fact__v">Segreteria Generale, Polizia Locale, Ufficio Tecnico</div>
+                    </div>
+                    <div class="dn-fact">
+                        <div class="dn-fact__k">Esito</div>
+                        <div class="dn-fact__v">Utilizzo esteso a tutti i servizi comunali, nell'ambito delle risorse ordinarie di bilancio</div>
+                    </div>
+                    <div class="dn-fact">
+                        <div class="dn-fact__k">Dati e pratiche</div>
+                        <div class="dn-fact__v">Sistema installato sulle postazioni del Comune, crittografia forte, archiviazione soltanto sulle macchine dell'Ente</div>
+                    </div>
+                    <div class="dn-fact">
+                        <div class="dn-fact__k">Il contesto</div>
+                        <div class="dn-fact__v">Solo il 7% dei Comuni italiani usa soluzioni di IA, quasi sempre grandi città (Osservatorio Agenda Digitale, Politecnico di Milano)</div>
+                    </div>
+                </div>
+
+                <p>
+                    Il sistema è sviluppato da <strong>Aviolab AI di Riccardo Parenti</strong>, con sede a Pieve Ligure.
+                </p>
+
+                <div class="cta-buttons">
+                    <a href="https://mailchi.mp/b6b0a3531dc2/ilcomune-di-pieve-ligure-adotta-lintelligenza-artificiale-pratiche-pi-rapide-e-pi-tempo-per-i-cittadini-e-le-cittadine"
+                       class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-newspaper"></i> Legga il comunicato integrale
+                    </a>
+                    <a href="pa-locale.html" class="btn btn-secondary">
+                        <i class="fas fa-landmark"></i> Scopra TTR-SUITE per la PA Locale
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- RASSEGNA STAMPA -->
+    <section class="dn-section dn-section--alt" id="rassegna">
+        <div class="container">
+            <div class="dn-section-title">
+                <h2>Rassegna stampa</h2>
+                <div class="underline"></div>
+                <p>Gli articoli e i servizi che riprendono il comunicato, in ordine cronologico. La pagina viene aggiornata man mano che escono.</p>
+            </div>
+
+            <div class="dn-list">
+                <!--
+                    TEMPLATE ARTICOLO (copiare, compilare, inserire in testa alla lista: il piu' recente per primo)
+
+                <article class="dn-item">
+                    <div class="dn-item__date"><strong>Nome della testata</strong>gg mese aaaa</div>
+                    <div>
+                        <h3><a href="URL_ARTICOLO" target="_blank" rel="noopener noreferrer">Titolo dell'articolo</a></h3>
+                        <p>Breve estratto o sintesi in una o due frasi.</p>
+                        <a class="dn-item__link" href="URL_ARTICOLO" target="_blank" rel="noopener noreferrer">Legga l'articolo <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </article>
+                -->
+
+                <article class="dn-item">
+                    <div class="dn-item__date"><strong>Genova Quotidiana</strong>1° settembre 2026</div>
+                    <div>
+                        <h3><a href="https://genovaquotidiana.com/2026/09/01/pieve-ligure-porta-43-intelligenze-artificiali-negli-uffici-controlleranno-atti-e-norme/" target="_blank" rel="noopener noreferrer">Pieve Ligure porta 43 intelligenze artificiali negli uffici: controlleranno atti e norme</a></h3>
+                        <p>Dopo una sperimentazione nella Segreteria generale, nella Polizia locale e nell'Ufficio tecnico, il Comune estende il sistema a tutti i servizi. L'obiettivo è ridurre i tempi delle pratiche, senza sostituire le decisioni dei funzionari.</p>
+                        <a class="dn-item__link" href="https://genovaquotidiana.com/2026/09/01/pieve-ligure-porta-43-intelligenze-artificiali-negli-uffici-controlleranno-atti-e-norme/" target="_blank" rel="noopener noreferrer">Legga l'articolo <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </article>
+
+                <article class="dn-item">
+                    <div class="dn-item__date"><strong>Comune di Pieve Ligure</strong>1° settembre 2026</div>
+                    <div>
+                        <h3><a href="https://mailchi.mp/b6b0a3531dc2/ilcomune-di-pieve-ligure-adotta-lintelligenza-artificiale-pratiche-pi-rapide-e-pi-tempo-per-i-cittadini-e-le-cittadine" target="_blank" rel="noopener noreferrer">Il Comune di Pieve Ligure adotta l'intelligenza artificiale: pratiche più rapide e più tempo per i Cittadini e le Cittadine</a></h3>
+                        <p>Comunicato stampa ufficiale del Comune: la sperimentazione in tre uffici, la decisione dei responsabili dei servizi, l'estensione a tutti i servizi comunali.</p>
+                        <a class="dn-item__link" href="https://mailchi.mp/b6b0a3531dc2/ilcomune-di-pieve-ligure-adotta-lintelligenza-artificiale-pratiche-pi-rapide-e-pi-tempo-per-i-cittadini-e-le-cittadine" target="_blank" rel="noopener noreferrer">Legga il comunicato <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATTI STAMPA -->
+    <section class="dn-section" id="contatti-stampa">
+        <div class="container">
+            <div class="dn-section-title">
+                <h2>Contatti per la stampa</h2>
+                <div class="underline"></div>
+                <p>Per interviste, approfondimenti e materiali su TTR-SUITE e sul caso di Pieve Ligure.</p>
+            </div>
+            <div class="dn-press">
+                <div class="dn-press__card">
+                    <h3>Aviolab AI</h3>
+                    <p><i class="fas fa-user"></i> Ing. Riccardo Parenti</p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:r.parenti@aviolab.ai">r.parenti@aviolab.ai</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+393356050950">+39 335 605 0950</a></p>
+                    <p><i class="fas fa-globe"></i> <a href="https://www.aviolab.ai">www.aviolab.ai</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Via XXV Aprile 251, 16031 Pieve Ligure (GE)</p>
+                </div>
+                <div class="dn-press__card">
+                    <h3>Materiali</h3>
+                    <p><i class="fas fa-file-pdf"></i> <a href="pa-locale.html#documentazione">Brochure, scheda AGID e documentazione AI Act e GDPR</a></p>
+                    <p><i class="fas fa-photo-film"></i> <a href="pa-locale-in-azione.html">TTR-SUITE in azione: una sessione reale in screenshot</a></p>
+                    <p><i class="fas fa-download"></i> <a href="downloads.html#certificazioni">Certificazioni e documenti scaricabili</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html#home" class="logo-link">
+                        <img src="assets/logo.png" alt="Aviolab AI Logo">
+                        <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+                    </a>
+                    <p>AI applicata al diritto e alla Pubblica Amministrazione</p>
+                    <div class="legal-info">
+                        <p>AVIOLAB AI DI PARENTI RICCARDO</p>
+                        <p>Via XXV Aprile 251</p>
+                        <p>IT16031 Pieve Ligure (GE)</p>
+                        <p>P.IVA 02997110990</p>
+                        <p>REA GE - 525625</p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Soluzioni</h3>
+                    <ul>
+                        <li><a href="pa-locale.html">TTR-SUITE PA Locale</a></li>
+                        <li><a href="pa-locale-in-azione.html">TTR-SUITE in azione</a></li>
+                        <li><a href="ip-legal.html">TTR-SUITE IP Legal</a></li>
+                        <li><a href="dicono-di-noi.html">Dicono di noi</a></li>
+                        <li><a href="downloads.html">Download</a></li>
+                        <li><a href="index.html#contact">Contatti</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Resti in contatto</h3>
+                    <p><a href="mailto:info@aviolab.ai" style="color:inherit;"><i class="fas fa-envelope"></i> info@aviolab.ai</a></p>
+                    <p><a href="https://www.aviolab.ai" target="_blank" style="color:inherit;"><i class="fas fa-globe"></i> www.aviolab.ai</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Aviolab AI. Tutti i diritti riservati.</p>
+                <p class="version-number">v1.3.15</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

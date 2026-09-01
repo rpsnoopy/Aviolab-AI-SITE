@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#1e40af">
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-    <meta name="description" content="TTR-SUITE per la PA Locale: consulenza giuridica e amministrativa AI per i Comuni italiani. Pareri, redazione di atti, fascicolo digitale SInCRO e affiancamento esperto ai funzionari, dalla domanda di base al caso complesso. Conformità AI Act art. 50 e GDPR. Architettura coperta da domanda di brevetto UIBM.">
+    <meta name="description" content="TTR-SUITE per la PA Locale: consulenza giuridica e amministrativa AI per i Comuni italiani. Pareri, redazione di atti, fascicolo digitale SInCRO e affiancamento esperto ai funzionari, dalla domanda di base al caso complesso. Conformità AI Act art. 50 e GDPR. Architettura coperta da domanda di brevetto UIBM. Adottata dal Comune di Pieve Ligure (GE) dopo una sperimentazione conclusa con esito positivo.">
     <meta name="author" content="Riccardo Parenti">
     <meta name="keywords" content="Agentic AI, AI agenti, TTR-SUITE, PA Locale, Comuni, segretario comunale, consulenza giuridica AI, redazione atti, affiancamento funzionari, fascicolo digitale, SInCRO, UNI 11386, Normattiva, AI Act, GDPR, brevetto UIBM, Halley, S.I.C.">
     <title>TTR-SUITE per la PA Locale, Consulenza giuridica AI per i Comuni | Aviolab AI</title>
@@ -43,7 +43,8 @@
         "url": "https://aviolab.ai/"
       },
       "featureList": [
-        "22+2 agenti specialisti per aree tematiche e ruoli",
+        "43 diverse intelligenze artificiali che collaborano al risultato",
+        "Biblioteca digitale degli atti verificati, patrimonio dell'Ente, che cresce con l'uso",
         "Fonti normative certificate, zero errori di citazione",
         "Redazione di atti: delibere, determine, ordinanze, titoli edilizi",
         "Fascicolo digitale conforme SInCRO (UNI 11386, art. 41 CAD)",
@@ -97,6 +98,35 @@
             justify-content: center;
             flex-wrap: wrap;
         }
+
+        .pa-hero .news-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0 auto 1.6rem;
+            padding: 0.55rem 1.1rem;
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.10);
+            border: 1px solid rgba(255, 255, 255, 0.28);
+            color: #fff;
+            font-size: 0.98rem;
+            text-decoration: none;
+            transition: background 0.2s ease;
+        }
+        .pa-hero .news-pill:hover { background: rgba(255, 255, 255, 0.18); }
+        .pa-hero .news-pill .news-pill__tag {
+            background: #ff0000;
+            color: #fff;
+            font-weight: 700;
+            font-size: 0.75rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            padding: 0.2rem 0.6rem;
+            border-radius: 999px;
+        }
+        .pa-hero .news-pill .news-pill__more { text-decoration: underline; white-space: nowrap; }
 
         /* PAIN KILLER BLOCK, il dubbio del funzionario */
         .pain-killer {
@@ -496,7 +526,7 @@
             border-radius: 0 5px 5px 0;
         }
 
-        /* Come funziona - 22+2 agenti */
+        /* Come funziona - 43 intelligenze artificiali */
         .agents-wrapper {
             display: block;
         }
@@ -997,6 +1027,7 @@
                     <li><a href="ip-legal.html" class="nav-link">IP Legal</a></li>
                     <li><a href="index.html#about" class="nav-link">Chi siamo</a></li>
                     <li><a href="index.html#contact" class="nav-link">Contatti</a></li>
+                    <li><a href="dicono-di-noi.html" class="nav-link">Dicono di noi</a></li>
                     <li><a href="downloads.html" class="nav-link" style="color: var(--highlight-color) !important; font-weight: bold;">Download</a></li>
                 </ul>
             </nav>
@@ -1019,6 +1050,11 @@
     <!-- HERO -->
     <section class="pa-hero">
         <div class="container">
+            <a href="dicono-di-noi.html" class="news-pill">
+                <span class="news-pill__tag">Novità</span>
+                <span>1° settembre 2026: il Comune di Pieve Ligure adotta TTR-SUITE dopo la sperimentazione ed estende l'uso a tutti i servizi.</span>
+                <span class="news-pill__more">Legga il comunicato e la rassegna stampa</span>
+            </a>
             <h1>Consulenza giuridica e amministrativa <span class="highlight">AI</span><br>per i Comuni</h1>
             <p class="lead">
                 <strong>TTR-SUITE per la PA Locale</strong>: pareri su norma vigente, redazione di atti pronti per la firma,
@@ -1266,6 +1302,11 @@
                     <p>Ogni sessione è una pratica: cartelle organizzate (riferimenti normativi, atti istruttori, deliverable, note), metadati completi, hash SHA-256, audit trail. Il fascicolo chiuso può essere riletto in qualsiasi momento, rigenerando una sessione identica a quella che lo aveva prodotto.</p>
                 </div>
                 <div class="capa-card">
+                    <div class="icon"><i class="fas fa-book-open"></i></div>
+                    <h3>Biblioteca digitale dell'Ente</h3>
+                    <p>Ogni atto verificato entra in una biblioteca digitale che resta patrimonio del Comune e cresce con l'uso: modelli, atti e regolamenti dell'Ente vengono ritrovati e riutilizzati nelle pratiche successive. Il lavoro fatto oggi rende più veloce quello di domani.</p>
+                </div>
+                <div class="capa-card">
                     <div class="icon"><i class="fas fa-search-plus"></i></div>
                     <h3>Verifica autotutela</h3>
                     <p>Analisi ex-post di provvedimenti già emessi: individuazione di vizi, base normativa per sanatoria o annullamento in autotutela, motivazione ricostruita con la solidità del controllo amministrativo-contabile.</p>
@@ -1341,7 +1382,7 @@
                 </div>
 
                 <div class="example-card">
-                    <div class="example-card__head"><i class="fas fa-shield-alt"></i> Polizia Municipale</div>
+                    <div class="example-card__head"><i class="fas fa-shield-alt"></i> Polizia Locale</div>
                     <p class="example-card__q">Verbale notificato oltre i 90 giorni dall'accertamento: è nullo?</p>
                     <p class="example-card__a">L'art. 201 del Codice della Strada fissa in 90 giorni il termine perentorio per la notifica del verbale. Oltre tale termine il verbale è da considerarsi…</p>
                 </div>
@@ -1373,7 +1414,7 @@
         </div>
     </section>
 
-    <!-- COME FUNZIONA (22+2 agenti) -->
+    <!-- COME FUNZIONA (43 intelligenze artificiali) -->
     <section class="pa-section pa-section--alt">
         <div class="container">
             <div class="pa-section-title">
@@ -1392,21 +1433,29 @@
                 <!-- HEADER: big-number + intro -->
                 <div class="agents-header">
                     <div class="agents-count">
-                        <div class="big-number">22<span style="font-size:1.8rem; opacity:0.85;"> + 2</span></div>
-                        <div class="label">Agenti specialisti più due coordinatori</div>
+                        <div class="big-number">43</div>
+                        <div class="label">Intelligenze artificiali che collaborano al risultato</div>
+                        <div class="label" style="text-transform:none; letter-spacing:0; margin-top:0.6rem; font-size:0.9rem;">24 agenti specialisti + 19 funzioni cognitive</div>
                     </div>
                     <div class="agents-intro">
                         <p>
-                            Una squadra di <strong>ben 24 agenti specializzati</strong> che collaborano lungo
-                            l'intero ciclo di vita del deliverable. Ogni atto attraversa <strong>più agenti
-                            distinti</strong>, ciascuno con il proprio ruolo specifico, con verifiche indipendenti
-                            fra un passaggio e l'altro, ogni passaggio è tracciato.
+                            Il sistema si basa su <strong>43 diverse intelligenze artificiali che collaborano
+                            al risultato</strong> lungo l'intero ciclo di vita del deliverable. Ogni atto attraversa
+                            <strong>più agenti distinti</strong>, ciascuno con il proprio ruolo specifico, con verifiche
+                            indipendenti fra un passaggio e l'altro, ogni passaggio è tracciato.
                         </p>
                         <p>
-                            Ognuna delle otto aree del Comune è presidiata da <strong>due agenti</strong>
-                            con specializzazioni complementari, in tutto <strong>sedici agenti d'area</strong>.
-                            A questi si aggiungono sei ruoli trasversali per verifiche, archiviazione e gestione
-                            documentale, più due coordinatori speciali.
+                            <strong>Ventiquattro sono agenti specialisti</strong>: per ognuna delle otto aree del Comune
+                            un agente d'area e un revisore d'area, i revisori indipendenti di seconda battuta
+                            (Corte dei Conti, impugnabilità), l'anonimizzatore e il deanonimizzatore, il supporto
+                            generale e i coordinatori ARBITER e INTERPRES.
+                        </p>
+                        <p>
+                            <strong>Diciannove sono funzioni cognitive</strong> interne alla suite che lavorano fra un
+                            passaggio e l'altro: verifica delle citazioni articolo per comma contro le fonti ufficiali,
+                            controllo di copertura degli adempimenti d'area, coerenza delle note, classificazione del
+                            titolario, estrazione del corredo normativo, riconoscimento dei dati personali con un
+                            modello locale su CPU senza rete, più i controlli deterministici sulle fonti e sui referti.
                         </p>
                     </div>
                 </div>
@@ -1433,7 +1482,7 @@
                             <div class="agent-chip"><i class="fas fa-users-cog"></i> Personale &middot; Risorse Umane</div>
                             <div class="agent-chip"><i class="fas fa-id-card"></i> Servizi Demografici</div>
                             <div class="agent-chip"><i class="fas fa-hard-hat"></i> Ufficio Tecnico</div>
-                            <div class="agent-chip"><i class="fas fa-shield-alt"></i> Polizia Municipale</div>
+                            <div class="agent-chip"><i class="fas fa-shield-alt"></i> Polizia Locale</div>
                             <div class="agent-chip"><i class="fas fa-calculator"></i> Ragioneria &middot; Finanziario</div>
                             <div class="agent-chip"><i class="fas fa-hand-holding-heart"></i> Servizi Sociali</div>
                             <div class="agent-chip"><i class="fas fa-graduation-cap"></i> Istruzione &middot; Cultura</div>
@@ -1549,6 +1598,7 @@
                         <li>Storage esclusivamente locale sul PC del funzionario, area riservata SO + binding hardware</li>
                         <li>Nessun log di analisi sui server Aviolab (server usati solo per validazione licenza)</li>
                         <li>Comunicazioni cifrate TLS 1.3, DPA disponibile in fase di contratto</li>
+                        <li>I dati dei cittadini e le pratiche restano archiviati soltanto sulle macchine dell'Ente, protetti da crittografia forte, e non vengono mai trattenuti da soggetti terzi</li>
                     </ul>
                 </div>
             </div>
@@ -1710,6 +1760,8 @@
                 reale del Suo Ente. Le mostriamo come TTR-SUITE per la PA Locale risponde,
                 cita le fonti, redige l'atto e prepara il fascicolo digitale conforme.
                 Nel frattempo, può vedere una sessione reale in pochi screenshot.
+                Il Comune di Pieve Ligure ha adottato TTR-SUITE dopo una sperimentazione in tre uffici:
+                <a href="dicono-di-noi.html" style="color:inherit; text-decoration:underline;">legga il comunicato e la rassegna stampa</a>.
             </p>
             <a href="pa-locale-in-azione.html" class="btn btn-secondary"><i class="fas fa-photo-film"></i> Veda TTR-SUITE in azione</a>
             <a href="index.html#contact" class="btn btn-primary"><i class="fas fa-envelope"></i> Richieda una demo</a>
@@ -1740,6 +1792,7 @@
                         <li><a href="pa-locale.html">TTR-SUITE PA Locale</a></li>
                         <li><a href="pa-locale-in-azione.html">TTR-SUITE in azione</a></li>
                         <li><a href="ip-legal.html">TTR-SUITE IP Legal</a></li>
+                        <li><a href="dicono-di-noi.html">Dicono di noi</a></li>
                         <li><a href="downloads.html">Download</a></li>
                         <li><a href="index.html#contact">Contatti</a></li>
                     </ul>
@@ -1752,7 +1805,7 @@
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2026 Aviolab AI. Tutti i diritti riservati.</p>
-                <p class="version-number">v1.3.14</p>
+                <p class="version-number">v1.3.15</p>
             </div>
         </div>
     </footer>

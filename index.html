@@ -88,6 +88,46 @@
             text-shadow: 0 0 6px rgba(0, 0, 0, 0.6) !important;
             font-weight: 700 !important;
         }
+        .hero-news {
+            display: block;
+            max-width: 640px;
+            margin: 0 0 1.8rem;
+            padding: 0.85rem 1.2rem;
+            border-radius: 12px;
+            border-left: 4px solid #ff0000;
+            background: rgba(15, 23, 42, 0.55);
+            border-top: 1px solid rgba(255, 255, 255, 0.18);
+            border-right: 1px solid rgba(255, 255, 255, 0.18);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+            color: #fff;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            text-decoration: none;
+            transition: background 0.2s ease;
+        }
+        .hero-news:hover { background: rgba(15, 23, 42, 0.75); color: #fff; }
+        .hero-news .hero-news__tag {
+            display: inline-block;
+            vertical-align: baseline;
+            margin-right: 0.5rem;
+            background: #ff0000;
+            color: #fff;
+            font-weight: 700;
+            font-size: 0.7rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            padding: 0.15rem 0.55rem;
+            border-radius: 4px;
+        }
+        .hero-news .hero-news__more {
+            display: inline-block;
+            margin-top: 0.35rem;
+            color: #ff6b6b;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .hero-news .hero-news__more::after { content: " \2192"; }
+        .hero-news:hover .hero-news__more { text-decoration: underline; }
     </style>
 
     <!-- Windows Icons -->
@@ -111,7 +151,7 @@
     <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="styles.css">
-    <script defer src="js/translations.js"></script>
+    <script defer src="js/translations.js?v=141"></script>
     <script defer src="script.js"></script>
 
     <!-- Stili specifici per home ombrello (product cards grandi) -->
@@ -261,6 +301,7 @@
                     <li><a href="ip-legal.html" class="nav-link">IP Legal</a></li>
                     <li><a href="#about" class="nav-link" data-i18n="nav_about">About</a></li>
                     <li><a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+                    <li><a href="dicono-di-noi.html" class="nav-link" data-i18n="nav_press">In the press</a></li>
                     <li><a href="downloads.html" class="nav-link" style="color: var(--highlight-color) !important; font-weight: bold;" data-i18n="nav_download">Download</a></li>
                 </ul>
             </nav>
@@ -287,6 +328,7 @@
                 <h1 data-i18n="home_hero_title"><span class="highlight">Agentic AI</span> for IP Legal<br>and public administration</h1>
                 <h2 data-i18n="home_hero_subtitle">Two specialized suites, one engine</h2>
                 <p data-i18n="home_hero_description">Aviolab AI builds Agentic AI for two distinct domains: Italian local public administration, and intellectual property, contract and patent work for legal teams. Different audiences, the same commitment to top-tier professional results with sources that are always verified and traceable.</p>
+                <a href="dicono-di-noi.html" class="hero-news" data-i18n="home_news_pieve"><span class="hero-news__tag">News</span><span>1 September 2026: the Municipality of Pieve Ligure (Genoa) adopts TTR-SUITE after a successful trial and extends it to all municipal services.</span><br><span class="hero-news__more">Read the press coverage</span></a>
                 <div class="cta-buttons cta-buttons--vertical">
                     <a href="pa-locale.html" class="btn btn-primary btn--with-sub">
                         <span class="btn__label" data-i18n="hero_btn_pa">TTR-SUITE per la PA Locale</span>
@@ -361,11 +403,12 @@
                         <p data-i18n="home_card_pa_text">Mainly designed for Italian municipalities under 5,000 inhabitants and the officials who run them. Legal opinions and analytical problem-solving under current law, drafted acts ready for signature, SInCRO-compliant digital filing. Patent-pending architecture.</p>
                         <ul class="product-card-big__features">
                             <li data-i18n="home_card_pa_feat1">Legal opinions and analytical studies on concrete administrative problems under current law</li>
-                            <li data-i18n="home_card_pa_feat2">22+2 specialist agents for thematic areas and roles</li>
+                            <li data-i18n="home_card_pa_feat2">43 different AI agents working together on every result</li>
                             <li data-i18n="home_card_pa_feat3">Certified normative sources, zero citation errors</li>
                             <li data-i18n="home_card_pa_feat4">Drafting of acts: resolutions, determinations, ordinances, building titles</li>
                             <li data-i18n="home_card_pa_feat5">SInCRO-compliant digital file (UNI 11386, art. 41 CAD)</li>
                             <li data-i18n="home_card_pa_feat6">AI Act art. 50 compliance + GDPR by design</li>
+                            <li data-i18n="home_card_pa_feat7">Digital library of verified acts, owned by the municipality and growing with use</li>
                         </ul>
                         <span class="product-card-big__cta">
                             <span data-i18n="home_card_pa_cta">Discover TTR-SUITE for PA Locale</span>
@@ -489,7 +532,14 @@
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
                             <h3 data-i18n="contact_location">Location</h3>
-                            <p>Genova, Italy</p>
+                            <p>Pieve Ligure (Genova), Italy</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3 data-i18n="contact_phone">Phone</h3>
+                            <p><a href="tel:+393356050950">+39 335 605 0950</a></p>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -503,7 +553,7 @@
                         <i class="fas fa-envelope"></i>
                         <div>
                             <h3 data-i18n="contact_email">Email</h3>
-                            <p><a href="mailto:info@aviolab.ai">info@aviolab.ai</a></p>
+                            <p><a href="mailto:info@aviolab.ai">info@aviolab.ai</a><br><a href="mailto:r.parenti@aviolab.ai">r.parenti@aviolab.ai</a></p>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -582,6 +632,7 @@
                     <ul>
                         <li><a href="pa-locale.html">TTR-SUITE PA Locale</a></li>
                         <li><a href="ip-legal.html">TTR-SUITE IP Legal</a></li>
+                        <li><a href="dicono-di-noi.html" data-i18n="nav_press">In the press</a></li>
                         <li><a href="downloads.html" data-i18n="nav_download">Download</a></li>
                         <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
                     </ul>
@@ -595,7 +646,7 @@
             </div>
             <div class="footer-bottom">
                 <p data-i18n="footer_copyright">&copy; 2026 Aviolab AI. All rights reserved.</p>
-                <p class="version-number">v1.3.14</p>
+                <p class="version-number">v1.3.15</p>
             </div>
         </div>
     </footer>

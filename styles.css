@@ -599,7 +599,7 @@ img {
     padding: 15px 2rem;
     max-width: 1200px;
     margin: 0 auto;
-    gap: 50px; /* Add more space between elements */
+    gap: 30px; /* v1.3.15: 50 -> 30 per far stare la voce Dicono di noi */
 }
 
 /* CSS regola rimossa perché in conflitto con .logo-link img */
@@ -610,6 +610,7 @@ img {
     text-decoration: none;
     transition: var(--transition);
     margin-right: 30px; /* Add right margin to push content away */
+    flex-shrink: 0; /* v1.3.15: il logo non si comprime */
 }
 
 .logo-link img {
@@ -628,6 +629,7 @@ img {
     font-size: 1.5rem;
     color: #c0c0c0;
     letter-spacing: 1px;
+    white-space: nowrap; /* v1.3.15: AVIOLAB AI sempre su una riga */
 }
 
 .logo-text-highlight {
@@ -636,7 +638,7 @@ img {
 
 .nav-links {
     display: flex;
-    gap: 20px; /* Reduce gap to ensure one line */
+    gap: 16px; /* v1.3.15: 20 -> 16, otto voci su una riga */
     flex-wrap: nowrap; /* Ensure it stays on one line */
     white-space: nowrap; /* Prevent wrapping of text */
 }
