@@ -344,9 +344,9 @@ L'architettura multi-agente di TTR-SUITE è oggetto di una domanda di brevetto p
 
 ## Modello di installazione
 
-On-premise sul PC del funzionario, LLM-agnostic, licensing centralizzato. Compatibile con le procedure di acquisto della Pubblica Amministrazione.
+On-premise sul PC del funzionario, licensing centralizzato. Compatibile con le procedure di acquisto della Pubblica Amministrazione.
 - Installazione: locale sul PC dell'Ente o sulla sua infrastruttura. Nessun dato sensibile transita sui server Aviolab. Aggiornamenti automatici e gratuiti.
-- Modello AI: LLM-agnostic. Può usare OpenAI, Anthropic, Google, Copilot, LLM locali. Incluso Azure OpenAI tenant UE per data residency.
+- Elaborazione AI: inferenza remota con Zero Data Retention contrattualizzata, i contenuti non vengono conservati dal provider AI dopo la risposta, trasporto cifrato. Dettagli nel DPA.
 - Licensing: validazione centralizzata, completamente criptata e localizzata. Nessuno può usare altrove la licenza attivata sul PC del funzionario.
 - Estensioni d'uso: utilizzabile senza modifiche da Comuni fino a 100.000 abitanti, Unioni di Comuni, Comunità Montane, Province, Città Metropolitane.
 - Compatibile con procedure CIG/CUP e acquisto pubblico. Conforme GDPR e AI Act.
