@@ -465,7 +465,7 @@ La versione in chiusura, prevista per l'autunno 2026, aggiunge la memoria dell'E
 
 ## Sui costi
 
-È un prodotto: il prezzo è un listino, non un preventivo. Il criterio è un canone di servizio annuo per l'intero Ente, non per postazione, proporzionato alla dimensione reale dell'Ente e comprensivo di uso, aggiornamenti e assistenza. Per natura è un servizio di supporto giuridico-amministrativo più che una licenza software. Si ripaga con le ore restituite agli uffici, con gli errori che non arrivano più all'atto e con il minor ricorso a consulenze esterne. Le condizioni si comunicano su richiesta, di norma a valle della sessione. Per Unioni, consorzi e società in house che servono più Comuni la struttura del listino si definisce insieme.
+È un prodotto: il prezzo è un listino, non un preventivo. Il criterio è un canone di servizio annuo per l'intero Ente, non per postazione, proporzionato alla dimensione reale dell'Ente e comprensivo di uso, aggiornamenti e assistenza. Per natura è un servizio di supporto giuridico-amministrativo più che una licenza software. Come ordine di grandezza resta sotto quanto un Comune normalmente spende ogni anno per la convenzione software del proprio gestionale ed è paragonabile al compenso annuo del revisore dei conti. Si ripaga con le ore restituite agli uffici, con gli errori che non arrivano più all'atto e con il minor ricorso a consulenze esterne. Le condizioni si comunicano su richiesta, di norma a valle della sessione. Per Unioni, consorzi e società in house che servono più Comuni la struttura del listino si definisce insieme.
 
 ## Il passo dopo: la prova
 
