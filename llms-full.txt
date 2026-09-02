@@ -2,7 +2,7 @@
 
 > Agentic AI for IP Legal and public administration. Two specialized suites built on the same multi-agent engine: **TTR-SUITE IP Legal** for legal teams, IP departments and technology transfer offices, and **TTR-SUITE per la PA Locale** for Italian municipalities, mainly those under 5,000 inhabitants. Source-verified, traceable, professional-grade results. Multi-agent architecture covered by patent application UIBM 102026000013123, filed 08 May 2026.
 
-This file contains the complete text content of the main pages of https://aviolab.ai/ in a single markdown document, so that an LLM can read the whole site without navigating. Pages: Homepage (EN), TTR-SUITE IP Legal (EN), TTR-SUITE per la PA Locale (IT), TTR-SUITE per la PA Locale in azione (IT), Downloads (EN), Privacy (IT/EN summary).
+This file contains the complete text content of the main pages of https://aviolab.ai/ in a single markdown document, so that an LLM can read the whole site without navigating. Pages: Homepage (EN), TTR-SUITE IP Legal (EN), TTR-SUITE per la PA Locale (IT), TTR-SUITE per la PA Locale in azione (IT), Che cos'è TTR-SUITE (IT), Downloads (EN), Privacy (IT/EN summary).
 
 ---
 
@@ -403,6 +403,75 @@ Contenuto del pacchetto SInCRO estratto:
 Gestionali documentali italiani supportati: Halley Informatica, Maggioli, Dedagroup Public Services, GPI, PA Digitale, 3D Informatica, Engineering, più i quattro formati standard XML, CSV, XLSX, JSON come fallback universale.
 
 Nota di trasparenza: gli screenshot della pagina sono tratti da una sessione effettiva della suite, con dati di esempio (Comune e operatore fittizi). I nomi dei gestionali sono usati a titolo descrittivo, ai soli fini della compatibilità tecnica del pacchetto SInCRO, e non implicano alcuna partnership formale con i rispettivi produttori.
+
+---
+
+# Che cos'è TTR-SUITE
+URL: https://aviolab.ai/che-cos-e-ttr-suite.html (pagina in italiano)
+
+Una spiegazione in linguaggio piano, per chi deve capire in pochi minuti di cosa si tratta e decidere se vale la pena vederla al lavoro. Il prodotto è TTR-SUITE PA Locale, l'assistente giuridico e amministrativo da scrivania per i Comuni sotto i 5.000 abitanti.
+
+## Di cosa si tratta
+
+TTR-SUITE PA Locale è un assistente giuridico e amministrativo da scrivania, pensato per i Comuni sotto i 5.000 abitanti e costruito attorno agli atti amministrativi e a ciò che li accompagna: determine, delibere, ordinanze, pareri, procedure di esecuzione. Si installa sulla postazione del funzionario e lavora con lui: risponde ai quesiti sulla norma vigente citando articoli e commi, redige la bozza dell'atto, la sottopone a una revisione indipendente e prepara il fascicolo. Il funzionario resta l'unico responsabile della decisione e della firma.
+
+## Com'è fatta: gli agenti
+
+È fatta di «agenti», cioè configurazioni di intelligenza artificiale distinte e indipendenti, ciascuna con un mandato preciso, una base normativa propria e regole su ciò che può e non può fare. Non sono programmi separati: sono configurazioni diverse dello stesso sistema, istruite a operare come consulenti dedicati a una materia di competenza comunale.
+
+Il cuore è un gruppo di agenti specialisti di funzione amministrativa. Per ciascuna delle otto aree del Comune (Segreteria, Personale, Ragioneria, Ufficio Tecnico, Servizi Demografici, Servizi Sociali, Istruzione e Cultura, Polizia Locale) c'è almeno un agente che redige e uno che revisiona. A questi si aggiungono revisori indipendenti di seconda battuta, fra cui uno orientato al controllo contabile della Corte dei Conti e uno al rischio di impugnazione.
+
+Attorno al cuore lavorano alcuni agenti di supporto, che smistano le richieste e pseudonimizzano i documenti da portare fuori dal sistema, insieme a una serie di funzioni di controllo. Alcune si appoggiano a un modello linguistico, altre sono cognitive e deterministiche, cioè codice che a parità di dati dà sempre la stessa risposta: la Suite le combina per arrivare al risultato. Sono, in tutto, le «43 intelligenze artificiali» di cui parla il comunicato del Comune di Pieve Ligure: 24 agenti specialisti e 19 funzioni cognitive.
+
+## Un prodotto standard
+
+Si installa sulla postazione del funzionario, non richiede progetti di integrazione con il gestionale e riceve gli aggiornamenti del software e degli agenti dal canale di distribuzione Aviolab. I dati di lavoro restano sulla macchina dell'Ente: ad Aviolab non arriva nulla, a parte il collegamento che il funzionario stesso apre quando chiede assistenza. L'assistenza remota è integrata: su chiamata del funzionario il tecnico si collega e, se il funzionario lo abilita, opera sulla postazione come se fosse presente, senza software di terze parti. L'installazione si fa da remoto: si scarica l'applicativo dall'area download del sito e si chiede l'attivazione. Il fascicolo informatico di ogni pratica si esporta in formato standard (UNI 11386, SInCRO), quindi è protocollabile e archiviabile nel gestionale che l'Ente già usa.
+
+## La localizzazione sull'Ente
+
+Alla prima messa in servizio un passo di localizzazione registra l'Ente e i suoi dati IPA, la popolazione, gli attributi del territorio (zona sismica, zona climatica, vincoli paesaggistici e idrogeologici, carattere montano, costiero o turistico), gli uffici e i loro responsabili. La procedura è condotta da un agente apposito, che chiede conferma a chi installa prima di salvare i dati raccolti. Da quel momento ogni risposta è riferita a quel Comune e non a un Comune generico. La normativa regionale è una configurazione a parte, per territorio: oggi è pronta quella ligure; le altre si preparano quando un Ente decide di provare la Suite.
+
+## GDPR e AI Act
+
+La documentazione di conformità è pubblica nell'area download del sito: scheda tecnica del sistema, classificazione del rischio e informativa di trasparenza ai sensi dell'AI Act, DPA con Zero Data Retention ai sensi del GDPR (https://aviolab.ai/downloads.html#certificazioni).
+
+## Facile da usare
+
+A chi lavora bastano poche nozioni per sfruttare a fondo il novanta per cento delle funzioni. Le guide rapide sono tre, una pagina A4 ciascuna: con le prime due accanto al monitor si è subito operativi, senza corsi sullo strumento. La terza riguarda solo la pseudonimizzazione: dentro la Suite non serve, perché il contratto con il fornitore di inferenza prevede la cancellazione dei dati a risposta trasmessa e il trasporto è cifrato; torna utile se si vuole portare un documento in uno strumento di IA esterno.
+
+- Guida rapida 1: https://aviolab.ai/assets/downloads/ttr-suite-guida-rapida-1.pdf
+- Guida rapida 2: https://aviolab.ai/assets/downloads/ttr-suite-guida-rapida-2.pdf
+- Guida rapida 3: https://aviolab.ai/assets/downloads/ttr-suite-guida-rapida-3.pdf
+
+## Dove trovare le informazioni
+
+- Comunicato del Comune di Pieve Ligure (testo integrale): https://mailchi.mp/b6b0a3531dc2/ilcomune-di-pieve-ligure-adotta-lintelligenza-artificiale-pratiche-pi-rapide-e-pi-tempo-per-i-cittadini-e-le-cittadine
+- Dicono di noi (comunicato e rassegna stampa): https://aviolab.ai/dicono-di-noi.html
+- Una sessione di lavoro reale in screenshot commentati: https://aviolab.ai/pa-locale-in-azione.html
+- La pagina del prodotto: https://aviolab.ai/pa-locale.html
+- Scheda comparativa a supporto dell'infungibilità (Linee guida AgID in via di adozione): https://aviolab.ai/assets/downloads/ttr-suite-pa-scheda-agid.pdf
+
+## Come vederla al lavoro
+
+Bastano 45-60 minuti in videoconferenza su un caso scelto dall'Ente, anche ipotetico, anche senza comunicarlo prima: si vede come il sistema ragiona, quali fonti cita, dove si ferma e cosa chiede al funzionario. Se l'Ente non è in Liguria, la sessione si tiene sul caso risolto come se il Comune fosse in Liguria: il risultato non è spendibile sul piano regionale, ma lo scopo è vedere il metodo.
+
+## I risultati a Pieve Ligure
+
+Il Comune di Pieve Ligure (Città Metropolitana di Genova) ha adottato la Suite «dopo una sperimentazione conclusa con esito positivo» condotta in Segreteria Generale, Polizia Locale e Ufficio Tecnico, e ne ha esteso l'uso «a tutti gli altri servizi comunali, nell'ambito delle risorse ordinarie di bilancio». Sindaca Paola Negro: «I responsabili dei servizi hanno provato il sistema sul campo e sono stati loro a chiederci di mantenerlo stabilmente in dotazione agli uffici». Sulle pratiche complesse il tempo restituito fra istruttoria, ricerca delle fonti e revisione si misura in ore per pratica, non in minuti; le misure per tipologia di atto sono in corso di formalizzazione con gli uffici.
+
+## In arrivo: la memoria dell'Ente
+
+La versione in chiusura, prevista per l'autunno 2026, aggiunge la memoria dell'Ente in due parti: una biblioteca dei modelli di atto certificati dagli uffici (i modelli restano nel Comune, sono condivisi fra le postazioni e a ogni riuso ripassano la verifica normativa) e l'archivio dello statuto e dei regolamenti comunali (ogni postazione carica quelli che le servono, ma redazione e revisione tengono conto di tutti quelli caricati da tutte le postazioni dell'Ente). L'Ente si dota così di una infrastruttura di intelligenza artificiale che condivide fra le postazioni modelli, regolamenti e regole di lavoro, con un'opzione di controllo del processo in capo al Segretario.
+
+## Sui costi
+
+È un prodotto: il prezzo è un listino, non un preventivo. Il criterio è un canone di servizio annuo per l'intero Ente, non per postazione, proporzionato alla dimensione reale dell'Ente e comprensivo di uso, aggiornamenti e assistenza. Per natura è un servizio di supporto giuridico-amministrativo più che una licenza software. Si ripaga con le ore restituite agli uffici, con gli errori che non arrivano più all'atto e con il minor ricorso a consulenze esterne. Le condizioni si comunicano su richiesta, di norma a valle della sessione. Per Unioni, consorzi e società in house che servono più Comuni la struttura del listino si definisce insieme.
+
+## Il passo dopo: la prova
+
+Un'installazione di prova di due o tre settimane, nel formato già sperimentato a Pieve Ligure: fino a tre funzionari scelti dall'Ente, pratiche scelte dall'Ente, costi di inferenza a carico di Aviolab, a titolo gratuito e senza procedura di affidamento. Bastano una lettera di accettazione e la nomina a responsabile del trattamento ai sensi dell'art. 28 GDPR, preparata da Aviolab. Se l'Ente è fuori Liguria, a quel punto si prepara la configurazione regionale e la prova si fa su quella.
+
+Contatti: Riccardo Parenti, Founder & Technical Lead, r.parenti@aviolab.ai, +39 335 605 0950.
 
 ---
 
