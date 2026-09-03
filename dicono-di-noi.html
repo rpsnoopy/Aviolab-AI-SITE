@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#1e40af">
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-    <meta name="description" content="Dicono di noi: comunicati stampa e articoli su Aviolab AI e TTR-SUITE. Il Comune di Pieve Ligure adotta l'intelligenza artificiale nel lavoro amministrativo di ogni giorno dopo una sperimentazione conclusa con esito positivo.">
+    <meta name="description" content="Dicono di noi: comunicati stampa e articoli su Aviolab AI e TTR-SUITE (Genova Quotidiana, Prima il Levante). Il Comune di Pieve Ligure adotta l'intelligenza artificiale nel lavoro amministrativo di ogni giorno dopo una sperimentazione conclusa con esito positivo.">
     <meta name="author" content="Riccardo Parenti">
     <meta name="keywords" content="Aviolab AI, TTR-SUITE, rassegna stampa, comunicato stampa, Comune di Pieve Ligure, intelligenza artificiale Comuni, PA Locale, Pieve Ligure">
     <title>Dicono di noi, Rassegna stampa | Aviolab AI</title>
@@ -35,6 +35,14 @@
       "inLanguage": "it",
       "publisher": { "@type": "Organization", "name": "Aviolab AI", "url": "https://aviolab.ai/" },
       "hasPart": [
+        {
+          "@type": "NewsArticle",
+          "headline": "Il Comune di Pieve Ligure adotta l'intelligenza artificiale",
+          "datePublished": "2026-09-03",
+          "inLanguage": "it",
+          "publisher": { "@type": "Organization", "name": "Prima il Levante" },
+          "url": "https://primaillevante.it/attualita/il-comune-di-pieve-ligure-adotta-lintelligenza-artificiale/"
+        },
         {
           "@type": "NewsArticle",
           "headline": "Pieve Ligure porta 43 intelligenze artificiali negli uffici: controlleranno atti e norme",
@@ -138,22 +146,31 @@
         .dn-feature .btn-secondary { color: #1e40af; border-color: #1e40af; background: transparent; }
         .dn-feature .btn-secondary:hover { background: #1e40af; color: #fff; }
 
-        /* Rassegna stampa */
+        /* Rassegna stampa: schede con testata, titolo ed estratto */
         .dn-list { max-width: 980px; margin: 0 auto; display: grid; gap: 1.2rem; }
         .dn-item {
-            display: grid; grid-template-columns: 150px 1fr; gap: 1.2rem; align-items: start;
-            background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 1.3rem 1.5rem;
+            display: grid; grid-template-columns: 230px 1fr; align-items: stretch;
+            background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden;
             transition: box-shadow 0.2s ease, transform 0.2s ease;
         }
-        .dn-item:hover { box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08); transform: translateY(-2px); }
-        .dn-item__date { color: #64748b; font-size: 0.9rem; line-height: 1.5; }
-        .dn-item__date strong { display: block; color: #0f172a; font-size: 1rem; }
-        .dn-item h3 { font-size: 1.15rem; color: #0f172a; margin-bottom: 0.4rem; line-height: 1.4; }
-        .dn-item h3 a { color: inherit; text-decoration: none; }
-        .dn-item h3 a:hover { color: #1e40af; }
-        .dn-item p { color: #475569; line-height: 1.6; margin-bottom: 0.5rem; }
-        .dn-item .dn-item__link { color: #ff0000; font-weight: 600; text-decoration: none; font-size: 0.95rem; }
-        .dn-item .dn-item__link:hover { text-decoration: underline; }
+        .dn-item:hover { box-shadow: 0 10px 28px rgba(15, 23, 42, 0.10); transform: translateY(-2px); }
+        .dn-item__mast {
+            display: flex; flex-direction: column; justify-content: center; gap: 0.45rem;
+            padding: 1.4rem 1.3rem; min-height: 170px;
+            background: linear-gradient(160deg, #0f172a 0%, #1e40af 100%); color: #fff;
+            border-right: 4px solid #ff0000;
+        }
+        .dn-item__mast i { font-size: 1.5rem; color: #ff0000; margin-bottom: 0.2rem; }
+        .dn-item__kind { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 1.5px; color: #bfdbfe; }
+        .dn-item__source { font-size: 1.25rem; font-weight: 800; line-height: 1.15; }
+        .dn-item__date { font-size: 0.85rem; color: #e2e8f0; }
+        .dn-item__body { padding: 1.3rem 1.5rem; display: flex; flex-direction: column; gap: 0.55rem; }
+        .dn-item__body h3 { font-size: 1.25rem; color: #0f172a; line-height: 1.35; margin: 0; }
+        .dn-item__body h3 a { color: inherit; text-decoration: none; }
+        .dn-item__body h3 a:hover { color: #1e40af; }
+        .dn-item__body p { color: #475569; line-height: 1.6; margin: 0; }
+        .dn-item__link { color: #ff0000; font-weight: 600; text-decoration: none; font-size: 0.95rem; margin-top: auto; }
+        .dn-item__link:hover { text-decoration: underline; }
         .dn-empty {
             max-width: 980px; margin: 0 auto; text-align: center; color: #64748b;
             background: #fff; border: 1px dashed #cbd5e1; border-radius: 10px; padding: 1.6rem;
@@ -178,7 +195,8 @@
             .dn-hero h1 { font-size: 2rem; }
             .dn-feature { padding: 1.6rem 1.3rem; }
             .dn-feature h3 { font-size: 1.3rem; }
-            .dn-item { grid-template-columns: 1fr; gap: 0.5rem; }
+            .dn-item { grid-template-columns: 1fr; }
+            .dn-item__mast { min-height: 0; padding: 1rem 1.2rem; border-right: none; border-bottom: 4px solid #ff0000; }
         }
     </style>
 </head>
@@ -309,11 +327,18 @@
 
             <div class="dn-list">
                 <!--
-                    TEMPLATE ARTICOLO (copiare, compilare, inserire in testa alla lista: il piu' recente per primo)
+                    TEMPLATE ARTICOLO (copiare, compilare, inserire in testa alla lista: il piu' recente per primo).
+                    La scheda non usa immagini delle testate (foto e loghi restano di loro proprieta'):
+                    il riquadro a sinistra porta testata, tipo e data; il titolo e' il link.
 
                 <article class="dn-item">
-                    <div class="dn-item__date"><strong>Nome della testata</strong>gg mese aaaa</div>
-                    <div>
+                    <div class="dn-item__mast">
+                        <i class="far fa-newspaper"></i>
+                        <span class="dn-item__kind">Quotidiano online</span>
+                        <span class="dn-item__source">Nome della testata</span>
+                        <span class="dn-item__date">gg mese aaaa</span>
+                    </div>
+                    <div class="dn-item__body">
                         <h3><a href="URL_ARTICOLO" target="_blank" rel="noopener noreferrer">Titolo dell'articolo</a></h3>
                         <p>Breve estratto o sintesi in una o due frasi.</p>
                         <a class="dn-item__link" href="URL_ARTICOLO" target="_blank" rel="noopener noreferrer">Legga l'articolo <i class="fas fa-external-link-alt"></i></a>
@@ -322,8 +347,27 @@
                 -->
 
                 <article class="dn-item">
-                    <div class="dn-item__date"><strong>Genova Quotidiana</strong>1° settembre 2026</div>
-                    <div>
+                    <div class="dn-item__mast">
+                        <i class="far fa-newspaper"></i>
+                        <span class="dn-item__kind">Quotidiano online</span>
+                        <span class="dn-item__source">Prima il Levante</span>
+                        <span class="dn-item__date">3 settembre 2026</span>
+                    </div>
+                    <div class="dn-item__body">
+                        <h3><a href="https://primaillevante.it/attualita/il-comune-di-pieve-ligure-adotta-lintelligenza-artificiale/" target="_blank" rel="noopener noreferrer">Il Comune di Pieve Ligure adotta l'intelligenza artificiale</a></h3>
+                        <p>Pratiche più rapide e più tempo per i cittadini e le cittadine: il quotidiano del Levante riprende il comunicato del Comune, con la dichiarazione della Sindaca Paola Negro, la sperimentazione in tre uffici e l'estensione a tutti i servizi comunali.</p>
+                        <a class="dn-item__link" href="https://primaillevante.it/attualita/il-comune-di-pieve-ligure-adotta-lintelligenza-artificiale/" target="_blank" rel="noopener noreferrer">Legga l'articolo <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </article>
+
+                <article class="dn-item">
+                    <div class="dn-item__mast">
+                        <i class="far fa-newspaper"></i>
+                        <span class="dn-item__kind">Quotidiano online</span>
+                        <span class="dn-item__source">Genova Quotidiana</span>
+                        <span class="dn-item__date">1° settembre 2026</span>
+                    </div>
+                    <div class="dn-item__body">
                         <h3><a href="https://genovaquotidiana.com/2026/09/01/pieve-ligure-porta-43-intelligenze-artificiali-negli-uffici-controlleranno-atti-e-norme/" target="_blank" rel="noopener noreferrer">Pieve Ligure porta 43 intelligenze artificiali negli uffici: controlleranno atti e norme</a></h3>
                         <p>Dopo una sperimentazione nella Segreteria generale, nella Polizia locale e nell'Ufficio tecnico, il Comune estende il sistema a tutti i servizi. L'obiettivo è ridurre i tempi delle pratiche, senza sostituire le decisioni dei funzionari.</p>
                         <a class="dn-item__link" href="https://genovaquotidiana.com/2026/09/01/pieve-ligure-porta-43-intelligenze-artificiali-negli-uffici-controlleranno-atti-e-norme/" target="_blank" rel="noopener noreferrer">Legga l'articolo <i class="fas fa-external-link-alt"></i></a>
@@ -331,8 +375,13 @@
                 </article>
 
                 <article class="dn-item">
-                    <div class="dn-item__date"><strong>Comune di Pieve Ligure</strong>1° settembre 2026</div>
-                    <div>
+                    <div class="dn-item__mast">
+                        <i class="fas fa-landmark"></i>
+                        <span class="dn-item__kind">Comunicato stampa</span>
+                        <span class="dn-item__source">Comune di Pieve Ligure</span>
+                        <span class="dn-item__date">1° settembre 2026</span>
+                    </div>
+                    <div class="dn-item__body">
                         <h3><a href="https://mailchi.mp/b6b0a3531dc2/ilcomune-di-pieve-ligure-adotta-lintelligenza-artificiale-pratiche-pi-rapide-e-pi-tempo-per-i-cittadini-e-le-cittadine" target="_blank" rel="noopener noreferrer">Il Comune di Pieve Ligure adotta l'intelligenza artificiale: pratiche più rapide e più tempo per i Cittadini e le Cittadine</a></h3>
                         <p>Comunicato stampa ufficiale del Comune: la sperimentazione in tre uffici, la decisione dei responsabili dei servizi, l'estensione a tutti i servizi comunali.</p>
                         <a class="dn-item__link" href="https://mailchi.mp/b6b0a3531dc2/ilcomune-di-pieve-ligure-adotta-lintelligenza-artificiale-pratiche-pi-rapide-e-pi-tempo-per-i-cittadini-e-le-cittadine" target="_blank" rel="noopener noreferrer">Legga il comunicato <i class="fas fa-external-link-alt"></i></a>
@@ -408,7 +457,7 @@
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2026 Aviolab AI. Tutti i diritti riservati.</p>
-                <p class="version-number">v1.3.17</p>
+                <p class="version-number">v1.3.18</p>
             </div>
         </div>
     </footer>
