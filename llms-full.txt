@@ -35,7 +35,7 @@ Focused Agentic AI for two distinct domains:
 Consulenza giuridica e amministrativa AI per i Comuni italiani. Mainly designed for Italian municipalities under 5,000 inhabitants and the officials who run them. Legal opinions and analytical problem-solving under current law, drafted acts ready for signature, SInCRO-compliant digital filing. Patent-pending architecture.
 
 - Legal opinions and analytical studies on concrete administrative problems under current law
-- 22+2 specialist agents for thematic areas and roles
+- 43 different AI agents working together on every result (24 specialist agents + 19 cognitive functions)
 - Certified normative sources, zero citation errors
 - Drafting of acts: resolutions, determinations, ordinances, building titles
 - SInCRO-compliant digital file (UNI 11386, art. 41 CAD)
@@ -296,10 +296,10 @@ Il deliverable: non una risposta generica, ma un parere o atto strutturato con f
 
 TTR-SUITE per la PA Locale non è un chatbot AI generalista. È una squadra di agenti specializzati che collaborano, coordinati da ARBITER. Ogni agente è un'AI distinta, specializzata e addestrata per fornire supporto su una singola tematica precisa.
 
-22 + 2: agenti specialisti più due coordinatori, in tutto 24 agenti. Ognuna delle otto aree del Comune è presidiata da due agenti con specializzazioni complementari (sedici agenti d'area), più sei ruoli trasversali per verifiche, archiviazione e gestione documentale, più due coordinatori speciali.
+43 intelligenze artificiali che collaborano al risultato: 24 agenti specialisti più 19 funzioni cognitive. Ventiquattro sono agenti: per ognuna delle otto aree del Comune un agente d'area e un revisore d'area, i revisori indipendenti di seconda battuta (Corte dei Conti, impugnabilità), l'anonimizzatore e il deanonimizzatore, il supporto generale e i coordinatori ARBITER e INTERPRES. Diciannove sono funzioni cognitive interne alla suite che lavorano fra un passaggio e l'altro: verifica delle citazioni articolo per comma contro le fonti ufficiali, controllo di copertura degli adempimenti d'area, coerenza delle note, classificazione del titolario, estrazione del corredo normativo, riconoscimento dei dati personali con un modello locale su CPU senza rete, più i controlli deterministici sulle fonti e sui referti.
 
 - Coordinamento: ARBITER (classifica i quesiti e assegna gli agenti più competenti) e INTERPRES (interpreta la richiesta e fa emergere le competenze necessarie).
-- Otto aree tematiche: Segreteria Generale; Personale / Risorse Umane; Servizi Demografici; Ufficio Tecnico; Polizia Municipale; Ragioneria / Finanziario; Servizi Sociali; Istruzione / Cultura.
+- Otto aree tematiche: Segreteria Generale; Personale / Risorse Umane; Servizi Demografici; Ufficio Tecnico; Polizia Locale; Ragioneria / Finanziario; Servizi Sociali; Istruzione / Cultura.
 - Otto ruoli specialistici: presidio di area; presidio normativo; rilettura legale adversariale; legittimità Corte dei Conti; Fascicolo Informatico; documenti elettronici; supporto generale; gestione utente.
 
 ## Costruita con il rigore richiesto dalla Corte dei Conti
