@@ -1,0 +1,34 @@
+﻿{
+  "schemaVersion": 2,
+  "format": "TTR-LICENSE-V2",
+  "licenseSeed": "584DD04FBAF40B96CDFDB3B9EE48B94AB309F89299049828E7D1CC65E7C49BF1",
+  "machineKeyId": "sha256:89bb20c2ec050b1a67923edbfcb51a6442ce2ddfeecfc718e42371a581c5cfef",
+  "issuedAtUtc": "2026-10-01T07:31:20.1596879Z",
+  "expiresAtUtc": "2027-10-31T08:31:15.9020000Z",
+  "status": "active",
+  "entitlements": {
+    "licenseType": "Enterprise"
+  },
+  "sealedSecrets": {
+    "schemaVersion": 2,
+    "contentAlgorithm": "A256GCM",
+    "keyWrapAlgorithm": "RSA-OAEP-256",
+    "associatedDataSha256": "9dcdfa30cef4edd7f1efe5f43b2289f5b541a4e44f17792b198fc45b5a5a1881",
+    "nonceBase64": "FBza4xEQ9WFiCF\u002BB",
+    "ciphertextBase64": "edfaz5CBwNdKiGNEfhIRBcmIQuoTHoH3RahZT0RQWD7ZvMwff4RFb26uIX6AJMmJqik3NtfgSx4Wq3ScGy3Y2r3stwFw6WLsEZFY3DeiEPE4Rd1W42J2WfkXrqXvX4qFumhoXXjQo\u002BhM/kcn/iNeKnOb7uMSuWt6RQVLMzGPmRUg11k3Q\u002BA2DSQ3hGdbgkdAxdtSq5oXVzs=",
+    "tagBase64": "HdAZpdV/AH1r3Z20L75tPA==",
+    "recipients": [
+      {
+        "role": "machine",
+        "keyId": "sha256:89bb20c2ec050b1a67923edbfcb51a6442ce2ddfeecfc718e42371a581c5cfef",
+        "wrappedKeyBase64": "qFzTQ18IveY/SCcWoyccAp7KkRIUWCBq\u002BareX79mX7dmOe85cBqHhYqHg9RvgCOdy01VD\u002BHwsALRedpRCHAqldPBvLddHxs1rz/AKg/6ztg/gPNQuFs5wBQCmWSGbmpPrBnKSPRhLyH0wS7SNPbruoR1uBn7tdohSe1Mb9gaCb9MjV0Wok8MmPl\u002BJGFWk4Y8Ufcu8DkwC7UvJB1yAnHpxVA6ZV1lUSNIiQ5xnLWsHua8xPy2aa0vtLbAgUE\u002BXGcrn1igAKHX9XulKAB13QvPfYF\u002BiubJWuvPn5Yf8z0d28etTaDXruLoiu9QUXos\u002BDVav7w7aUG9LgkuljKm3fWF2Z\u002BkZl46/4iWZVZyNDWYqUTjB7bCgyvid06l8rDVo\u002BIw0JgcIkfO3zE7bfd8TYDEsVxdbhr1cGRTutnFUE6aQAFyxrB7qB/BtbIsl8mwQ2DH93ux5TncNLQXaCOgPXz9onl0gMd84B\u002Bhe6qOs/Mv7gKOtBCdF5FlRjqQIJqDEiXl"
+      }
+    ]
+  },
+  "signature": {
+    "schemaVersion": 2,
+    "algorithm": "ECDSA-P256-SHA256-P1363",
+    "keyId": "sha256:e337df4e0c1ecf264596fd6c9858db328ef042875a2ccd12ffce440cd54eb316",
+    "valueBase64": "B8/yFaotTRTJzZWPOOnQlW8DNqktn2PEP7oOnHWHeifc6nG54qRxtUJr11cSqdaMOcPW0/rWMBIBaHmpvUxCfw=="
+  }
+}
