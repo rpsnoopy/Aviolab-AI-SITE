@@ -1,0 +1,34 @@
+﻿{
+  "schemaVersion": 2,
+  "format": "TTR-LICENSE-V2",
+  "licenseSeed": "E1D3691C1BF0D2929D82B76181EF3087C7B9770CE3A90B3207F1B8E9AA22F8A7",
+  "machineKeyId": "sha256:5b0e166109f896e884f31d6c4f9a0c45dd6f897811c282e5a9d09c9a92fa4944",
+  "issuedAtUtc": "2026-10-04T20:51:13.9812173Z",
+  "expiresAtUtc": "2027-08-31T18:30:08.0000000Z",
+  "status": "active",
+  "entitlements": {
+    "licenseType": "Enterprise"
+  },
+  "sealedSecrets": {
+    "schemaVersion": 2,
+    "contentAlgorithm": "A256GCM",
+    "keyWrapAlgorithm": "RSA-OAEP-256",
+    "associatedDataSha256": "d6a474e57193e3781526f6a14697024e95aed269f6350894f3ca26c1b0250d81",
+    "nonceBase64": "tQoN7drtv36LN2HD",
+    "ciphertextBase64": "EGC1W3cFw21ZNr6BOz\u002B4CpOaRHA6L7PuxT90fvlChcpHgzZStv5UYM4Mm/nY\u002B\u002BJOWaL9gO\u002BjEBIzerWQ0rvuA9k0Nn\u002B/bcnh/RZ2BckZrB\u002BAE6CtR\u002B08MzkaL84Mw1/jK\u002Ba/hA3zfhcl\u002B8\u002BPrV9jA5nQUN\u002BL9/Ou\u002BQu/2MNXxgfwjpBQ7K9NKF4TxDGxyhCXL7TwiGPYosvXqQ==",
+    "tagBase64": "1C4UhMT3AR94gfy\u002Bt1mfNA==",
+    "recipients": [
+      {
+        "role": "machine",
+        "keyId": "sha256:5b0e166109f896e884f31d6c4f9a0c45dd6f897811c282e5a9d09c9a92fa4944",
+        "wrappedKeyBase64": "sB6CaeaCsaRDYghJSw41uMrBe7adMOCuEVeH2fcy5gi5ebG3BjJlqpN2F/3rtkYWzpqYnN0ueS3s\u002BagaSy6/JzKzrTJyFSOW72z0qGkCi7KIogSeF90dIlUxEmpzjSUwXbkIuBsdgCN4n69K6K9/cyhSTqsafsc83kgRXIBcvSp2WMx11XpzEghMLnIUek1pKFgttcY\u002BdKZ1eYAm2Lk1q5fqhJH6G7GN5geGvynO1iv6bgVTyncxQGn6TWCEtDpDlTb5j5HO6C4vQB3999ThoqMYLl0K1y/NyALzB65iBptH036evlFwTTd3l\u002B4a7M2poGUvxFmkrX5Nks9n2I/q\u002BKRiasZt3947evA8FfznUBzepie1K0B74tx3OmxqaCJuf3kD0ZziNuN7/97\u002BAqlZMvNbX4cMXpjFujou2vIMJd7nFIeVhmLq3cm\u002BMe6\u002BABkSWJoc3vGXfawFuIPli1YzcXZMLTCOpeYomxiBYJu2CkbwbOi32uU/w4v8VosnJZD8"
+      }
+    ]
+  },
+  "signature": {
+    "schemaVersion": 2,
+    "algorithm": "ECDSA-P256-SHA256-P1363",
+    "keyId": "sha256:e337df4e0c1ecf264596fd6c9858db328ef042875a2ccd12ffce440cd54eb316",
+    "valueBase64": "I1wdzP00yPgaG3Xg0S3jvWVwcJkOZvIwGJUV6LtCRBMhvOe9fZW36qpQl0L2CEiWluavJOyLh4d/8yRLzMTtPg=="
+  }
+}

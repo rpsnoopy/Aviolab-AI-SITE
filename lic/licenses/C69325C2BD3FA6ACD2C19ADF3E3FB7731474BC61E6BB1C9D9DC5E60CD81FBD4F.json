@@ -1,0 +1,34 @@
+﻿{
+  "schemaVersion": 2,
+  "format": "TTR-LICENSE-V2",
+  "licenseSeed": "C69325C2BD3FA6ACD2C19ADF3E3FB7731474BC61E6BB1C9D9DC5E60CD81FBD4F",
+  "machineKeyId": "sha256:4c3d0a98f2d62ec7c365702288dfd3375bec89b9fbfa85ec005a8a93dab97e0c",
+  "issuedAtUtc": "2026-10-04T21:08:39.8551022Z",
+  "expiresAtUtc": "2027-08-31T18:30:08.0000000Z",
+  "status": "active",
+  "entitlements": {
+    "licenseType": "Enterprise"
+  },
+  "sealedSecrets": {
+    "schemaVersion": 2,
+    "contentAlgorithm": "A256GCM",
+    "keyWrapAlgorithm": "RSA-OAEP-256",
+    "associatedDataSha256": "e8602697b733b9ad7837218eeba83f2804e381b43211d90fec4cb9fa6335a1a9",
+    "nonceBase64": "nK17K7OUZ7goG\u002BPe",
+    "ciphertextBase64": "k24NVi6JplcCxLXxtT65Ho8sadG6UlMP72mh0nJe/3sW4vTkChRnve3IU49VllbgI9nnXDw5rTAKuFRPbpZ\u002Bjh2FuTx5AIaUNXvifaW5WVcZiI3nFnWwZLUqvqnf/mKitxUkYGO3Csr/iDnk2UZ34ZQXxvCEBspGJVdx\u002Bs5byBGXeGr8N0yMF0j83A1qTXAVy4T9nSbbnPamGg==",
+    "tagBase64": "ZmmObAvy\u002BVWJxs2Y2om/CA==",
+    "recipients": [
+      {
+        "role": "machine",
+        "keyId": "sha256:4c3d0a98f2d62ec7c365702288dfd3375bec89b9fbfa85ec005a8a93dab97e0c",
+        "wrappedKeyBase64": "h9R3c4zvOe2nRYqTixB043goRvMhma/36w2BEvYnjXOO8xydoMYQyG5\u002BiGBf1w5qFe/YjAkaOB0pITMZQbvgZBZhPaTBJ3Skmgj77YFLyuF8SiXoZdW\u002BbunmAM2NftZN78u95SM4DrRPKcII7pr4NDJP8LWLbdfwjz8KS0PjN6seiCM6bozR0B2p/JHfzCEVMot\u002BB2aBI3B2oYTfZAucpAT5VuQq7HiJ53EzGG5psmSZOrNic8c77V60NW6hyp28z2IhMpQCu4uukbVdomhW8H/QrowDUrg6E0uIiGAGguxkf84XDGKXnZJAkIFBhYKqlLCTpE0VsFVPwl8gZdOf4Be0\u002BsnWYnApzpg0wiMayOnp8bh\u002BdZOifP5Lccdc3TRIu2xErW9550Pb0sWrKedc4kC9utYBXJWU9CTafhzN6re1Xwj1ORE9s6iKp2gNsWr\u002BRNpbOAuF3kXoTNM28VVGPzp9cw3qUlriXBoTxog87L3iVHqGOTsifPxGCNhpIjg6"
+      }
+    ]
+  },
+  "signature": {
+    "schemaVersion": 2,
+    "algorithm": "ECDSA-P256-SHA256-P1363",
+    "keyId": "sha256:e337df4e0c1ecf264596fd6c9858db328ef042875a2ccd12ffce440cd54eb316",
+    "valueBase64": "TtSbO\u002BC0V1iU\u002BHhNX0s1rHGPWkOlyb7Ys0xyeM9\u002BpIP9KFpnj8LVPt8g2B3PQM5ccuK\u002BuqlhUOlUOSHWVArn6g=="
+  }
+}

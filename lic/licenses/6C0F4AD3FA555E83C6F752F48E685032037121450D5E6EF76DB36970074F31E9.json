@@ -1,0 +1,34 @@
+﻿{
+  "schemaVersion": 2,
+  "format": "TTR-LICENSE-V2",
+  "licenseSeed": "6C0F4AD3FA555E83C6F752F48E685032037121450D5E6EF76DB36970074F31E9",
+  "machineKeyId": "sha256:eeffc7b402fe2231faee27a7fcddb4a32f1e93c3fd1e00c535f139e9bc0c3aa9",
+  "issuedAtUtc": "2026-10-04T20:51:31.8003408Z",
+  "expiresAtUtc": "2027-08-31T18:30:08.0000000Z",
+  "status": "active",
+  "entitlements": {
+    "licenseType": "Enterprise"
+  },
+  "sealedSecrets": {
+    "schemaVersion": 2,
+    "contentAlgorithm": "A256GCM",
+    "keyWrapAlgorithm": "RSA-OAEP-256",
+    "associatedDataSha256": "a3689f8d570035b25d952147a7d3bb124f2305082e889ea66390d53b672d3c85",
+    "nonceBase64": "x//PI9Mjol2JFgCX",
+    "ciphertextBase64": "drEEj2opZlUjdojyY/5yxQtq\u002Bnpf6uq5SzKPc2Q26ndc4RAm4y8YuyMDkD2JcuopgMI5XOe4BL\u002Bpm\u002BXMqQiPC\u002BWMvBB06dcw\u002Bthyk2Hwwi/v3VKJAi2wM6/eHJzFKfW6TiOZiqr3wFCJPZCE5AR6DKmF2o2xSbXABB9dDqRGZzebv4R4mDBxXDdfOX5a/CP5Ube/nZKXUNChbA==",
+    "tagBase64": "UxMp9rRS\u002BO9sjNsyhys8RA==",
+    "recipients": [
+      {
+        "role": "machine",
+        "keyId": "sha256:eeffc7b402fe2231faee27a7fcddb4a32f1e93c3fd1e00c535f139e9bc0c3aa9",
+        "wrappedKeyBase64": "VXh8s4lcyxA9/Jje\u002BdlZH4unrTzR6xfipjQDh1IHu1KXk3T3Mq7M8TVXYQ3wo8x0zm9MjKjsoFzrkUSwU0yAXqNa8205fNsHaiPjcC/kyXdncvHFdSyL9cDD9UaOw6iklrDOpzul\u002B73DS2/kMV/xkJjd\u002BRZgbeYa8fvEv0KNDzu1R6gKNo63Skun2hDFRyhHMY6rsemuxzY3cJEN9\u002BvvJAVB4ak5QLQBlDZPGaEQ4vA5dxd1D98PQM9c5VSXCZcNdtbm4zB2Hc7DUYwAzSqwQXBRUOeKqUjFd6/ylSscZcGYC42gnyM7AQOuB3Y3DDCjlY0VVI990BQ5ApqvGDWCwGEnhIQ0QHDtaopozY0jl\u002Boiwds5xg5pUOdqOgLrVY93gWR54CuGdS5gSaT08eNa5YXZAhjAJCOuMDZTJ/gI1u6pr0xIoHg2kKysa\u002BmW\u002BA\u002BUL0bBFQQGPJlOsDhCWXA2kXEP8akX05\u002Bd6Pe1TH89YjMsXGBAxQ\u002BxcgfmmHQE99ji"
+      }
+    ]
+  },
+  "signature": {
+    "schemaVersion": 2,
+    "algorithm": "ECDSA-P256-SHA256-P1363",
+    "keyId": "sha256:e337df4e0c1ecf264596fd6c9858db328ef042875a2ccd12ffce440cd54eb316",
+    "valueBase64": "5CTzicUUmgtUOcy0peOKpeJssrBiC73lvwGEtfGr4hWBZglvre\u002BIxNXHiPISKhj0/akJefqPGbxfndeC3BShiQ=="
+  }
+}

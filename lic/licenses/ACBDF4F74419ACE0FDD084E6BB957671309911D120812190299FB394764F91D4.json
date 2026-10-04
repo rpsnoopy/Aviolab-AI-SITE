@@ -1,0 +1,34 @@
+﻿{
+  "schemaVersion": 2,
+  "format": "TTR-LICENSE-V2",
+  "licenseSeed": "ACBDF4F74419ACE0FDD084E6BB957671309911D120812190299FB394764F91D4",
+  "machineKeyId": "sha256:c7e37660d21225f8377db75755b44fc0f4b604d4255dfb990688db0297f37dfc",
+  "issuedAtUtc": "2026-10-04T21:02:23.2266296Z",
+  "expiresAtUtc": "2027-08-31T18:30:08.0000000Z",
+  "status": "active",
+  "entitlements": {
+    "licenseType": "Enterprise"
+  },
+  "sealedSecrets": {
+    "schemaVersion": 2,
+    "contentAlgorithm": "A256GCM",
+    "keyWrapAlgorithm": "RSA-OAEP-256",
+    "associatedDataSha256": "f37eedcdb38808d6a1905116405871d4f6b4398d2f1f9ff0b842b97689136846",
+    "nonceBase64": "oUGExA/14iQ1KpDQ",
+    "ciphertextBase64": "AYajWLOF2djbBH7ir1xzzHSEw9dsLnvYfmosfgFewGY5ZwLMCnoTL7g27BeWua\u002BzqlnynknpBYB0dPKnQ3EU2lxvyeBaaaxQZ1U5gst8UP6CVoeSsRaYpcEzZsf85fK1E\u002BEr5IqxsbWDl1KpS4tAkCyPF83tiY/m61MTfwBAV1VOeY7f210gbUJofS9SCgXhuThdJfwjMMxJnQ==",
+    "tagBase64": "LZYTbFH6PuQ1qxCOKCwSiQ==",
+    "recipients": [
+      {
+        "role": "machine",
+        "keyId": "sha256:c7e37660d21225f8377db75755b44fc0f4b604d4255dfb990688db0297f37dfc",
+        "wrappedKeyBase64": "O5Tb/RGuFukQhGdztrzQ1gZpwOCWjTThbT3B3Ul\u002B6ahAuKDSAUCYc1XZ05vH5M\u002BtY7Q2LkrXnaSq/5bbd\u002Bejl54N6QRwPRpEgRfNOWJZJlGb\u002BeyV5jRFfg8PQmPea9yxmKwSy4PyApLeoCVuR2qg6Pdp9dBE4idmP4dhQ/Z\u002BKd\u002B3CO06ohdBgJRj08XTj4E9EoHTIqn2uKLQ8fDs6Z9Y5vzsdr5rnGqdXYqYJ/ZczOWVYfXSOGit2\u002BwXbsq2yTfERNSgG\u002BWBXyxdvAsoVwirghYHFWJV8Ldn9IqudAzmzI0J0/Mn2BxSoT0dp1GY95TWRHzsHZ5yUuecNthd7VBIhkwAYvXVyQGhbWXEWdhFDAHnMw3mkNywPR8QTH0fIqpbFJEDcIYUiuhJQ/Yu\u002B4bfLt2VLZkoj51bXkD7JhXrtm6vQquxoQyX9ERUWSTh\u002BmJ4h6PnbwIcTXK\u002B6ouDqJoHY7MhnZQYrX0zUpC8ErjoG3pti1ANHtISsEpQr/srnigw"
+      }
+    ]
+  },
+  "signature": {
+    "schemaVersion": 2,
+    "algorithm": "ECDSA-P256-SHA256-P1363",
+    "keyId": "sha256:e337df4e0c1ecf264596fd6c9858db328ef042875a2ccd12ffce440cd54eb316",
+    "valueBase64": "ffRE5IuOX4CBaOJZpD9GFarQSwWwijlyG8rqqBVXkFE50HVyJjx3xzmCxreMfF9XWRovm6Uq7BwBy2naYx5/WA=="
+  }
+}

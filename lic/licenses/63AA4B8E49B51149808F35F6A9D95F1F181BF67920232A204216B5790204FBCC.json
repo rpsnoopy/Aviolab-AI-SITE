@@ -1,0 +1,34 @@
+﻿{
+  "schemaVersion": 2,
+  "format": "TTR-LICENSE-V2",
+  "licenseSeed": "63AA4B8E49B51149808F35F6A9D95F1F181BF67920232A204216B5790204FBCC",
+  "machineKeyId": "sha256:89bb20c2ec050b1a67923edbfcb51a6442ce2ddfeecfc718e42371a581c5cfef",
+  "issuedAtUtc": "2026-10-04T21:24:33.9385125Z",
+  "expiresAtUtc": "2026-10-31T09:23:49.0000000Z",
+  "status": "active",
+  "entitlements": {
+    "licenseType": "Enterprise"
+  },
+  "sealedSecrets": {
+    "schemaVersion": 2,
+    "contentAlgorithm": "A256GCM",
+    "keyWrapAlgorithm": "RSA-OAEP-256",
+    "associatedDataSha256": "df6dfc0e8d0ba4cc29abd4c95ea30ea4645e623ef53d398949d957ccd7247006",
+    "nonceBase64": "agmMfPYb58IrV56Q",
+    "ciphertextBase64": "YJANGmnGDQ\u002BS\u002BoCMxQ8rF20MsW7TyWMlAf51dMYrUs0ksKJ2l1vsqx7d/BMJ4zYilgvaGQQI9cx\u002B9pBquuGnbaF1XRJPJrqMY3cf6FrasIikSf9njNn7YCSGnB8ggAIS7Jl/oY98RhYVArkr2v6jWcjRiQPs2QeO\u002B5GGYTT94/gGY9FHYsuPSnXC1CYEoPrSymJ4PnkR\u002BRI=",
+    "tagBase64": "grqeR6FkfJx9jPjUckFEfw==",
+    "recipients": [
+      {
+        "role": "machine",
+        "keyId": "sha256:89bb20c2ec050b1a67923edbfcb51a6442ce2ddfeecfc718e42371a581c5cfef",
+        "wrappedKeyBase64": "ncdb1bCshecIjDOsFcXWQ4dH4/DrPKkSyym8etFsICAQ34z3NrxL39wgWa2lyW\u002Be3E5hGVHkYlUclFKw8KhUFIDq/G6LvmiHmN9H8G6kaht\u002BwPpMOZUQI8Ex4hkEVTMl6g9ZC5wK\u002Ba9oYUvU3vkcV6bXS5R8Yq0jZn8nRyLkj0jSqxsqSLXYYaFOIMuo1Lm60AQWkybi86Tq\u002BMpYVUOnwrevTP69uDqaEXMXrEs9A4G7feZ1ZKD8z\u002BtjPPxLeNN8F5etf9Sl5hCtAR\u002Bpp6V5KbfDLtmeafaKDICDU9xsfC10bgIkc48ay\u002B8MRrB29weiHGHiVBxi8XssSnEDA86v1qKAEbaZBaLGjYu4npxxaGq\u002B3WqEoZBY6g2H2ZzDGRB1r9zR/NAR7NQVbWCt4fgHu0m8izgplEqxtVuSn3YKoXkoxUhzMr/NCjKUSChHc36iZs70xZqpz/niQvOkgNgijRkQHBp3zMdLeSXFzC5kdhmkL4MrU7XD2Ui2ZwAiOja/"
+      }
+    ]
+  },
+  "signature": {
+    "schemaVersion": 2,
+    "algorithm": "ECDSA-P256-SHA256-P1363",
+    "keyId": "sha256:e337df4e0c1ecf264596fd6c9858db328ef042875a2ccd12ffce440cd54eb316",
+    "valueBase64": "5pj6Xb\u002BbBcaeNi\u002B8YNX2KoI14lzGcW9B6jOpvUvGceYSkPc2uEWyTkI\u002Bzm7JSsSovDT8tPKrD4j3hz5D0sv1pA=="
+  }
+}

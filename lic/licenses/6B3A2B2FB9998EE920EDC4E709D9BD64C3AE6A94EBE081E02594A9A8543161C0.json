@@ -1,0 +1,34 @@
+﻿{
+  "schemaVersion": 2,
+  "format": "TTR-LICENSE-V2",
+  "licenseSeed": "6B3A2B2FB9998EE920EDC4E709D9BD64C3AE6A94EBE081E02594A9A8543161C0",
+  "machineKeyId": "sha256:9112576e19967ef116f169c7a1f7a55d2f17bfb24cec47be786abecf7b195ca9",
+  "issuedAtUtc": "2026-10-04T20:52:18.2783612Z",
+  "expiresAtUtc": "2027-08-31T18:30:08.0000000Z",
+  "status": "active",
+  "entitlements": {
+    "licenseType": "Enterprise"
+  },
+  "sealedSecrets": {
+    "schemaVersion": 2,
+    "contentAlgorithm": "A256GCM",
+    "keyWrapAlgorithm": "RSA-OAEP-256",
+    "associatedDataSha256": "a944e49ebe6ac1624b0a93715acb02b37359d6233d9c2390238ec25fc21a31bf",
+    "nonceBase64": "mC6nlrPkfE7kASsd",
+    "ciphertextBase64": "\u002BpkDym2pkAJmOkpZp1PfLZNsuvy6ceAv5MxyUYDfUNPA3REEMXZF07vP4azuNswtWuem6VAMHY9tLPmeyHGOGj9JgjnNj/0jvCv6SJ3Eo8EqgOuD3QsWSaDybKw4rW\u002BjLUxacndSLzilqEZ0NUFKbz/lj5B1aQblKKJ7dLFlGJmHbvm3Uhu9ango9S6EyrMo0XTnBtaxg5MTQQ==",
+    "tagBase64": "KKr0flE1oI9FE8IzqKiL\u002BQ==",
+    "recipients": [
+      {
+        "role": "machine",
+        "keyId": "sha256:9112576e19967ef116f169c7a1f7a55d2f17bfb24cec47be786abecf7b195ca9",
+        "wrappedKeyBase64": "Xm/4HxCRzMbq5O0w4nfGNhBkrTSQpMvXE3siA7RNoyW1gJajpw952BWqlicRLm3TBbI0EG3i0H/miBPHhtkoADVygiBFbScPjg5jTmga/oI7SpcSbvNIBnE7r2baa7i/ZcgixQC7Ut4ex\u002BH6YIOeWFDYKNUeDZ5dK1qwZPRIQrzam7WdHuFw8S1R/nP2zjiGWT7dJf\u002B1BoLxBi/nOcBJ7oyllDIkzXWRl9xbOWyPgXQGLoCrmaRQtS1\u002B0tBcSLNfsCv\u002BX/cpz8Hl8gZGfnK2wF\u002BE\u002BcCukiR/\u002BCqDC3CXswQyKc6tQ66AqM8cVpXnCMxamn/6LmV3AaGKKac5c\u002BxyXwo69VCp4LWnm1P172vsb6peoRahGpxdRSaegCVySWKUHgtnYatRmVBhOy74yUh0mySfWSZje0Vh1s6m8q7Qb/0rhPJemCzkRjg\u002BSdhFWPQ7n4UZZEHpXRrzw0Gm5CZHCMjdtVZljaD1gpgs9D19gMHqs/TX96MA6cLiDMd\u002B3rwd"
+      }
+    ]
+  },
+  "signature": {
+    "schemaVersion": 2,
+    "algorithm": "ECDSA-P256-SHA256-P1363",
+    "keyId": "sha256:e337df4e0c1ecf264596fd6c9858db328ef042875a2ccd12ffce440cd54eb316",
+    "valueBase64": "CYGC3ja3Px0kFyICaWS2ZOmKQvs3req847odZGtq1yCCw6GiUY\u002B4T9etWYIeEQ18Ez/C6ztl2RN9O8a\u002BtccLnQ=="
+  }
+}

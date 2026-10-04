@@ -1,0 +1,34 @@
+﻿{
+  "schemaVersion": 2,
+  "format": "TTR-LICENSE-V2",
+  "licenseSeed": "9D01BAC825B651ECC7969C1581F08F4523227C5642C50ECB6C49E5CB70243BBA",
+  "machineKeyId": "sha256:50bd82577e34818c3e21b0fe6148069fd3671cb515fa402fe500c2b851d9f786",
+  "issuedAtUtc": "2026-10-04T21:23:54.0338619Z",
+  "expiresAtUtc": "2026-10-31T09:23:49.0000000Z",
+  "status": "active",
+  "entitlements": {
+    "licenseType": "Enterprise"
+  },
+  "sealedSecrets": {
+    "schemaVersion": 2,
+    "contentAlgorithm": "A256GCM",
+    "keyWrapAlgorithm": "RSA-OAEP-256",
+    "associatedDataSha256": "adcf50351b07fdbf8c82ba9182f68ab29013e3480ab0c3813a1281dd2ab199ff",
+    "nonceBase64": "ctkTGFSM3/wXZWAV",
+    "ciphertextBase64": "12q9QkSiAnOenD3GYuNWGQWMR7xoUJ\u002BxXRJSmgwt0koDbT7NbCgLUxCudicht46DfD4n8OmSvDpr7/06L99NlllHRDM07w\u002BtPGnqHAyfWZm70s5YBvhYisyITHMOh2fIvNDau2P4pzhajBD1iWvMpgV\u002BGG0hGdgJ11/gpKIkcUrFaNUl5SGZWF6278X7HcmAosqx57TaFgw=",
+    "tagBase64": "qTw\u002ByhWbUWnJTSy1q97lZw==",
+    "recipients": [
+      {
+        "role": "machine",
+        "keyId": "sha256:50bd82577e34818c3e21b0fe6148069fd3671cb515fa402fe500c2b851d9f786",
+        "wrappedKeyBase64": "ceKVJS8STuhgiFpHUqVcHf5hn\u002BkJXamHkbyhQEZnPPOjcNJH/JI51ip1YiXIMEVFWlIFl\u002BxyxcDsIp/qPgYxLndfAU37sImdiX5DQ7Hahn/gokgYyYxiYBRlt5k00w9u2xq0\u002B9uJ6QlnsWu7BIub\u002BhJ5ckZDxRZHdfuB501Bu6piUfWvi22tCFXVSZ1zBI/AbOTY4fINjNiQlbCaufsmSgjtY6g1BMAY9/Z9GijA2yw/kqNXYbOnO4qHa1Am3D\u002BRuPnVGlfiILHj7QuWzsBu89GbsoptMMSvNQCF2GYjKHs2DRF6H0SuJAnjkFSiiN1AX6n8MxMYDiX5tFN7xEuUfGAkgsMQlGZSgzMDhYl3qDMKhIAwIXjXJE8cNY/EafJ1R91PHhdDJT7kR5P80Ov81JpJAqCpT87DlDaFXlDKqEQ0N5yc2CxREEEy\u002BW0Fl4NwmDuX2wRVwjF4ddU9lVDlVCVuVrxzH7nNjcsan1mbUeyyx9RrmD4DhGI2mtUHFh2w"
+      }
+    ]
+  },
+  "signature": {
+    "schemaVersion": 2,
+    "algorithm": "ECDSA-P256-SHA256-P1363",
+    "keyId": "sha256:e337df4e0c1ecf264596fd6c9858db328ef042875a2ccd12ffce440cd54eb316",
+    "valueBase64": "kPMauyfY7grrvV1qGUuVct\u002BmMnkV0gAyJDVyDVcG2qsHnotOCNnfAd/C0eio716GFPNKY/0FdMKshOKHTHCxNg=="
+  }
+}

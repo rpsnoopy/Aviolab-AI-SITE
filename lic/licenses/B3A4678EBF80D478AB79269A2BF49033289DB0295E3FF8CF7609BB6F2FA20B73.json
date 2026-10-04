@@ -1,0 +1,34 @@
+﻿{
+  "schemaVersion": 2,
+  "format": "TTR-LICENSE-V2",
+  "licenseSeed": "B3A4678EBF80D478AB79269A2BF49033289DB0295E3FF8CF7609BB6F2FA20B73",
+  "machineKeyId": "sha256:bc6eda885c83ade4d3ac4d1613235f25085a31c770a0fb5be66594f8b0c87aa3",
+  "issuedAtUtc": "2026-10-04T20:51:53.7491831Z",
+  "expiresAtUtc": "2027-08-31T18:30:08.0000000Z",
+  "status": "active",
+  "entitlements": {
+    "licenseType": "Enterprise"
+  },
+  "sealedSecrets": {
+    "schemaVersion": 2,
+    "contentAlgorithm": "A256GCM",
+    "keyWrapAlgorithm": "RSA-OAEP-256",
+    "associatedDataSha256": "9533555a5f758f1e21c969518c052081759c7bb2f38d980376ed967adc066141",
+    "nonceBase64": "E/corFdNmoLQpRV0",
+    "ciphertextBase64": "GvTgCFM\u002BZUP6\u002B0bf/mLA/5t8sl9v3YlRZlIx/dEzJPoEnpbbbkCYBfUmXDK0PoBmULaRKiwI6F4vrD6R/u9G/2gLngB4VOAMhcI7aTE8Ia0B2UstFd9s2aMROtWpYQfrMhADC0ale5VdBO9sUkUxEyqTIaqLyRsoa5f0Zf4S0U3osnmfIwS03Eat/qpYIqX/PlN9FiYGrl\u002BLFA==",
+    "tagBase64": "GmzElrIFwxQn8QEm92sQ3w==",
+    "recipients": [
+      {
+        "role": "machine",
+        "keyId": "sha256:bc6eda885c83ade4d3ac4d1613235f25085a31c770a0fb5be66594f8b0c87aa3",
+        "wrappedKeyBase64": "aOBPVq/9dPSJxtM3VnbnSE\u002BogpHp\u002Bd/pwLxm21EEK4F0K\u002B/FodrVTpD5FvDA20\u002BfImfkEhMH4GHVt90KyEGikL9BjIINItsgLWevOQx6kgyIRSKCLsShJLFZIG6tRHEr7lUqN\u002BMm7AwNYrHpGWEKhc06hB1sHtSKwMo/gTUEQobj3CYAS5U7bYBEjq9bXY\u002Bmdf6YA6w2tPUp9TXf8\u002BD\u002BQ3CW5yU54ehz/67d5wB56ko/F9an/EtbIzYM8oDI3AbjgC9f6pvvgb68ZBWNjSf1Yyi7xFN\u002BoPcMz/EIbv\u002BHc2EOkViEAgbWfCWsuUIlPEbue2IhgOl23ORwhvdvZ9oZPDLIE76E2ZCuoLVB1BkHLLvj\u002BVG\u002BEckyfmyzP42KHnPEREThFFbCMa8dsBrpIXxtP6I7WluliS4aRItR\u002Bhn9qrXf6M0XaMiPRCsLkLD20XJ22tce44cisgNATqfb1YaODEU\u002BYJkpajMyNQ\u002BDvL4EahnVbgthdtvLp2XywF5IhY5E"
+      }
+    ]
+  },
+  "signature": {
+    "schemaVersion": 2,
+    "algorithm": "ECDSA-P256-SHA256-P1363",
+    "keyId": "sha256:e337df4e0c1ecf264596fd6c9858db328ef042875a2ccd12ffce440cd54eb316",
+    "valueBase64": "umfiZhqeAmEwAZn3tKvp3nZ5xUEOd\u002BI1A\u002BAOylXI0Q2YUVBNDo6G9t5Iuuw2KPzpueHJFyjBBT4IZIhFV213\u002BQ=="
+  }
+}
