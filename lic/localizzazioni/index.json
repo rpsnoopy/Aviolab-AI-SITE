@@ -1,6 +1,6 @@
 {
   "formato": "ttr-localizzazioni-indice/1",
-  "aggiornatoIl": "2026-10-12T20:55:14Z",
+  "aggiornatoIl": "2026-10-12T21:05:19Z",
   "comuni": [
     {
       "id": "010043",
@@ -10,6 +10,15 @@
       "regione": "Liguria",
       "versione": "2026-10-12T20:55:14Z",
       "sha256": "ea77d3e89eb2f7770a6810150470d45224a1605bcd993ae58f942a557bf2d1eb"
+    },
+    {
+      "id": "010047",
+      "slug": "recco",
+      "denominazione": "Recco",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "versione": "2026-10-12T21:05:19Z",
+      "sha256": "bba838eeb87b5482fcdff6fb8391a8ef6394e83d0fd14159cadd11a0e3bff4a6"
     }
   ]
 }
