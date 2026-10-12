@@ -1,0 +1,15 @@
+{
+  "formato": "ttr-localizzazioni-indice/1",
+  "aggiornatoIl": "2026-10-12T18:43:21Z",
+  "comuni": [
+    {
+      "id": "010043",
+      "slug": "pieve-ligure",
+      "denominazione": "Pieve Ligure",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "versione": "2026-10-12T18:43:21Z",
+      "sha256": "c51b845c603382afeb93d8c1e333c7b98599aa19f3c7583c86a7d3c4ac4317f1"
+    }
+  ]
+}
