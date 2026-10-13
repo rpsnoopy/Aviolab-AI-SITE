@@ -1,15 +1,51 @@
 {
   "formato": "ttr-localizzazioni-indice/1",
-  "aggiornatoIl": "2026-10-13T07:16:27Z",
+  "aggiornatoIl": "2026-10-13T08:27:27Z",
   "comuni": [
+    {
+      "id": "010004",
+      "slug": "bogliasco",
+      "denominazione": "Bogliasco",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "versione": "2026-10-13T08:27:26Z",
+      "sha256": "fa42f7adb71b06df4c852396dbd692f913d2be288aa58acd8692ba119e6eb83f"
+    },
+    {
+      "id": "010015",
+      "slug": "chiavari",
+      "denominazione": "Chiavari",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "versione": "2026-10-13T08:27:26Z",
+      "sha256": "e1f877b6587a52b7981023e26b9a76cc2ce5164a3a65db04080beded1521ed0c"
+    },
     {
       "id": "010043",
       "slug": "pieve-ligure",
       "denominazione": "Pieve Ligure",
       "provincia": "GE",
       "regione": "Liguria",
-      "versione": "2026-10-13T07:16:27Z",
-      "sha256": "ad69fc52bdc2f2e928845a6ba9bc160491731fc09ddfe1e76364393ce30c8ab6"
+      "versione": "2026-10-13T08:27:26Z",
+      "sha256": "ccb2026a5f607b937e9dbdbcaf24b27097811ea6c8823c484d94054cfa7650df"
+    },
+    {
+      "id": "010044",
+      "slug": "portofino",
+      "denominazione": "Portofino",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "versione": "2026-10-13T08:27:27Z",
+      "sha256": "fa550a35dd159b686ab0343a7632aea09da35158fec23889b04d904aa96b2a6d"
+    },
+    {
+      "id": "010046",
+      "slug": "rapallo",
+      "denominazione": "Rapallo",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "versione": "2026-10-13T08:27:27Z",
+      "sha256": "dec1c76e865d4a3cb52a168f3a3cffcc217128bb444a9c1960933bf3b0daeefd"
     },
     {
       "id": "010047",
@@ -17,8 +53,17 @@
       "denominazione": "Recco",
       "provincia": "GE",
       "regione": "Liguria",
-      "versione": "2026-10-12T21:05:19Z",
-      "sha256": "bba838eeb87b5482fcdff6fb8391a8ef6394e83d0fd14159cadd11a0e3bff4a6"
+      "versione": "2026-10-13T08:27:26Z",
+      "sha256": "43aebd7b0306ed4071b201c80f1f11d7e60a7abfb9f79669a139041d9ada4627"
+    },
+    {
+      "id": "010054",
+      "slug": "santa-margherita-ligure",
+      "denominazione": "Santa Margherita Ligure",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "versione": "2026-10-13T08:27:27Z",
+      "sha256": "cb895311d017f34bb33a5d7ca5b71256408d900d8ff0c909e64a48035d3517ca"
     },
     {
       "id": "010060",
@@ -26,8 +71,8 @@
       "denominazione": "Sori",
       "provincia": "GE",
       "regione": "Liguria",
-      "versione": "2026-10-13T07:16:27Z",
-      "sha256": "b36f7219360f2250494d10cf54af932fa83a0611d612cc0458934f88eed5cb0d"
+      "versione": "2026-10-13T08:27:26Z",
+      "sha256": "c108a74767444efbed27ec837914b2ca12ee1d61b8a57eb23c791c5da6eecbcc"
     }
   ]
 }
