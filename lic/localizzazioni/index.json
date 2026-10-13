@@ -1,6 +1,6 @@
 {
   "formato": "ttr-localizzazioni-indice/1",
-  "aggiornatoIl": "2026-10-12T21:11:58Z",
+  "aggiornatoIl": "2026-10-13T07:16:27Z",
   "comuni": [
     {
       "id": "010043",
@@ -8,8 +8,8 @@
       "denominazione": "Pieve Ligure",
       "provincia": "GE",
       "regione": "Liguria",
-      "versione": "2026-10-12T21:11:58Z",
-      "sha256": "0551d623fca960fb3208048c19290f92563c35d1d3719631cbca2c4ef0a4873e"
+      "versione": "2026-10-13T07:16:27Z",
+      "sha256": "ad69fc52bdc2f2e928845a6ba9bc160491731fc09ddfe1e76364393ce30c8ab6"
     },
     {
       "id": "010047",
@@ -26,8 +26,8 @@
       "denominazione": "Sori",
       "provincia": "GE",
       "regione": "Liguria",
-      "versione": "2026-10-12T21:11:58Z",
-      "sha256": "17d26cb14ff907af578e21420b926f13066bd03b7151656d08bbcdb392e3b2ec"
+      "versione": "2026-10-13T07:16:27Z",
+      "sha256": "b36f7219360f2250494d10cf54af932fa83a0611d612cc0458934f88eed5cb0d"
     }
   ]
 }
