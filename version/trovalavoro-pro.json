@@ -1,13 +1,13 @@
 {
-    "versione":  "2.1.021",
-    "file":  "https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/TrovaLavoro-PRO-v2.1.021/TrovaLavoroPRO.exe",
-    "dimensione":  119307592,
-    "sha256":  "6e85595d5d291b6a50cc4cbed8a73e62ae2bc4fc0bcfec14da0e9b8306ce16fa",
+    "versione":  "2.1.022",
+    "file":  "https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/TrovaLavoro-PRO-v2.1.022/TrovaLavoroPRO.exe",
+    "dimensione":  119315784,
+    "sha256":  "429c2ac9507a7abc6a53be81a1ecbc182272993d8bcc2ecadf2f48b198af5287",
     "pubblicata":  "2026-10-13",
-    "commit":  "d5a59de",
+    "commit":  "55555d5",
     "candidato":  {
-                      "file":  "https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/TrovaLavoro-PRO-v2.1.021/TrovaLavoroCandidato.exe",
-                      "dimensione":  119434592,
-                      "sha256":  "9a1db91caeaf9c267968c19012415bd89c498ca0d9098a8b5a908159b157b101"
+                      "file":  "https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/TrovaLavoro-PRO-v2.1.022/TrovaLavoroCandidato.exe",
+                      "dimensione":  119442784,
+                      "sha256":  "9136ef5ebfd837fb94a99d15a47145c21ff5315d9abbd1cb1f171d0f22905b17"
                   }
 }
