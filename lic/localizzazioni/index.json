@@ -1,6 +1,6 @@
 {
   "formato": "ttr-localizzazioni-indice/1",
-  "aggiornatoIl": "2026-10-13T08:27:27Z",
+  "aggiornatoIl": "2026-10-13T11:20:20Z",
   "comuni": [
     {
       "id": "010004",
@@ -26,8 +26,8 @@
       "denominazione": "Pieve Ligure",
       "provincia": "GE",
       "regione": "Liguria",
-      "versione": "2026-10-13T08:27:26Z",
-      "sha256": "ccb2026a5f607b937e9dbdbcaf24b27097811ea6c8823c484d94054cfa7650df"
+      "versione": "2026-10-13T11:20:20Z",
+      "sha256": "907841c0b075dc3fba93222721349d5fed8ce5b557ec4f42f18bc41a90a45b06"
     },
     {
       "id": "010044",
