@@ -5,3 +5,7 @@
 # scaricabili come sempre.
 /lic/machine-registry.json* / 302
 /lic/api-keys-db.json* / 302
+
+# Filmati troppo grandi per Pages (limite 25 MB per file): link corto sul sito,
+# file nel repo pubblico aviolab-ai-downloads.
+/download/tutorial-biblioteca-ente.mp4 https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/public/TTR-SUITE_Tutorial_BibliotecaEnte_16x9.mp4 302
