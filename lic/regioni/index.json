@@ -1,166 +1,167 @@
 {
   "formato": "ttr-regioni-indice/1",
-  "aggiornatoIl": "2026-11-04T23:11:46Z",
+  "aggiornatoIl": "2026-11-04T23:12:11Z",
   "regioni": [
     {
       "chiave": "abruzzo",
       "regione": "Abruzzo",
       "statuto": "ordinario",
       "schema_version": 1,
-      "sha256": "42709b9e73c135f7f522cd50ec232dab46ec6510aeab7d9a08bdec3ddad1c3dd",
-      "bytes": 5561
+      "sha256": "39c24c9fda8becc542c96c3d160ad58db8c19f7776f54bf946a918af9088c936",
+      "bytes": 5425
     },
     {
       "chiave": "basilicata",
       "regione": "Basilicata",
       "statuto": "ordinario",
       "schema_version": 1,
-      "sha256": "1d37deeb32947230291af410e8750fdad39399f674e0c3d1e1de4dd6bf51cce3",
-      "bytes": 5943
+      "sha256": "567c1a7b5af4c1750da51546c07ad551bf7fe5f09e02c1b14ca59c057b10253d",
+      "bytes": 5802
     },
     {
       "chiave": "calabria",
       "regione": "Calabria",
       "statuto": "ordinario",
       "schema_version": 1,
-      "sha256": "14e7157b07a675d4bc88a98c685a5a6f092d216bd5e32524d2b477fcb3229965",
-      "bytes": 6016
+      "sha256": "61ae1cd553bbddad1fccca7f3c74ee63bad8d36cd76f956e819ac8af29ff500f",
+      "bytes": 5879
     },
     {
       "chiave": "campania",
       "regione": "Campania",
       "statuto": "ordinario",
       "schema_version": 1,
-      "sha256": "a9a60557790c754c29893acfe42a12da8f0a137c291e123b39508706dafbdf52",
-      "bytes": 7934
+      "sha256": "c1ff00d104a774ba3980ede424a7abbaaed8b4746b3d0df26794806636d02341",
+      "bytes": 7756
     },
     {
       "chiave": "emiliaromagna",
       "regione": "Emilia-Romagna",
       "statuto": "ordinario",
       "schema_version": 1,
-      "sha256": "272d73cb8dae0a34a3b99e702e5552258e23db1bc662512ce30233aef21b3d6f",
-      "bytes": 5370
+      "sha256": "44a9b9eb5bdf0f9190e52b2abf6921979a0ee695db21be6e543c528ccf5cc31b",
+      "bytes": 5235
     },
     {
       "chiave": "friuliveneziagiulia",
       "regione": "Friuli-Venezia Giulia",
       "statuto": "speciale",
       "schema_version": 1,
-      "sha256": "b142a185ad9355248b8b6cefb174ec10f7172ce2b9d5880181e7271c4e3d0628",
-      "bytes": 5962
+      "sha256": "8747594b877d7bdec12c051d316e7996f68fb50069ec2fc178b78ccb9259569e",
+      "bytes": 5827
     },
     {
       "chiave": "lazio",
       "regione": "Lazio",
       "statuto": "ordinario",
       "schema_version": 1,
-      "sha256": "ab54cf5fa4c40130ba4df21a1b99120da9c44800334dcf3da59811b9ba52297b",
-      "bytes": 5900
+      "sha256": "ff9bd10f208d598e3587092882ef73076b8e4464647c062c0957f21bde1df382",
+      "bytes": 5756
     },
     {
       "chiave": "liguria",
       "regione": "Liguria",
       "statuto": "ordinario",
       "schema_version": 1,
-      "sha256": "f55582c8556badf28d840ac226a07ad236835d6b58c93f405a3e026b6d137d98",
-      "bytes": 5801
+      "sha256": "7a23e2860d1aff89ae3b574a3c5dd05930575a1fa7b289ea7a8e01503f844368",
+      "bytes": 5661
     },
     {
       "chiave": "lombardia",
       "regione": "Lombardia",
       "statuto": "ordinario",
       "schema_version": 1,
-      "sha256": "b30e43742eb98ecf757f7599f982f4d8d24d883210f650be725ff0a819cae5cc",
-      "bytes": 7475
+      "sha256": "e86a46897036a32c614c93d8261f26c3652197cc9a004a87ac6c43d8f709c69a",
+      "bytes": 7310
     },
     {
       "chiave": "marche",
       "regione": "Marche",
       "statuto": "ordinario",
       "schema_version": 1,
-      "sha256": "a54a162375c538adcb57783a86ab5b8c6795607d36190ea673324123ef3ef82d",
-      "bytes": 5439
+      "sha256": "410481e5988c4ba264a83befccaf706fe598ee3670551cf503fe20d22f0f89f2",
+      "bytes": 5305
     },
     {
       "chiave": "molise",
       "regione": "Molise",
       "statuto": "ordinario",
       "schema_version": 1,
-      "sha256": "ff9a41a1b4ed4843ebc7b74551f1e7e32badc73ac06396c4086bc76a9ee8807c",
-      "bytes": 4702
+      "sha256": "d72df2bbdbbe9c76f2bf29ba9dc509c33154ae7504b2a5bd60d4f4373cc6e158",
+      "bytes": 4592
     },
     {
       "chiave": "piemonte",
       "regione": "Piemonte",
       "statuto": "ordinario",
       "schema_version": 1,
-      "sha256": "e48f88831f63f8e28bef4cb350c9b6d775f459ccec2dcb2e1438bc93c607f784",
-      "bytes": 5023
+      "sha256": "55ca017ffb45dec0b5ab12a86986676f53b0952f57a01f93898700fdf0eef798",
+      "bytes": 4891
     },
     {
       "chiave": "puglia",
       "regione": "Puglia",
       "statuto": "ordinario",
       "schema_version": 1,
-      "sha256": "7ae3c7bebbfad7143d515f6dcfbfa0271115c9aa613bada8cc206bf6394fbec5",
-      "bytes": 5595
+      "sha256": "f547070f614e93a275d961c8346bcd8a1b1e3b9f8c006e5c401e364491c385e3",
+      "bytes": 5453
     },
     {
       "chiave": "sardegna",
       "regione": "Sardegna",
       "statuto": "speciale",
       "schema_version": 1,
-      "sha256": "c3bf319f64775d7d9785b9ce4bd3e6ad9ab01feb2c2da67a849965c1c1a4e3e5",
-      "bytes": 6484
+      "sha256": "8796b77557d2e339852ead4fed9c64f1673555f07701870046195c253493e59b",
+      "bytes": 6344
     },
     {
       "chiave": "sicilia",
       "regione": "Sicilia",
       "statuto": "speciale",
       "schema_version": 1,
-      "sha256": "e1fd9a02d8344632c57e84f4b2c19472a58ac455fa987e0517fab209e93d1cb0",
-      "bytes": 6040
+      "sha256": "da4737e860a80ad1bbf59429f056a7582f0c874075b3d80188ebf59914f39554",
+      "bytes": 5910
     },
     {
       "chiave": "toscana",
       "regione": "Toscana",
       "statuto": "ordinario",
       "schema_version": 1,
-      "sha256": "543f5a6e6eb1b02803dd1bf7ed010ed0a9702050c7084950611e3cc1faad9109",
-      "bytes": 6149
+      "sha256": "dc295e137eb2c0fb6ee8762bbc86dbb65a9f1ccb623c33c4eb945bacb073bbff",
+      "bytes": 6007
     },
     {
       "chiave": "trentinoaltoadige",
       "regione": "Trentino-Alto Adige",
       "statuto": "speciale",
       "schema_version": 1,
-      "sha256": "e0dd33536712d7e5b6b13446c467d0a89f1ba2403cc5352b5c1be4a0dab6cfe2",
-      "bytes": 9647
+      "sha256": "5e51cd16817e50f9b20af6bedb92692efc8a3e64f5dc1d44477bf3d719bdf471",
+      "bytes": 9480
     },
     {
       "chiave": "umbria",
       "regione": "Umbria",
       "statuto": "ordinario",
       "schema_version": 1,
-      "sha256": "79dc47c0888f0081644032233d7230bba0eacb06694d52492110fff6837e1b95",
-      "bytes": 5397
+      "sha256": "2e1283edaa516697a24c1ad3d1f5e22ce96261f7ca5c5c329b62592f093ab906",
+      "bytes": 5276
     },
     {
       "chiave": "valledaosta",
       "regione": "Valle d'Aosta",
       "statuto": "speciale",
       "schema_version": 1,
-      "sha256": "196beee10a63707eb4d398dd7908b86b6b90fa25f1eb06e9fca48fb10a4c7768",
-      "bytes": 5083
+      "sha256": "6ab1c14525d4c8ecac8e372f0f97493bec4491bb4dee761ed715a3028be4eec6",
+      "bytes": 4961
     },
     {
       "chiave": "veneto",
       "regione": "Veneto",
       "statuto": "ordinario",
       "schema_version": 1,
-      "sha256": "c0a4d0a2a4e347cc48af743b4541b8442f16974bacde5a2892989d2d76102aa2",
-      "bytes": 7823
+      "sha256": "9a2a87b49e838222923bec433dff9269875a57d4403b4cf32917b2a51b668258",
+      "bytes": 7681
     }
-  ]
+  ],
+  "nota": "sha256 e bytes del file come servito (fine riga LF)"
 }
