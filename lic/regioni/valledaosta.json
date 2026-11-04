@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "regione": "Valle d'Aosta",
+  "chiave": "valledaosta",
+  "aggettivo": {
+    "ms": "valdostano",
+    "fs": "valdostana",
+    "mp": "valdostani",
+    "fp": "valdostane"
+  },
+  "statuto": "speciale",
+  "ordinamento_enti_locali": "L.R. 7 dicembre 1998, n. 54 (Sistema delle autonomie in Valle d'Aosta), che disciplina l'ordinamento dei Comuni e delle Unités des Communes valdôtaines al posto del TUEL nelle materie di competenza regionale.",
+  "capoluogo": "Aosta",
+  "tar": "TAR Valle d'Aosta",
+  "bur": {
+    "sigla": "BUR",
+    "nome": "Bollettino Ufficiale della Regione autonoma Valle d'Aosta",
+    "url": "https://www.regione.vda.it/affari_legislativi/bollettino_ufficiale/default_i.asp"
+  },
+  "banca_dati": {
+    "nome": "Leggi e regolamenti regionali del Consiglio Valle",
+    "url": "https://www.consiglio.vda.it/app/leggieregolamenti",
+    "indirizzamento": "id"
+  },
+  "geografia": {
+    "demanio": [
+      "idrico"
+    ],
+    "art142_lettere": [
+      "c",
+      "d",
+      "e",
+      "f"
+    ],
+    "note": "Regione interamente montana: corsi d'acqua (demanio idrico regionale per statuto), montagne sopra 1600 m, ghiacciai e Parco nazionale del Gran Paradiso (art. 142 co. 1 lett. c, d, e, f D.Lgs. 42/2004)."
+  },
+  "materie": {
+    "servizi_sociali": {
+      "norme": [
+        {
+          "estremi": "L.R. 25 gennaio 2000, n. 5",
+          "compatto": "L.R. 5/2000",
+          "titolo": "Norme per la razionalizzazione dell'organizzazione del Servizio socio-sanitario regionale e per il miglioramento della qualità e dell'appropriatezza delle prestazioni sanitarie, socio-sanitarie e socio-assistenziali prodotte ed erogate nella regione",
+          "note": "Art. 38: autorizzazione regionale per realizzare strutture socio-assistenziali e accreditamento."
+        },
+        {
+          "estremi": "L.R. 4 settembre 2001, n. 18",
+          "compatto": "L.R. 18/2001",
+          "titolo": "Approvazione del piano socio-sanitario regionale per il triennio 2002/2004",
+          "note": "Capo II servizi sociali tuttora vigente: art. 2 definizione, art. 6 competenze dei Comuni."
+        },
+        {
+          "estremi": "L.R. 23 luglio 2010, n. 23",
+          "compatto": "L.R. 23/2010",
+          "titolo": "Testo unico in materia di interventi economici di sostegno e promozione sociale",
+          "note": "Solo per i contributi economici."
+        }
+      ],
+      "fatti": {}
+    },
+    "nidi_0_3": {
+      "norme": [
+        {
+          "estremi": "L.R. 19 maggio 2006, n. 11",
+          "compatto": "L.R. 11/2006",
+          "titolo": "Disciplina del sistema regionale dei servizi socio-educativi per la prima infanzia. Abrogazione delle leggi regionali 15 dicembre 1994, n. 77, e 27 gennaio 1999, n. 4",
+          "note": "Art. 2 funzioni della Regione e delle Unités des Communes; i Comuni assicurano il diritto alla fruizione dei servizi."
+        }
+      ],
+      "fatti": {}
+    },
+    "urbanistica_edilizia": {
+      "norme": [
+        {
+          "estremi": "L.R. 6 aprile 1998, n. 11",
+          "compatto": "L.R. 11/1998",
+          "titolo": "Normativa urbanistica e di pianificazione territoriale della Valle d'Aosta",
+          "note": "Comprende anche i titoli edilizi; il PTP regionale è disciplinato negli artt. 2-6."
+        }
+      ]
+    },
+    "demanio": {
+      "norme": []
+    },
+    "polizia_locale": {
+      "norme": [
+        {
+          "estremi": "L.R. 19 maggio 2005, n. 11",
+          "compatto": "L.R. 11/2005",
+          "titolo": "Nuova disciplina della polizia locale e disposizioni in materia di politiche di sicurezza. Abrogazione della legge regionale 31 luglio 1989, n. 47",
+          "note": ""
+        }
+      ]
+    },
+    "procedimento_accesso": {
+      "norme": [
+        {
+          "estremi": "L.R. 6 agosto 2007, n. 19",
+          "compatto": "L.R. 19/2007",
+          "titolo": "Nuove disposizioni in materia di procedimento amministrativo e di diritto di accesso ai documenti amministrativi",
+          "note": ""
+        }
+      ]
+    },
+    "cultura_biblioteche": {
+      "norme": [
+        {
+          "estremi": "L.R. 17 giugno 1992, n. 28",
+          "compatto": "L.R. 28/1992",
+          "titolo": "Istituzione del Sistema bibliotecario regionale e nuove norme in materia di biblioteche regionali, comunali o di interesse locale. Abrogazione di leggi regionali",
+          "note": ""
+        }
+      ]
+    }
+  },
+  "verifica": {
+    "data": "2026-11-03",
+    "fonte": "Leggi e regolamenti regionali del Consiglio Valle (consiglio.vda.it, identificativo pk_lr, testo vigente)",
+    "verificato_da": "agente delegato della sessione Claude (Opus 5.5)",
+    "note": "Tutte le L.R. aperte sul testo vigente del Consiglio Valle: estremi, titolo e «Testo vigente» confermati. Demanio idrico regionale per statuto, nessuna legge regionale che attribuisca funzioni ai Comuni: materia vuota. Rapporto educatore/bambini dei nidi non reperito (atti di Giunta)."
+  }
+}

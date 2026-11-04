@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "regione": "Puglia",
+  "chiave": "puglia",
+  "aggettivo": {
+    "ms": "pugliese",
+    "fs": "pugliese",
+    "mp": "pugliesi",
+    "fp": "pugliesi"
+  },
+  "statuto": "ordinario",
+  "ordinamento_enti_locali": "",
+  "capoluogo": "Bari",
+  "tar": "TAR Puglia (sede di Bari; sezione staccata di Lecce)",
+  "bur": {
+    "sigla": "BURP",
+    "nome": "Bollettino Ufficiale della Regione Puglia",
+    "url": "https://burp.regione.puglia.it/"
+  },
+  "banca_dati": {
+    "nome": "Bussola Normativa del Consiglio regionale della Puglia",
+    "url": "https://bussolanormativa.consiglio.puglia.it/",
+    "indirizzamento": "id"
+  },
+  "geografia": {
+    "demanio": [
+      "marittimo",
+      "idrico"
+    ],
+    "art142_lettere": [
+      "a",
+      "b"
+    ],
+    "note": "Regione costiera: demanio marittimo e territori costieri (art. 142 co. 1 lett. a D.Lgs. 42/2004); laghi costieri di Lesina e Varano (lett. b). Concessioni demaniali marittime: competenza comunale (L.R. 17/2015 art. 8)."
+  },
+  "materie": {
+    "servizi_sociali": {
+      "norme": [
+        {
+          "estremi": "L.R. 10 luglio 2006, n. 19",
+          "compatto": "L.R. 19/2006",
+          "titolo": "Disciplina del sistema integrato dei servizi sociali per la dignità e il benessere delle donne e degli uomini in Puglia",
+          "note": ""
+        },
+        {
+          "estremi": "R.R. 18 gennaio 2007, n. 4",
+          "compatto": "R.R. 4/2007",
+          "titolo": "Regolamento attuativo della L.R. 10 luglio 2006, n. 19 (Disciplina del sistema integrato dei servizi sociali per la dignità e il benessere delle donne e degli uomini di Puglia)",
+          "note": "Requisiti strutturali e organizzativi per l'autorizzazione dei servizi. Titolo reso in forma descrittiva."
+        }
+      ],
+      "fatti": {}
+    },
+    "nidi_0_3": {
+      "norme": [
+        {
+          "estremi": "L.R. 8 luglio 2026, n. 9",
+          "compatto": "L.R. 9/2026",
+          "titolo": "Disciplina del sistema integrato di educazione e istruzione per l'infanzia",
+          "note": "Art. 11 autorizzazione comunale dei servizi zerosei; art. 28 regolamento attuativo della Giunta entro 180 giorni, non ancora censito; art. 29 norme transitorie."
+        },
+        {
+          "estremi": "R.R. 18 gennaio 2007, n. 4, art. 53",
+          "compatto": "R.R. 4/2007 art. 53",
+          "titolo": "Regolamento attuativo della L.R. 19/2006: asilo nido",
+          "note": "Standard del nido fino al regolamento della L.R. 9/2026: verificare se nel frattempo sostituito."
+        }
+      ],
+      "fatti": {
+        "rapporto_educatore_bambini": "1:5 (3-12 mesi), 1:8 (13-23 mesi), 1:10 (24-36 mesi, solo strutture con bambini di questa fascia), R.R. 4/2007 art. 53"
+      }
+    },
+    "urbanistica_edilizia": {
+      "norme": [
+        {
+          "estremi": "L.R. 27 luglio 2001, n. 20",
+          "compatto": "L.R. 20/2001",
+          "titolo": "Norme generali di governo e uso del territorio",
+          "note": ""
+        },
+        {
+          "estremi": "L.R. 31 maggio 1980, n. 56",
+          "compatto": "L.R. 56/1980",
+          "titolo": "Tutela ed uso del territorio",
+          "note": "Nessuna legge regionale generale sull'attività edilizia censita: per l'edilizia vale il D.P.R. 380/2001."
+        }
+      ]
+    },
+    "demanio": {
+      "norme": [
+        {
+          "estremi": "L.R. 10 aprile 2015, n. 17",
+          "compatto": "L.R. 17/2015",
+          "titolo": "Disciplina della tutela e dell'uso della costa",
+          "note": "Art. 8 concessioni di competenza comunale; Piano comunale delle coste (PCC)."
+        },
+        {
+          "estremi": "L.R. 30 maggio 2025, n. 7",
+          "compatto": "L.R. 7/2025",
+          "titolo": "Disciplina regionale dell'utilizzo delle acque superficiali e sotterranee e disposizioni diverse",
+          "note": "Demanio idrico; concessioni di derivazione."
+        }
+      ]
+    },
+    "polizia_locale": {
+      "norme": [
+        {
+          "estremi": "L.R. 14 dicembre 2011, n. 37",
+          "compatto": "L.R. 37/2011",
+          "titolo": "Ordinamento della polizia locale",
+          "note": ""
+        }
+      ]
+    },
+    "procedimento_accesso": {
+      "norme": [
+        {
+          "estremi": "L.R. 20 giugno 2008, n. 15",
+          "compatto": "L.R. 15/2008",
+          "titolo": "Principi e linee guida in materia di trasparenza dell'attività amministrativa nella Regione Puglia",
+          "note": "Art. 2 co. 2: si applica anche agli enti locali nell'ambito dei rispettivi ordinamenti. Nessuna legge regionale generale sul procedimento per gli enti locali."
+        }
+      ]
+    },
+    "cultura_biblioteche": {
+      "norme": [
+        {
+          "estremi": "L.R. 25 giugno 2013, n. 17",
+          "compatto": "L.R. 17/2013",
+          "titolo": "Disposizioni in materia di beni culturali",
+          "note": "Artt. 22-24 rete documentaria regionale, biblioteche e archivi, reti documentarie locali."
+        }
+      ]
+    }
+  },
+  "verifica": {
+    "data": "2026-11-03",
+    "fonte": "Bussola Normativa del Consiglio regionale della Puglia (testo vigente, campo «Abrogato No»)",
+    "verificato_da": "agente delegato della sessione Claude (Opus 5.5)",
+    "note": "Tutte le norme aperte sulla Bussola Normativa con stato non abrogato e data di ultima vigenza. Da riverificare: il regolamento attuativo della L.R. 9/2026 (art. 28), che può sostituire gli standard del nido del R.R. 4/2007."
+  }
+}

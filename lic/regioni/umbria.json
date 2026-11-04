@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "regione": "Umbria",
+  "chiave": "umbria",
+  "aggettivo": {
+    "ms": "umbro",
+    "fs": "umbra",
+    "mp": "umbri",
+    "fp": "umbre"
+  },
+  "statuto": "ordinario",
+  "ordinamento_enti_locali": "",
+  "capoluogo": "Perugia",
+  "tar": "TAR Umbria (sede di Perugia)",
+  "bur": {
+    "sigla": "BUR Umbria",
+    "nome": "Bollettino Ufficiale della Regione Umbria",
+    "url": "https://bur.regione.umbria.it/"
+  },
+  "banca_dati": {
+    "nome": "Raccolta normativa dell'Assemblea legislativa dell'Umbria",
+    "url": "https://leggi.alumbria.it/",
+    "indirizzamento": "nessuno"
+  },
+  "geografia": {
+    "demanio": [
+      "lacuale",
+      "idrico"
+    ],
+    "art142_lettere": [
+      "b"
+    ],
+    "note": "Regione senza costa: demanio lacuale (Trasimeno, Piediluco) e demanio idrico; territori contermini ai laghi, art. 142 co. 1 lett. b D.Lgs. 42/2004. Canoni del Trasimeno incassati dall'Unione dei Comuni (fonte secondaria)."
+  },
+  "materie": {
+    "servizi_sociali": {
+      "norme": [
+        {
+          "estremi": "L.R. 9 aprile 2015, n. 11",
+          "compatto": "L.R. 11/2015",
+          "titolo": "Testo unico in materia di Sanità e Servizi sociali",
+          "note": "NON VERIFICATA sul testo primario: banca dati del Consiglio in manutenzione il 2026-11-03; estremi e titolo da fonti secondarie (Università di Perugia, atti del Consiglio)."
+        }
+      ],
+      "fatti": {}
+    },
+    "nidi_0_3": {
+      "norme": [
+        {
+          "estremi": "L.R. 16 ottobre 2023, n. 13",
+          "compatto": "L.R. 13/2023",
+          "titolo": "Sistema integrato di educazione e istruzione per l'infanzia fino a sei anni di età",
+          "note": "Ha abrogato la L.R. 30/2005 (art. 28 co. 10); art. 15 autorizzazione, art. 24 regolamento di attuazione. Letta sul testo coordinato pubblicato dal Consiglio regionale (marzo 2026), non sulla banca dati."
+        },
+        {
+          "estremi": "Reg. reg. 20 dicembre 2006, n. 13",
+          "compatto": "R.R. 13/2006",
+          "titolo": "Norme di attuazione della legge regionale 22 dicembre 2005, n. 30 in materia di servizi socio-educativi per la prima infanzia",
+          "note": "Transitorio: resta in vigore fino al regolamento ex art. 24 L.R. 13/2023, ancora in corso a febbraio 2026 (DGR 121/2026). NON VERIFICATA sul testo primario."
+        }
+      ],
+      "fatti": {}
+    },
+    "urbanistica_edilizia": {
+      "norme": [
+        {
+          "estremi": "L.R. 21 gennaio 2015, n. 1",
+          "compatto": "L.R. 1/2015",
+          "titolo": "Testo unico governo del territorio e materie correlate",
+          "note": "Comprende l'edilizia. NON VERIFICATA sul testo primario: banca dati in manutenzione; modificata più volte, da ultimo nel 2026 (fonte secondaria)."
+        }
+      ]
+    },
+    "demanio": {
+      "norme": [
+        {
+          "estremi": "L.R. 23 dicembre 2004, n. 33",
+          "compatto": "L.R. 33/2004",
+          "titolo": "Disposizioni in materia di demanio idrico, di occupazione di suolo demaniale e di demanio lacuale",
+          "note": "NON VERIFICATA sul testo primario: estremi e titolo da atti dell'Assemblea legislativa (2025)."
+        }
+      ]
+    },
+    "polizia_locale": {
+      "norme": [
+        {
+          "estremi": "L.R. 25 gennaio 2005, n. 1",
+          "compatto": "L.R. 1/2005",
+          "titolo": "Disciplina in materia di polizia locale",
+          "note": "NON VERIFICATA sul testo primario: estremi e titolo da atti della Regione e del Consiglio; proposte di modifica in esame nel 2025-2026, approvazione non accertata."
+        }
+      ]
+    },
+    "procedimento_accesso": {
+      "norme": [
+        {
+          "estremi": "L.R. 16 settembre 2011, n. 8",
+          "compatto": "L.R. 8/2011",
+          "titolo": "Semplificazione amministrativa e normativa dell'ordinamento regionale e degli Enti locali territoriali",
+          "note": "Legge di semplificazione, non legge generale sul procedimento: per accesso e procedimento resta la L. 241/1990. NON VERIFICATA sul testo primario."
+        }
+      ]
+    },
+    "cultura_biblioteche": {
+      "norme": [
+        {
+          "estremi": "L.R. 18 maggio 2026, n. 8",
+          "compatto": "L.R. 8/2026",
+          "titolo": "Norme in materia di cultura e imprese culturali e creative",
+          "note": "Letta sul BUR (S.O. n. 1 al n. 23 del 20 maggio 2026); ha abrogato la L.R. 37/1990 (biblioteche) e la L.R. 24/2003 (sistema museale)."
+        }
+      ]
+    }
+  },
+  "verifica": {
+    "data": "2026-11-03",
+    "fonte": "Fonti secondarie ufficiali: BUR Umbria e documenti dell'Assemblea legislativa e della Regione (la banca dati leggi.alumbria.it era in manutenzione il 2026-11-03)",
+    "verificato_da": "agente delegato della sessione Claude (Opus 5.5)",
+    "note": "Banca dati consolidata NON raggiungibile (ogni pagina reindirizza all'avviso di manutenzione): nessuna norma è stata aperta sul testo vigente della banca dati. L.R. 8/2026 letta sul BUR; L.R. 13/2023 letta sul testo coordinato pubblicato dal Consiglio. Restano NON VERIFICATE sul testo primario L.R. 11/2015, R.R. 13/2006, L.R. 1/2015, L.R. 33/2004, L.R. 1/2005, L.R. 8/2011. Rapporto educatore/bambini non reperito. Scartate perché abrogate: L.R. 30/2005, L.R. 37/1990, L.R. 24/2003."
+  }
+}

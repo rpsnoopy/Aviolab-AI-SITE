@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "regione": "Campania",
+  "chiave": "campania",
+  "aggettivo": {
+    "ms": "campano",
+    "fs": "campana",
+    "mp": "campani",
+    "fp": "campane"
+  },
+  "statuto": "ordinario",
+  "ordinamento_enti_locali": "",
+  "capoluogo": "Napoli",
+  "tar": "TAR Campania (sede di Napoli; sezione staccata di Salerno)",
+  "bur": {
+    "sigla": "BURC",
+    "nome": "Bollettino Ufficiale della Regione Campania",
+    "url": "https://burc.regione.campania.it/"
+  },
+  "banca_dati": {
+    "nome": "Normativa Regione Campania (testi vigenti dell'Ufficio legislativo del Presidente della Giunta)",
+    "url": "https://www.regione.campania.it/normativa/",
+    "indirizzamento": "id"
+  },
+  "geografia": {
+    "demanio": [
+      "marittimo",
+      "idrico"
+    ],
+    "art142_lettere": [
+      "a",
+      "c"
+    ],
+    "note": "Regione costiera: demanio marittimo e territori costieri (art. 142 co. 1 lett. a D.Lgs. 42/2004); corsi d'acqua (lett. c). Concessioni di piccole derivazioni di acque pubbliche: funzione regionale (R.R. 12/2012)."
+  },
+  "materie": {
+    "servizi_sociali": {
+      "norme": [
+        {
+          "estremi": "L.R. 23 ottobre 2007, n. 11",
+          "compatto": "L.R. 11/2007",
+          "titolo": "Legge per la dignità e la cittadinanza sociale. Attuazione della legge 8 novembre 2000, n. 328",
+          "note": ""
+        },
+        {
+          "estremi": "R.R. 7 aprile 2014, n. 4",
+          "compatto": "R.R. 4/2014",
+          "titolo": "Regolamento di attuazione della legge regionale 23 ottobre 2007, n. 11 (Legge per la dignità e la cittadinanza sociale. Attuazione della legge 8 novembre 2000, n. 328)",
+          "note": "Autorizzazione e accreditamento dei servizi; ha sostituito il R.R. 16/2009 (abrogato)."
+        }
+      ],
+      "fatti": {}
+    },
+    "nidi_0_3": {
+      "norme": [
+        {
+          "estremi": "L.R. 4 settembre 1974, n. 48",
+          "compatto": "L.R. 48/1974",
+          "titolo": "Costruzione, gestione e controllo degli asili-nido comunali",
+          "note": "Testo vigente, modificato da L.R. 24/2005 e 15/2012."
+        },
+        {
+          "estremi": "L.R. 7 luglio 1984, n. 30",
+          "compatto": "L.R. 30/1984",
+          "titolo": "Normativa regionale per l'impianto, la costruzione, il completamento, l'arredamento e la gestione di asili-nido",
+          "note": ""
+        },
+        {
+          "estremi": "D.G.R. 23 aprile 2014, n. 107",
+          "compatto": "DGR 107/2014",
+          "titolo": "Catalogo dei servizi residenziali, semiresidenziali, territoriali e domiciliari di cui al Regolamento di attuazione della L.R. 11/2007",
+          "note": "NON VERIFICATA sul testo primario: estremi e titolo da minori.gov.it; Sezione A nido e micronido."
+        },
+        {
+          "estremi": "D.G.R. 21 ottobre 2015, n. 490",
+          "compatto": "DGR 490/2015",
+          "titolo": "Approvazione modifiche ai requisiti delle figure professionali di secondo livello, servizi denominati nido, micro-nido e servizi integrativi al nido",
+          "note": "Letta sul testo pubblicato nel BURC n. 8 dell'8 febbraio 2016."
+        }
+      ],
+      "fatti": {
+        "rapporto_educatore_bambini": "1:5 (3-12 mesi), 1:8 (13-24 mesi), 1:10 (25-36 mesi), DGR 490/2015 All. (nido e micronido)"
+      }
+    },
+    "urbanistica_edilizia": {
+      "norme": [
+        {
+          "estremi": "L.R. 22 dicembre 2004, n. 16",
+          "compatto": "L.R. 16/2004",
+          "titolo": "Norme sul governo del territorio",
+          "note": ""
+        },
+        {
+          "estremi": "R.R. 6 ottobre 2025, n. 3",
+          "compatto": "R.R. 3/2025",
+          "titolo": "Regolamento di attuazione dell'articolo 43-bis della legge regionale 22 dicembre 2004, n. 16",
+          "note": "Ha abrogato il R.R. 5/2011 (regolamento di attuazione per il governo del territorio)."
+        },
+        {
+          "estremi": "L.R. 28 novembre 2001, n. 19",
+          "compatto": "L.R. 19/2001",
+          "titolo": "Procedure per il rilascio dei permessi di costruire e per l'esercizio di interventi sostitutivi - Individuazione degli interventi edilizi subordinati a denuncia di inizio attività - Approvazione di piani attuativi dello strumento urbanistico generale",
+          "note": "Titolo abbreviato nella parte finale."
+        },
+        {
+          "estremi": "L.R. 10 agosto 2022, n. 13",
+          "compatto": "L.R. 13/2022",
+          "titolo": "Disposizioni in materia di semplificazione edilizia, di rigenerazione urbana e per la riqualificazione del patrimonio edilizio esistente",
+          "note": ""
+        }
+      ]
+    },
+    "demanio": {
+      "norme": [
+        {
+          "estremi": "L.R. 10 maggio 2012, n. 10",
+          "compatto": "L.R. 10/2012",
+          "titolo": "Disposizioni in materia di impianti balneari",
+          "note": "Concessioni demaniali marittime turistico-ricreative; art. 1 co. 6 atti di indirizzo della Giunta. Funzioni comunali da fonte statale (art. 105 D.Lgs. 112/1998), non accertate su norma regionale."
+        },
+        {
+          "estremi": "R.R. 12 novembre 2012, n. 12",
+          "compatto": "R.R. 12/2012",
+          "titolo": "Regolamento per la disciplina delle procedure relative a concessioni per piccole derivazioni, attingimenti e uso domestico di acque pubbliche",
+          "note": "Demanio idrico; funzione regionale; modificato da R.R. 2/2026."
+        }
+      ]
+    },
+    "polizia_locale": {
+      "norme": [
+        {
+          "estremi": "L.R. 13 giugno 2003, n. 12",
+          "compatto": "L.R. 12/2003",
+          "titolo": "Norme in materia di polizia amministrativa regionale e locale e politiche di sicurezza",
+          "note": ""
+        },
+        {
+          "estremi": "R.R. 13 febbraio 2015, n. 1",
+          "compatto": "R.R. 1/2015",
+          "titolo": "Regolamento di esecuzione dell'articolo 16 della legge regionale 13 giugno 2003, n. 12",
+          "note": ""
+        }
+      ]
+    },
+    "procedimento_accesso": {
+      "norme": [
+        {
+          "estremi": "L.R. 17 ottobre 2005, n. 17",
+          "compatto": "L.R. 17/2005",
+          "titolo": "Disposizioni per la semplificazione del Procedimento Amministrativo",
+          "note": "Riguarda i procedimenti regionali (pareri delle commissioni consiliari); per i Comuni resta la L. 241/1990."
+        }
+      ]
+    },
+    "cultura_biblioteche": {
+      "norme": [
+        {
+          "estremi": "L.R. 3 gennaio 1983, n. 4",
+          "compatto": "L.R. 4/1983",
+          "titolo": "Indirizzi programmatici e direttive fondamentali per l'esercizio delle deleghe e sub-deleghe ai sensi dell'art. 1 della legge regionale 1° settembre 1981, n. 65 - Promozione culturale ed educazione permanente, biblioteche e musei",
+          "note": ""
+        },
+        {
+          "estremi": "L.R. 4 settembre 1974, n. 49",
+          "compatto": "L.R. 49/1974",
+          "titolo": "Finanziamento regionale per la costruzione, l'ampliamento ed il completamento di biblioteche di enti locali, potenziamento delle attività e dei servizi delle biblioteche",
+          "note": "Testo originario, nessuna abrogazione indicata dal portale."
+        }
+      ]
+    }
+  },
+  "verifica": {
+    "data": "2026-11-03",
+    "fonte": "Normativa Regione Campania (regione.campania.it/normativa, testi vigenti con indirizzo pgCode); BURC per la DGR 490/2015",
+    "verificato_da": "agente delegato della sessione Claude (Opus 5.5)",
+    "note": "Tutte le L.R. e i R.R. aperti sul portale con stato non abrogato. NON VERIFICATA sul testo primario: DGR 107/2014. Il Consiglio regionale (cr.campania.it) pubblica le leggi senza testo coordinato: scelto il portale della Giunta. Nessuna legge regionale censita sulle funzioni comunali di demanio marittimo."
+  }
+}

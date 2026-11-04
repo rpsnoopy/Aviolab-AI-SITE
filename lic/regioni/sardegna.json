@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "regione": "Sardegna",
+  "chiave": "sardegna",
+  "aggettivo": {
+    "ms": "sardo",
+    "fs": "sarda",
+    "mp": "sardi",
+    "fp": "sarde"
+  },
+  "statuto": "speciale",
+  "ordinamento_enti_locali": "L.R. 4 febbraio 2016, n. 2 (Riordino del sistema delle autonomie locali della Sardegna), modificata dalla L.R. 12 aprile 2021, n. 7: integra il TUEL nelle materie di competenza primaria regionale (art. 3 lett. b Statuto speciale), verificarne l'applicabilità caso per caso.",
+  "capoluogo": "Cagliari",
+  "tar": "TAR Sardegna (sede di Cagliari)",
+  "bur": {
+    "sigla": "BURAS",
+    "nome": "Bollettino Ufficiale della Regione Autonoma della Sardegna",
+    "url": "https://buras.regione.sardegna.it/"
+  },
+  "banca_dati": {
+    "nome": "Banca dati giuridica delle leggi regionali della Regione Autonoma della Sardegna",
+    "url": "https://leggiregionali.regione.sardegna.it/",
+    "indirizzamento": "id"
+  },
+  "geografia": {
+    "demanio": [
+      "marittimo"
+    ],
+    "art142_lettere": [
+      "a"
+    ],
+    "note": "Regione insulare: demanio marittimo a regime regionale (L.R. 9/2006 artt. 40-41: concessioni alla Regione, piani di utilizzo dei litorali ai Comuni) e territori costieri (art. 142 co. 1 lett. a D.Lgs. 42/2004), tutelati anche dal Piano paesaggistico regionale."
+  },
+  "materie": {
+    "servizi_sociali": {
+      "norme": [
+        {
+          "estremi": "L.R. 23 dicembre 2005, n. 23",
+          "compatto": "L.R. 23/2005",
+          "titolo": "Sistema integrato dei servizi alla persona. Abrogazione della legge regionale n. 4 del 1988 (Riordino delle funzioni socio-assistenziali)",
+          "note": "Art. 43 autorizzazione e accreditamento delle strutture sociali."
+        },
+        {
+          "estremi": "D.P.Reg. 22 luglio 2008, n. 4",
+          "compatto": "D.P.Reg. 4/2008",
+          "titolo": "Regolamento di attuazione dell'articolo 43 della legge regionale 23 dicembre 2005, n. 23 (organizzazione e funzionamento delle strutture sociali)",
+          "note": "NON VERIFICATA sul testo primario: estremi dalla DGR 62/24/2008; titolo descrittivo."
+        }
+      ],
+      "fatti": {}
+    },
+    "nidi_0_3": {
+      "norme": [
+        {
+          "estremi": "L.R. 23 dicembre 2005, n. 23",
+          "compatto": "L.R. 23/2005",
+          "titolo": "Sistema integrato dei servizi alla persona. Abrogazione della legge regionale n. 4 del 1988 (Riordino delle funzioni socio-assistenziali)",
+          "note": "Nessuna legge regionale dedicata ai nidi: i servizi per la prima infanzia sono strutture sociali della L.R. 23/2005."
+        },
+        {
+          "estremi": "D.G.R. 14 novembre 2008, n. 62/24",
+          "compatto": "DGR 62/24/2008",
+          "titolo": "Requisiti per l'autorizzazione al funzionamento delle strutture e dei servizi educativi per la prima infanzia. Approvazione definitiva",
+          "note": "NON VERIFICATA sul testo primario: letta su copia di terzi (Save the Children); possibili modifiche successive (DGR 28/11/2009) non accertate."
+        }
+      ],
+      "fatti": {
+        "rapporto_educatore_bambini": "1:5 (3-12 mesi, elevabile a 6), 1:8 (12-24 mesi), 1:10 (24-36 mesi); sezione primavera 1:10 (DGR 62/24/2008): NON VERIFICATO sul testo primario"
+      }
+    },
+    "urbanistica_edilizia": {
+      "norme": [
+        {
+          "estremi": "L.R. 22 dicembre 1989, n. 45",
+          "compatto": "L.R. 45/1989",
+          "titolo": "Norme per l'uso e la tutela del territorio regionale",
+          "note": ""
+        },
+        {
+          "estremi": "L.R. 11 ottobre 1985, n. 23",
+          "compatto": "L.R. 23/1985",
+          "titolo": "Norme in materia di controllo dell'attività urbanistico-edilizia, di risanamento urbanistico e di sanatoria di insediamenti ed opere abusive, di snellimento ed accelerazione delle procedure espropriative",
+          "note": "Titoli edilizi regionali; ampiamente modificata, anche dalla L.R. 8/2015."
+        },
+        {
+          "estremi": "L.R. 23 aprile 2015, n. 8",
+          "compatto": "L.R. 8/2015",
+          "titolo": "Norme per la semplificazione e il riordino di disposizioni in materia urbanistica ed edilizia e per il miglioramento del patrimonio edilizio",
+          "note": ""
+        }
+      ]
+    },
+    "demanio": {
+      "norme": [
+        {
+          "estremi": "L.R. 12 giugno 2006, n. 9, artt. 40 e 41",
+          "compatto": "L.R. 9/2006",
+          "titolo": "Conferimento di funzioni e compiti agli enti locali",
+          "note": "Demanio marittimo: dopo la L.R. 7/2021 le concessioni sono della Regione, ai Comuni i piani di utilizzo dei litorali (PUL)."
+        }
+      ]
+    },
+    "polizia_locale": {
+      "norme": [
+        {
+          "estremi": "L.R. 22 agosto 2007, n. 9",
+          "compatto": "L.R. 9/2007",
+          "titolo": "Norme in materia di polizia locale e politiche regionali per la sicurezza",
+          "note": ""
+        }
+      ]
+    },
+    "procedimento_accesso": {
+      "norme": [
+        {
+          "estremi": "L.R. 20 ottobre 2016, n. 24",
+          "compatto": "L.R. 24/2016",
+          "titolo": "Norme sulla qualità della regolazione e di semplificazione dei procedimenti amministrativi",
+          "note": "Semplificazione e sportello unico (SUAPE). La L.R. 22 agosto 1990, n. 40 sul procedimento vale solo per la Regione e i suoi enti: per i Comuni resta la L. 241/1990."
+        }
+      ]
+    },
+    "cultura_biblioteche": {
+      "norme": [
+        {
+          "estremi": "L.R. 20 settembre 2006, n. 14",
+          "compatto": "L.R. 14/2006",
+          "titolo": "Norme in materia di beni culturali, istituti e luoghi della cultura",
+          "note": ""
+        }
+      ]
+    }
+  },
+  "verifica": {
+    "data": "2026-11-03",
+    "fonte": "Banca dati giuridica delle leggi regionali della Sardegna (leggiregionali.regione.sardegna.it, ricerca per anno e numero)",
+    "verificato_da": "agente delegato della sessione Claude (Opus 5.5)",
+    "note": "Estremi e titolo di tutte le L.R. confermati sulla banca dati regionale. Il portale del Consiglio regionale (testi coordinati) non risponde: la banca dati della Regione fornisce in molti casi il testo originale, quindi la vigenza degli articoli NON è VERIFICATA sul testo coordinato. NON VERIFICATI sul testo primario: D.P.Reg. 4/2008 e DGR 62/24/2008 con i rapporti numerici."
+  }
+}

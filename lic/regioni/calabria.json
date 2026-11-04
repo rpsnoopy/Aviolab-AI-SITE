@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "regione": "Calabria",
+  "chiave": "calabria",
+  "aggettivo": {
+    "ms": "calabrese",
+    "fs": "calabrese",
+    "mp": "calabresi",
+    "fp": "calabresi"
+  },
+  "statuto": "ordinario",
+  "ordinamento_enti_locali": "",
+  "capoluogo": "Catanzaro",
+  "tar": "TAR Calabria (sede di Catanzaro; sezione staccata di Reggio Calabria per la provincia di Reggio Calabria)",
+  "bur": {
+    "sigla": "BURC",
+    "nome": "Bollettino Ufficiale della Regione Calabria",
+    "url": "https://burc.regione.calabria.it/"
+  },
+  "banca_dati": {
+    "nome": "Banca dati delle leggi regionali del Consiglio regionale della Calabria (testi coordinati)",
+    "url": "https://www.consiglioregionale.calabria.it/portale/BancheDati/Leggi/LeggiForm",
+    "indirizzamento": "anno_numero"
+  },
+  "geografia": {
+    "demanio": [
+      "marittimo",
+      "idrico"
+    ],
+    "art142_lettere": [
+      "a",
+      "c",
+      "d"
+    ],
+    "note": "Regione costiera su due mari: demanio marittimo (funzioni delegate ai Comuni, L.R. 17/2005) e territori costieri (art. 142 co. 1 lett. a D.Lgs. 42/2004); fiumi e torrenti (lett. c); rilievi oltre 1.200 m di Sila, Aspromonte e Pollino (lett. d)."
+  },
+  "materie": {
+    "servizi_sociali": {
+      "norme": [
+        {
+          "estremi": "L.R. 26 novembre 2003, n. 23",
+          "compatto": "L.R. 23/2003",
+          "titolo": "Realizzazione del sistema integrato di interventi e servizi sociali nella Regione Calabria (in attuazione della legge n. 328/2000)",
+          "note": "Testo coordinato fino alla L.R. 9/2025."
+        },
+        {
+          "estremi": "R.R. 25 novembre 2019, n. 22",
+          "compatto": "R.R. 22/2019",
+          "titolo": "Procedure di autorizzazione, accreditamento e vigilanza delle strutture a ciclo residenziale e semiresidenziale socioassistenziali, nonché dei servizi domiciliari, territoriali e di prossimità",
+          "note": "Letto sul BURC n. 131 del 25/11/2019; modificato dal R.R. 10/2023 e da atti successivi: testo coordinato non accertato."
+        },
+        {
+          "estremi": "L.R. 18 luglio 2008, n. 24",
+          "compatto": "L.R. 24/2008",
+          "titolo": "Norme in materia di autorizzazione, accreditamento, accordi contrattuali e controlli delle strutture sanitarie e socio-sanitarie pubbliche e private",
+          "note": "Solo strutture sanitarie e sociosanitarie; per le socioassistenziali vale il R.R. 22/2019."
+        }
+      ],
+      "fatti": {}
+    },
+    "nidi_0_3": {
+      "norme": [
+        {
+          "estremi": "L.R. 15 maggio 2024, n. 24",
+          "compatto": "L.R. 24/2024",
+          "titolo": "Disposizioni per il sistema integrato di educazione e di istruzione dalla nascita fino ai sei anni",
+          "note": "Abroga la L.R. 15/2013 (art. 28). Art. 20 funzioni dei Comuni, art. 21 autorizzazione, art. 22 accreditamento dei servizi educativi."
+        },
+        {
+          "estremi": "R.R. n. 7/2024",
+          "compatto": "R.R. 7/2024",
+          "titolo": "Regolamento di attuazione della legge regionale n. 24 del 15 maggio 2024",
+          "note": "Letto sul BURC n. 147 del 12/07/2024 (approvato dalla Giunta il 10/07/2024); data di emanazione non accertata."
+        }
+      ],
+      "fatti": {
+        "rapporto_educatore_bambini": "Nido: 1:5 (3-12 mesi), 1:7 (12-24 mesi), 1:10 (24-36 mesi), 1:7 nelle unità ad età eterogenea; sezione primavera 1:10; servizi generali 1 ogni 25 bambini (R.R. 7/2024 art. 10)"
+      }
+    },
+    "urbanistica_edilizia": {
+      "norme": [
+        {
+          "estremi": "L.R. 16 aprile 2002, n. 19",
+          "compatto": "L.R. 19/2002",
+          "titolo": "Norme per la tutela, governo ed uso del territorio - Legge urbanistica della Calabria",
+          "note": "Testo coordinato fino alla L.R. 29/2026. Nessuna legge edilizia regionale generale: per i titoli edilizi vale il D.P.R. 380/2001."
+        }
+      ]
+    },
+    "demanio": {
+      "norme": [
+        {
+          "estremi": "L.R. 21 dicembre 2005, n. 17",
+          "compatto": "L.R. 17/2005",
+          "titolo": "Norme per l'esercizio della delega di funzioni amministrative sulle aree del demanio marittimo",
+          "note": "Testo coordinato fino alla L.R. 16/2026. Demanio marittimo a fini turistico-ricreativi: funzioni delegate ai Comuni."
+        }
+      ]
+    },
+    "polizia_locale": {
+      "norme": [
+        {
+          "estremi": "L.R. 7 giugno 2018, n. 15",
+          "compatto": "L.R. 15/2018",
+          "titolo": "Disciplina regionale dei servizi di polizia locale",
+          "note": "Abroga la L.R. 24/1990."
+        }
+      ]
+    },
+    "procedimento_accesso": {
+      "norme": [
+        {
+          "estremi": "L.R. 4 settembre 2001, n. 19",
+          "compatto": "L.R. 19/2001",
+          "titolo": "Norme sul procedimento amministrativo, la pubblicità degli atti ed il diritto di accesso",
+          "note": "Testo coordinato fino alla L.R. 46/2023."
+        }
+      ]
+    },
+    "cultura_biblioteche": {
+      "norme": [
+        {
+          "estremi": "L.R. 19 aprile 1985, n. 17",
+          "compatto": "L.R. 17/1985",
+          "titolo": "Norme in materia di biblioteche di Enti locali o d'interesse locale",
+          "note": "Testo coordinato fino alla L.R. 47/2011."
+        }
+      ]
+    }
+  },
+  "verifica": {
+    "data": "2026-11-03",
+    "fonte": "Banca dati del Consiglio regionale della Calabria (testi coordinati PDF per anno e numero); regolamenti sul BURC",
+    "verificato_da": "agente delegato della sessione Claude (Opus 5.5)",
+    "note": "Tutte le L.R. aperte sul testo coordinato del Consiglio: estremi, titolo e stato confermati (abrogate scartate: L.R. 15/2013 nidi, L.R. 24/1990 polizia municipale). Regolamenti R.R. 22/2019 e R.R. 7/2024 letti sul BURC, non sul testo coordinato. NON VERIFICATO: data di emanazione del R.R. 7/2024; modifiche successive dei due regolamenti."
+  }
+}

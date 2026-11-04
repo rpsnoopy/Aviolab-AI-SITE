@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "regione": "Trentino-Alto Adige",
+  "chiave": "trentinoaltoadige",
+  "aggettivo": {
+    "ms": "trentino-altoatesino",
+    "fs": "trentino-altoatesina",
+    "mp": "trentino-altoatesini",
+    "fp": "trentino-altoatesine"
+  },
+  "statuto": "speciale",
+  "ordinamento_enti_locali": "L.R. 3 maggio 2018, n. 2 (Codice degli enti locali della Regione autonoma Trentino-Alto Adige), al posto del TUEL; la competenza nelle materie di questa scheda è delle Province autonome di Trento e di Bolzano, con leggi provinciali distinte.",
+  "capoluogo": "Trento",
+  "tar": "TRGA Trentino-Alto Adige (sede di Trento; sezione autonoma di Bolzano)",
+  "bur": {
+    "sigla": "BUR",
+    "nome": "Bollettino Ufficiale della Regione autonoma Trentino-Alto Adige/Südtirol",
+    "url": "https://bollettino.regione.taa.it/"
+  },
+  "banca_dati": {
+    "nome": "Codice provinciale del Consiglio della Provincia autonoma di Trento; per Bolzano LexBrowser (https://lexbrowser.provinz.bz.it/)",
+    "url": "https://www.consiglio.provincia.tn.it/leggi-e-archivi/codice-provinciale/",
+    "indirizzamento": "id"
+  },
+  "geografia": {
+    "demanio": [
+      "lacuale",
+      "idrico"
+    ],
+    "art142_lettere": [
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+    ],
+    "note": "Acque pubbliche e demanio idrico di competenza provinciale (Garda e laghi trentini, Adige); montagne sopra 1600 m, ghiacciai, parchi (art. 142 co. 1 lett. b, c, d, e, f D.Lgs. 42/2004)."
+  },
+  "materie": {
+    "servizi_sociali": {
+      "norme": [
+        {
+          "estremi": "L.P. Trento 27 luglio 2007, n. 13",
+          "compatto": "L.P. TN 13/2007",
+          "titolo": "Politiche sociali nella provincia di Trento",
+          "note": "Provincia di Trento. Artt. 19-21 autorizzazione, accreditamento e vigilanza (attuati dal D.P.P. 3-78/Leg del 2018). NON VERIFICATA sul testo primario: il Codice provinciale di Trento carica i testi solo via script del browser; estremi e titolo da fonti secondarie."
+        },
+        {
+          "estremi": "L.P. Bolzano 30 aprile 1991, n. 13",
+          "compatto": "L.P. BZ 13/1991",
+          "titolo": "Riordino dei servizi sociali in provincia di Bolzano",
+          "note": "Provincia di Bolzano. NON VERIFICATA sul testo primario: LexBrowser ha respinto l'accesso automatico («Troppe richieste»); data e numero confermati dall'indice cronologico di LexBrowser, titolo da fonti secondarie."
+        }
+      ],
+      "fatti": {}
+    },
+    "nidi_0_3": {
+      "norme": [
+        {
+          "estremi": "L.P. Trento 12 marzo 2002, n. 4",
+          "compatto": "L.P. TN 4/2002",
+          "titolo": "Nuovo ordinamento dei servizi socio-educativi per la prima infanzia",
+          "note": "Provincia di Trento. La L.P. TN 1/2026 sostituirebbe «socio-educativi» con «educativi» anche nel titolo: da accertare. NON VERIFICATA sul testo primario: il Codice provinciale di Trento carica i testi solo via script del browser; estremi e titolo da fonti secondarie."
+        },
+        {
+          "estremi": "L.P. Bolzano 17 maggio 2013, n. 8",
+          "compatto": "L.P. BZ 8/2013",
+          "titolo": "Sviluppo e sostegno della famiglia in Alto Adige",
+          "note": "Provincia di Bolzano: servizi per la prima infanzia. NON VERIFICATA sul testo primario: LexBrowser ha respinto l'accesso automatico («Troppe richieste»); data e numero confermati dall'indice cronologico di LexBrowser, titolo da fonti secondarie."
+        }
+      ],
+      "fatti": {}
+    },
+    "urbanistica_edilizia": {
+      "norme": [
+        {
+          "estremi": "L.P. Trento 4 agosto 2015, n. 15",
+          "compatto": "L.P. TN 15/2015",
+          "titolo": "Legge provinciale per il governo del territorio",
+          "note": "Provincia di Trento; urbanistica ed edilizia, ultima modifica nota L.P. TN 3/2025. NON VERIFICATA sul testo primario: il Codice provinciale di Trento carica i testi solo via script del browser; estremi e titolo da fonti secondarie."
+        },
+        {
+          "estremi": "L.P. Bolzano 10 luglio 2018, n. 9",
+          "compatto": "L.P. BZ 9/2018",
+          "titolo": "Territorio e paesaggio",
+          "note": "Provincia di Bolzano; urbanistica, edilizia e paesaggio. NON VERIFICATA sul testo primario: LexBrowser ha respinto l'accesso automatico («Troppe richieste»); data e numero confermati dall'indice cronologico di LexBrowser, titolo da fonti secondarie."
+        }
+      ]
+    },
+    "demanio": {
+      "norme": [
+        {
+          "estremi": "L.P. Trento 8 luglio 1976, n. 18",
+          "compatto": "L.P. TN 18/1976",
+          "titolo": "Norme in materia di acque pubbliche, opere idrauliche e relativi servizi provinciali",
+          "note": "Provincia di Trento; polizia idraulica e utilizzazione delle acque pubbliche. NON VERIFICATA sul testo primario: il Codice provinciale di Trento carica i testi solo via script del browser; estremi e titolo da fonti secondarie."
+        },
+        {
+          "estremi": "L.P. Bolzano 30 settembre 2005, n. 7",
+          "compatto": "L.P. BZ 7/2005",
+          "titolo": "Norme in materia di utilizzazione di acque pubbliche",
+          "note": "Provincia di Bolzano. Titolo non riscontrato su fonte esterna. NON VERIFICATA sul testo primario: LexBrowser ha respinto l'accesso automatico («Troppe richieste»); data e numero confermati dall'indice cronologico di LexBrowser, titolo da fonti secondarie."
+        }
+      ]
+    },
+    "polizia_locale": {
+      "norme": [
+        {
+          "estremi": "L.P. Trento 27 giugno 2005, n. 8",
+          "compatto": "L.P. TN 8/2005",
+          "titolo": "Promozione di un sistema integrato di sicurezza e disciplina della polizia locale",
+          "note": "Provincia di Trento. NON VERIFICATA sul testo primario: il Codice provinciale di Trento carica i testi solo via script del browser; estremi e titolo da fonti secondarie."
+        },
+        {
+          "estremi": "L.P. Bolzano 10 novembre 1993, n. 21",
+          "compatto": "L.P. BZ 21/1993",
+          "titolo": "Norme in materia di polizia municipale",
+          "note": "Provincia di Bolzano. NON VERIFICATA sul testo primario: LexBrowser ha respinto l'accesso automatico («Troppe richieste»); data e numero confermati dall'indice cronologico di LexBrowser, titolo da fonti secondarie."
+        }
+      ]
+    },
+    "procedimento_accesso": {
+      "norme": [
+        {
+          "estremi": "L.R. 31 luglio 1993, n. 13",
+          "compatto": "L.R. 13/1993",
+          "titolo": "Norme in materia di procedimento amministrativo e di diritto di accesso ai documenti amministrativi",
+          "note": "Legge regionale, vale per i Comuni di entrambe le province. NON VERIFICATA sul testo primario: testo consolidato della Regione non raggiunto; vigenza da atti regionali del 2025."
+        },
+        {
+          "estremi": "L.P. Trento 30 novembre 1992, n. 23",
+          "compatto": "L.P. TN 23/1992",
+          "titolo": "Principi per la democratizzazione, la semplificazione e la partecipazione all'azione amministrativa provinciale e norme in materia di procedimento amministrativo",
+          "note": "Provincia di Trento, per l'attività provinciale. NON VERIFICATA sul testo primario: il Codice provinciale di Trento carica i testi solo via script del browser; estremi e titolo da fonti secondarie."
+        },
+        {
+          "estremi": "L.P. Bolzano 22 ottobre 1993, n. 17",
+          "compatto": "L.P. BZ 17/1993",
+          "titolo": "Disciplina del procedimento amministrativo",
+          "note": "Provincia di Bolzano; titolo sostituito dalla L.P. BZ 9/2016. NON VERIFICATA sul testo primario: LexBrowser ha respinto l'accesso automatico («Troppe richieste»); data e numero confermati dall'indice cronologico di LexBrowser, titolo da fonti secondarie."
+        }
+      ]
+    },
+    "cultura_biblioteche": {
+      "norme": [
+        {
+          "estremi": "L.P. Trento 3 ottobre 2007, n. 15",
+          "compatto": "L.P. TN 15/2007",
+          "titolo": "Disciplina delle attività culturali",
+          "note": "Provincia di Trento; rivista dalla L.P. TN 15/2022 sulle politiche culturali, portata non accertata. NON VERIFICATA sul testo primario: il Codice provinciale di Trento carica i testi solo via script del browser; estremi e titolo da fonti secondarie."
+        },
+        {
+          "estremi": "L.P. Bolzano 7 novembre 1983, n. 41",
+          "compatto": "L.P. BZ 41/1983",
+          "titolo": "Per la disciplina dell'educazione permanente e del sistema di biblioteche pubbliche",
+          "note": "Provincia di Bolzano. NON VERIFICATA sul testo primario: LexBrowser ha respinto l'accesso automatico («Troppe richieste»); data e numero confermati dall'indice cronologico di LexBrowser, titolo da fonti secondarie."
+        }
+      ]
+    }
+  },
+  "verifica": {
+    "data": "2026-11-03",
+    "fonte": "Indice cronologico di LexBrowser (Bolzano); fonti secondarie per Trento e per le leggi regionali (Legislazione Tecnica, edizioni europee, siti della Provincia e della Regione, minori.gov.it)",
+    "verificato_da": "agente delegato della sessione Claude (Opus 5.5)",
+    "note": "Nessuna norma aperta sul testo primario. LexBrowser ha respinto l'accesso automatico; il Codice provinciale di Trento non è consultabile senza browser; il testo consolidato regionale non è stato raggiunto. Le leggi provinciali di Bolzano hanno data e numero confermati dall'indice cronologico ufficiale; tutto il resto è da riverificare a mano."
+  }
+}

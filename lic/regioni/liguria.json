@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "regione": "Liguria",
+  "chiave": "liguria",
+  "aggettivo": {
+    "ms": "ligure",
+    "fs": "ligure",
+    "mp": "liguri",
+    "fp": "liguri"
+  },
+  "statuto": "ordinario",
+  "ordinamento_enti_locali": "",
+  "capoluogo": "Genova",
+  "tar": "TAR Liguria",
+  "bur": {
+    "sigla": "BURL",
+    "nome": "Bollettino Ufficiale della Regione Liguria",
+    "url": "https://www.burl.it/"
+  },
+  "banca_dati": {
+    "nome": "Raccolta Normativa del Consiglio regionale della Liguria",
+    "url": "https://lrv.regione.liguria.it/",
+    "indirizzamento": "urn"
+  },
+  "geografia": {
+    "demanio": [
+      "marittimo"
+    ],
+    "art142_lettere": [
+      "a"
+    ],
+    "note": "Regione costiera: demanio marittimo e territori costieri (art. 142 co. 1 lett. a D.Lgs. 42/2004); le concessioni demaniali marittime sono funzione comunale (L.R. 13/1999 art. 10)."
+  },
+  "materie": {
+    "servizi_sociali": {
+      "norme": [
+        {
+          "estremi": "L.R. 24 maggio 2006, n. 12",
+          "compatto": "L.R. 12/2006",
+          "titolo": "Promozione del sistema integrato di servizi sociali e sociosanitari",
+          "note": "Art. 6 oggi «Ambito Territoriale Sociale» (sostituito da L.R. 29/2023); autorizzazione art. 44 e accreditamento art. 48 sostituiti da L.R. 9/2017."
+        },
+        {
+          "estremi": "L.R. 11 maggio 2017, n. 9",
+          "compatto": "L.R. 9/2017",
+          "titolo": "Norme in materia di autorizzazione e accreditamento delle strutture sanitarie, sociosanitarie e sociali pubbliche e private",
+          "note": "Non citata oggi nei prompt; aggiunta perché riscrive gli artt. 44 e 48 della L.R. 12/2006."
+        }
+      ],
+      "fatti": {}
+    },
+    "nidi_0_3": {
+      "norme": [
+        {
+          "estremi": "L.R. 9 aprile 2009, n. 6",
+          "compatto": "L.R. 6/2009",
+          "titolo": "Promozione delle politiche per i minori e i giovani",
+          "note": "Titolo II Capo I rete socio-educativa per la prima infanzia: art. 10 servizi (Comune titolare delle funzioni), art. 14 nido d'infanzia, art. 30 linee guida della Giunta."
+        },
+        {
+          "estremi": "D.G.R. 6 marzo 2015, n. 222",
+          "compatto": "DGR 222/2015",
+          "titolo": "Linee guida sugli standard strutturali, organizzativi e qualitativi dei servizi socio-educativi per la prima infanzia",
+          "note": "NON VERIFICATA: testo primario non indirizzabile sulla banca dati; estremi e titolo confermati da fonti secondarie (documento della Regione su minori.gov.it, regolamenti comunali); attuazione dell'art. 30 L.R. 6/2009; possibile aggiornamento successivo non accertato."
+        }
+      ],
+      "fatti": {
+        "rapporto_educatore_bambini": "1:5 (3-12 mesi), 1:7 (12-24 mesi), 1:10 (24-36 mesi), DGR 222/2015 All. A p. 3.5: NON VERIFICATO sul testo primario"
+      }
+    },
+    "urbanistica_edilizia": {
+      "norme": [
+        {
+          "estremi": "L.R. 4 settembre 1997, n. 36",
+          "compatto": "L.R. 36/1997",
+          "titolo": "Legge urbanistica regionale",
+          "note": ""
+        },
+        {
+          "estremi": "L.R. 6 giugno 2008, n. 16",
+          "compatto": "L.R. 16/2008",
+          "titolo": "Disciplina dell'attività edilizia",
+          "note": ""
+        }
+      ]
+    },
+    "demanio": {
+      "norme": [
+        {
+          "estremi": "L.R. 28 aprile 1999, n. 13",
+          "compatto": "L.R. 13/1999",
+          "titolo": "Disciplina delle funzioni in materia di difesa della costa, ripascimento degli arenili, protezione e osservazione dell'ambiente marino e costiero, demanio marittimo e porti",
+          "note": "Non citata oggi nei prompt. Art. 10 competenze dei Comuni (concessioni demaniali marittime), art. 11 piano di utilizzazione delle aree demaniali, art. 11 bis progetto comunale (PUD)."
+        }
+      ]
+    },
+    "polizia_locale": {
+      "norme": [
+        {
+          "estremi": "L.R. 1 agosto 2008, n. 31",
+          "compatto": "L.R. 31/2008",
+          "titolo": "Disciplina in materia di polizia locale",
+          "note": ""
+        },
+        {
+          "estremi": "D.G.R. n. 339/2023",
+          "compatto": "DGR 339/2023",
+          "titolo": "Ordinamento regionale della polizia locale (dicitura del prompt)",
+          "note": "NON VERIFICATA: nessuna traccia dell'atto in rete né data; citata oggi solo in ComunePoliziaLocale."
+        }
+      ]
+    },
+    "procedimento_accesso": {
+      "norme": [
+        {
+          "estremi": "L.R. 25 novembre 2009, n. 56",
+          "compatto": "L.R. 56/2009",
+          "titolo": "Norme in materia di procedimento amministrativo e di diritto di accesso ai documenti amministrativi",
+          "note": ""
+        }
+      ]
+    },
+    "cultura_biblioteche": {
+      "norme": [
+        {
+          "estremi": "L.R. 31 ottobre 2006, n. 33",
+          "compatto": "L.R. 33/2006",
+          "titolo": "Testo unico in materia di cultura",
+          "note": "Art. 23 istituti e luoghi di cultura, art. 24 organizzazione bibliotecaria. Il titolo «biblioteche e archivi degli enti locali» dei prompt è errato."
+        }
+      ]
+    }
+  },
+  "verifica": {
+    "data": "2026-11-03",
+    "fonte": "Raccolta Normativa del Consiglio regionale della Liguria (lrv.regione.liguria.it, URN NIR, testo coordinato vigente)",
+    "verificato_da": "agente delegato della sessione Claude (Opus 5.5)",
+    "note": "Tutte le L.R. aperte sul testo vigente: estremi, titolo e stato «Documento vigente» confermati. Restano NON VERIFICATE le due DGR (222/2015, 339/2023). Scartate: L.R. 19/2017 (è il rendiconto regionale 2016), L.R. 3/2007 (caccia), L.R. 1/2007 (testo unico del commercio)."
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "regione": "Friuli-Venezia Giulia",
+  "chiave": "friuliveneziagiulia",
+  "aggettivo": {
+    "ms": "friulgiuliano",
+    "fs": "friulgiuliana",
+    "mp": "friulgiuliani",
+    "fp": "friulgiuliane"
+  },
+  "statuto": "speciale",
+  "ordinamento_enti_locali": "L.R. 14 luglio 2026, n. 7 (Principi e norme fondamentali del sistema Regione-Autonomie locali, istituzione e ordinamento delle Province del Friuli Venezia Giulia e soppressione degli Enti di decentramento regionale di cui alla legge regionale 21/2019), vigente dal 30/07/2026, che abroga la L.R. 1/2006; esercizio associato: L.R. 29 novembre 2019, n. 21; il TUEL vale dove la legge regionale non dispone.",
+  "capoluogo": "Trieste",
+  "tar": "TAR Friuli Venezia Giulia (sede di Trieste)",
+  "bur": {
+    "sigla": "BUR",
+    "nome": "Bollettino Ufficiale della Regione autonoma Friuli Venezia Giulia",
+    "url": "https://bur.regione.fvg.it/"
+  },
+  "banca_dati": {
+    "nome": "Leggi e regolamenti regionali del Consiglio regionale del Friuli Venezia Giulia (LexView)",
+    "url": "https://lexview-int.regione.fvg.it/fontinormative/",
+    "indirizzamento": "anno_numero"
+  },
+  "geografia": {
+    "demanio": [
+      "marittimo",
+      "idrico"
+    ],
+    "art142_lettere": [
+      "a"
+    ],
+    "note": "Costa adriatica e lagune di Marano e Grado: demanio marittimo regionale (funzioni delegate ai Comuni, L.R. 10/2017 art. 13); corsi d'acqua: demanio idrico (L.R. 11/2015); art. 142 co. 1 lett. a D.Lgs. 42/2004."
+  },
+  "materie": {
+    "servizi_sociali": {
+      "norme": [
+        {
+          "estremi": "L.R. 31 marzo 2006, n. 6",
+          "compatto": "L.R. 6/2006",
+          "titolo": "Sistema integrato di interventi e servizi per la promozione e la tutela dei diritti di cittadinanza sociale",
+          "note": "Art. 31 autorizzazione, art. 33 accreditamento."
+        }
+      ],
+      "fatti": {}
+    },
+    "nidi_0_3": {
+      "norme": [
+        {
+          "estremi": "L.R. 18 agosto 2005, n. 20",
+          "compatto": "L.R. 20/2005",
+          "titolo": "Sistema educativo integrato dei servizi per la prima infanzia",
+          "note": ""
+        },
+        {
+          "estremi": "D.P.Reg. 4 ottobre 2011, n. 0230/Pres.",
+          "compatto": "DPReg 230/2011",
+          "titolo": "Regolamento sui requisiti, il funzionamento, la vigilanza e l'accreditamento dei nidi d'infanzia e dei servizi integrativi e sperimentali (contenuto, non titolo ufficiale)",
+          "note": "NON VERIFICATA sul testo primario: regolamento non indirizzabile da anno e numero su LexView; art. 11 letto su copia coordinata di minori.gov.it; modifiche successive (2013, 2015) non accertate."
+        }
+      ],
+      "fatti": {
+        "rapporto_educatore_bambini": "1:5 (3-12 mesi), 1:7 (13-23 mesi), 1:10 (24-36 mesi), DPReg 230/2011 art. 11 co. 4: NON VERIFICATO sul testo primario"
+      }
+    },
+    "urbanistica_edilizia": {
+      "norme": [
+        {
+          "estremi": "L.R. 23 febbraio 2007, n. 5",
+          "compatto": "L.R. 5/2007",
+          "titolo": "Riforma dell'urbanistica e disciplina dell'attività edilizia e del paesaggio",
+          "note": "Parte edilizia in gran parte abrogata e sostituita dalla L.R. 19/2009."
+        },
+        {
+          "estremi": "L.R. 11 novembre 2009, n. 19",
+          "compatto": "L.R. 19/2009",
+          "titolo": "Codice regionale dell'edilizia",
+          "note": ""
+        }
+      ]
+    },
+    "demanio": {
+      "norme": [
+        {
+          "estremi": "L.R. 21 aprile 2017, n. 10",
+          "compatto": "L.R. 10/2017",
+          "titolo": "Disposizioni in materia di demanio marittimo regionale, demanio ferroviario, demanio statale dismesso e demanio stradale regionale, nonché modifiche alle leggi regionali 17/2009, 28/2002 e 22/2006",
+          "note": "Art. 13 funzioni delegate ai Comuni."
+        },
+        {
+          "estremi": "L.R. 29 aprile 2015, n. 11",
+          "compatto": "L.R. 11/2015",
+          "titolo": "Disciplina organica in materia di difesa del suolo e di utilizzazione delle acque",
+          "note": "Demanio idrico."
+        }
+      ]
+    },
+    "polizia_locale": {
+      "norme": [
+        {
+          "estremi": "L.R. 8 aprile 2021, n. 5",
+          "compatto": "L.R. 5/2021",
+          "titolo": "Disciplina in materia di politiche integrate di sicurezza e ordinamento della polizia locale",
+          "note": "Ha abrogato gran parte della L.R. 9/2009, che non va più citata come legge di materia."
+        }
+      ]
+    },
+    "procedimento_accesso": {
+      "norme": [
+        {
+          "estremi": "L.R. 20 marzo 2000, n. 7",
+          "compatto": "L.R. 7/2000",
+          "titolo": "Testo unico delle norme in materia di procedimento amministrativo e di diritto di accesso",
+          "note": "Diversi articoli abrogati: citare l'articolo solo dal testo vigente."
+        }
+      ]
+    },
+    "cultura_biblioteche": {
+      "norme": [
+        {
+          "estremi": "L.R. 25 settembre 2015, n. 23",
+          "compatto": "L.R. 23/2015",
+          "titolo": "Norme regionali in materia di beni culturali",
+          "note": "Artt. 22-30 bis rete e sistemi bibliotecari, biblioteca pubblica di ente locale."
+        }
+      ]
+    }
+  },
+  "verifica": {
+    "data": "2026-11-03",
+    "fonte": "LexView del Consiglio regionale del Friuli Venezia Giulia (testo vigente, indirizzato da anno e numero)",
+    "verificato_da": "agente delegato della sessione Claude (Opus 5.5)",
+    "note": "Tutte le L.R. aperte su LexView: estremi, titolo e «TESTO VIGENTE» confermati. Scoperta: L.R. 1/2006 abrogata dalla L.R. 7/2026 (art. 77) e L.R. 9/2009 svuotata dalla L.R. 5/2021. Resta NON VERIFICATO il DPReg 230/2011 (titolo ufficiale, testo vigente, rapporti numerici). Aggettivo «friulgiuliano» scelto per comprendere Friuli e Venezia Giulia."
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "regione": "Molise",
+  "chiave": "molise",
+  "aggettivo": {
+    "ms": "molisano",
+    "fs": "molisana",
+    "mp": "molisani",
+    "fp": "molisane"
+  },
+  "statuto": "ordinario",
+  "ordinamento_enti_locali": "",
+  "capoluogo": "Campobasso",
+  "tar": "TAR Molise",
+  "bur": {
+    "sigla": "BURM",
+    "nome": "Bollettino Ufficiale della Regione Molise",
+    "url": "https://bollettino.regione.molise.it/"
+  },
+  "banca_dati": {
+    "nome": "nessuna banca dati consolidata del Consiglio regionale accertata (testi sul BURM)",
+    "url": "https://bollettino.regione.molise.it/",
+    "indirizzamento": "nessuno"
+  },
+  "geografia": {
+    "demanio": [
+      "marittimo",
+      "idrico"
+    ],
+    "art142_lettere": [
+      "a",
+      "c"
+    ],
+    "note": "Costa breve (Termoli, Campomarino, Petacciato, Montenero di Bisaccia) e fiumi (art. 142 co. 1 lett. a, c D.Lgs. 42/2004). Concessioni demaniali marittime turistico-ricreative ai Comuni (L.R. 5/2006 art. 5); nessuna legge regionale sul demanio idrico censita."
+  },
+  "materie": {
+    "servizi_sociali": {
+      "norme": [
+        {
+          "estremi": "L.R. 6 maggio 2014, n. 13",
+          "compatto": "L.R. 13/2014",
+          "titolo": "Riordino del sistema regionale integrato degli interventi e servizi sociali",
+          "note": "NON VERIFICATA sul testo primario: nessuna banca dati consolidata; letta nel testo pubblicato (BURM n. 16 del 16.5.2014, copia su minori.gov.it). Artt. 18-25 autorizzazione e accreditamento."
+        },
+        {
+          "estremi": "R.R. 27 febbraio 2015, n. 1",
+          "compatto": "R.R. 1/2015",
+          "titolo": "Regolamento di attuazione della legge regionale 6 maggio 2014, n. 13 «Riordino del sistema regionale integrato degli interventi e servizi sociali»",
+          "note": "NON VERIFICATA sul testo primario: testo letto sul BURM n. 4 straordinario del 26.2.2015 (DGR 10 febbraio 2015, n. 59); data di emanazione da fonti secondarie."
+        }
+      ],
+      "fatti": {}
+    },
+    "nidi_0_3": {
+      "norme": [
+        {
+          "estremi": "R.R. 27 febbraio 2015, n. 1",
+          "compatto": "R.R. 1/2015",
+          "titolo": "Regolamento di attuazione della legge regionale 6 maggio 2014, n. 13",
+          "note": "NON VERIFICATA sul testo primario (vedi servizi sociali). Contiene le schede di asilo nido e micronido."
+        }
+      ],
+      "fatti": {
+        "rapporto_educatore_bambini": "1:8 medio nel nido d'infanzia (R.R. 1/2015, scheda asilo nido): NON VERIFICATO sul testo consolidato"
+      }
+    },
+    "urbanistica_edilizia": {
+      "norme": []
+    },
+    "demanio": {
+      "norme": [
+        {
+          "estremi": "L.R. 5 maggio 2006, n. 5",
+          "compatto": "L.R. 5/2006",
+          "titolo": "Disciplina delle funzioni amministrative in materia di demanio marittimo e di zone di mare territoriale",
+          "note": "NON VERIFICATA sul testo primario: estremi e titolo da raccolte secondarie. Art. 5 funzioni dei Comuni; piano regionale P.R.U.A."
+        }
+      ]
+    },
+    "polizia_locale": {
+      "norme": [
+        {
+          "estremi": "L.R. 5 marzo 1990, n. 12",
+          "compatto": "L.R. 12/1990",
+          "titolo": "Norme in materia di Polizia locale",
+          "note": "NON VERIFICATA sul testo primario: estremi e titolo da raccolte secondarie; vigenza non accertata (modificata dalla L.R. 11/2004; proposta di riforma in Consiglio)."
+        }
+      ]
+    },
+    "procedimento_accesso": {
+      "norme": []
+    },
+    "cultura_biblioteche": {
+      "norme": [
+        {
+          "estremi": "L.R. 11 dicembre 1980, n. 37",
+          "compatto": "L.R. 37/1980",
+          "titolo": "Norme in materia di Musei, Archivi storici e Biblioteche di Enti locali",
+          "note": "NON VERIFICATA sul testo primario: estremi e titolo da raccolte secondarie; modificata dalla L.R. 7/2026 (art. 9 bis)."
+        }
+      ]
+    }
+  },
+  "verifica": {
+    "data": "2026-11-03",
+    "fonte": "BURM e fonti ufficiali secondarie (minori.gov.it); il Consiglio regionale del Molise non espone una banca dati del testo vigente e rinvia a Normattiva, che non indirizza le leggi molisane",
+    "verificato_da": "agente delegato della sessione Claude (Opus 5.5)",
+    "note": "Tutte le norme NON VERIFICATE sul testo consolidato: manca una banca dati primaria. L.R. 13/2014 e R.R. 1/2015 letti nel testo pubblicato. Urbanistica: nessuna legge regionale organica (vale la L. 1150/1942 con leggi di settore). Procedimento: nessuna legge regionale (solo il regolamento regionale 9/2002 sui procedimenti della Regione)."
+  }
+}

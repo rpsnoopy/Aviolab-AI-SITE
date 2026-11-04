@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "regione": "Lombardia",
+  "chiave": "lombardia",
+  "aggettivo": {
+    "ms": "lombardo",
+    "fs": "lombarda",
+    "mp": "lombardi",
+    "fp": "lombarde"
+  },
+  "statuto": "ordinario",
+  "ordinamento_enti_locali": "",
+  "capoluogo": "Milano",
+  "tar": "TAR Lombardia (sede di Milano; sezione staccata di Brescia per le province di Bergamo, Brescia, Cremona e Mantova)",
+  "bur": {
+    "sigla": "BURL",
+    "nome": "Bollettino Ufficiale della Regione Lombardia",
+    "url": "https://www.bollettino.regione.lombardia.it/"
+  },
+  "banca_dati": {
+    "nome": "NormeLombardia",
+    "url": "https://normelombardia.consiglio.regione.lombardia.it/",
+    "indirizzamento": "id"
+  },
+  "geografia": {
+    "demanio": [
+      "lacuale",
+      "idrico"
+    ],
+    "art142_lettere": [
+      "b"
+    ],
+    "note": "Laghi (Garda, Como, Maggiore, Iseo): demanio lacuale e idroviario; corsi d'acqua: demanio idrico e polizia idraulica (reticolo minore ai Comuni); territori contermini ai laghi, art. 142 co. 1 lett. b D.Lgs. 42/2004."
+  },
+  "materie": {
+    "servizi_sociali": {
+      "norme": [
+        {
+          "estremi": "L.R. 12 marzo 2008, n. 3",
+          "compatto": "L.R. 3/2008",
+          "titolo": "Governo della rete degli interventi e dei servizi alla persona in ambito sociale",
+          "note": "Art. 11 requisiti di esercizio e accreditamento delle unità d'offerta."
+        }
+      ],
+      "fatti": {}
+    },
+    "nidi_0_3": {
+      "norme": [
+        {
+          "estremi": "L.R. 12 marzo 2008, n. 3, art. 11",
+          "compatto": "L.R. 3/2008 art. 11",
+          "titolo": "Governo della rete degli interventi e dei servizi alla persona in ambito sociale",
+          "note": "I nidi sono unità d'offerta sociali; non esiste una legge regionale dedicata ai nidi."
+        },
+        {
+          "estremi": "L.R. 6 agosto 2007, n. 19",
+          "compatto": "L.R. 19/2007",
+          "titolo": "Norme sul sistema educativo di istruzione e formazione della Regione Lombardia",
+          "note": "Cornice generale del sistema educativo, non disciplina i nidi: citarla solo se l'atto tocca il sistema educativo."
+        },
+        {
+          "estremi": "D.G.R. 9 marzo 2020, n. XI/2929",
+          "compatto": "DGR XI/2929/2020",
+          "titolo": "Revisione dei requisiti di esercizio degli asili nido",
+          "note": "Atto di Giunta, non indirizzabile su NormeLombardia; titolo abbreviato dal documento ANCI Lombardia; letta sul BURL n. 12/2020 nella verifica del 2026-06-20."
+        },
+        {
+          "estremi": "D.G.R. 11 febbraio 2005, n. VII/20588",
+          "compatto": "DGR VII/20588/2005",
+          "titolo": "Requisiti di micronido, nido famiglia e centro prima infanzia",
+          "note": "NON VERIFICATA: data e titolo non accertati sul testo; citata come confermata dalla DGR XI/2929/2020 (verifica 2026-06-20)."
+        },
+        {
+          "estremi": "D.G.R. 27 novembre 2023, n. XII/1428",
+          "compatto": "DGR XII/1428/2023",
+          "titolo": "Criteri per l'accreditamento dei servizi educativi per la prima infanzia",
+          "note": "Fissa i criteri; i requisiti di accreditamento li definiscono i Comuni. Esistenza ed estremi da documento ANCI Lombardia; valori numerici non verificati."
+        }
+      ],
+      "fatti": {
+        "rapporto_educatore_bambini": "1:8 unico (1:10 nelle due ore non finalizzate), DGR XI/2929/2020"
+      }
+    },
+    "urbanistica_edilizia": {
+      "norme": [
+        {
+          "estremi": "L.R. 11 marzo 2005, n. 12",
+          "compatto": "L.R. 12/2005",
+          "titolo": "Legge per il governo del territorio",
+          "note": "Urbanistica (Parte I) ed edilizia (Parte II Titolo I) nella stessa legge; diversi articoli edilizi abrogati con rinvio al D.P.R. 380/2001: non citare numeri d'articolo senza il testo vigente."
+        }
+      ]
+    },
+    "demanio": {
+      "norme": [
+        {
+          "estremi": "L.R. 4 aprile 2012, n. 6, artt. 50 e 52",
+          "compatto": "L.R. 6/2012",
+          "titolo": "Disciplina del settore dei trasporti",
+          "note": "Demanio lacuale e idroviario. Tenuta degli artt. 50 e 52 dopo la riforma del TPL (L.R. 2/2026) da riverificare."
+        },
+        {
+          "estremi": "R.R. 27 ottobre 2015, n. 9",
+          "compatto": "R.R. 9/2015",
+          "titolo": "Disciplina della gestione del demanio lacuale e idroviario",
+          "note": "Regolamento: indirizzabile con iddoc rr002015102700009, fuori da iddoc_map (il gate cerca solo le L.R.). Titolo abbreviato."
+        },
+        {
+          "estremi": "L.R. 15 marzo 2016, n. 4",
+          "compatto": "L.R. 4/2016",
+          "titolo": "Revisione della normativa regionale in materia di difesa del suolo, di prevenzione e mitigazione del rischio idrogeologico e di gestione dei corsi d'acqua",
+          "note": "Demanio idrico e polizia idraulica; reticolo idrico minore ai Comuni."
+        }
+      ]
+    },
+    "polizia_locale": {
+      "norme": [
+        {
+          "estremi": "L.R. 1 aprile 2015, n. 6",
+          "compatto": "L.R. 6/2015",
+          "titolo": "Disciplina regionale dei servizi di polizia locale e promozione di politiche integrate di sicurezza urbana",
+          "note": ""
+        },
+        {
+          "estremi": "R.R. 22 marzo 2019, n. 5",
+          "compatto": "R.R. 5/2019",
+          "titolo": "Uniformi, armamento, distintivi di grado, veicoli e tessere della polizia locale (contenuto, non titolo ufficiale)",
+          "note": "NON VERIFICATA: titolo ufficiale non accertato; regolamento fuori da iddoc_map."
+        }
+      ]
+    },
+    "procedimento_accesso": {
+      "norme": [
+        {
+          "estremi": "L.R. 1 febbraio 2012, n. 1",
+          "compatto": "L.R. 1/2012",
+          "titolo": "Riordino normativo in materia di procedimento amministrativo, diritto di accesso ai documenti amministrativi, semplificazione amministrativa, potere sostitutivo e potestà sanzionatoria",
+          "note": ""
+        }
+      ]
+    },
+    "cultura_biblioteche": {
+      "norme": [
+        {
+          "estremi": "L.R. 7 ottobre 2016, n. 25",
+          "compatto": "L.R. 25/2016",
+          "titolo": "Politiche regionali in materia culturale - Riordino normativo",
+          "note": "Art. 14 biblioteche e sistemi bibliotecari, art. 15 archivi storici degli enti locali."
+        },
+        {
+          "estremi": "D.G.R. 18 marzo 2024, n. XII/2054",
+          "compatto": "DGR XII/2054/2024",
+          "titolo": "Linee di indirizzo dei Sistemi bibliotecari lombardi",
+          "note": "NON VERIFICATA: estremi dalla ricerca del 2026-06-20, non riaperti oggi."
+        }
+      ]
+    }
+  },
+  "verifica": {
+    "data": "2026-11-03",
+    "fonte": "NormeLombardia (iddoc cablati verificati il 2026-07-12) e mapping del 2026-06-20; riscontro odierno su fonti secondarie",
+    "verificato_da": "agente delegato della sessione Claude (Opus 5.5)",
+    "note": "Il 2026-11-03 NormeLombardia ha rifiutato l'accesso automatico (Request Rejected): nessuna pagina riaperta oggi. Estremi e titoli di L.R. 19/2007, 6/2015 e 4/2016 riscontrati su fonti secondarie (ANCI Lombardia, sito della Regione, Legislazione Tecnica); iddoc nuovi da provare a mano. Caveat: artt. 50 e 52 L.R. 6/2012 dopo L.R. 2/2026; numeri d'articolo edilizi della L.R. 12/2005."
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "regione": "Toscana",
+  "chiave": "toscana",
+  "aggettivo": {
+    "ms": "toscano",
+    "fs": "toscana",
+    "mp": "toscani",
+    "fp": "toscane"
+  },
+  "statuto": "ordinario",
+  "ordinamento_enti_locali": "",
+  "capoluogo": "Firenze",
+  "tar": "TAR Toscana (sede di Firenze)",
+  "bur": {
+    "sigla": "BURT",
+    "nome": "Bollettino Ufficiale della Regione Toscana",
+    "url": "https://www.regione.toscana.it/burt"
+  },
+  "banca_dati": {
+    "nome": "Raccolta Normativa della Regione Toscana",
+    "url": "https://raccoltanormativa.consiglio.regione.toscana.it/",
+    "indirizzamento": "id"
+  },
+  "geografia": {
+    "demanio": [
+      "marittimo",
+      "idrico"
+    ],
+    "art142_lettere": [
+      "a",
+      "b"
+    ],
+    "note": "Regione costiera e insulare: demanio marittimo con concessioni ai Comuni (L.R. 88/1998 art. 27); demanio idrico in capo alla Regione (L.R. 80/2015); territori costieri e contermini ai laghi, art. 142 co. 1 lett. a e b D.Lgs. 42/2004."
+  },
+  "materie": {
+    "servizi_sociali": {
+      "norme": [
+        {
+          "estremi": "L.R. 24 febbraio 2005, n. 41",
+          "compatto": "L.R. 41/2005",
+          "titolo": "Sistema integrato di interventi e servizi per la tutela dei diritti di cittadinanza sociale",
+          "note": "Art. 21 strutture soggette ad autorizzazione, art. 25 accreditamento."
+        },
+        {
+          "estremi": "L.R. 28 dicembre 2009, n. 82",
+          "compatto": "L.R. 82/2009",
+          "titolo": "Accreditamento delle strutture e dei servizi alla persona del sistema sociale integrato",
+          "note": ""
+        }
+      ],
+      "fatti": {}
+    },
+    "nidi_0_3": {
+      "norme": [
+        {
+          "estremi": "L.R. 26 luglio 2002, n. 32",
+          "compatto": "L.R. 32/2002",
+          "titolo": "Testo unico della normativa della Regione Toscana in materia di educazione, istruzione, orientamento, formazione professionale e lavoro",
+          "note": "Art. 4 bis servizi educativi per la prima infanzia."
+        },
+        {
+          "estremi": "D.P.G.R. 30 luglio 2013, n. 41/R",
+          "compatto": "Reg. 41/R/2013",
+          "titolo": "Regolamento di attuazione dell'articolo 4 bis della legge regionale 26 luglio 2002, n. 32 in materia di servizi educativi per la prima infanzia",
+          "note": "Art. 27 rapporto numerico nel nido; modificato da ultimo dal d.p.g.r. 39/R/2023."
+        }
+      ],
+      "fatti": {
+        "rapporto_educatore_bambini": "nido: 1:6 (sotto 12 mesi), 1:7 (12-23 mesi), 1:10 (24-36 mesi), calcolato su almeno l'80% degli iscritti (Reg. 41/R/2013 art. 27)"
+      }
+    },
+    "urbanistica_edilizia": {
+      "norme": [
+        {
+          "estremi": "L.R. 10 novembre 2014, n. 65",
+          "compatto": "L.R. 65/2014",
+          "titolo": "Norme per il governo del territorio",
+          "note": "Comprende la disciplina dell'attività edilizia (Titolo VI)."
+        }
+      ]
+    },
+    "demanio": {
+      "norme": [
+        {
+          "estremi": "L.R. 10 dicembre 1998, n. 88",
+          "compatto": "L.R. 88/1998",
+          "titolo": "Attribuzione agli enti locali e disciplina generale delle funzioni amministrative e dei compiti in materia di urbanistica e pianificazione territoriale, protezione della natura e dell'ambiente, tutela dell'ambiente dagli inquinamenti e gestione dei rifiuti, risorse idriche e difesa del suolo, energia e risorse geotermiche, opere pubbliche, viabilità e trasporti conferite alla Regione dal decreto legislativo 31 marzo 1998, n. 112",
+          "note": "Art. 27: ai Comuni le concessioni di beni del demanio marittimo e di zone del mare territoriale."
+        },
+        {
+          "estremi": "L.R. 9 maggio 2016, n. 31",
+          "compatto": "L.R. 31/2016",
+          "titolo": "Disposizioni urgenti in materia di concessioni demaniali marittime. Abrogazione dell'articolo 32 della l.r. 82/2015",
+          "note": "Dichiarata in parte illegittima (C. cost. 157/2017); modificata dalla L.R. 30/2024, a sua volta in parte illegittima (C. cost. 89/2025): verificare il testo vigente."
+        },
+        {
+          "estremi": "L.R. 28 dicembre 2015, n. 80",
+          "compatto": "L.R. 80/2015",
+          "titolo": "Norme in materia di difesa del suolo, tutela delle risorse idriche e tutela della costa e degli abitati costieri",
+          "note": "Demanio idrico: gestione e concessioni in capo alla Regione."
+        }
+      ]
+    },
+    "polizia_locale": {
+      "norme": [
+        {
+          "estremi": "L.R. 19 febbraio 2020, n. 11",
+          "compatto": "L.R. 11/2020",
+          "titolo": "Norme in materia di sicurezza urbana integrata e polizia locale. Modifiche alla l.r. 22/2015",
+          "note": "Ha abrogato la L.R. 12/2006 (polizia comunale e provinciale)."
+        }
+      ]
+    },
+    "procedimento_accesso": {
+      "norme": [
+        {
+          "estremi": "L.R. 23 luglio 2009, n. 40",
+          "compatto": "L.R. 40/2009",
+          "titolo": "Norme sul procedimento amministrativo, per la semplificazione e la trasparenza dell'attività amministrativa",
+          "note": "Artt. 5-8 accesso a dati e documenti."
+        }
+      ]
+    },
+    "cultura_biblioteche": {
+      "norme": [
+        {
+          "estremi": "L.R. 25 febbraio 2010, n. 21",
+          "compatto": "L.R. 21/2010",
+          "titolo": "Testo unico delle disposizioni in materia di beni, istituti e attività culturali",
+          "note": ""
+        }
+      ]
+    }
+  },
+  "verifica": {
+    "data": "2026-11-03",
+    "fonte": "Raccolta Normativa della Regione Toscana (raccoltanormativa.consiglio.regione.toscana.it, URN NIR con data completa, testo coordinato vigente)",
+    "verificato_da": "agente delegato della sessione Claude (Opus 5.5)",
+    "note": "Tutte le norme aperte sul testo coordinato: estremi, titolo e assenza di abrogazione confermati. Per L.R. 65/2014 e L.R. 32/2002 il portale avverte che il testo aggiornato è in preparazione. Scartata la L.R. 12/2006 (abrogata dalla L.R. 11/2020)."
+  }
+}

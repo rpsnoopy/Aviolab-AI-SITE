@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "regione": "Marche",
+  "chiave": "marche",
+  "aggettivo": {
+    "ms": "marchigiano",
+    "fs": "marchigiana",
+    "mp": "marchigiani",
+    "fp": "marchigiane"
+  },
+  "statuto": "ordinario",
+  "ordinamento_enti_locali": "",
+  "capoluogo": "Ancona",
+  "tar": "TAR Marche (sede di Ancona)",
+  "bur": {
+    "sigla": "BUR Marche",
+    "nome": "Bollettino Ufficiale della Regione Marche",
+    "url": "https://bur.regione.marche.it/"
+  },
+  "banca_dati": {
+    "nome": "Banca dati delle leggi regionali del Consiglio regionale delle Marche",
+    "url": "https://www.consiglio.marche.it/banche_dati_e_documentazione/leggi/",
+    "indirizzamento": "id"
+  },
+  "geografia": {
+    "demanio": [
+      "marittimo",
+      "idrico"
+    ],
+    "art142_lettere": [
+      "a"
+    ],
+    "note": "Regione costiera: demanio marittimo con concessioni e piano particolareggiato di spiaggia ai Comuni (L.R. 7/2010 art. 3); demanio idrico (L.R. 5/2006); territori costieri, art. 142 co. 1 lett. a D.Lgs. 42/2004."
+  },
+  "materie": {
+    "servizi_sociali": {
+      "norme": [
+        {
+          "estremi": "L.R. 1 dicembre 2014, n. 32",
+          "compatto": "L.R. 32/2014",
+          "titolo": "Sistema regionale integrato dei servizi sociali a tutela della persona e della famiglia",
+          "note": ""
+        },
+        {
+          "estremi": "L.R. 30 settembre 2016, n. 21",
+          "compatto": "L.R. 21/2016",
+          "titolo": "Autorizzazioni e accreditamento istituzionale delle strutture e dei servizi sanitari, socio-sanitari e sociali pubblici e privati e disciplina degli accordi contrattuali delle strutture e dei servizi sanitari, socio-sanitari e sociali pubblici e privati",
+          "note": ""
+        }
+      ],
+      "fatti": {}
+    },
+    "nidi_0_3": {
+      "norme": [
+        {
+          "estremi": "L.R. 13 maggio 2003, n. 9",
+          "compatto": "L.R. 9/2003",
+          "titolo": "Disciplina per la realizzazione e gestione dei servizi per l'infanzia, per l'adolescenza e per il sostegno alle funzioni genitoriali e alle famiglie e modifica della Legge regionale 12 aprile 1995, n. 46 concernente: \"Promozione e coordinamento delle politiche di intervento in favore dei giovani e degli adolescenti\"",
+          "note": "Modificata da ultimo dalla L.R. 41/2018."
+        },
+        {
+          "estremi": "Reg. reg. 22 dicembre 2004, n. 13",
+          "compatto": "R.R. 13/2004",
+          "titolo": "Requisiti e modalità per l'autorizzazione e l'accreditamento dei servizi per l'infanzia, per l'adolescenza e per il sostegno alle funzioni genitoriali e alle famiglie di cui alla L.R. 13 maggio 2003, n. 9",
+          "note": "Art. 8 nidi d'infanzia, art. 9 centri per l'infanzia."
+        }
+      ],
+      "fatti": {
+        "rapporto_educatore_bambini": "nido d'infanzia 1:7 (R.R. 13/2004 art. 8 co. 5); centro per l'infanzia 1:8, 1:7 con pasto e riposo (art. 9)"
+      }
+    },
+    "urbanistica_edilizia": {
+      "norme": [
+        {
+          "estremi": "L.R. 30 novembre 2023, n. 19",
+          "compatto": "L.R. 19/2023",
+          "titolo": "Norme della pianificazione per il governo del territorio",
+          "note": ""
+        },
+        {
+          "estremi": "L.R. 20 aprile 2015, n. 17",
+          "compatto": "L.R. 17/2015",
+          "titolo": "Riordino e semplificazione della normativa regionale in materia di edilizia",
+          "note": "Modificata da ultimo dalla L.R. 8/2026."
+        }
+      ]
+    },
+    "demanio": {
+      "norme": [
+        {
+          "estremi": "L.R. 11 febbraio 2010, n. 7",
+          "compatto": "L.R. 7/2010",
+          "titolo": "Norme per l'attuazione delle funzioni amministrative in materia di demanio marittimo",
+          "note": "Art. 3 funzioni dei Comuni (piano particolareggiato di spiaggia, rilascio e rinnovo delle concessioni)."
+        },
+        {
+          "estremi": "L.R. 9 giugno 2006, n. 5",
+          "compatto": "L.R. 5/2006",
+          "titolo": "Disciplina delle derivazioni di acqua pubblica e delle occupazioni del demanio idrico",
+          "note": ""
+        }
+      ]
+    },
+    "polizia_locale": {
+      "norme": [
+        {
+          "estremi": "L.R. 17 febbraio 2014, n. 1",
+          "compatto": "L.R. 1/2014",
+          "titolo": "Disciplina in materia di ordinamento della polizia locale",
+          "note": ""
+        }
+      ]
+    },
+    "procedimento_accesso": {
+      "norme": []
+    },
+    "cultura_biblioteche": {
+      "norme": [
+        {
+          "estremi": "L.R. 9 febbraio 2010, n. 4",
+          "compatto": "L.R. 4/2010",
+          "titolo": "Norme in materia di beni e attività culturali",
+          "note": "Art. 17 sistema bibliotecario."
+        }
+      ]
+    }
+  },
+  "verifica": {
+    "data": "2026-11-03",
+    "fonte": "Banca dati delle leggi regionali del Consiglio regionale delle Marche (consiglio.marche.it, testo vigente, ricerca per anno e numero)",
+    "verificato_da": "agente delegato della sessione Claude (Opus 5.5)",
+    "note": "Tutte le norme aperte sulla banca dati: estremi, titolo e stato «Vigente» confermati. Nessuna legge regionale generale sul procedimento e sull'accesso: la L.R. 3/2015 (innovazione e semplificazione amministrativa) si applica agli enti locali solo per le funzioni conferite dalla Regione, quindi non è censita."
+  }
+}

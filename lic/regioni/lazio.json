@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "regione": "Lazio",
+  "chiave": "lazio",
+  "aggettivo": {
+    "ms": "laziale",
+    "fs": "laziale",
+    "mp": "laziali",
+    "fp": "laziali"
+  },
+  "statuto": "ordinario",
+  "ordinamento_enti_locali": "",
+  "capoluogo": "Roma",
+  "tar": "TAR Lazio",
+  "bur": {
+    "sigla": "BURL",
+    "nome": "Bollettino Ufficiale della Regione Lazio",
+    "url": "https://www.regione.lazio.it/bur"
+  },
+  "banca_dati": {
+    "nome": "Leggi regionali (testo coordinato) del Consiglio regionale del Lazio",
+    "url": "https://www.consiglio.regione.lazio.it/?vw=leggiregionali&sv=vigente",
+    "indirizzamento": "id"
+  },
+  "geografia": {
+    "demanio": [
+      "marittimo",
+      "lacuale",
+      "idrico"
+    ],
+    "art142_lettere": [
+      "a",
+      "b",
+      "c"
+    ],
+    "note": "Regione costiera e lacuale (Bolsena, Bracciano, Vico): territori costieri, laghi, fiumi (art. 142 co. 1 lett. a, b, c D.Lgs. 42/2004). Concessioni demaniali marittime turistico-ricreative ai Comuni (L.R. 8/2015); nessuna legge regionale sul demanio lacuale o idrico censita."
+  },
+  "materie": {
+    "servizi_sociali": {
+      "norme": [
+        {
+          "estremi": "L.R. 10 agosto 2016, n. 11",
+          "compatto": "L.R. 11/2016",
+          "titolo": "Sistema integrato degli interventi e dei servizi sociali della Regione Lazio",
+          "note": "Artt. 31, 32 e 32 bis (strutture, autorizzazione e accreditamento) abrogati: oggi L.R. 16/2026."
+        },
+        {
+          "estremi": "L.R. 13 luglio 2026, n. 16",
+          "compatto": "L.R. 16/2026",
+          "titolo": "Disciplina delle strutture e dei servizi socioassistenziali",
+          "note": "Ha abrogato la L.R. 41/2003; i procedimenti previgenti si applicano fino alle DGR di cui all'art. 2 (art. 18)."
+        }
+      ],
+      "fatti": {}
+    },
+    "nidi_0_3": {
+      "norme": [
+        {
+          "estremi": "L.R. 5 agosto 2020, n. 7",
+          "compatto": "L.R. 7/2020",
+          "titolo": "Disposizioni relative al sistema integrato di educazione e istruzione per l'infanzia",
+          "note": "Art. 35 rapporto numerico; art. 37 sezione primavera; art. 52 regolamento attuativo."
+        },
+        {
+          "estremi": "R.R. 16 luglio 2021, n. 12",
+          "compatto": "R.R. 12/2021",
+          "titolo": "Regolamento di attuazione e integrazione della legge regionale 5 agosto 2020, n. 7 (Disposizioni relative al sistema integrato di educazione e istruzione per l'infanzia)",
+          "note": "Letto sul BUR (testo su regione.lazio.it), non sulla banca dati del Consiglio; modifiche successive non accertate."
+        }
+      ],
+      "fatti": {
+        "rapporto_educatore_bambini": "1:7 nel nido, calcolato sui posti autorizzati (L.R. 7/2020 art. 35); 1:10 nella sezione primavera (art. 37 co. 6)"
+      }
+    },
+    "urbanistica_edilizia": {
+      "norme": [
+        {
+          "estremi": "L.R. 22 dicembre 1999, n. 38",
+          "compatto": "L.R. 38/1999",
+          "titolo": "Norme sul governo del territorio",
+          "note": ""
+        },
+        {
+          "estremi": "L.R. 11 agosto 2008, n. 15",
+          "compatto": "L.R. 15/2008",
+          "titolo": "Vigilanza sull'attività urbanistico-edilizia",
+          "note": "Il Lazio non ha una legge generale sull'attività edilizia: titoli abilitativi dal D.P.R. 380/2001."
+        },
+        {
+          "estremi": "L.R. 18 luglio 2017, n. 7",
+          "compatto": "L.R. 7/2017",
+          "titolo": "Disposizioni per la rigenerazione urbana e per il recupero edilizio",
+          "note": ""
+        }
+      ]
+    },
+    "demanio": {
+      "norme": [
+        {
+          "estremi": "L.R. 26 giugno 2015, n. 8",
+          "compatto": "L.R. 8/2015",
+          "titolo": "Disposizioni relative all'utilizzazione del demanio marittimo per finalità turistiche e ricreative. Modifiche alla legge regionale 6 agosto 2007, n. 13, concernente l'organizzazione del sistema turistico laziale, e successive modifiche",
+          "note": "Concessioni e PUA comunale in capo ai Comuni."
+        }
+      ]
+    },
+    "polizia_locale": {
+      "norme": [
+        {
+          "estremi": "L.R. 13 gennaio 2005, n. 1",
+          "compatto": "L.R. 1/2005",
+          "titolo": "Norme in materia di polizia locale",
+          "note": ""
+        }
+      ]
+    },
+    "procedimento_accesso": {
+      "norme": [
+        {
+          "estremi": "L.R. 22 ottobre 1993, n. 57",
+          "compatto": "L.R. 57/1993",
+          "titolo": "Norme generali per lo svolgimento del procedimento amministrativo, l'esercizio del diritto di accesso ai documenti amministrativi e la migliore funzionalità dell'attività amministrativa",
+          "note": "Disciplina soprattutto i procedimenti regionali; per i Comuni resta la L. 241/1990."
+        }
+      ]
+    },
+    "cultura_biblioteche": {
+      "norme": [
+        {
+          "estremi": "L.R. 15 novembre 2019, n. 24",
+          "compatto": "L.R. 24/2019",
+          "titolo": "Disposizioni in materia di servizi culturali regionali e di valorizzazione culturale",
+          "note": "Artt. 14-16 organizzazione bibliotecaria, biblioteche, sistemi bibliotecari; ha abrogato la L.R. 42/1997."
+        }
+      ]
+    }
+  },
+  "verifica": {
+    "data": "2026-11-03",
+    "fonte": "Consiglio regionale del Lazio, leggi regionali nel testo coordinato (consiglio.regione.lazio.it, indirizzo per id interno)",
+    "verificato_da": "agente delegato della sessione Claude (Opus 5.5)",
+    "note": "Tutte le L.R. aperte sul testo coordinato: estremi, titolo e assenza della nota «Legge abrogata» confermati. R.R. 12/2021 letto sul BUR (fonte ufficiale secondaria). Il portale NON accetta URN-NIR (404): si indirizza per id. Scartata la L.R. 41/2003, abrogata dalla L.R. 16/2026."
+  }
+}

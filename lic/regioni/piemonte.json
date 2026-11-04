@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "regione": "Piemonte",
+  "chiave": "piemonte",
+  "aggettivo": {
+    "ms": "piemontese",
+    "fs": "piemontese",
+    "mp": "piemontesi",
+    "fp": "piemontesi"
+  },
+  "statuto": "ordinario",
+  "ordinamento_enti_locali": "",
+  "capoluogo": "Torino",
+  "tar": "TAR Piemonte",
+  "bur": {
+    "sigla": "BURP",
+    "nome": "Bollettino Ufficiale della Regione Piemonte",
+    "url": "https://bur.regione.piemonte.it/"
+  },
+  "banca_dati": {
+    "nome": "Arianna, Banca Dati Normativa del Consiglio regionale del Piemonte",
+    "url": "https://arianna.cr.piemonte.it/",
+    "indirizzamento": "urn"
+  },
+  "geografia": {
+    "demanio": [
+      "lacuale",
+      "idrico"
+    ],
+    "art142_lettere": [
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "note": "Laghi (Maggiore, Orta, Viverone) e corsi d'acqua: demanio idrico della navigazione interna con funzioni comunali (L.R. 2/2008 art. 6); lett. b laghi, c fiumi, d montagne sopra 1600 m, e ghiacciai (art. 142 co. 1 D.Lgs. 42/2004)."
+  },
+  "materie": {
+    "servizi_sociali": {
+      "norme": [
+        {
+          "estremi": "L.R. 8 gennaio 2004, n. 1",
+          "compatto": "L.R. 1/2004",
+          "titolo": "Norme per la realizzazione del sistema regionale integrato di interventi e servizi sociali e riordino della legislazione di riferimento",
+          "note": "Art. 6 funzioni dei comuni; Titolo VI vigilanza, autorizzazione (art. 27) e accreditamento (art. 29)."
+        }
+      ],
+      "fatti": {}
+    },
+    "nidi_0_3": {
+      "norme": [
+        {
+          "estremi": "L.R. 3 novembre 2023, n. 30",
+          "compatto": "L.R. 30/2023",
+          "titolo": "Disciplina dei servizi educativi per l'infanzia e disposizioni relative al sistema integrato di educazione e istruzione dalla nascita sino a sei anni",
+          "note": "Ha abrogato la L.R. 3/1973 (art. 35); art. 15 funzioni dei comuni; fino agli atti di Giunta dell'art. 2 co. 6 restano in via transitoria i requisiti elencati nell'art. 34."
+        }
+      ],
+      "fatti": {
+        "rapporto_educatore_bambini": "fino a 5 bambini per educatore sotto i 12 mesi, 8 tra 12 e 23 mesi, 10 tra 24 e 36 mesi, 15 nei centri per bambini e famiglie (L.R. 30/2023 art. 29 co. 2)"
+      }
+    },
+    "urbanistica_edilizia": {
+      "norme": [
+        {
+          "estremi": "L.R. 5 dicembre 1977, n. 56",
+          "compatto": "L.R. 56/1977",
+          "titolo": "Tutela ed uso del suolo",
+          "note": ""
+        },
+        {
+          "estremi": "L.R. 8 luglio 1999, n. 19",
+          "compatto": "L.R. 19/1999",
+          "titolo": "Norme in materia edilizia e modifiche alla legge regionale 5 dicembre 1977, n. 56 (Tutela ed uso del suolo)",
+          "note": "Regolamento edilizio comunale (artt. 2-3); per il resto dell'edilizia vale il D.P.R. 380/2001."
+        }
+      ]
+    },
+    "demanio": {
+      "norme": [
+        {
+          "estremi": "L.R. 17 gennaio 2008, n. 2",
+          "compatto": "L.R. 2/2008",
+          "titolo": "Disposizioni in materia di navigazione interna, demanio idrico della navigazione interna e conferimento di funzioni agli enti locali",
+          "note": "Art. 6 funzioni amministrative dei comuni, art. 8 uso del demanio."
+        }
+      ]
+    },
+    "polizia_locale": {
+      "norme": [
+        {
+          "estremi": "L.R. 30 novembre 1987, n. 58",
+          "compatto": "L.R. 58/1987",
+          "titolo": "Norme in materia di Polizia locale",
+          "note": ""
+        },
+        {
+          "estremi": "L.R. 10 dicembre 2007, n. 23",
+          "compatto": "L.R. 23/2007",
+          "titolo": "Disposizioni relative alle politiche regionali in materia di sicurezza integrata",
+          "note": "Citarla solo per sicurezza urbana integrata, non per l'ordinamento del corpo."
+        }
+      ]
+    },
+    "procedimento_accesso": {
+      "norme": [
+        {
+          "estremi": "L.R. 14 ottobre 2014, n. 14",
+          "compatto": "L.R. 14/2014",
+          "titolo": "Norme sul procedimento amministrativo e disposizioni in materia di semplificazione",
+          "note": ""
+        }
+      ]
+    },
+    "cultura_biblioteche": {
+      "norme": [
+        {
+          "estremi": "L.R. 1 agosto 2018, n. 11",
+          "compatto": "L.R. 11/2018",
+          "titolo": "Disposizioni coordinate in materia di cultura",
+          "note": "Testo unico regionale della cultura, comprese biblioteche e sistemi bibliotecari."
+        }
+      ]
+    }
+  },
+  "verifica": {
+    "data": "2026-11-03",
+    "fonte": "Arianna, Banca Dati Normativa del Consiglio regionale del Piemonte (URN NIR, versione vigente)",
+    "verificato_da": "agente delegato della sessione Claude (Opus 5.5)",
+    "note": "Tutte le L.R. aperte su Arianna: estremi, titolo e stato «Versione vigente» confermati. Scartata la L.R. 3/1973 sui nidi (abrogata dalla L.R. 30/2023). L'URL del BURP risponde 403 all'accesso automatico."
+  }
+}

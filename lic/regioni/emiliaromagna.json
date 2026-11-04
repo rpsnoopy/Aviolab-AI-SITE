@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "regione": "Emilia-Romagna",
+  "chiave": "emiliaromagna",
+  "aggettivo": {
+    "ms": "emiliano-romagnolo",
+    "fs": "emiliano-romagnola",
+    "mp": "emiliano-romagnoli",
+    "fp": "emiliano-romagnole"
+  },
+  "statuto": "ordinario",
+  "ordinamento_enti_locali": "",
+  "capoluogo": "Bologna",
+  "tar": "TAR Emilia-Romagna (sede di Bologna; sezione staccata di Parma per le province di Parma, Piacenza e Reggio Emilia)",
+  "bur": {
+    "sigla": "BURERT",
+    "nome": "Bollettino Ufficiale Telematico della Regione Emilia-Romagna",
+    "url": "https://bur.regione.emilia-romagna.it/"
+  },
+  "banca_dati": {
+    "nome": "Demetra - Normativa dell'Assemblea legislativa della Regione Emilia-Romagna",
+    "url": "https://demetra.regione.emilia-romagna.it/al/",
+    "indirizzamento": "urn"
+  },
+  "geografia": {
+    "demanio": [
+      "marittimo",
+      "idrico"
+    ],
+    "art142_lettere": [
+      "a"
+    ],
+    "note": "Costa adriatica: demanio marittimo (concessioni turistico-ricreative ai Comuni, L.R. 9/2002 art. 3); Po e corsi d'acqua: demanio idrico (L.R. 7/2004 Capo II, concessioni regionali); art. 142 co. 1 lett. a D.Lgs. 42/2004."
+  },
+  "materie": {
+    "servizi_sociali": {
+      "norme": [
+        {
+          "estremi": "L.R. 12 marzo 2003, n. 2",
+          "compatto": "L.R. 2/2003",
+          "titolo": "Norme per la promozione della cittadinanza sociale e per la realizzazione del sistema integrato di interventi e servizi sociali",
+          "note": "Art. 35 autorizzazione al funzionamento, art. 38 erogazione dei servizi mediante accreditamento."
+        }
+      ],
+      "fatti": {}
+    },
+    "nidi_0_3": {
+      "norme": [
+        {
+          "estremi": "L.R. 25 novembre 2016, n. 19",
+          "compatto": "L.R. 19/2016",
+          "titolo": "Servizi educativi per la prima infanzia. Abrogazione della L.R. n. 1 del 10 gennaio 2000",
+          "note": "Art. 31 rapporto numerico fissato dalla direttiva di Giunta."
+        },
+        {
+          "estremi": "D.G.R. 16 ottobre 2017, n. 1564",
+          "compatto": "DGR 1564/2017",
+          "titolo": "Direttiva in materia di requisiti strutturali ed organizzativi dei servizi educativi per la prima infanzia e relative norme procedurali. Disciplina dei servizi ricreativi e delle iniziative di conciliazione in attuazione della L.R. 19/2016",
+          "note": "Letta su copia della delibera (atto di Giunta, non su Demetra); modifiche successive non accertate."
+        }
+      ],
+      "fatti": {
+        "rapporto_educatore_bambini": "1:5 (3-12 mesi), 1:7 (12-24 mesi), 1:10 (sezioni di soli 24-36 mesi), DGR 1564/2017 par. 2.8"
+      }
+    },
+    "urbanistica_edilizia": {
+      "norme": [
+        {
+          "estremi": "L.R. 21 dicembre 2017, n. 24",
+          "compatto": "L.R. 24/2017",
+          "titolo": "Disciplina regionale sulla tutela e l'uso del territorio",
+          "note": "Ha sostituito la L.R. 20/2000 (PUG al posto di PSC, POC e RUE)."
+        },
+        {
+          "estremi": "L.R. 30 luglio 2013, n. 15",
+          "compatto": "L.R. 15/2013",
+          "titolo": "Semplificazione della disciplina edilizia",
+          "note": ""
+        }
+      ]
+    },
+    "demanio": {
+      "norme": [
+        {
+          "estremi": "L.R. 31 maggio 2002, n. 9",
+          "compatto": "L.R. 9/2002",
+          "titolo": "Disciplina dell'esercizio delle funzioni amministrative in materia di demanio marittimo e di zone di mare territoriale",
+          "note": "Art. 3 funzioni dei Comuni."
+        },
+        {
+          "estremi": "L.R. 14 aprile 2004, n. 7, Capo II",
+          "compatto": "L.R. 7/2004",
+          "titolo": "Disposizioni in materia ambientale. Modifiche ed integrazioni a leggi regionali",
+          "note": "Capo II Sezione I gestione del demanio idrico, concessioni regionali (art. 14)."
+        }
+      ]
+    },
+    "polizia_locale": {
+      "norme": [
+        {
+          "estremi": "L.R. 4 dicembre 2003, n. 24",
+          "compatto": "L.R. 24/2003",
+          "titolo": "Disciplina della polizia amministrativa locale e promozione di un sistema integrato di sicurezza",
+          "note": ""
+        }
+      ]
+    },
+    "procedimento_accesso": {
+      "norme": [
+        {
+          "estremi": "L.R. 6 settembre 1993, n. 32",
+          "compatto": "L.R. 32/1993",
+          "titolo": "Norme per la disciplina del procedimento amministrativo e del diritto di accesso",
+          "note": ""
+        }
+      ]
+    },
+    "cultura_biblioteche": {
+      "norme": [
+        {
+          "estremi": "L.R. 24 marzo 2000, n. 18",
+          "compatto": "L.R. 18/2000",
+          "titolo": "Norme in materia di biblioteche, archivi storici, musei e beni culturali",
+          "note": ""
+        }
+      ]
+    }
+  },
+  "verifica": {
+    "data": "2026-11-03",
+    "fonte": "Demetra, Assemblea legislativa della Regione Emilia-Romagna (testo coordinato vigente, URN er:assemblealegislativa:legge)",
+    "verificato_da": "agente delegato della sessione Claude (Opus 5.5)",
+    "note": "Tutte le L.R. aperte su Demetra: estremi, titolo e «Documento vigente» confermati. DGR 1564/2017 letta sul testo della delibera (copia di un Comune); eventuali modifiche successive dei rapporti numerici non accertate."
+  }
+}

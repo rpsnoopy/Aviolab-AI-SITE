@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "regione": "Veneto",
+  "chiave": "veneto",
+  "aggettivo": {
+    "ms": "veneto",
+    "fs": "veneta",
+    "mp": "veneti",
+    "fp": "venete"
+  },
+  "statuto": "ordinario",
+  "ordinamento_enti_locali": "",
+  "capoluogo": "Venezia",
+  "tar": "TAR Veneto (sede di Venezia)",
+  "bur": {
+    "sigla": "BURV",
+    "nome": "Bollettino Ufficiale della Regione del Veneto",
+    "url": "https://bur.regione.veneto.it/"
+  },
+  "banca_dati": {
+    "nome": "Leggi regionali del Consiglio regionale del Veneto",
+    "url": "https://www.consiglioveneto.it/leggi-regionali",
+    "indirizzamento": "nessuno"
+  },
+  "geografia": {
+    "demanio": [
+      "marittimo",
+      "lacuale",
+      "idrico"
+    ],
+    "art142_lettere": [
+      "a",
+      "b"
+    ],
+    "note": "Costa adriatica e laguna: demanio marittimo (concessioni turistico-ricreative delegate ai Comuni costieri); lago di Garda: demanio della navigazione interna (lacuale); corsi d'acqua: demanio idrico; art. 142 co. 1 lett. a e b D.Lgs. 42/2004."
+  },
+  "materie": {
+    "servizi_sociali": {
+      "norme": [
+        {
+          "estremi": "L.R. 4 aprile 2024, n. 9",
+          "compatto": "L.R. 9/2024",
+          "titolo": "Assetto organizzativo e pianificatorio degli interventi e dei servizi sociali",
+          "note": "NON VERIFICATA sul testo primario: il portale del Consiglio regionale del Veneto rifiuta l'accesso automatico (HTTP 403); estremi e titolo da Legislazione Tecnica e documenti regionali; Ambiti Territoriali Sociali; rapporto con la L.R. 55/1982 non accertato."
+        },
+        {
+          "estremi": "L.R. 16 agosto 2002, n. 22",
+          "compatto": "L.R. 22/2002",
+          "titolo": "Autorizzazione e accreditamento delle strutture sanitarie, socio-sanitarie e sociali",
+          "note": "NON VERIFICATA sul testo primario: il portale del Consiglio regionale del Veneto rifiuta l'accesso automatico (HTTP 403); titolo confermato dall'oggetto della DGR 84/2007; art. 14 autorizzazione dei servizi sociali."
+        }
+      ],
+      "fatti": {}
+    },
+    "nidi_0_3": {
+      "norme": [
+        {
+          "estremi": "L.R. 23 aprile 1990, n. 32",
+          "compatto": "L.R. 32/1990",
+          "titolo": "Disciplina degli interventi regionali per i servizi educativi alla prima infanzia: asili nido e servizi innovativi",
+          "note": "NON VERIFICATA sul testo primario: il portale del Consiglio regionale del Veneto rifiuta l'accesso automatico (HTTP 403); titolo e testo coordinato (ll.rr. 5/2000, 14/2005, 39/2012, 6/2017, 29/2019) da minori.gov.it e sito della Regione."
+        },
+        {
+          "estremi": "D.G.R. 16 gennaio 2007, n. 84",
+          "compatto": "DGR 84/2007",
+          "titolo": "Approvazione dei requisiti e degli standard, degli indicatori di attività e di risultato, degli oneri per l'accreditamento e della tempistica di applicazione, per le strutture sociosanitarie e sociali (L.R. 22/2002)",
+          "note": "Oggetto letto sul testo della delibera (copia non ufficiale); Allegato A requisiti di nido, micronido, nido integrato e nido aziendale non letto."
+        }
+      ],
+      "fatti": {
+        "rapporto_educatore_bambini": "NON VERIFICATO: fissato da L.R. 32/1990 art. 15 co. 3 e DGR 84/2007 All. A (AS-NI-au-1.1); il valore 1:6 compare solo in fonti comunali"
+      }
+    },
+    "urbanistica_edilizia": {
+      "norme": [
+        {
+          "estremi": "L.R. 23 aprile 2004, n. 11",
+          "compatto": "L.R. 11/2004",
+          "titolo": "Norme per il governo del territorio e in materia di paesaggio",
+          "note": "NON VERIFICATA sul testo primario: il portale del Consiglio regionale del Veneto rifiuta l'accesso automatico (HTTP 403); titolo dal sito della Regione; manca una legge edilizia generale: per l'edilizia vale il D.P.R. 380/2001."
+        },
+        {
+          "estremi": "L.R. 6 giugno 2017, n. 14",
+          "compatto": "L.R. 14/2017",
+          "titolo": "Disposizioni per il contenimento del consumo di suolo e modifiche della legge regionale 23 aprile 2004, n. 11",
+          "note": "NON VERIFICATA sul testo primario: il portale del Consiglio regionale del Veneto rifiuta l'accesso automatico (HTTP 403); titolo da relazioni comunali e sito della Regione."
+        },
+        {
+          "estremi": "L.R. 4 aprile 2019, n. 14",
+          "compatto": "L.R. 14/2019",
+          "titolo": "Veneto 2050: politiche per la riqualificazione urbana e la rinaturalizzazione del territorio e modifiche alla legge regionale 23 aprile 2004, n. 11",
+          "note": "NON VERIFICATA sul testo primario: il portale del Consiglio regionale del Veneto rifiuta l'accesso automatico (HTTP 403); titolo dal sito della Regione (BUR n. 32 del 5 aprile 2019); interventi edilizi premiali."
+        }
+      ]
+    },
+    "demanio": {
+      "norme": [
+        {
+          "estremi": "L.R. 4 novembre 2002, n. 33, artt. 46 e seguenti",
+          "compatto": "L.R. 33/2002",
+          "titolo": "Testo unico delle leggi regionali in materia di turismo",
+          "note": "NON VERIFICATA sul testo primario: il portale del Consiglio regionale del Veneto rifiuta l'accesso automatico (HTTP 403); delega ai Comuni costieri delle concessioni demaniali marittime turistico-ricreative citata dal sito della Regione e da un avviso BUR 2026; vigenza degli artt. 46 ss. dopo la L.R. 11/2013 non accertata."
+        },
+        {
+          "estremi": "L.R. 13 aprile 2001, n. 11, art. 100",
+          "compatto": "L.R. 11/2001",
+          "titolo": "Conferimento di funzioni e compiti amministrativi alle autonomie locali in attuazione del decreto legislativo 31 marzo 1998, n. 112",
+          "note": "NON VERIFICATA sul testo primario: il portale del Consiglio regionale del Veneto rifiuta l'accesso automatico (HTTP 403); art. 100 co. 2 lett. e: concessioni non turistiche del demanio marittimo e della navigazione interna alla Regione; titolo non riscontrato sul testo."
+        }
+      ]
+    },
+    "polizia_locale": {
+      "norme": [
+        {
+          "estremi": "L.R. 23 giugno 2020, n. 24",
+          "compatto": "L.R. 24/2020",
+          "titolo": "Normativa regionale in materia di polizia locale e politiche di sicurezza",
+          "note": "NON VERIFICATA sul testo primario: il portale del Consiglio regionale del Veneto rifiuta l'accesso automatico (HTTP 403); estremi e titolo dalla pagina normativa della Regione; impugnata dal Governo (Corte cost. 176/2021); abrogazione della L.R. 40/1988 non accertata."
+        }
+      ]
+    },
+    "procedimento_accesso": {
+      "norme": []
+    },
+    "cultura_biblioteche": {
+      "norme": [
+        {
+          "estremi": "L.R. 16 maggio 2019, n. 17",
+          "compatto": "L.R. 17/2019",
+          "titolo": "Legge per la cultura",
+          "note": "NON VERIFICATA sul testo primario: il portale del Consiglio regionale del Veneto rifiuta l'accesso automatico (HTTP 403); dalla pagina normativa biblioteche della Regione; art. 40 abroga la L.R. 50/1984 su musei, biblioteche e archivi (FAQ regionali)."
+        }
+      ]
+    }
+  },
+  "verifica": {
+    "data": "2026-11-03",
+    "fonte": "Fonti secondarie ufficiali: sito della Regione del Veneto, minori.gov.it, Legislazione Tecnica (il portale del Consiglio regionale rifiuta l'accesso automatico)",
+    "verificato_da": "agente delegato della sessione Claude (Opus 5.5)",
+    "note": "Nessuna norma aperta sul testo primario: consiglioveneto.it risponde 403 alle richieste automatiche. Tutte NON VERIFICATE. Nessuna legge regionale generale sul procedimento trovata (si applica la L. 241/1990). Da chiudere a mano: vigenza di L.R. 55/1982 e 40/1988, artt. 46 ss. L.R. 33/2002, rapporto educatore/bambini."
+  }
+}

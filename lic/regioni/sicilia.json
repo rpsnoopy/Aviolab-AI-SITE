@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "regione": "Sicilia",
+  "chiave": "sicilia",
+  "aggettivo": {
+    "ms": "siciliano",
+    "fs": "siciliana",
+    "mp": "siciliani",
+    "fp": "siciliane"
+  },
+  "statuto": "speciale",
+  "ordinamento_enti_locali": "O.R.EE.LL. (L.R. 15 marzo 1963, n. 16, Ordinamento amministrativo degli Enti locali nella Regione siciliana), con L.R. 11 dicembre 1991, n. 48 (Provvedimenti in tema di autonomie locali) e L.R. 4 agosto 2015, n. 15 (Disposizioni in materia di liberi Consorzi comunali e Città metropolitane): il TUEL vale solo dove recepito o richiamato, verificarne l'applicabilità caso per caso.",
+  "capoluogo": "Palermo",
+  "tar": "TAR Sicilia (sede di Palermo; sezione staccata di Catania per le province orientali); in appello il Consiglio di Giustizia Amministrativa per la Regione Siciliana (CGA) al posto del Consiglio di Stato",
+  "bur": {
+    "sigla": "GURS",
+    "nome": "Gazzetta Ufficiale della Regione Siciliana",
+    "url": "https://www.gurs.regione.sicilia.it/"
+  },
+  "banca_dati": {
+    "nome": "Leggi della Regione Siciliana (banca dati dell'Assemblea Regionale Siciliana)",
+    "url": "https://w3.ars.sicilia.it/home/cerca/201.jsp",
+    "indirizzamento": "nessuno"
+  },
+  "geografia": {
+    "demanio": [
+      "marittimo",
+      "idrico"
+    ],
+    "art142_lettere": [
+      "a",
+      "c"
+    ],
+    "note": "Regione insulare: demanio marittimo a regime regionale proprio (L.R. 15/2005, concessioni regionali, piani comunali di utilizzo del demanio); territori costieri (art. 142 co. 1 lett. a D.Lgs. 42/2004) e corsi d'acqua (lett. c). La tutela paesaggistica è di competenza regionale esclusiva."
+  },
+  "materie": {
+    "servizi_sociali": {
+      "norme": [
+        {
+          "estremi": "L.R. 9 maggio 1986, n. 22",
+          "compatto": "L.R. 22/1986",
+          "titolo": "Riordino dei servizi e delle attività socio-assistenziali in Sicilia",
+          "note": "Iscrizione all'albo regionale degli enti assistenziali (artt. 26-28) in luogo dell'autorizzazione; regolamento D.P.R.S. 28 maggio 1987 non riaperto."
+        }
+      ],
+      "fatti": {}
+    },
+    "nidi_0_3": {
+      "norme": [
+        {
+          "estremi": "L.R. 14 settembre 1979, n. 214",
+          "compatto": "L.R. 214/1979",
+          "titolo": "Disciplina degli asili nido nella Regione siciliana",
+          "note": ""
+        },
+        {
+          "estremi": "D.P.Reg. 16 maggio 2013, n. 126",
+          "compatto": "D.P.Reg. 126/2013",
+          "titolo": "Nuovi standards strutturali ed organizzativi per i servizi di prima infanzia",
+          "note": "NON VERIFICATA sul testo primario: letta su copia del decreto pubblicata da minori.gov.it; il numero 126 è da fonte secondaria."
+        }
+      ],
+      "fatti": {
+        "rapporto_educatore_bambini": "Media 1:8; 1:6 per 0-12 mesi; 1:10 per 24-36 mesi; servizi generali 1 ogni 13 bambini (D.P.Reg. 126/2013 par. 3.2): NON VERIFICATO sul testo primario"
+      }
+    },
+    "urbanistica_edilizia": {
+      "norme": [
+        {
+          "estremi": "L.R. 13 agosto 2020, n. 19",
+          "compatto": "L.R. 19/2020",
+          "titolo": "Norme per il governo del territorio",
+          "note": "Impugnata dal Governo (nota ARS): verificare gli articoli dichiarati illegittimi."
+        },
+        {
+          "estremi": "L.R. 10 agosto 2016, n. 16",
+          "compatto": "L.R. 16/2016",
+          "titolo": "Recepimento del Testo Unico delle disposizioni legislative e regolamentari in materia edilizia approvato con decreto del Presidente della Repubblica 6 giugno 2001, n. 380",
+          "note": "Il D.P.R. 380/2001 vale in Sicilia come recepito e modificato da questa legge."
+        }
+      ]
+    },
+    "demanio": {
+      "norme": [
+        {
+          "estremi": "L.R. 29 novembre 2005, n. 15",
+          "compatto": "L.R. 15/2005",
+          "titolo": "Disposizioni sul rilascio delle concessioni di beni demaniali e sull'esercizio diretto delle funzioni amministrative in materia di demanio marittimo",
+          "note": "Concessioni rilasciate dalla Regione; ai Comuni i piani di utilizzo del demanio marittimo (PUDM)."
+        }
+      ]
+    },
+    "polizia_locale": {
+      "norme": [
+        {
+          "estremi": "L.R. 1 agosto 1990, n. 17",
+          "compatto": "L.R. 17/1990",
+          "titolo": "Norme in materia di polizia municipale",
+          "note": "Riforma della polizia locale all'esame dell'ARS (aprile 2026), non approvata alla data della verifica."
+        }
+      ]
+    },
+    "procedimento_accesso": {
+      "norme": [
+        {
+          "estremi": "L.R. 21 maggio 2019, n. 7",
+          "compatto": "L.R. 7/2019",
+          "titolo": "Disposizioni per i procedimenti amministrativi e la funzionalità dell'azione amministrativa",
+          "note": "Si applica anche agli enti locali (art. 1)."
+        }
+      ]
+    },
+    "cultura_biblioteche": {
+      "norme": [
+        {
+          "estremi": "L.R. 1 agosto 1977, n. 80",
+          "compatto": "L.R. 80/1977",
+          "titolo": "Norme per la tutela, la valorizzazione e l'uso sociale dei beni culturali ed ambientali nel territorio della Regione siciliana",
+          "note": "Comprende biblioteche e beni librari; la Regione ha competenza esclusiva sui beni culturali."
+        }
+      ]
+    }
+  },
+  "verifica": {
+    "data": "2026-11-03",
+    "fonte": "Banca dati «Leggi della Regione Siciliana» dell'ARS (w3.ars.sicilia.it, testo pubblicato con note, non coordinato)",
+    "verificato_da": "agente delegato della sessione Claude (Opus 5.5)",
+    "note": "Tutte le L.R. aperte sulla banca dati ARS: estremi e titolo confermati. La banca dati riporta il testo pubblicato con note, non il testo coordinato: la vigenza degli articoli NON è VERIFICATA sul testo coordinato. NON VERIFICATI: D.P.Reg. 126/2013 (numero da fonte secondaria, testo da copia minori.gov.it); regolamento D.P.R.S. 28 maggio 1987 della L.R. 22/1986."
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "regione": "Abruzzo",
+  "chiave": "abruzzo",
+  "aggettivo": {
+    "ms": "abruzzese",
+    "fs": "abruzzese",
+    "mp": "abruzzesi",
+    "fp": "abruzzesi"
+  },
+  "statuto": "ordinario",
+  "ordinamento_enti_locali": "",
+  "capoluogo": "L'Aquila",
+  "tar": "TAR Abruzzo",
+  "bur": {
+    "sigla": "BURA",
+    "nome": "Bollettino Ufficiale della Regione Abruzzo",
+    "url": "https://bura.regione.abruzzo.it/"
+  },
+  "banca_dati": {
+    "nome": "Leggi regionali nel testo vigente del Consiglio regionale dell'Abruzzo",
+    "url": "http://www2.consiglio.regione.abruzzo.it/affassweb/leggi-provvedimenti.asp",
+    "indirizzamento": "id"
+  },
+  "geografia": {
+    "demanio": [
+      "marittimo",
+      "lacuale",
+      "idrico"
+    ],
+    "art142_lettere": [
+      "a",
+      "b",
+      "c"
+    ],
+    "note": "Regione costiera con laghi e fiumi (art. 142 co. 1 lett. a, b, c D.Lgs. 42/2004). Concessioni demaniali marittime turistico-ricreative subdelegate ai Comuni (L.R. 141/1997 art. 4); nessuna legge regionale sul demanio lacuale o idrico censita."
+  },
+  "materie": {
+    "servizi_sociali": {
+      "norme": [
+        {
+          "estremi": "L.R. 27 marzo 1998, n. 22",
+          "compatto": "L.R. 22/1998",
+          "titolo": "Norme per la programmazione e l'organizzazione dei servizi di assistenza sociale - Piano sociale regionale 1998/2000",
+          "note": "Funzioni già provinciali trasferite alla Regione dalla L.R. 32/2015."
+        },
+        {
+          "estremi": "L.R. 4 gennaio 2005, n. 2",
+          "compatto": "L.R. 2/2005",
+          "titolo": "Disciplina delle autorizzazioni al funzionamento e dell'accreditamento di soggetti eroganti servizi alla persona",
+          "note": ""
+        }
+      ],
+      "fatti": {}
+    },
+    "nidi_0_3": {
+      "norme": [
+        {
+          "estremi": "L.R. 28 aprile 2000, n. 76",
+          "compatto": "L.R. 76/2000",
+          "titolo": "Norme in materia di servizi educativi per la prima infanzia",
+          "note": ""
+        },
+        {
+          "estremi": "D.G.R. 26 giugno 2001, n. 565",
+          "compatto": "DGR 565/2001",
+          "titolo": "Direttive generali di attuazione della L.R. 76/2000",
+          "note": "NON VERIFICATA sul testo primario: estremi dalla nota del Consiglio alla L.R. 76/2000 (BURA n. 87 Speciale dell'1.8.2001, modificata dalla DGR 25.9.2006, n. 1058); titolo da fonte secondaria (minori.gov.it)."
+        }
+      ],
+      "fatti": {}
+    },
+    "urbanistica_edilizia": {
+      "norme": [
+        {
+          "estremi": "L.R. 20 dicembre 2023, n. 58",
+          "compatto": "L.R. 58/2023",
+          "titolo": "Nuova legge urbanistica sul governo del territorio",
+          "note": "Ha abrogato la L.R. 18/1983 dal 20 marzo 2024."
+        },
+        {
+          "estremi": "L.R. 24 giugno 2025, n. 19",
+          "compatto": "L.R. 19/2025",
+          "titolo": "Disposizioni di attuazione del decreto del Presidente della Repubblica 6 giugno 2001, n. 380, come modificato dal decreto legge 29 maggio 2024, n. 69, convertito dalla legge 24 luglio 2024, n. 105. Modifiche a leggi regionali e disposizioni per favorire il recupero, la riconversione e la riqualificazione delle aree produttive",
+          "note": "Titolo abbreviato (omessi i titoli tra parentesi degli atti statali)."
+        }
+      ]
+    },
+    "demanio": {
+      "norme": [
+        {
+          "estremi": "L.R. 17 dicembre 1997, n. 141",
+          "compatto": "L.R. 141/1997",
+          "titolo": "Norme per l'attuazione delle funzioni amministrative in materia di demanio marittimo con finalità turistiche e ricreative",
+          "note": "Art. 2 Piano demaniale marittimo (P.D.M.); art. 4 attribuzioni subdelegate ai Comuni."
+        }
+      ]
+    },
+    "polizia_locale": {
+      "norme": [
+        {
+          "estremi": "L.R. 20 novembre 2013, n. 42",
+          "compatto": "L.R. 42/2013",
+          "titolo": "Norme in materia di Polizia amministrativa locale e modifiche alle leggi regionali 18/2001, 40/2010 e 68/2012",
+          "note": ""
+        }
+      ]
+    },
+    "procedimento_accesso": {
+      "norme": [
+        {
+          "estremi": "L.R. 1 ottobre 2013, n. 31",
+          "compatto": "L.R. 31/2013",
+          "titolo": "Legge organica in materia di procedimento amministrativo, sviluppo dell'amministrazione digitale e semplificazione del sistema amministrativo regionale e locale e modifiche alle LL.RR. 2/2013 e 20/2013",
+          "note": ""
+        }
+      ]
+    },
+    "cultura_biblioteche": {
+      "norme": [
+        {
+          "estremi": "L.R. 21 aprile 2023, n. 20",
+          "compatto": "L.R. 20/2023",
+          "titolo": "Disciplina del sistema culturale regionale",
+          "note": "Ha abrogato la L.R. 22/1977 sulle biblioteche degli enti locali (art. 79)."
+        }
+      ]
+    }
+  },
+  "verifica": {
+    "data": "2026-11-03",
+    "fonte": "Consiglio regionale dell'Abruzzo, leggi regionali nel testo vigente (www2.consiglio.regione.abruzzo.it/leggi_tv, indirizzo per percorso anno/numero)",
+    "verificato_da": "agente delegato della sessione Claude (Opus 5.5)",
+    "note": "Tutte le L.R. aperte sul testo vigente: estremi, titolo e assenza della marcatura «Abrogata» confermati. Resta NON VERIFICATA la DGR 565/2001; rapporto educatore/bambini non reperito sul testo primario. Scartate: L.R. 18/1983 (abrogata dalla L.R. 58/2023), L.R. 22/1977 (abrogata dalla L.R. 20/2023)."
+  }
+}
