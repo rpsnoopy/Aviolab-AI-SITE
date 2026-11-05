@@ -1,0 +1,12 @@
+{
+  "formato": "ttr-dati-indice/1",
+  "aggiornatoIl": "2026-11-05T06:15:53Z",
+  "nota": "sha256 e bytes del file come servito (fine riga LF)",
+  "file": [
+    {
+      "file": "domain_checks.json",
+      "sha256": "28b47b788007da65a6b0baa3770ca2cc33a420d460a155dfaa3919b173c1cb4e",
+      "bytes": 69555
+    }
+  ]
+}
