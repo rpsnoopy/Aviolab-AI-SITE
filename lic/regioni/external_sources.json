@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "regions": {
+    "liguria": {
+      "url_template": "https://lrv.regione.liguria.it/liguriass_prod/articolo?urndoc=urn:nir:regione.liguria:legge:{year};{number}&pr=idx,0;artic,1;articparziale,0"
+    },
+    "lombardia": {
+      "url_template": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/main.aspx?view=showdoc&iddoc={iddoc}",
+      "iddoc_map": {
+        "2003;26": "lr002003121200026",
+        "2005;12": "lr002005031100012",
+        "2008;3": "lr002008031200003",
+        "2012;1": "lr002012020100001",
+        "2012;6": "lr002012040400006",
+        "2012;7": "lr002012041800007",
+        "2016;25": "lr002016100700025",
+        "2007;19": "lr002007080600019",
+        "2015;6": "lr002015040100006",
+        "2016;4": "lr002016031500004"
+      }
+    },
+    "calabria": {
+      "url_template": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero={number}&anno={year}"
+    },
+    "emiliaromagna": {
+      "url_template": "https://demetra.regione.emilia-romagna.it/al/articolo?urn=er:assemblealegislativa:legge:{year};{number}"
+    },
+    "friuliveneziagiulia": {
+      "url_template": "https://lexview-int.regione.fvg.it/fontinormative/xml/xmlLex.aspx?anno={year}&legge={number}"
+    },
+    "lazio": {
+      "url_template": "https://www.consiglio.regione.lazio.it/?vw=leggiregionalidettaglio&id={iddoc}&sv=vigente",
+      "iddoc_map": {
+        "2016;11": "9293",
+        "2026;16": "9545",
+        "2020;7": "9389",
+        "1999;38": "7647",
+        "2008;15": "9078",
+        "2017;7": "9313",
+        "2015;8": "9220",
+        "2005;1": "8385",
+        "1993;57": "6988",
+        "2019;24": "9375"
+      }
+    },
+    "marche": {
+      "url_template": "https://www.consiglio.marche.it/banche_dati_e_documentazione/leggi/dettaglio.php?idl={iddoc}",
+      "iddoc_map": {
+        "2014;32": "1860",
+        "2016;21": "1934",
+        "2003;9": "1397",
+        "2023;19": "2298",
+        "2015;17": "1889",
+        "2010;7": "1644",
+        "2006;5": "1508",
+        "2014;1": "1822",
+        "2010;4": "1641"
+      }
+    },
+    "piemonte": {
+      "url_template": "https://arianna.cr.piemonte.it/iterlegcoordweb/dettaglioLegge.do?urnLegge=urn:nir:regione.piemonte:legge:{year};{number}"
+    },
+    "sardegna": {
+      "url_template": "https://leggiregionali.regione.sardegna.it/regional-laws/front-office/{iddoc}/files/pdf",
+      "iddoc_map": {
+        "2005;23": "01c8f1ea-a582-4aca-8ca2-b2b1aef8400e",
+        "1989;45": "f3c8d95f-a09d-4710-9742-6a93a8fdeb2d",
+        "1985;23": "222e45a2-ebd1-4d68-89d4-b494ae62b15e",
+        "2015;8": "8cfdb8bc-efaf-4570-beb7-464dae5e676e",
+        "2006;9": "484967e5-9f44-4b3a-a3e0-e45f7b017195",
+        "2007;9": "fa397f23-b0c2-446e-91a1-c76d6c63caca",
+        "2016;24": "435f0751-f428-48b7-9d36-2e672e537e01",
+        "2006;14": "5e7c65b7-45ae-4889-9220-16597e887fe0",
+        "2016;2": "65c78fa4-d208-4d8a-ba54-d3e12a87857d"
+      }
+    },
+    "toscana": {
+      "url_template": "https://raccoltanormativa.consiglio.regione.toscana.it/articolo?urndoc=urn:nir:regione.toscana:legge:{iddoc}&pr=idx,0;artic,1;articparziale,0",
+      "iddoc_map": {
+        "2005;41": "2005-02-24;41",
+        "2009;82": "2009-12-28;82",
+        "2002;32": "2002-07-26;32",
+        "2014;65": "2014-11-10;65",
+        "1998;88": "1998-12-10;88",
+        "2016;31": "2016-05-09;31",
+        "2015;80": "2015-12-28;80",
+        "2020;11": "2020-02-19;11",
+        "2009;40": "2009-07-23;40",
+        "2010;21": "2010-02-25;21"
+      }
+    },
+    "valledaosta": {
+      "url_template": "https://www.consiglio.vda.it/app/leggieregolamenti/dettaglio?pk_lr={iddoc}",
+      "iddoc_map": {
+        "1998;54": "2517",
+        "2000;5": "2577",
+        "2001;18": "2636",
+        "2010;23": "6021",
+        "2006;11": "3502",
+        "1998;11": "2467",
+        "2005;11": "3062",
+        "2007;19": "4161",
+        "1992;28": "2049"
+      }
+    },
+    "basilicata": {
+      "url_template": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi.aspx?Codice={iddoc}",
+      "iddoc_map": {
+        "2007;4": "2374",
+        "1973;6": "1778",
+        "2016;16": "432",
+        "1999;23": "869",
+        "2009;25": "1157",
+        "2009;41": "1137",
+        "1992;12": "1197",
+        "2015;27": "474",
+        "1988;22": "2272"
+      }
+    },
+    "campania": {
+      "url_template": "https://www.regione.campania.it/normativa/item.php?pgCode={iddoc}&id_doc_type=1",
+      "iddoc_map": {
+        "2007;11": "G19I231R281",
+        "1974;48": "G19I231R1580",
+        "1984;30": "G19I231R1629",
+        "2004;16": "G19I231R381",
+        "2001;19": "G19I231R481",
+        "2022;13": "G19I231R1996",
+        "2012;10": "G19I231R101",
+        "2003;12": "G19I231R396",
+        "2005;17": "G19I231R322",
+        "1983;4": "G19I231R1269",
+        "1974;49": "G19I231R1459"
+      }
+    },
+    "puglia": {
+      "url_template": "https://bussolanormativa.consiglio.puglia.it/public/Leges/LeggeNavscroll.aspx?id={iddoc}",
+      "iddoc_map": {
+        "2006;19": "14327",
+        "2026;9": "14326",
+        "2001;20": "14175",
+        "1980;56": "13694",
+        "2015;17": "14154",
+        "2025;7": "14325",
+        "2011;37": "14197",
+        "2008;15": "11835",
+        "2013;17": "14207"
+      }
+    }
+  }
+}
