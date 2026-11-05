@@ -1,6 +1,6 @@
 {
   "formato": "ttr-regioni-indice/1",
-  "aggiornatoIl": "2026-11-04T23:12:11Z",
+  "aggiornatoIl": "2026-11-05T06:08:01Z",
   "regioni": [
     {
       "chiave": "abruzzo",
@@ -163,5 +163,10 @@
       "bytes": 7681
     }
   ],
-  "nota": "sha256 e bytes del file come servito (fine riga LF)"
+  "nota": "sha256 e bytes del file come servito (fine riga LF)",
+  "external_sources": {
+    "file": "external_sources.json",
+    "sha256": "7fea5d7d90ce683469574c2c3ab45d5de7595826f5f8e8ae6e474fba22a362f2",
+    "bytes": 5296
+  }
 }
