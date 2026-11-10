@@ -3,8 +3,8 @@
   "format": "TTR-LICENSE-V2",
   "licenseSeed": "584DD04FBAF40B96CDFDB3B9EE48B94AB309F89299049828E7D1CC65E7C49BF1",
   "machineKeyId": "sha256:89bb20c2ec050b1a67923edbfcb51a6442ce2ddfeecfc718e42371a581c5cfef",
-  "issuedAtUtc": "2026-10-01T07:31:20.1596879Z",
-  "expiresAtUtc": "2027-10-31T08:31:15.9020000Z",
+  "issuedAtUtc": "2026-11-10T09:20:07.3576699Z",
+  "expiresAtUtc": "2026-11-13T06:31:15.0000000Z",
   "status": "active",
   "entitlements": {
     "licenseType": "Enterprise"
@@ -13,15 +13,15 @@
     "schemaVersion": 2,
     "contentAlgorithm": "A256GCM",
     "keyWrapAlgorithm": "RSA-OAEP-256",
-    "associatedDataSha256": "9dcdfa30cef4edd7f1efe5f43b2289f5b541a4e44f17792b198fc45b5a5a1881",
-    "nonceBase64": "FBza4xEQ9WFiCF\u002BB",
-    "ciphertextBase64": "edfaz5CBwNdKiGNEfhIRBcmIQuoTHoH3RahZT0RQWD7ZvMwff4RFb26uIX6AJMmJqik3NtfgSx4Wq3ScGy3Y2r3stwFw6WLsEZFY3DeiEPE4Rd1W42J2WfkXrqXvX4qFumhoXXjQo\u002BhM/kcn/iNeKnOb7uMSuWt6RQVLMzGPmRUg11k3Q\u002BA2DSQ3hGdbgkdAxdtSq5oXVzs=",
-    "tagBase64": "HdAZpdV/AH1r3Z20L75tPA==",
+    "associatedDataSha256": "aba4fbd0747b2a160bb53e3a7f077ce616d63e5b88abfeedd02d453b9f9c75e6",
+    "nonceBase64": "eQ1PbPuYHabyJfbw",
+    "ciphertextBase64": "a89dps\u002B0hqPpDtD3FoK38wK0GzGTkQpg5MaxZEgAYhylm9EZ4/1q6IAX5l0I\u002BHQku3UA6fuxvxDk3FIVjCcTqO7DYlm1TdWFLWRceVeHVrgh1W\u002BGH6YkAMqWS/STCmHCJhrPGIzAolOqu50b4cOGV2xn85dnHLUlLkS0ifhKE7BrTFhZbuAjbtt/XehOVbxH8dTCURbtSI8=",
+    "tagBase64": "OvZ\u002BJpAyrp/BysaJzctrjQ==",
     "recipients": [
       {
         "role": "machine",
         "keyId": "sha256:89bb20c2ec050b1a67923edbfcb51a6442ce2ddfeecfc718e42371a581c5cfef",
-        "wrappedKeyBase64": "qFzTQ18IveY/SCcWoyccAp7KkRIUWCBq\u002BareX79mX7dmOe85cBqHhYqHg9RvgCOdy01VD\u002BHwsALRedpRCHAqldPBvLddHxs1rz/AKg/6ztg/gPNQuFs5wBQCmWSGbmpPrBnKSPRhLyH0wS7SNPbruoR1uBn7tdohSe1Mb9gaCb9MjV0Wok8MmPl\u002BJGFWk4Y8Ufcu8DkwC7UvJB1yAnHpxVA6ZV1lUSNIiQ5xnLWsHua8xPy2aa0vtLbAgUE\u002BXGcrn1igAKHX9XulKAB13QvPfYF\u002BiubJWuvPn5Yf8z0d28etTaDXruLoiu9QUXos\u002BDVav7w7aUG9LgkuljKm3fWF2Z\u002BkZl46/4iWZVZyNDWYqUTjB7bCgyvid06l8rDVo\u002BIw0JgcIkfO3zE7bfd8TYDEsVxdbhr1cGRTutnFUE6aQAFyxrB7qB/BtbIsl8mwQ2DH93ux5TncNLQXaCOgPXz9onl0gMd84B\u002Bhe6qOs/Mv7gKOtBCdF5FlRjqQIJqDEiXl"
+        "wrappedKeyBase64": "K/NkKEHLiX7hB/sJkZs3IAJ4RH9ra0X22qmc25XQBP\u002B9IO85jEo9hL0xd4l1G1PtxMB2viZqcTE02zMhyROfutDtfAFFfUMztEYwwiP/kHHR0mD327XyJ66aNWuBhW2VDrnUUP/fDYbLjOTSVPCqQr9E2/0BY0tiBxPC0/JOMTkHiX75xnQlxBUZMjV88QQmotXumPoqdpPHOPLQXX0SKgOTw1XlK7adL0kgv5gVDicB8RRNz4hswK4/9zE3aVjQnWpk2HJCNTbKcIsS8toJyPy07m2Uyv2wR9faE3I\u002BQtM882AjsnYsu0eNPgLdpbwPvUQ3uxuhCegYB8r16EV0Zgp72tPPNWNmMfpLY5PX\u002BNDA/Z2iWlZbfLt\u002B9ldXa3\u002BSSzRjmnCRvi67mUklu2arcJRX3iKEGQ9PRsjEZhQ0v2MqltT2vaZaywjIiTZvAG4pPqrSIcXkAhg8m3/7hqruE2DkgLXYcjlScRlGCyyAediPIKrMBjrKcbnujO64gDmf"
       }
     ]
   },
@@ -29,6 +29,6 @@
     "schemaVersion": 2,
     "algorithm": "ECDSA-P256-SHA256-P1363",
     "keyId": "sha256:e337df4e0c1ecf264596fd6c9858db328ef042875a2ccd12ffce440cd54eb316",
-    "valueBase64": "B8/yFaotTRTJzZWPOOnQlW8DNqktn2PEP7oOnHWHeifc6nG54qRxtUJr11cSqdaMOcPW0/rWMBIBaHmpvUxCfw=="
+    "valueBase64": "r2Z\u002Bdm3OQX8NFBpbutwGyE8XAq3QuD4gQgx715RSqgiad8lc8bI0GTDdzSt3Ds/3Tq7VlzGX5BwYJL2qyYyO7w=="
   }
 }
