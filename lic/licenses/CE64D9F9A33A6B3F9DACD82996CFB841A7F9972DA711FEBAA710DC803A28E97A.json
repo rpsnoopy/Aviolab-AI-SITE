@@ -1,8 +1,34 @@
 ﻿{
-  "ExpiresAt": "2027-03-31T07:00:00Z",
-  "ApiKeys": {
-    "ANTHROPIC": "LotabvUTMio9MlmO1/3qnZaeZP5rIDDOOKhxZKaJNVhH0QLZwxrbDxre6121PA0kOb/162c115VPcTX9B2HlEqr0wMoczJv6z3pgrZfQOZ4W4Q4/BRXpmF3LC2lpmhqvA92KfUV9onqA5wiEljE25KlJaU+8t2EqpbasH2Xekng=",
-    "OPENAI": "9u4LVUAmnyM6PV4nf1YRPjmd9a6zLn5jjqCe3TmJJilXrBPBn4pYz1Cl9SgPNWvYLejDC/1j5y3NJj/egSzS2oDTBf6VShfiTOV9np1m2B2nOS3JXlyYdyJkgURCWe7rCOBkuhd+IUIE+pAxOXQJADl3qATUmWiETIm1XYZ3m8ze1c9+y9aL2R/o1WLmAo49d0nHrQNh/b9LniIRSxltgou0A+vWfWLkS5eETQINqbhr6ajeJXOWt7DXjqCJAp5s",
-    "ZAI": "7QmkNZTGRomIFh7S36wByNqQdFFKIyjaPKVSVcZzH6znK08z/N2mn69AnBKnHN1sDWG64YaSeeahiBxaczE4TrwM6c4AqWDbKri6Vy00y14="
+  "schemaVersion": 2,
+  "format": "TTR-LICENSE-V2",
+  "licenseSeed": "CE64D9F9A33A6B3F9DACD82996CFB841A7F9972DA711FEBAA710DC803A28E97A",
+  "machineKeyId": "sha256:a62638a1c68a6df71734936915f5c2dcd2af4cd2a0a7beae01b140448770439c",
+  "issuedAtUtc": "2026-11-13T11:41:18.1816388Z",
+  "expiresAtUtc": "2027-03-31T05:00:00.0000000Z",
+  "status": "active",
+  "entitlements": {
+    "licenseType": "Enterprise"
+  },
+  "sealedSecrets": {
+    "schemaVersion": 2,
+    "contentAlgorithm": "A256GCM",
+    "keyWrapAlgorithm": "RSA-OAEP-256",
+    "associatedDataSha256": "69dacd589b7d908b68906e59812eca982688ceff6d98cb988c55509a1f0ed28a",
+    "nonceBase64": "zBWbT\u002BFvBs2fISHv",
+    "ciphertextBase64": "C8S0VNFUJe3k\u002Bjemv9UxenQHA1vP\u002BVWVzPAnmBEG33YA/FtQeTIq253jgtln3ccvfN4SU04JkMMh1MNsgWaZ3mcU8YWYxIoc4NLiC2PAIzSb6/h2QhYmDwrasDpxwKiJ0Y6F6O/xB0N5SgkbrCuN7k4RriDbtnQdk0HexNiIH1OFECPE7\u002BZZYOY4YKQB11h/\u002Bv8XC0BLm/0t0WUr6JCyE07ZqygPlriBqufyUiENyzYhqjppyj1bFIXYikyaelZwfHiK9ViiARxZ4rrWkQFfRDttFS7YC/P1n0pbeY0PsRwjW3EBQqi3/o/bp9s/geqI1S4kZA83DzCca8JYgTaGyk8WmSZPVVqLIcEO/asKEQ4bZeMpfd70eQgLk17JWbqsItArMWzD0Ps\u002BWVXLHMAKS2NCjhxgO23APh2Vs1sFUWcTCz7J/g9cZOkYOtDo2bhpup6DZqgKxd2B5KLsUVH6mLPmGSY8Vg\u002BBADVWefaTpA0xFaLsd9uNLofdRKXtoJGnIFL\u002BWw==",
+    "tagBase64": "fVGxwMh9HdPeCXSIDTz0ug==",
+    "recipients": [
+      {
+        "role": "machine",
+        "keyId": "sha256:a62638a1c68a6df71734936915f5c2dcd2af4cd2a0a7beae01b140448770439c",
+        "wrappedKeyBase64": "SLXayA1n90o0Gpy/EhynwPIwP7UBAjmK3WAn9fzEDCefO17HJANAkKA5IUE\u002BV9uHUR2HtwFhWwi2F6c87resuGaOFxzCz3IH55rATjHqXUDMZFQ7tMCRU7oHwD/LggKvTxRWOp9UUuYKZfi84vunS9BGdzd0k8NafxWc6xQbme7/gNcTXR7A/QepzONZJuXr9\u002BruHHcqygzG7Bcj9e7r/ZR0S0xj7UYWZQ\u002B2Z6nYgFSIgLizc6mBAUy77EFjk6/tmai52wQKljI2\u002BuHMgxcuy0VzwJQyZcMNwDxF5MGDHaRrbUAiQtPqBvxV6wGmUKbCUlEEqcs//cv0Rbt4/sxfDoV1t9Sz5GL8GBSHv1ouyywJE2jk9G7EhOEiF/MVDRECIYatSA9oJK10Npg3MIO\u002BVB3KEvW9Kco\u002B0OzJcTe5iHczf2pY47qsVJHHDnBUMF9mQjDRx5oBB8whXvAfcSv6I2r4N0uzLkOmgMk1cBn0HWSyxGZG75xzMEB4GwfgqcPV"
+      }
+    ]
+  },
+  "signature": {
+    "schemaVersion": 2,
+    "algorithm": "ECDSA-P256-SHA256-P1363",
+    "keyId": "sha256:e337df4e0c1ecf264596fd6c9858db328ef042875a2ccd12ffce440cd54eb316",
+    "valueBase64": "5Iz54Fjk5tlEv09f96airHv5TuUmS9Fmf0q8IYyG38Nd86w7cHF7Z32HZN6jdSZBBo3b4bLC\u002BvZPV8Dctpm1Og=="
   }
 }
