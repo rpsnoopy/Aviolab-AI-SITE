@@ -1765,7 +1765,8 @@ body.it .download-item[data-lang="en"] {
     }
 }
 
-@media screen and (max-width: 768px) {
+/* v1.3.36: menu a tre righe fino a 1200 px compresi (sotto quella larghezza la nav in fila non sta nella testata) */
+@media screen and (max-width: 1200px) {
     .nav-links {
         display: none;
     }
@@ -1806,6 +1807,24 @@ body.it .download-item[data-lang="en"] {
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
     
+    /* v1.3.36: la home cresce col contenuto anche su schermi bassi (telefono in orizzontale): il titolo non finisce sotto la testata */
+    .hero-section {
+        height: auto;
+        min-height: 100vh;
+        min-height: 100svh;
+        padding-top: 90px;
+        padding-bottom: 80px;
+    }
+}
+
+/* v1.3.36: fino a circa 860 px il titolo della home (3.5rem, una riga per frase) usciva a destra; sotto i 900 px va a capo */
+@media screen and (max-width: 900px) {
+    .hero-content h1 {
+        white-space: normal;
+    }
+}
+
+@media screen and (max-width: 768px) {
     /* v1.3.35: la home cresce col contenuto; in alto l'header (70 px) piu' aria, in basso il banner */
     .hero-section {
         height: auto;
