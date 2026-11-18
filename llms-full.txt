@@ -2,7 +2,7 @@
 
 > Agentic AI for IP Legal and public administration. Two specialized suites built on the same multi-agent engine: **TTR-SUITE IP Legal** for legal teams, IP departments and technology transfer offices, and **TTR-SUITE per la PA Locale** for Italian municipalities, mainly those under 5,000 inhabitants. Source-verified, traceable, professional-grade results. Multi-agent architecture covered by patent application UIBM 102026000013123, filed 08 May 2026.
 
-This file contains the complete text content of the main pages of https://aviolab.ai/ in a single markdown document, so that an LLM can read the whole site without navigating. Pages: Homepage (EN), TTR-SUITE IP Legal (EN), TTR-SUITE per la PA Locale (IT), TTR-SUITE per la PA Locale in azione (IT), Che cos'è TTR-SUITE (IT), Downloads (EN), Privacy (IT/EN summary).
+This file contains the complete text content of the main pages of https://aviolab.ai/ in a single markdown document, so that an LLM can read the whole site without navigating. Pages: Homepage (EN), TTR-SUITE IP Legal (EN), TTR-SUITE per la PA Locale (IT), TTR-SUITE per la PA Locale in azione (IT), Che cos'è TTR-SUITE (IT), Le domande del funzionario (IT), Downloads (EN), Privacy (IT/EN summary).
 
 ---
 
@@ -476,6 +476,66 @@ Dall'autunno 2026 la Suite ha anche la memoria dell'Ente, la Biblioteca dell'Ent
 Un'installazione di prova di due o tre settimane, nel formato già sperimentato a Pieve Ligure: fino a tre funzionari scelti dall'Ente, pratiche scelte dall'Ente, costi di inferenza a carico di Aviolab, a titolo gratuito e senza procedura di affidamento. Bastano una lettera di accettazione e la nomina a responsabile del trattamento ai sensi dell'art. 28 GDPR, preparata da Aviolab. Se l'Ente è fuori Liguria, a quel punto si prepara la configurazione regionale e la prova si fa su quella.
 
 Contatti: Riccardo Parenti, Founder & Technical Lead, r.parenti@aviolab.ai, +39 335 605 0950.
+
+---
+
+# Le domande del funzionario
+URL: https://aviolab.ai/le-domande-del-funzionario.html (pagina in italiano)
+
+## Secondo voi, di che cosa ha bisogno un funzionario comunale?
+
+Di un secondo parere, la sera prima di firmare?
+Di sapere se quella determina rischia la Corte dei conti?
+Di sapere se è impugnabile, e in quale punto?
+Di far controllare anche l'atto passato da un collega?
+Di avere la lista ordinata delle cose da fare per risolvere entro domani?
+
+Di qualcuno a cui chiedere "ma come si imposta una cosa così?"
+Di non dover chiedere sempre al collega anziano?
+Di mandare la pratica al collega, sul suo PC, per un parere?
+Di avere risposte nel merito e non "si rivolga a un professionista"?
+Di risposte in italiano amministrativo, non da chatbot?
+
+Di non passare il venerdì pomeriggio su Normattiva?
+Della norma vera, nel testo vigente, con articolo e comma individuati?
+Di sapere se quell'articolo è ancora in vigore?
+Delle fonti ufficiali, e non di un riassunto trovato in rete?
+
+Di un atto che esca già nella forma giusta, premesse, motivazione e dispositivo?
+Di uno strumento che sappia davvero "come si fa" in questo Comune?
+…o che sappia che duemila abitanti non sono ventimila?
+Di trovare un modello da riempire, quando l'atto è lo stesso di sempre?
+
+Di non dover riscrivere da capo la determina di marzo?
+Di sapere se le norme usate per quella determina sono ancora valide?
+Di essere avvisato quando un modello è superato, prima di usarlo?
+
+Di dare in pasto il PDF scansionato così com'è?
+Di trascinarlo nella finestra e basta?
+Di una risposta in Word, da aprire, correggere e stampare?
+Di non dover imparare un'altra interfaccia?
+Di risolvere il problema tecnico al telefono?
+
+Di poter dire al Segretario e al DPO dove vanno i dati?
+Di sapere che i dati dei cittadini sono conservati solo sul computer in ufficio?
+Di poter portare un documento fuori, quando serve, con dati coperti?
+Di avere le carte in mano quando gli chiedono "ma è conforme?"
+
+Che il suo lavoro resti in uso all'ufficio quando lui va in pensione?
+Che il regolamento edilizio sia sulla postazione di tutti, caricato una volta sola?
+Che i colleghi vedano i suoi modelli, e lui i loro?
+Di lavorarci insieme alla collega, ognuno dal suo PC, parlandosi?
+Di riprendere a lavorare su una pratica di tre mesi fa?
+Di poter riaprire tutto, fra tre anni, se l'atto viene contestato?
+Che si veda che l'ultima parola è stata la sua?
+
+Di uno strumento che non decida al posto suo?
+Di uno strumento che non lo controlli in nessun modo?
+Di avere, finalmente, un po' più di tempo per chi è allo sportello?
+
+TTR-SUITE PA LOCALE fa tutto questo. E lo fa già, in un Comune come il vostro.
+
+Per chiedere una prova gratuita: modulo contatti della homepage, https://aviolab.ai/#contact
 
 ---
 
