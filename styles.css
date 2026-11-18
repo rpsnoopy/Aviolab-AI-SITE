@@ -1772,6 +1772,38 @@ body.it .download-item[data-lang="en"] {
     
     .mobile-menu-btn {
         display: flex;
+        /* v1.3.34: area di tocco 44x44 (era 30x21); i margini negativi lasciano le tre righe dove erano */
+        padding: 11.5px 7px;
+        margin: -11.5px -7px;
+        -webkit-tap-highlight-color: transparent;
+    }
+    
+    /* v1.3.34: menu aperto (script.js mette .show al tocco del pulsante): pannello sotto l'header, scorrevole */
+    .nav-links.show {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        max-height: calc(100vh - 70px);
+        max-height: calc(100dvh - 70px);
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        white-space: normal;
+        background-color: var(--dark-color);
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+    }
+    
+    .nav-links.show .nav-link {
+        display: flex;
+        align-items: center;
+        min-height: 44px;
+        padding: 10px 2rem;
+        font-size: 1rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
     
     .hero-content h1 {

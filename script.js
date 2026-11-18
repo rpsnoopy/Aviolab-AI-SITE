@@ -468,9 +468,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     behavior: 'smooth'
                 });
                 
-                // Close mobile menu if open
+                // Close mobile menu if open (v1.3.34: anche pannello e pulsante, altrimenti il menu resta aperto)
                 if (document.body.classList.contains('mobile-menu-open')) {
                     document.body.classList.remove('mobile-menu-open');
+                    document.querySelector('.nav-links').classList.remove('show');
+                    document.querySelector('.mobile-menu-btn').classList.remove('active');
                 }
             }
         });
