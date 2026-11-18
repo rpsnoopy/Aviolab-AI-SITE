@@ -1806,6 +1806,15 @@ body.it .download-item[data-lang="en"] {
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
     
+    /* v1.3.35: la home cresce col contenuto; in alto l'header (70 px) piu' aria, in basso il banner */
+    .hero-section {
+        height: auto;
+        min-height: 100vh;
+        min-height: 100svh;
+        padding-top: 100px;
+        padding-bottom: 130px;
+    }
+    
     .hero-content h1 {
         font-size: 2.2rem;
         white-space: normal;
@@ -1851,6 +1860,43 @@ body.it .download-item[data-lang="en"] {
     }
 }
 
+/* v1.3.35: header degli schermi stretti. Con Verdana l'header chiede circa 617 px;
+   si riduce per gradi, ciascuno solo dove il precedente non basta. */
+@media screen and (max-width: 640px) {
+    .header-container {
+        padding: 15px 1rem;
+        gap: 10px;
+    }
+    
+    .logo-link {
+        margin-right: 0;
+    }
+    
+    .language-selector {
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .logo-text {
+        font-size: 1.125rem;
+    }
+}
+
+/* Sotto i 400 px il selettore mostra solo le bandiere (la scritta EN/IT resta nel DOM) */
+@media screen and (max-width: 400px) {
+    .lang-option {
+        font-size: 0;
+        gap: 0;
+        padding: 6px;
+    }
+    
+    .language-selector .flag-icon {
+        margin-right: 0;
+    }
+}
+
 
 @media screen and (max-width: 480px) {
     .container {
@@ -1876,5 +1922,10 @@ body.it .download-item[data-lang="en"] {
     .banner-content span {
         font-size: 0.9rem;
         padding: 15px 10px;
+    }
+    
+    /* v1.3.35: a 360 px i campi del modulo contatti (larghi almeno 231 px) uscivano a destra */
+    .form-group input {
+        min-width: 0;
     }
 }
