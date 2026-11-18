@@ -3,7 +3,10 @@ document.addEventListener("DOMContentLoaded", function () {
     let permanentLanguagePreference = localStorage.getItem('language');
     let languageChoiceMade = localStorage.getItem('languageChoiceMade');
     let languagePromptShown = sessionStorage.getItem('languagePromptShown');
-    
+    // Pagine che esistono solo in italiano: con l'attributo data-solo-italiano su <html>
+    // non si mostra il riquadro sulla lingua e quindi non si chiede la posizione a ipapi.co.
+    const paginaSoloItaliano = document.documentElement.hasAttribute('data-solo-italiano');
+
     // All'inizio carichiamo sempre in inglese, ma la sovrascriviamo subito se necessario
     setLanguage('en');
     
@@ -13,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         setLanguage(permanentLanguagePreference);
     } else {
         // Se invece non c'è una preferenza già memorizzata e il prompt non è già stato mostrato in questa sessione
-        if (!languagePromptShown) {
+        if (!languagePromptShown && !paginaSoloItaliano) {
             // Segniamo che il prompt è stato mostrato in questa sessione per non mostrarlo più volte
             sessionStorage.setItem('languagePromptShown', 'true');
             // Controlliamo la localizzazione per decidere se mostrare il prompt
