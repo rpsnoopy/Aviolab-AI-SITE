@@ -1,3 +1,23 @@
+# File Markdown del repo (istruzioni di lavoro, procedure, appunti): stanno nel
+# repo ma non sono destinati al pubblico. Queste regole li nascondono dal sito
+# servito da Cloudflare Pages; llms.txt, llms-full.txt, robots.txt e sitemap.xml
+# restano leggibili. Una riga per file, perche' la documentazione di _redirects
+# non prevede uno splat come /*.md: un .md nuovo nel repo va aggiunto qui.
+# Sono regole statiche e stanno prima di quelle con lo splat, come chiede la
+# documentazione.
+/AVIOLAB_DOWNLOAD_SYSTEM_GUIDE.md / 302
+/CLAUDE.md / 302
+/DOWNLOAD_MANAGEMENT.md / 302
+/GESTIONE_DOWNLOADS.md / 302
+/README.md / 302
+/SESSIONE_CORRENTE.md / 302
+/TTR_SUITE_UPDATE_PROCEDURE.md / 302
+/OLD/documentation/colorazione_titolo_analisi.md / 302
+/efforts/OLD/word_template_instructions.md / 302
+/efforts/word_template_instructions.md / 302
+/temp/README_EN.md / 302
+/temp/README_IT.md / 302
+
 # Dati di lavoro della TTR-SERVICE-CONSOLE (registro macchine e database chiavi
 # API): sono cifrati, ma non sono destinati al pubblico. Queste regole li
 # nascondono dal sito servito da Cloudflare Pages, mentre le licenze dei
