@@ -448,7 +448,7 @@ A chi lavora bastano poche nozioni per sfruttare a fondo il novanta per cento de
 
 ## Dove trovare le informazioni
 
-- Comunicato del Comune di Pieve Ligure (testo integrale): https://mailchi.mp/b6b0a3531dc2/ilcomune-di-pieve-ligure-adotta-lintelligenza-artificiale-pratiche-pi-rapide-e-pi-tempo-per-i-cittadini-e-le-cittadine
+- Comunicato del Comune di Pieve Ligure (1° settembre 2026, testo integrale): https://mailchi.mp/b6b0a3531dc2/ilcomune-di-pieve-ligure-adotta-lintelligenza-artificiale-pratiche-pi-rapide-e-pi-tempo-per-i-cittadini-e-le-cittadine
 - Film del Comune di Pieve Ligure per il convegno ANCI Lombardia del 12 novembre 2026, «L'intelligenza artificiale negli uffici: quattro mesi di lavoro vero.» (7:36, MP4): https://aviolab.ai/download/anci-pieve-ligure.mp4
 - Secondo comunicato del Comune di Pieve Ligure, dopo il convegno ANCI Lombardia (20 novembre 2026, testo integrale): https://mailchi.mp/80658dbdc8cb/intelligenza-artificiale-in-comune-quattro-mesi-dopo-pieve-ligure-porta-i-risultati-ad-anci-lombardia-21565784
 - Dicono di noi (comunicati e rassegna stampa): https://aviolab.ai/dicono-di-noi.html
@@ -463,6 +463,8 @@ Bastano 45-60 minuti in videoconferenza su un caso scelto dall'Ente, anche ipote
 ## I risultati a Pieve Ligure
 
 Il Comune di Pieve Ligure (Città Metropolitana di Genova) ha adottato la Suite «dopo una sperimentazione conclusa con esito positivo» condotta in Segreteria Generale, Polizia Locale e Ufficio Tecnico, e ne ha esteso l'uso «a tutti gli altri servizi comunali, nell'ambito delle risorse ordinarie di bilancio». Sindaca Paola Negro: «I responsabili dei servizi hanno provato il sistema sul campo e sono stati loro a chiederci di mantenerlo stabilmente in dotazione agli uffici». Sulle pratiche complesse il tempo restituito fra istruttoria, ricerca delle fonti e revisione si misura in ore per pratica, non in minuti; le misure per tipologia di atto sono in corso di formalizzazione con gli uffici.
+
+Il 12 novembre 2026 Pieve Ligure è stata l'unico Comune non lombardo alla tavola rotonda del convegno «L'intelligenza artificiale agentica nei Comuni» di ANCI Lombardia, a Milano, dove il Comune ha presentato il film «L'intelligenza artificiale negli uffici: quattro mesi di lavoro vero» (https://aviolab.ai/download/anci-pieve-ligure.mp4). Nel comunicato del 20 novembre 2026 il Comune riferisce che l'uso è cresciuto di mese in mese e che «tutti gli uffici che l'hanno adottato continuano a usarlo».
 
 ## La memoria dell'Ente: la Biblioteca
 
