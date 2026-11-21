@@ -1,651 +1,532 @@
 <!DOCTYPE html>
-<html lang="en" id="html-root">
+<html lang="it" data-solo-italiano>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#1e40af">
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-    <meta name="description" content="Agentic AI for IP Legal and public administration. Two specialized suites, one engine: TTR-SUITE IP Legal for legal teams and IP departments, TTR-SUITE per la PA Locale for Italian municipalities. Source-verified, traceable, professional-grade results.">
-    <meta name="author" content="Riccardo Parenti">
-    <meta name="keywords" content="Agentic AI, AI agents, legal tech, public administration, intellectual property, IP, document analysis, contract drafting, patent drafting, Italian municipalities, Comuni, SInCRO, TTR-SUITE, Aviolab">
-    <title>Aviolab AI | Agentic AI for IP Legal and public administration</title>
+    <meta name="theme-color" content="#1b3a93">
+    <meta name="description" content="TTR-SUITE PA Locale lavora accanto al funzionario comunale: inquadra il caso, cita articolo e comma della norma vigente, redige la bozza dell'atto e la sottopone a un secondo controllo. Nata per i Comuni sotto i 5.000 abitanti.">
+    <meta name="author" content="Aviolab AI">
+    <title>Aviolab AI | Pareri e atti del Comune, con le fonti verificate</title>
 
-    <!-- Canonical URL -->
     <link rel="canonical" href="https://aviolab.ai/">
 
-    <!-- Open Graph / Social previews (LinkedIn, WhatsApp, Slack, Telegram, iMessage, Outlook, etc.) -->
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Aviolab AI">
     <meta property="og:url" content="https://aviolab.ai/">
-    <meta property="og:title" content="Agentic AI for IP Legal and public administration | Aviolab AI">
-    <meta property="og:description" content="Two specialized suites, one engine. Source-verified, traceable, professional-grade results.">
-    <meta property="og:image" content="https://aviolab.ai/assets/og/og-index.png">
+    <meta property="og:title" content="Pareri e atti del Comune, con articolo e comma della norma vigente | Aviolab AI">
+    <meta property="og:description" content="TTR-SUITE PA Locale lavora accanto al funzionario comunale: il parere e la bozza dell'atto in pochi minuti, con le fonti verificate.">
+    <meta property="og:image" content="https://aviolab.ai/assets/og/og-pa-locale.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Aviolab AI, Agentic AI for IP Legal and public administration">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:locale:alternate" content="it_IT">
+    <meta property="og:image:alt" content="TTR-SUITE per la PA Locale">
+    <meta property="og:locale" content="it_IT">
 
-    <!-- Structured data: Organization -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Aviolab AI",
+      "legalName": "AVIOLAB AI DI PARENTI RICCARDO",
       "url": "https://aviolab.ai/",
       "logo": "https://aviolab.ai/assets/logo.png",
-      "description": "Agentic AI for IP Legal and public administration. Two specialized suites: TTR-SUITE IP Legal for legal teams and IP departments, and TTR-SUITE per la PA Locale for Italian municipalities.",
-      "founder": {
-        "@type": "Person",
-        "name": "Riccardo Parenti"
+      "email": "info@aviolab.ai",
+      "telephone": "+39 335 605 0950",
+      "vatID": "IT02997110990",
+      "founder": { "@type": "Person", "name": "Riccardo Parenti" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Via XXV Aprile 251",
+        "postalCode": "16031",
+        "addressLocality": "Pieve Ligure",
+        "addressRegion": "GE",
+        "addressCountry": "IT"
       },
-      "sameAs": ["https://aviolab.ai/"],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "TTR-SUITE",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "SoftwareApplication",
-              "name": "TTR-SUITE IP Legal",
-              "applicationCategory": "BusinessApplication",
-              "url": "https://aviolab.ai/ip-legal.html",
-              "description": "AI-powered analysis and drafting for legal teams and IP departments, NDAs, research agreements, licenses, patent drafting."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "SoftwareApplication",
-              "name": "TTR-SUITE per la PA Locale",
-              "applicationCategory": "BusinessApplication",
-              "url": "https://aviolab.ai/pa-locale.html",
-              "description": "Consulenza giuridica, redazione di atti, fascicolo SInCRO e affiancamento esperto ai funzionari per i Comuni italiani."
-            }
-          }
-        ]
+      "makesOffer": {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "SoftwareApplication",
+          "name": "TTR-SUITE per la PA Locale",
+          "applicationCategory": "BusinessApplication",
+          "operatingSystem": "Windows",
+          "url": "https://aviolab.ai/pa-locale.html",
+          "description": "Pareri su norma vigente, bozze degli atti, secondo controllo indipendente e fascicolo SInCRO per i Comuni italiani."
+        }
       }
     }
     </script>
 
-    <!-- Basic Favicons - all in root directory -->
     <link rel="icon" href="favicon.ico">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
-
-    <!-- iOS & iPadOS Icons -->
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <meta name="apple-mobile-web-app-title" content="Aviolab.ai">
 
-    <!-- Basic styling for title highlights - backup for initial page load -->
-    <style>
-        .hero-content h1 .highlight,
-        body.it .hero-content h1 span[style*="color:#ff0000"],
-        body.it .hero-content h1 .highlight {
-            color: #ff0000 !important;
-            text-shadow: 0 0 6px rgba(0, 0, 0, 0.6) !important;
-            font-weight: 700 !important;
-        }
-        .hero-news {
-            display: block;
-            max-width: 640px;
-            margin: 0 0 1.8rem;
-            padding: 0.85rem 1.2rem;
-            border-radius: 12px;
-            border-left: 4px solid #ff0000;
-            background: rgba(15, 23, 42, 0.55);
-            border-top: 1px solid rgba(255, 255, 255, 0.18);
-            border-right: 1px solid rgba(255, 255, 255, 0.18);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.18);
-            color: #fff;
-            font-size: 0.95rem;
-            line-height: 1.5;
-            text-decoration: none;
-            transition: background 0.2s ease;
-        }
-        .hero-news:hover { background: rgba(15, 23, 42, 0.75); color: #fff; }
-        .hero-news .hero-news__tag {
-            display: inline-block;
-            vertical-align: baseline;
-            margin-right: 0.5rem;
-            background: #ff0000;
-            color: #fff;
-            font-weight: 700;
-            font-size: 0.7rem;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-            padding: 0.15rem 0.55rem;
-            border-radius: 4px;
-        }
-        .hero-news .hero-news__more {
-            display: inline-block;
-            margin-top: 0.35rem;
-            color: #ff6b6b;
-            font-weight: 600;
-            text-decoration: none;
-        }
-        .hero-news .hero-news__more::after { content: " \2192"; }
-        .hero-news:hover .hero-news__more { text-decoration: underline; }
-    </style>
-
-    <!-- Windows Icons -->
-    <meta name="application-name" content="Aviolab.ai">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="mstile-150x150.png">
-    <meta name="msapplication-square70x70logo" content="mstile-70x70.png">
-    <meta name="msapplication-square150x150logo" content="mstile-150x150.png">
-    <meta name="msapplication-square310x310logo" content="mstile-310x310.png">
-
-    <!-- Web App Manifest -->
-    <script>
-        if (window.location.protocol !== 'file:') {
-            const manifestLink = document.createElement('link');
-            manifestLink.rel = 'manifest';
-            manifestLink.href = 'site.webmanifest';
-            document.head.appendChild(manifestLink);
-        }
-    </script>
-
-    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="fonts/fonts.css">
-    <link rel="stylesheet" href="styles.css?v=145">
-    <script defer src="js/translations.js?v=146"></script>
-    <script defer src="script.js?v=142"></script>
-
-    <!-- Stili specifici per home ombrello (product cards grandi) -->
-    <style>
-        .product-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 2.5rem;
-            margin-top: 2rem;
-        }
-        .product-card-big {
-            background: #fff;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 10px 30px -5px rgba(0,0,0,0.12);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            display: flex;
-            flex-direction: column;
-            text-decoration: none;
-            color: inherit;
-            position: relative;
-        }
-        .product-card-big:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 20px 40px -10px rgba(30,64,175,0.25);
-        }
-        .product-card-big__head {
-            padding: 2rem 2rem 1rem;
-            color: #fff;
-            position: relative;
-        }
-        .product-card-big--pa .product-card-big__head {
-            background: linear-gradient(135deg, #ff0000 0%, #b91c1c 100%);
-        }
-        .product-card-big--ip .product-card-big__head {
-            background: linear-gradient(135deg, #1e40af 0%, #0f172a 100%);
-        }
-        .product-card-big__badge {
-            position: absolute;
-            top: 1rem;
-            right: 1rem;
-            background: rgba(255,255,255,0.2);
-            backdrop-filter: blur(6px);
-            color: #fff;
-            font-size: 0.7rem;
-            font-weight: 700;
-            letter-spacing: 1px;
-            padding: 0.3rem 0.8rem;
-            border-radius: 20px;
-            text-transform: uppercase;
-        }
-        .product-card-big__icon {
-            font-size: 2.6rem;
-            margin-bottom: 0.8rem;
-            opacity: 0.95;
-        }
-        .product-card-big h3 {
-            color: #fff;
-            font-size: 1.55rem;
-            margin-bottom: 0.5rem;
-            line-height: 1.2;
-        }
-        .product-card-big__tagline {
-            color: #fef2f2;
-            opacity: 0.95;
-            font-size: 1rem;
-            min-height: 4.2em;
-            line-height: 1.4;
-            margin: 0;
-        }
-        .product-card-big--ip .product-card-big__tagline { color: #dbeafe; }
-        .product-card-big__body {
-            padding: 1.8rem 2rem;
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-        }
-        .product-card-big__body p {
-            color: #475569;
-            margin-bottom: 1.2rem;
-            font-size: 0.97rem;
-        }
-        .product-card-big__features {
-            list-style: none;
-            padding: 0;
-            margin: 0 0 1.5rem 0;
-        }
-        .product-card-big__features li {
-            position: relative;
-            padding: 0.4rem 0 0.4rem 1.8rem;
-            color: #334155;
-            font-size: 0.93rem;
-            border-bottom: 1px solid #f1f5f9;
-        }
-        .product-card-big__features li:last-child { border-bottom: none; }
-        .product-card-big__features li::before {
-            content: "\f00c";
-            font-family: "Font Awesome 6 Free";
-            font-weight: 900;
-            position: absolute;
-            left: 0;
-            top: 0.5rem;
-            font-size: 0.85rem;
-        }
-        .product-card-big--pa .product-card-big__features li::before { color: #ff0000; }
-        .product-card-big--ip .product-card-big__features li::before { color: #1e40af; }
-        .product-card-big__cta {
-            margin-top: auto;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            font-weight: 700;
-            font-size: 0.95rem;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            padding-top: 0.8rem;
-            border-top: 2px solid #f1f5f9;
-        }
-        .product-card-big--pa .product-card-big__cta { color: #ff0000; }
-        .product-card-big--ip .product-card-big__cta { color: #1e40af; }
-        .product-card-big:hover .product-card-big__cta .fa-arrow-right {
-            transform: translateX(4px);
-        }
-        .product-card-big__cta .fa-arrow-right { transition: transform 0.2s ease; }
-
-        @media (max-width: 768px) {
-            .product-grid { grid-template-columns: 1fr; gap: 1.5rem; }
-            .product-card-big__head { padding: 1.5rem; }
-            .product-card-big h3 { font-size: 1.3rem; }
-            .product-card-big__body { padding: 1.5rem; }
-        }
-    </style>
+    <link rel="preload" href="fonts/archivo/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="sito.css?v=1">
+    <script defer src="js/sito.js?v=1"></script>
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <header id="header">
-        <div class="header-container">
-            <a href="#home" class="logo-link">
-                <img src="assets/logo.png" alt="Aviolab AI Logo">
-                <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+    <a class="salta" href="#contenuto">Vai al contenuto</a>
+
+    <header class="testata su-notte">
+        <div class="contenitore testata__riga">
+            <a class="marchio" href="#home" aria-label="Aviolab AI, inizio pagina">
+                <img class="marchio__scudo" src="assets/logo-144.png" alt="" width="118" height="144">
+                <img class="marchio__scritta" src="assets/logo-scritta.svg" alt="" width="170" height="18">
             </a>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#mission" class="nav-link" data-i18n="nav_mission">Mission</a></li>
-                    <li><a href="#products" class="nav-link" data-i18n="nav_solutions">Solutions</a></li>
-                    <li><a href="pa-locale.html" class="nav-link">PA Locale</a></li>
-                    <li><a href="ip-legal.html" class="nav-link">IP Legal</a></li>
-                    <li><a href="#about" class="nav-link" data-i18n="nav_about">About</a></li>
-                    <li><a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
-                    <li><a href="dicono-di-noi.html" class="nav-link" data-i18n="nav_press">In the press</a></li>
-                    <li><a href="downloads.html" class="nav-link" style="color: var(--highlight-color) !important; font-weight: bold;" data-i18n="nav_download">Download</a></li>
+            <button class="menu__apri" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+            <nav class="menu" id="menu" aria-label="Sezioni del sito">
+                <ul class="menu__voci">
+                    <li><a href="pa-locale.html" data-i18n="m_prodotto">Il prodotto</a></li>
+                    <li><a href="pa-locale-in-azione.html" data-i18n="m_lavora">Come lavora</a></li>
+                    <li><a href="che-cos-e-ttr-suite.html" data-i18n="m_semplice">In parole semplici</a></li>
+                    <li><a href="dicono-di-noi.html" data-i18n="m_stampa">Dicono di noi</a></li>
+                    <li><a href="downloads.html" data-i18n="m_download">Download</a></li>
                 </ul>
+                <a class="pulsante pulsante--piccolo" href="#contact" data-i18n="azione_prova">Chieda una prova gratuita</a>
             </nav>
-            <div class="language-selector">
-                <div class="lang-option" data-lang="en">
-                    <img src="assets/images/flags/flag-gb.svg" alt="English" class="flag-icon" loading="lazy" decoding="async"> EN
-                </div>
-                <div class="lang-option" data-lang="it">
-                    <img src="assets/images/flags/flag-it.svg" alt="Italiano" class="flag-icon" loading="lazy" decoding="async"> IT
-                </div>
-            </div>
-            <div class="mobile-menu-btn">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero-section">
-        <div class="container">
-            <div class="hero-content">
-                <h1 data-i18n="home_hero_title"><span class="highlight">Agentic AI</span> for IP Legal<br>and public administration</h1>
-                <h2 data-i18n="home_hero_subtitle">Two specialized suites, one engine</h2>
-                <p data-i18n="home_hero_description">Aviolab AI builds Agentic AI for two distinct domains: Italian local public administration, and intellectual property, contract and patent work for legal teams. Different audiences, the same commitment to top-tier professional results with sources that are always verified and traceable.</p>
-                <a href="dicono-di-noi.html" class="hero-news" data-i18n="home_news_pieve"><span class="hero-news__tag">News</span><span>12 November 2026: the Municipality of Pieve Ligure (Genoa) presents four months of work with TTR-SUITE at the ANCI Lombardia conference, the only municipality from outside Lombardy on the panel.</span><br><span class="hero-news__more">Read the press coverage</span></a>
-                <div class="cta-buttons cta-buttons--vertical">
-                    <a href="pa-locale.html" class="btn btn-primary btn--with-sub">
-                        <span class="btn__label" data-i18n="hero_btn_pa">TTR-SUITE per la PA Locale</span>
-                        <span class="btn__sub" data-i18n="hero_btn_pa_sub">(Per Comuni e Amministrazioni Locali)</span>
-                    </a>
-                    <a href="ip-legal.html" class="btn btn-primary btn--with-sub">
-                        <span class="btn__label" data-i18n="hero_btn_ip">TTR-SUITE IP Legal</span>
-                        <span class="btn__sub" data-i18n="hero_btn_ip_sub">(For legal teams and IP departments)</span>
-                    </a>
+    <main id="contenuto">
+
+        <!-- Apertura: che cosa fa, e un atto vero con le verifiche a margine. -->
+        <section class="apertura su-blu" id="home">
+            <div class="contenitore apertura__griglia">
+                <div>
+                    <h1><span class="apertura__prodotto" data-i18n="a_prodotto">TTR-SUITE versione PA LOCALE</span> <span class="apertura__promessa" data-i18n="a_titolo">Il parere e la bozza dell'atto in pochi minuti, con articolo e&nbsp;comma della norma vigente.</span></h1>
+                    <p class="apertura__spiega" data-i18n="a_spiega">Lavora accanto al funzionario comunale. Inquadra il caso, cita la norma dalle fonti ufficiali, redige la bozza dell'atto e la sottopone a un secondo controllo indipendente. A decidere e a firmare resta il funzionario.</p>
+                    <p class="apertura__origine" data-i18n="a_origine">È nata per i Comuni sotto i 5.000 abitanti, dove spesso una sola persona presidia più materie.</p>
+                    <div class="apertura__azioni">
+                        <a class="pulsante" href="#contact" data-i18n="azione_prova">Chieda una prova gratuita</a>
+                        <a href="#film" data-i18n="a_film">Guardi la presentazione filmata (otto&nbsp;minuti)</a>
+                    </div>
                 </div>
-            </div>
-            <div class="hero-banner">
-                <div class="banner-content">
-                    <span data-i18n="hero_deployment_flexibility"><span class="highlight">Flexible Deployment:</span> Our systems can operate in the cloud or confined within your own IT infrastructure</span>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Mission Section -->
-    <section id="mission" class="section mission-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 data-i18n="mission_title">Our Mission</h2>
-                <div class="underline"></div>
-                <p class="section-subtitle" data-i18n="home_mission_subtitle">Building Agentic AI for legal and administrative work</p>
+                <figure>
+                    <div class="atto">
+                        <div class="atto__foglio">
+                            <p class="atto__intestazione">DETERMINAZIONE DEL RESPONSABILE DEL SERVIZIO</p>
+                            <p class="atto__riga">
+                                <strong>OGGETTO:</strong> Proroga tecnica del contratto di servizio di refezione scolastica […] <span class="atto__rif" style="--attesa: 0.5s">art. 120, comma 11, D.Lgs. 31 marzo 2023, n. 36</span>.
+                                <span class="atto__nota" style="--attesa: 0.9s" data-i18n="nota_1">Il testo dell'articolo è stato recuperato da Normattiva, nella versione vigente il giorno della sessione.</span>
+                            </p>
+                            <p class="atto__capo">IL RESPONSABILE DEL SERVIZIO</p>
+                            <p class="atto__capo">VISTI</p>
+                            <p class="atto__riga atto__voce">il D.Lgs. 18 agosto 2000, n. 267 (TUEL), e successive modificazioni, con particolare riferimento agli artt. 107, 151, comma 4, e 183;</p>
+                            <p class="atto__riga atto__voce">
+                                il D.Lgs. 31 marzo 2023, n. 36 (Codice dei Contratti Pubblici), con particolare riferimento all'<span class="atto__rif" style="--attesa: 1.4s">art. 120, comma 11</span>;
+                                <span class="atto__nota" style="--attesa: 1.8s" data-i18n="nota_2">Un revisore indipendente ha confrontato il parere con il testo della norma, voce per voce: riscontro completo.</span>
+                            </p>
+                            <p class="atto__riga atto__voce">la L. 13 agosto 2010, n. 136, in materia di tracciabilità dei flussi finanziari;</p>
+                            <p class="atto__ometto">[…]</p>
+                            <p class="atto__riga atto__voce">
+                                il bilancio di previsione <span class="atto__vuoto" role="img" aria-label="da completare"></span>, approvato con deliberazione del Consiglio Comunale n. <span class="atto__vuoto" role="img" aria-label="da completare"></span> del <span class="atto__vuoto atto__vuoto--lungo" role="img" aria-label="da completare"></span>, esecutiva ai sensi di legge;
+                                <span class="atto__nota" style="--attesa: 2.7s" data-i18n="nota_3">I dati noti solo all'ufficio restano evidenziati, da completare.</span>
+                            </p>
+                            <p class="atto__riga atto__voce">il Piano Esecutivo di Gestione (PEG) per l'esercizio <span class="atto__vuoto" role="img" aria-label="da completare"></span>, approvato con deliberazione della Giunta Comunale</p>
+                            <div class="atto__coda" aria-hidden="true"></div>
+                        </div>
+                    </div>
+                    <figcaption class="atto__fonte"><span data-i18n="atto_fonte">Dalla bozza di determinazione preparata dalla Suite sul caso di una proroga tecnica della refezione scolastica.</span> <a href="pa-locale-in-azione.html" data-i18n="atto_rimando">Veda la sessione, passo per passo</a></figcaption>
+                </figure>
             </div>
+        </section>
 
-            <div class="centered-mission-statement">
-                <p class="mission-statement mission-red" data-i18n="home_mission_statement">We build artificial intelligence systems that transform the work of legal professionals and public administration officials, bringing within everyone's reach the kind of rigorous analysis, anchored in correct and up-to-date legal sources, that until today required the effort of dedicated specialist teams, available only in large organisations or major law firms.</p>
-            </div>
+        <!-- Notizie: fatti datati sul prodotto, il più recente per primo. -->
+        <section class="notizie" aria-labelledby="notizie-titolo">
+            <h2 class="solo-lettori" id="notizie-titolo">Ultime notizie</h2>
+            <ul class="contenitore notizie__elenco">
+                <li class="notizie__voce">
+                    <time datetime="2026-11-19">19 novembre 2026</time>
+                    <a href="le-domande-del-funzionario.html">Cosa chiede un funzionario comunale all'intelligenza artificiale?</a>
+                    <span class="notizie__dove">Quaranta domande, in una pagina</span>
+                </li>
+                <li class="notizie__voce">
+                    <time datetime="2026-11-18">18 novembre 2026</time>
+                    <a href="https://www.linkedin.com/posts/rparenti_ttr-suite-pa-locale-71-i-risultati-ugcPost-7528592542209224704-chgl/" rel="noopener">TTR-SUITE PA Locale 7.1: i risultati</a>
+                    <span class="notizie__dove">Post del fondatore su LinkedIn</span>
+                </li>
+                <li class="notizie__voce">
+                    <time datetime="2026-11-02">2 novembre 2026</time>
+                    <a href="https://aviolab.ai/download/tutorial-biblioteca-ente.mp4">La Biblioteca dell'Ente: che cos'è, come si attiva, come si usa</a>
+                    <span class="notizie__dove">Filmato, quasi sei minuti</span>
+                </li>
+            </ul>
+        </section>
 
-            <div class="capabilities-content">
-                <div class="capabilities-text">
-                    <p class="capabilities-title" data-i18n="home_capabilities_headline">Focused Agentic AI for two distinct domains</p>
-                    <ul class="feature-list">
-                        <li><i class="fas fa-check"></i> <span data-i18n="capability_1">Intelligent document context understanding</span></li>
-                        <li><i class="fas fa-check"></i> <span data-i18n="capability_2">Automatic clause extraction and analysis</span></li>
-                        <li><i class="fas fa-check"></i> <span data-i18n="capability_3">Risk detection in legal agreements</span></li>
-                        <li><i class="fas fa-check"></i> <span data-i18n="capability_4">Multi-language support for international teams</span></li>
-                        <li><i class="fas fa-check"></i> <span data-i18n="capability_5">Complex document comparison and reconciliation</span></li>
-                        <li><i class="fas fa-check"></i> <span data-i18n="capability_6">High-quality summarization of lengthy documents</span></li>
+        <!-- La presentazione filmata: è la base della pagina. -->
+        <section class="sezione sezione--fondo film" id="film" aria-labelledby="film-titolo">
+            <div class="contenitore film__griglia">
+                <div>
+                    <p class="cartellino" data-i18n="film_cartellino">A che cosa mi serve TTR-SUITE?</p>
+                    <h2 class="titolo" id="film-titolo" data-i18n="film_titolo">TTR-SUITE in otto minuti</h2>
+                    <p class="testo" data-i18n="film_cosa">Com'è fatta e come lavora. Nel filmato:</p>
+                    <ul class="film__indice">
+                        <li data-i18n="film_1">la postazione e dove restano i dati</li>
+                        <li data-i18n="film_2">una domanda vera: analisi, verifica normativa, report</li>
+                        <li data-i18n="film_3">le 43 intelligenze artificiali</li>
+                        <li data-i18n="film_4">i dati personali sostituiti da etichette</li>
+                        <li data-i18n="film_5">il Fascicolo Informatico e la Biblioteca dell'Ente</li>
+                        <li data-i18n="film_6">assistenza, aggiornamenti, documentazione di conformità</li>
                     </ul>
                 </div>
-                <div class="capabilities-image">
-                    <img src="assets/images/mission-image.jpg" alt="AI-powered document analysis" loading="lazy" decoding="async">
-                </div>
+                <figure class="schermo">
+                    <video controls preload="none" playsinline poster="assets/home/film-presentazione.jpg" aria-label="Presentazione filmata: TTR-SUITE, come è fatta e come lavora">
+                        <source src="https://aviolab.ai/download/brochure-ttr-suite.mp4" type="video/mp4">
+                    </video>
+                    <figcaption><a href="https://aviolab.ai/download/brochure-ttr-suite.mp4" data-i18n="film_scarica">Se il filmato non parte, lo scarichi da qui</a></figcaption>
+                </figure>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Products Section: 2 big product cards -->
-    <section id="products" class="section solutions-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 data-i18n="home_products_title">Our Solutions</h2>
-                <div class="underline"></div>
-                <p class="section-subtitle" data-i18n="home_products_subtitle">Two purpose-built suites for two distinct audiences</p>
-            </div>
-
-            <div class="product-grid">
-
-                <!-- Card 1: TTR-SUITE PA Locale -->
-                <a href="pa-locale.html" class="product-card-big product-card-big--pa">
-                    <div class="product-card-big__head">
-                        <span class="product-card-big__badge" data-i18n="home_card_pa_badge">New</span>
-                        <div class="product-card-big__icon"><i class="fas fa-landmark"></i></div>
-                        <h3 data-i18n="home_card_pa_title">TTR-SUITE per la PA Locale</h3>
-                        <p class="product-card-big__tagline" data-i18n="home_card_pa_tagline">Consulenza giuridica e amministrativa AI per i Comuni italiani</p>
+        <!-- Che cosa fa. -->
+        <section class="sezione lavoro" id="products" aria-labelledby="lavoro-titolo">
+            <div class="contenitore">
+                <div class="lavoro__testa">
+                    <div>
+                        <p class="cartellino" data-i18n="lavoro_cartellino">Come funziona TTR-SUITE?</p>
+                        <h2 class="titolo" id="lavoro-titolo" data-i18n="lavoro_titolo">Dal caso alla bozza dell'atto</h2>
+                        <p class="testo" data-i18n="lavoro_1">Il funzionario espone il caso con parole sue e allega i documenti. La risposta è ordinata come una scheda istruttoria: classificazione del caso, quadro normativo, applicazione alla pratica, fonti.</p>
+                        <p class="testo" data-i18n="lavoro_2">Al risultato lavorano 43 intelligenze artificiali: 24 agenti, cioè intelligenze artificiali istruite ciascuna su un compito preciso, di norma una materia di competenza comunale, e 19 funzioni cognitive interne, che lavorano fra un passaggio e l'altro.</p>
                     </div>
-                    <div class="product-card-big__body">
-                        <p data-i18n="home_card_pa_text">Mainly designed for Italian municipalities under 5,000 inhabitants and the officials who run them. Legal opinions and analytical problem-solving under current law, drafted acts ready for signature, SInCRO-compliant digital filing. Patent-pending architecture.</p>
-                        <ul class="product-card-big__features">
-                            <li data-i18n="home_card_pa_feat1">Legal opinions and analytical studies on concrete administrative problems under current law</li>
-                            <li data-i18n="home_card_pa_feat2">43 different AI agents working together on every result</li>
-                            <li data-i18n="home_card_pa_feat3">Certified normative sources, zero citation errors</li>
-                            <li data-i18n="home_card_pa_feat4">Drafting of acts: resolutions, determinations, ordinances, building titles</li>
-                            <li data-i18n="home_card_pa_feat5">SInCRO-compliant digital file (UNI 11386, art. 41 CAD)</li>
-                            <li data-i18n="home_card_pa_feat6">AI Act art. 50 compliance + GDPR by design</li>
-                            <li data-i18n="home_card_pa_feat7">Digital library of verified acts, owned by the municipality and growing with use</li>
+                    <figure class="schermo">
+                        <video class="animazione" controls muted loop playsinline preload="metadata" poster="assets/home/agenti-al-lavoro.jpg" width="960" height="540" aria-label="Animazione senza audio: le 43 intelligenze artificiali e il percorso di una richiesta fra agenti e revisori">
+                            <source src="assets/home/agenti-al-lavoro.mp4" type="video/mp4">
+                        </video>
+                        <figcaption data-i18n="lavoro_animazione">Le 43 intelligenze artificiali e il percorso di una richiesta: «serve una nuova determina». Dalla presentazione filmata.</figcaption>
+                    </figure>
+                </div>
+                <dl class="lavoro__voci">
+                    <div class="lavoro__voce">
+                        <dt data-i18n="voce_parere">Il parere</dt>
+                        <dd data-i18n="voce_parere_t">Citazione di articolo, comma e lettera, applicazione al caso concreto e, in appendice, gli estratti letterali della norma vigente. Le strade praticabili sono messe a confronto, ciascuna con i suoi presupposti e i suoi rischi.</dd>
+                    </div>
+                    <div class="lavoro__voce">
+                        <dt data-i18n="voce_atto">L'atto</dt>
+                        <dd data-i18n="voce_atto_t">Determinazioni, deliberazioni, ordinanze, regolamenti, titoli edilizi, avvisi, capitolati. La bozza arriva in Word con premesse, motivazione e dispositivo, e tiene conto dello statuto e dei regolamenti del Comune che si applicano al caso.</dd>
+                    </div>
+                    <div class="lavoro__voce">
+                        <dt data-i18n="voce_controllo">Il secondo controllo</dt>
+                        <dd data-i18n="voce_controllo_t">Ogni risposta passa da almeno due agenti distinti. Per gli atti più delicati il funzionario può chiedere una rilettura sui profili di impugnabilità e una sui possibili rilievi della Corte dei conti.</dd>
+                    </div>
+                    <div class="lavoro__voce">
+                        <dt data-i18n="voce_emessi">Gli atti già emessi</dt>
+                        <dd data-i18n="voce_emessi_t">Un provvedimento adottato si può sottoporre a riesame: la Suite ne segnala gli eventuali vizi e le norme cambiate nel frattempo, e indica la base per la convalida o per l'annullamento in autotutela.</dd>
+                    </div>
+                    <div class="lavoro__voce">
+                        <dt data-i18n="voce_fascicolo">Il fascicolo</dt>
+                        <dd data-i18n="voce_fascicolo_t">Ogni pratica conserva le fonti consultate, le impronte di integrità e la traccia delle decisioni. Si estrae nel formato SInCRO (UNI 11386) per il gestionale documentale del Comune e si riapre anche a distanza di anni.</dd>
+                    </div>
+                    <div class="lavoro__voce">
+                        <dt data-i18n="voce_biblioteca">La Biblioteca dell'Ente</dt>
+                        <dd data-i18n="voce_biblioteca_t">Con un clic del funzionario, un atto ben riuscito entra nella Biblioteca dell'Ente come modello da riusare, accanto allo statuto e ai regolamenti del Comune. La Biblioteca resta patrimonio dell'Ente e cresce con l'uso.</dd>
+                    </div>
+                </dl>
+                <p class="rimandi">
+                    <a href="pa-locale.html" data-i18n="lavoro_r1">Veda il prodotto nel dettaglio</a>
+                    <a href="che-cos-e-ttr-suite.html" data-i18n="lavoro_r2">Legga la spiegazione in parole semplici</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- La stima d'impatto: da una parte il dato tipico della scheda, dall'altra le persone. -->
+        <section class="sezione sezione--fondo stima" aria-labelledby="stima-titolo">
+            <div class="contenitore">
+                <div class="stima__testa">
+                    <div>
+                        <p class="cartellino" data-i18n="stima_cartellino">Quanto rende il lavoro con TTR-SUITE?</p>
+                        <h2 class="titolo" id="stima-titolo" data-i18n="stima_titolo">L'impatto sui servizi comunali: una stima</h2>
+                    </div>
+                    <div>
+                        <p class="testo" data-i18n="stima_come">Più un servizio lavora su atti e norme, più tempo si libera. Qui la stima è tradotta in persone: quanto rende, con la Suite, il lavoro di un ufficio come il Suo.</p>
+                        <div class="stima__scelta" role="group" aria-labelledby="stima-scelta">
+                            <span id="stima-scelta" data-i18n="stima_scelta">Persone nel Suo ufficio</span>
+                            <button type="button" class="stima__tasto" data-passo="-1" aria-label="Una persona in meno">&minus;</button>
+                            <output class="stima__numero" aria-live="polite">4</output>
+                            <button type="button" class="stima__tasto" data-passo="1" aria-label="Una persona in più">+</button>
+                        </div>
+                    </div>
+                </div>
+                <ul class="stima__righe">
+                    <li class="stima__riga" data-capacita="121">
+                        <div class="stima__scheda">
+                            <h3>Servizi di sportello e di presenza</h3>
+                            <p class="stima__esempi">Anagrafe e stato civile, Polizia Locale, servizi scolastici</p>
+                            <dl class="stima__dati">
+                                <div><dt>Tempo speso su atti e norme (stima tipica)</dt><dd>20%</dd></div>
+                                <div><dt>Tempo liberato sul totale</dt><dd>17%</dd></div>
+                                <div><dt>Capacità (oggi = 100)</dt><dd class="stima__capacita">121</dd></div>
+                            </dl>
+                        </div>
+                        <div class="stima__ufficio">
+                            <div class="stima__persone" aria-hidden="true"></div>
+                            <p class="stima__frase">A quattro persone il lavoro rende come se fossero in 4,8.</p>
+                        </div>
+                    </li>
+                    <li class="stima__riga" data-capacita="135">
+                        <div class="stima__scheda">
+                            <h3>Servizi di istruttoria</h3>
+                            <p class="stima__esempi">Tributi, Servizi sociali, Commercio e SUAP, Protocollo e Segreteria operativa</p>
+                            <dl class="stima__dati">
+                                <div><dt>Tempo speso su atti e norme (stima tipica)</dt><dd>30%</dd></div>
+                                <div><dt>Tempo liberato sul totale</dt><dd>26%</dd></div>
+                                <div><dt>Capacità (oggi = 100)</dt><dd class="stima__capacita">135</dd></div>
+                            </dl>
+                        </div>
+                        <div class="stima__ufficio">
+                            <div class="stima__persone" aria-hidden="true"></div>
+                            <p class="stima__frase">A quattro persone il lavoro rende come se fossero in 5,4.</p>
+                        </div>
+                    </li>
+                    <li class="stima__riga" data-capacita="153">
+                        <div class="stima__scheda">
+                            <h3>Servizi di produzione di atti</h3>
+                            <p class="stima__esempi">Ufficio Tecnico (edilizia, lavori pubblici), Ragioneria (determine e impegni)</p>
+                            <dl class="stima__dati">
+                                <div><dt>Tempo speso su atti e norme (stima tipica)</dt><dd>40%</dd></div>
+                                <div><dt>Tempo liberato sul totale</dt><dd>35%</dd></div>
+                                <div><dt>Capacità (oggi = 100)</dt><dd class="stima__capacita">153</dd></div>
+                            </dl>
+                        </div>
+                        <div class="stima__ufficio">
+                            <div class="stima__persone" aria-hidden="true"></div>
+                            <p class="stima__frase">A quattro persone il lavoro rende come se fossero in 6,1.</p>
+                        </div>
+                    </li>
+                    <li class="stima__riga" data-capacita="177">
+                        <div class="stima__scheda">
+                            <h3>Servizi di produzione giuridica</h3>
+                            <p class="stima__esempi">Segreteria generale (delibere, contratti, regolamenti, pareri), ufficio del Segretario</p>
+                            <dl class="stima__dati">
+                                <div><dt>Tempo speso su atti e norme (stima tipica)</dt><dd>50%</dd></div>
+                                <div><dt>Tempo liberato sul totale</dt><dd>44%</dd></div>
+                                <div><dt>Capacità (oggi = 100)</dt><dd class="stima__capacita">177</dd></div>
+                            </dl>
+                        </div>
+                        <div class="stima__ufficio">
+                            <div class="stima__persone" aria-hidden="true"></div>
+                            <p class="stima__frase">A quattro persone il lavoro rende come se fossero in 7,1.</p>
+                        </div>
+                    </li>
+                </ul>
+                <p class="stima__nota" data-i18n="stima_nota">Stime di Aviolab AI, novembre 2026, derivate dai tempi osservati sul campo fra luglio e settembre 2026. Variano con la pratica e con l'ufficio. In grigio le persone dell'ufficio, in rosso quanto rende in più il loro lavoro.</p>
+            </div>
+        </section>
+
+        <!-- Dati e responsabilità. -->
+        <section class="sezione dati" aria-labelledby="dati-titolo">
+            <div class="contenitore">
+                <div class="dati__griglia">
+                    <div>
+                        <p class="cartellino" data-i18n="dati_cartellino">Dove stanno i dati del Comune?</p>
+                        <h2 class="titolo" id="dati-titolo" data-i18n="dati_titolo">Sul computer dell'ufficio. E decide il funzionario.</h2>
+                        <p class="testo" data-i18n="dati_1">La Suite si installa sul computer del funzionario. Sessioni, fascicoli, allegati e fonti scaricate restano sulle macchine dell'Ente, cifrati. Non serve un server.</p>
+                        <p class="testo" data-i18n="dati_assistenza">Gli aggiornamenti arrivano in automatico. L'assistenza si collega da remoto alla postazione solo su richiesta del funzionario e con il suo consenso.</p>
+                        <p class="testo" data-i18n="dati_2">L'elaborazione dei testi avviene presso il fornitore del modello di intelligenza artificiale, che per contratto cancella i contenuti appena trasmessa la risposta.</p>
+                        <p class="testo" data-i18n="dati_3">È uno strumento di supporto: non assume decisioni, non protocolla e non invia nulla in autonomia. Ogni testo è dichiarato come prodotto con l'intelligenza artificiale e il funzionario lo può modificare per intero.</p>
+                        <p class="testo" data-i18n="dati_4">Lo abbiamo classificato fra i sistemi soggetti agli obblighi di trasparenza dell'art.&nbsp;50 del Regolamento (UE) 2024/1689, il cosiddetto rischio limitato: l'analisi è fra i documenti scaricabili.</p>
+                    </div>
+                    <div class="dati__lato">
+                    <figure class="schermo">
+                        <video class="animazione" controls muted loop playsinline preload="metadata" poster="assets/home/postazione.jpg" width="960" height="540" aria-label="Animazione senza audio: la postazione, il disco dell'ufficio e il collegamento cifrato">
+                            <source src="assets/home/postazione.mp4" type="video/mp4">
+                        </video>
+                        <figcaption data-i18n="dati_animazione">La postazione: nessun server, i dati sul disco dell'ufficio, il collegamento cifrato. Dalla presentazione filmata.</figcaption>
+                    </figure>
+                    <div class="dati__documenti">
+                        <h3 data-i18n="doc_titolo">I documenti, firmati digitalmente</h3>
+                        <ul>
+                            <li data-i18n="doc_1">Classificazione del rischio</li>
+                            <li data-i18n="doc_2">Informativa di trasparenza</li>
+                            <li data-i18n="doc_3">Accordo sul trattamento dei dati</li>
+                            <li data-i18n="doc_4">Scheda tecnica del sistema</li>
+                            <li data-i18n="doc_5">Scheda comparativa a supporto dell'infungibilità (Linee guida AgID in via di adozione)</li>
                         </ul>
-                        <span class="product-card-big__cta">
-                            <span data-i18n="home_card_pa_cta">Discover TTR-SUITE for PA Locale</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </span>
+                        <a class="pulsante pulsante--contorno pulsante--piccolo" href="downloads.html#certificazioni" data-i18n="doc_azione">Scarichi i documenti</a>
                     </div>
-                </a>
-
-                <!-- Card 2: TTR-SUITE IP Legal -->
-                <a href="ip-legal.html" class="product-card-big product-card-big--ip">
-                    <div class="product-card-big__head">
-                        <div class="product-card-big__icon"><i class="fas fa-balance-scale"></i></div>
-                        <h3 data-i18n="home_card_ip_title">TTR-SUITE IP Legal</h3>
-                        <p class="product-card-big__tagline" data-i18n="home_card_ip_tagline">AI-powered analysis and drafting for IP legal teams and IP departments</p>
-                    </div>
-                    <div class="product-card-big__body">
-                        <p data-i18n="home_card_ip_text">Built for IP departments, in-house legal teams handling IP work and technology transfer offices. Now <strong>drafts and analyses</strong> NDAs, research agreements and commercial contracts with internally validated outputs. Multi-language, clause-by-clause.</p>
-                        <ul class="product-card-big__features">
-                            <li data-i18n="home_card_ip_feat1">IP analysis of bids, tenders and related documents</li>
-                            <li data-i18n="home_card_ip_feat2">Research and technology partnership agreements</li>
-                            <li data-i18n="home_card_ip_feat3">License agreement review with key term extraction</li>
-                            <li data-i18n="home_card_ip_feat4">Technical presentations and papers risk assessment</li>
-                            <li data-i18n="home_card_ip_feat5">Production-validated in the IP department of a major international corporation</li>
-                            <li data-i18n="home_card_ip_feat6">End-to-end patent application preparation: structured inventor interview, thorough prior art search, claims drafting</li>
-                            <li data-i18n="home_card_ip_feat7">Adversarial claim stress test, AI agents attack each claim with prior-art rewordings and combinations of known or patented techniques</li>
-                        </ul>
-                        <span class="product-card-big__cta">
-                            <span data-i18n="home_card_ip_cta">Discover TTR-SUITE IP Legal</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </span>
-                    </div>
-                </a>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Benefits Section (neutra, vale per entrambi i prodotti) -->
-    <section id="benefits" class="section benefits-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 data-i18n="benefits_title">Key Benefits</h2>
-                <div class="underline"></div>
-                <p class="section-subtitle benefits-subtitle" data-i18n="benefits_old_times">Say goodbye to stacks of paper and manual document processing!</p>
-            </div>
-
-            <div class="benefits-grid">
-                <div class="benefit-card">
-                    <div class="benefit-icon"><i class="fas fa-tachometer-alt"></i></div>
-                    <h3 data-i18n="benefit1_title">Time Efficiency</h3>
-                    <p data-i18n="benefit1_text">Reduce document review time by up to 80%, allowing your team to focus on strategic analysis rather than routine processing</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon"><i class="fas fa-chart-bar"></i></div>
-                    <h3 data-i18n="benefit2_title">Accuracy</h3>
-                    <p data-i18n="benefit2_text">Achieve consistent, reliable analyses that minimize human error and capture details that might otherwise be overlooked</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon"><i class="fas fa-search-dollar"></i></div>
-                    <h3 data-i18n="benefit3_title">Cost Reduction</h3>
-                    <p data-i18n="benefit3_text">Significantly lower document processing costs while improving quality and consistency of results</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon"><i class="fas fa-users"></i></div>
-                    <h3 data-i18n="benefit4_title">Team Collaboration</h3>
-                    <p data-i18n="benefit4_text">Enable seamless collaboration across departments and offices with consistent document analysis and shared insights</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon"><i class="fas fa-cogs"></i></div>
-                    <h3 data-i18n="benefit5_title">Customization</h3>
-                    <p data-i18n="benefit5_text">Solutions tailored to your specific industry needs, document types, and internal processes for maximum relevance</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon"><i class="fas fa-desktop"></i></div>
-                    <h3 data-i18n="benefit6_title">User-Friendly</h3>
-                    <p data-i18n="benefit6_text">Access powerful analysis through a simple, intuitive one-click AI interface designed for busy professionals</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="section about-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 data-i18n="about_title">About Us</h2>
-                <div class="underline"></div>
-                <p class="section-subtitle" data-i18n="about_subtitle">Meet the expert behind Aviolab AI</p>
-            </div>
-
-            <div class="about-content">
-                <div class="founder-image">
-                    <img src="assets/founder02.jpg" alt="Riccardo Parenti - Founder" loading="lazy" decoding="async">
-                </div>
-                <div class="founder-bio">
-                    <h3 data-i18n="founder_name">Riccardo Parenti</h3>
-                    <h4 data-i18n="founder_position">Founder & Technical Lead</h4>
-                    <p data-i18n="founder_bio1"></p>
-                    <p data-i18n="founder_bio2"></p>
-                    <div class="social-links">
-                        <a href="https://www.linkedin.com/in/rparenti/" class="social-link" target="_blank" rel="noopener" aria-label="Riccardo Parenti on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section contact-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 data-i18n="contact_title">Get In Touch</h2>
-                <div class="underline"></div>
-                <p class="section-subtitle" data-i18n="contact_subtitle">Ready to transform your document management?</p>
+        <!-- Le domande del funzionario: testo approvato, alla lettera. -->
+        <section class="sezione sezione--fondo domande" aria-labelledby="domande-titolo">
+            <div class="contenitore">
+                <h2 class="titolo" id="domande-titolo">Cosa chiede un funzionario comunale all'intelligenza artificiale?</h2>
+                <ul class="domande__elenco">
+                    <li class="domande__voce domande__voce--1">Un secondo parere, prima di firmare?</li>
+                    <li class="domande__voce domande__voce--2">Non passare un altro venerdì pomeriggio su Normattiva?</li>
+                    <li class="domande__voce domande__voce--3">Non dover riscrivere da capo una determina quasi identica a quella di marzo?</li>
+                    <li class="domande__voce domande__voce--4">Poter spiegare al Segretario e al DPO dove finiscono i dati?</li>
+                    <li class="domande__voce domande__voce--5">Che risulti chiaro che a decidere è stato lui?</li>
+                </ul>
+                <p class="rimandi"><a href="le-domande-del-funzionario.html" data-i18n="domande_r">Legga tutte le quaranta domande</a></p>
             </div>
+        </section>
 
-            <div class="contact-container">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h3 data-i18n="contact_location">Location</h3>
-                            <p>Pieve Ligure (Genova), Italy</p>
-                        </div>
+        <!-- Il nostro caso zero: tutto ciò che riguarda Pieve Ligure sta qui. -->
+        <section class="sezione prova caso" id="caso-zero" aria-labelledby="caso-titolo">
+            <a id="mission"></a>
+            <div class="contenitore">
+                <div class="prova__griglia">
+                    <div>
+                        <p class="cartellino" data-i18n="caso_cartellino">Chi ha usato TTR-SUITE per primo?</p>
+                        <h2 class="titolo" id="caso-titolo" data-i18n="caso_titolo">Il nostro caso zero: il Comune di Pieve Ligure</h2>
+                        <p class="testo" data-i18n="caso_intro">È il primo Comune in cui TTR-SUITE è entrata negli uffici. Quello che segue è pubblico: i comunicati del Comune, il suo film, la rassegna stampa.</p>
+                        <p class="rimandi">
+                            <a href="dicono-di-noi.html" data-i18n="prova_stampa">Legga i comunicati e la rassegna stampa</a>
+                        </p>
                     </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h3 data-i18n="contact_phone">Phone</h3>
-                            <p><a href="tel:+393356050950">+39 335 605 0950</a></p>
-                        </div>
+                    <figure class="schermo">
+                        <video controls preload="none" playsinline poster="assets/home/film-anci.jpg" aria-label="Film del Comune di Pieve Ligure: l'intelligenza artificiale negli uffici, quattro mesi di lavoro vero">
+                            <source src="https://aviolab.ai/download/anci-pieve-ligure.mp4" type="video/mp4">
+                        </video>
+                        <figcaption><span data-i18n="prova_film">Il film del Comune di Pieve Ligure per il convegno di ANCI Lombardia, sette minuti e mezzo.</span> <a href="https://aviolab.ai/download/anci-pieve-ligure.mp4" data-i18n="prova_scarica">Se non parte, lo scarichi da qui</a></figcaption>
+                    </figure>
+                </div>
+                <ol class="caso__tappe">
+                    <li class="caso__tappa"><time datetime="2026-06-25">25 giugno 2026</time><p data-i18n="tappa_1">I funzionari cominciano la prova.</p></li>
+                    <li class="caso__tappa"><time datetime="2026-07-27">27 luglio 2026</time><p data-i18n="tappa_2">I responsabili dei servizi chiedono di tenere la Suite.</p></li>
+                    <li class="caso__tappa"><time datetime="2026-09-01">1° settembre 2026</time><p data-i18n="tappa_3">Il Comune annuncia che prosegue, <span class="citato">«dopo una sperimentazione conclusa con esito positivo»</span>, e che l'uso si estende agli altri servizi.</p></li>
+                    <li class="caso__tappa"><time datetime="2026-11-12">12 novembre 2026</time><p data-i18n="tappa_4">Il Comune porta i risultati di quattro mesi al convegno di ANCI Lombardia, a Milano: unico Comune non lombardo alla tavola rotonda.</p></li>
+                </ol>
+                <figure class="prova__citazione">
+                    <blockquote cite="https://aviolab.ai/dicono-di-noi.html">
+                        <p>«E abbiamo lasciato prendere la decisione a chi lavora sulle pratiche tutti i giorni: i responsabili dei servizi hanno provato il sistema sul campo e sono stati loro a chiederci di mantenerlo stabilmente in dotazione agli uffici.»</p>
+                    </blockquote>
+                    <figcaption><strong>Paola Negro</strong>, Sindaca di Pieve Ligure<br><span class="tenue" data-i18n="prova_fonte">Comunicato del Comune, 1° settembre 2026</span></figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Chi siamo. -->
+        <section class="sezione sezione--fondo chi" id="about" aria-labelledby="chi-titolo">
+            <div class="contenitore">
+                <div class="chi__griglia">
+                    <div>
+                        <p class="cartellino" data-i18n="chi_cartellino">Chi c'è dietro TTR-SUITE?</p>
+                        <h2 class="titolo" id="chi-titolo">Aviolab AI</h2>
+                        <p class="testo chi__guida" data-i18n="chi_1">Aviolab AI è specializzata nell'applicare architetture fortemente agentiche a problemi giuridici complessi: sistemi in cui molte intelligenze artificiali, ciascuna con un compito preciso, lavorano insieme e si controllano a vicenda.</p>
+                        <p class="testo" data-i18n="chi_2">TTR-SUITE nasce da qui. È progettata e sviluppata a Pieve Ligure, nella Città metropolitana di Genova.</p>
                     </div>
-                    <div class="contact-item">
-                        <i class="fas fa-globe"></i>
-                        <div>
-                            <h3 data-i18n="contact_website">Website</h3>
-                            <p><a href="https://www.aviolab.ai" target="_blank" rel="noopener noreferrer">www.aviolab.ai</a></p>
-                        </div>
+                    <figure class="chi__foto">
+                    <img src="assets/founder02.jpg" alt="Riccardo Parenti nel suo studio" width="1170" height="877" loading="lazy" decoding="async">
+                    <figcaption><a href="https://www.linkedin.com/in/rparenti/" rel="noopener" data-i18n="chi_linkedin">Profilo LinkedIn di Riccardo Parenti</a></figcaption>
+                </figure>
+                </div>
+                <div class="chi__bio">
+                    <h3 class="chi__nome" data-i18n="bio_nome">Riccardo Parenti, fondatore e responsabile tecnico</h3>
+                    <div class="chi__bio-testo">
+                        <p data-i18n="bio_1">Ingegnere, genovese, lavora fino alla fine del 2024 nell'industria, all'interno di una grande multinazionale attiva nei settori industriale ed energetico. Per vent'anni guida gruppi di ricerca nell'automazione, nella sensoristica e nei sistemi di controllo, in ambito civile e militare. Negli anni Novanta introduce le reti neurali e la logica fuzzy nei processi industriali, quando queste tecnologie sono ancora prevalentemente confinate ai laboratori di ricerca.</p>
+                        <p data-i18n="bio_2">Dal 2007 al 2024 è responsabile del trasferimento tecnologico dell'azienda, occupandosi di proprietà intellettuale e contrattualistica. Un percorso che gli permette di conoscere dall'interno tanto le tecnologie quanto le esigenze di chi deve tradurle in atti, accordi e contratti.</p>
+                        <p data-i18n="bio_3">Nel 2025 fonda Aviolab AI. Il primo prodotto è TTR-SUITE IP Legal, già validata sul campo e utilizzata da clienti, progettata per gli uffici che gestiscono ricerca industriale, contratti tecnologici e proprietà intellettuale, soprattutto in ambito internazionale.</p>
+                        <p data-i18n="bio_4">Nell'ottobre dello stesso anno nasce TTR-SUITE PA Locale, sviluppata sulla medesima base tecnologica ma con un'architettura agentica molto più articolata: 43 agenti di intelligenza artificiale, rispetto agli 11 di IP Legal. È su questa soluzione, dedicata alle esigenze operative degli enti locali, che Aviolab AI concentra oggi prioritariamente le proprie attività.</p>
                     </div>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h3 data-i18n="contact_email">Email</h3>
-                            <p><a href="mailto:info@aviolab.ai">info@aviolab.ai</a><br><a href="mailto:r.parenti@aviolab.ai">r.parenti@aviolab.ai</a></p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-clock"></i>
-                        <div>
-                            <h3 data-i18n="contact_hours">Preferred Contact Hours</h3>
-                            <p data-i18n="contact_hours_value">Weekdays 9:00 - 18:00 (CET/Rome)</p>
-                        </div>
-                    </div>
-                    <div class="contact-cta">
-                        <a href="#products" class="btn btn-secondary" data-i18n="contact_cta_products">Discover our suites</a>
-                    </div>
+                    <a class="pulsante pulsante--contorno pulsante--piccolo" href="ip-legal.html">TTR-SUITE IP Legal</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Come si comincia: è davvero una sequenza, quindi è numerata. -->
+        <section class="sezione avvio" aria-labelledby="avvio-titolo">
+            <div class="contenitore">
+                <p class="cartellino" data-i18n="avvio_cartellino">Come si comincia?</p>
+                <h2 class="titolo" id="avvio-titolo" data-i18n="avvio_titolo">Tre passi, il primo in videoconferenza</h2>
+                <ol class="avvio__passi">
+                    <li class="avvio__passo">
+                        <h3 data-i18n="passo_1">Una prima prova, in videoconferenza</h3>
+                        <p data-i18n="passo_1_t">La prova dura dai 45 ai 60 minuti e si svolge normalmente in videoconferenza. Dopo una breve presentazione tecnica, Le viene messa a disposizione una TTR-SUITE accessibile da remoto, sulla quale può lavorare direttamente, in tempo reale, utilizzando una pratica di Suo interesse: ad esempio, un caso concreto che il Suo ufficio sta affrontando o ha già affrontato.</p>
+                    </li>
+                    <li class="avvio__passo">
+                        <h3 data-i18n="passo_2">La prova gratuita negli uffici</h3>
+                        <p data-i18n="passo_2_t">Due o tre settimane su alcune postazioni, senza procedura di affidamento e senza impegno per il Comune.</p>
+                    </li>
+                    <li class="avvio__passo">
+                        <h3 data-i18n="passo_3">Il contratto</h3>
+                        <p data-i18n="passo_3_t">Canone annuo per l'intero Ente, non per postazione.</p>
+                    </li>
+                </ol>
+                <a class="pulsante" href="#contact" data-i18n="azione_prova">Chieda una prova gratuita</a>
+            </div>
+        </section>
+
+        <!-- Contatti. -->
+        <section class="sezione su-blu contatti" id="contact" aria-labelledby="contatti-titolo">
+            <div class="contenitore contatti__griglia">
+                <div>
+                    <h2 class="titolo" id="contatti-titolo" data-i18n="azione_prova">Chieda una prova gratuita</h2>
+                    <p class="testo" data-i18n="contatti_1">Ci scriva due righe sul Suo Comune: si comincia con una prima prova in videoconferenza, su un caso del Suo ufficio. Se La convince, si passa alla prova gratuita negli uffici.</p>
+                    <ul class="contatti__diretti">
+                        <li><a href="mailto:info@aviolab.ai">info@aviolab.ai</a></li>
+                        <li><a href="tel:+393356050950">+39 335 605 0950</a><span data-i18n="contatti_orari">Dal lunedì al venerdì, dalle 9 alle 18</span></li>
+                    </ul>
                 </div>
 
-                <form class="contact-form" action="https://formsubmit.co/ed4f9f2929019cdfc327f3485c8654e4" method="POST">
-                    <div class="form-group">
-                        <label for="name" data-i18n="contact_form_name">Name</label>
-                        <input type="text" id="name" name="name" required>
+                <form class="modulo" action="https://formsubmit.co/ed4f9f2929019cdfc327f3485c8654e4" method="POST">
+                    <div class="modulo__campo">
+                        <label for="name" data-i18n="modulo_nome">Nome e cognome</label>
+                        <input type="text" id="name" name="name" autocomplete="name" required>
                     </div>
-                    <div class="form-group">
-                        <label for="email" data-i18n="contact_form_email">Email</label>
-                        <input type="email" id="email" name="email" required>
+                    <div class="modulo__campo">
+                        <label for="company" data-i18n="modulo_ente">Comune o Ente</label>
+                        <input type="text" id="company" name="company" autocomplete="organization">
                     </div>
-                    <div class="form-group">
-                        <label for="company" data-i18n="contact_form_company">Company / Organisation</label>
-                        <input type="text" id="company" name="company">
+                    <div class="modulo__campo modulo__campo--intero">
+                        <label for="email" data-i18n="modulo_email">Indirizzo email</label>
+                        <input type="email" id="email" name="email" autocomplete="email" required>
                     </div>
-                    <div class="form-group">
-                        <label for="message" data-i18n="contact_form_message">Message</label>
+                    <div class="modulo__campo modulo__campo--intero">
+                        <label for="message" data-i18n="modulo_messaggio">Messaggio</label>
                         <textarea id="message" name="message" rows="5" required></textarea>
                     </div>
                     <input type="hidden" name="_subject" value="Nuovo messaggio dal sito Aviolab AI">
                     <input type="hidden" name="_template" value="table">
                     <input type="hidden" name="_next" value="https://www.aviolab.ai?thanks=true">
-                    <input type="hidden" name="_autoresponse" value="Gentile cliente, grazie per averci contattato. Abbiamo ricevuto correttamente il Suo messaggio e Le risponderemo quanto prima. Per richieste urgenti puo' contattarci al +39 335 605 0950. Cordiali saluti, Aviolab AI.">
-                    <div class="form-buttons">
-                        <button type="submit" class="btn btn-primary" data-i18n="contact_form_submit">Send Message</button>
-                        <span class="response-note" data-i18n="contact_form_response_note">We typically respond within one business day</span>
+                    <input type="hidden" name="_autoresponse" value="Gentile Signora, gentile Signore, grazie per averci scritto. Abbiamo ricevuto il Suo messaggio e Le risponderemo di norma entro un giorno lavorativo. Cordiali saluti, Aviolab AI.">
+                    <div class="modulo__invio">
+                        <button type="submit" class="pulsante" data-i18n="modulo_invia">Invii la richiesta</button>
+                        <p><span data-i18n="modulo_tempi">Rispondiamo di norma entro un giorno lavorativo.</span> <a href="privacy.html" data-i18n="modulo_privacy">Informativa sulla privacy</a></p>
                     </div>
                 </form>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Section Indicator (Dots) -->
-    <aside class="section-indicator">
-        <ul>
-            <li><a href="#home" class="dot"></a><span class="tooltip">Home</span></li>
-            <li><a href="#mission" class="dot"></a><span class="tooltip">Mission</span></li>
-            <li><a href="#products" class="dot"></a><span class="tooltip">Solutions</span></li>
-            <li><a href="#benefits" class="dot"></a><span class="tooltip">Benefits</span></li>
-            <li><a href="#about" class="dot"></a><span class="tooltip">About</span></li>
-            <li><a href="#contact" class="dot"></a><span class="tooltip">Contact</span></li>
-        </ul>
-    </aside>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <a href="#home" class="logo-link">
-                        <img src="assets/logo.png" alt="Aviolab AI Logo">
-                        <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+    <footer class="piede su-notte">
+        <div class="contenitore">
+            <div class="piede__griglia">
+                <div>
+                    <a class="marchio" href="#home" aria-label="Aviolab AI, inizio pagina">
+                        <img class="marchio__scudo" src="assets/logo-144.png" alt="" width="118" height="144" loading="lazy">
+                        <img class="marchio__scritta" src="assets/logo-scritta.svg" alt="" width="170" height="18">
                     </a>
-                    <p data-i18n="footer_tagline_umbrella">AI applied to law and public administration</p>
-                    <div class="legal-info">
-                        <p>AVIOLAB AI DI PARENTI RICCARDO</p>
-                        <p>Via XXV Aprile 251</p>
-                        <p>IT16031 Pieve Ligure (GE)</p>
-                        <p>P.IVA 02997110990</p>
-                        <p>REA GE - 525625</p>
-                    </div>
+                    <p class="piede__motto" data-i18n="piede_motto">Intelligenza artificiale per i pareri e gli atti dei Comuni.</p>
+                    <p class="piede__legale">AVIOLAB AI DI PARENTI RICCARDO<br>Via XXV Aprile 251, 16031 Pieve Ligure (GE)<br>P.IVA 02997110990, REA GE 525625</p>
                 </div>
-                <div class="footer-links">
-                    <h3 data-i18n="footer_solutions">Solutions</h3>
+                <div>
+                    <h2 data-i18n="piede_prodotto">TTR-SUITE PA Locale</h2>
                     <ul>
-                        <li><a href="pa-locale.html">TTR-SUITE PA Locale</a></li>
-                        <li><a href="che-cos-e-ttr-suite.html" data-i18n="footer_what_is_ttr">What is TTR-SUITE</a></li>
-                        <li><a href="ip-legal.html">TTR-SUITE IP Legal</a></li>
-                        <li><a href="dicono-di-noi.html" data-i18n="nav_press">In the press</a></li>
-                        <li><a href="downloads.html" data-i18n="nav_download">Download</a></li>
-                        <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+                        <li><a href="pa-locale.html">Il prodotto</a></li>
+                        <li><a href="pa-locale-in-azione.html">Come lavora</a></li>
+                        <li><a href="che-cos-e-ttr-suite.html">In parole semplici</a></li>
+                        <li><a href="le-domande-del-funzionario.html">Le domande del funzionario</a></li>
+                        <li><a href="dicono-di-noi.html">Dicono di noi</a></li>
+                        <li><a href="downloads.html">Download</a></li>
                     </ul>
                 </div>
-                <div class="footer-social">
-                    <h3 data-i18n="footer_connect">Connect With Us</h3>
-                    <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/rparenti/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    </div>
+                <div>
+                    <h2 data-i18n="piede_altro">Aviolab AI</h2>
+                    <ul>
+                        <li><a href="ip-legal.html">TTR-SUITE IP Legal</a></li>
+                        <li><a href="privacy.html">Privacy</a></li>
+                        <li><a href="mailto:info@aviolab.ai">info@aviolab.ai</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p data-i18n="footer_copyright">&copy; 2026 Aviolab AI. All rights reserved.</p>
+            <div class="piede__fondo">
+                <p>&copy; 2026 Aviolab AI. Tutti i diritti riservati.</p>
                 <p class="version-number">v1.3.42</p>
             </div>
         </div>
