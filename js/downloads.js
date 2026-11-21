@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const clientDownloads = document.getElementById('client-downloads');
     const clientAreaTitle = document.getElementById('client-area-title');
 
-    // Get current language from localStorage or default to 'it'
-    const currentLanguage = localStorage.getItem('language') || 'it';
+    // La lingua della pagina: la decide script.js, caricato prima di questo file.
+    const currentLanguage = document.documentElement.lang === 'en' ? 'en' : 'it';
 
     // Load public downloads from directory
     loadPublicDownloads();
@@ -47,19 +47,16 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: translations[currentLanguage]?.copyright_finder_title || 'IMAGE COPYRIGHT FINDER',
                 description: translations[currentLanguage]?.copyright_finder_desc || 'Prima di pubblicare la tua immagine, cerca opere uguali o molto simili e riduci il rischio di violare diritti altrui. Se non emergono corrispondenze rilevanti, IMAGE COPYRIGHT FINDER documenta in un report PDF datato le verifiche svolte in buona fede, così puoi conservare una traccia del controllo e pubblicare l’opera con la tua indicazione di copyright. Lo strumento gratuito offerto da Aviolab AI combina ricerche visuali e semantiche, analisi di immagini e cartelle, descrizioni AI modificabili e un archivio visivo locale. Le ricerche online richiedono chiavi API personali e non garantiscono l’assenza di diritti di terzi.',
-                icon: 'fas fa-images',
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/copyright-finder-v1.3.4/ImageCopyrightFinder-v1.3.4-win-x64.exe'
             },
             {
                 name: translations[currentLanguage]?.ttr_updater_title || 'TTR-SUITE Installer',
                 description: translations[currentLanguage]?.ttr_updater_desc || 'Programma di installazione automatica TTR-SUITE (scarica e installa automaticamente l\'ultima versione)',
-                icon: 'fas fa-download',
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/TTR-SUITE/TTR-UPDATER.exe'
             },
             {
                 name: translations[currentLanguage]?.ttr_network_diagnostic_title || 'Strumento Diagnostico di Rete TTR',
                 description: translations[currentLanguage]?.ttr_network_diagnostic_desc || 'Strumento diagnostico di connettività di rete per TTR-SUITE - testa download licenze e accesso API LLM in ambienti aziendali',
-                icon: 'fas fa-network-wired',
                 file: 'https://github.com/rpsnoopy/aviolab-ai-downloads/releases/download/TTR-SUITE/LicenseConnectionTest.exe'
             }
         ];
@@ -73,16 +70,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const downloadItem = document.createElement('div');
         downloadItem.className = 'download-item';
         downloadItem.innerHTML = `
-            <div class="download-icon">
-                <i class="${file.icon}"></i>
-            </div>
             <div class="download-info">
                 <h3>${file.name}</h3>
                 <p>${file.description}</p>
                 <div class="download-links">
-                    <a href="${file.file}" download class="btn btn-small">
-                        <i class="fas fa-download"></i> Download
-                    </a>
+                    <a href="${file.file}" download class="btn btn-small">Download</a>
                 </div>
             </div>
         `;
@@ -94,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
         clientDownloads.innerHTML = '';
 
         // Show loading state
-        clientDownloads.innerHTML = `<div class="loading-message"><i class="fas fa-spinner fa-spin"></i> ${translations[currentLanguage]?.loading_files || 'Caricamento file...'}</div>`;
+        clientDownloads.innerHTML = `<div class="loading-message">${translations[currentLanguage]?.loading_files || 'Caricamento file...'}</div>`;
         clientFilesSection.style.display = 'block';
         clientAreaTitle.textContent = `${translations[currentLanguage]?.client_files_for || 'File per Cliente:'} ${clientId}`;
 
@@ -142,19 +134,12 @@ document.addEventListener('DOMContentLoaded', function() {
             const fileItem = document.createElement('div');
             fileItem.className = 'download-item';
 
-            const iconClass = getFileIcon(file.type);
-
             fileItem.innerHTML = `
-                <div class="download-icon">
-                    <i class="${iconClass}"></i>
-                </div>
                 <div class="download-info">
                     <h3>${file.name}</h3>
                     <p>Size: ${file.size}</p>
                     <div class="download-links">
-                        <a href="https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/clients/${clientId}/${file.file}" download class="btn btn-small">
-                            <i class="fas fa-download"></i> Download
-                        </a>
+                        <a href="https://github.com/rpsnoopy/aviolab-ai-downloads/raw/main/clients/${clientId}/${file.file}" download class="btn btn-small">Download</a>
                     </div>
                 </div>
             `;
@@ -167,7 +152,6 @@ document.addEventListener('DOMContentLoaded', function() {
         instructionDiv.className = 'client-instructions';
         instructionDiv.innerHTML = `
             <div class="instruction-item">
-                <i class="fas fa-lock"></i>
                 <p>${translations[currentLanguage]?.files_may_be_password_protected || 'I file potrebbero essere protetti da password. Controlla la tua email per le credenziali di accesso.'}</p>
             </div>
         `;
@@ -177,22 +161,10 @@ document.addEventListener('DOMContentLoaded', function() {
     function displayNoFilesMessage(clientId) {
         clientDownloads.innerHTML = `
             <div class="no-files-message">
-                <i class="fas fa-folder-open"></i>
                 <h3>${translations[currentLanguage]?.no_files_found_for_client || 'Nessun file trovato per ID Cliente:'} ${clientId}</h3>
                 <p>${translations[currentLanguage]?.check_client_id_or_contact || 'Verifica il tuo ID Cliente o contattaci a'} <a href="mailto:info@aviolab.ai">info@aviolab.ai</a> ${translations[currentLanguage]?.for_assistance || 'per assistenza.'}</p>
             </div>
         `;
-    }
-
-    function getFileIcon(type) {
-        const icons = {
-            'software': 'fas fa-cog',
-            'documentation': 'fas fa-file-pdf',
-            'update': 'fas fa-sync-alt',
-            'tool': 'fas fa-wrench',
-            'default': 'fas fa-file'
-        };
-        return icons[type] || icons.default;
     }
 });
 

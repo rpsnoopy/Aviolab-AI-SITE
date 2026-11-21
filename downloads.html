@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" id="html-root">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Aviolab AI Downloads - Software and resources for clients">
+    <meta name="theme-color" content="#1b3a93">
+    <meta name="description" content="Download di Aviolab AI: software, documentazione e risorse per i clienti.">
     <meta name="author" content="Riccardo Parenti">
-    <title>Downloads | Aviolab AI</title>
+    <title data-i18n="downloads_meta_title">Download | Aviolab AI</title>
 
     <!-- Favicons -->
     <link rel="icon" href="favicon.ico">
@@ -14,495 +15,556 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="fonts/fonts.css">
+    <!-- Sistema grafico 2027: styles.css (vecchio), poi le parti comuni, poi il ponte. -->
+    <link rel="preload" href="fonts/archivo/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="styles.css?v=145">
-    <script defer src="js/translations.js?v=148"></script>
-    <script defer src="script.js?v=142"></script>
-    <script defer src="js/downloads.js?v=147"></script>
+    <link rel="stylesheet" href="sito-comune.css?v=1">
+    <link rel="stylesheet" href="sito-ponte.css?v=1">
+    <!-- Pagina bilingue: sito.js per il menu, translations.js e script.js per la lingua, poi i download. -->
+    <script defer src="js/sito.js?v=1"></script>
+    <script defer src="js/translations.js?v=149"></script>
+    <script defer src="script.js?v=143"></script>
+    <script defer src="js/downloads.js?v=148"></script>
+
+    <style>
+        /* ------------------------------------------------------------ selettore della lingua
+           Identico in downloads.html e ip-legal.html. Due pulsanti dopo il comando rosso della testata;
+           sotto i 1240 px stanno nel menu a scomparsa, perche' nella riga della testata non c'e' posto. */
+        .menu .lingue { display: flex; align-items: center; gap: 0.15rem; margin: 0; padding: 0; }
+        .menu .lingue .lang-option {
+            display: inline-block; opacity: 1; background: transparent; border: 0; border-radius: 4px; cursor: pointer;
+            padding: 0.4rem 0.45rem; font-family: var(--sans); font-size: 0.875rem; font-weight: 600; line-height: 1.2;
+            letter-spacing: normal; color: var(--tenue-su-notte);
+        }
+        .menu .lingue .lang-option:hover { color: #ffffff; text-decoration: underline; text-underline-offset: 0.35em; }
+        .menu .lingue .lang-option[aria-pressed="true"] {
+            color: #ffffff; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 0.35em;
+        }
+        @media (max-width: 1240px) {
+            .menu__apri { display: inline-block; }
+            .menu {
+                display: none;
+                position: absolute; left: 0; right: 0; top: 100%;
+                flex-direction: column; align-items: stretch; gap: 0;
+                background: var(--notte); border-top: 1px solid var(--filo-su-notte);
+                padding: 0.5rem var(--margine) 1.5rem;
+            }
+            .menu.aperto { display: flex; }
+            .menu__voci { flex-direction: column; gap: 0; font-size: 1.0625rem; }
+            .menu__voci a { display: block; padding: 0.9rem 0; border-bottom: 1px solid var(--filo-su-notte); }
+            .menu .pulsante { margin-top: 1.25rem; text-align: center; }
+            .menu .lingue { justify-content: center; gap: 0.75rem; margin-top: 1rem; }
+            .menu .lingue .lang-option { padding: 0.55rem 0.9rem; font-size: 1rem; }
+        }
+
+        /* ------------------------------------------------------------ pagina dei download */
+        .dl-corpo { padding-block: clamp(2.5rem, 5vw, 4rem) clamp(3.5rem, 7vw, 5.5rem); }
+        .downloads-category { margin: 0; padding-block: 2rem 2.5rem; border-bottom: 1px solid var(--filo); }
+        .downloads-category:first-child { border-top: 1.5px solid var(--inchiostro); }
+        .downloads-category h2 {
+            margin: 0; max-width: 22ch; color: inherit;
+            font-size: clamp(1.35rem, 1rem + 1vw, 1.7rem); line-height: 1.2;
+        }
+        .downloads-category p { margin: 0; color: var(--tenue); }
+
+        /* Titolo a sinistra e descrizione a destra, come le sezioni di «Che cos'è TTR-SUITE»;
+           le schede dei download sotto, a tutta larghezza. */
+        .dl-testa,
+        .dl-breve {
+            display: grid;
+            grid-template-columns: minmax(0, 4fr) minmax(0, 7fr);
+            gap: 1rem clamp(1.5rem, 5vw, 4.5rem);
+            align-items: start;
+        }
+        .dl-testa { margin-bottom: 1.75rem; }
+        .dl-testa p,
+        .dl-testo { max-width: 42rem; }
+        .dl-testo > * + * { margin-top: 1.25rem; }
+
+        .downloads-subgroup {
+            display: block; margin: 0 0 1rem; padding: 0 0 0.4rem;
+            border-bottom: 2px solid var(--blu); width: fit-content;
+            font-size: 1.05rem; font-weight: 650; line-height: 1.35; color: var(--inchiostro);
+        }
+        .downloads-grid + .downloads-subgroup { margin-top: 2.25rem; }
+
+        /* Le schede dei download. */
+        .downloads-grid { grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr)); gap: 1rem; margin: 0; }
+        .download-item {
+            padding: 1.1rem 1.25rem 1.2rem; background: var(--carta);
+            border: 1px solid var(--filo); border-radius: 4px; box-shadow: none; transition: none;
+        }
+        .download-item:hover { transform: none; box-shadow: none; }
+        .download-info h3 { margin: 0 0 0.35rem; color: inherit; font-size: 1.1rem; font-weight: 650; line-height: 1.3; }
+        .download-info p { margin: 0 0 1.1rem; color: var(--tenue); font-size: 0.975rem; line-height: 1.5; }
+        .download-links { gap: 0.6rem; }
+        .download-links .btn {
+            display: inline-block; margin: 0; padding: 0.55rem 0.9rem;
+            background: transparent; color: var(--blu); box-shadow: inset 0 0 0 1.5px var(--blu);
+            font-size: 0.95rem; font-weight: 600; line-height: 1.2; border-radius: 4px; transition: none;
+        }
+        .download-links .btn:hover { background: var(--blu); color: #ffffff; transform: none; }
+
+        /* Area clienti. */
+        .client-access-form,
+        .client-files { padding: 1.25rem 1.5rem 1.4rem; border: 1px solid var(--filo); border-radius: 4px; box-shadow: none; }
+        .dl-testo .client-access-form,
+        .dl-testo .client-files { margin: 1.25rem 0 0; }
+        /* In riga, anche sugli schermi stretti: l'etichetta e il campo, poi il pulsante (styles.css li metteva in colonna
+           con un'etichetta alta 80 px). */
+        .client-access-form .form-group { display: flex; flex-direction: row; flex-wrap: wrap; gap: 0.75rem 1rem; align-items: center; margin: 0; }
+        .client-access-form label { flex: 0 0 auto; margin: 0; color: inherit; font-size: 1rem; font-weight: 600; }
+        .client-access-form input {
+            flex: 1 1 12rem; min-width: 0; padding: 0.7rem 0.8rem; border: 1px solid var(--tenue); border-radius: 4px;
+            font: inherit; font-size: 1rem; color: var(--inchiostro); background: var(--carta); transition: none;
+        }
+        .client-access-form input:focus { border-color: var(--blu); }
+        .client-access-form input:focus-visible { outline: 3px solid var(--rubrica); outline-offset: 2px; }
+        .client-access-form .btn { flex: 0 0 auto; margin: 0; }
+        .help-text { margin-top: 1rem; font-size: 0.975rem; color: var(--tenue); }
+        .help-text a,
+        .no-files-message a,
+        .instruction-item a { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+        .client-files h3 { margin: 0 0 1rem; color: inherit; font-size: 1.2rem; font-weight: 650; }
+        .client-files .downloads-grid { grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); }
+        .loading-message,
+        .no-files-message { padding: 1rem 0; text-align: left; color: var(--tenue); }
+        .client-instructions { margin-top: 1.25rem; padding: 0.8rem 1rem; background: var(--fondo); border-left: 4px solid var(--blu); border-radius: 0; }
+
+        /* Istruzioni: un elenco a righe, come i materiali di «Che cos'è TTR-SUITE». */
+        .instructions-content { padding: 0; background: none; border-top: 1px solid var(--filo); border-radius: 0; box-shadow: none; }
+        .instruction-item { display: block; margin: 0; padding: 0.7rem 0; background: none; border-bottom: 1px solid var(--filo); border-radius: 0; }
+        .instruction-item p { color: inherit; line-height: 1.5; }
+
+        @media (max-width: 900px) {
+            .dl-testa,
+            .dl-breve { grid-template-columns: minmax(0, 1fr); }
+        }
+        @media (max-width: 768px) {
+            .download-links { justify-content: flex-start; }
+        }
+    </style>
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <header id="header">
-        <div class="header-container">
-            <a href="index.html#home" class="logo-link">
-                <img src="assets/logo.png" alt="Aviolab AI Logo">
-                <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+    <a class="salta" href="#contenuto" data-i18n="salta">Vai al contenuto</a>
+
+    <header class="testata su-notte">
+        <div class="contenitore testata__riga">
+            <a class="marchio" href="index.html" aria-label="Aviolab AI, pagina iniziale" data-i18n-aria-label="marchio_home">
+                <img class="marchio__scudo" src="assets/logo-144.png" alt="" width="118" height="144">
+                <img class="marchio__scritta" src="assets/logo-scritta.svg" alt="" width="170" height="18">
             </a>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="index.html#mission" class="nav-link" data-i18n="nav_mission">Mission</a></li>
-                    <li><a href="index.html#products" class="nav-link" data-i18n="nav_solutions">Solutions</a></li>
-                    <li><a href="pa-locale.html" class="nav-link">PA Locale</a></li>
-                    <li><a href="ip-legal.html" class="nav-link">IP Legal</a></li>
-                    <li><a href="index.html#about" class="nav-link" data-i18n="nav_about">About</a></li>
-                    <li><a href="index.html#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
-                    <li><a href="dicono-di-noi.html" class="nav-link" data-i18n="nav_press">In the press</a></li>
-                    <li><a href="downloads.html" class="nav-link" style="color: var(--highlight-color) !important; font-weight: bold;" data-i18n="nav_download">Download</a></li>
+            <button class="menu__apri" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+            <nav class="menu" id="menu" aria-label="Sezioni del sito" data-i18n-aria-label="menu_sezioni">
+                <ul class="menu__voci">
+                    <li><a href="pa-locale.html" data-i18n="m_prodotto">Il prodotto</a></li>
+                    <li><a href="pa-locale-in-azione.html" data-i18n="m_lavora">Come lavora</a></li>
+                    <li><a href="che-cos-e-ttr-suite.html" data-i18n="m_semplice">In parole semplici</a></li>
+                    <li><a href="dicono-di-noi.html" data-i18n="m_stampa">Dicono di noi</a></li>
+                    <li><a href="downloads.html" aria-current="page" data-i18n="m_download">Download</a></li>
                 </ul>
+                <a class="pulsante pulsante--piccolo" href="index.html#contact" data-i18n="azione_prova">Chieda una prova gratuita</a>
+                <div class="language-selector lingue" role="group" aria-label="Lingua" data-i18n-aria-label="lingua_gruppo">
+                    <button type="button" class="lang-option" data-lang="it" lang="it" aria-pressed="true"><span aria-hidden="true">IT</span><span class="solo-lettori">Italiano</span></button>
+                    <button type="button" class="lang-option" data-lang="en" lang="en" aria-pressed="false"><span aria-hidden="true">EN</span><span class="solo-lettori">English</span></button>
+                </div>
             </nav>
-            <div class="language-selector">
-                <div class="lang-option" data-lang="en">
-                    <img src="assets/images/flags/flag-gb.svg" alt="English" class="flag-icon"> EN
-                </div>
-                <div class="lang-option" data-lang="it">
-                    <img src="assets/images/flags/flag-it.svg" alt="Italiano" class="flag-icon"> IT
-                </div>
-            </div>
-            <div class="mobile-menu-btn">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
         </div>
     </header>
 
-    <!-- Downloads Section -->
-    <section class="section downloads-section">
+    <main id="contenuto">
+
+    <!-- APERTURA -->
+    <section class="apertura-pagina su-blu">
         <div class="container">
-            <div class="section-header">
-                <h1 data-i18n="downloads_title">Downloads</h1>
-                <div class="underline"></div>
-                <p class="section-subtitle" data-i18n="downloads_subtitle">Access our resources and client software</p>
-            </div>
-
-            <!-- Public Downloads -->
-            <div class="downloads-category">
-                <h2 data-i18n="downloads_public_title">Public Resources</h2>
-                <p data-i18n="downloads_public_description">Free software and resources available for everyone</p>
-                <div class="downloads-grid" id="public-downloads">
-                    <!-- Public files will be loaded dynamically -->
-                </div>
-            </div>
-
-            <!-- Documentation Section -->
-            <div class="downloads-category">
-                <h2 data-i18n="downloads_doc_title">Documentation</h2>
-                <p data-i18n="downloads_doc_description">Company brochures and technical documentation</p>
-                <div class="downloads-grid" id="doc-downloads">
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-file-pdf"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="download_brochure">Aviolab AI &mdash; Company brochure</h3>
-                            <p data-i18n="download_brochure_desc">Company overview: who we are, what we ship, how we approach AI in IP and the public sector. Available in English and Italian.</p>
-                            <div class="download-links" style="flex-wrap:nowrap;">
-                                <a href="assets/brochures/aviolab-ai-company-overview-en.pdf" download class="btn btn-small" data-lang="en" style="white-space:nowrap;">
-                                    <i class="fas fa-download"></i> <span data-i18n="download_english">English</span>
-                                </a>
-                                <a href="assets/brochures/aviolab-ai-company-overview-it.pdf" download class="btn btn-small" data-lang="it" style="white-space:nowrap;">
-                                    <i class="fas fa-download"></i> <span data-i18n="download_italian">Italiano</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-file-pdf"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="download_pa_brochure">TTR-SUITE per la PA Locale &mdash; Brochure</h3>
-                            <p data-i18n="download_pa_brochure_desc">Commercial overview of the suite for Italian municipalities: capabilities, use cases, installation model, licensing.</p>
-                            <div class="download-links">
-                                <a href="assets/downloads/ttr-suite-pa-brochure.pdf" target="_blank" rel="noopener" class="btn btn-small">
-                                    <i class="fas fa-download"></i> PDF (1 MB)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-file-signature"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="download_pa_agid">TTR-SUITE per la PA Locale &mdash; AGID comparative sheet</h3>
-                            <p data-i18n="download_pa_agid_desc">Digitally signed comparative sheet drafted under the AGID evaluation scheme for software solutions for the Italian Public Administration.</p>
-                            <div class="download-links">
-                                <a href="assets/downloads/ttr-suite-pa-scheda-agid.pdf" target="_blank" rel="noopener" class="btn btn-small">
-                                    <i class="fas fa-download"></i> <span data-i18n="download_signed_pdf">Signed PDF</span> (291 KB)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-rocket"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="download_quickstart1">Quick start 1: first steps &mdash; TTR-SUITE PA Locale</h3>
-                            <p data-i18n="download_quickstart1_desc">One-page A4 sheet to keep next to the monitor: open one session per case, write the request in plain language, attach documents, export the act to Word, reopen earlier work. Italian only.</p>
-                            <div class="download-links">
-                                <a href="assets/downloads/ttr-suite-guida-rapida-1.pdf" target="_blank" rel="noopener" class="btn btn-small">
-                                    <i class="fas fa-download"></i> <span data-i18n="download_pdf">PDF</span> (319 KB)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-graduation-cap"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="download_quickstart2">Quick start 2: one step further &mdash; TTR-SUITE PA Locale</h3>
-                            <p data-i18n="download_quickstart2_desc">Second A4 sheet for users past the first days: the Court of Auditors and appealability reviewers, reading a whole folder of office documents, phrasings that sharpen the analysis, the SInCRO digital file, remote assistance. Italian only.</p>
-                            <div class="download-links">
-                                <a href="assets/downloads/ttr-suite-guida-rapida-2.pdf" target="_blank" rel="noopener" class="btn btn-small">
-                                    <i class="fas fa-download"></i> <span data-i18n="download_pdf">PDF</span> (156 KB)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-user-shield"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="download_quickstart3">Quick start 3: using a document in ChatGPT &mdash; TTR-SUITE PA Locale</h3>
-                            <p data-i18n="download_quickstart3_desc">Third A4 sheet: taking a document that contains personal data to ChatGPT or another external AI tool. The Suite replaces the data with placeholders on your computer, writes the restore instructions next to the copy, and puts the real values back by itself when the text returns. Italian only.</p>
-                            <div class="download-links">
-                                <a href="assets/downloads/ttr-suite-guida-rapida-3.pdf" target="_blank" rel="noopener" class="btn btn-small">
-                                    <i class="fas fa-download"></i> <span data-i18n="download_pdf">PDF</span> (115 KB)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-book"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="download_quickstart4">Quick start 4: the Entity Library &mdash; TTR-SUITE PA Locale</h3>
-                            <p data-i18n="download_quickstart4_desc">Fourth A4 sheet: statute and regulations to cite, act templates to reuse, office acts at hand, all on the Entity's computer. The agents consult it on their own and recheck the cited rules at every reuse.</p>
-                            <div class="download-links">
-                                <a href="assets/downloads/ttr-suite-guida-rapida-4.pdf" target="_blank" rel="noopener" class="btn btn-small">
-                                    <i class="fas fa-download"></i> <span data-i18n="download_pdf">PDF</span> (250 KB)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-film"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="download_brochure_film">Video: TTR-SUITE in eight minutes, what it is and how it works &mdash; TTR-SUITE PA Locale</h3>
-                            <p data-i18n="download_brochure_film_desc">Video brochure for a first encounter with the Suite: the workstation and where the data stays, a real question with analysis, legal check and report, the 43 artificial intelligences, personal data replaced by labels before leaving the municipality, the Electronic File, the Entity Library, support, updates, the compliance documentation, and how to get started. Italian only.</p>
-                            <div class="download-links">
-                                <a href="download/brochure-ttr-suite.mp4" class="btn btn-small">
-                                    <i class="fas fa-download"></i> MP4 (8:23, 43 MB)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-film"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="download_tutorial_bib">Video: the Entity Library, what it is, how to switch it on, how to use it &mdash; TTR-SUITE PA Locale</h3>
-                            <p data-i18n="download_tutorial_bib_desc">Five-minute tutorial with real screenshots of the Suite: what the Entity Library does, how a workstation is activated in two steps (the updater run as administrator, then the node from the Library menu) and how regulations and act templates are shared with the other workstations. Italian only.</p>
-                            <div class="download-links">
-                                <a href="download/tutorial-biblioteca-ente.mp4" class="btn btn-small">
-                                    <i class="fas fa-download"></i> MP4 (5:45, 49 MB)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Certifications Section -->
-            <div class="downloads-category" id="certificazioni">
-                <h2 data-i18n="downloads_cert_title">Certifications</h2>
-                <p data-i18n="downloads_cert_description">The full compliance set of the two editions of TTR-SUITE, digitally signed by the producer, exactly as it is handed to customers: AI Act risk classification and transparency notice, GDPR Data Processing Agreement under Zero Data Retention, technical specification and supporting documents.</p>
-                <h3 class="downloads-subgroup" data-i18n="cert_group_pa">TTR-SUITE per la PA Locale &mdash; documentation v7.0</h3>
-                <div class="downloads-grid">
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-list-check"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="cert_readme">Compliance documentation &mdash; contents of the set</h3>
-                            <p data-i18n="cert_readme_desc">Map of the whole set: which document answers which rule, from the AI Act to the GDPR, the Italian AI framework law 132/2025 and the AgID guidelines for public administrations.</p>
-                            <div class="download-links">
-                                <a href="assets/downloads/ttr-suite-pa-readme-conformita.pdf" target="_blank" rel="noopener" class="btn btn-small">
-                                    <i class="fas fa-download"></i> <span data-i18n="download_signed_pdf">Signed PDF</span> (260 KB)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-file-shield"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="cert_classrisk">AI Act risk classification</h3>
-                            <p data-i18n="cert_classrisk_desc">Formal risk classification under EU Regulation 2024/1689: art. 5 prohibited practices, art. 6 and Annex III, final classification at Limited Risk under art. 50.</p>
-                            <div class="download-links">
-                                <a href="assets/downloads/ttr-suite-pa-classificazione-rischio-ai-act.pdf" target="_blank" rel="noopener" class="btn btn-small">
-                                    <i class="fas fa-download"></i> <span data-i18n="download_signed_pdf">Signed PDF</span> (354 KB)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-file-lines"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="cert_techspec">Technical specification</h3>
-                            <p data-i18n="cert_techspec_desc">Technical documentation under AI Act art. 50: architecture, AI model, security measures, capabilities and limitations, human oversight.</p>
-                            <div class="download-links">
-                                <a href="assets/downloads/ttr-suite-pa-scheda-tecnica.pdf" target="_blank" rel="noopener" class="btn btn-small">
-                                    <i class="fas fa-download"></i> <span data-i18n="download_signed_pdf">Signed PDF</span> (354 KB)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-file-circle-check"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="cert_transparency">AI Act transparency notice</h3>
-                            <p data-i18n="cert_transparency_desc">Notice for the people who use the system, under AI Act art. 50: how the AI works, what it can and cannot do, the role of the human operator, accuracy figures.</p>
-                            <div class="download-links">
-                                <a href="assets/downloads/ttr-suite-pa-informativa-trasparenza.pdf" target="_blank" rel="noopener" class="btn btn-small">
-                                    <i class="fas fa-download"></i> <span data-i18n="download_signed_pdf">Signed PDF</span> (342 KB)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-file-contract"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="cert_dpa">DPA Zero Data Retention (GDPR)</h3>
-                            <p data-i18n="cert_dpa_desc">Data Processing Agreement built on the Zero Data Retention architecture: GDPR roles, data flows, encryption, inference provider, transfers outside the EU, handling of data breaches.</p>
-                            <div class="download-links">
-                                <a href="assets/downloads/ttr-suite-pa-dpa-zdr-gdpr.pdf" target="_blank" rel="noopener" class="btn btn-small">
-                                    <i class="fas fa-download"></i> <span data-i18n="download_signed_pdf">Signed PDF</span> (332 KB)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-file-signature"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="cert_agid">AGID comparative sheet</h3>
-                            <p data-i18n="cert_agid_desc">Comparative sheet for the procurement process of Italian public bodies, under the Digital Administration Code (artt. 68-69) and art. 77 of Legislative Decree 36/2023.</p>
-                            <div class="download-links">
-                                <a href="assets/downloads/ttr-suite-pa-scheda-agid.pdf" target="_blank" rel="noopener" class="btn btn-small">
-                                    <i class="fas fa-download"></i> <span data-i18n="download_signed_pdf">Signed PDF</span> (291 KB)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-comment-dots"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="cert_uitexts">Ready-made AI Act interface texts</h3>
-                            <p data-i18n="cert_uitexts_desc">The art. 50 transparency notice already written in three lengths, full, banner and footer, ready to be placed in the interface and in generated documents.</p>
-                            <div class="download-links">
-                                <a href="assets/downloads/ttr-suite-pa-testi-ui-ai-act.pdf" target="_blank" rel="noopener" class="btn btn-small">
-                                    <i class="fas fa-download"></i> <span data-i18n="download_signed_pdf">Signed PDF</span> (259 KB)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-language"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="cert_multilang">Language support</h3>
-                            <p data-i18n="cert_multilang_desc">Which languages the system handles at three separate levels: the documents it reads and writes, the chat, and the interface itself.</p>
-                            <div class="download-links">
-                                <a href="assets/downloads/ttr-suite-pa-supporto-multilingua.pdf" target="_blank" rel="noopener" class="btn btn-small">
-                                    <i class="fas fa-download"></i> <span data-i18n="download_signed_pdf">Signed PDF</span> (252 KB)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <h3 class="downloads-subgroup" data-i18n="cert_group_ent">TTR-SUITE Enterprise &mdash; documentation v7.0</h3>
-                <div class="downloads-grid">
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-list-check"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="cert_readme">Compliance documentation &mdash; contents of the set</h3>
-                            <p data-i18n="cert_readme_desc">Map of the whole set: which document answers which rule, from the AI Act to the GDPR, the Italian AI framework law 132/2025 and the AgID guidelines for public administrations.</p>
-                            <div class="download-links">
-                                <a href="assets/downloads/ttr-suite-ent-readme-conformita.pdf" target="_blank" rel="noopener" class="btn btn-small">
-                                    <i class="fas fa-download"></i> <span data-i18n="download_signed_pdf">Signed PDF</span> (258 KB)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-file-shield"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="cert_classrisk">AI Act risk classification</h3>
-                            <p data-i18n="cert_classrisk_desc">Formal risk classification under EU Regulation 2024/1689: art. 5 prohibited practices, art. 6 and Annex III, final classification at Limited Risk under art. 50.</p>
-                            <div class="download-links">
-                                <a href="assets/downloads/ttr-suite-ent-classificazione-rischio-ai-act.pdf" target="_blank" rel="noopener" class="btn btn-small">
-                                    <i class="fas fa-download"></i> <span data-i18n="download_signed_pdf">Signed PDF</span> (340 KB)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-file-lines"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="cert_techspec">Technical specification</h3>
-                            <p data-i18n="cert_techspec_desc">Technical documentation under AI Act art. 50: architecture, AI model, security measures, capabilities and limitations, human oversight.</p>
-                            <div class="download-links">
-                                <a href="assets/downloads/ttr-suite-ent-scheda-tecnica.pdf" target="_blank" rel="noopener" class="btn btn-small">
-                                    <i class="fas fa-download"></i> <span data-i18n="download_signed_pdf">Signed PDF</span> (345 KB)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-file-circle-check"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="cert_transparency">AI Act transparency notice</h3>
-                            <p data-i18n="cert_transparency_desc">Notice for the people who use the system, under AI Act art. 50: how the AI works, what it can and cannot do, the role of the human operator, accuracy figures.</p>
-                            <div class="download-links">
-                                <a href="assets/downloads/ttr-suite-ent-informativa-trasparenza.pdf" target="_blank" rel="noopener" class="btn btn-small">
-                                    <i class="fas fa-download"></i> <span data-i18n="download_signed_pdf">Signed PDF</span> (337 KB)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-file-contract"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="cert_dpa">DPA Zero Data Retention (GDPR)</h3>
-                            <p data-i18n="cert_dpa_desc">Data Processing Agreement built on the Zero Data Retention architecture: GDPR roles, data flows, encryption, inference provider, transfers outside the EU, handling of data breaches.</p>
-                            <div class="download-links">
-                                <a href="assets/downloads/ttr-suite-ent-dpa-zdr-gdpr.pdf" target="_blank" rel="noopener" class="btn btn-small">
-                                    <i class="fas fa-download"></i> <span data-i18n="download_signed_pdf">Signed PDF</span> (324 KB)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-comment-dots"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="cert_uitexts">Ready-made AI Act interface texts</h3>
-                            <p data-i18n="cert_uitexts_desc">The art. 50 transparency notice already written in three lengths, full, banner and footer, ready to be placed in the interface and in generated documents.</p>
-                            <div class="download-links">
-                                <a href="assets/downloads/ttr-suite-ent-testi-ui-ai-act.pdf" target="_blank" rel="noopener" class="btn btn-small">
-                                    <i class="fas fa-download"></i> <span data-i18n="download_signed_pdf">Signed PDF</span> (260 KB)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="download-item">
-                        <div class="download-icon">
-                            <i class="fas fa-language"></i>
-                        </div>
-                        <div class="download-info">
-                            <h3 data-i18n="cert_multilang">Language support</h3>
-                            <p data-i18n="cert_multilang_desc">Which languages the system handles at three separate levels: the documents it reads and writes, the chat, and the interface itself.</p>
-                            <div class="download-links">
-                                <a href="assets/downloads/ttr-suite-ent-supporto-multilingua.pdf" target="_blank" rel="noopener" class="btn btn-small">
-                                    <i class="fas fa-download"></i> <span data-i18n="download_signed_pdf">Signed PDF</span> (253 KB)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Client Access -->
-            <div class="downloads-category">
-                <h2 data-i18n="downloads_client_title">Client Area</h2>
-                <p data-i18n="downloads_client_description">Dedicated software and resources for our clients</p>
-                
-                <div class="client-access-form">
-                    <div class="form-group">
-                        <label for="client-id" data-i18n="downloads_client_id_label">Client ID:</label>
-                        <input type="text" id="client-id" placeholder="Enter your Client ID" data-i18n-placeholder="downloads_client_id_placeholder">
-                        <button type="button" id="access-client-area" class="btn btn-primary" data-i18n="downloads_access_btn">Access Files</button>
-                    </div>
-                    <p class="help-text" data-i18n="downloads_help_text">If you don't have a Client ID, please contact us at <a href="mailto:info@aviolab.ai">info@aviolab.ai</a></p>
-                </div>
-
-                <div class="client-files" id="client-files" style="display: none;">
-                    <h3 id="client-area-title">Client Files</h3>
-                    <div class="downloads-grid" id="client-downloads">
-                        <!-- Client files will be loaded dynamically -->
-                    </div>
-                </div>
-            </div>
-
-            <!-- Instructions -->
-            <div class="downloads-category">
-                <h2 data-i18n="downloads_instructions_title">Instructions</h2>
-                <div class="instructions-content">
-                    <div class="instruction-item">
-                        <i class="fas fa-info-circle"></i>
-                        <p data-i18n="downloads_instruction_1">Files may be password protected. Check your email for access credentials.</p>
-                    </div>
-                    <div class="instruction-item">
-                        <i class="fas fa-shield-alt"></i>
-                        <p data-i18n="downloads_instruction_2">All software is provided under our standard license agreement.</p>
-                    </div>
-                    <div class="instruction-item">
-                        <i class="fas fa-headset"></i>
-                        <p data-i18n="downloads_instruction_3">For technical support, contact <a href="mailto:info@aviolab.ai">info@aviolab.ai</a></p>
-                    </div>
-                </div>
-            </div>
+            <h1 data-i18n="downloads_title">Download</h1>
+            <p class="lead" data-i18n="downloads_subtitle">Accedi alle nostre risorse e software per clienti</p>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <a href="index.html#home" class="logo-link">
-                        <img src="assets/logo.png" alt="Aviolab AI Logo">
-                        <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
-                    </a>
-                    <p data-i18n="footer_tagline">Intelligent Document Analysis</p>
+    <div class="container dl-corpo">
+
+            <!-- Public Downloads -->
+            <section class="downloads-category">
+                <div class="dl-testa">
+                    <h2 data-i18n="downloads_public_title">Risorse Pubbliche</h2>
+                    <p data-i18n="downloads_public_description">Software e risorse gratuite disponibili per tutti</p>
                 </div>
-                <div class="footer-links">
-                    <h3 data-i18n="footer_quick_links">Quick Links</h3>
+                <div class="downloads-grid" id="public-downloads">
+                    <!-- Public files will be loaded dynamically -->
+                </div>
+            </section>
+
+            <!-- Documentation Section -->
+            <section class="downloads-category">
+                <div class="dl-testa">
+                    <h2 data-i18n="downloads_doc_title">Documentazione</h2>
+                    <p data-i18n="downloads_doc_description">Brochure aziendali e documentazione tecnica</p>
+                </div>
+                <div class="downloads-grid" id="doc-downloads">
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="download_brochure">Aviolab AI &mdash; Brochure aziendale</h3>
+                            <p data-i18n="download_brochure_desc">Panoramica aziendale: chi siamo, cosa rilasciamo, come affrontiamo l'AI nell'IP e nel settore pubblico. Disponibile in inglese e italiano.</p>
+                            <div class="download-links" style="flex-wrap:nowrap;">
+                                <a href="assets/brochures/aviolab-ai-company-overview-en.pdf" download class="btn btn-small" data-lang="en" style="white-space:nowrap;">
+                                    <span data-i18n="download_english">English</span>
+                                </a>
+                                <a href="assets/brochures/aviolab-ai-company-overview-it.pdf" download class="btn btn-small" data-lang="it" style="white-space:nowrap;">
+                                    <span data-i18n="download_italian">Italiano</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="download_pa_brochure">TTR-SUITE per la PA Locale &mdash; Brochure</h3>
+                            <p data-i18n="download_pa_brochure_desc">Sintesi commerciale della suite per i Comuni italiani: capability, casi d'uso, modello di installazione, licensing.</p>
+                            <div class="download-links">
+                                <a href="assets/downloads/ttr-suite-pa-brochure.pdf" target="_blank" rel="noopener" class="btn btn-small">
+                                    PDF (1 MB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="download_pa_agid">TTR-SUITE per la PA Locale &mdash; Scheda comparativa AGID</h3>
+                            <p data-i18n="download_pa_agid_desc">Scheda comparativa firmata digitalmente, redatta secondo lo schema di valutazione AGID per le soluzioni software destinate alla Pubblica Amministrazione italiana.</p>
+                            <div class="download-links">
+                                <a href="assets/downloads/ttr-suite-pa-scheda-agid.pdf" target="_blank" rel="noopener" class="btn btn-small">
+                                    <span data-i18n="download_signed_pdf">PDF firmato</span> (291 KB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="download_quickstart1">Guida rapida 1: i primi passi &mdash; TTR-SUITE per la PA Locale</h3>
+                            <p data-i18n="download_quickstart1_desc">Foglio A4 da tenere accanto al monitor: una sessione per ogni pratica, la richiesta scritta in italiano corrente, gli allegati, l'esportazione dell'atto in Word, il ritorno su un lavoro dei giorni prima.</p>
+                            <div class="download-links">
+                                <a href="assets/downloads/ttr-suite-guida-rapida-1.pdf" target="_blank" rel="noopener" class="btn btn-small">
+                                    <span data-i18n="download_pdf">PDF</span> (319 KB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="download_quickstart2">Guida rapida 2: un passo avanti &mdash; TTR-SUITE per la PA Locale</h3>
+                            <p data-i18n="download_quickstart2_desc">Secondo foglio A4, per chi ha superato i primi giorni: i revisori Corte dei Conti e Impugnabilità, la lettura di un'intera cartella dell'ufficio, le frasi che affinano l'analisi, il Fascicolo Informatico SInCRO, la richiesta di assistenza.</p>
+                            <div class="download-links">
+                                <a href="assets/downloads/ttr-suite-guida-rapida-2.pdf" target="_blank" rel="noopener" class="btn btn-small">
+                                    <span data-i18n="download_pdf">PDF</span> (156 KB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="download_quickstart3">Guida rapida 3: usare un documento in ChatGPT &mdash; TTR-SUITE per la PA Locale</h3>
+                            <p data-i18n="download_quickstart3_desc">Terzo foglio A4: portare in ChatGPT (o in un altro strumento esterno) un documento che contiene dati personali. La Suite sostituisce i dati con segnaposto sul tuo computer, salva le istruzioni per ripristinare accanto alla copia e rimette i valori veri da sola quando il testo torna.</p>
+                            <div class="download-links">
+                                <a href="assets/downloads/ttr-suite-guida-rapida-3.pdf" target="_blank" rel="noopener" class="btn btn-small">
+                                    <span data-i18n="download_pdf">PDF</span> (115 KB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="download_quickstart4">Guida rapida 4: la Biblioteca dell'Ente &mdash; TTR-SUITE per la PA Locale</h3>
+                            <p data-i18n="download_quickstart4_desc">Quarto foglio A4: lo statuto e i regolamenti da citare, i modelli di atto da riusare, gli atti dell'ufficio a portata di mano. Tutto resta nel Comune; lo statuto, i regolamenti e i modelli di atto sono condivisi fra le postazioni senza un server. Gli agenti consultano la Biblioteca da soli e ricontrollano le norme citate a ogni riuso.</p>
+                            <div class="download-links">
+                                <a href="assets/downloads/ttr-suite-guida-rapida-4.pdf" target="_blank" rel="noopener" class="btn btn-small">
+                                    <span data-i18n="download_pdf">PDF</span> (250 KB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="download_brochure_film">Filmato: TTR-SUITE in otto minuti, che cos'è e come lavora &mdash; TTR-SUITE per la PA Locale</h3>
+                            <p data-i18n="download_brochure_film_desc">Brochure video per chi incontra la Suite per la prima volta: la postazione e dove restano i dati, una domanda vera con analisi, verifica normativa e report, le 43 intelligenze artificiali, i dati personali sostituiti da etichette prima di uscire dal Comune, il Fascicolo Informatico, la Biblioteca dell'Ente, l'assistenza, gli aggiornamenti, la documentazione di conformità, e come si comincia. Solo in italiano.</p>
+                            <div class="download-links">
+                                <a href="download/brochure-ttr-suite.mp4" class="btn btn-small">
+                                    MP4 (8:23, 43 MB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="download_tutorial_bib">Filmato: la Biblioteca dell'Ente, che cos'è, come si attiva, come si usa &mdash; TTR-SUITE per la PA Locale</h3>
+                            <p data-i18n="download_tutorial_bib_desc">Tutorial di cinque minuti con le schermate vere della Suite: che cosa fa la Biblioteca dell'Ente, come si attiva la postazione in due passi (l'aggiornamento da amministratore e il nodo dal menu Biblioteca) e come si condividono regolamenti e modelli di atto con le altre postazioni. Solo in italiano.</p>
+                            <div class="download-links">
+                                <a href="download/tutorial-biblioteca-ente.mp4" class="btn btn-small">
+                                    MP4 (5:45, 49 MB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Certifications Section -->
+            <section class="downloads-category" id="certificazioni">
+                <div class="dl-testa">
+                    <h2 data-i18n="downloads_cert_title">Certificazioni</h2>
+                    <p data-i18n="downloads_cert_description">Il set di conformità completo delle due edizioni di TTR-SUITE, firmato digitalmente dal produttore, nella stessa forma in cui viene consegnato ai clienti: classificazione del rischio e informativa sulla trasparenza ai sensi dell'AI Act, accordo sul trattamento dei dati in regime di Zero Data Retention, scheda tecnica e documenti di corredo.</p>
+                </div>
+                <h3 class="downloads-subgroup" data-i18n="cert_group_pa">TTR-SUITE per la PA Locale &mdash; documentazione v7.0</h3>
+                <div class="downloads-grid">
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="cert_readme">Documentazione di conformità &mdash; contenuto del set</h3>
+                            <p data-i18n="cert_readme_desc">La mappa dell'intero set: quale documento risponde a quale norma, dall'AI Act al GDPR, dalla legge quadro 132/2025 alle linee guida AgID per le pubbliche amministrazioni.</p>
+                            <div class="download-links">
+                                <a href="assets/downloads/ttr-suite-pa-readme-conformita.pdf" target="_blank" rel="noopener" class="btn btn-small">
+                                    <span data-i18n="download_signed_pdf">PDF firmato</span> (260 KB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="cert_classrisk">Classificazione del rischio AI Act</h3>
+                            <p data-i18n="cert_classrisk_desc">Classificazione formale del rischio ai sensi del Regolamento UE 2024/1689: pratiche vietate dall'art. 5, art. 6 e Allegato III, classificazione finale a Rischio Limitato ai sensi dell'art. 50.</p>
+                            <div class="download-links">
+                                <a href="assets/downloads/ttr-suite-pa-classificazione-rischio-ai-act.pdf" target="_blank" rel="noopener" class="btn btn-small">
+                                    <span data-i18n="download_signed_pdf">PDF firmato</span> (354 KB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="cert_techspec">Scheda tecnica</h3>
+                            <p data-i18n="cert_techspec_desc">Documentazione tecnica ai sensi dell'art. 50 AI Act: architettura, modello di intelligenza artificiale, misure di sicurezza, capacità e limiti, sorveglianza umana.</p>
+                            <div class="download-links">
+                                <a href="assets/downloads/ttr-suite-pa-scheda-tecnica.pdf" target="_blank" rel="noopener" class="btn btn-small">
+                                    <span data-i18n="download_signed_pdf">PDF firmato</span> (354 KB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="cert_transparency">Informativa sulla trasparenza AI Act</h3>
+                            <p data-i18n="cert_transparency_desc">Informativa per chi usa il sistema, ai sensi dell'art. 50 AI Act: come funziona l'intelligenza artificiale, che cosa sa e non sa fare, il ruolo dell'operatore, i dati di accuratezza.</p>
+                            <div class="download-links">
+                                <a href="assets/downloads/ttr-suite-pa-informativa-trasparenza.pdf" target="_blank" rel="noopener" class="btn btn-small">
+                                    <span data-i18n="download_signed_pdf">PDF firmato</span> (342 KB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="cert_dpa">Accordo sul trattamento dei dati in Zero Data Retention (GDPR)</h3>
+                            <p data-i18n="cert_dpa_desc">Accordo sul trattamento dei dati fondato sull'architettura Zero Data Retention: ruoli GDPR, flussi dei dati, cifratura, fornitore di inferenza, trasferimenti fuori dall'Unione europea, gestione delle violazioni.</p>
+                            <div class="download-links">
+                                <a href="assets/downloads/ttr-suite-pa-dpa-zdr-gdpr.pdf" target="_blank" rel="noopener" class="btn btn-small">
+                                    <span data-i18n="download_signed_pdf">PDF firmato</span> (332 KB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="cert_agid">Scheda comparativa AGID</h3>
+                            <p data-i18n="cert_agid_desc">Scheda comparativa per l'istruttoria di acquisizione degli enti pubblici, ai sensi del Codice dell'Amministrazione Digitale (artt. 68-69) e dell'art. 77 del D.Lgs. 36/2023.</p>
+                            <div class="download-links">
+                                <a href="assets/downloads/ttr-suite-pa-scheda-agid.pdf" target="_blank" rel="noopener" class="btn btn-small">
+                                    <span data-i18n="download_signed_pdf">PDF firmato</span> (291 KB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="cert_uitexts">Testi pronti per l'interfaccia AI Act</h3>
+                            <p data-i18n="cert_uitexts_desc">L'informativa dell'art. 50 già scritta in tre misure, completa, banner e piè di pagina, pronta da inserire nell'interfaccia e nei documenti generati.</p>
+                            <div class="download-links">
+                                <a href="assets/downloads/ttr-suite-pa-testi-ui-ai-act.pdf" target="_blank" rel="noopener" class="btn btn-small">
+                                    <span data-i18n="download_signed_pdf">PDF firmato</span> (259 KB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="cert_multilang">Supporto linguistico</h3>
+                            <p data-i18n="cert_multilang_desc">Quali lingue il sistema gestisce su tre piani distinti: i documenti che legge e scrive, la chat, e l'interfaccia.</p>
+                            <div class="download-links">
+                                <a href="assets/downloads/ttr-suite-pa-supporto-multilingua.pdf" target="_blank" rel="noopener" class="btn btn-small">
+                                    <span data-i18n="download_signed_pdf">PDF firmato</span> (252 KB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="downloads-subgroup" data-i18n="cert_group_ent">TTR-SUITE Enterprise &mdash; documentazione v7.0</h3>
+                <div class="downloads-grid">
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="cert_readme">Documentazione di conformità &mdash; contenuto del set</h3>
+                            <p data-i18n="cert_readme_desc">La mappa dell'intero set: quale documento risponde a quale norma, dall'AI Act al GDPR, dalla legge quadro 132/2025 alle linee guida AgID per le pubbliche amministrazioni.</p>
+                            <div class="download-links">
+                                <a href="assets/downloads/ttr-suite-ent-readme-conformita.pdf" target="_blank" rel="noopener" class="btn btn-small">
+                                    <span data-i18n="download_signed_pdf">PDF firmato</span> (258 KB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="cert_classrisk">Classificazione del rischio AI Act</h3>
+                            <p data-i18n="cert_classrisk_desc">Classificazione formale del rischio ai sensi del Regolamento UE 2024/1689: pratiche vietate dall'art. 5, art. 6 e Allegato III, classificazione finale a Rischio Limitato ai sensi dell'art. 50.</p>
+                            <div class="download-links">
+                                <a href="assets/downloads/ttr-suite-ent-classificazione-rischio-ai-act.pdf" target="_blank" rel="noopener" class="btn btn-small">
+                                    <span data-i18n="download_signed_pdf">PDF firmato</span> (340 KB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="cert_techspec">Scheda tecnica</h3>
+                            <p data-i18n="cert_techspec_desc">Documentazione tecnica ai sensi dell'art. 50 AI Act: architettura, modello di intelligenza artificiale, misure di sicurezza, capacità e limiti, sorveglianza umana.</p>
+                            <div class="download-links">
+                                <a href="assets/downloads/ttr-suite-ent-scheda-tecnica.pdf" target="_blank" rel="noopener" class="btn btn-small">
+                                    <span data-i18n="download_signed_pdf">PDF firmato</span> (345 KB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="cert_transparency">Informativa sulla trasparenza AI Act</h3>
+                            <p data-i18n="cert_transparency_desc">Informativa per chi usa il sistema, ai sensi dell'art. 50 AI Act: come funziona l'intelligenza artificiale, che cosa sa e non sa fare, il ruolo dell'operatore, i dati di accuratezza.</p>
+                            <div class="download-links">
+                                <a href="assets/downloads/ttr-suite-ent-informativa-trasparenza.pdf" target="_blank" rel="noopener" class="btn btn-small">
+                                    <span data-i18n="download_signed_pdf">PDF firmato</span> (337 KB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="cert_dpa">Accordo sul trattamento dei dati in Zero Data Retention (GDPR)</h3>
+                            <p data-i18n="cert_dpa_desc">Accordo sul trattamento dei dati fondato sull'architettura Zero Data Retention: ruoli GDPR, flussi dei dati, cifratura, fornitore di inferenza, trasferimenti fuori dall'Unione europea, gestione delle violazioni.</p>
+                            <div class="download-links">
+                                <a href="assets/downloads/ttr-suite-ent-dpa-zdr-gdpr.pdf" target="_blank" rel="noopener" class="btn btn-small">
+                                    <span data-i18n="download_signed_pdf">PDF firmato</span> (324 KB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="cert_uitexts">Testi pronti per l'interfaccia AI Act</h3>
+                            <p data-i18n="cert_uitexts_desc">L'informativa dell'art. 50 già scritta in tre misure, completa, banner e piè di pagina, pronta da inserire nell'interfaccia e nei documenti generati.</p>
+                            <div class="download-links">
+                                <a href="assets/downloads/ttr-suite-ent-testi-ui-ai-act.pdf" target="_blank" rel="noopener" class="btn btn-small">
+                                    <span data-i18n="download_signed_pdf">PDF firmato</span> (260 KB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download-item">
+                        <div class="download-info">
+                            <h3 data-i18n="cert_multilang">Supporto linguistico</h3>
+                            <p data-i18n="cert_multilang_desc">Quali lingue il sistema gestisce su tre piani distinti: i documenti che legge e scrive, la chat, e l'interfaccia.</p>
+                            <div class="download-links">
+                                <a href="assets/downloads/ttr-suite-ent-supporto-multilingua.pdf" target="_blank" rel="noopener" class="btn btn-small">
+                                    <span data-i18n="download_signed_pdf">PDF firmato</span> (253 KB)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Client Access -->
+            <section class="downloads-category dl-breve">
+                <h2 data-i18n="downloads_client_title">Area Clienti</h2>
+                <div class="dl-testo">
+                    <p data-i18n="downloads_client_description">Software e risorse dedicati ai nostri clienti</p>
+
+                    <div class="client-access-form">
+                        <div class="form-group">
+                            <label for="client-id" data-i18n="downloads_client_id_label">ID Cliente</label>
+                            <input type="text" id="client-id" placeholder="Inserisca il Suo ID Cliente" data-i18n-placeholder="downloads_client_id_placeholder">
+                            <button type="button" id="access-client-area" class="btn btn-primary" data-i18n="downloads_access_btn">Accedi ai File</button>
+                        </div>
+                        <p class="help-text" data-i18n="downloads_help_text">Se non ha un ID Cliente, ci contatti all'indirizzo <a href="mailto:info@aviolab.ai">info@aviolab.ai</a></p>
+                    </div>
+
+                    <div class="client-files" id="client-files" style="display: none;">
+                        <h3 id="client-area-title">Client Files</h3>
+                        <div class="downloads-grid" id="client-downloads">
+                            <!-- Client files will be loaded dynamically -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Instructions -->
+            <section class="downloads-category dl-breve">
+                <h2 data-i18n="downloads_instructions_title">Istruzioni</h2>
+                <div class="dl-testo">
+                    <div class="instructions-content">
+                        <div class="instruction-item">
+                            <p data-i18n="downloads_instruction_1">I file potrebbero essere protetti da password. Controlli la Sua email per le credenziali di accesso.</p>
+                        </div>
+                        <div class="instruction-item">
+                            <p data-i18n="downloads_instruction_2">Tutto il software è fornito secondo il nostro accordo di licenza standard.</p>
+                        </div>
+                        <div class="instruction-item">
+                            <p data-i18n="downloads_instruction_3">Per supporto tecnico, contatta <a href="mailto:info@aviolab.ai">info@aviolab.ai</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+    </div>
+
+    </main>
+
+    <footer class="piede su-notte">
+        <div class="contenitore">
+            <div class="piede__griglia">
+                <div>
+                    <a class="marchio" href="index.html" aria-label="Aviolab AI, pagina iniziale" data-i18n-aria-label="marchio_home">
+                        <img class="marchio__scudo" src="assets/logo-144.png" alt="" width="118" height="144" loading="lazy">
+                        <img class="marchio__scritta" src="assets/logo-scritta.svg" alt="" width="170" height="18">
+                    </a>
+                    <p class="piede__motto" data-i18n="piede_motto">Intelligenza artificiale per i pareri e gli atti dei Comuni.</p>
+                    <p class="piede__legale">AVIOLAB AI DI PARENTI RICCARDO<br>Via XXV Aprile 251, 16031 Pieve Ligure (GE)<br>P.IVA 02997110990, REA GE 525625</p>
+                </div>
+                <div>
+                    <h2 data-i18n="piede_prodotto">TTR-SUITE PA Locale</h2>
                     <ul>
-                        <li><a href="index.html#home">Home</a></li>
-                        <li><a href="index.html#mission" data-i18n="nav_mission">Mission</a></li>
-                        <li><a href="index.html#capabilities" data-i18n="nav_capabilities">Capabilities</a></li>
-                        <li><a href="index.html#products" data-i18n="nav_solutions">Solutions</a></li>
-                        <li><a href="che-cos-e-ttr-suite.html" data-i18n="footer_what_is_ttr">What is TTR-SUITE</a></li>
-                        <li><a href="dicono-di-noi.html" data-i18n="nav_press">In the press</a></li>
-                        <li><a href="index.html#contact" data-i18n="nav_contact">Contact</a></li>
+                        <li><a href="pa-locale.html" data-i18n="m_prodotto">Il prodotto</a></li>
+                        <li><a href="pa-locale-in-azione.html" data-i18n="m_lavora">Come lavora</a></li>
+                        <li><a href="che-cos-e-ttr-suite.html" data-i18n="m_semplice">In parole semplici</a></li>
+                        <li><a href="le-domande-del-funzionario.html" data-i18n="m_domande">Le domande del funzionario</a></li>
+                        <li><a href="dicono-di-noi.html" data-i18n="m_stampa">Dicono di noi</a></li>
+                        <li><a href="downloads.html" data-i18n="m_download">Download</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 data-i18n="piede_altro">Aviolab AI</h2>
+                    <ul>
+                        <li><a href="ip-legal.html">TTR-SUITE IP Legal</a></li>
+                        <li><a href="privacy.html">Privacy</a></li>
+                        <li><a href="mailto:info@aviolab.ai">info@aviolab.ai</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p data-i18n="footer_copyright">&copy; 2026 Aviolab AI. All rights reserved.</p>
+            <div class="piede__fondo">
+                <p data-i18n="piede_diritti">&copy; 2026 Aviolab AI. Tutti i diritti riservati.</p>
                 <p class="version-number">v1.3.43</p>
             </div>
         </div>

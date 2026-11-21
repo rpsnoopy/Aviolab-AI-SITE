@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" id="html-root">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#1e40af">
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-    <meta name="description" content="TTR-SUITE IP Legal, AI-powered analysis and drafting for legal teams and IP departments. NDAs, research and technology partnership agreements, license agreements, contract review and end-to-end patent application preparation across UIBM and EPO.">
+    <meta name="theme-color" content="#1b3a93">
+    <meta name="description" content="TTR-SUITE IP Legal, analisi e redazione con l'intelligenza artificiale per team legali e dipartimenti IP. NDA, accordi di ricerca e di partnership tecnologica, contratti di licenza, revisione dei contratti e preparazione completa di domande di brevetto per UIBM ed EPO.">
     <meta name="author" content="Riccardo Parenti">
     <meta name="keywords" content="Agentic AI, AI agents, legal tech, IP, intellectual property, NDA, contract analysis, contract drafting, license agreement, research agreement, patent drafting, patent application, UIBM, EPO, TTR-SUITE">
-    <title>TTR-SUITE IP Legal, AI analysis, drafting and patents | Aviolab AI</title>
+    <title data-i18n="ipl2_meta_title">TTR-SUITE IP Legal, analisi, redazione e brevetti con l'IA | Aviolab AI</title>
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://aviolab.ai/ip-legal.html">
@@ -17,14 +16,14 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Aviolab AI">
     <meta property="og:url" content="https://aviolab.ai/ip-legal.html">
-    <meta property="og:title" content="TTR-SUITE IP Legal, AI analysis, drafting and patents | Aviolab AI">
-    <meta property="og:description" content="AI-powered analysis and drafting for legal teams and IP departments, NDAs, research agreements, licenses, patent drafting.">
+    <meta property="og:title" content="TTR-SUITE IP Legal, analisi, redazione e brevetti con l'IA | Aviolab AI">
+    <meta property="og:description" content="Analisi e redazione con l'intelligenza artificiale per team legali e dipartimenti IP: NDA, accordi di ricerca, licenze, redazione di brevetti.">
     <meta property="og:image" content="https://aviolab.ai/assets/og/og-ip-legal.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="TTR-SUITE IP Legal, AI-powered analysis, drafting and patent preparation">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:locale:alternate" content="it_IT">
+    <meta property="og:image:alt" content="TTR-SUITE IP Legal, analisi, redazione e preparazione di brevetti con l'intelligenza artificiale">
+    <meta property="og:locale" content="it_IT">
+    <meta property="og:locale:alternate" content="en_US">
 
     <!-- Structured data: TTR-SUITE IP Legal -->
     <script type="application/ld+json">
@@ -60,936 +59,379 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <meta name="apple-mobile-web-app-title" content="Aviolab.ai">
 
-    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="fonts/fonts.css">
+    <!-- Sistema grafico 2027: styles.css (vecchio), poi le parti comuni, poi il ponte. -->
+    <link rel="preload" href="fonts/archivo/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="styles.css?v=145">
-    <!-- CACHE_VER: 131 -->
-    <script defer src="js/translations.js?v=148"></script>
-    <script defer src="script.js?v=142"></script>
+    <link rel="stylesheet" href="sito-comune.css?v=1">
+    <link rel="stylesheet" href="sito-ponte.css?v=1">
+    <!-- Pagina bilingue: sito.js per il menu, translations.js e script.js per la lingua. -->
+    <script defer src="js/sito.js?v=1"></script>
+    <script defer src="js/translations.js?v=149"></script>
+    <script defer src="script.js?v=143"></script>
 
     <style>
-        /* === Stili specifici per ip-legal === */
-        .ip-hero {
-            background: linear-gradient(135deg, #0f172a 0%, #1e40af 100%);
-            color: #fff;
-            padding: 7rem 0 4.5rem;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
+        /* ------------------------------------------------------------ selettore della lingua
+           Identico in downloads.html e ip-legal.html. Due pulsanti dopo il comando rosso della testata;
+           sotto i 1240 px stanno nel menu a scomparsa, perche' nella riga della testata non c'e' posto. */
+        .menu .lingue { display: flex; align-items: center; gap: 0.15rem; margin: 0; padding: 0; }
+        .menu .lingue .lang-option {
+            display: inline-block; opacity: 1; background: transparent; border: 0; border-radius: 4px; cursor: pointer;
+            padding: 0.4rem 0.45rem; font-family: var(--sans); font-size: 0.875rem; font-weight: 600; line-height: 1.2;
+            letter-spacing: normal; color: var(--tenue-su-notte);
         }
-        .ip-hero::before {
-            content: ""; position: absolute;
-            top: -100px; right: -100px;
-            width: 500px; height: 500px;
-            background: radial-gradient(circle, rgba(255,0,0,0.18) 0%, transparent 60%);
-            pointer-events: none;
+        .menu .lingue .lang-option:hover { color: #ffffff; text-decoration: underline; text-underline-offset: 0.35em; }
+        .menu .lingue .lang-option[aria-pressed="true"] {
+            color: #ffffff; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 0.35em;
         }
-        .ip-hero > .container { position: relative; z-index: 1; }
-        .ip-hero h1 {
-            font-size: 2.8rem;
-            margin-bottom: 0.8rem;
-            color: #fff;
-            line-height: 1.15;
-        }
-        .ip-hero h1 .highlight { color: #ff0000; }
-        .ip-hero .lead {
-            font-size: 1.2rem;
-            max-width: 880px;
-            margin: 0 auto 1.5rem;
-            color: #e2e8f0;
-            text-wrap: balance;
-        }
-        .ip-hero-proof {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.6rem;
-            background: rgba(255,0,0,0.15);
-            border: 1px solid rgba(255,0,0,0.4);
-            color: #fecaca;
-            padding: 0.55rem 1.1rem;
-            border-radius: 30px;
-            font-size: 0.92rem;
-            font-weight: 500;
-            margin-bottom: 1.8rem;
-        }
-        .ip-hero-proof i { color: #ff0000; }
-        .ip-hero .cta-buttons {
-            display: flex; gap: 1rem;
-            justify-content: center; flex-wrap: wrap;
-        }
-        .ip-section { padding: 5rem 0; }
-        .ip-section--alt { background: #f8fafc; }
-        .ip-section-title { text-align: center; margin-bottom: 3rem; }
-        .ip-section-title h2 { font-size: 2.2rem; color: #0f172a; text-wrap: balance; }
-        .ip-section-title .underline {
-            width: 60px; height: 4px;
-            background: #ff0000;
-            margin: 1rem auto;
-        }
-        .ip-section-title p {
-            max-width: 800px;
-            margin: 1rem auto 0;
-            color: #64748b;
-            font-size: 1.1rem;
-            text-wrap: balance;
-        }
-        /* Documentation & certifications */
-        .ipl-docs-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 1.5rem;
-            max-width: 1100px;
-            margin: 0 auto;
-        }
-        .ipl-doc-card {
-            background: #fff;
-            border: 1px solid #e2e8f0;
-            border-radius: 8px;
-            padding: 1.8rem;
-            text-decoration: none;
-            color: inherit;
-            display: flex;
-            gap: 1.2rem;
-            align-items: stretch;
-            box-shadow: 0 4px 15px -5px rgba(0,0,0,0.08);
-            transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-        }
-        .ipl-doc-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15);
-            border-color: #ff0000;
-        }
-        .ipl-doc-card__icon {
-            flex-shrink: 0;
-            font-size: 2.2rem;
-            color: #ff0000;
-            line-height: 1;
-        }
-        .ipl-doc-card__body {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-        }
-        .ipl-doc-card__body h3 {
-            margin: 0 0 0.5rem;
-            font-size: 1.1rem;
-            color: #0f172a;
-        }
-        .ipl-doc-card__body p {
-            margin: 0 0 0.6rem;
-            font-size: 0.95rem;
-            color: #475569;
-            line-height: 1.5;
-        }
-        .ipl-doc-card__meta {
-            font-size: 0.85rem;
-            color: #64748b;
-            font-style: italic;
-            margin-top: auto;
-        }
-        .ip-cta {
-            background: linear-gradient(135deg, #1e40af 0%, #ff0000 100%);
-            color: #fff;
-            text-align: center;
-            padding: 5rem 0;
-        }
-        .ip-cta h2 { color: #fff; font-size: 2.2rem; margin-bottom: 1rem; }
-        .ip-cta p {
-            font-size: 1.15rem; margin-bottom: 2rem;
-            max-width: 720px; margin-left: auto; margin-right: auto;
-        }
-        .ip-cta .btn { margin: 0.4rem; }
-        .secondary-note {
-            background: #fff;
-            border-left: 4px solid #1e40af;
-            padding: 1.2rem 1.5rem;
-            margin: 2rem auto 0;
-            border-radius: 6px;
-            color: #334155;
-            max-width: 900px;
-        }
-        .secondary-note a { color: #1e40af; font-weight: 600; text-decoration: none; }
-        .secondary-note a:hover { text-decoration: underline; }
-
-        /* === Pain killer (Sez. 2) - schema PA Locale === */
-        .pain-section {
-            background: linear-gradient(180deg, #ffffff 0%, #fee2e2 100%);
-            padding: 5rem 0;
-            position: relative;
-        }
-        .pain-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 2rem;
-            max-width: 1100px;
-            margin: 0 auto;
-        }
-        .pain-quote {
-            position: relative;
-            padding: 1rem 0 1rem 2rem;
-            border-left: 5px solid #ff0000;
-            font-style: italic;
-            color: #0f172a;
-            font-size: 1.05rem;
-            line-height: 1.5;
-            font-weight: 500;
-        }
-        .pain-quote::before {
-            content: "\f10d";
-            font-family: "Font Awesome 6 Free";
-            font-weight: 900;
-            position: absolute;
-            top: -6px; left: 0.7rem;
-            font-size: 1.5rem;
-            color: #fecaca;
-            line-height: 1;
-        }
-        .pain-quote__attr {
-            display: block;
-            margin-top: 1rem;
-            color: #64748b;
-            font-style: normal;
-            font-size: 0.9rem;
-            font-weight: 600;
-        }
-        @media (max-width: 900px) { .pain-grid { grid-template-columns: 1fr; } }
-
-        /* === Capability cards (Sez. 3) - 4 grandi === */
-        .capability-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 1.8rem;
-            max-width: 1100px;
-            margin: 0 auto;
-        }
-        .capability-card {
-            background: #fff;
-            border-radius: 12px;
-            box-shadow: 0 6px 18px -4px rgba(15,23,42,0.1);
-            padding: 2rem 1.8rem 1.5rem;
-            border-top: 4px solid #1e40af;
-            display: flex;
-            flex-direction: column;
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
-        }
-        .capability-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 14px 30px -8px rgba(30,64,175,0.2);
-        }
-        .capability-card--analyze { border-top-color: #1e40af; }
-        .capability-card--draft   { border-top-color: #0891b2; }
-        .capability-card--patent  { border-top-color: #ea580c; }
-        .capability-card--review  { border-top-color: #ff0000; }
-        .capability-card__head {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            margin-bottom: 0.6rem;
-        }
-        .capability-card__icon {
-            flex: 0 0 56px;
-            width: 56px; height: 56px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.6rem;
-            background: #f1f5f9;
-            color: #1e40af;
-            border-radius: 12px;
-        }
-        .capability-card--draft   .capability-card__icon { color: #0891b2; background: #ecfeff; }
-        .capability-card--patent  .capability-card__icon { color: #ea580c; background: #fff7ed; }
-        .capability-card--review  .capability-card__icon { color: #b91c1c; background: #fef2f2; }
-        .capability-card h3 {
-            color: #0f172a;
-            font-size: 1.3rem;
-            margin: 0;
-            line-height: 1.25;
-        }
-        .capability-card__tagline {
-            color: #475569;
-            font-size: 1rem;
-            font-weight: 500;
-            font-style: italic;
-            margin: 0 0 1.1rem;
-            line-height: 1.4;
-        }
-        .capability-card__bullets {
-            list-style: none;
-            padding: 0;
-            margin: 0 0 1.2rem;
-            flex: 1;
-        }
-        .capability-card__bullets li {
-            position: relative;
-            padding: 0.35rem 0 0.35rem 1.5rem;
-            color: #334155;
-            font-size: 0.93rem;
-            line-height: 1.5;
-        }
-        .capability-card__bullets li::before {
-            content: "\f00c";
-            font-family: "Font Awesome 6 Free";
-            font-weight: 900;
-            color: #16a34a;
-            position: absolute;
-            left: 0; top: 0.45rem;
-            font-size: 0.85rem;
-        }
-        .capability-card__proof {
-            background: #f8fafc;
-            border-left: 3px solid #ff0000;
-            border-radius: 0 6px 6px 0;
-            padding: 0.7rem 0.9rem;
-            color: #0f172a;
-            font-size: 0.85rem;
-            font-weight: 600;
-            line-height: 1.4;
-            margin-top: auto;
-        }
-        .capability-card__proof i {
-            color: #ff0000;
-            margin-right: 0.4rem;
-        }
-        .capability-card__tag {
-            display: inline-block;
-            background: #fee2e2;
-            color: #b91c1c;
-            font-size: 0.7rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            padding: 0.25rem 0.7rem;
-            border-radius: 20px;
-            margin-top: 0.8rem;
-        }
-        @media (max-width: 900px) { .capability-grid { grid-template-columns: 1fr; } }
-
-        /* === Deliverable cards (Sez. 4) === */
-        .deliverable-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            gap: 1.2rem;
-            max-width: 1100px;
-            margin: 0 auto;
-        }
-        .deliverable-card {
-            background: #fff;
-            border-radius: 8px;
-            padding: 1.6rem 1.4rem;
-            border-left: 3px solid #1e40af;
-            box-shadow: 0 2px 8px rgba(15,23,42,0.06);
-        }
-        .deliverable-card__icon {
-            color: #ff0000;
-            font-size: 1.4rem;
-            margin-bottom: 0.6rem;
-        }
-        .deliverable-card h4 {
-            color: #0f172a;
-            font-size: 1.05rem;
-            margin-bottom: 0.4rem;
-        }
-        .deliverable-card p {
-            color: #475569;
-            font-size: 0.9rem;
-            line-height: 1.5;
-            margin: 0;
+        @media (max-width: 1240px) {
+            .menu__apri { display: inline-block; }
+            .menu {
+                display: none;
+                position: absolute; left: 0; right: 0; top: 100%;
+                flex-direction: column; align-items: stretch; gap: 0;
+                background: var(--notte); border-top: 1px solid var(--filo-su-notte);
+                padding: 0.5rem var(--margine) 1.5rem;
+            }
+            .menu.aperto { display: flex; }
+            .menu__voci { flex-direction: column; gap: 0; font-size: 1.0625rem; }
+            .menu__voci a { display: block; padding: 0.9rem 0; border-bottom: 1px solid var(--filo-su-notte); }
+            .menu .pulsante { margin-top: 1.25rem; text-align: center; }
+            .menu .lingue { justify-content: center; gap: 0.75rem; margin-top: 1rem; }
+            .menu .lingue .lang-option { padding: 0.55rem 0.9rem; font-size: 1rem; }
         }
 
-        /* === Use-case cards (deliverable per caso) === */
-        .usecase-stack {
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-            max-width: 1050px;
-            margin: 0 auto;
-        }
-        .usecase-card {
-            background: #fff;
-            border-radius: 12px;
-            box-shadow: 0 6px 18px -4px rgba(15,23,42,0.1);
-            padding: 1.8rem 2rem;
-            border-left: 5px solid #1e40af;
-        }
-        .usecase-card--patent {
-            border-left-color: #ff0000;
-            background: linear-gradient(180deg, #fff 0%, #fff5f5 100%);
-        }
-        .usecase-card__head {
-            display: flex;
-            flex-direction: column;
-            gap: 0.6rem;
-            margin-bottom: 0.8rem;
-        }
-        .usecase-card__tag {
-            align-self: flex-start;
-            font-size: 0.7rem;
-            font-weight: 700;
-            letter-spacing: 1.5px;
-            text-transform: uppercase;
-            padding: 0.3rem 0.85rem;
-            border-radius: 20px;
-            background: #dbeafe;
-            color: #1e40af;
-        }
-        .usecase-card__tag--analysis {
-            background: #fef3c7;
-            color: #92400e;
-        }
-        .usecase-card__tag--patent {
-            background: #fee2e2;
-            color: #b91c1c;
-        }
-        .usecase-card h3 {
-            color: #0f172a;
-            font-size: 1.25rem;
-            margin: 0;
-            line-height: 1.3;
-        }
-        .usecase-card__lead {
-            color: #475569;
-            font-size: 0.97rem;
-            margin: 0 0 1.1rem;
-            line-height: 1.55;
-        }
-        .usecase-card__deliv {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 0.6rem 1.5rem;
-        }
-        .usecase-card__deliv li {
-            position: relative;
-            padding: 0.45rem 0 0.45rem 1.6rem;
-            color: #334155;
-            font-size: 0.92rem;
-            line-height: 1.5;
-            border-top: 1px solid #f1f5f9;
-        }
-        .usecase-card__deliv li::before {
-            content: "\f105";
-            font-family: "Font Awesome 6 Free";
-            font-weight: 900;
-            color: #ff0000;
-            position: absolute;
-            left: 0; top: 0.55rem;
-        }
-        .usecase-card__deliv li strong { color: #0f172a; }
-        @media (max-width: 800px) {
-            .usecase-card__deliv { grid-template-columns: 1fr; }
-        }
+        /* ------------------------------------------------------------ pagina TTR-SUITE IP Legal */
+        .cta-buttons { display: flex; flex-wrap: wrap; gap: 1rem; }
+        .cta-buttons .btn { margin: 0; }
+        .ip-apertura .cta-buttons { margin-top: 2rem; }
 
-        /* === Examples (Sez. 5) === */
-        .example-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 1.4rem;
-            max-width: 1150px;
-            margin: 0 auto;
-        }
-        .example-card {
-            background: #fff;
-            border-radius: 10px;
-            padding: 1.6rem 1.5rem;
-            box-shadow: 0 4px 12px -2px rgba(15,23,42,0.08);
-            border-top: 3px solid #ff0000;
-        }
-        .example-card__q {
-            color: #0f172a;
-            font-weight: 700;
-            font-size: 0.98rem;
-            margin-bottom: 0.7rem;
-            line-height: 1.4;
-        }
-        .example-card__q::before {
-            content: "\f4ad";
-            font-family: "Font Awesome 6 Free";
-            font-weight: 900;
-            color: #ff0000;
-            margin-right: 0.5rem;
-        }
-        .example-card__a {
-            color: #475569;
-            font-size: 0.92rem;
-            line-height: 1.55;
-            padding-top: 0.7rem;
-            border-top: 1px solid #f1f5f9;
-        }
-        .example-card__a::before {
-            content: "\f0e7";
-            font-family: "Font Awesome 6 Free";
-            font-weight: 900;
-            color: #1e40af;
-            margin-right: 0.5rem;
-        }
+        .ip-section { padding-block: var(--spazio-sezione); }
+        .ip-section--fondo { background: var(--fondo); }
 
-        /* === Architecture (Sez. 6) - schema PA Locale === */
-        .arch-section {
-            background: #f8fafc;
-            padding: 5rem 0;
+        /* Testa di sezione: il titolo a sinistra, la presentazione a destra; il materiale sotto, a tutta larghezza. */
+        .ip-section-title {
+            display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+            gap: 1rem clamp(1.5rem, 5vw, 4.5rem); align-items: start;
+            margin-bottom: clamp(2rem, 4vw, 3rem);
         }
-        .agents-wrapper {
-            display: block;
-        }
-        .agents-header {
-            display: grid;
-            grid-template-columns: minmax(220px, auto) 1fr;
-            gap: 2rem;
-            align-items: center;
-            margin-bottom: 2.2rem;
-        }
-        .agents-header .agents-intro p {
-            color: #475569;
-            font-size: 0.97rem;
-            margin: 0 0 0.7rem;
-            line-height: 1.6;
-        }
-        .agents-header .agents-intro p:last-child { margin-bottom: 0; }
-        .agents-section-title {
-            color: #1e40af;
-            font-size: 1.05rem;
-            margin: 0 0 0.8rem;
-        }
-        .coord-row {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1rem;
-            margin-bottom: 2.2rem;
-        }
-        .coord-card {
-            background: #fff;
-            border: 1px solid #e2e8f0;
-            border-radius: 8px;
-            padding: 1rem 1.2rem;
-        }
-        .coord-card__name {
-            font-weight: 700;
-            color: #0f172a;
-            font-size: 1rem;
-            margin-bottom: 0.35rem;
-            letter-spacing: 0.5px;
-        }
-        .coord-card__name i {
-            color: #1e40af;
-            margin-right: 0.5rem;
-        }
-        .coord-card__desc {
-            color: #475569;
-            font-size: 0.88rem;
-            line-height: 1.5;
-        }
-        .specializations {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 2.5rem;
-        }
-        .agents-count {
-            background: linear-gradient(135deg, #ff0000, #b91c1c);
-            color: #fff;
-            border-radius: 10px;
-            padding: 1.5rem;
-            text-align: center;
-            margin-bottom: 0;
-        }
-        .agents-count .big-number {
-            font-size: 3rem;
-            font-weight: 800;
-            line-height: 1;
-            font-family: var(--font-primary, 'Montserrat'), sans-serif;
-        }
-        .agents-count .label {
-            font-size: 0.95rem;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            margin-top: 0.4rem;
-            opacity: 0.95;
-        }
-        .agents-list {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 0.7rem;
-        }
-        .agent-chip {
-            background: #fff;
-            border: 1px solid #e2e8f0;
-            border-radius: 6px;
-            padding: 0.8rem 1rem;
-            display: flex;
-            align-items: center;
-            gap: 0.7rem;
-            font-weight: 500;
-            color: #0f172a;
-            font-size: 0.95rem;
-        }
-        .agent-chip i {
-            color: #1e40af;
-            font-size: 1.1rem;
-        }
-        .arch-patent-note {
-            margin-top: 2.5rem;
-            text-align: center;
-            color: #475569;
-            font-size: 0.95rem;
-            font-style: italic;
-        }
-        @media (max-width: 800px) {
-            .agents-header { grid-template-columns: 1fr; }
-            .specializations { grid-template-columns: 1fr; gap: 1.5rem; }
-            .coord-row { grid-template-columns: 1fr; }
-        }
+        .ip-section-title h2 { margin: 0; max-width: 22ch; }
+        /* Un titolo scritto tutto in grassetto resta del peso degli altri titoli. */
+        .ip-section-title h2 strong { font-weight: inherit; }
+        .ip-section-title p { margin: 0; max-width: 44rem; }
 
-        /* === Built for production legal work === */
-        .trust-section {
-            background: #f8fafc;
-            padding: 5rem 0;
-        }
-        .trust-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 1.5rem;
-            max-width: 1150px;
-            margin: 0 auto;
-        }
-        .trust-card {
-            background: #fff;
-            border-radius: 10px;
-            padding: 1.8rem 1.6rem;
-            box-shadow: 0 4px 14px -4px rgba(15,23,42,0.08);
-            border-left: 4px solid #1e40af;
-        }
-        .trust-card__icon {
-            font-size: 1.7rem;
-            color: #ff0000;
-            margin-bottom: 0.7rem;
-        }
-        .trust-card h4 {
-            color: #0f172a;
-            font-size: 1.1rem;
-            margin-bottom: 0.5rem;
-            line-height: 1.3;
-        }
-        .trust-card p {
-            color: #475569;
-            font-size: 0.92rem;
-            line-height: 1.55;
-            margin: 0;
-        }
-        .arch-patent-note strong { color: #fff; font-style: normal; }
-        @media (max-width: 700px) { .coord-row { grid-template-columns: 1fr; } }
-
-        /* === Self-validation (Sez. 7) - promossa, ereditata da v1 === */
-        .selfval-section {
-            background: linear-gradient(135deg, #1e3a8a 0%, #b91c1c 100%);
-            color: #fff;
-            padding: 5rem 0;
-        }
-        .selfval-section .ip-section-title h2 { color: #fff; }
-        .selfval-section .ip-section-title p { color: #fecaca; }
-        .selfval-box {
-            max-width: 980px;
-            margin: 0 auto;
-            background: rgba(15,23,42,0.45);
-            border: 1px solid rgba(255,255,255,0.2);
-            border-radius: 14px;
-            padding: 2.5rem;
-        }
-        .selfval-box > p {
-            color: #fef2f2;
-            font-size: 1.05rem;
-            margin-bottom: 1.8rem;
-            line-height: 1.6;
-        }
-        .selfval-stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-            gap: 1rem;
-        }
-        .selfval-stat {
-            background: rgba(15,23,42,0.55);
-            border-left: 3px solid #ff0000;
-            padding: 1rem 1.2rem;
-            border-radius: 4px;
-        }
-        .selfval-stat__label {
-            color: #fecaca;
-            font-size: 0.7rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-weight: 700;
-            margin-bottom: 0.3rem;
-        }
-        .selfval-stat__value {
-            color: #fff;
-            font-size: 1.1rem;
-            font-weight: 600;
-            font-family: 'Courier New', monospace;
-        }
-        .selfval-stat__value--big {
-            color: #ffe4e6;
-            font-size: 2rem;
-            font-family: var(--font-primary, 'Montserrat'), sans-serif;
-            line-height: 1;
-        }
-
-        /* === Case study (compatto) === */
-        .case-compact {
-            max-width: 900px;
-            margin: 0 auto;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 6px 18px -4px rgba(15,23,42,0.1);
-            padding: 2rem 2.2rem;
-        }
-        .case-compact__header h3 {
-            color: #0f172a;
-            font-size: 1.3rem;
-            margin-bottom: 0.4rem;
-        }
-        .case-compact__intro {
-            color: #64748b;
-            font-size: 0.95rem;
-            margin-bottom: 1.5rem;
-        }
-        .case-compact__bullets {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 0.6rem 1.5rem;
-        }
-        .case-compact__bullets li {
-            position: relative;
-            padding-left: 1.5rem;
-            color: #334155;
-            font-size: 0.92rem;
-            line-height: 1.5;
-        }
-        .case-compact__bullets li::before {
-            content: "\f00c";
-            font-family: "Font Awesome 6 Free";
-            font-weight: 900;
-            color: #16a34a;
-            position: absolute;
-            left: 0; top: 0.18rem;
-        }
-        @media (max-width: 700px) { .case-compact__bullets { grid-template-columns: 1fr; } }
-
-        /* === Service model (Sez. 9) === */
-        .service-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 1.8rem;
-            max-width: 980px;
-            margin: 0 auto;
-        }
-        .service-card {
-            background: #fff;
-            border-radius: 10px;
-            padding: 2rem 1.8rem;
-            box-shadow: 0 6px 18px -4px rgba(15,23,42,0.1);
-        }
-        .service-card--standard { border-top: 4px solid #1e40af; }
-        .service-card--early { border-top: 4px solid #ff0000; }
-        .service-card__tag {
-            display: inline-block;
-            font-size: 0.72rem;
-            font-weight: 700;
-            letter-spacing: 1.5px;
-            text-transform: uppercase;
-            padding: 0.3rem 0.9rem;
-            border-radius: 20px;
-            margin-bottom: 1rem;
-        }
-        .service-card--standard .service-card__tag {
-            background: #dbeafe; color: #1e40af;
-        }
-        .service-card--early .service-card__tag {
-            background: #fee2e2; color: #b91c1c;
-        }
-        .service-card h3 { color: #0f172a; font-size: 1.3rem; margin-bottom: 0.6rem; }
-        .service-card p { color: #475569; font-size: 0.97rem; line-height: 1.55; margin-bottom: 1rem; }
-        .service-card ul {
-            list-style: none; padding: 0; margin: 0;
-        }
-        .service-card ul li {
-            position: relative;
-            padding: 0.4rem 0 0.4rem 1.5rem;
-            color: #334155;
-            font-size: 0.92rem;
-            border-top: 1px solid #f1f5f9;
-        }
-        .service-card ul li:first-child { border-top: none; }
+        /* Segno comune degli elenchi: un pallino blu, come le aree del Comune in «Che cos'è TTR-SUITE». */
+        .capability-card__bullets li,
+        .usecase-card__deliv li,
+        .case-compact__bullets li,
+        .service-card ul li { position: relative; padding-left: 1.35rem; line-height: 1.5; }
+        .capability-card__bullets li::before,
+        .usecase-card__deliv li::before,
+        .case-compact__bullets li::before,
         .service-card ul li::before {
-            content: "\f105";
-            font-family: "Font Awesome 6 Free";
-            font-weight: 900;
-            color: #ff0000;
-            position: absolute;
-            left: 0; top: 0.45rem;
-            font-size: 0.95rem;
+            content: ""; position: absolute; left: 0; top: calc(var(--riga-su, 0.45rem) + 0.75em - 0.25rem);
+            width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--blu);
         }
-        @media (max-width: 700px) { .service-grid { grid-template-columns: 1fr; } }
 
-        @media (max-width: 768px) {
-            .ip-hero { padding: 6rem 0 3.5rem; }
-            .ip-hero h1 { font-size: 2rem; }
-            .ip-hero .lead { font-size: 1.05rem; }
+        /* Etichette nelle schede: blu a contorno; piene quelle dei servizi in accesso anticipato e dei brevetti. */
+        .capability-card__tag,
+        .usecase-card__tag,
+        .service-card__tag {
+            display: inline-block; align-self: flex-start; padding: 0.25rem 0.6rem; border-radius: 4px;
+            font-size: 0.875rem; font-weight: 600; line-height: 1.3; letter-spacing: normal; text-transform: none;
+            color: var(--blu); background: transparent; box-shadow: inset 0 0 0 1.5px var(--blu);
+        }
+        .capability-card__tag,
+        .usecase-card__tag--patent,
+        .service-card--early .service-card__tag { color: #ffffff; background: var(--blu); box-shadow: none; }
+
+        /* 2. Le tre voci di chi lavora sul legale e sulla proprieta' intellettuale: citazioni in blocco. */
+        .pain-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem clamp(1.5rem, 3vw, 2.5rem); }
+        .pain-quote {
+            margin: 0; padding-left: clamp(1rem, 2vw, 1.25rem); border-left: 4px solid var(--blu);
+            font-size: clamp(1.15rem, 1rem + 0.4vw, 1.3rem); line-height: 1.4;
+        }
+        .pain-quote p { margin: 0; }
+        .pain-quote cite { display: block; margin-top: 0.9rem; font-size: 0.95rem; line-height: 1.45; color: var(--tenue); }
+
+        /* 3. Le quattro capacita'. */
+        .capability-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+        .capability-card {
+            display: flex; flex-direction: column; padding: 1.4rem 1.5rem 1.5rem;
+            background: var(--carta); border: 1px solid var(--filo); border-top: 3px solid var(--blu); border-radius: 4px;
+        }
+        .capability-card h3 { margin: 0 0 0.4rem; font-size: 1.3rem; line-height: 1.25; }
+        .capability-card__tagline { margin: 0 0 0.9rem; color: var(--tenue); }
+        .capability-card__bullets { flex: 1; margin: 0 0 1.2rem; padding: 0; list-style: none; }
+        .capability-card__bullets li { --riga-su: 0.3rem; padding-block: 0.3rem; font-size: 1rem; }
+        .capability-card__proof {
+            margin-top: auto; padding: 0.7rem 0.9rem; background: var(--fondo); border-left: 3px solid var(--blu);
+            font-size: 0.95rem; font-weight: 600; line-height: 1.45;
+        }
+        .capability-card__tag { margin-top: 0.8rem; }
+
+        /* 4. Che cosa produce, caso per caso. */
+        .usecase-stack { display: flex; flex-direction: column; gap: 1rem; }
+        .usecase-card {
+            padding: 1.5rem 1.75rem 1.6rem; background: var(--carta);
+            border: 1px solid var(--filo); border-left: 4px solid var(--blu); border-radius: 4px;
+        }
+        .usecase-card--patent { background: var(--fondo); }
+        .usecase-card__head { display: flex; flex-direction: column; gap: 0.6rem; margin-bottom: 0.6rem; }
+        .usecase-card h3 { margin: 0; font-size: 1.25rem; line-height: 1.3; }
+        .usecase-card__lead { margin: 0 0 1rem; color: var(--tenue); }
+        .usecase-card__deliv { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 2rem; margin: 0; padding: 0; list-style: none; }
+        .usecase-card__deliv li { --riga-su: 0.55rem; padding-block: 0.55rem; border-top: 1px solid var(--filo); font-size: 1rem; }
+
+        /* 5. Esempi di conversazione: la domanda, poi che cosa fa la Suite. */
+        .example-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr)); gap: 1rem; }
+        .example-card {
+            padding: 1.25rem 1.4rem 1.4rem; background: var(--carta);
+            border: 1px solid var(--filo); border-top: 3px solid var(--blu); border-radius: 4px;
+        }
+        .example-card__q { margin-bottom: 0.8rem; font-weight: 650; line-height: 1.4; }
+        .example-card__a { padding-top: 0.8rem; border-top: 1px solid var(--filo); color: var(--tenue); font-size: 0.975rem; line-height: 1.55; }
+
+        /* 6. Sotto il cofano: il numero degli agenti, la coordinazione, aree e modi. */
+        .agents-header {
+            display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+            gap: 1.5rem clamp(1.5rem, 5vw, 4.5rem); align-items: start; margin-bottom: 2.5rem;
+        }
+        .agents-count { padding-block: 1.25rem; border-top: 1.5px solid var(--inchiostro); border-bottom: 1px solid var(--filo); }
+        .agents-count .big-number {
+            font-size: clamp(3rem, 2.2rem + 2.5vw, 4.25rem); font-weight: 300; font-stretch: 112%;
+            line-height: 1; color: var(--blu); font-variant-numeric: lining-nums;
+        }
+        .agents-count .label { margin-top: 0.7rem; font-weight: 600; line-height: 1.45; }
+        .agents-intro p { margin: 0; }
+        .agents-intro p + p { margin-top: 1rem; }
+        .agents-section-title { margin: 0 0 0.8rem; font-size: 1.1rem; font-weight: 650; line-height: 1.3; color: var(--blu); }
+        .coord-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-bottom: 2.5rem; }
+        .coord-card { padding: 1rem 1.2rem 1.1rem; background: var(--carta); border: 1px solid var(--filo); border-radius: 4px; }
+        .coord-card__name { margin-bottom: 0.35rem; font-weight: 700; }
+        .coord-card__desc { color: var(--tenue); font-size: 0.975rem; line-height: 1.5; }
+        .specializations { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem 2.5rem; }
+        .agents-list { display: grid; gap: 0.6rem; }
+        .agent-chip {
+            display: flex; align-items: flex-start; gap: 0.75rem; padding: 0.7rem 1rem;
+            background: var(--carta); border: 1px solid var(--filo); border-radius: 4px;
+            font-size: 1rem; font-weight: 500; line-height: 1.35;
+        }
+        .agent-chip::before {
+            content: ""; flex: 0 0 auto; width: 0.5rem; height: 0.5rem; margin-top: calc(0.675em - 0.25rem);
+            border-radius: 50%; background: var(--blu);
+        }
+
+        /* 7. Fatta per il lavoro legale vero. */
+        .trust-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr)); gap: 1rem; }
+        .trust-card {
+            padding: 1.3rem 1.4rem 1.4rem; background: var(--carta);
+            border: 1px solid var(--filo); border-left: 4px solid var(--blu); border-radius: 4px;
+        }
+        .trust-card h4 { margin: 0 0 0.5rem; font-size: 1.15rem; font-weight: 650; line-height: 1.3; }
+        .trust-card p { margin: 0; color: var(--tenue); font-size: 0.975rem; line-height: 1.55; }
+
+        /* 8. Il caso sul campo: il titolo a sinistra, la scheda a destra. */
+        .ip-caso { margin-bottom: 0; }
+        .case-compact {
+            padding: 1.5rem 1.75rem 1.6rem; background: var(--carta);
+            border: 1px solid var(--filo); border-top: 3px solid var(--blu); border-radius: 4px;
+        }
+        .case-compact__header h3 { margin: 0 0 0.4rem; font-size: 1.3rem; line-height: 1.3; }
+        .case-compact__intro { margin: 0 0 1.1rem; color: var(--tenue); }
+        .case-compact__bullets { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 2rem; margin: 0; padding: 0; list-style: none; }
+        .case-compact__bullets li { --riga-su: 0.5rem; padding-block: 0.5rem; border-top: 1px solid var(--filo); font-size: 1rem; }
+
+        /* 9. Come si accede. */
+        .service-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+        .service-card {
+            display: flex; flex-direction: column; padding: 1.4rem 1.5rem 1.5rem; background: var(--carta);
+            border: 1px solid var(--filo); border-top: 3px solid var(--blu); border-radius: 4px;
+        }
+        .service-card h3 { margin: 0.9rem 0 0.5rem; font-size: 1.3rem; line-height: 1.25; }
+        .service-card p { margin: 0 0 1rem; color: var(--tenue); }
+        .service-card ul { margin: 0; padding: 0; list-style: none; }
+        .service-card ul li { padding-block: 0.45rem; border-top: 1px solid var(--filo); font-size: 1rem; }
+        .secondary-note {
+            margin-top: 2rem; padding: 1.1rem 1.4rem; background: var(--carta);
+            border: 1px solid var(--filo); border-left: 4px solid var(--blu); border-radius: 4px;
+        }
+
+        /* 9b. Documentazione e certificazioni: schede con un link ciascuna, come le guide di «Che cos'è TTR-SUITE». */
+        .ipl-docs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr)); gap: 1rem; }
+        .ipl-doc-card {
+            display: flex; flex-direction: column; padding: 1.1rem 1.25rem 1.2rem;
+            background: var(--carta); border: 1px solid var(--filo); border-radius: 4px;
+            color: inherit; text-decoration: none;
+        }
+        a.ipl-doc-card:hover { color: inherit; border-color: var(--blu); }
+        a.ipl-doc-card:hover h3 { text-decoration: underline; text-underline-offset: 0.18em; }
+        .ipl-doc-card__body { flex: 1; display: flex; flex-direction: column; }
+        .ipl-doc-card__body h3 { margin: 0 0 0.35rem; font-size: 1.1rem; font-weight: 650; line-height: 1.3; }
+        .ipl-doc-card__body p { margin: 0 0 0.6rem; color: var(--tenue); font-size: 0.975rem; line-height: 1.5; }
+        .ipl-doc-card__meta { margin-top: auto; color: var(--tenue); font-size: 0.875rem; }
+        .ipl-doc-card__azioni { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: auto; padding-top: 0.6rem; }
+        .ipl-doc-card__azioni .btn { margin: 0; padding: 0.55rem 0.9rem; font-size: 0.95rem; white-space: nowrap; }
+
+        /* 10. Chiusura, sul blu. */
+        .ip-cta { padding-block: var(--spazio-sezione); }
+        .ip-cta h2 { margin: 0; max-width: 22ch; color: #ffffff; }
+        .ip-cta p { margin: 1.4rem 0 0; max-width: 40rem; font-size: 1.2rem; line-height: 1.55; }
+        .ip-cta .cta-buttons { margin-top: 2.2rem; }
+
+        @media (max-width: 900px) {
+            .ip-section-title,
+            .agents-header,
+            .pain-grid,
+            .capability-grid,
+            .service-grid { grid-template-columns: minmax(0, 1fr); }
+        }
+        @media (max-width: 640px) {
+            .usecase-card__deliv,
+            .specializations,
+            .coord-row { grid-template-columns: minmax(0, 1fr); }
+        }
+        @media (max-width: 600px) {
+            .capability-card,
+            .usecase-card,
+            .case-compact,
+            .service-card { padding-inline: 1.1rem; }
+        }
+        /* La scheda del caso sta nella colonna di destra: i punti in colonna unica finche' e' stretta. */
+        @media (max-width: 1100px) {
+            .case-compact__bullets { grid-template-columns: minmax(0, 1fr); }
         }
     </style>
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <header id="header">
-        <div class="header-container">
-            <a href="index.html#home" class="logo-link">
-                <img src="assets/logo.png" alt="Aviolab AI Logo">
-                <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+    <a class="salta" href="#contenuto" data-i18n="salta">Vai al contenuto</a>
+
+    <header class="testata su-notte">
+        <div class="contenitore testata__riga">
+            <a class="marchio" href="index.html" aria-label="Aviolab AI, pagina iniziale" data-i18n-aria-label="marchio_home">
+                <img class="marchio__scudo" src="assets/logo-144.png" alt="" width="118" height="144">
+                <img class="marchio__scritta" src="assets/logo-scritta.svg" alt="" width="170" height="18">
             </a>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="index.html#mission" class="nav-link" data-i18n="nav_mission">Mission</a></li>
-                    <li><a href="index.html#products" class="nav-link" data-i18n="nav_solutions">Solutions</a></li>
-                    <li><a href="pa-locale.html" class="nav-link">PA Locale</a></li>
-                    <li><a href="ip-legal.html" class="nav-link active">IP Legal</a></li>
-                    <li><a href="index.html#about" class="nav-link" data-i18n="nav_about">About</a></li>
-                    <li><a href="index.html#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
-                    <li><a href="dicono-di-noi.html" class="nav-link" data-i18n="nav_press">In the press</a></li>
-                    <li><a href="downloads.html" class="nav-link" style="color: var(--highlight-color) !important; font-weight: bold;" data-i18n="nav_download">Download</a></li>
+            <button class="menu__apri" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+            <nav class="menu" id="menu" aria-label="Sezioni del sito" data-i18n-aria-label="menu_sezioni">
+                <ul class="menu__voci">
+                    <li><a href="pa-locale.html" data-i18n="m_prodotto">Il prodotto</a></li>
+                    <li><a href="pa-locale-in-azione.html" data-i18n="m_lavora">Come lavora</a></li>
+                    <li><a href="che-cos-e-ttr-suite.html" data-i18n="m_semplice">In parole semplici</a></li>
+                    <li><a href="dicono-di-noi.html" data-i18n="m_stampa">Dicono di noi</a></li>
+                    <li><a href="downloads.html" data-i18n="m_download">Download</a></li>
                 </ul>
+                <a class="pulsante pulsante--piccolo" href="#contact" data-i18n="azione_info">Richieda informazioni</a>
+                <div class="language-selector lingue" role="group" aria-label="Lingua" data-i18n-aria-label="lingua_gruppo">
+                    <button type="button" class="lang-option" data-lang="it" lang="it" aria-pressed="true"><span aria-hidden="true">IT</span><span class="solo-lettori">Italiano</span></button>
+                    <button type="button" class="lang-option" data-lang="en" lang="en" aria-pressed="false"><span aria-hidden="true">EN</span><span class="solo-lettori">English</span></button>
+                </div>
             </nav>
-            <div class="language-selector">
-                <div class="lang-option" data-lang="en">
-                    <img src="assets/images/flags/flag-gb.svg" alt="English" class="flag-icon" loading="lazy" decoding="async"> EN
-                </div>
-                <div class="lang-option" data-lang="it">
-                    <img src="assets/images/flags/flag-it.svg" alt="Italiano" class="flag-icon" loading="lazy" decoding="async"> IT
-                </div>
-            </div>
-            <div class="mobile-menu-btn">
-                <span></span><span></span><span></span>
-            </div>
         </div>
     </header>
 
-    <!-- ============ 1. HERO ============ -->
-    <section class="ip-hero">
+    <main id="contenuto">
+
+    <!-- ============ 1. APERTURA ============ -->
+    <section class="apertura-pagina su-blu ip-apertura">
         <div class="container">
-            <h1 data-i18n="ipl2_hero_title">TTR-SUITE <span class="highlight">IP Legal</span></h1>
-            <p class="lead" data-i18n="ipl2_hero_lead">AI agents that analyse, draft and validate. NDAs, research and commercial agreements, license deals, contract review, and end-to-end patent application preparation. One engine, one workflow, source-verified outputs.</p>
+            <h1 data-i18n="ipl2_hero_title">TTR-SUITE IP Legal</h1>
+            <p class="lead" data-i18n="ipl2_hero_lead">Agenti AI che analizzano, redigono e validano. NDA, accordi di ricerca e accordi commerciali, contratti di licenza, revisione contrattuale e preparazione end-to-end di domande di brevetto. Un solo motore, un solo flusso, output con fonti sempre verificate.</p>
             <div class="cta-buttons">
-                <a href="assets/brochures/aviolab-ai-company-overview-en.pdf" download class="btn btn-primary" data-i18n="ipl2_hero_cta_brochure"><i class="fas fa-file-pdf"></i> Brochure (PDF)</a>
-                <a href="#documentation" class="btn btn-secondary" data-i18n="ipl2_hero_cta_docs"><i class="fas fa-file-shield"></i> Documentation: GDPR, AI Act</a>
+                <a href="assets/brochures/aviolab-ai-company-overview-en.pdf" download class="btn btn-primary" data-i18n="ipl2_hero_cta_brochure">Brochure (PDF)</a>
+                <a href="#documentation" class="btn btn-secondary" data-i18n="ipl2_hero_cta_docs">Documentazione: GDPR, AI Act</a>
             </div>
         </div>
     </section>
 
     <!-- ============ 2. PAIN KILLER ============ -->
-    <section class="pain-section">
+    <section class="ip-section">
         <div class="container">
             <div class="ip-section-title">
-                <h2 data-i18n="ipl2_pain_title">The pressure on legal and IP work</h2>
-                <div class="underline"></div>
-                <p data-i18n="ipl2_pain_subtitle">Three recurring problems we hear from legal teams, IP departments and partners in small to mid-size firms.</p>
+                <h2 data-i18n="ipl2_pain_title">La pressione sul lavoro legale e di proprietà intellettuale</h2>
+                <p data-i18n="ipl2_pain_subtitle"><strong>Tre tipici problemi che sentiamo ripetutamente esporre</strong> da team legali, dipartimenti IP e partner di studi di medie dimensioni.</p>
             </div>
             <div class="pain-grid">
-                <div class="pain-quote">
-                    <span data-i18n="ipl2_pain_q1">Every week three new agreements land on my desk. Reviewing them clause by clause used to mean a day each. I don't have a day each.</span>
-                    <span class="pain-quote__attr" data-i18n="ipl2_pain_attr1">— Head of Legal, mid-size manufacturer</span>
-                </div>
-                <div class="pain-quote">
-                    <span data-i18n="ipl2_pain_q2">The technical inventor knows the technology. I have to translate it into claims. The translation is where weeks go.</span>
-                    <span class="pain-quote__attr" data-i18n="ipl2_pain_attr2">— Patent attorney, technology transfer office</span>
-                </div>
-                <div class="pain-quote">
-                    <span data-i18n="ipl2_pain_q3">I cannot afford an in-house specialist for every domain my clients walk in with, pharma, software, automotive, and yet they expect domain-grade output.</span>
-                    <span class="pain-quote__attr" data-i18n="ipl2_pain_attr3">— Partner, boutique IP firm</span>
-                </div>
+                <blockquote class="pain-quote">
+                    <p data-i18n="ipl2_pain_q1">Ogni settimana mi arrivano sulla scrivania tre nuovi accordi. Esaminarli clausola per clausola voleva dire un giorno ciascuno. Quel giorno non ce l'ho.</p>
+                    <cite data-i18n="ipl2_pain_attr1">— Responsabile Legale, gruppo industriale di medie dimensioni</cite>
+                </blockquote>
+                <blockquote class="pain-quote">
+                    <p data-i18n="ipl2_pain_q2">L'inventore tecnico conosce la tecnologia. Io devo tradurla in claim. La traduzione è dove se ne vanno le settimane.</p>
+                    <cite data-i18n="ipl2_pain_attr2">— Consulente brevettuale, ufficio trasferimento tecnologico</cite>
+                </blockquote>
+                <blockquote class="pain-quote">
+                    <p data-i18n="ipl2_pain_q3">Non posso permettermi uno specialista interno per ogni dominio con cui mi arrivano i clienti, pharma, software, automotive, e tutti si aspettano un livello di output da specialista del dominio.</p>
+                    <cite data-i18n="ipl2_pain_attr3">— Partner, studio boutique IP</cite>
+                </blockquote>
             </div>
         </div>
     </section>
 
     <!-- ============ 3. THE FOUR CAPABILITIES ============ -->
-    <section id="capabilities" class="ip-section ip-section--alt">
+    <section id="capabilities" class="ip-section ip-section--fondo">
         <div class="container">
             <div class="ip-section-title">
-                <h2 data-i18n="ipl2_cap_title">Four capabilities, tuned to your IP policy</h2>
-                <div class="underline"></div>
-                <p data-i18n="ipl2_cap_subtitle">TTR-SUITE IP Legal reads, analyses, drafts, prepares patents and stress-tests them on the same engine. <strong>Each agent is tuned to your group's internal IP policy and your preferences before delivery</strong>, so the output is compliant with your in-house standards from day one, not after a round of corrections.</p>
+                <h2 data-i18n="ipl2_cap_title">Quattro capacità, calibrate sulla Sua IP policy</h2>
+                <p data-i18n="ipl2_cap_subtitle">TTR-SUITE IP Legal legge, <strong>analizza</strong>, redige brevetti e li sottopone a stress test sullo stesso motore. <strong>Ogni agente viene specializzato sulla policy IP interna del Suo gruppo e sulle Sue preferenze prima della consegna</strong>, in modo che l'output sia conforme ai Suoi standard interno da subito.</p>
             </div>
             <div class="capability-grid">
 
-                <div class="capability-card capability-card--analyze">
-                    <div class="capability-card__head">
-                        <div class="capability-card__icon"><i class="fas fa-magnifying-glass-chart"></i></div>
-                        <h3 data-i18n="ipl2_cap1_title">Document analysis</h3>
-                    </div>
-                    <p class="capability-card__tagline" data-i18n="ipl2_cap1_tagline">Six specialist agents, one per document family.</p>
+                <div class="capability-card">
+                    <h3 data-i18n="ipl2_cap1_title">Analisi documentale</h3>
+                    <p class="capability-card__tagline" data-i18n="ipl2_cap1_tagline">Sei agenti specialisti, uno per famiglia di documenti.</p>
                     <ul class="capability-card__bullets">
-                        <li data-i18n="ipl2_cap1_b1">NDAs &mdash; unilateral, bilateral, multi-party</li>
-                        <li data-i18n="ipl2_cap1_b2">Research agreements with academic institutions</li>
-                        <li data-i18n="ipl2_cap1_b3">Commercial agreements, licenses, technology transfer</li>
-                        <li data-i18n="ipl2_cap1_b4">Presentations, papers, theses (with figure analysis)</li>
+                        <li data-i18n="ipl2_cap1_b1">NDA, unilaterali, bilaterali, multi-party</li>
+                        <li data-i18n="ipl2_cap1_b2">Accordi di ricerca con enti accademici</li>
+                        <li data-i18n="ipl2_cap1_b3">Accordi commerciali, licenze, trasferimento tecnologico</li>
+                        <li data-i18n="ipl2_cap1_b4">Presentazioni, paper, tesi (con analisi delle figure)</li>
                     </ul>
                     <div class="capability-card__proof">
-                        <i class="fas fa-gauge-high"></i><span data-i18n="ipl2_cap1_proof">Clause-by-clause, multi-language, risk measure 0&#8211;100%.</span>
+                        <span data-i18n="ipl2_cap1_proof">Clausola per clausola, multilingua, misura di rischio 0–100%.</span>
                     </div>
                 </div>
 
-                <div class="capability-card capability-card--draft">
-                    <div class="capability-card__head">
-                        <div class="capability-card__icon"><i class="fas fa-pen-ruler"></i></div>
-                        <h3 data-i18n="ipl2_cap2_title">Assisted drafting</h3>
-                    </div>
-                    <p class="capability-card__tagline" data-i18n="ipl2_cap2_tagline">From blank page to negotiation-ready draft.</p>
+                <div class="capability-card">
+                    <h3 data-i18n="ipl2_cap2_title">Stesura assistita</h3>
+                    <p class="capability-card__tagline" data-i18n="ipl2_cap2_tagline">Dalla pagina bianca al draft pronto alla negoziazione.</p>
                     <ul class="capability-card__bullets">
-                        <li data-i18n="ipl2_cap2_b1">NDAs, research agreements, commercial agreements</li>
-                        <li data-i18n="ipl2_cap2_b2"><strong>Always</strong> drafted to your IP policy framework</li>
-                        <li data-i18n="ipl2_cap2_b3">Counterparty assessment (academic vs commercial)</li>
-                        <li data-i18n="ipl2_cap2_b4">Placeholders only where data is missing or human decision is needed</li>
+                        <li data-i18n="ipl2_cap2_b1">NDA, accordi di ricerca, accordi commerciali</li>
+                        <li data-i18n="ipl2_cap2_b2">Redatti <strong>SEMPRE</strong> secondo la Sua IP policy</li>
+                        <li data-i18n="ipl2_cap2_b3">Valutazione della controparte (accademica vs commerciale)</li>
+                        <li data-i18n="ipl2_cap2_b4">Placeholder solo dove mancano dati o serve una decisione umana</li>
                     </ul>
                     <div class="capability-card__proof">
-                        <i class="fas fa-shield-halved"></i><span data-i18n="ipl2_cap2_proof">Adversarial drafting, with <strong>AT LEAST</strong> two cooperating agents.</span>
+                        <span data-i18n="ipl2_cap2_proof">Stesura adversariale, con <strong>ALMENO</strong> due agenti cooperanti.</span>
                     </div>
                 </div>
 
-                <div class="capability-card capability-card--patent">
-                    <div class="capability-card__head">
-                        <div class="capability-card__icon"><i class="fas fa-certificate"></i></div>
-                        <h3 data-i18n="ipl2_cap3_title">Patent drafting</h3>
-                    </div>
-                    <p class="capability-card__tagline" data-i18n="ipl2_cap3_tagline">From invention disclosure to filing-ready application.</p>
+                <div class="capability-card">
+                    <h3 data-i18n="ipl2_cap3_title">Stesura brevettuale</h3>
+                    <p class="capability-card__tagline" data-i18n="ipl2_cap3_tagline">Dall'invenzione alla domanda pronta al deposito.</p>
                     <ul class="capability-card__bullets">
-                        <li data-i18n="ipl2_cap3_b1">Structured inventor interview, no IP vocabulary required</li>
-                        <li data-i18n="ipl2_cap3_b2">Prior art search with closest references mapped</li>
-                        <li data-i18n="ipl2_cap3_b3">Independent and dependent claims, specification, abstract</li>
-                        <li data-i18n="ipl2_cap3_b4">Multi-domain, multi-jurisdiction (IT, EP, US, PCT)</li>
+                        <li data-i18n="ipl2_cap3_b1">Intervista strutturata all'inventore, senza gergo brevettuale richiesto</li>
+                        <li data-i18n="ipl2_cap3_b2">Ricerca di anteriorità con i riferimenti più prossimi mappati</li>
+                        <li data-i18n="ipl2_cap3_b3">Claim indipendenti e dipendenti, descrizione completa, abstract</li>
+                        <li data-i18n="ipl2_cap3_b4">Multi-dominio, multi-giurisdizione (IT, EP, US, PCT)</li>
                     </ul>
                     <div class="capability-card__proof">
-                        <i class="fas fa-circle-check"></i><span data-i18n="ipl2_cap3_proof">Every cited patent verified against patent databases: Espacenet, EPO Register, WIPO PATENTSCOPE, Google, Lens.org, UIBM, USPTO.</span>
+                        <span data-i18n="ipl2_cap3_proof">Ogni brevetto citato verificato su banca dati: Espacenet, EPO Register, WIPO PATENTSCOPE, Google, Lens.org, UIBM, USPTO.</span>
                     </div>
-                    <span class="capability-card__tag" data-i18n="ipl2_cap3_tag">Early access programme</span>
+                    <span class="capability-card__tag" data-i18n="ipl2_cap3_tag">Programma early access</span>
                 </div>
 
-                <div class="capability-card capability-card--review">
-                    <div class="capability-card__head">
-                        <div class="capability-card__icon"><i class="fas fa-shield-halved"></i></div>
-                        <h3 data-i18n="ipl2_cap4_title">Patent stress test</h3>
-                    </div>
-                    <p class="capability-card__tagline" data-i18n="ipl2_cap4_tagline">Demolish the draft before the examiner does.</p>
+                <div class="capability-card">
+                    <h3 data-i18n="ipl2_cap4_title">Stress test del brevetto</h3>
+                    <p class="capability-card__tagline" data-i18n="ipl2_cap4_tagline">Demolire la bozza prima che lo faccia l'esaminatore.</p>
                     <ul class="capability-card__bullets">
-                        <li data-i18n="ipl2_cap4_b1">Aggressive prior art aimed at invalidation</li>
-                        <li data-i18n="ipl2_cap4_b2">Attacks on each claim with combinations of existing patents and state of the art</li>
-                        <li data-i18n="ipl2_cap4_b3">Weak-points report with severity ranking</li>
-                        <li data-i18n="ipl2_cap4_b4">Narrowing recommendations preserving the broadest scope</li>
+                        <li data-i18n="ipl2_cap4_b1">Anteriorità aggressiva mirata all'invalidazione</li>
+                        <li data-i18n="ipl2_cap4_b2">Attacchi a ciascun claim con combinazioni di brevetti esistenti e stato dell'arte</li>
+                        <li data-i18n="ipl2_cap4_b3">Report dei punti deboli con ranking di severità</li>
+                        <li data-i18n="ipl2_cap4_b4">Suggerimenti di narrowing che preservano l'ampiezza difendibile</li>
                     </ul>
                     <div class="capability-card__proof">
-                        <i class="fas fa-chart-column"></i><span data-i18n="ipl2_cap4_proof">Structured risk factors on novelty, inventive step, sufficiency, clarity, eligibility, scope vs defensibility.</span>
+                        <span data-i18n="ipl2_cap4_proof">Fattori di rischio strutturati su novità, attività inventiva, sufficienza, chiarezza, eligibility, ampiezza vs difendibilità.</span>
                     </div>
-                    <span class="capability-card__tag" data-i18n="ipl2_cap4_tag">Early access programme</span>
+                    <span class="capability-card__tag" data-i18n="ipl2_cap4_tag">Programma early access</span>
                 </div>
 
             </div>
@@ -1000,82 +442,81 @@
     <section class="ip-section">
         <div class="container">
             <div class="ip-section-title">
-                <h2 data-i18n="ipl2_deliv_title">What does TTR-SUITE actually produce?</h2>
-                <div class="underline"></div>
-                <p data-i18n="ipl2_deliv_subtitle">Different matters require different document outputs. Case by case, here is what the suite produces.</p>
+                <h2 data-i18n="ipl2_deliv_title"><strong>Cosa produce la TTR-SUITE in concreto?</strong></h2>
+                <p data-i18n="ipl2_deliv_subtitle"><strong>Pratiche diverse richiedono output documentali diversi</strong>. Caso per caso, ecco che cosa produce la suite.</p>
             </div>
 
             <div class="usecase-stack">
 
                 <div class="usecase-card">
                     <div class="usecase-card__head">
-                        <span class="usecase-card__tag" data-i18n="ipl2_uc_tag_new">From blank page to negotiation-ready draft</span>
-                        <h3 data-i18n="ipl2_uc1_title">NDA, Research Agreement, Commercial Agreement &mdash; new draft</h3>
+                        <span class="usecase-card__tag" data-i18n="ipl2_uc_tag_new">Dalla pagina bianca al draft pronto alla negoziazione</span>
+                        <h3 data-i18n="ipl2_uc1_title">NDA, Accordi di Ricerca, Accordi Commerciali, nuova bozza</h3>
                     </div>
-                    <p class="usecase-card__lead" data-i18n="ipl2_uc1_lead">When the agreement does not exist yet and you want a first version to negotiate from.</p>
+                    <p class="usecase-card__lead" data-i18n="ipl2_uc1_lead">Quando l'accordo non esiste ancora e Le serve una prima versione da cui partire per negoziare.</p>
                     <ul class="usecase-card__deliv">
-                        <li data-i18n="ipl2_uc1_d1"><strong>Full text of the draft</strong> (in docx, md, pdf) in the language most useful to you, carefully structured to your IP policy framework</li>
-                        <li data-i18n="ipl2_uc1_d2"><strong>Placeholder map</strong> with markers inserted by TTR-SUITE at every field that requires information currently unavailable or a specific human decision</li>
-                        <li data-i18n="ipl2_uc1_d3"><strong>Internal review cycle incorporated:</strong> the drafter produces a first draft, hands it to the specialist reviewer for the agreement type (NDA, research or commercial), incorporates the modifications and delivers the revised draft</li>
-                        <li data-i18n="ipl2_uc1_d4"><strong>Interactive refinement</strong> to refine specific clauses or to trigger a further review on specific points</li>
+                        <li data-i18n="ipl2_uc1_d1"><strong>Testo completo della bozza</strong> (in docx, md, pdf) nella lingua più utile per Lei, strutturata attentamente sul framework della Sua IP policy</li>
+                        <li data-i18n="ipl2_uc1_d2"><strong>Mappa dei placeholder</strong> inseriti dalla TTR-SUITE per i campi che richiedono informazioni al momento non disponibili o una decisione umana specifica</li>
+                        <li data-i18n="ipl2_uc1_d3"><strong>Ciclo di revisione interno incorporato:</strong> il drafter emette il primo draft, lo passa al reviewer specialista del tipo di accordo (NDA, ricerca o commerciale), incorpora le modifiche e consegna la bozza revisionata</li>
+                        <li data-i18n="ipl2_uc1_d4"><strong>Interazione</strong> per affinare clausole specifiche o per attivare un ulteriore giro di revisione su punti specifici</li>
                     </ul>
                 </div>
 
                 <div class="usecase-card">
                     <div class="usecase-card__head">
-                        <span class="usecase-card__tag usecase-card__tag--analysis" data-i18n="ipl2_uc_tag_analysis">Analysis of an existing document vs policy/convenience</span>
-                        <h3 data-i18n="ipl2_uc2_title">NDA, Research Agreement, Commercial Agreement &mdash; analysis of an existing document</h3>
+                        <span class="usecase-card__tag usecase-card__tag--analysis" data-i18n="ipl2_uc_tag_analysis">Analisi di un documento esistente rispetto a policy/convenienza</span>
+                        <h3 data-i18n="ipl2_uc2_title">NDA, Accordi di Ricerca, Accordi Commerciali, analisi di un documento esistente</h3>
                     </div>
-                    <p class="usecase-card__lead" data-i18n="ipl2_uc2_lead">When the counterparty sent a draft, or you inherited an agreement and need to know what you are signing.</p>
+                    <p class="usecase-card__lead" data-i18n="ipl2_uc2_lead">Quando la controparte Le ha mandato una bozza, oppure ha ereditato un accordo e ha bisogno di sapere che cosa sta firmando.</p>
                     <ul class="usecase-card__deliv">
-                        <li data-i18n="ipl2_uc2_d1"><strong>Executive summary</strong> with overall risk level, Fairness Level (0&#8211;3) and top prioritised issues</li>
-                        <li data-i18n="ipl2_uc2_d2"><strong>Clause-by-clause analysis table</strong> with numerical risk score (0&#8211;100), risk category, economic impact estimate, alignment with your internal IP policy</li>
-                        <li data-i18n="ipl2_uc2_d3"><strong>Recommended action per clause</strong> &mdash; remove, modify, accept &mdash; with proposed alternative wording in the document language</li>
-                        <li data-i18n="ipl2_uc2_d4"><strong>Export control &amp; compliance check</strong> &mdash; OFAC, EU Regulation 833/2014, ITAR/EAR and dual-use applicability when counterparties are non-EU</li>
+                        <li data-i18n="ipl2_uc2_d1"><strong>Executive summary</strong> con livello di rischio complessivo, Fairness Level (0&#8211;3) e principali criticità in ordine di priorità</li>
+                        <li data-i18n="ipl2_uc2_d2"><strong>Tabella di analisi clausola per clausola</strong> con score di rischio numerico (0&#8211;100), categoria di rischio, stima dell'impatto economico, allineamento con la Sua IP policy</li>
+                        <li data-i18n="ipl2_uc2_d3"><strong>Azione raccomandata per clausola</strong>, rimuovere, modificare, accettare, con testo alternativo proposto nella lingua del documento</li>
+                        <li data-i18n="ipl2_uc2_d4"><strong>Verifica di compliance ed export control</strong>, OFAC, Reg. UE 833/2014, applicabilità di ITAR/EAR e Reg. UE 2021/821 (dual-use) per controparti extra-UE</li>
                     </ul>
                 </div>
 
                 <div class="usecase-card">
                     <div class="usecase-card__head">
-                        <span class="usecase-card__tag usecase-card__tag--analysis" data-i18n="ipl2_uc_tag_disclosure">Pre-disclosure compliance analysis</span>
-                        <h3 data-i18n="ipl2_uc3_title">Presentations, scientific papers, theses &mdash; IP review of the document</h3>
+                        <span class="usecase-card__tag usecase-card__tag--analysis" data-i18n="ipl2_uc_tag_disclosure">Analisi di compliance pre-disclosure</span>
+                        <h3 data-i18n="ipl2_uc3_title">Presentazioni, paper scientifici, tesi, revisione IP del documento</h3>
                     </div>
-                    <p class="usecase-card__lead" data-i18n="ipl2_uc3_lead">When the company wants something published, shared at a conference, or defended at university, and you need to know what is safe to disclose.</p>
+                    <p class="usecase-card__lead" data-i18n="ipl2_uc3_lead">Quando l'azienda vuole pubblicare qualcosa, condividerlo a una conferenza, o discuterlo in università, e Lei deve sapere cosa è sicuro divulgare.</p>
                     <ul class="usecase-card__deliv">
-                        <li data-i18n="ipl2_uc3_d1"><strong>Element-by-element review</strong> &mdash; slide by slide, section by section, chapter by chapter, figure by figure &mdash; with risk score and replicability assessment</li>
-                        <li data-i18n="ipl2_uc3_d2"><strong>Prohibited-content verification</strong> against your internal disclosure policy (facility data, internal procedures, unpublished specifications, proprietary methodologies)</li>
-                        <li data-i18n="ipl2_uc3_d3"><strong>Audience-specific recommendations</strong> &mdash; what is safe internally, with technical partners under NDA, with commercial counterparts, with the general public</li>
-                        <li data-i18n="ipl2_uc3_d4"><strong>Compliant alternative wording</strong> for the sections that score above threshold, preserving scientific or communicative value</li>
+                        <li data-i18n="ipl2_uc3_d1"><strong>Revisione elemento per elemento</strong>, slide per slide, sezione per sezione, capitolo per capitolo, figura per figura, con score di rischio e replicabilità competitor</li>
+                        <li data-i18n="ipl2_uc3_d2"><strong>Verifica di contenuto vietato</strong> rispetto alla Sua policy di disclosure (dati di stabilimento, procedure interne, specifiche non pubblicate, metodologie proprietarie)</li>
+                        <li data-i18n="ipl2_uc3_d3"><strong>Raccomandazioni audience-specifiche</strong>, cosa è sicuro internamente, con partner tecnici sotto NDA, con controparti commerciali, con il pubblico generale</li>
+                        <li data-i18n="ipl2_uc3_d4"><strong>Testo alternativo compliant</strong> per le sezioni sopra-soglia, preservando il valore scientifico o comunicativo</li>
                     </ul>
                 </div>
 
                 <div class="usecase-card usecase-card--patent">
                     <div class="usecase-card__head">
-                        <span class="usecase-card__tag usecase-card__tag--patent" data-i18n="ipl2_uc_tag_patent_draft">Patent drafting</span>
-                        <h3 data-i18n="ipl2_uc4_title">Patent application &mdash; from invention to filing-ready draft</h3>
+                        <span class="usecase-card__tag usecase-card__tag--patent" data-i18n="ipl2_uc_tag_patent_draft">Stesura brevettuale</span>
+                        <h3 data-i18n="ipl2_uc4_title">Domanda di brevetto, dall'invenzione alla bozza pronta al deposito</h3>
                     </div>
-                    <p class="usecase-card__lead" data-i18n="ipl2_uc4_lead">When you have an invention and want a depositable patent application drafted end-to-end.</p>
+                    <p class="usecase-card__lead" data-i18n="ipl2_uc4_lead">Quando ha un'invenzione e vuole una domanda di brevetto depositabile redatta end-to-end.</p>
                     <ul class="usecase-card__deliv">
-                        <li data-i18n="ipl2_uc4_d1"><strong>Invention disclosure form</strong> from a structured interview, no IP-vocabulary fluency required from the inventor</li>
-                        <li data-i18n="ipl2_uc4_d2"><strong>Prior art search report</strong> with closest references mapped against the inventive concept (every cited patent number verified at the source)</li>
-                        <li data-i18n="ipl2_uc4_d3"><strong>Patentability triage</strong> &mdash; if the invention does not survive the prior art, you find out before drafting the claims</li>
-                        <li data-i18n="ipl2_uc4_d4"><strong>Full application:</strong> independent and dependent claims, complete specification, abstract, drafted to UIBM, EPO or USPTO formalities</li>
-                        <li data-i18n="ipl2_uc4_d5"><strong>Iteration mode</strong> against examiner objections or third-party patents, with claim delimitation that respects the original disclosure (no added matter)</li>
+                        <li data-i18n="ipl2_uc4_d1"><strong>Invention disclosure form</strong> da intervista strutturata, senza fluenza gergale richiesta all'inventore</li>
+                        <li data-i18n="ipl2_uc4_d2"><strong>Report di anteriorità</strong> con i riferimenti più prossimi mappati rispetto al concetto inventivo (ogni numero citato verificato alla fonte)</li>
+                        <li data-i18n="ipl2_uc4_d3"><strong>Triage di brevettabilità</strong>, se l'invenzione non sopravvive all'anteriorità, lo scopre prima di redigere i claim</li>
+                        <li data-i18n="ipl2_uc4_d4"><strong>Domanda completa:</strong> claim indipendenti e dipendenti, descrizione completa, abstract, redatti secondo le formalità UIBM, EPO o USPTO</li>
+                        <li data-i18n="ipl2_uc4_d5"><strong>Modalità di iterazione</strong> contro obiezioni dell'esaminatore o brevetti di terzi, con delimitazione dei claim che rispetta la disclosure originaria (no added matter)</li>
                     </ul>
                 </div>
 
                 <div class="usecase-card usecase-card--patent">
                     <div class="usecase-card__head">
-                        <span class="usecase-card__tag usecase-card__tag--patent" data-i18n="ipl2_uc_tag_patent_review">Patent stress test</span>
-                        <h3 data-i18n="ipl2_uc5_title">Patent application &mdash; adversarial review of a draft</h3>
+                        <span class="usecase-card__tag usecase-card__tag--patent" data-i18n="ipl2_uc_tag_patent_review">Stress test del brevetto</span>
+                        <h3 data-i18n="ipl2_uc5_title">Domanda di brevetto, revisione adversariale di una bozza</h3>
                     </div>
-                    <p class="usecase-card__lead" data-i18n="ipl2_uc5_lead">When you have a draft application and want to know whether it survives examination before you file it.</p>
+                    <p class="usecase-card__lead" data-i18n="ipl2_uc5_lead">Quando ha una bozza di domanda e vuole sapere se sopravviverà all'esame prima di depositarla.</p>
                     <ul class="usecase-card__deliv">
-                        <li data-i18n="ipl2_uc5_d1"><strong>Aggressive prior art search</strong> aimed at demolishing the inventive concept</li>
-                        <li data-i18n="ipl2_uc5_d2"><strong>Attacks on every claim</strong> using combinations of existing patents and state of the art, also in combination</li>
-                        <li data-i18n="ipl2_uc5_d3"><strong>Weak-points report</strong> with severity ranking on the claims that did not survive the attack</li>
-                        <li data-i18n="ipl2_uc5_d4"><strong>Narrowing recommendations</strong> on the claims that need tightening, preserving the broadest defensible scope</li>
-                        <li data-i18n="ipl2_uc5_d5"><strong>Structured merit synthesis</strong> (novelty, inventive step, scope vs defensibility, eligibility), no spurious grant percentages, no narrowing imposed when the claims already survive as filed</li>
+                        <li data-i18n="ipl2_uc5_d1"><strong>Ricerca di anteriorità aggressiva</strong> finalizzata a demolire il concetto inventivo</li>
+                        <li data-i18n="ipl2_uc5_d2"><strong>Attacchi a ciascun claim</strong> usando combinazioni di brevetti esistenti e stato dell'arte, anche in combinazione fra loro</li>
+                        <li data-i18n="ipl2_uc5_d3"><strong>Report dei punti deboli</strong> con ranking di severità sui claim che non hanno superato l'attacco</li>
+                        <li data-i18n="ipl2_uc5_d4"><strong>Suggerimenti di narrowing</strong> sui claim che vanno stretti, preservando l'ampiezza difendibile più larga possibile</li>
+                        <li data-i18n="ipl2_uc5_d5"><strong>Sintesi di merito strutturata</strong> (novità, attività inventiva, ampiezza vs difendibilità, eligibility), nessuna percentuale puntuale di concedibilità, nessun narrowing forzato quando i claim sopravvivono già com'è</li>
                     </ul>
                 </div>
 
@@ -1084,65 +525,59 @@
     </section>
 
     <!-- ============ 5. CONVERSATION EXAMPLES ============ -->
-    <section class="ip-section ip-section--alt">
+    <section class="ip-section ip-section--fondo">
         <div class="container">
             <div class="ip-section-title">
-                <h2 data-i18n="ipl2_ex_title">Sample conversations</h2>
-                <div class="underline"></div>
-                <p data-i18n="ipl2_ex_subtitle">Concrete examples, from the operator's question to what TTR-SUITE IP Legal does next.</p>
+                <h2 data-i18n="ipl2_ex_title">Esempi di colloquio</h2>
+                <p data-i18n="ipl2_ex_subtitle">Esempi concreti, dalla domanda dell'operatore a quello che TTR-SUITE IP Legal fa dopo.</p>
             </div>
             <div class="example-grid">
                 <div class="example-card">
-                    <div class="example-card__q" data-i18n="ipl2_ex1_q">The counterparty sent this NDA. I sign on Friday. What am I agreeing to?</div>
-                    <div class="example-card__a" data-i18n="ipl2_ex1_a">Clause-by-clause analysis of the NDA. Risk score per clause, overall Fairness Level, OFAC compliance check, AI/ML training prohibition check, deviations from your IP policy framework flagged. Proposed alternative wording where the clause is below target.</div>
+                    <div class="example-card__q" data-i18n="ipl2_ex1_q">La controparte mi ha mandato questo NDA. Firmo venerdì. Cosa sto accettando?</div>
+                    <div class="example-card__a" data-i18n="ipl2_ex1_a">Analisi clausola per clausola dell'NDA. Score di rischio per clausola, Fairness Level complessivo, controllo OFAC, controllo divieto di training AI/ML, deviazioni rispetto alla Sua IP policy evidenziate. Testo alternativo proposto dove la clausola è sotto target.</div>
                 </div>
                 <div class="example-card">
-                    <div class="example-card__q" data-i18n="ipl2_ex2_q">We're entering a research partnership with this university. There is no agreement yet.</div>
-                    <div class="example-card__a" data-i18n="ipl2_ex2_a">Drafting from a blank page: scope, deliverables, background and foreground IP, funding model, publication rights, governance, liability, exit. Internally validated against the research-agreement reference framework before delivery, placeholders left only on the fields that require a human decision.</div>
+                    <div class="example-card__q" data-i18n="ipl2_ex2_q">Stiamo per avviare una partnership di ricerca con questa università. L'accordo non c'è ancora.</div>
+                    <div class="example-card__a" data-i18n="ipl2_ex2_a">Stesura da pagina bianca, ambito, deliverable, IP background e foreground, modello di finanziamento, diritti di pubblicazione, governance, responsabilità, exit. Internamente validato rispetto al framework di riferimento prima della consegna, placeholder lasciati solo nei campi che richiedono una decisione umana.</div>
                 </div>
                 <div class="example-card">
-                    <div class="example-card__q" data-i18n="ipl2_ex3_q">I need to review this license agreement with a US supplier before next week.</div>
-                    <div class="example-card__a" data-i18n="ipl2_ex3_a">Commercial agreement analysis: IP allocation, royalty model, exclusivity, audit rights, SLA, liability cap, governing law and jurisdiction. Verbatim export-control clause check (EU Reg. 833/2014); clause recommended where missing. US ITAR/EAR implications flagged for external review when the counterparty is outside the EU.</div>
+                    <div class="example-card__q" data-i18n="ipl2_ex3_q">Devo rivedere questo accordo di licenza con un fornitore statunitense entro la settimana prossima.</div>
+                    <div class="example-card__a" data-i18n="ipl2_ex3_a">Analisi di accordo commerciale, allocazione IP, modello royalty, esclusiva, diritti di audit, SLA, limitazione di responsabilità, legge applicabile e foro. Verifica verbatim della clausola di export control (Reg. UE 833/2014); clausola raccomandata dove manca. Implicazioni ITAR/EAR statunitensi segnalate per verifica esterna quando la controparte è extra-UE.</div>
                 </div>
                 <div class="example-card">
-                    <div class="example-card__q" data-i18n="ipl2_ex4_q">I want to protect this invention. Where do we start?</div>
-                    <div class="example-card__a" data-i18n="ipl2_ex4_a">Six-phase pipeline: structured inventor interview, prior art search, patentability triage, claim drafting (independent + dependent), full specification with abstract, iteration against examiner objections. Multi-domain, multi-jurisdiction. Every cited patent number is verified against official patent databases before it lands in the draft.</div>
+                    <div class="example-card__q" data-i18n="ipl2_ex4_q">Voglio proteggere quest'invenzione. Da dove partiamo?</div>
+                    <div class="example-card__a" data-i18n="ipl2_ex4_a">Pipeline in sei fasi, intervista strutturata all'inventore, ricerca di anteriorità, triage di brevettabilità, stesura dei claim (indipendenti + dipendenti), descrizione completa con abstract, iterazione contro obiezioni dell'esaminatore. Multi-dominio, multi-giurisdizione. Ogni numero di brevetto citato è verificato su banche dati ufficiali prima di entrare nella bozza.</div>
                 </div>
                 <div class="example-card">
-                    <div class="example-card__q" data-i18n="ipl2_ex5_q">We have a draft patent application. Is it really novel?</div>
-                    <div class="example-card__a" data-i18n="ipl2_ex5_a">Aggressive stress test. The system attempts to invalidate the claims using combinations of existing patents and state of the art. If a claim does not survive, the report tells you exactly which features are vulnerable and how to narrow the claim to preserve validity with the broadest defensible scope.</div>
+                    <div class="example-card__q" data-i18n="ipl2_ex5_q">Abbiamo la bozza di una domanda di brevetto. È davvero innovativa?</div>
+                    <div class="example-card__a" data-i18n="ipl2_ex5_a">Stress test aggressivo. Il sistema tenta di invalidare i claim usando combinazioni di brevetti esistenti e stato dell'arte. Se un claim non sopravvive, il report dice esattamente quali feature sono vulnerabili e come restringere il claim per preservare la validità con l'ampiezza difendibile più larga.</div>
                 </div>
                 <div class="example-card">
-                    <div class="example-card__q" data-i18n="ipl2_ex6_q">I'm about to publish this technical paper. Am I burning my own patentability?</div>
-                    <div class="example-card__a" data-i18n="ipl2_ex6_a">Scientific paper review: each section scored against IP risk, with mitigations preserving scientific value. Specific parameters that would accelerate competitor R&amp;D are flagged, with compliant scientific alternatives proposed. Patent strategy alignment: what to file before publication, what can wait.</div>
+                    <div class="example-card__q" data-i18n="ipl2_ex6_q">Sto per pubblicare questo paper tecnico. Sto bruciando la mia stessa brevettabilità?</div>
+                    <div class="example-card__a" data-i18n="ipl2_ex6_a">Revisione del paper, ogni sezione scorata su rischio IP, con mitigazioni che preservano il valore scientifico. Parametri specifici che accelererebbero la R&amp;D di un competitor segnalati, con alternative scientifiche compliant proposte. Allineamento con la strategia brevettuale, cosa depositare prima della pubblicazione, cosa può aspettare.</div>
                 </div>
                 <div class="example-card">
-                    <div class="example-card__q" data-i18n="ipl2_ex7_q">This PhD student is finalising the thesis using our internal data. What can stay in?</div>
-                    <div class="example-card__a" data-i18n="ipl2_ex7_a">Thesis IP review: organisational information, facility data, unpublished specifications, proprietary methodologies and prohibited content explicitly verified. Recommendations preserve scholarly integrity while protecting the company's IP perimeter.</div>
+                    <div class="example-card__q" data-i18n="ipl2_ex7_q">Questo studente di dottorato sta chiudendo la tesi usando nostri dati interni. Cosa può rimanerci dentro?</div>
+                    <div class="example-card__a" data-i18n="ipl2_ex7_a">Revisione IP della tesi, informazioni organizzative, dati di stabilimento, specifiche non pubblicate, metodologie proprietarie e contenuti vietati verificati esplicitamente. Le raccomandazioni preservano l'integrità accademica proteggendo il perimetro IP dell'azienda.</div>
                 </div>
                 <div class="example-card">
-                    <div class="example-card__q" data-i18n="ipl2_ex8_q">I'm presenting this slide deck at a conference next month.</div>
-                    <div class="example-card__a" data-i18n="ipl2_ex8_a">Presentation review, slide by slide. Replicability scoring against competitors, prohibited-content verification (facility photos, internal procedures, unpublished specs), audience-specific recommendations: internal, technical-with-NDA, commercial, public.</div>
+                    <div class="example-card__q" data-i18n="ipl2_ex8_q">Devo presentare questo slide deck a una conferenza il mese prossimo.</div>
+                    <div class="example-card__a" data-i18n="ipl2_ex8_a">Revisione della presentazione, slide per slide. Score di replicabilità rispetto ai competitor, verifica di contenuti vietati (foto di stabilimento, procedure interne, specifiche non pubblicate), raccomandazioni audience-specifiche, interna, tecnica-con-NDA, commerciale, pubblica.</div>
                 </div>
                 <div class="example-card">
-                    <div class="example-card__q" data-i18n="ipl2_ex9_q">This agreement is in German, the counterparty is Swiss. What IP risks are hidden in the clauses?</div>
-                    <div class="example-card__a" data-i18n="ipl2_ex9_a">Clause-by-clause analysis <strong>directly in German</strong>, no preliminary translation. Scored against <strong>your IP policy</strong>: per-clause risk (ownership, licensing, confidentiality, post-termination), overall Fairness Level. Verbatim export-control clause check (EU Reg. 833/2014); US ITAR/EAR implications flagged for external review when the counterparty is outside the EU. Alternative wording proposed <strong>in the original language</strong>.</div>
+                    <div class="example-card__q" data-i18n="ipl2_ex9_q">Questo accordo è in tedesco, controparte svizzera. Le clausole IP che rischi nascondono?</div>
+                    <div class="example-card__a" data-i18n="ipl2_ex9_a">Analisi clausola per clausola <strong>direttamente in tedesco</strong>, nessuna traduzione preliminare. Valutazione rispetto alla <strong>Sua IP policy</strong>: score di rischio per clausola (proprietà, licenze, riservatezza, post-termination), Fairness Level. Verifica verbatim della clausola di export control (Reg. UE 833/2014); implicazioni ITAR/EAR statunitensi segnalate per verifica esterna quando la controparte è extra-UE. Testo alternativo proposto <strong>nella lingua originale</strong>.</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ============ 6. UNDER THE HOOD (schema PA Locale) ============ -->
-    <section class="arch-section">
+    <!-- ============ 6. UNDER THE HOOD ============ -->
+    <section class="ip-section">
         <div class="container">
             <div class="ip-section-title">
-                <h2 data-i18n="ipl2_arch_title">Under the hood: an orchestra of specialists</h2>
-                <div class="underline"></div>
-                <p data-i18n="ipl2_arch_subtitle">
-                    TTR-SUITE IP Legal is not a generalist AI chatbot trying to handle everything.
-                    It is a team of specialist agents that collaborate, coordinated by <strong>ARBITER</strong>.
-                    Each agent is a distinct AI, specialised and trained for a single precise task in IP and contract work.
-                </p>
+                <h2 data-i18n="ipl2_arch_title">Sotto al cofano: un'orchestra di specialisti</h2>
+                <p data-i18n="ipl2_arch_subtitle">TTR-SUITE IP Legal non è un chatbot AI generalista, dove un'unica AI prova a rispondere a tutto. È una squadra di agenti specialisti che collaborano, coordinati da <strong>ARBITER</strong>. Ogni agente è un'AI distinta, specializzata e addestrata per un compito preciso nel lavoro IP e contrattuale.</p>
             </div>
 
             <div class="agents-wrapper">
@@ -1150,57 +585,48 @@
                 <div class="agents-header">
                     <div class="agents-count">
                         <div class="big-number">9<span style="font-size:1.8rem; opacity:0.85;"> + 2</span></div>
-                        <div class="label" data-i18n="ipl2_arch_count_label">8 active specialists + 1 in early access (patent reviewer) + 2 coordinators</div>
+                        <div class="label" data-i18n="ipl2_arch_count_label">8 specialisti attivi + 1 in early access (revisore brevettuale) + 2 coordinatori</div>
                     </div>
                     <div class="agents-intro">
-                        <p data-i18n="ipl2_arch_intro1">
-                            A team of <strong>dedicated specialist agents</strong> covering the IP and contract domain.
-                            Every case is handled by the agents with the right perimeter, with independent verifications
-                            between steps and full traceability of the reasoning.
-                        </p>
-                        <p data-i18n="ipl2_arch_intro2">
-                            Seven IP areas are presided, from confidentiality to patent applications, with
-                            specialist agents focused exclusively on each one.
-                            Across all areas, six operating modes are applied where they belong,
-                            so each output carries the same quality controls regardless of the document family.
-                        </p>
+                        <p data-i18n="ipl2_arch_intro1">Una squadra di <strong>agenti specialisti dedicati</strong> che presidia il dominio IP e contrattuale. Ogni caso è gestito dagli agenti con il perimetro giusto, con verifiche indipendenti tra i passaggi e tracciabilità completa del ragionamento.</p>
+                        <p data-i18n="ipl2_arch_intro2">Sette aree IP sono presidiate, dalla riservatezza alle domande di brevetto, con agenti specialisti focalizzati ciascuno esclusivamente su una di esse. Trasversalmente alle aree, sei modalità operative vengono applicate dove servono, in modo che ogni output porti gli stessi controlli di qualità a prescindere dalla famiglia documentale.</p>
                     </div>
                 </div>
 
-                <h3 class="agents-section-title" data-i18n="ipl2_arch_coord_title">Agent coordination</h3>
+                <h3 class="agents-section-title" data-i18n="ipl2_arch_coord_title">Coordinamento agenti</h3>
                 <div class="coord-row">
                     <div class="coord-card">
-                        <div class="coord-card__name"><i class="fas fa-sitemap"></i> ARBITER</div>
-                        <div class="coord-card__desc" data-i18n="ipl2_arch_arbiter_desc">Classifies the operator's request and makes sure, at every step, that the answers are produced by the most competent agents.</div>
+                        <div class="coord-card__name">ARBITER</div>
+                        <div class="coord-card__desc" data-i18n="ipl2_arch_arbiter_desc">Classifica la richiesta dell'operatore e si assicura, ad ogni passaggio, che le risposte siano prodotte dagli agenti più competenti.</div>
                     </div>
                     <div class="coord-card">
-                        <div class="coord-card__name"><i class="fas fa-comments"></i> INTERPRES</div>
-                        <div class="coord-card__desc" data-i18n="ipl2_arch_interpres_desc">Interprets the user's request in depth and surfaces the specialist competences needed to answer.</div>
+                        <div class="coord-card__name">INTERPRES</div>
+                        <div class="coord-card__desc" data-i18n="ipl2_arch_interpres_desc">Interpreta in profondità la richiesta dell'utente e fa emergere le competenze specialistiche necessarie a rispondere.</div>
                     </div>
                 </div>
 
                 <div class="specializations">
                     <div>
-                        <h3 class="agents-section-title" data-i18n="ipl2_arch_areas_title">Seven IP areas presided</h3>
+                        <h3 class="agents-section-title" data-i18n="ipl2_arch_areas_title">Sette aree IP presidiate</h3>
                         <div class="agents-list">
-                            <div class="agent-chip"><i class="fas fa-user-secret"></i> <span data-i18n="ipl2_arch_area1">Non-disclosure agreements</span></div>
-                            <div class="agent-chip"><i class="fas fa-flask"></i> <span data-i18n="ipl2_arch_area2">Academic research agreements</span></div>
-                            <div class="agent-chip"><i class="fas fa-handshake"></i> <span data-i18n="ipl2_arch_area3">Commercial agreements &amp; licensing</span></div>
-                            <div class="agent-chip"><i class="fas fa-display"></i> <span data-i18n="ipl2_arch_area4">External presentations &amp; slide decks</span></div>
-                            <div class="agent-chip"><i class="fas fa-file-lines"></i> <span data-i18n="ipl2_arch_area5">Scientific papers &amp; publications</span></div>
-                            <div class="agent-chip"><i class="fas fa-graduation-cap"></i> <span data-i18n="ipl2_arch_area6">Academic theses</span></div>
-                            <div class="agent-chip"><i class="fas fa-certificate"></i> <span data-i18n="ipl2_arch_area7">Patent applications</span></div>
+                            <div class="agent-chip"><span data-i18n="ipl2_arch_area1">Accordi di riservatezza</span></div>
+                            <div class="agent-chip"><span data-i18n="ipl2_arch_area2">Accordi di ricerca accademica</span></div>
+                            <div class="agent-chip"><span data-i18n="ipl2_arch_area3">Accordi commerciali e licensing</span></div>
+                            <div class="agent-chip"><span data-i18n="ipl2_arch_area4">Presentazioni e slide deck esterni</span></div>
+                            <div class="agent-chip"><span data-i18n="ipl2_arch_area5">Paper scientifici e pubblicazioni</span></div>
+                            <div class="agent-chip"><span data-i18n="ipl2_arch_area6">Tesi accademiche</span></div>
+                            <div class="agent-chip"><span data-i18n="ipl2_arch_area7">Domande di brevetto</span></div>
                         </div>
                     </div>
                     <div>
-                        <h3 class="agents-section-title" data-i18n="ipl2_arch_modes_title">Six operating modes across the areas</h3>
+                        <h3 class="agents-section-title" data-i18n="ipl2_arch_modes_title">Sei modalità operative trasversali</h3>
                         <div class="agents-list">
-                            <div class="agent-chip"><i class="fas fa-magnifying-glass-chart"></i> <span data-i18n="ipl2_arch_mode1">Clause-by-clause analysis with risk scoring</span></div>
-                            <div class="agent-chip"><i class="fas fa-pen-ruler"></i> <span data-i18n="ipl2_arch_mode2">Assisted drafting to your IP policy</span></div>
-                            <div class="agent-chip"><i class="fas fa-shield-halved"></i> <span data-i18n="ipl2_arch_mode3">Adversarial stress test on patents</span></div>
-                            <div class="agent-chip"><i class="fas fa-balance-scale"></i> <span data-i18n="ipl2_arch_mode4">Regulatory and export-control compliance</span></div>
-                            <div class="agent-chip"><i class="fas fa-link"></i> <span data-i18n="ipl2_arch_mode5">Source-verified citations and patent numbers</span></div>
-                            <div class="agent-chip"><i class="fas fa-folder-open"></i> <span data-i18n="ipl2_arch_mode6">Inspectable session workspace</span></div>
+                            <div class="agent-chip"><span data-i18n="ipl2_arch_mode1">Analisi clausola per clausola con risk scoring</span></div>
+                            <div class="agent-chip"><span data-i18n="ipl2_arch_mode2">Stesura assistita conforme alla Sua IP policy</span></div>
+                            <div class="agent-chip"><span data-i18n="ipl2_arch_mode3">Stress test adversariale sui brevetti</span></div>
+                            <div class="agent-chip"><span data-i18n="ipl2_arch_mode4">Conformità regolamentare ed export control</span></div>
+                            <div class="agent-chip"><span data-i18n="ipl2_arch_mode5">Citazioni e numeri di brevetto verificati alla fonte</span></div>
+                            <div class="agent-chip"><span data-i18n="ipl2_arch_mode6">Workspace di sessione ispezionabile</span></div>
                         </div>
                     </div>
                 </div>
@@ -1211,43 +637,36 @@
     </section>
 
     <!-- ============ 7. BUILT FOR PRODUCTION LEGAL WORK ============ -->
-    <section class="trust-section">
+    <section class="ip-section ip-section--fondo">
         <div class="container">
             <div class="ip-section-title">
-                <h2 data-i18n="ipl2_trust_title">Built for production legal work</h2>
-                <div class="underline"></div>
-                <p data-i18n="ipl2_trust_subtitle">Constraints baked into every agent, so the output you receive is usable on real cases, not impressive in a demo and unreliable at the desk.</p>
+                <h2 data-i18n="ipl2_trust_title">Costruita per il lavoro legale reale</h2>
+                <p data-i18n="ipl2_trust_subtitle">Vincoli scolpiti dentro ciascun agente, in modo che l'output che riceve sia utilizzabile su casi reali, non impressionante in demo e inaffidabile alla scrivania.</p>
             </div>
             <div class="trust-grid">
                 <div class="trust-card">
-                    <div class="trust-card__icon"><i class="fas fa-ban"></i></div>
-                    <h4 data-i18n="ipl2_trust1_title">No fabricated references</h4>
-                    <p data-i18n="ipl2_trust1_text">Every agent operates under explicit no-hallucination rules on legal articles, contract clauses, citations and patent numbers. Where information is missing, the output says so explicitly. An honest &laquo;unverifiable&raquo; replaces a confident invention.</p>
+                    <h4 data-i18n="ipl2_trust1_title">Niente riferimenti inventati</h4>
+                    <p data-i18n="ipl2_trust1_text">Ogni agente opera sotto regole esplicite no-hallucination su articoli di legge, clausole contrattuali, citazioni e numeri di brevetto. Quando l'informazione manca, l'output lo dichiara esplicitamente. Un onesto «non verificabile» sostituisce un'invenzione sicura di sé.</p>
                 </div>
                 <div class="trust-card">
-                    <div class="trust-card__icon"><i class="fas fa-circle-check"></i></div>
-                    <h4 data-i18n="ipl2_trust2_title">Patent number verification at the source</h4>
-                    <p data-i18n="ipl2_trust2_text">Every patent number cited in a draft, prior-art table or claim comparison is verified against public patent databases (Espacenet, EPO Register, WIPO PATENTSCOPE, Google, Lens.org, UIBM, USPTO) before it appears in the output. Numbers that cannot be verified are removed and flagged.</p>
+                    <h4 data-i18n="ipl2_trust2_title">Verifica dei numeri di brevetto alla fonte</h4>
+                    <p data-i18n="ipl2_trust2_text">Ogni numero di brevetto citato in una bozza, in una tabella di anteriorità o in un confronto fra claim viene verificato su banche dati pubbliche (Espacenet, EPO Register, WIPO PATENTSCOPE, Google, Lens.org, UIBM, USPTO) prima di apparire nell'output. I numeri non verificabili vengono rimossi e segnalati.</p>
                 </div>
                 <div class="trust-card">
-                    <div class="trust-card__icon"><i class="fas fa-gauge-high"></i></div>
-                    <h4 data-i18n="ipl2_trust3_title">Numerical scoring, no theatre</h4>
-                    <p data-i18n="ipl2_trust3_text">Risks are scored 0&#8211;100 on a fixed rubric, with calibration examples enforcing reproducibility. Fairness Level 0&#8211;3 is mathematically derived from weighted category scores: cannot be overridden by qualitative spin.</p>
+                    <h4 data-i18n="ipl2_trust3_title">Scoring numerico, non scenico</h4>
+                    <p data-i18n="ipl2_trust3_text">I rischi vengono scorati 0&#8211;100 su una rubrica fissa, con esempi di calibrazione che impongono riproducibilità. Il Fairness Level 0&#8211;3 è derivato matematicamente da pesi di categoria, non può essere alterato da spin qualitativo.</p>
                 </div>
                 <div class="trust-card">
-                    <div class="trust-card__icon"><i class="fas fa-eye"></i></div>
-                    <h4 data-i18n="ipl2_trust4_title">Confidence levels on every finding</h4>
-                    <p data-i18n="ipl2_trust4_text">Each assertion carries a confidence tag &#8211; certain, probable, uncertain, unverifiable. You see at a glance what the agent is sure of and what it is flagging for human review.</p>
+                    <h4 data-i18n="ipl2_trust4_title">Livelli di confidenza su ogni finding</h4>
+                    <p data-i18n="ipl2_trust4_text">Ogni asserzione porta un'etichetta di confidenza, certo, probabile, incerto, non verificabile. A colpo d'occhio vede di cosa l'agente è sicuro e cosa segnala per revisione umana.</p>
                 </div>
                 <div class="trust-card">
-                    <div class="trust-card__icon"><i class="fas fa-scale-unbalanced-flip"></i></div>
-                    <h4 data-i18n="ipl2_trust5_title">Conservative bias on IP risk</h4>
-                    <p data-i18n="ipl2_trust5_text">An IP risk missed is more costly than a risk flagged. When in doubt between two severity bands, the agent picks the higher one. False positives bother you for an hour; false negatives cost the patent.</p>
+                    <h4 data-i18n="ipl2_trust5_title">Bias conservativo sul rischio IP</h4>
+                    <p data-i18n="ipl2_trust5_text">Un rischio IP mancato costa più di un rischio segnalato. Nel dubbio fra due bande di severità, l'agente sceglie la più alta. I falsi positivi rubano un'ora, i falsi negativi rubano il brevetto.</p>
                 </div>
                 <div class="trust-card">
-                    <div class="trust-card__icon"><i class="fas fa-lock"></i></div>
-                    <h4 data-i18n="ipl2_trust6_title">Hardened against prompt injection</h4>
-                    <p data-i18n="ipl2_trust6_text">Five-level system protection (L1 to L5) blocks attempts to extract internal instructions through reformulation, role-play, encoding, translation or instructions embedded in submitted documents. Embedded overrides are flagged in the report, not executed.</p>
+                    <h4 data-i18n="ipl2_trust6_title">Robusta contro prompt injection</h4>
+                    <p data-i18n="ipl2_trust6_text">Cinque livelli di protezione (L1&ndash;L5) bloccano i tentativi di estrarre le istruzioni interne tramite riformulazione, role-play, encoding, traduzione o istruzioni nascoste nei documenti sottoposti. Gli override embeddati nei documenti vengono segnalati nel report, non eseguiti.</p>
                 </div>
             </div>
         </div>
@@ -1256,121 +675,109 @@
     <!-- ============ 8. CASE STUDY (compact) ============ -->
     <section class="ip-section">
         <div class="container">
-            <div class="ip-section-title">
-                <h2 data-i18n="ipl2_case_title">Field test: IP department of a major international industrial group</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="case-compact">
-                <div class="case-compact__header">
-                    <h3 data-i18n="ipl2_case_heading">Transforming IP document management at a major international manufacturer</h3>
-                    <p class="case-compact__intro" data-i18n="ipl2_case_intro">An Aviolab AI deployment inside the IP department of a major international industrial group, results across a quarter of operation:</p>
+            <div class="ip-section-title ip-caso">
+                <h2 data-i18n="ipl2_case_title">Test sul campo: dipartimento IP di un grande gruppo industriale multinazionale</h2>
+                <div class="case-compact">
+                    <div class="case-compact__header">
+                        <h3 data-i18n="ipl2_case_heading">Trasformazione della gestione documentale IP in un gruppo industriale internazionale</h3>
+                        <p class="case-compact__intro" data-i18n="ipl2_case_intro">Un deployment Aviolab AI all'interno del dipartimento IP di un grande gruppo industriale multinazionale, risultati nell'arco di un trimestre di operatività:</p>
+                    </div>
+                    <ul class="case-compact__bullets">
+                        <li data-i18n="ipl2_case_b1">Tempo di analisi contratti ridotto da giorni a ore, talvolta minuti</li>
+                        <li data-i18n="ipl2_case_b2">Livello di rischio valutato per singola criticità, non per contratto</li>
+                        <li data-i18n="ipl2_case_b3">Gestione di accordi multi-documento resa affidabile e ripetibile</li>
+                        <li data-i18n="ipl2_case_b4">Commenti legali prodotti in modo pulito in più lingue</li>
+                        <li data-i18n="ipl2_case_b5">Coordinamento fluido fra team legali internazionali sullo stesso caso</li>
+                        <li data-i18n="ipl2_case_b6">Maggiore controllo sugli asset IP e sicurezza nella negoziazione contrattuale</li>
+                    </ul>
                 </div>
-                <ul class="case-compact__bullets">
-                    <li data-i18n="ipl2_case_b1">Contract analysis time reduced from days to hours, sometimes minutes</li>
-                    <li data-i18n="ipl2_case_b2">Risk level assessed per individual critical issue, not per contract</li>
-                    <li data-i18n="ipl2_case_b3">Multi-document agreement processing made reliable and repeatable</li>
-                    <li data-i18n="ipl2_case_b4">Legal commentary generated cleanly in multiple languages</li>
-                    <li data-i18n="ipl2_case_b5">Smoother coordination across international legal teams on the same case</li>
-                    <li data-i18n="ipl2_case_b6">Stronger control over IP assets and contractual negotiation security</li>
-                </ul>
             </div>
         </div>
     </section>
 
     <!-- ============ 9. SERVICE MODEL ============ -->
-    <section class="ip-section ip-section--alt">
+    <section class="ip-section ip-section--fondo">
         <div class="container">
             <div class="ip-section-title">
-                <h2 data-i18n="ipl2_svc_title">How you get access</h2>
-                <div class="underline"></div>
-                <p data-i18n="ipl2_svc_subtitle">Two paths, depending on the capability.</p>
+                <h2 data-i18n="ipl2_svc_title">Come ottenere l'accesso</h2>
+                <p data-i18n="ipl2_svc_subtitle">Due percorsi, a seconda della capacità.</p>
             </div>
             <div class="service-grid">
                 <div class="service-card service-card--standard">
-                    <span class="service-card__tag" data-i18n="ipl2_svc1_tag">Commercial availability</span>
-                    <h3 data-i18n="ipl2_svc1_title">Analysis, drafting and adversarial review</h3>
-                    <p data-i18n="ipl2_svc1_text">Standard commercial engagement, cloud deployment or confined on-premise within your IT infrastructure, depending on confidentiality requirements.</p>
+                    <span class="service-card__tag" data-i18n="ipl2_svc1_tag">Disponibilità commerciale</span>
+                    <h3 data-i18n="ipl2_svc1_title">Analisi, stesura e stress test</h3>
+                    <p data-i18n="ipl2_svc1_text">Contratto commerciale standard, deployment cloud o confinato on-premise all'interno della Sua infrastruttura IT, a seconda dei requisiti di riservatezza.</p>
                     <ul>
-                        <li data-i18n="ipl2_svc1_b1">Per-seat or per-engagement pricing</li>
-                        <li data-i18n="ipl2_svc1_b2">On-premise option for confidential portfolios</li>
-                        <li data-i18n="ipl2_svc1_b3">Integration with your existing document management</li>
-                        <li data-i18n="ipl2_svc1_b4">Training and onboarding for your team</li>
+                        <li data-i18n="ipl2_svc1_b1">Pricing per postazione o per ingaggio</li>
+                        <li data-i18n="ipl2_svc1_b2">Opzione on-premise per portafogli riservati</li>
+                        <li data-i18n="ipl2_svc1_b3">Integrazione con la gestione documentale esistente</li>
+                        <li data-i18n="ipl2_svc1_b4">Formazione e onboarding del Suo team</li>
                     </ul>
                 </div>
                 <div class="service-card service-card--early">
-                    <span class="service-card__tag" data-i18n="ipl2_svc2_tag">Early access programme</span>
-                    <h3 data-i18n="ipl2_svc2_title">End-to-end patent preparation</h3>
-                    <p data-i18n="ipl2_svc2_text">Available to selected partners on request. We work alongside your inventors, attorneys and IP managers to refine the workflow on real applications.</p>
+                    <span class="service-card__tag" data-i18n="ipl2_svc2_tag">Programma early access</span>
+                    <h3 data-i18n="ipl2_svc2_title">Preparazione end-to-end di domande di brevetto</h3>
+                    <p data-i18n="ipl2_svc2_text">Disponibile a partner selezionati su richiesta. Lavoriamo a fianco dei Suoi inventori, consulenti brevettuali e responsabili IP per affinare il flusso su domande reali.</p>
                     <ul>
-                        <li data-i18n="ipl2_svc2_b1">Partner-on-request access</li>
-                        <li data-i18n="ipl2_svc2_b2">UIBM and EPO formalities supported</li>
-                        <li data-i18n="ipl2_svc2_b3">Direct line to the engineering team</li>
-                        <li data-i18n="ipl2_svc2_b4">Preferred conditions on commercial release</li>
+                        <li data-i18n="ipl2_svc2_b1">Accesso partner-on-request</li>
+                        <li data-i18n="ipl2_svc2_b2">Formalità UIBM ed EPO supportate</li>
+                        <li data-i18n="ipl2_svc2_b3">Linea diretta col team di ingegneria</li>
+                        <li data-i18n="ipl2_svc2_b4">Condizioni preferenziali sul rilascio commerciale</li>
                     </ul>
                 </div>
             </div>
 
             <div class="secondary-note">
-                <strong data-i18n="ipl2_xlink_title">Looking for the Italian Public Administration version?</strong>
-                <span data-i18n="ipl2_xlink_text"> Visit the dedicated page for <a href="pa-locale.html">TTR-SUITE per la PA Locale</a>, our suite for Italian municipalities, legal and administrative consulting AI with certified normative sources and SInCRO-compliant digital filing.</span>
+                <strong data-i18n="ipl2_xlink_title">Cerca la versione per la Pubblica Amministrazione italiana?</strong>
+                <span data-i18n="ipl2_xlink_text">Visiti la pagina dedicata di <a href="pa-locale.html">TTR-SUITE per la PA Locale</a>, la nostra suite per i Comuni italiani, consulenza giuridica e amministrativa con AI, fonti normative certificate, fascicolo informatico SInCRO.</span>
             </div>
         </div>
     </section>
 
     <!-- ============ 9b. DOCUMENTATION & CERTIFICATIONS ============ -->
-    <section id="documentation" class="ip-section ip-section--alt">
+    <section id="documentation" class="ip-section">
         <div class="container">
             <div class="ip-section-title">
-                <h2 data-i18n="ipl2_doc_title">Documentation & certifications</h2>
-                <div class="underline"></div>
-                <p data-i18n="ipl2_doc_subtitle">Public compliance documentation for TTR-SUITE Enterprise Edition v7.0: signed PDFs aligned with the EU AI Act (Regulation 2024/1689) and the GDPR (Regulation 2016/679). The same set is shared with every Enterprise client; client-specific addenda (IP policy integration, licensing) are delivered separately.</p>
+                <h2 data-i18n="ipl2_doc_title">Documentazione e certificazioni</h2>
+                <p data-i18n="ipl2_doc_subtitle">Documentazione pubblica di compliance per TTR-SUITE Enterprise Edition v7.0: PDF firmati allineati all'AI Act UE (Regolamento 2024/1689) e al GDPR (Regolamento 2016/679). Lo stesso set è condiviso con ogni Cliente Enterprise; gli addenda cliente-specifici (integrazione policy IP, licensing) vengono consegnati separatamente.</p>
             </div>
             <div class="ipl-docs-grid">
                 <div class="ipl-doc-card">
-                    <div class="ipl-doc-card__icon"><i class="fas fa-file-pdf"></i></div>
                     <div class="ipl-doc-card__body">
-                        <h3 data-i18n="ipl2_doc_brochure_title">Aviolab AI &mdash; Company brochure</h3>
-                        <p data-i18n="ipl2_doc_brochure_text">Company overview: who we are, what we ship, how we approach AI in IP and the public sector. Available in English and Italian.</p>
-                        <div style="display:flex; gap:.5rem; flex-wrap:nowrap; margin-top:auto; padding-top:1.2rem;">
-                            <a href="assets/brochures/aviolab-ai-company-overview-en.pdf" download class="btn btn-primary" style="padding:.45rem .85rem; font-size:.9rem; margin-left:0; white-space:nowrap;">
-                                <i class="fas fa-download"></i> English
-                            </a>
-                            <a href="assets/brochures/aviolab-ai-company-overview-it.pdf" download class="btn btn-primary" style="padding:.45rem .85rem; font-size:.9rem; margin-left:0; white-space:nowrap;">
-                                <i class="fas fa-download"></i> Italiano
-                            </a>
+                        <h3 data-i18n="ipl2_doc_brochure_title">Aviolab AI &mdash; Brochure aziendale</h3>
+                        <p data-i18n="ipl2_doc_brochure_text">Panoramica aziendale: chi siamo, cosa rilasciamo, come affrontiamo l'AI nell'IP e nel settore pubblico. Disponibile in inglese e italiano.</p>
+                        <div class="ipl-doc-card__azioni">
+                            <a href="assets/brochures/aviolab-ai-company-overview-en.pdf" download class="btn btn-primary">English</a>
+                            <a href="assets/brochures/aviolab-ai-company-overview-it.pdf" download class="btn btn-primary">Italiano</a>
                         </div>
                     </div>
                 </div>
                 <a href="assets/downloads/ttr-suite-ent-classificazione-rischio-ai-act.pdf" class="ipl-doc-card" target="_blank" rel="noopener">
-                    <div class="ipl-doc-card__icon"><i class="fas fa-file-shield"></i></div>
                     <div class="ipl-doc-card__body">
-                        <h3 data-i18n="ipl2_doc_classrisk_title">AI Act risk classification</h3>
-                        <p data-i18n="ipl2_doc_classrisk_text">Formal risk classification under EU Regulation 2024/1689: art. 5 prohibited practices check, art. 6/Annex III high-risk check, final classification at Limited Risk (art. 50).</p>
-                        <span class="ipl-doc-card__meta" data-i18n="ipl2_doc_classrisk_meta">Signed PDF &middot; 340 KB</span>
+                        <h3 data-i18n="ipl2_doc_classrisk_title">Classificazione del rischio AI Act</h3>
+                        <p data-i18n="ipl2_doc_classrisk_text">Classificazione formale del rischio ai sensi del Regolamento UE 2024/1689: verifica art. 5 (pratiche vietate), art. 6/Allegato III (alto rischio), classificazione finale a Rischio Limitato (art. 50).</p>
+                        <span class="ipl-doc-card__meta" data-i18n="ipl2_doc_classrisk_meta">PDF firmato &middot; 327 KB</span>
                     </div>
                 </a>
                 <a href="assets/downloads/ttr-suite-ent-informativa-trasparenza.pdf" class="ipl-doc-card" target="_blank" rel="noopener">
-                    <div class="ipl-doc-card__icon"><i class="fas fa-file-circle-check"></i></div>
                     <div class="ipl-doc-card__body">
-                        <h3 data-i18n="ipl2_doc_transparency_title">AI Act transparency notice</h3>
-                        <p data-i18n="ipl2_doc_transparency_text">End-user notice under AI Act art. 50: how the AI works, capabilities, limitations, role of the human operator, accuracy figures, golden rules for correct use.</p>
-                        <span class="ipl-doc-card__meta" data-i18n="ipl2_doc_transparency_meta">Signed PDF &middot; 337 KB</span>
+                        <h3 data-i18n="ipl2_doc_transparency_title">Informativa di Trasparenza AI Act</h3>
+                        <p data-i18n="ipl2_doc_transparency_text">Informativa per gli utenti finali ai sensi dell'art. 50 AI Act: come funziona l'AI, capacità, limitazioni, ruolo dell'operatore umano, dati di accuratezza, regole d'uso.</p>
+                        <span class="ipl-doc-card__meta" data-i18n="ipl2_doc_transparency_meta">PDF firmato &middot; 340 KB</span>
                     </div>
                 </a>
                 <a href="assets/downloads/ttr-suite-ent-dpa-zdr-gdpr.pdf" class="ipl-doc-card" target="_blank" rel="noopener">
-                    <div class="ipl-doc-card__icon"><i class="fas fa-file-contract"></i></div>
                     <div class="ipl-doc-card__body">
                         <h3 data-i18n="ipl2_doc_dpa_title">DPA &mdash; Zero Data Retention (GDPR)</h3>
-                        <p data-i18n="ipl2_doc_dpa_text">Data Processing Addendum with Zero Data Retention architecture: GDPR roles, data flows, encryption, Inference Provider, extra-EU transfers, data breach handling.</p>
-                        <span class="ipl-doc-card__meta" data-i18n="ipl2_doc_dpa_meta">Signed PDF &middot; 324 KB</span>
+                        <p data-i18n="ipl2_doc_dpa_text">Data Processing Addendum con architettura Zero Data Retention: ruoli GDPR, flussi dati, cifratura, Provider di Inferenza, trasferimenti extra-UE, gestione data breach.</p>
+                        <span class="ipl-doc-card__meta" data-i18n="ipl2_doc_dpa_meta">PDF firmato &middot; 311 KB</span>
                     </div>
                 </a>
                 <a href="assets/downloads/ttr-suite-ent-scheda-tecnica.pdf" class="ipl-doc-card" target="_blank" rel="noopener">
-                    <div class="ipl-doc-card__icon"><i class="fas fa-microchip"></i></div>
                     <div class="ipl-doc-card__body">
-                        <h3 data-i18n="ipl2_doc_techspec_title">Technical specification</h3>
-                        <p data-i18n="ipl2_doc_techspec_text">Technical documentation under AI Act art. 50: architecture, AI model, security, capabilities (~95% accuracy, 1200 pages), limitations, human oversight.</p>
-                        <span class="ipl-doc-card__meta" data-i18n="ipl2_doc_techspec_meta">Signed PDF &middot; 345 KB</span>
+                        <h3 data-i18n="ipl2_doc_techspec_title">Scheda tecnica del sistema AI</h3>
+                        <p data-i18n="ipl2_doc_techspec_text">Documentazione tecnica ai sensi dell'art. 50 AI Act: architettura, modello AI, sicurezza, capacità (~95% accuratezza, 1200 pagine), limitazioni, human oversight.</p>
+                        <span class="ipl-doc-card__meta" data-i18n="ipl2_doc_techspec_meta">PDF firmato &middot; 351 KB</span>
                     </div>
                 </a>
             </div>
@@ -1378,54 +785,52 @@
     </section>
 
     <!-- ============ 10. CTA ============ -->
-    <section id="contact" class="ip-cta">
+    <section id="contact" class="ip-cta su-blu">
         <div class="container">
-            <h2 data-i18n="ipl2_cta_title">Ready to transform your IP and contract workflows?</h2>
-            <p data-i18n="ipl2_cta_text">Talk to us. We'll show you the system on one of your real cases, an NDA, a license, a draft claim, whatever is on your desk this week.</p>
+            <h2 data-i18n="ipl2_cta_title">Pronto a trasformare i flussi IP e contrattuali del Suo gruppo?</h2>
+            <p data-i18n="ipl2_cta_text">Ci contatti. Le mostriamo il sistema su un Suo caso reale, un NDA, una licenza, una bozza di claim, qualsiasi cosa ha sulla scrivania questa settimana.</p>
             <div class="cta-buttons">
-                <a href="mailto:info@aviolab.ai" class="btn btn-primary"><i class="fas fa-envelope"></i> info@aviolab.ai</a>
-                <a href="index.html#contact" class="btn btn-secondary" data-i18n="ipl2_cta_btn_form">Use the contact form</a>
+                <a href="mailto:info@aviolab.ai" class="btn btn-primary">info@aviolab.ai</a>
+                <a href="index.html#contact" class="btn btn-secondary" data-i18n="ipl2_cta_btn_form">Usi il form di contatto</a>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <a href="index.html#home" class="logo-link">
-                        <img src="assets/logo.png" alt="Aviolab AI Logo">
-                        <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+    </main>
+
+    <footer class="piede su-notte">
+        <div class="contenitore">
+            <div class="piede__griglia">
+                <div>
+                    <a class="marchio" href="index.html" aria-label="Aviolab AI, pagina iniziale" data-i18n-aria-label="marchio_home">
+                        <img class="marchio__scudo" src="assets/logo-144.png" alt="" width="118" height="144" loading="lazy">
+                        <img class="marchio__scritta" src="assets/logo-scritta.svg" alt="" width="170" height="18">
                     </a>
-                    <p data-i18n="footer_tagline_umbrella">Agentic AI for IP Legal and public administration</p>
-                    <div class="legal-info">
-                        <p>AVIOLAB AI DI PARENTI RICCARDO</p>
-                        <p>Via XXV Aprile 251</p>
-                        <p>IT16031 Pieve Ligure (GE)</p>
-                        <p>P.IVA 02997110990</p>
-                        <p>REA GE - 525625</p>
-                    </div>
+                    <p class="piede__motto" data-i18n="piede_motto">Intelligenza artificiale per i pareri e gli atti dei Comuni.</p>
+                    <p class="piede__legale">AVIOLAB AI DI PARENTI RICCARDO<br>Via XXV Aprile 251, 16031 Pieve Ligure (GE)<br>P.IVA 02997110990, REA GE 525625</p>
                 </div>
-                <div class="footer-links">
-                    <h3 data-i18n="footer_solutions">Solutions</h3>
+                <div>
+                    <h2 data-i18n="piede_prodotto">TTR-SUITE PA Locale</h2>
                     <ul>
-                        <li><a href="pa-locale.html">TTR-SUITE PA Locale</a></li>
-                        <li><a href="che-cos-e-ttr-suite.html" data-i18n="footer_what_is_ttr">What is TTR-SUITE</a></li>
-                        <li><a href="ip-legal.html">TTR-SUITE IP Legal</a></li>
-                        <li><a href="dicono-di-noi.html" data-i18n="nav_press">In the press</a></li>
-                        <li><a href="downloads.html" data-i18n="nav_download">Download</a></li>
-                        <li><a href="index.html#contact" data-i18n="nav_contact">Contact</a></li>
+                        <li><a href="pa-locale.html" data-i18n="m_prodotto">Il prodotto</a></li>
+                        <li><a href="pa-locale-in-azione.html" data-i18n="m_lavora">Come lavora</a></li>
+                        <li><a href="che-cos-e-ttr-suite.html" data-i18n="m_semplice">In parole semplici</a></li>
+                        <li><a href="le-domande-del-funzionario.html" data-i18n="m_domande">Le domande del funzionario</a></li>
+                        <li><a href="dicono-di-noi.html" data-i18n="m_stampa">Dicono di noi</a></li>
+                        <li><a href="downloads.html" data-i18n="m_download">Download</a></li>
                     </ul>
                 </div>
-                <div class="footer-social">
-                    <h3 data-i18n="footer_connect">Connect With Us</h3>
-                    <p><a href="mailto:info@aviolab.ai" style="color:inherit;"><i class="fas fa-envelope"></i> info@aviolab.ai</a></p>
-                    <p><a href="https://www.aviolab.ai" target="_blank" style="color:inherit;"><i class="fas fa-globe"></i> www.aviolab.ai</a></p>
+                <div>
+                    <h2 data-i18n="piede_altro">Aviolab AI</h2>
+                    <ul>
+                        <li><a href="ip-legal.html">TTR-SUITE IP Legal</a></li>
+                        <li><a href="privacy.html">Privacy</a></li>
+                        <li><a href="mailto:info@aviolab.ai">info@aviolab.ai</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p data-i18n="footer_copyright">&copy; 2026 Aviolab AI. All rights reserved.</p>
+            <div class="piede__fondo">
+                <p data-i18n="piede_diritti">&copy; 2026 Aviolab AI. Tutti i diritti riservati.</p>
                 <p class="version-number">v1.3.43</p>
             </div>
         </div>

@@ -14,6 +14,8 @@ nav_case_studies: Casi di Studio
 nav_about: Chi Siamo
 nav_contact: Contatti
 nav_download: Download
+nav_press: Dicono di noi
+footer_what_is_ttr: Che cos'è TTR-SUITE
 
 ## Hero Section
 hero_title: <span class="highlight">Intelligenza Legale</span> Potenziata dall'IA
@@ -151,7 +153,7 @@ benefit6_text: Sfrutti un'interfaccia IA semplice e intuitiva <span style="color
 case_study_title: Storie di Successo
 case_study_subtitle: Risultati concreti ottenuti dai nostri clienti
 case_study_heading: Caso di Studio: Trasformare la Gestione dei Documenti IP di un importante gruppo industriale
-case_study_intro: Come Aviolab AI ha rivoluzionato il dipartimento di Proprietà Intellettuale di un'azienda manifatturiera Fortune 500:
+case_study_intro: Come Aviolab AI ha rivoluzionato il dipartimento di Proprietà Intellettuale di una grande azienda manifatturiera di rilevanza internazionale:
 case_study_point1: Riduzione dei tempi di analisi contrattuale da giorni a ore o addirittura minuti
 case_study_point2: Maggiore affidabilità nell'elaborazione di accordi multi-documento
 case_study_point3: Generazione di commenti legali impeccabili in più lingue
@@ -160,10 +162,10 @@ case_study_point5: Valutazione specifica del livello di rischio per ogni critici
 case_study_point6: Rafforzamento del controllo sugli asset IP e della sicurezza nelle negoziazioni contrattuali
 founder_testimonial_title: Dal Fondatore
 founder_para_1: Quando ho creato Aviolab AI, sapevo quanto fosse complesso e rischioso analizzare contratti di proprietà intellettuale. Troppe variabili, troppi dettagli da verificare manualmente.
-founder_para_2: Oggi, con la Suite TTR, chi gestisce IP può caricare documenti e ottenere un'analisi completa in pochi minuti, con la certezza che ogni connessione sia stata valutata. Un grande gruppo industriale ci ha raccontato come prima impiegasse giorni per esaminare accordi complessi, mentre oggi le stesse attività richiedono poche ore — o persino minuti, nel caso di NDA o contratti semplici.
+founder_para_2: Oggi, con la Suite TTR, chi gestisce IP può caricare documenti e ottenere un'analisi completa in pochi minuti, con la certezza che ogni connessione sia stata valutata. Un grande gruppo industriale ci ha raccontato come prima impiegasse giorni per esaminare accordi complessi, mentre oggi le stesse attività richiedono poche ore, o persino minuti, nel caso di NDA o contratti semplici.
 founder_para_3: Abbiamo anche migliorato la comunicazione tra team legali internazionali: la Suite TTR genera commenti impeccabili e proposte di revisione del testo in perfetto linguaggio legale in qualsiasi lingua, garantendo coerenza e precisione.
 founder_para_4: Abbiamo trasformato un processo critico in un vantaggio strategico. Con la Suite TTR, proteggere gli asset IP è più semplice, veloce e sicuro.
-founder_testimonial_citation: — Riccardo Parenti, Founder & Technical Lead
+founder_testimonial_citation: , Riccardo Parenti, Founder & Technical Lead
 
 ## About Section
 about_title: Il Fondatore
@@ -177,6 +179,7 @@ founder_bio2: Con un background in intelligenza artificiale e tecnologia legale,
 contact_title: Ci contatti
 contact_subtitle: Interessato alle nostre soluzioni IA? Saremo lieti di fornirLe altre informazioni.
 contact_location: Sede
+contact_phone: Telefono
 contact_website: Sito web
 contact_email: Email
 contact_hours: Orario di Contatto Preferito
@@ -195,6 +198,7 @@ footer_tagline: Analisi Documentale Intelligente
 footer_quick_links: Link Rapidi
 footer_connect: Connettiti con Noi
 footer_copyright: © 2025 Aviolab AI. Tutti i diritti riservati.
+footer_privacy: Privacy
 
 ## One-Click Note
 one_click_note: <span style="font-size:1.2rem;font-weight:bold;color:#ff0000;">One-Click</span><span style="font-size:1.2rem;color:#ff0000;">*</span> significa che è sufficiente trascinare il documento nell'applicazione e cliccare su <span style="font-size:1.3rem;font-weight:bold;color:#ff0000;">GO</span><br>per ottenere un'analisi immediata e completa. Opzioni avanzate sono disponibili quando necessario.
@@ -217,8 +221,46 @@ downloads_instructions_title: Istruzioni
 downloads_instruction_1: I file potrebbero essere protetti da password. Controlli la Sua email per le credenziali di accesso.
 downloads_instruction_2: Tutto il software è fornito secondo il nostro accordo di licenza standard.
 downloads_instruction_3: Per supporto tecnico, contatta <a href="mailto:info@aviolab.ai">info@aviolab.ai</a>
-download_brochure: Brochure Aziendale
-download_brochure_desc: Panoramica completa dei nostri servizi
+download_brochure: Aviolab AI &mdash; Brochure aziendale
+download_brochure_desc: Panoramica aziendale: chi siamo, cosa rilasciamo, come affrontiamo l'AI nell'IP e nel settore pubblico. Disponibile in inglese e italiano.
+download_signed_pdf: PDF firmato
+download_pdf: PDF
+download_quickstart1: Guida rapida 1: i primi passi &mdash; TTR-SUITE per la PA Locale
+download_quickstart1_desc: Foglio A4 da tenere accanto al monitor: una sessione per ogni pratica, la richiesta scritta in italiano corrente, gli allegati, l'esportazione dell'atto in Word, il ritorno su un lavoro dei giorni prima.
+download_quickstart2: Guida rapida 2: un passo avanti &mdash; TTR-SUITE per la PA Locale
+download_quickstart2_desc: Secondo foglio A4, per chi ha superato i primi giorni: i revisori Corte dei Conti e Impugnabilità, la lettura di un'intera cartella dell'ufficio, le frasi che affinano l'analisi, il Fascicolo Informatico SInCRO, la richiesta di assistenza.
+download_quickstart3: Guida rapida 3: usare un documento in ChatGPT &mdash; TTR-SUITE per la PA Locale
+download_quickstart3_desc: Terzo foglio A4: portare in ChatGPT (o in un altro strumento esterno) un documento che contiene dati personali. La Suite sostituisce i dati con segnaposto sul tuo computer, salva le istruzioni per ripristinare accanto alla copia e rimette i valori veri da sola quando il testo torna.
+download_quickstart4: Guida rapida 4: la Biblioteca dell'Ente &mdash; TTR-SUITE per la PA Locale
+download_quickstart4_desc: Quarto foglio A4: lo statuto e i regolamenti da citare, i modelli di atto da riusare, gli atti dell'ufficio a portata di mano. Tutto resta nel Comune; lo statuto, i regolamenti e i modelli di atto sono condivisi fra le postazioni senza un server. Gli agenti consultano la Biblioteca da soli e ricontrollano le norme citate a ogni riuso.
+download_brochure_film: Filmato: TTR-SUITE in otto minuti, che cos'è e come lavora &mdash; TTR-SUITE per la PA Locale
+download_brochure_film_desc: Brochure video per chi incontra la Suite per la prima volta: la postazione e dove restano i dati, una domanda vera con analisi, verifica normativa e report, le 43 intelligenze artificiali, i dati personali sostituiti da etichette prima di uscire dal Comune, il Fascicolo Informatico, la Biblioteca dell'Ente, l'assistenza, gli aggiornamenti, la documentazione di conformità, e come si comincia. Solo in italiano.
+download_tutorial_bib: Filmato: la Biblioteca dell'Ente, che cos'è, come si attiva, come si usa &mdash; TTR-SUITE per la PA Locale
+download_tutorial_bib_desc: Tutorial di cinque minuti con le schermate vere della Suite: che cosa fa la Biblioteca dell'Ente, come si attiva la postazione in due passi (l'aggiornamento da amministratore e il nodo dal menu Biblioteca) e come si condividono regolamenti e modelli di atto con le altre postazioni. Solo in italiano.
+download_pa_brochure: TTR-SUITE per la PA Locale &mdash; Brochure
+download_pa_brochure_desc: Sintesi commerciale della suite per i Comuni italiani: capability, casi d'uso, modello di installazione, licensing.
+download_pa_agid: TTR-SUITE per la PA Locale &mdash; Scheda comparativa AGID
+download_pa_agid_desc: Scheda comparativa firmata digitalmente, redatta secondo lo schema di valutazione AGID per le soluzioni software destinate alla Pubblica Amministrazione italiana.
+downloads_cert_title: Certificazioni
+cert_readme: Documentazione di conformità &mdash; contenuto del set
+cert_readme_desc: La mappa dell'intero set: quale documento risponde a quale norma, dall'AI Act al GDPR, dalla legge quadro 132/2025 alle linee guida AgID per le pubbliche amministrazioni.
+cert_agid: Scheda comparativa AGID
+cert_agid_desc: Scheda comparativa per l'istruttoria di acquisizione degli enti pubblici, ai sensi del Codice dell'Amministrazione Digitale (artt. 68-69) e dell'art. 77 del D.Lgs. 36/2023.
+cert_uitexts: Testi pronti per l'interfaccia AI Act
+cert_uitexts_desc: L'informativa dell'art. 50 già scritta in tre misure, completa, banner e piè di pagina, pronta da inserire nell'interfaccia e nei documenti generati.
+cert_multilang: Supporto linguistico
+cert_multilang_desc: Quali lingue il sistema gestisce su tre piani distinti: i documenti che legge e scrive, la chat, e l'interfaccia.
+downloads_cert_description: Il set di conformità completo delle due edizioni di TTR-SUITE, firmato digitalmente dal produttore, nella stessa forma in cui viene consegnato ai clienti: classificazione del rischio e informativa sulla trasparenza ai sensi dell'AI Act, accordo sul trattamento dei dati in regime di Zero Data Retention, scheda tecnica e documenti di corredo.
+cert_group_pa: TTR-SUITE per la PA Locale &mdash; documentazione v7.0
+cert_group_ent: TTR-SUITE Enterprise &mdash; documentazione v7.0
+cert_classrisk: Classificazione del rischio AI Act
+cert_classrisk_desc: Classificazione formale del rischio ai sensi del Regolamento UE 2024/1689: pratiche vietate dall'art. 5, art. 6 e Allegato III, classificazione finale a Rischio Limitato ai sensi dell'art. 50.
+cert_transparency: Informativa sulla trasparenza AI Act
+cert_transparency_desc: Informativa per chi usa il sistema, ai sensi dell'art. 50 AI Act: come funziona l'intelligenza artificiale, che cosa sa e non sa fare, il ruolo dell'operatore, i dati di accuratezza.
+cert_dpa: Accordo sul trattamento dei dati in Zero Data Retention (GDPR)
+cert_dpa_desc: Accordo sul trattamento dei dati fondato sull'architettura Zero Data Retention: ruoli GDPR, flussi dei dati, cifratura, fornitore di inferenza, trasferimenti fuori dall'Unione europea, gestione delle violazioni.
+cert_techspec: Scheda tecnica
+cert_techspec_desc: Documentazione tecnica ai sensi dell'art. 50 AI Act: architettura, modello di intelligenza artificiale, misure di sicurezza, capacità e limiti, sorveglianza umana.
 download_troubleshooting: Guida Risoluzione Problemi TTR-SUITE
 download_troubleshooting_desc: Guida di supporto tecnico per installazione e utilizzo di TTR-SUITE
 ttr_suite_user_guide_desc: Guida utente completa per TTR-SUITE - descrizione interfaccia, funzionalità e istruzioni d'uso
@@ -245,45 +287,50 @@ ttr_agents_quick_guide_desc: Guida rapida di riferimento per gli agenti TTR-SUIT
 
 ## --- v1.2.00 — Aggiunte sito ombrello (home, landing IP Legal) ---
 
-footer_tagline_umbrella: AI applicata al diritto e alla Pubblica Amministrazione
+footer_tagline_umbrella: Agentic AI per IP Legal e Pubblica Amministrazione
 footer_solutions: Soluzioni
 
-home_hero_title: AI applicata al <span class="highlight">diritto e alla Pubblica Amministrazione</span>
+home_hero_title: <span class="highlight">Agentic AI</span> per IP Legal<br>e Pubblica Amministrazione
 home_hero_subtitle: Due suite specializzate, un solo motore
 home_hero_description: Aviolab AI realizza Agentic AI per due ambiti distinti: la pubblica amministrazione locale italiana e il lavoro di proprietà intellettuale, contratti e brevetti per i team legali. Pubblici diversi, lo stesso impegno per risultati di altissimo livello professionale con fonti sempre verificate e tracciabili.
-home_mission_subtitle: AI per le sfide del diritto e dell'amministrazione
+home_mission_subtitle: Agentic AI per il lavoro legale e amministrativo
 home_mission_statement: Realizziamo sistemi di intelligenza artificiale che trasformano il lavoro dei professionisti del diritto e dei funzionari della Pubblica Amministrazione, mettendo alla portata di tutti quel livello di analisi rigorosa, ancorata alle fonti normative corrette e aggiornate, che fino ad oggi richiedeva l'impegno di team di specialisti dedicati, disponibili solo nelle grandi organizzazioni o nei grandi studi legali.
-home_capabilities_headline: AI focalizzata su due ambiti distinti
+home_capabilities_headline: Agentic AI focalizzata su due ambiti distinti
 home_products_title: Le nostre soluzioni
 home_products_subtitle: Due suite progettate per due pubblici distinti
 
 home_card_pa_badge: Novità
 home_card_pa_title: TTR-SUITE per la PA Locale
 home_card_pa_tagline: Consulenza giuridica e amministrativa AI per i Comuni italiani
-home_card_pa_text: Progettata per i Comuni italiani sotto i 5.000 abitanti e per i funzionari che li presidiano. Pareri sulla norma vigente, atti redatti e pronti per la firma, fascicolo digitale conforme allo standard SInCRO.
-home_card_pa_feat1: 16+1 agenti specialisti per aree tematiche e ruoli
-home_card_pa_feat2: Fonti normative certificate — zero errori sulle citazioni
-home_card_pa_feat3: Redazione atti: delibere, determine, ordinanze, titoli edilizi
-home_card_pa_feat4: Fascicolo digitale SInCRO (UNI 11386, art. 41 CAD)
-home_card_pa_feat5: Conformità AI Act art. 50 + GDPR by design
+home_card_pa_text: Pensata principalmente per i Comuni italiani sotto i 5.000 abitanti e per i funzionari che li presidiano. Pareri giuridici, studio analitico di problemi amministrativi alla luce della norma vigente, atti redatti e pronti per la firma, fascicolo digitale conforme allo standard SInCRO.
+home_card_pa_feat1: Pareri giuridici e studi analitici su problemi amministrativi concreti alla luce della legislazione vigente
+home_card_pa_feat2: 43 diverse intelligenze artificiali che collaborano al risultato
+home_card_pa_feat3: Fonti normative certificate, zero errori sulle citazioni
+home_card_pa_feat4: Redazione atti: delibere, determine, ordinanze, titoli edilizi
+home_card_pa_feat5: Fascicolo digitale SInCRO (UNI 11386, art. 41 CAD)
+home_card_pa_feat6: Conformità AI Act art. 50 + GDPR by design
+home_card_pa_feat7: Biblioteca digitale degli atti verificati, patrimonio del Comune, che cresce con l'uso
+home_news_pieve: <span class="hero-news__tag">Novità</span><span>12 novembre 2026: il Comune di Pieve Ligure porta al convegno di ANCI Lombardia i risultati di quattro mesi con TTR-SUITE, unico Comune non lombardo alla tavola rotonda.</span><br><span class="hero-news__more">Legga i comunicati e la rassegna stampa</span>
 home_card_pa_cta: Scopra TTR-SUITE per la PA Locale
 
 home_card_ip_title: TTR-SUITE IP Legal
-home_card_ip_tagline: Analisi documentale AI per team legali e dipartimenti IP
-home_card_ip_text: Pensata per professionisti del diritto, dipartimenti di proprietà intellettuale e uffici di trasferimento tecnologico. Ora <strong>redige e analizza</strong> NDA, contratti di ricerca e accordi commerciali con output validati internamente. Multilingua, clausola per clausola.
+home_card_ip_tagline: Analisi e redazione AI per team legali IP e dipartimenti IP
+home_card_ip_text: Pensata per dipartimenti IP, uffici legali interni che si occupano di proprietà intellettuale e uffici di trasferimento tecnologico. Ora <strong>redige e analizza</strong> NDA, contratti di ricerca e accordi commerciali con output validati internamente. Multilingua, clausola per clausola.
 home_card_ip_feat1: Analisi IP di gare d'appalto e documenti correlati
 home_card_ip_feat2: Accordi di ricerca e partnership tecnologiche
 home_card_ip_feat3: Revisione di accordi di licenza con estrazione termini chiave
 home_card_ip_feat4: Valutazione rischi su presentazioni e paper tecnici
-home_card_ip_feat5: Validata su deployment in dipartimento IP Fortune 500
+home_card_ip_feat5: Validata in produzione nel dipartimento IP di una grande azienda di rilevanza internazionale
+home_card_ip_feat6: Preparazione end-to-end di domande di brevetto: intervista strutturata all'inventore, ricerca anteriorità minuziosa, redazione dei claim
+home_card_ip_feat7: Stress test adversariale dei claim, gli agenti AI attaccano ogni rivendicazione con riformulazioni e combinazioni di tecniche note o già brevettate
 home_card_ip_cta: Scopra TTR-SUITE IP Legal
 
 iplegal_hero_title: TTR-SUITE <span class="highlight">IP Legal</span>
-iplegal_hero_lead: Analisi documentale AI per proprietà intellettuale, NDA, accordi di ricerca, contratti di licenza e presentazioni tecniche. Realizzata per team legali, dipartimenti IP e uffici di trasferimento tecnologico.
+iplegal_hero_lead: Analisi e redazione AI per team legali, dipartimenti IP e uffici di trasferimento tecnologico. NDA, accordi di ricerca e fornitura tecnologica, contratti di licenza, revisione contrattuale e preparazione end-to-end di domande di brevetto (UIBM, EPO).
 iplegal_intro_title: Costruita per la complessità di IP e contratti
 iplegal_intro_subtitle: Il nostro motore AI legge, confronta e valuta documenti legali e tecnici complessi in più lingue, evidenziando rischi e obblighi clausola per clausola.
 iplegal_xlink_title: Cerchi la versione per la Pubblica Amministrazione italiana?
-iplegal_xlink_text:  Visita la pagina dedicata a <a href="pa-locale.html">TTR-SUITE per la PA Locale</a>, la nostra suite per i Comuni italiani — AI di consulenza giuridica e amministrativa con fonti normative certificate e fascicolo digitale conforme allo standard SInCRO.
+iplegal_xlink_text: Visita la pagina dedicata a <a href="pa-locale.html">TTR-SUITE per la PA Locale</a>, la nostra suite per i Comuni italiani, AI di consulenza giuridica e amministrativa con fonti normative certificate e fascicolo digitale conforme allo standard SInCRO.
 iplegal_cta_title: Pronto a trasformare i flussi di lavoro IP e contrattuali?
 iplegal_cta_text: Ci contatti per vedere come TTR-SUITE IP Legal possa accelerare l'analisi del Suo team e le decisioni su accordi complessi.
 
@@ -291,10 +338,10 @@ iplegal_cta_text: Ci contatti per vedere come TTR-SUITE IP Legal possa accelerar
 
 iplegal_patent_badge: Early access · Capability avanzata
 iplegal_patent_title: Preparazione end-to-end della <span class="highlight">domanda di brevetto</span>
-iplegal_patent_subtitle: Dal colloquio con l'inventore alla domanda pronta per il deposito — UIBM, EPO e principali uffici nazionali. Stesura, ricerca di anteriorità, generazione dei claim e validazione adversariale in un unico flusso.
+iplegal_patent_subtitle: Dal colloquio con l'inventore alla domanda pronta per il deposito, UIBM, EPO e principali uffici nazionali. Stesura, ricerca di anteriorità, generazione dei claim e validazione adversariale in un unico flusso.
 
 iplegal_patent_step1_title: Colloquio strutturato con l'inventore
-iplegal_patent_step1_text: Conversazione guidata che estrae dall'inventore il concetto inventivo, le caratteristiche tecniche e le motivazioni — senza richiedere familiarità con il lessico brevettuale.
+iplegal_patent_step1_text: Conversazione guidata che estrae dall'inventore il concetto inventivo, le caratteristiche tecniche e le motivazioni, senza richiedere familiarità con il lessico brevettuale.
 iplegal_patent_step2_title: Ricerca di anteriorità
 iplegal_patent_step2_text: Ricerca sistematica nella letteratura brevettuale e nello stato dell'arte tecnico. Riferimenti più vicini identificati, mappati e sintetizzati rispetto al concetto inventivo.
 iplegal_patent_step3_title: Generazione dei claim
@@ -302,26 +349,25 @@ iplegal_patent_step3_text: Claim indipendenti e dipendenti redatti per catturare
 iplegal_patent_step4_title: Descrizione e abstract
 iplegal_patent_step4_text: Descrizione tecnica completa con background, sommario, descrizione dettagliata e riferimenti alle figure. Abstract allineato ai claim depositati.
 iplegal_patent_step5_title: Attacco adversariale ai claim
-iplegal_patent_step5_text: Attacchi reali a ciascun claim utilizzando anteriorità e brevetti esistenti — <strong>anche in combinazione</strong>. Punti deboli evidenziati, indicazioni di revisione emesse.
+iplegal_patent_step5_text: Attacchi reali a ciascun claim utilizzando anteriorità e brevetti esistenti, <strong>anche in combinazione</strong>. Punti deboli evidenziati, indicazioni di revisione emesse.
 iplegal_patent_step6_title: Disco verde al deposito
 iplegal_patent_step6_text: Approvazione emessa solo quando ogni indicazione di revisione è stata recepita e i claim sopravvivono al riesame adversariale. Niente disco verde, niente deposito.
 
 iplegal_patent_validation_title: Primo utilizzo reale: il nostro brevetto
 iplegal_patent_validation_tag: Auto-validato
-iplegal_patent_validation_text: Questo flusso è già stato utilizzato per preparare la domanda di brevetto di Aviolab — quella che protegge l'architettura multi-agente alla base di TTR-SUITE. Il sistema ha redatto, attaccato e validato il proprio deposito.
+iplegal_patent_validation_text: Questo flusso è già stato utilizzato per preparare la domanda di brevetto di Aviolab, quella che protegge l'architettura multi-agente alla base di TTR-SUITE. Il sistema ha redatto, attaccato e validato il proprio deposito.
 iplegal_patent_stat_office: Ufficio
 iplegal_patent_stat_number: N. domanda
 iplegal_patent_stat_date: Data deposito
 iplegal_patent_stat_cycle: Avvio → deposito
-iplegal_patent_availability: <strong>Programma early access.</strong> Disponibile su richiesta a partner selezionati — <a href="#contact" style="color:#fecaca; text-decoration:underline;">parliamone</a>.
+iplegal_patent_availability: <strong>Programma early access.</strong> Disponibile su richiesta a partner selezionati, <a href="#contact" style="color:#fecaca; text-decoration:underline;">parliamone</a>.
 
-home_card_ip_feat6: Preparazione domande di brevetto — usata internamente per il deposito Aviolab (11h dall'avvio)
 
 ## --- v1.2.02 — Modulo Stesura Assistita sulla landing IP Legal ---
 
 iplegal_drafting_tag: Ora redige, non solo analizza
 iplegal_drafting_title: Stesura assistita di contratti e accordi
-iplegal_drafting_subtitle: Oltre l'analisi clausola per clausola: TTR-SUITE IP Legal ora redige NDA, contratti di ricerca e accordi commerciali affiancando l'operatore — producendo draft validati internamente, pronti per la negoziazione.
+iplegal_drafting_subtitle: Oltre l'analisi clausola per clausola: TTR-SUITE IP Legal ora redige NDA, contratti di ricerca e accordi commerciali affiancando l'operatore, producendo draft validati internamente, pronti per la negoziazione.
 
 iplegal_drafting_claim_title: Ogni draft è validato internamente prima di arrivare all'operatore
 iplegal_drafting_claim_text: Nessun first-draft sparato da un singolo modello. Ogni output passa attraverso un ciclo di revisione interno che verifica l'intento dell'operatore, il quadro applicabile e i pattern di clausole standard. Quello che arriva sulla scrivania è già controllato.
@@ -347,5 +393,215 @@ iplegal_drafting_commercial_i2: Prezzi, royalty, milestone e obblighi di reporti
 iplegal_drafting_commercial_i3: SLA, garanzie e limitazione di responsabilità
 iplegal_drafting_commercial_i4: Compliance, diritti di audit e clausole di uscita
 
+## --- Pagina IP Legal (ip-legal.html), chiavi ipl2_ ---
+ipl2_hero_title: TTR-SUITE IP Legal
+ipl2_hero_lead: Agenti AI che analizzano, redigono e validano. NDA, accordi di ricerca e accordi commerciali, contratti di licenza, revisione contrattuale e preparazione end-to-end di domande di brevetto. Un solo motore, un solo flusso, output con fonti sempre verificate.
+ipl2_hero_cta_contact: Ci contatti
+ipl2_hero_cta_explore: Scopra le capacità
+ipl2_pain_title: La pressione sul lavoro legale e di proprietà intellettuale
+ipl2_pain_subtitle: <strong>Tre tipici problemi che sentiamo ripetutamente esporre</strong> da team legali, dipartimenti IP e partner di studi di medie dimensioni.
+ipl2_pain_q1: Ogni settimana mi arrivano sulla scrivania tre nuovi accordi. Esaminarli clausola per clausola voleva dire un giorno ciascuno. Quel giorno non ce l'ho.
+ipl2_pain_attr1: — Responsabile Legale, gruppo industriale di medie dimensioni
+ipl2_pain_q2: L'inventore tecnico conosce la tecnologia. Io devo tradurla in claim. La traduzione è dove se ne vanno le settimane.
+ipl2_pain_attr2: — Consulente brevettuale, ufficio trasferimento tecnologico
+ipl2_pain_q3: Non posso permettermi uno specialista interno per ogni dominio con cui mi arrivano i clienti, pharma, software, automotive, e tutti si aspettano un livello di output da specialista del dominio.
+ipl2_pain_attr3: — Partner, studio boutique IP
+ipl2_cap_title: Quattro capacità, calibrate sulla Sua IP policy
+ipl2_cap_subtitle: TTR-SUITE IP Legal legge, <strong>analizza</strong>, redige brevetti e li sottopone a stress test sullo stesso motore. <strong>Ogni agente viene specializzato sulla policy IP interna del Suo gruppo e sulle Sue preferenze prima della consegna</strong>, in modo che l'output sia conforme ai Suoi standard interno da subito.
+ipl2_cap1_title: Analisi documentale
+ipl2_cap1_tagline: Sei agenti specialisti, uno per famiglia di documenti.
+ipl2_cap1_b1: NDA, unilaterali, bilaterali, multi-party
+ipl2_cap1_b2: Accordi di ricerca con enti accademici
+ipl2_cap1_b3: Accordi commerciali, licenze, trasferimento tecnologico
+ipl2_cap1_b4: Presentazioni, paper, tesi (con analisi delle figure)
+ipl2_cap1_proof: Clausola per clausola, multilingua, misura di rischio 0–100%.
+ipl2_cap2_title: Stesura assistita
+ipl2_cap2_tagline: Dalla pagina bianca al draft pronto alla negoziazione.
+ipl2_cap2_b1: NDA, accordi di ricerca, accordi commerciali
+ipl2_cap2_b2: Redatti <strong>SEMPRE</strong> secondo la Sua IP policy
+ipl2_cap2_b3: Valutazione della controparte (accademica vs commerciale)
+ipl2_cap2_b4: Placeholder solo dove mancano dati o serve una decisione umana
+ipl2_cap2_proof: Stesura adversariale, con <strong>ALMENO</strong> due agenti cooperanti.
+ipl2_cap3_title: Stesura brevettuale
+ipl2_cap3_tagline: Dall'invenzione alla domanda pronta al deposito.
+ipl2_cap3_b1: Intervista strutturata all'inventore, senza gergo brevettuale richiesto
+ipl2_cap3_b2: Ricerca di anteriorità con i riferimenti più prossimi mappati
+ipl2_cap3_b3: Claim indipendenti e dipendenti, descrizione completa, abstract
+ipl2_cap3_b4: Multi-dominio, multi-giurisdizione (IT, EP, US, PCT)
+ipl2_cap3_proof: Ogni brevetto citato verificato su banca dati: Espacenet, EPO Register, WIPO PATENTSCOPE, Google, Lens.org, UIBM, USPTO.
+ipl2_cap3_tag: Programma early access
+ipl2_cap4_title: Stress test del brevetto
+ipl2_cap4_tagline: Demolire la bozza prima che lo faccia l'esaminatore.
+ipl2_cap4_b1: Anteriorità aggressiva mirata all'invalidazione
+ipl2_cap4_b2: Attacchi a ciascun claim con combinazioni di brevetti esistenti e stato dell'arte
+ipl2_cap4_b3: Report dei punti deboli con ranking di severità
+ipl2_cap4_b4: Suggerimenti di narrowing che preservano l'ampiezza difendibile
+ipl2_cap4_proof: Fattori di rischio strutturati su novità, attività inventiva, sufficienza, chiarezza, eligibility, ampiezza vs difendibilità.
+ipl2_cap4_tag: Programma early access
+ipl2_deliv_title: <strong>Cosa produce la TTR-SUITE in concreto?</strong>
+ipl2_deliv_subtitle: <strong>Pratiche diverse richiedono output documentali diversi</strong>. Caso per caso, ecco che cosa produce la suite.
+ipl2_uc_tag_new: Dalla pagina bianca al draft pronto alla negoziazione
+ipl2_uc1_title: NDA, Accordi di Ricerca, Accordi Commerciali, nuova bozza
+ipl2_uc1_lead: Quando l'accordo non esiste ancora e Le serve una prima versione da cui partire per negoziare.
+ipl2_uc1_d1: <strong>Testo completo della bozza</strong> (in docx, md, pdf) nella lingua più utile per Lei, strutturata attentamente sul framework della Sua IP policy
+ipl2_uc1_d2: <strong>Mappa dei placeholder</strong> inseriti dalla TTR-SUITE per i campi che richiedono informazioni al momento non disponibili o una decisione umana specifica
+ipl2_uc1_d3: <strong>Ciclo di revisione interno incorporato:</strong> il drafter emette il primo draft, lo passa al reviewer specialista del tipo di accordo (NDA, ricerca o commerciale), incorpora le modifiche e consegna la bozza revisionata
+ipl2_uc1_d4: <strong>Interazione</strong> per affinare clausole specifiche o per attivare un ulteriore giro di revisione su punti specifici
+ipl2_uc_tag_analysis: Analisi di un documento esistente rispetto a policy/convenienza
+ipl2_uc2_title: NDA, Accordi di Ricerca, Accordi Commerciali, analisi di un documento esistente
+ipl2_uc2_lead: Quando la controparte Le ha mandato una bozza, oppure ha ereditato un accordo e ha bisogno di sapere che cosa sta firmando.
+ipl2_uc2_d1: <strong>Executive summary</strong> con livello di rischio complessivo, Fairness Level (0&#8211;3) e principali criticità in ordine di priorità
+ipl2_uc2_d2: <strong>Tabella di analisi clausola per clausola</strong> con score di rischio numerico (0&#8211;100), categoria di rischio, stima dell'impatto economico, allineamento con la Sua IP policy
+ipl2_uc2_d3: <strong>Azione raccomandata per clausola</strong>, rimuovere, modificare, accettare, con testo alternativo proposto nella lingua del documento
+ipl2_uc2_d4: <strong>Verifica di compliance ed export control</strong>, OFAC, Reg. UE 833/2014, applicabilità di ITAR/EAR e Reg. UE 2021/821 (dual-use) per controparti extra-UE
+ipl2_uc_tag_disclosure: Analisi di compliance pre-disclosure
+ipl2_uc3_title: Presentazioni, paper scientifici, tesi, revisione IP del documento
+ipl2_uc3_lead: Quando l'azienda vuole pubblicare qualcosa, condividerlo a una conferenza, o discuterlo in università, e Lei deve sapere cosa è sicuro divulgare.
+ipl2_uc3_d1: <strong>Revisione elemento per elemento</strong>, slide per slide, sezione per sezione, capitolo per capitolo, figura per figura, con score di rischio e replicabilità competitor
+ipl2_uc3_d2: <strong>Verifica di contenuto vietato</strong> rispetto alla Sua policy di disclosure (dati di stabilimento, procedure interne, specifiche non pubblicate, metodologie proprietarie)
+ipl2_uc3_d3: <strong>Raccomandazioni audience-specifiche</strong>, cosa è sicuro internamente, con partner tecnici sotto NDA, con controparti commerciali, con il pubblico generale
+ipl2_uc3_d4: <strong>Testo alternativo compliant</strong> per le sezioni sopra-soglia, preservando il valore scientifico o comunicativo
+ipl2_uc_tag_patent_draft: Stesura brevettuale
+ipl2_uc4_title: Domanda di brevetto, dall'invenzione alla bozza pronta al deposito
+ipl2_uc4_lead: Quando ha un'invenzione e vuole una domanda di brevetto depositabile redatta end-to-end.
+ipl2_uc4_d1: <strong>Invention disclosure form</strong> da intervista strutturata, senza fluenza gergale richiesta all'inventore
+ipl2_uc4_d2: <strong>Report di anteriorità</strong> con i riferimenti più prossimi mappati rispetto al concetto inventivo (ogni numero citato verificato alla fonte)
+ipl2_uc4_d3: <strong>Triage di brevettabilità</strong>, se l'invenzione non sopravvive all'anteriorità, lo scopre prima di redigere i claim
+ipl2_uc4_d4: <strong>Domanda completa:</strong> claim indipendenti e dipendenti, descrizione completa, abstract, redatti secondo le formalità UIBM, EPO o USPTO
+ipl2_uc4_d5: <strong>Modalità di iterazione</strong> contro obiezioni dell'esaminatore o brevetti di terzi, con delimitazione dei claim che rispetta la disclosure originaria (no added matter)
+ipl2_uc_tag_patent_review: Stress test del brevetto
+ipl2_uc5_title: Domanda di brevetto, revisione adversariale di una bozza
+ipl2_uc5_lead: Quando ha una bozza di domanda e vuole sapere se sopravviverà all'esame prima di depositarla.
+ipl2_uc5_d1: <strong>Ricerca di anteriorità aggressiva</strong> finalizzata a demolire il concetto inventivo
+ipl2_uc5_d2: <strong>Attacchi a ciascun claim</strong> usando combinazioni di brevetti esistenti e stato dell'arte, anche in combinazione fra loro
+ipl2_uc5_d3: <strong>Report dei punti deboli</strong> con ranking di severità sui claim che non hanno superato l'attacco
+ipl2_uc5_d4: <strong>Suggerimenti di narrowing</strong> sui claim che vanno stretti, preservando l'ampiezza difendibile più larga possibile
+ipl2_uc5_d5: <strong>Sintesi di merito strutturata</strong> (novità, attività inventiva, ampiezza vs difendibilità, eligibility), nessuna percentuale puntuale di concedibilità, nessun narrowing forzato quando i claim sopravvivono già com'è
+ipl2_ex_title: Esempi di colloquio
+ipl2_ex_subtitle: Esempi concreti, dalla domanda dell'operatore a quello che TTR-SUITE IP Legal fa dopo.
+ipl2_ex1_q: La controparte mi ha mandato questo NDA. Firmo venerdì. Cosa sto accettando?
+ipl2_ex1_a: Analisi clausola per clausola dell'NDA. Score di rischio per clausola, Fairness Level complessivo, controllo OFAC, controllo divieto di training AI/ML, deviazioni rispetto alla Sua IP policy evidenziate. Testo alternativo proposto dove la clausola è sotto target.
+ipl2_ex2_q: Stiamo per avviare una partnership di ricerca con questa università. L'accordo non c'è ancora.
+ipl2_ex2_a: Stesura da pagina bianca, ambito, deliverable, IP background e foreground, modello di finanziamento, diritti di pubblicazione, governance, responsabilità, exit. Internamente validato rispetto al framework di riferimento prima della consegna, placeholder lasciati solo nei campi che richiedono una decisione umana.
+ipl2_ex3_q: Devo rivedere questo accordo di licenza con un fornitore statunitense entro la settimana prossima.
+ipl2_ex3_a: Analisi di accordo commerciale, allocazione IP, modello royalty, esclusiva, diritti di audit, SLA, limitazione di responsabilità, legge applicabile e foro. Verifica verbatim della clausola di export control (Reg. UE 833/2014); clausola raccomandata dove manca. Implicazioni ITAR/EAR statunitensi segnalate per verifica esterna quando la controparte è extra-UE.
+ipl2_ex4_q: Voglio proteggere quest'invenzione. Da dove partiamo?
+ipl2_ex4_a: Pipeline in sei fasi, intervista strutturata all'inventore, ricerca di anteriorità, triage di brevettabilità, stesura dei claim (indipendenti + dipendenti), descrizione completa con abstract, iterazione contro obiezioni dell'esaminatore. Multi-dominio, multi-giurisdizione. Ogni numero di brevetto citato è verificato su banche dati ufficiali prima di entrare nella bozza.
+ipl2_ex5_q: Abbiamo la bozza di una domanda di brevetto. È davvero innovativa?
+ipl2_ex5_a: Stress test aggressivo. Il sistema tenta di invalidare i claim usando combinazioni di brevetti esistenti e stato dell'arte. Se un claim non sopravvive, il report dice esattamente quali feature sono vulnerabili e come restringere il claim per preservare la validità con l'ampiezza difendibile più larga.
+ipl2_ex6_q: Sto per pubblicare questo paper tecnico. Sto bruciando la mia stessa brevettabilità?
+ipl2_ex6_a: Revisione del paper, ogni sezione scorata su rischio IP, con mitigazioni che preservano il valore scientifico. Parametri specifici che accelererebbero la R&amp;D di un competitor segnalati, con alternative scientifiche compliant proposte. Allineamento con la strategia brevettuale, cosa depositare prima della pubblicazione, cosa può aspettare.
+ipl2_ex7_q: Questo studente di dottorato sta chiudendo la tesi usando nostri dati interni. Cosa può rimanerci dentro?
+ipl2_ex7_a: Revisione IP della tesi, informazioni organizzative, dati di stabilimento, specifiche non pubblicate, metodologie proprietarie e contenuti vietati verificati esplicitamente. Le raccomandazioni preservano l'integrità accademica proteggendo il perimetro IP dell'azienda.
+ipl2_ex8_q: Devo presentare questo slide deck a una conferenza il mese prossimo.
+ipl2_ex8_a: Revisione della presentazione, slide per slide. Score di replicabilità rispetto ai competitor, verifica di contenuti vietati (foto di stabilimento, procedure interne, specifiche non pubblicate), raccomandazioni audience-specifiche, interna, tecnica-con-NDA, commerciale, pubblica.
+ipl2_ex9_q: Questo accordo è in tedesco, controparte svizzera. Le clausole IP che rischi nascondono?
+ipl2_ex9_a: Analisi clausola per clausola <strong>direttamente in tedesco</strong>, nessuna traduzione preliminare. Valutazione rispetto alla <strong>Sua IP policy</strong>: score di rischio per clausola (proprietà, licenze, riservatezza, post-termination), Fairness Level. Verifica verbatim della clausola di export control (Reg. UE 833/2014); implicazioni ITAR/EAR statunitensi segnalate per verifica esterna quando la controparte è extra-UE. Testo alternativo proposto <strong>nella lingua originale</strong>.
+ipl2_arch_title: Sotto al cofano: un'orchestra di specialisti
+ipl2_arch_subtitle: TTR-SUITE IP Legal non è un chatbot AI generalista, dove un'unica AI prova a rispondere a tutto. È una squadra di agenti specialisti che collaborano, coordinati da <strong>ARBITER</strong>. Ogni agente è un'AI distinta, specializzata e addestrata per un compito preciso nel lavoro IP e contrattuale.
+ipl2_arch_count_label: 8 specialisti attivi + 1 in early access (revisore brevettuale) + 2 coordinatori
+ipl2_arch_intro1: Una squadra di <strong>agenti specialisti dedicati</strong> che presidia il dominio IP e contrattuale. Ogni caso è gestito dagli agenti con il perimetro giusto, con verifiche indipendenti tra i passaggi e tracciabilità completa del ragionamento.
+ipl2_arch_intro2: Sette aree IP sono presidiate, dalla riservatezza alle domande di brevetto, con agenti specialisti focalizzati ciascuno esclusivamente su una di esse. Trasversalmente alle aree, sei modalità operative vengono applicate dove servono, in modo che ogni output porti gli stessi controlli di qualità a prescindere dalla famiglia documentale.
+ipl2_arch_coord_title: Coordinamento agenti
+ipl2_arch_arbiter_desc: Classifica la richiesta dell'operatore e si assicura, ad ogni passaggio, che le risposte siano prodotte dagli agenti più competenti.
+ipl2_arch_interpres_desc: Interpreta in profondità la richiesta dell'utente e fa emergere le competenze specialistiche necessarie a rispondere.
+ipl2_arch_areas_title: Sette aree IP presidiate
+ipl2_arch_area1: Accordi di riservatezza
+ipl2_arch_area2: Accordi di ricerca accademica
+ipl2_arch_area3: Accordi commerciali e licensing
+ipl2_arch_area4: Presentazioni e slide deck esterni
+ipl2_arch_area5: Paper scientifici e pubblicazioni
+ipl2_arch_area6: Tesi accademiche
+ipl2_arch_area7: Domande di brevetto
+ipl2_arch_modes_title: Sei modalità operative trasversali
+ipl2_arch_mode1: Analisi clausola per clausola con risk scoring
+ipl2_arch_mode2: Stesura assistita conforme alla Sua IP policy
+ipl2_arch_mode3: Stress test adversariale sui brevetti
+ipl2_arch_mode4: Conformità regolamentare ed export control
+ipl2_arch_mode5: Citazioni e numeri di brevetto verificati alla fonte
+ipl2_arch_mode6: Workspace di sessione ispezionabile
+ipl2_trust_title: Costruita per il lavoro legale reale
+ipl2_trust_subtitle: Vincoli scolpiti dentro ciascun agente, in modo che l'output che riceve sia utilizzabile su casi reali, non impressionante in demo e inaffidabile alla scrivania.
+ipl2_trust1_title: Niente riferimenti inventati
+ipl2_trust1_text: Ogni agente opera sotto regole esplicite no-hallucination su articoli di legge, clausole contrattuali, citazioni e numeri di brevetto. Quando l'informazione manca, l'output lo dichiara esplicitamente. Un onesto «non verificabile» sostituisce un'invenzione sicura di sé.
+ipl2_trust2_title: Verifica dei numeri di brevetto alla fonte
+ipl2_trust2_text: Ogni numero di brevetto citato in una bozza, in una tabella di anteriorità o in un confronto fra claim viene verificato su banche dati pubbliche (Espacenet, EPO Register, WIPO PATENTSCOPE, Google, Lens.org, UIBM, USPTO) prima di apparire nell'output. I numeri non verificabili vengono rimossi e segnalati.
+ipl2_trust3_title: Scoring numerico, non scenico
+ipl2_trust3_text: I rischi vengono scorati 0&#8211;100 su una rubrica fissa, con esempi di calibrazione che impongono riproducibilità. Il Fairness Level 0&#8211;3 è derivato matematicamente da pesi di categoria, non può essere alterato da spin qualitativo.
+ipl2_trust4_title: Livelli di confidenza su ogni finding
+ipl2_trust4_text: Ogni asserzione porta un'etichetta di confidenza, certo, probabile, incerto, non verificabile. A colpo d'occhio vede di cosa l'agente è sicuro e cosa segnala per revisione umana.
+ipl2_trust5_title: Bias conservativo sul rischio IP
+ipl2_trust5_text: Un rischio IP mancato costa più di un rischio segnalato. Nel dubbio fra due bande di severità, l'agente sceglie la più alta. I falsi positivi rubano un'ora, i falsi negativi rubano il brevetto.
+ipl2_trust6_title: Robusta contro prompt injection
+ipl2_trust6_text: Cinque livelli di protezione (L1&ndash;L5) bloccano i tentativi di estrarre le istruzioni interne tramite riformulazione, role-play, encoding, traduzione o istruzioni nascoste nei documenti sottoposti. Gli override embeddati nei documenti vengono segnalati nel report, non eseguiti.
+ipl2_case_title: Test sul campo: dipartimento IP di un grande gruppo industriale multinazionale
+ipl2_case_heading: Trasformazione della gestione documentale IP in un gruppo industriale internazionale
+ipl2_case_intro: Un deployment Aviolab AI all'interno del dipartimento IP di un grande gruppo industriale multinazionale, risultati nell'arco di un trimestre di operatività:
+ipl2_case_b1: Tempo di analisi contratti ridotto da giorni a ore, talvolta minuti
+ipl2_case_b2: Livello di rischio valutato per singola criticità, non per contratto
+ipl2_case_b3: Gestione di accordi multi-documento resa affidabile e ripetibile
+ipl2_case_b4: Commenti legali prodotti in modo pulito in più lingue
+ipl2_case_b5: Coordinamento fluido fra team legali internazionali sullo stesso caso
+ipl2_case_b6: Maggiore controllo sugli asset IP e sicurezza nella negoziazione contrattuale
+ipl2_svc_title: Come ottenere l'accesso
+ipl2_svc_subtitle: Due percorsi, a seconda della capacità.
+ipl2_svc1_tag: Disponibilità commerciale
+ipl2_svc1_title: Analisi, stesura e stress test
+ipl2_svc1_text: Contratto commerciale standard, deployment cloud o confinato on-premise all'interno della Sua infrastruttura IT, a seconda dei requisiti di riservatezza.
+ipl2_svc1_b1: Pricing per postazione o per ingaggio
+ipl2_svc1_b2: Opzione on-premise per portafogli riservati
+ipl2_svc1_b3: Integrazione con la gestione documentale esistente
+ipl2_svc1_b4: Formazione e onboarding del Suo team
+ipl2_svc2_tag: Programma early access
+ipl2_svc2_title: Preparazione end-to-end di domande di brevetto
+ipl2_svc2_text: Disponibile a partner selezionati su richiesta. Lavoriamo a fianco dei Suoi inventori, consulenti brevettuali e responsabili IP per affinare il flusso su domande reali.
+ipl2_svc2_b1: Accesso partner-on-request
+ipl2_svc2_b2: Formalità UIBM ed EPO supportate
+ipl2_svc2_b3: Linea diretta col team di ingegneria
+ipl2_svc2_b4: Condizioni preferenziali sul rilascio commerciale
+ipl2_hero_cta_brochure: Brochure (PDF)
+ipl2_hero_cta_docs: Documentazione: GDPR, AI Act
+ipl2_doc_title: Documentazione e certificazioni
+ipl2_doc_subtitle: Documentazione pubblica di compliance per TTR-SUITE Enterprise Edition v7.0: PDF firmati allineati all'AI Act UE (Regolamento 2024/1689) e al GDPR (Regolamento 2016/679). Lo stesso set è condiviso con ogni Cliente Enterprise; gli addenda cliente-specifici (integrazione policy IP, licensing) vengono consegnati separatamente.
+ipl2_doc_brochure_title: Aviolab AI &mdash; Brochure aziendale
+ipl2_doc_brochure_text: Panoramica aziendale: chi siamo, cosa rilasciamo, come affrontiamo l'AI nell'IP e nel settore pubblico. Disponibile in inglese e italiano.
+ipl2_doc_classrisk_title: Classificazione del rischio AI Act
+ipl2_doc_classrisk_text: Classificazione formale del rischio ai sensi del Regolamento UE 2024/1689: verifica art. 5 (pratiche vietate), art. 6/Allegato III (alto rischio), classificazione finale a Rischio Limitato (art. 50).
+ipl2_doc_classrisk_meta: PDF firmato &middot; 327 KB
+ipl2_doc_transparency_title: Informativa di Trasparenza AI Act
+ipl2_doc_transparency_text: Informativa per gli utenti finali ai sensi dell'art. 50 AI Act: come funziona l'AI, capacità, limitazioni, ruolo dell'operatore umano, dati di accuratezza, regole d'uso.
+ipl2_doc_transparency_meta: PDF firmato &middot; 340 KB
+ipl2_doc_dpa_title: DPA &mdash; Zero Data Retention (GDPR)
+ipl2_doc_dpa_text: Data Processing Addendum con architettura Zero Data Retention: ruoli GDPR, flussi dati, cifratura, Provider di Inferenza, trasferimenti extra-UE, gestione data breach.
+ipl2_doc_dpa_meta: PDF firmato &middot; 311 KB
+ipl2_doc_techspec_title: Scheda tecnica del sistema AI
+ipl2_doc_techspec_text: Documentazione tecnica ai sensi dell'art. 50 AI Act: architettura, modello AI, sicurezza, capacità (~95% accuratezza, 1200 pagine), limitazioni, human oversight.
+ipl2_doc_techspec_meta: PDF firmato &middot; 351 KB
+ipl2_xlink_title: Cerca la versione per la Pubblica Amministrazione italiana?
+ipl2_xlink_text: Visiti la pagina dedicata di <a href="pa-locale.html">TTR-SUITE per la PA Locale</a>, la nostra suite per i Comuni italiani, consulenza giuridica e amministrativa con AI, fonti normative certificate, fascicolo informatico SInCRO.
+ipl2_cta_title: Pronto a trasformare i flussi IP e contrattuali del Suo gruppo?
+ipl2_cta_text: Ci contatti. Le mostriamo il sistema su un Suo caso reale, un NDA, una licenza, una bozza di claim, qualsiasi cosa ha sulla scrivania questa settimana.
+ipl2_cta_btn_form: Usi il form di contatto
+
 pa_scheda_agid_title: Scheda comparativa firmata AGID — TTR-SUITE per la PA Locale
 pa_scheda_agid_desc: Scheda comparativa AGID predisposta secondo lo schema di valutazione delle soluzioni software per la Pubblica Amministrazione. PDF firmato digitalmente, 261 KB.
+
+## --- 2027: testata e piede nuovi, titoli delle pagine bilingui (downloads.html, ip-legal.html) ---
+salta: Vai al contenuto
+marchio_home: Aviolab AI, pagina iniziale
+menu_sezioni: Sezioni del sito
+m_prodotto: Il prodotto
+m_lavora: Come lavora
+m_semplice: In parole semplici
+m_stampa: Dicono di noi
+m_download: Download
+m_domande: Le domande del funzionario
+azione_prova: Chieda una prova gratuita
+azione_info: Richieda informazioni
+lingua_gruppo: Lingua
+piede_motto: Intelligenza artificiale per i pareri e gli atti dei Comuni.
+piede_prodotto: TTR-SUITE PA Locale
+piede_altro: Aviolab AI
+piede_diritti: &copy; 2026 Aviolab AI. Tutti i diritti riservati.
+downloads_meta_title: Download | Aviolab AI
+ipl2_meta_title: TTR-SUITE IP Legal, analisi, redazione e brevetti con l'IA | Aviolab AI
