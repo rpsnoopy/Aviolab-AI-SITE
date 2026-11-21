@@ -1378,6 +1378,10 @@ body.it .hero-content h1 span:last-child {
     overflow: hidden;
 }
 
+.founder-image img {
+    display: block;
+}
+
 .founder-bio {
     flex: 1;
 }

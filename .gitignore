@@ -13,3 +13,8 @@ node_modules/
 # committati (il push di questo repo equivale a pubblicare su aviolab.ai).
 .ttr-generator/
 **/.ttr-generator/
+
+# File di lavoro locali, non destinati al sito: restano sul disco ma non
+# vengono piu' committati, quindi non vengono pubblicati.
+/aviolab.ai MNGMNT/
+/temp/install-agents-improved.bat

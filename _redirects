@@ -17,6 +17,9 @@
 /efforts/word_template_instructions.md / 302
 /temp/README_EN.md / 302
 /temp/README_IT.md / 302
+# File di configurazione di git: devono restare nel repo, quindi si nascondono qui.
+/.gitignore / 302
+/.gitattributes / 302
 
 # Dati di lavoro della TTR-SERVICE-CONSOLE (registro macchine e database chiavi
 # API): sono cifrati, ma non sono destinati al pubblico. Queste regole li
