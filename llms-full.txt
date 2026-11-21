@@ -1,379 +1,1116 @@
 # Aviolab AI
 
-> Agentic AI for IP Legal and public administration. Two specialized suites built on the same multi-agent engine: **TTR-SUITE IP Legal** for legal teams, IP departments and technology transfer offices, and **TTR-SUITE per la PA Locale** for Italian municipalities, mainly those under 5,000 inhabitants. Source-verified, traceable, professional-grade results.
+> Aviolab AI sviluppa TTR-SUITE, un sistema di intelligenza artificiale ad agenti che lavora accanto al funzionario comunale: inquadra il caso, cita la norma vigente con articolo e comma dalle fonti ufficiali, redige la bozza dell'atto e la sottopone a un secondo controllo indipendente. A decidere e a firmare resta il funzionario. È nata per i Comuni italiani sotto i 5.000 abitanti. (In English: agentic AI for Italian municipalities; legal opinions and draft administrative acts with article-level citations of the law in force, independent review, the official decides and signs.)
 
-This file contains the complete text content of the main pages of https://aviolab.ai/ in a single markdown document, so that an LLM can read the whole site without navigating. Pages: Homepage (EN), TTR-SUITE IP Legal (EN), TTR-SUITE per la PA Locale (IT), TTR-SUITE per la PA Locale in azione (IT), Che cos'è TTR-SUITE (IT), Le domande del funzionario (IT), Downloads (EN), Privacy (IT/EN summary).
+Aviolab AI è specializzata nell'applicare architetture fortemente agentiche a problemi giuridici complessi: sistemi in cui molte intelligenze artificiali, ciascuna con un compito preciso, lavorano insieme e si controllano a vicenda. Il prodotto al centro del lavoro è TTR-SUITE nella versione PA Locale, per i Comuni; la prima versione, TTR-SUITE IP Legal, è dedicata agli uffici che gestiscono proprietà intellettuale e contratti tecnologici. Fondatore e responsabile tecnico: Riccardo Parenti. Sede: Pieve Ligure (GE), Città metropolitana di Genova. Contatti: info@aviolab.ai, +39 335 605 0950.
+
+Questo file contiene il testo delle pagine principali di https://aviolab.ai/ in un solo documento, così che un modello linguistico possa leggere il sito senza navigarlo. Pagine: Pagina iniziale, TTR-SUITE, il prodotto nel dettaglio, Che cos'è TTR-SUITE, TTR-SUITE in azione, Le domande del funzionario, TTR-SUITE IP Legal, Download, Privacy (riassunto). La rassegna stampa sul caso zero (Comune di Pieve Ligure) è in https://aviolab.ai/dicono-di-noi.html.
 
 ---
 
-# Homepage
+# Pagina iniziale
 URL: https://aviolab.ai/
 
-## Agentic AI for IP Legal and public administration
+TTR-SUITE versione PA LOCALE Il parere e la bozza dell'atto in pochi minuti, con articolo e comma della norma vigente.
 
-Two specialized suites, one engine. Aviolab AI builds Agentic AI for two distinct domains: Italian local public administration, and intellectual property, contract and patent work for legal teams. Different audiences, the same commitment to top-tier professional results with sources that are always verified and traceable.
+Lavora accanto al funzionario comunale. Inquadra il caso, cita la norma dalle fonti ufficiali, redige la bozza dell'atto e la sottopone a un secondo controllo indipendente. A decidere e a firmare resta il funzionario.
 
-- TTR-SUITE per la PA Locale (per Comuni e Amministrazioni Locali)
-- TTR-SUITE IP Legal (for legal teams and IP departments)
-- Flexible deployment: our systems can operate in the cloud or confined within your own IT infrastructure.
+È nata per i Comuni sotto i 5.000 abitanti, dove spesso una sola persona presidia più materie.
 
-## Our Mission: building Agentic AI for legal and administrative work
+Chieda una prova gratuita
+Guardi la presentazione filmata (otto minuti)
 
-We build artificial intelligence systems that transform the work of legal professionals and public administration officials, bringing within everyone's reach the kind of rigorous analysis, anchored in correct and up-to-date legal sources, that until today required the effort of dedicated specialist teams, available only in large organisations or major law firms.
+DETERMINAZIONE DEL RESPONSABILE DEL SERVIZIO
 
-Focused Agentic AI for two distinct domains:
-- Intelligent document context understanding
-- Automatic clause extraction and analysis
-- Risk detection in legal agreements
-- Multi-language support for international teams
-- Complex document comparison and reconciliation
-- High-quality summarization of lengthy documents
+OGGETTO: Proroga tecnica del contratto di servizio di refezione scolastica […] art. 120, comma 11, D.Lgs. 31 marzo 2023, n. 36.
+Il testo dell'articolo è stato recuperato da Normattiva, nella versione vigente il giorno della sessione.
 
-## Our Solutions: two purpose-built suites for two distinct audiences
+IL RESPONSABILE DEL SERVIZIO
 
-### TTR-SUITE per la PA Locale
-Consulenza giuridica e amministrativa AI per i Comuni italiani. Mainly designed for Italian municipalities under 5,000 inhabitants and the officials who run them. Legal opinions and analytical problem-solving under current law, drafted acts ready for signature, SInCRO-compliant digital filing.
+VISTI
 
-- Legal opinions and analytical studies on concrete administrative problems under current law
-- 43 different AI agents working together on every result (24 specialist agents + 19 cognitive functions)
-- Certified normative sources, zero citation errors
-- Drafting of acts: resolutions, determinations, ordinances, building titles
-- SInCRO-compliant digital file (UNI 11386, art. 41 CAD)
-- AI Act art. 50 compliance + GDPR by design
+il D.Lgs. 18 agosto 2000, n. 267 (TUEL), e successive modificazioni, con particolare riferimento agli artt. 107, 151, comma 4, e 183;
 
-### TTR-SUITE IP Legal
-AI-powered analysis and drafting for IP legal teams and IP departments. Built for IP departments, in-house legal teams handling IP work and technology transfer offices. Drafts and analyses NDAs, research agreements and commercial contracts with internally validated outputs. Multi-language, clause-by-clause.
+il D.Lgs. 31 marzo 2023, n. 36 (Codice dei Contratti Pubblici), con particolare riferimento all' art. 120, comma 11;
+Un revisore indipendente ha confrontato il parere con il testo della norma, voce per voce: riscontro completo.
 
-- IP analysis of bids, tenders and related documents
-- Research and technology partnership agreements
-- License agreement review with key term extraction
-- Technical presentations and papers risk assessment
-- Production-validated in the IP department of a major international corporation
-- End-to-end patent application preparation: structured inventor interview, thorough prior art search, claims drafting
-- Adversarial claim stress test: AI agents attack each claim with prior-art rewordings and combinations of known or patented techniques
+la L. 13 agosto 2010, n. 136, in materia di tracciabilità dei flussi finanziari;
 
-## Key Benefits
+[…]
 
-- Time Efficiency: reduce document review time by up to 80%, allowing your team to focus on strategic analysis rather than routine processing.
-- Accuracy: achieve consistent, reliable analyses that minimize human error and capture details that might otherwise be overlooked.
-- Cost Reduction: significantly lower document processing costs while improving quality and consistency of results.
-- Team Collaboration: enable seamless collaboration across departments and offices with consistent document analysis and shared insights.
-- Customization: solutions tailored to your specific industry needs, document types, and internal processes for maximum relevance.
-- User-Friendly: access powerful analysis through a simple, intuitive one-click AI interface designed for busy professionals.
+il bilancio di previsione, approvato con deliberazione del Consiglio Comunale n. del, esecutiva ai sensi di legge;
+I dati noti solo all'ufficio restano evidenziati, da completare.
 
-## About Us
+il Piano Esecutivo di Gestione (PEG) per l'esercizio, approvato con deliberazione della Giunta Comunale
 
-Riccardo Parenti, Founder & Technical Lead.
+Dalla bozza di determinazione preparata dalla Suite sul caso di una proroga tecnica della refezione scolastica. Veda la sessione, passo per passo
 
-## Contact
+## Ultime notizie
 
-- Location: Genova, Italy
-- Website: www.aviolab.ai
-- Email: info@aviolab.ai
-- Preferred contact hours: weekdays 9:00-18:00 (CET/Rome)
-- We typically respond within one business day.
+19 novembre 2026
+Cosa chiede un funzionario comunale all'intelligenza artificiale?
+Quaranta domande, in una pagina
 
-Company data: AVIOLAB AI DI PARENTI RICCARDO, Via XXV Aprile 251, IT16031 Pieve Ligure (GE), P.IVA 02997110990, REA GE 525625.
+18 novembre 2026
+TTR-SUITE PA Locale 7.1: i risultati
+Post del fondatore su LinkedIn
+
+2 novembre 2026
+La Biblioteca dell'Ente: che cos'è, come si attiva, come si usa
+Filmato, quasi sei minuti
+
+A che cosa mi serve TTR-SUITE?
+
+## TTR-SUITE in otto minuti
+
+Com'è fatta e come lavora. Nel filmato:
+- la postazione e dove restano i dati
+- una domanda vera: analisi, verifica normativa, report
+- le 43 intelligenze artificiali
+- i dati personali sostituiti da etichette
+- il Fascicolo Informatico e la Biblioteca dell'Ente
+- assistenza, aggiornamenti, documentazione di conformità
+
+Se il filmato non parte, lo scarichi da qui
+
+Come funziona TTR-SUITE?
+
+## Dal caso alla bozza dell'atto
+
+Il funzionario espone il caso con parole sue e allega i documenti. La risposta è ordinata come una scheda istruttoria: classificazione del caso, quadro normativo, applicazione alla pratica, fonti.
+
+Al risultato lavorano 43 intelligenze artificiali: 24 agenti, cioè intelligenze artificiali istruite ciascuna su un compito preciso, di norma una materia di competenza comunale, e 19 funzioni cognitive interne, che lavorano fra un passaggio e l'altro.
+
+Le 43 intelligenze artificiali e il percorso di una richiesta: «serve una nuova determina». Dalla presentazione filmata.
+
+Il parere
+
+Citazione di articolo, comma e lettera, applicazione al caso concreto e, in appendice, gli estratti letterali della norma vigente. Le strade praticabili sono messe a confronto, ciascuna con i suoi presupposti e i suoi rischi.
+
+L'atto
+
+Determinazioni, deliberazioni, ordinanze, regolamenti, titoli edilizi, avvisi, capitolati. La bozza arriva in Word con premesse, motivazione e dispositivo, e tiene conto dello statuto e dei regolamenti del Comune che si applicano al caso.
+
+Il secondo controllo
+
+Ogni risposta passa da almeno due agenti distinti. Per gli atti più delicati il funzionario può chiedere una rilettura sui profili di impugnabilità e una sui possibili rilievi della Corte dei conti.
+
+Gli atti già emessi
+
+Un provvedimento adottato si può sottoporre a riesame: la Suite ne segnala gli eventuali vizi e le norme cambiate nel frattempo, e indica la base per la convalida o per l'annullamento in autotutela.
+
+Il fascicolo
+
+Ogni pratica conserva le fonti consultate, le impronte di integrità e la traccia delle decisioni. Si estrae nel formato SInCRO (UNI 11386) per il gestionale documentale del Comune e si riapre anche a distanza di anni.
+
+La Biblioteca dell'Ente
+
+Con un clic del funzionario, un atto ben riuscito entra nella Biblioteca dell'Ente come modello da riusare, accanto allo statuto e ai regolamenti del Comune. La Biblioteca resta patrimonio dell'Ente e cresce con l'uso.
+
+Veda il prodotto nel dettaglio
+Legga la spiegazione in parole semplici
+
+Quanto rende il lavoro con TTR-SUITE?
+
+## L'impatto sui servizi comunali: una stima
+
+Più un servizio lavora su atti e norme, più tempo si libera. Qui la stima è tradotta in persone: quanto rende, con la Suite, il lavoro di un ufficio come il Suo.
+
+Persone nel Suo ufficio
+−
+4
++
+
+### Servizi di sportello e di presenza
+
+Anagrafe e stato civile, Polizia Locale, servizi scolastici
+
+Tempo speso su atti e norme (stima tipica)
+
+20%
+
+Tempo liberato sul totale
+
+17%
+
+Capacità (oggi = 100)
+
+121
+
+A quattro persone il lavoro rende come se fossero in 4,8.
+
+### Servizi di istruttoria
+
+Tributi, Servizi sociali, Commercio e SUAP, Protocollo e Segreteria operativa
+
+Tempo speso su atti e norme (stima tipica)
+
+30%
+
+Tempo liberato sul totale
+
+26%
+
+Capacità (oggi = 100)
+
+135
+
+A quattro persone il lavoro rende come se fossero in 5,4.
+
+### Servizi di produzione di atti
+
+Ufficio Tecnico (edilizia, lavori pubblici), Ragioneria (determine e impegni)
+
+Tempo speso su atti e norme (stima tipica)
+
+40%
+
+Tempo liberato sul totale
+
+35%
+
+Capacità (oggi = 100)
+
+153
+
+A quattro persone il lavoro rende come se fossero in 6,1.
+
+### Servizi di produzione giuridica
+
+Segreteria generale (delibere, contratti, regolamenti, pareri), ufficio del Segretario
+
+Tempo speso su atti e norme (stima tipica)
+
+50%
+
+Tempo liberato sul totale
+
+44%
+
+Capacità (oggi = 100)
+
+177
+
+A quattro persone il lavoro rende come se fossero in 7,1.
+
+Stime di Aviolab AI, novembre 2026, derivate dai tempi osservati sul campo fra luglio e settembre 2026. Variano con la pratica e con l'ufficio. In grigio le persone dell'ufficio, in rosso quanto rende in più il loro lavoro.
+
+Dove stanno i dati del Comune?
+
+## Sul computer dell'ufficio. E decide il funzionario.
+
+La Suite si installa sul computer del funzionario. Sessioni, fascicoli, allegati e fonti scaricate restano sulle macchine dell'Ente, cifrati. Non serve un server.
+
+Gli aggiornamenti arrivano in automatico. L'assistenza si collega da remoto alla postazione solo su richiesta del funzionario e con il suo consenso.
+
+L'elaborazione dei testi avviene presso il fornitore del modello di intelligenza artificiale, che per contratto cancella i contenuti appena trasmessa la risposta.
+
+È uno strumento di supporto: non assume decisioni, non protocolla e non invia nulla in autonomia. Ogni testo è dichiarato come prodotto con l'intelligenza artificiale e il funzionario lo può modificare per intero.
+
+Lo abbiamo classificato fra i sistemi soggetti agli obblighi di trasparenza dell'art. 50 del Regolamento (UE) 2024/1689, il cosiddetto rischio limitato: l'analisi è fra i documenti scaricabili.
+
+La postazione: nessun server, i dati sul disco dell'ufficio, il collegamento cifrato. Dalla presentazione filmata.
+
+### I documenti, firmati digitalmente
+- Classificazione del rischio
+- Informativa di trasparenza
+- Accordo sul trattamento dei dati
+- Scheda tecnica del sistema
+- Scheda comparativa a supporto dell'infungibilità (Linee guida AgID in via di adozione)
+
+Scarichi i documenti
+
+## Cosa chiede un funzionario comunale all'intelligenza artificiale?
+- Un secondo parere, prima di firmare?
+- Non passare un altro venerdì pomeriggio su Normattiva?
+- Non dover riscrivere da capo una determina quasi identica a quella di marzo?
+- Poter spiegare al Segretario e al DPO dove finiscono i dati?
+- Che risulti chiaro che a decidere è stato lui?
+
+Legga tutte le quaranta domande
+
+Chi ha usato TTR-SUITE per primo?
+
+## Il nostro caso zero: il Comune di Pieve Ligure
+
+È il primo Comune in cui TTR-SUITE è entrata negli uffici. Quello che segue è pubblico: i comunicati del Comune, il suo film, la rassegna stampa.
+
+Legga i comunicati e la rassegna stampa
+
+Il film del Comune di Pieve Ligure per il convegno di ANCI Lombardia, sette minuti e mezzo. Se non parte, lo scarichi da qui
+- 25 giugno 2026 I funzionari cominciano la prova.
+- 27 luglio 2026 I responsabili dei servizi chiedono di tenere la Suite.
+- 1° settembre 2026 Il Comune annuncia che prosegue, «dopo una sperimentazione conclusa con esito positivo», e che l'uso si estende agli altri servizi.
+- 12 novembre 2026 Il Comune porta i risultati di quattro mesi al convegno di ANCI Lombardia, a Milano: unico Comune non lombardo alla tavola rotonda.
+
+«E abbiamo lasciato prendere la decisione a chi lavora sulle pratiche tutti i giorni: i responsabili dei servizi hanno provato il sistema sul campo e sono stati loro a chiederci di mantenerlo stabilmente in dotazione agli uffici.»
+
+Paola Negro, Sindaca di Pieve Ligure Comunicato del Comune, 1° settembre 2026
+
+Chi c'è dietro TTR-SUITE?
+
+## Aviolab AI
+
+Aviolab AI è specializzata nell'applicare architetture fortemente agentiche a problemi giuridici complessi: sistemi in cui molte intelligenze artificiali, ciascuna con un compito preciso, lavorano insieme e si controllano a vicenda.
+
+TTR-SUITE nasce da qui. È progettata e sviluppata a Pieve Ligure, nella Città metropolitana di Genova.
+
+Profilo LinkedIn di Riccardo Parenti
+
+### Riccardo Parenti, fondatore e responsabile tecnico
+
+Ingegnere, genovese, lavora fino alla fine del 2024 nell'industria, all'interno di una grande multinazionale attiva nei settori industriale ed energetico. Per vent'anni guida gruppi di ricerca nell'automazione, nella sensoristica e nei sistemi di controllo, in ambito civile e militare. Negli anni Novanta introduce le reti neurali e la logica fuzzy nei processi industriali, quando queste tecnologie sono ancora prevalentemente confinate ai laboratori di ricerca.
+
+Dal 2007 al 2024 è responsabile del trasferimento tecnologico dell'azienda, occupandosi di proprietà intellettuale e contrattualistica. Un percorso che gli permette di conoscere dall'interno tanto le tecnologie quanto le esigenze di chi deve tradurle in atti, accordi e contratti.
+
+Nel 2025 fonda Aviolab AI. Il primo prodotto è TTR-SUITE IP Legal, già validata sul campo e utilizzata da clienti, progettata per gli uffici che gestiscono ricerca industriale, contratti tecnologici e proprietà intellettuale, soprattutto in ambito internazionale.
+
+Nell'ottobre dello stesso anno nasce TTR-SUITE PA Locale, sviluppata sulla medesima base tecnologica ma con un'architettura agentica molto più articolata: 43 agenti di intelligenza artificiale, rispetto agli 11 di IP Legal. È su questa soluzione, dedicata alle esigenze operative degli enti locali, che Aviolab AI concentra oggi prioritariamente le proprie attività.
+
+TTR-SUITE IP Legal
+
+Come si comincia?
+
+## Tre passi, il primo in videoconferenza
+
+### Una prima prova, in videoconferenza
+
+La prova dura dai 45 ai 60 minuti e si svolge normalmente in videoconferenza. Dopo una breve presentazione tecnica, Le viene messa a disposizione una TTR-SUITE accessibile da remoto, sulla quale può lavorare direttamente, in tempo reale, utilizzando una pratica di Suo interesse: ad esempio, un caso concreto che il Suo ufficio sta affrontando o ha già affrontato.
+
+### La prova gratuita negli uffici
+
+Due o tre settimane su alcune postazioni, senza procedura di affidamento e senza impegno per il Comune.
+
+### Il contratto
+
+Canone annuo per l'intero Ente, non per postazione.
+
+Chieda una prova gratuita
+
+## Chieda una prova gratuita
+
+Ci scriva due righe sul Suo Comune: si comincia con una prima prova in videoconferenza, su un caso del Suo ufficio. Se La convince, si passa alla prova gratuita negli uffici.
+- info@aviolab.ai
+- +39 335 605 0950 Dal lunedì al venerdì, dalle 9 alle 18
 
 ---
 
-# TTR-SUITE IP Legal
-URL: https://aviolab.ai/ip-legal.html (page in English, Italian translation available on site)
+# TTR-SUITE, il prodotto nel dettaglio
+URL: https://aviolab.ai/pa-locale.html
 
-AI agents that analyse, draft and validate. NDAs, research and commercial agreements, license deals, contract review, and end-to-end patent application preparation. One engine, one workflow, source-verified outputs.
+Novità
+19 novembre 2026: «Cosa chiede un funzionario comunale all'intelligenza artificiale?» Quaranta domande, in una pagina.
+Legga le domande
 
-## The pressure on legal and IP work
+Consulenza giuridica e amministrativa AI per i Comuni
 
-Three recurring problems we hear from legal teams, IP departments and partners in small to mid-size firms:
+TTR-SUITE versione PA Locale: pareri sulla norma vigente, bozze di atti,
+fascicolo digitale nel formato SInCRO. Sulla scrivania del funzionario, in minuti invece che in giorni.
 
-- "Every week three new agreements land on my desk. Reviewing them clause by clause used to mean a day each. I don't have a day each." (Head of Legal, mid-size manufacturer)
-- "The technical inventor knows the technology. I have to translate it into claims. The translation is where weeks go." (Patent attorney, technology transfer office)
-- "I cannot afford an in-house specialist for every domain my clients walk in with, pharma, software, automotive, and yet they expect domain-grade output." (Partner, boutique IP firm)
+Veda TTR-SUITE in azione
+Documentazione AgID, GDPR, AI Act
 
-## Four capabilities, tuned to your IP policy
+Preferisce una spiegazione in linguaggio piano?
+Che cos'è TTR-SUITE, in cinque minuti di lettura
 
-TTR-SUITE IP Legal reads, analyses, drafts, prepares patents and stress-tests them on the same engine. Each agent is tuned to your group's internal IP policy and your preferences before delivery, so the output is compliant with your in-house standards from day one, not after a round of corrections.
+"Devo emettere questo atto. Ho fatto del mio meglio. Ma sarà tutto giusto? Sto correndo rischi legali, economici, di responsabilità personale?"
 
-### Document analysis
-Six specialist agents, one per document family:
-- NDAs: unilateral, bilateral, multi-party
-- Research agreements with academic institutions
-- Commercial agreements, licenses, technology transfer
-- Presentations, papers, theses (with figure analysis)
-Clause-by-clause, multi-language, risk measure 0-100%.
+Il dubbio prima della firma
 
-### Assisted drafting
-From blank page to negotiation-ready draft:
-- NDAs, research agreements, commercial agreements
-- Always drafted to your IP policy framework
-- Counterparty assessment (academic vs commercial)
-- Placeholders only where data is missing or human decision is needed
-Adversarial drafting, with at least two cooperating agents.
+"E tra cinque anni, quando arriverà il controllo della Corte dei Conti? Riuscirò ancora a difendere questo provvedimento o emergerà un rilievo che oggi non vedo?"
 
-### Patent drafting (early access programme)
-From invention disclosure to filing-ready application:
-- Structured inventor interview, no IP vocabulary required
-- Prior art search with closest references mapped
-- Independent and dependent claims, specification, abstract
-- Multi-domain, multi-jurisdiction (IT, EP, US, PCT)
-Every cited patent verified against patent databases: Espacenet, EPO Register, WIPO PATENTSCOPE, Google, Lens.org, UIBM, USPTO.
-
-### Patent stress test (early access programme)
-Demolish the draft before the examiner does:
-- Aggressive prior art aimed at invalidation
-- Attacks on each claim with combinations of existing patents and state of the art
-- Weak-points report with severity ranking
-- Narrowing recommendations preserving the broadest scope
-Structured risk factors on novelty, inventive step, sufficiency, clarity, eligibility, scope vs defensibility.
-
-## What does TTR-SUITE actually produce?
-
-### NDA, Research Agreement, Commercial Agreement: new draft
-When the agreement does not exist yet and you want a first version to negotiate from.
-- Full text of the draft (docx, md, pdf) in the language most useful to you, structured to your IP policy framework
-- Placeholder map with markers at every field that requires unavailable information or a specific human decision
-- Internal review cycle incorporated: the drafter produces a first draft, hands it to the specialist reviewer for the agreement type, incorporates the modifications and delivers the revised draft
-- Interactive refinement of specific clauses or further review on specific points
-
-### NDA, Research Agreement, Commercial Agreement: analysis of an existing document
-When the counterparty sent a draft, or you inherited an agreement and need to know what you are signing.
-- Executive summary with overall risk level, Fairness Level (0-3) and top prioritised issues
-- Clause-by-clause analysis table with numerical risk score (0-100), risk category, economic impact estimate, alignment with your internal IP policy
-- Recommended action per clause (remove, modify, accept) with proposed alternative wording in the document language
-- Export control and compliance check: OFAC, EU Regulation 833/2014, ITAR/EAR and dual-use applicability when counterparties are non-EU
-
-### Presentations, scientific papers, theses: IP review of the document
-When the company wants something published, shared at a conference, or defended at university, and you need to know what is safe to disclose.
-- Element-by-element review (slide by slide, section by section, chapter by chapter, figure by figure) with risk score and replicability assessment
-- Prohibited-content verification against your internal disclosure policy (facility data, internal procedures, unpublished specifications, proprietary methodologies)
-- Audience-specific recommendations: what is safe internally, with technical partners under NDA, with commercial counterparts, with the general public
-- Compliant alternative wording for sections scoring above threshold, preserving scientific or communicative value
-
-### Patent application: from invention to filing-ready draft
-- Invention disclosure form from a structured interview, no IP-vocabulary fluency required from the inventor
-- Prior art search report with closest references mapped against the inventive concept (every cited patent number verified at the source)
-- Patentability triage: if the invention does not survive the prior art, you find out before drafting the claims
-- Full application: independent and dependent claims, complete specification, abstract, drafted to UIBM, EPO or USPTO formalities
-- Iteration mode against examiner objections or third-party patents, with claim delimitation that respects the original disclosure (no added matter)
-
-### Patent application: adversarial review of a draft
-- Aggressive prior art search aimed at demolishing the inventive concept
-- Attacks on every claim using combinations of existing patents and state of the art
-- Weak-points report with severity ranking on the claims that did not survive the attack
-- Narrowing recommendations preserving the broadest defensible scope
-- Structured merit synthesis (novelty, inventive step, scope vs defensibility, eligibility), no spurious grant percentages, no narrowing imposed when the claims already survive as filed
-
-## Sample conversations
-
-- "The counterparty sent this NDA. I sign on Friday. What am I agreeing to?" Clause-by-clause analysis: risk score per clause, overall Fairness Level, OFAC compliance check, AI/ML training prohibition check, deviations from your IP policy flagged, alternative wording proposed.
-- "We're entering a research partnership with this university. There is no agreement yet." Drafting from a blank page: scope, deliverables, background and foreground IP, funding model, publication rights, governance, liability, exit; internally validated before delivery.
-- "I need to review this license agreement with a US supplier before next week." Commercial agreement analysis: IP allocation, royalty model, exclusivity, audit rights, SLA, liability cap, governing law; verbatim export-control clause check (EU Reg. 833/2014), US ITAR/EAR implications flagged.
-- "I want to protect this invention. Where do we start?" Six-phase pipeline: inventor interview, prior art search, patentability triage, claim drafting, full specification with abstract, iteration against examiner objections.
-- "We have a draft patent application. Is it really novel?" Aggressive stress test: invalidation attempts on the claims, vulnerability report, narrowing guidance preserving the broadest defensible scope.
-- "I'm about to publish this technical paper. Am I burning my own patentability?" Section-by-section IP risk scoring with mitigations preserving scientific value; patent strategy alignment (what to file before publication).
-- "This PhD student is finalising the thesis using our internal data. What can stay in?" Thesis IP review: organisational information, facility data, unpublished specifications, proprietary methodologies verified.
-- "I'm presenting this slide deck at a conference next month." Slide-by-slide review: replicability scoring, prohibited-content verification, audience-specific recommendations.
-- "This agreement is in German, the counterparty is Swiss." Clause-by-clause analysis directly in German, no preliminary translation; alternative wording proposed in the original language.
-
-## Under the hood: an orchestra of specialists
-
-TTR-SUITE IP Legal is not a generalist AI chatbot trying to handle everything. It is a team of specialist agents that collaborate, coordinated by ARBITER. Each agent is a distinct AI, specialised and trained for a single precise task in IP and contract work.
-
-9 + 2 agents: 8 active specialists + 1 in early access (patent reviewer) + 2 coordinators.
-
-Agent coordination:
-- ARBITER: classifies the operator's request and makes sure, at every step, that the answers are produced by the most competent agents.
-- INTERPRES: interprets the user's request in depth and surfaces the specialist competences needed to answer.
-
-Seven IP areas presided: non-disclosure agreements; academic research agreements; commercial agreements and licensing; external presentations and slide decks; scientific papers and publications; academic theses; patent applications.
-
-Six operating modes across the areas: clause-by-clause analysis with risk scoring; assisted drafting to your IP policy; adversarial stress test on patents; regulatory and export-control compliance; source-verified citations and patent numbers; inspectable session workspace.
-
-## Built for production legal work
-
-- No fabricated references: every agent operates under explicit no-hallucination rules on legal articles, contract clauses, citations and patent numbers. Where information is missing, the output says so explicitly. An honest "unverifiable" replaces a confident invention.
-- Patent number verification at the source: every patent number cited is verified against public patent databases (Espacenet, EPO Register, WIPO PATENTSCOPE, Google, Lens.org, UIBM, USPTO) before it appears in the output. Numbers that cannot be verified are removed and flagged.
-- Numerical scoring, no theatre: risks are scored 0-100 on a fixed rubric with calibration examples; Fairness Level 0-3 is mathematically derived from weighted category scores and cannot be overridden by qualitative spin.
-- Confidence levels on every finding: each assertion carries a confidence tag (certain, probable, uncertain, unverifiable).
-- Conservative bias on IP risk: when in doubt between two severity bands, the agent picks the higher one.
-- Hardened against prompt injection: five-level system protection (L1 to L5) blocks attempts to extract internal instructions through reformulation, role-play, encoding, translation or instructions embedded in submitted documents. Embedded overrides are flagged in the report, not executed.
-
-## Field test: IP department of a major international industrial group
-
-Results across a quarter of operation:
-- Contract analysis time reduced from days to hours, sometimes minutes
-- Risk level assessed per individual critical issue, not per contract
-- Multi-document agreement processing made reliable and repeatable
-- Legal commentary generated cleanly in multiple languages
-- Smoother coordination across international legal teams on the same case
-- Stronger control over IP assets and contractual negotiation security
-
-## How you get access
-
-- Analysis, drafting and adversarial review: commercial availability. Standard commercial engagement, cloud deployment or confined on-premise. Per-seat or per-engagement pricing, on-premise option for confidential portfolios, integration with your existing document management, training and onboarding.
-- End-to-end patent preparation: early access programme, available to selected partners on request. UIBM and EPO formalities supported, direct line to the engineering team, preferred conditions on commercial release.
-
-## Documentation and certifications (IP Legal)
-
-Public compliance documentation for TTR-SUITE Enterprise Edition v6.1: signed PDFs aligned with the EU AI Act (Regulation 2024/1689) and the GDPR (Regulation 2016/679). The same set is shared with every Enterprise client; client-specific addenda (IP policy integration, licensing) are delivered separately.
-- Aviolab AI company brochure (EN: https://aviolab.ai/assets/brochures/aviolab-ai-company-overview-en.pdf, IT: https://aviolab.ai/assets/brochures/aviolab-ai-company-overview-it.pdf)
-- AI Act risk classification: https://aviolab.ai/assets/downloads/ttr-suite-classificazione-rischio-ai-act.pdf
-- AI Act transparency notice: https://aviolab.ai/assets/downloads/ttr-suite-informativa-trasparenza-ai-act.pdf
-- DPA Zero Data Retention (GDPR): https://aviolab.ai/assets/downloads/ttr-suite-dpa-zdr-gdpr.pdf
-- Technical specification: https://aviolab.ai/assets/downloads/ttr-suite-scheda-tecnica.pdf
-
----
-
-# TTR-SUITE per la PA Locale
-URL: https://aviolab.ai/pa-locale.html (pagina in italiano)
-
-Consulenza giuridica e amministrativa AI per i Comuni. TTR-SUITE per la PA Locale: pareri su norma vigente, redazione di atti pronti per la firma, fascicolo digitale conforme allo standard SInCRO. Sulla scrivania del funzionario, in minuti invece che in giorni.
-
-I due dubbi del funzionario:
-- Il dubbio prima della firma: "Devo emettere questo atto. Ho fatto del mio meglio. Ma sarà tutto giusto? Sto correndo rischi legali, economici, di responsabilità personale?"
-- Il dubbio sul controllo futuro: "E tra cinque anni, quando arriverà il controllo della Corte dei Conti? Riuscirò ancora a difendere questo provvedimento o emergerà un rilievo che oggi non vedo?"
+Il dubbio sul controllo futuro
 
 ## Il contesto dei piccoli Comuni
 
-Oltre il 70% dei Comuni italiani ha meno di 5.000 abitanti. In questi Enti un solo funzionario presidia spesso più materie, senza un ufficio legale interno; le consulenze esterne sono lente e raramente sostenibili sul singolo quesito, e il Segretario Comunale, spesso in convenzione tra più Enti, ha tempo limitato da dedicare alla singola pratica.
+Oltre il 70% dei Comuni italiani ha meno di 5.000 abitanti. In questi Enti un solo funzionario
+presidia spesso più materie, senza un ufficio legale interno; le consulenze esterne sono lente
+e raramente sostenibili sul singolo quesito, e il Segretario Comunale, spesso in convenzione
+tra più Enti, ha tempo limitato da dedicare alla singola pratica.
 
-- Tempi della consulenza: pareri esterni in giorni o settimane, quando la decisione deve essere presa oggi.
-- AI generaliste inaffidabili: gli assistenti AI di uso comune producono strutturalmente risposte plausibili ma, in modo casuale, giuridicamente errate, citando leggi, sentenze e articoli che non esistono o non sono più in vigore ("allucinazione").
-- Atti da sanare: determine, delibere e ordinanze già emesse che richiedono autotutela o sanatoria per vizi rilevati a posteriori.
-- Spostamenti di personale: il funzionario passa da un'area all'altra dell'Ente e si trova a presidiare materie nuove, senza una memoria organizzativa strutturata.
-- Tracciabilità della decisione: il funzionario deve poter giustificare a posteriori, anche in sede contenziosa, su quale base giuridica ha agito.
-- Segretario in convenzione: il tempo disponibile per ogni singola pratica è ridotto, e il funzionario può restare praticamente solo su scelte di merito di materie complesse.
+### Tempi della consulenza
 
-## Dalla prima definizione dell'obiettivo alla firma dei dispositivi conclusivi
+Pareri esterni in giorni o settimane, quando la decisione deve essere presa oggi. Per il singolo quesito il costo è raramente sostenibile.
 
-TTR-SUITE PA non si limita a scrivere atti. È una guida puntuale lungo tutto il percorso decisionale: accompagna il funzionario dal problema concreto fino alla sequenza completa degli atti da emettere, illumina le alternative con presupposti e conseguenze, prepara i draft e indica l'ordine di esecuzione.
+### AI generaliste inaffidabili
 
-1. Il problema, in linguaggio naturale: il funzionario porta il caso come gli si presenta, anche se non conosce la materia o l'ufficio competente. TTR-SUITE classifica il quesito e individua il nodo giuridico-procedimentale da sciogliere.
-2. Tutte le alternative praticabili, non solo la prima: la suite identifica tutte le opzioni legittime alla luce della normativa vigente (procedimento ordinario, procedure semplificate, autotutela, deroghe regolamentate, percorsi alternativi previsti dalla legge).
-3. Pro e contro esaustivi di ogni alternativa: presupposti necessari, vincoli applicabili, rischi prevedibili, oneri amministrativi e tempi attesi. Il funzionario riceve gli elementi per decidere in autonomia, non un suggerimento opaco.
-4. La struttura completa dell'intervento: la sequenza concreta degli atti da adottare, in ordine cronologico, atto per atto, con riferimento normativo puntuale, bozza del documento e adempimenti collegati (protocollo, pubblicazione, comunicazioni, ANAC).
-5. Rilettura Legale Adversariale (opzionale): per provvedimenti particolarmente delicati (rilevante impegno di bilancio, sanzioni o pre-contenzioso) una revisione adversariale dedicata aggiunge un ulteriore stress test al ragionamento, alla ricerca di buchi argomentativi, omissioni, scenari di rischio o punti deboli prima della firma.
-6. Revisore Corte dei Conti (opzionale): un revisore dedicato e indipendente emette un parere di criticità elencando tutti i rilievi eventualmente possibili da parte della Corte dei Conti, valutandone la probabilità reale e la gravità eventuale.
+Gli assistenti AI di uso comune producono strutturalmente risposte plausibili ma, in modo casuale, giuridicamente errate, citando leggi, sentenze e articoli specifici che non esistono o che non sono più in vigore ("allucinazione").
 
-Con TTR-SUITE PA il funzionario non resta mai solo con il suo problema davanti al corpus legislativo e alle prassi consolidate. Chi conosce la materia esegue più rapido, chi non la conosce è guidato passo per passo fino a un risultato amministrativamente solido.
+### Atti da sanare
 
-## La suite in azione: cosa fa, cosa arriva al funzionario
+Determine, delibere e ordinanze già emesse che richiedono autotutela o convalida per vizi rilevati a posteriori.
 
-- Consulenza preventiva: pareri strutturati con citazione di articoli, commi e lettere, applicazione al caso e appendice con estratti normativi letterali.
-- Affiancamento in itinere: discussione aperta con esplicitazione del ragionamento giuridico (prevalenza tra norme, casi-limite, alternative scartate). Utile per il funzionario che debba occuparsi di materie nuove.
-- Redazione di atti: bozze pronte per la rifinitura del funzionario in Markdown + DOCX editabile. Deliberazioni (Consiglio, Giunta), decreti, determinazioni, ordinanze, regolamenti, verbali, convenzioni, titoli edilizi (PdC, SCIA, CILA, CILAS), avvisi pubblici, capitolati, contratti e molte altre tipologie.
-- Verifica indipendente: ogni risposta, atto e revisione passa sempre attraverso almeno due agenti distinti, con controlli incrociati e analisi in tempo reale delle fonti normative (fonti, citazioni, coerenza, formato).
-- Rilettura Legale Adversariale (opzionale) e Revisore Corte dei Conti (opzionale), come sopra.
-- Fascicolo digitale: ogni sessione è una pratica. Cartelle organizzate (riferimenti normativi, atti istruttori, deliverable, note), metadati completi, hash SHA-256, audit trail. Il fascicolo chiuso può essere riletto in qualsiasi momento, rigenerando una sessione identica a quella che lo aveva prodotto.
-- Verifica autotutela: analisi ex-post di provvedimenti già emessi, individuazione di vizi, base normativa per sanatoria o annullamento in autotutela.
+### Spostamenti di personale
 
-Il deliverable: non una risposta generica, ma un parere o atto strutturato con fonti certificate e fascicolo pronto per il gestionale documentale del Comune. Ogni articolo, comma e lettera citato è verificato sulla normativa vigente da fonti istituzionali ufficiali (Normattiva, Gazzetta Ufficiale, ARAN, ISTAT, MEF, Funzione Pubblica, INPS). Zero errori sulle citazioni. Risposta strutturata: classificazione del caso, quadro normativo con citazioni puntuali, applicazione al caso concreto, fonti con link, appendice con estratti letterali della norma.
+Il funzionario passa da un'area all'altra dell'Ente e si trova a presidiare materie nuove, senza una memoria organizzativa strutturata che faciliti il passaggio.
+
+### Tracciabilità della decisione
+
+Il funzionario deve poter giustificare a posteriori, anche in sede contenziosa, su quale base giuridica ha agito.
+
+### Segretario in convenzione
+
+Il Segretario Comunale opera spesso in convenzione tra più Enti: il tempo disponibile per ogni singola pratica è ridotto, e il funzionario può restare praticamente solo su scelte di merito di materie complesse.
+
+## Essere guidati dalla prima definizione dell'obiettivo alla firma dei dispositivi conclusivi del procedimento
+
+TTR-SUITE non si limita a scrivere atti. È una guida puntuale lungo tutto il percorso decisionale:
+accompagna il funzionario dal problema concreto fino alla sequenza completa degli atti da emettere, illumina le alternative con presupposti e conseguenze, prepara i draft e indica l'ordine di esecuzione.
+
+1
+
+### Il problema, in linguaggio naturale
+
+Il funzionario porta il caso come gli si presenta, anche se non conosce la materia,
+anche se non sa quale ufficio sia competente. TTR-SUITE classifica il quesito
+e individua il nodo giuridico-procedimentale da sciogliere.
+
+2
+
+### Tutte le alternative praticabili, non solo la prima
+
+La suite non propone una sola strada: identifica tutte le opzioni legittime
+alla luce della normativa vigente, anche quelle che il funzionario non aveva considerato.
+Procedimento ordinario, procedure semplificate, autotutela, deroghe regolamentate,
+percorsi alternativi previsti dalla legge.
+
+3
+
+### Pro e contro esaustivi di ogni alternativa
+
+Per ciascuna opzione: presupposti necessari, vincoli applicabili, rischi prevedibili,
+oneri amministrativi e tempi attesi. Esposizione non sintetica ma esaustiva:
+il funzionario riceve gli elementi per decidere in autonomia, non un suggerimento opaco.
+
+4
+
+### La struttura completa dell'intervento
+
+Una volta scelta la strada, la suite redige la sequenza concreta degli atti
+da adottare: ordine cronologico, atto per atto, con riferimento normativo puntuale, bozza
+del documento e adempimenti collegati (protocollo, pubblicazione, comunicazioni, ANAC).
+Il funzionario ha davanti il percorso completo, dalla decisione alla firma.
+
+5
+
+Opzionale
+
+### Rilettura Legale Adversariale
+
+Per provvedimenti particolarmente delicati (rilevante impegno di bilancio, sanzioni
+o pre-contenzioso) può essere invocata una speciale revisione adversariale dedicata:
+aggiunge un ulteriore stress test al ragionamento, alla ricerca di buchi argomentativi,
+omissioni, scenari di rischio o altri punti deboli prima della firma. Nella maggior
+parte delle pratiche la verifica automatica già attiva di default è sufficiente.
+
+6
+
+Opzionale
+
+### Revisore Corte dei Conti
+
+Un revisore dedicato ed indipendente può essere invocato per emettere in modo dettagliato
+un parere di criticità elencando tutti i rilievi eventualmente possibili da parte della
+Corte dei Conti, valutandone anche la probabilità reale e la gravità eventuale. Non
+necessario, ma utile quando si desideri agire con "maggiore prudenza".
+
+Con TTR-SUITE il funzionario non resta mai solo con il suo problema davanti al corpus legislativo e alle prassi consolidate (che talvolta può anche non conoscere direttamente).
+Nessuno stress per essere sicuri di rispettare la normativa, chi conosce la materia
+esegue più rapido, chi non la conosce è guidato passo per passo fino a un risultato
+amministrativamente solido.
+
+I quattro passaggi operativi: dal quesito del funzionario, in linguaggio naturale, fino alla bozza dell'atto e al fascicolo digitale nel formato SInCRO.
+Veda una sessione reale
+
+## La suite in azione: cosa fa, cosa Le arriva
+
+TTR-SUITE lavora con il funzionario lungo l'intero arco di una pratica:
+dalla prima consulenza alla redazione degli atti, dalle verifiche di legittimità
+all'archiviazione digitale conforme. E quando serve, anche su atti già emessi.
+
+### Consulenza preventiva
+
+Pareri strutturati con citazione di articoli, commi e lettere, applicazione al caso e appendice con estratti normativi letterali.
+
+### Affiancamento in itinere
+
+Discussione aperta con esplicitazione del ragionamento giuridico: prevalenza tra norme, casi-limite, alternative scartate. Particolarmente utile per il funzionario che debba occuparsi di aree o materie nuove, fuori dalla sua esperienza pregressa.
+
+### Redazione di atti
+
+Bozze pronte per la rifinitura del funzionario in Markdown + DOCX editabile:
+- Deliberazioni (Consiglio, Giunta…)
+- Decreti, determinazioni, ordinanze
+- Regolamenti, verbali, convenzioni
+- Titoli edilizi (PdC, SCIA, CILA, CILAS)
+- Avvisi pubblici, capitolati, contratti
+- …e molte altre tipologie
+
+### Verifica indipendente
+
+Ogni risposta, ogni atto, ogni revisione passa sempre attraverso almeno due agenti distinti, che attuano controlli incrociati e analisi in tempo reale delle fonti normative per garantire verifiche indipendenti su fonti, citazioni, coerenza e formato.
+
+### Rilettura Legale Adversariale
+
+Per provvedimenti particolarmente delicati (rilevante impegno di bilancio, sanzioni o pre-contenzioso) può essere invocata una speciale revisione adversariale dedicata: aggiunge un ulteriore stress test al ragionamento, alla ricerca di buchi argomentativi, omissioni, scenari di rischio o altri punti deboli prima della firma. Nella maggior parte delle pratiche la verifica automatica già attiva di default è sufficiente.
+
+### Revisore Corte dei Conti
+
+Un revisore dedicato ed indipendente può essere invocato per emettere in modo dettagliato un parere di criticità elencando tutti i rilievi eventualmente possibili da parte della Corte dei Conti, valutandone anche la probabilità reale e la gravità eventuale. Non necessario, ma utile quando si desideri agire con "maggiore prudenza".
+
+### Fascicolo digitale
+
+Ogni sessione è una pratica: cartelle organizzate (riferimenti normativi, atti istruttori, deliverable, note), metadati completi, hash SHA-256, audit trail. Il fascicolo chiuso può essere riletto in qualsiasi momento, rigenerando una sessione identica a quella che lo aveva prodotto.
+
+### Biblioteca digitale dell'Ente
+
+Un atto ben riuscito entra nella Biblioteca dell'Ente con un clic del funzionario e diventa un modello da riusare. Con lo statuto e i regolamenti del Comune forma una biblioteca digitale che resta patrimonio dell'Ente, condivisa fra le postazioni senza un server, e che cresce con l'uso: nelle pratiche successive modelli e regolamenti vengono ritrovati e riutilizzati. Il lavoro fatto oggi rende più veloce quello di domani.
+
+### Verifica autotutela
+
+Analisi ex-post di provvedimenti già emessi: individuazione di vizi, base normativa per la convalida o per l'annullamento in autotutela, motivazione ricostruita con la solidità del controllo amministrativo-contabile.
+
+### Il deliverable che arriva al funzionario
+
+Non una risposta generica, ma un deliverable strutturato (parere o atto)
+con le fonti ufficiali citate e il fascicolo pronto per il gestionale documentale del Comune.
+
+### Fonti normative ufficiali
+
+Ogni articolo, comma e lettera citato è verificato sulla normativa vigente da fonti
+istituzionali ufficiali (Normattiva, Gazzetta Ufficiale, ARAN, ISTAT, MEF, Funzione Pubblica, INPS).
+
+### Risposta strutturata
+
+Classificazione del caso, quadro normativo con citazioni puntuali, applicazione al caso concreto,
+fonti con link, appendice con estratti letterali della norma.
 
 ## Esempi: domanda del funzionario, risposta di TTR-SUITE
 
-- Segreteria Generale: "Quando posso procedere con affidamento diretto senza gara per un servizio?" L'affidamento diretto è consentito sotto la soglia comunitaria ai sensi dell'art. 50 del D.Lgs. 36/2023 nei seguenti casi...
-- Personale / Risorse Umane: "Il dipendente può rifiutare le ferie assegnate d'ufficio dal Comune?" Solo nei seguenti casi...
-- Servizi Demografici: "Un cittadino extracomunitario con permesso di soggiorno può iscriversi all'anagrafe?" Sì, ai sensi dell'art. 6 del D.Lgs. 286/1998...
-- Ufficio Tecnico: "Sotto soglia comunitaria: posso usare procedura negoziata senza bando?" Ammessa ai sensi dell'art. 50 del D.Lgs. 36/2023, a condizione che...
-- Polizia Municipale: "Verbale notificato oltre i 90 giorni dall'accertamento: è nullo?" L'art. 201 del Codice della Strada fissa in 90 giorni il termine perentorio...
-- Ragioneria / Servizio Finanziario: "Termini di pagamento PA: cosa succede se il Comune paga in ritardo?" Il D.Lgs. 231/2002 (modificato dal D.Lgs. 192/2012) impone alla PA un termine di 30 giorni; oltre maturano interessi moratori al tasso BCE maggiorato di 8 punti...
-- Servizi Sociali: "Contributo straordinario: serve graduatoria o si procede per bisogno urgente?" Ammessa l'erogazione senza preventiva graduatoria, a condizione che...
-- Istruzione / Cultura: "Il patrocinio comunale è gratuito o implica contributo economico?" Il patrocinio è di norma adesione morale senza oneri economici; distinto è il contributo economico...
-- Tutte le aree (autotutela): "Qualche tempo fa abbiamo emesso questo provvedimento: era a posto? È ancora valido?" In questo caso conviene annullare l'atto e riemetterlo in conformità: dal 31 dicembre 2024, con il D.Lgs. 209/2024 (correttivo al Codice dei Contratti), sono cambiate le condizioni per gli affidamenti sotto soglia...
+Domanda posta dal funzionario in linguaggio naturale e un possibile esempio
+di risposta, sempre fornita di citazioni normative puntuali con applicazione
+specifica al caso concreto.
+
+Segreteria Generale
+
+Quando posso procedere con affidamento diretto senza gara per un servizio?
+
+L'affidamento diretto è consentito sotto la soglia comunitaria ai sensi dell'art. 50 del D.Lgs. 36/2023 nei seguenti casi…
+
+Personale · Risorse Umane
+
+Il dipendente può rifiutare le ferie assegnate d'ufficio dal Comune?
+
+Il dipendente può rifiutare le ferie assegnate d'ufficio solo nei seguenti casi…
+
+Servizi Demografici
+
+Un cittadino extracomunitario con permesso di soggiorno può iscriversi all'anagrafe?
+
+Sì, l'iscrizione anagrafica è dovuta al cittadino extracomunitario in possesso di permesso di soggiorno in corso di validità, ai sensi dell'art. 6 del D.Lgs. 286/1998…
+
+Ufficio Tecnico
+
+Sotto soglia comunitaria: posso usare procedura negoziata senza bando?
+
+La procedura negoziata senza pubblicazione del bando è ammessa sotto soglia ai sensi dell'art. 50 del D.Lgs. 36/2023, a condizione che…
+
+Polizia Locale
+
+Verbale notificato oltre i 90 giorni dall'accertamento: è nullo?
+
+L'art. 201 del Codice della Strada fissa in 90 giorni il termine perentorio per la notifica del verbale. Oltre tale termine il verbale è da considerarsi…
+
+Ragioneria · Servizio Finanziario
+
+Termini di pagamento PA: cosa succede se il Comune paga in ritardo?
+
+Il D.Lgs. 231/2002 (modificato dal D.Lgs. 192/2012) impone alla PA un termine di pagamento di 30 giorni; oltre tale termine maturano interessi moratori al tasso BCE maggiorato di 8 punti, oltre a…
+
+Servizi Sociali
+
+Contributo straordinario: serve graduatoria o si procede per bisogno urgente?
+
+L'erogazione di contributi in via straordinaria per bisogno urgente è ammessa senza preventiva graduatoria, a condizione che ricorrano…
+
+Istruzione · Cultura
+
+Il patrocinio comunale è gratuito o implica contributo economico?
+
+Il patrocinio comunale è di norma una forma di adesione morale e non implica oneri economici. Distinto è invece il contributo economico, che richiede…
+
+Tutte le aree
+
+Qualche tempo fa abbiamo emesso questo provvedimento: era a posto? È ancora valido? Ci sono profili di rischio o lacune che non avevamo considerato?
+
+No, in questo caso conviene annullare l'atto e riemetterlo in conformità alla normativa vigente: dal 31 dicembre 2024, con l'entrata in vigore del D.Lgs. 209/2024 (correttivo al Codice dei Contratti), sono cambiate le condizioni per gli affidamenti sotto soglia…
 
 ## Sotto al cofano: un'orchestra di specialisti
 
-TTR-SUITE per la PA Locale non è un chatbot AI generalista. È una squadra di agenti specializzati che collaborano, coordinati da ARBITER. Ogni agente è un'AI distinta, specializzata e addestrata per fornire supporto su una singola tematica precisa.
+TTR-SUITE non è un chatbot AI generalista,
+dove un'unica AI prova a rispondere a tutto. È una squadra di
+agenti specializzati che collaborano, coordinati da ARBITER.
+Ogni agente è un'AI distinta, specializzata e istruita per fornire
+supporto su una singola tematica precisa.
 
-43 intelligenze artificiali che collaborano al risultato: 24 agenti specialisti più 19 funzioni cognitive. Ventiquattro sono agenti: per ognuna delle otto aree del Comune un agente d'area e un revisore d'area, i revisori indipendenti di seconda battuta (Corte dei Conti, impugnabilità), l'anonimizzatore e il deanonimizzatore, il supporto generale e i coordinatori ARBITER e INTERPRES. Diciannove sono funzioni cognitive interne alla suite che lavorano fra un passaggio e l'altro: verifica delle citazioni articolo per comma contro le fonti ufficiali, controllo di copertura degli adempimenti d'area, coerenza delle note, classificazione del titolario, estrazione del corredo normativo, riconoscimento dei dati personali con un modello locale su CPU senza rete, più i controlli deterministici sulle fonti e sui referti.
+43
 
-- Coordinamento: ARBITER (classifica i quesiti e assegna gli agenti più competenti) e INTERPRES (interpreta la richiesta e fa emergere le competenze necessarie).
-- Otto aree tematiche: Segreteria Generale; Personale / Risorse Umane; Servizi Demografici; Ufficio Tecnico; Polizia Locale; Ragioneria / Finanziario; Servizi Sociali; Istruzione / Cultura.
-- Otto ruoli specialistici: presidio di area; presidio normativo; rilettura legale adversariale; legittimità Corte dei Conti; Fascicolo Informatico; documenti elettronici; supporto generale; gestione utente.
+Intelligenze artificiali che collaborano al risultato
+
+24 agenti specialisti + 19 funzioni cognitive
+
+Il sistema si basa su 43 diverse intelligenze artificiali che collaborano
+al risultato lungo l'intero ciclo di vita del deliverable. Ogni atto attraversa
+più agenti distinti, ciascuno con il proprio ruolo specifico, con verifiche
+indipendenti fra un passaggio e l'altro, ogni passaggio è tracciato.
+
+Ventiquattro sono agenti specialisti: per ognuna delle otto aree del Comune
+un agente d'area e un revisore d'area, i revisori indipendenti di seconda battuta
+(Corte dei Conti, impugnabilità), gli agenti che sostituiscono i dati personali con etichette e li ripristinano, il supporto
+generale e i coordinatori ARBITER e INTERPRES.
+
+Diciannove sono funzioni cognitive interne alla suite che lavorano fra un
+passaggio e l'altro: verifica delle citazioni articolo per comma contro le fonti ufficiali,
+controllo di copertura degli adempimenti d'area, coerenza delle note, classificazione del
+titolario, estrazione del corredo normativo, riconoscimento dei dati personali con un
+modello locale su CPU senza rete, più i controlli deterministici sulle fonti e sui referti.
+
+### Coordinamento agenti
+
+ARBITER
+
+Classifica i quesiti e si assicura che, in ogni momento, le risposte vengano generate dagli agenti più competenti.
+
+INTERPRES
+
+Interpreta approfonditamente la richiesta dell'utente e fa emergere le competenze necessarie a rispondere.
+
+### Otto aree tematiche
+- Segreteria Generale
+- Personale · Risorse Umane
+- Servizi Demografici
+- Ufficio Tecnico
+- Polizia Locale
+- Ragioneria · Finanziario
+- Servizi Sociali
+- Istruzione · Cultura
+
+### Otto ruoli specialistici
+- Presidio di area
+- Presidio normativo
+- Rilettura legale adversariale
+- Legittimità Corte dei Conti
+- Fascicolo Informatico
+- Documenti elettronici
+- Supporto generale
+- Gestione utente
 
 ## Costruita con il rigore richiesto dalla Corte dei Conti
 
-- Citazione puntuale obbligatoria: articolo, comma, lettera. Mai parafrasi vaghe né riferimenti generici.
-- Estratti normativi letterali in appendice: testo integrale delle norme applicate, depositato nel fascicolo.
-- Tracciabilità del ragionamento: presupposti dichiarati, scelta discrezionale motivata, alternative scartate e ragioni dello scarto. La decisione è ricostruibile ex-post, a distanza di anni.
-- Rilettura Legale Adversariale per atti ad alto rischio e Revisore Corte dei Conti (opzionali).
-- Workspace fascicolare ispezionabile: copia fisica di ogni fonte consultata, hash SHA-256, manifest XML. Il fascicolo è ricaricabile in qualsiasi momento, anche a distanza di anni.
+Ogni atto, ogni parere, ogni motivazione è prodotto con il livello di rigore documentale
+e argomentativo che il controllo amministrativo-contabile pretende. Il funzionario firma
+sapendo di aver costruito un provvedimento solido e difendibile in concreto.
 
-## Conformità AI Act e GDPR by design
+### Citazione puntuale obbligatoria
 
-Nata dopo l'entrata in vigore del Regolamento UE 2024/1689 (AI Act), TTR-SUITE è progettata fin dall'origine per essere conforme. Pronta per le procedure di acquisto della Pubblica Amministrazione e allineata alle bozze di Linee Guida AgID per lo sviluppo e il procurement di IA nella PA (adottate con Det. 43/2026, consultazione pubblica conclusa l'11 aprile 2026, iter di adozione in corso).
+Articolo, comma, lettera. Mai parafrasi vaghe né riferimenti generici. Ogni passaggio normativo è verificabile alla fonte.
 
-AI Act, rischio limitato (art. 50):
+### Estratti normativi letterali in appendice
+
+Testo integrale delle norme applicate e citate, depositato nel fascicolo, pronto per allegare l'istruttoria alla pratica senza riaprire le banche dati.
+
+### Tracciabilità del ragionamento
+
+Presupposti dichiarati, scelta discrezionale motivata, alternative scartate e ragioni dello scarto. La decisione è ricostruibile ex-post, a distanza di anni.
+
+### Rilettura Legale Adversariale per atti ad alto rischio
+
+Per provvedimenti particolarmente delicati (rilevante impegno di bilancio, sanzioni o pre-contenzioso) può essere invocata una speciale revisione adversariale dedicata: aggiunge un ulteriore stress test al ragionamento, alla ricerca di buchi argomentativi, omissioni, scenari di rischio o altri punti deboli prima della firma. Nella maggior parte delle pratiche la verifica automatica già attiva di default è sufficiente.
+
+### Revisore Corte dei Conti
+
+Un revisore dedicato ed indipendente può essere invocato per emettere in modo dettagliato un parere di criticità elencando tutti i rilievi eventualmente possibili da parte della Corte dei Conti, valutandone anche la probabilità reale e la gravità eventuale. Non necessario, ma utile quando si desideri agire con "maggiore prudenza".
+
+### Workspace fascicolare ispezionabile
+
+Copia fisica di ogni fonte consultata, hash SHA-256, manifest XML: non bisogna fidarsi, si controlla. Il fascicolo è ricaricabile in qualsiasi momento per condurre ulteriori analisi o approfondimenti, senza soluzione di continuità, anche a distanza di anni.
+
+## AI Act e GDPR
+
+Nata dopo l'entrata in vigore del Regolamento UE 2024/1689 (AI Act),
+TTR-SUITE è stata progettata fin dall'origine tenendo conto dei suoi obblighi. Pronta per le procedure
+di acquisto della Pubblica Amministrazione e allineata alle bozze di Linee Guida AgID
+per lo sviluppo e il procurement di IA nella PA (adottate con Det. 43/2026,
+consultazione pubblica conclusa l'11 aprile 2026, iter di adozione in corso).
+
+AI Act
+
+### Rischio limitato (art. 50)
 - Sistema di supporto consultivo: non assume decisioni vincolanti, non sostituisce la firma del funzionario
 - Informativa AI Act in dashboard e disclaimer in ogni deliverable
 - Documentazione tecnica completa e versionamento dei prompt
 - Validazione anti-prompt-injection e temperatura controllata
 
-Human-in-the-loop e trasparenza:
+Human-in-the-loop & Trasparenza
+
+### Supervisione umana e verificabilità delle fonti
 - Il sistema non modifica documenti, non invia comunicazioni, non protocolla in autonomia: il funzionario resta unico responsabile e mantiene editing completo
 - Ragionamento sempre visibile, output etichettato come AI-generated, logging delle decisioni umane (accettazione, modifica, scarto)
 - Ogni affermazione accompagnata dal riferimento puntuale ad articoli, commi e lettere + appendice con estratti letterali della norma vigente
 - Audit JSON di sessione con tracciamento completo del ragionamento; capacità e limitazioni dichiarate esplicitamente all'utente
 
-GDPR, protezione dei dati:
+GDPR
+
+### Protezione dei dati
 - Zero Data Retention contrattualizzata con il provider AI: cancellazione immediata a risposta trasmessa
 - Storage esclusivamente locale sul PC del funzionario, area riservata SO + binding hardware
 - Nessun log di analisi sui server Aviolab (server usati solo per validazione licenza)
-- Comunicazioni cifrate TLS 1.3, DPA disponibile in fase di contratto
+- Comunicazioni cifrate TLS 1.3, DPA scaricabile da questa pagina
+- Sessioni, fascicoli, allegati e fonti scaricate restano sulle macchine dell'Ente, cifrati
 
-Documentazione di compliance consegnata al cliente: Data Processing Addendum (DPA), Classificazione del Rischio AI Act, Scheda Tecnica del Sistema AI, Informativa Trasparenza AI Act, indice documentazione.
+### Documentazione di compliance consegnata al cliente
+
+Data Processing Addendum (DPA)
+Classificazione del Rischio AI Act
+Scheda Tecnica del Sistema AI
+Informativa Trasparenza AI Act
+Indice documentazione
 
 ## Modello di installazione
 
-On-premise sul PC del funzionario, licensing centralizzato. Compatibile con le procedure di acquisto della Pubblica Amministrazione.
-- Installazione: locale sul PC dell'Ente o sulla sua infrastruttura. Nessun dato sensibile transita sui server Aviolab. Aggiornamenti automatici e gratuiti.
-- Elaborazione AI: inferenza remota con Zero Data Retention contrattualizzata, i contenuti non vengono conservati dal provider AI dopo la risposta, trasporto cifrato. Dettagli nel DPA.
-- Licensing: validazione centralizzata, completamente criptata e localizzata. Nessuno può usare altrove la licenza attivata sul PC del funzionario.
-- Estensioni d'uso: utilizzabile senza modifiche da Comuni fino a 100.000 abitanti, Unioni di Comuni, Comunità Montane, Province, Città Metropolitane.
-- Compatibile con procedure CIG/CUP e acquisto pubblico. Conforme GDPR e AI Act.
+On-premise sul PC del funzionario, licensing centralizzato.
+Compatibile con le procedure di acquisto della Pubblica Amministrazione.
 
-## Documentazione e certificazioni (PA Locale)
+### Installazione
 
-Documenti pubblici scaricabili direttamente dal sito:
-- Brochure TTR-SUITE per la PA Locale: https://aviolab.ai/assets/downloads/ttr-suite-pa-brochure.pdf
-- Scheda comparativa AGID (PDF firmato digitalmente): https://aviolab.ai/assets/downloads/ttr-suite-pa-scheda-agid.pdf
-- Classificazione del rischio AI Act (PDF firmato): https://aviolab.ai/assets/downloads/ttr-suite-classificazione-rischio-ai-act.pdf
-- Informativa di Trasparenza AI Act (PDF firmato): https://aviolab.ai/assets/downloads/ttr-suite-informativa-trasparenza-ai-act.pdf
-- DPA Zero Data Retention GDPR (PDF firmato): https://aviolab.ai/assets/downloads/ttr-suite-dpa-zdr-gdpr.pdf
-- Scheda Tecnica del Sistema AI (PDF firmato): https://aviolab.ai/assets/downloads/ttr-suite-scheda-tecnica.pdf
+Locale sul PC dell'Ente o sulla sua infrastruttura. Nessun dato sensibile transita sui server Aviolab. Aggiornamenti automatici e gratuiti.
 
-Demo: Aviolab organizza senza impegno una demo concreta su un caso reale dell'Ente, mostrando come TTR-SUITE risponde, cita le fonti, redige l'atto e prepara il fascicolo digitale conforme.
+### Elaborazione AI
+
+Inferenza remota con Zero Data Retention contrattualizzata: i contenuti non vengono conservati dal provider AI dopo la risposta. Trasporto cifrato. Dettagli nel DPA pubblicato più in basso.
+
+### Licensing
+
+Validazione centralizzata, completamente criptata e localizzata. Nessuno può usare altrove la licenza attivata sul PC del funzionario.
+
+### Estensioni d'uso
+
+Utilizzabile senza modifiche da Comuni fino a 100.000 abitanti, Unioni di Comuni, Comunità Montane, Province, Città Metropolitane.
+
+Compatibile con procedure CIG/CUP e acquisto pubblico.
+
+Sta cercando la versione per studi legali e dipartimenti IP?
+Visiti la pagina dedicata a TTR-SUITE IP Legal,
+la nostra suite per l'analisi di NDA, contratti e proprietà intellettuale.
+
+## Documentazione e certificazioni
+
+Documenti pubblici di TTR-SUITE, scaricabili direttamente dal sito.
+
+### Brochure di TTR-SUITE
+
+Sintesi commerciale del prodotto: capability, casi d'uso, modello di installazione e licensing.
+
+PDF · 1 MB
+
+### Scheda comparativa
+
+Scheda comparativa a supporto dell'infungibilità (Linee guida AgID in via di adozione). Documento PDF firmato digitalmente.
+
+PDF firmato · 291 KB
+
+### Classificazione del rischio AI Act
+
+Analisi formale di classificazione del sistema ai sensi del Regolamento UE 2024/1689: verifica art. 5, art. 6/Allegato III, classificazione finale a Rischio Limitato (art. 50).
+
+PDF firmato · 354 KB
+
+### Informativa di Trasparenza AI Act
+
+Informativa per gli utenti finali ai sensi dell'art. 50 AI Act: come funziona l'AI, capacità, limitazioni, ruolo dell'operatore umano, regole d'uso.
+
+PDF firmato · 342 KB
+
+### DPA Zero Data Retention (GDPR)
+
+Data Processing Addendum con architettura Zero Data Retention: ruoli GDPR, flussi dati, cifratura, Provider di Inferenza, trasferimenti extra-UE, gestione data breach.
+
+PDF firmato · 332 KB
+
+### Scheda Tecnica del Sistema AI
+
+Documentazione tecnica ai sensi dell'art. 50 AI Act: architettura, modello AI, sicurezza, capacità (~95% accuratezza, 1200 pagine), limitazioni, human oversight.
+
+PDF firmato · 354 KB
+
+## Vuole vederla in azione nel Suo Comune?
+
+Organizziamo senza impegno una prima prova in videoconferenza, su un caso
+reale del Suo Ente: vedrà come TTR-SUITE risponde, cita le fonti, redige la bozza
+dell'atto e prepara il fascicolo digitale.
+Nel frattempo, può vedere una sessione reale in pochi screenshot.
+Il nostro caso zero è pubblico:
+legga i comunicati e la rassegna stampa.
+
+Veda TTR-SUITE in azione
+Chieda una prova gratuita
 
 ---
 
-# TTR-SUITE per la PA Locale, in azione
-URL: https://aviolab.ai/pa-locale-in-azione.html (pagina in italiano)
+# Che cos'è TTR-SUITE
+URL: https://aviolab.ai/che-cos-e-ttr-suite.html
 
-Dal quesito del funzionario alla bozza dell'atto, dalla verifica indipendente al fascicolo digitale conforme SInCRO. Quattro passaggi, una sessione reale, tempi e citazioni effettivi.
+Che cos'è TTR-SUITE
 
-## 1. Il quesito del funzionario e l'analisi strutturata
+Una spiegazione in linguaggio piano, per chi deve capire in pochi minuti di cosa si tratta
+e decidere se vale la pena vederla al lavoro. Il prodotto è TTR-SUITE PA Locale,
+l'assistente giuridico e amministrativo da scrivania per i Comuni sotto i 5.000 abitanti.
 
-Caso: refezione scolastica, proroga tecnica del contratto in scadenza. Il funzionario allega i documenti utili, descrive il contesto in linguaggio naturale e formula il quesito in chat: "Possiamo prorogare per 6 mesi il contratto di refezione scolastica al gestore uscente, in attesa della nuova gara? Quali condizioni cumulative dobbiamo rispettare e quali atti adottare?"
+## Di cosa si tratta
 
-L'agente specialista di area classifica il caso (proroga tecnica), individua il quadro normativo applicabile (art. 120 co. 11 D.Lgs. 36/2023, Codice dei Contratti Pubblici) e verifica una per una le 6 condizioni cumulative di legittimità, segnalando il punto critico (la condizione che richiede di motivare espressamente l'impedimento al completamento della stazione appaltante). La risposta è un'istruttoria, non un'opinione: classificazione del caso, citazioni puntuali (articolo, comma, lettera), tabella condizioni con esiti, valutazione complessiva.
+TTR-SUITE è un assistente giuridico e amministrativo da scrivania, pensato per i Comuni
+sotto i 5.000 abitanti e costruito attorno agli atti amministrativi e a ciò che li accompagna:
+determine, delibere, ordinanze, pareri, procedure di esecuzione.
 
-Dati della sessione: 1'45" tempo di generazione del parere; 6 su 6 condizioni di legittimità verificate puntualmente; riferimento normativo principale art. 120 co. 11.
+Si installa sulla postazione del funzionario e lavora con lui: risponde ai quesiti sulla norma vigente
+citando articoli e commi, redige la bozza dell'atto, la sottopone a una revisione indipendente e prepara
+il fascicolo. Il funzionario resta l'unico responsabile della decisione e della firma.
 
-## 2. La verifica indipendente, su richiesta del funzionario
+## Com'è fatta: gli agenti
 
-"Verificami questa risposta": un secondo agente, revisore indipendente, recupera il testo letterale dell'art. 120 co. 11 da Normattiva (vigente alla data della sessione), lo confronta voce per voce con la risposta precedente, segnala eventuali imprecisioni e chiude con un esito di conformità per ciascuna sezione esaminata. Nella sessione mostrata il revisore conferma: riscontro completo sul riferimento normativo principale, sulla distinzione tra comma 10 (proroga contrattuale) e comma 11 (proroga tecnica), sulla natura auto-esecutiva della proroga tecnica e sulla giurisprudenza citata (TAR e Consiglio di Stato).
+È fatta di «agenti», cioè configurazioni di intelligenza artificiale distinte e indipendenti, ciascuna con
+un mandato preciso, una base normativa propria e regole su ciò che può e non può fare. Non sono programmi
+separati: sono configurazioni diverse dello stesso sistema, istruite a operare come consulenti dedicati
+a una materia di competenza comunale.
 
-Dati: 3'42" tempo di esecuzione della verifica; 5'27" tempo totale della sessione (parere + verifica); fonte istituzionale: Normattiva.
+Il cuore è un gruppo di agenti specialisti di funzione amministrativa. Per ciascuna delle otto aree del
+Comune c'è almeno un agente che redige e uno che revisiona:
+- Segreteria
+- Personale
+- Ragioneria
+- Ufficio Tecnico
+- Servizi Demografici
+- Servizi Sociali
+- Istruzione e Cultura
+- Polizia Locale
 
-## 3. La bozza dell'atto, pronta per la firma
+A questi si aggiungono revisori indipendenti di seconda battuta, fra cui uno orientato al controllo
+contabile della Corte dei Conti e uno al rischio di impugnazione.
 
-Dalla stessa pratica, l'agente produce in circa 3 minuti la bozza di Determinazione del Responsabile del Servizio: intestazione, oggetto, VISTI, RICHIAMATI, premesse, richiamo normativo puntuale, parte dispositiva, impegno di spesa, allegati e predisposizione al protocollo. Campi compilati dove determinabili e placeholder evidenziati dove serve un completamento manuale del funzionario (nomi, codici, importi). Formati di esportazione: DOCX, Markdown, PDF. Il funzionario resta unico responsabile della firma.
+Attorno al cuore lavorano alcuni agenti di supporto, che smistano le richieste e pseudonimizzano i
+documenti da portare fuori dal sistema, insieme a una serie di funzioni di controllo. Alcune di queste
+si appoggiano a un modello linguistico, altre sono cognitive e deterministiche, cioè codice che a parità
+di dati dà sempre la stessa risposta: la Suite le combina per arrivare al risultato.
 
-## 4. Dalla sessione al fascicolo digitale
+43
 
-Alla chiusura della sessione il funzionario può estrarre l'intero fascicolo informatico della pratica come pacchetto SInCRO conforme allo standard UNI 11386 (art. 41 CAD), pronto per essere importato nel gestionale documentale del Comune. La configurazione (codice IPA, AOO, gestionale, titolario di classificazione) si fa una sola volta per Ente; l'estrazione di ogni pratica richiede pochi campi (numero pratica, protocollo, codice titolario, responsabile, note) e un click. A distanza di anni si può reimportare il fascicolo nella suite, rigenerare la sessione e ripartire da dove era stata interrotta, oppure estrarre dati a supporto di un eventuale rilievo o contenzioso.
+In tutto sono 43 intelligenze artificiali:
+24 agenti specialisti e 19 funzioni cognitive.
+Il dettaglio degli agenti e delle funzioni è nella pagina del prodotto.
 
-Contenuto del pacchetto SInCRO estratto:
+## Un prodotto standard
+
+Si installa sulla postazione del funzionario, non richiede progetti di integrazione con il gestionale e
+riceve gli aggiornamenti del software e degli agenti dal nostro canale di distribuzione.
+
+I dati di lavoro restano sulla macchina dell'Ente: a noi non arriva nulla, a parte il collegamento che
+il funzionario stesso apre quando chiede assistenza. L'assistenza remota è infatti integrata: su chiamata
+del funzionario il nostro tecnico si collega e, se il funzionario lo abilita, opera sulla postazione come
+se fosse presente, senza software di terze parti.
+
+L'installazione si fa da remoto: si scarica l'applicativo
+dall'area download del sito e si chiede l'attivazione.
+
+Il fascicolo informatico di ogni pratica si esporta in formato standard (UNI 11386, SInCRO), quindi è
+protocollabile e archiviabile nel gestionale che l'Ente già usa.
+
+## La localizzazione sull'Ente
+
+È prevista una personalizzazione alla prima messa in servizio, in un passo di localizzazione in cui si
+registrano l'Ente e i suoi dati IPA, la popolazione, gli attributi del territorio (zona sismica, zona
+climatica, vincoli paesaggistici e idrogeologici, carattere montano, costiero o turistico), gli uffici
+e i loro responsabili. La procedura è condotta da un agente apposito, che chiede conferma a chi installa
+prima di salvare i dati raccolti. Da quel momento ogni risposta è riferita a quel Comune e non a un
+Comune generico.
+
+La normativa regionale segue il territorio dell'Ente: oggi la Suite lavora con quella della Liguria e
+della Lombardia, e quella del Piemonte è prevista entro la fine del 2026.
+
+## GDPR e AI Act
+
+La documentazione di conformità è pubblica e la teniamo aggiornata nell'area download del sito:
+scheda tecnica del sistema, classificazione del rischio e informativa di trasparenza ai sensi
+dell'AI Act, DPA con Zero Data Retention ai sensi del GDPR.
+
+Documentazione GDPR e AI Act
+
+## Una cosa che conta parecchio: è molto facile da usare
+
+Sotto il cofano c'è parecchia tecnologia, ma a chi lavora bastano davvero poche nozioni per sfruttare a
+fondo il novanta per cento delle funzioni. Le guide rapide sono quattro, una pagina A4 ciascuna, poche voci
+da leggere: con le prime due accanto al monitor si è subito operativi, senza corsi sullo strumento.
+
+La terza guida riguarda solo la pseudonimizzazione. Dentro la Suite non serve, perché il contratto con
+il fornitore di inferenza prevede la cancellazione dei dati a risposta trasmessa e il trasporto è cifrato;
+torna utile se per qualche motivo si vuole portare un documento in uno strumento di IA esterno.
+Capita poco, ma capita.
+
+La quarta guida riguarda la Biblioteca dell'Ente: lo statuto e i regolamenti da citare, i modelli di
+atto da riusare e gli atti dell'ufficio da tenere a portata di mano. Tutto resta nel Comune; lo statuto,
+i regolamenti e i modelli di atto sono condivisi fra le postazioni senza un server. Gli agenti la
+consultano da soli quando redigono.
+
+### Guida rapida 1
+
+I primi passi: una sessione per ogni pratica, la richiesta scritta in italiano corrente, gli allegati, l'esportazione dell'atto in Word.
+
+PDF, una pagina A4
+
+### Guida rapida 2
+
+Un passo avanti: i revisori Corte dei Conti e Impugnabilità, la lettura di un'intera cartella dell'ufficio, il Fascicolo Informatico SInCRO, la richiesta di assistenza.
+
+PDF, una pagina A4
+
+### Guida rapida 3
+
+Portare in uno strumento di IA esterno un documento con dati personali: la Suite li sostituisce con segnaposto sul computer dell'Ente e li rimette da sola quando il testo torna.
+
+PDF, una pagina A4
+
+### Guida rapida 4
+
+La Biblioteca dell'Ente: regolamenti da citare e modelli di atto da riusare, condivisi fra le postazioni del Comune; atti dell'ufficio a portata di mano. Gli agenti la consultano da soli e ricontrollano le norme a ogni riuso.
+
+PDF, una pagina A4
+
+## Dove trovare le informazioni
+- La pagina Dicono di noi, con la rassegna stampa; la aggiorniamo man mano che escono nuovi articoli.
+- Una sessione di lavoro reale, in screenshot commentati: TTR-SUITE in azione. Risale a qualche versione fa, ma dà bene l'idea.
+- La pagina del prodotto, con il catalogo degli agenti, gli esempi di domanda e risposta e la documentazione.
+- La scheda comparativa a supporto dell'infungibilità (Linee guida AgID in via di adozione).
+
+## Come vederla al lavoro
+
+Bastano 45-60 minuti in videoconferenza su un caso scelto dal Suo Ente, anche ipotetico, anche senza
+comunicarcelo prima. Vedrà come il sistema ragiona, quali fonti cita, dove si ferma e cosa chiede al
+funzionario. È il modo più onesto che abbiamo per far capire cosa fa.
+
+Proponga un caso e due o tre finestre
+
+## Il nostro caso zero: il Comune di Pieve Ligure
+
+Il Comune di Pieve Ligure, nella Città metropolitana di Genova, ha adottato la Suite «dopo una
+sperimentazione conclusa con esito positivo» condotta in Segreteria Generale, Polizia Locale e Ufficio
+Tecnico, e ne ha esteso l'uso «a tutti gli altri servizi comunali, nell'ambito delle risorse ordinarie
+di bilancio».
+
+«I responsabili dei servizi hanno provato il sistema sul campo e sono stati loro a chiederci di
+mantenerlo stabilmente in dotazione agli uffici.»
+Paola Negro, Sindaca di Pieve Ligure, comunicato del 1° settembre 2026
+
+Sulle pratiche complesse il tempo restituito fra istruttoria, ricerca delle fonti e revisione si misura
+in ore per pratica, non in minuti; stiamo formalizzando le misure con gli uffici per tipologia di atto.
+La revisione indipendente serve proprio a far emergere, prima della firma, ciò che altrimenti finirebbe
+nell'atto. Nella prima prova raccontiamo volentieri i casi concreti, numeri compresi.
+
+I comunicati del Comune, il suo film e la rassegna stampa sono nella pagina
+Dicono di noi.
+
+## La memoria dell'Ente: la Biblioteca
+
+Dall'autunno 2026 la Suite ha anche la memoria dell'Ente: la Biblioteca dell'Ente, in tre parti.
+
+La prima è la raccolta dei modelli di atto. Quando un atto è ben riuscito, il funzionario lo aggiunge alla
+Biblioteca con un clic e i dati del caso diventano segnaposto. I modelli restano nel Comune, sono condivisi
+fra le postazioni e a ogni riuso vengono sottoposti alla verifica normativa, così, se nel frattempo una norma
+è cambiata, lo si vede subito.
+
+La seconda è l'archivio dello statuto e dei regolamenti comunali: ogni postazione carica quelli che ha a
+disposizione e li mette in comune con le altre, così la redazione e la revisione tengono conto di tutti
+quelli caricati nell'Ente. In un Comune piccolo, dove nessun ufficio ha tutto sotto mano, è questa la parte
+che fa la differenza fra un atto scritto bene e un atto scritto bene per quel Comune.
+
+La terza è il cassetto dell'ufficio: gli atti puntuali, con i dati reali del caso, che restano sulla
+postazione che li ha aggiunti e non vengono mai condivisi.
+
+Le postazioni si scambiano modelli e regolamenti automaticamente, sulla rete del Comune, senza un server e
+senza interventi: basta attivare la Biblioteca una volta per postazione. Il Segretario comunale, se vuole,
+può esercitare poteri di indirizzo sull'uso degli elementi della Biblioteca. Come si attiva e come si usa è
+spiegato nella Guida rapida 4 e nel filmato di cinque minuti,
+entrambi nell'area Download.
+
+## Sui costi
+
+È un prodotto: il prezzo è un listino, non un preventivo. Il criterio è un canone di servizio annuo per
+l'intero Ente, non per postazione, proporzionato alla dimensione reale dell'Ente e comprensivo di
+aggiornamenti e assistenza. Per natura è un servizio di supporto giuridico-amministrativo più che una
+licenza software. Nei Comuni fino a 5.000 abitanti è dello stesso ordine di grandezza del compenso annuo del revisore dei conti, e resta comunque sotto quanto un Comune normalmente spende ogni anno per la convenzione software del proprio gestionale.
+
+Si ripaga con le ore restituite agli uffici, misurate sulle pratiche vere, con gli errori che non
+arrivano più all'atto e con il minor ricorso a consulenze esterne. Le condizioni si comunicano su
+richiesta, di norma a valle della prima prova. Per le realtà che servono più Comuni, come Unioni, consorzi
+e società in house, la struttura del listino si definisce insieme, su basi adatte a una realtà aggregata.
+
+## Il passo dopo, se la prima prova La convince
+
+Un'installazione di prova di due o tre settimane: fino a
+tre funzionari scelti dall'Ente, pratiche scelte dall'Ente, costi di inferenza a nostro carico, a titolo
+gratuito e senza procedura di affidamento. Bastano una lettera di accettazione e la nomina a responsabile
+del trattamento ai sensi dell'art. 28 GDPR, che prepariamo noi.
+
+Riccardo Parenti
+Fondatore e responsabile tecnico, Aviolab AI
+r.parenti@aviolab.ai · +39 335 605 0950
+
+## Scelga un caso, il resto lo facciamo noi
+
+Una prima prova di 45-60 minuti in videoconferenza, su una pratica del Suo Ente, senza impegno.
+Ci indichi due o tre finestre possibili.
+
+Chieda una prova gratuita
+Veda TTR-SUITE in azione
+
+---
+
+# TTR-SUITE in azione
+URL: https://aviolab.ai/pa-locale-in-azione.html
+
+Una sessione reale
+
+TTR-SUITE in azione
+
+Dal quesito del funzionario alla bozza dell'atto, dalla verifica indipendente
+al fascicolo digitale conforme SInCRO. Quattro passaggi, una sessione reale,
+tempi e citazioni effettivi.
+
+Torna alla pagina del prodotto
+
+01
+
+## Il quesito del funzionario e l'analisi strutturata
+
+Refezione scolastica · proroga tecnica del contratto in scadenza
+
+Il funzionario allega i documenti utili per inquadrare la pratica, descrive il
+contesto in linguaggio naturale e formula il quesito direttamente in chat.
+
+Possiamo prorogare per 6 mesi il contratto di refezione scolastica al gestore uscente,
+in attesa della nuova gara? Quali condizioni cumulative dobbiamo rispettare e quali
+atti adottare?
+
+L'agente specialista di area classifica il caso (proroga tecnica del contratto
+di refezione scolastica), individua il quadro normativo applicabile
+(art. 120 co. 11 D.Lgs. 36/2023, Codice dei Contratti Pubblici),
+e attraverso una tabella verifica una per una le 6 condizioni cumulative di
+legittimità, segnalando con un esito puntuale (✓ verificata, ⚠️ da
+documentare) il punto critico, in questo caso la condizione B che richiede di
+motivare espressamente l'impedimento al completamento della stazione appaltante.
+
+La risposta è un'istruttoria, non un'opinione: classificazione del caso, citazioni
+puntuali (articolo, comma, lettera), tabella condizioni con esiti, valutazione complessiva.
+
+1′ 45″
+
+Tempo di generazione del parere
+
+6 su 6
+
+Condizioni di legittimità verificate puntualmente
+
+Art. 120 co. 11
+
+Riferimento normativo principale citato
+
+02
+
+## La verifica indipendente
+
+«Verificami questa risposta» · un secondo agente recupera il testo letterale dalla fonte istituzionale
+
+Il secondo controllo indipendente fa parte del processo; qui il funzionario
+lo richiama anche espressamente. Un revisore indipendente recupera il testo letterale
+dell' art. 120 co. 11 da Normattiva (vigente alla data della sessione),
+lo confronta voce per voce con la risposta precedente, segnala eventuali imprecisioni
+e chiude con un esito di conformità per ciascuna sezione esaminata.
+
+Nella sessione mostrata il revisore conferma: RISCONTRO COMPLETO sul
+riferimento normativo principale, sulla distinzione tra comma 10 (proroga contrattuale)
+e comma 11 (proroga tecnica), sulla natura «auto-esecutiva» della proroga tecnica, e
+sulla giurisprudenza citata (TAR e Consiglio di Stato).
+
+Il revisore mostra il testo letterale della norma, lo confronta voce
+per voce con la risposta e chiude con un esito puntuale per ogni sezione esaminata.
+
+3′ 42″
+
+Tempo di esecuzione della verifica
+
+5′ 27″
+
+Tempo totale della sessione (parere + verifica)
+
+Normattiva
+
+Fonte istituzionale del testo letterale
+
+03
+
+## La bozza dell'atto
+
+Determinazione del Responsabile del Servizio · intestazione, VISTI, RICHIAMATI, premesse, dispositivo, impegno di spesa
+
+Oltre alla consulenza, l'agente specialista redige direttamente la bozza
+dell'atto richiesto. Determinazioni, deliberazioni, ordinanze, verbali,
+regolamenti: la bozza arriva completa di intestazione, oggetto, premesse, richiamo
+normativo puntuale, parte dispositiva, allegati e predisposizione al protocollo.
+
+Nella sessione mostrata, dalla stessa pratica di refezione scolastica, l'agente
+produce in altri 3 minuti circa la bozza di Determinazione del
+Responsabile del Servizio, già strutturata con i campi compilati dove
+determinabili e placeholder evidenziati dove serve un completamento
+manuale del funzionario (nomi, codici, importi). La bozza è prodotta in
+MS Word, Markdown o PDF, pronta da rivedere e firmare.
+
+La struttura tipica di una determinazione comunale, compilata dove possibile e
+contrassegnata con placeholder evidenziati dove serve il completamento del funzionario.
+
+~3 min
+
+Tempo di redazione della bozza di atto
+
+DOCX · MD · PDF
+
+Formati di esportazione dell'atto
+
+Editabile
+
+Il funzionario resta unico responsabile della firma
+
+04
+
+## Dalla sessione al fascicolo digitale
+
+Pacchetto SInCRO conforme UNI 11386 · art. 41 CAD · integrabile direttamente nel gestionale comunale
+
+Quando la sessione si chiude, il funzionario può estrarre l'intero fascicolo
+informatico della pratica come pacchetto SInCRO conforme allo standard
+UNI 11386, pronto per essere importato nel gestionale documentale del
+Comune. La configurazione si fa una sola volta per Ente;
+l'estrazione di ogni singola pratica richiede pochi campi e un clic.
+
+Il vantaggio strutturale: a distanza di anni si può reimportare
+il fascicolo informatico nella suite, rigenerare la sessione e ripartire da dove
+era stata interrotta, oppure estrarre dati a supporto di un eventuale rilievo o
+contenzioso.
+
+Configurazione provider e titolario
+Una sola volta per Ente · codice IPA, AOO, gestionale, titolario di classificazione
+
+Per ogni pratica, classificazione di titolario
+Numero pratica, protocollo, codice titolario, responsabile, note · un clic ed esce il pacchetto SInCRO
+
+### Cosa contiene il pacchetto SInCRO estratto
 - Manifest XML conforme UNI 11386
 - Distinta PDF/A firmata digitalmente
 - Hash SHA-256 di integrità su ogni componente
@@ -381,166 +1118,635 @@ Contenuto del pacchetto SInCRO estratto:
 - Riferimenti normativi consultati
 - Classificazione di titolario per il gestionale
 
-Gestionali documentali italiani supportati: Halley Informatica, Maggioli, Dedagroup Public Services, GPI, PA Digitale, 3D Informatica, Engineering, più i quattro formati standard XML, CSV, XLSX, JSON come fallback universale.
+### Gestionali documentali italiani supportati
 
-Nota di trasparenza: gli screenshot della pagina sono tratti da una sessione effettiva della suite, con dati di esempio (Comune e operatore fittizi). I nomi dei gestionali sono usati a titolo descrittivo, ai soli fini della compatibilità tecnica del pacchetto SInCRO, e non implicano alcuna partnership formale con i rispettivi produttori.
+Halley Informatica · Maggioli · Dedagroup Public Services
+· GPI · PA Digitale · 3D Informatica · Engineering,
+più i quattro formati standard XML, CSV, XLSX, JSON come fallback universale.
 
----
+Nota di trasparenza. Gli screenshot in questa pagina sono tratti da
+una sessione effettiva della suite, con dati di esempio (Comune e operatore fittizi).
+I nomi dei gestionali documentali sono usati a titolo descrittivo, ai soli fini della
+compatibilità tecnica del pacchetto SInCRO, e non implicano alcuna partnership formale
+con i rispettivi produttori. Le funzionalità e i tempi mostrati corrispondono alla
+versione in vigore alla data di pubblicazione; TTR-SUITE evolve nel tempo, alcune
+schermate possono presentare oggi un'organizzazione leggermente diversa.
 
-# Che cos'è TTR-SUITE
-URL: https://aviolab.ai/che-cos-e-ttr-suite.html (pagina in italiano)
+## Vuole vederlo sul Suo caso?
 
-Una spiegazione in linguaggio piano, per chi deve capire in pochi minuti di cosa si tratta e decidere se vale la pena vederla al lavoro. Il prodotto è TTR-SUITE PA Locale, l'assistente giuridico e amministrativo da scrivania per i Comuni sotto i 5.000 abitanti.
+Organizziamo una prima prova in videoconferenza, partendo da una pratica reale che ha
+sulla scrivania questa settimana. Le mostriamo l'intera sequenza, dalla domanda
+al fascicolo digitale, senza impegno e senza costo.
 
-## Di cosa si tratta
-
-TTR-SUITE PA Locale è un assistente giuridico e amministrativo da scrivania, pensato per i Comuni sotto i 5.000 abitanti e costruito attorno agli atti amministrativi e a ciò che li accompagna: determine, delibere, ordinanze, pareri, procedure di esecuzione. Si installa sulla postazione del funzionario e lavora con lui: risponde ai quesiti sulla norma vigente citando articoli e commi, redige la bozza dell'atto, la sottopone a una revisione indipendente e prepara il fascicolo. Il funzionario resta l'unico responsabile della decisione e della firma.
-
-## Com'è fatta: gli agenti
-
-È fatta di «agenti», cioè configurazioni di intelligenza artificiale distinte e indipendenti, ciascuna con un mandato preciso, una base normativa propria e regole su ciò che può e non può fare. Non sono programmi separati: sono configurazioni diverse dello stesso sistema, istruite a operare come consulenti dedicati a una materia di competenza comunale.
-
-Il cuore è un gruppo di agenti specialisti di funzione amministrativa. Per ciascuna delle otto aree del Comune (Segreteria, Personale, Ragioneria, Ufficio Tecnico, Servizi Demografici, Servizi Sociali, Istruzione e Cultura, Polizia Locale) c'è almeno un agente che redige e uno che revisiona. A questi si aggiungono revisori indipendenti di seconda battuta, fra cui uno orientato al controllo contabile della Corte dei Conti e uno al rischio di impugnazione.
-
-Attorno al cuore lavorano alcuni agenti di supporto, che smistano le richieste e pseudonimizzano i documenti da portare fuori dal sistema, insieme a una serie di funzioni di controllo. Alcune si appoggiano a un modello linguistico, altre sono cognitive e deterministiche, cioè codice che a parità di dati dà sempre la stessa risposta: la Suite le combina per arrivare al risultato. In tutto sono 43 intelligenze artificiali: 24 agenti specialisti e 19 funzioni cognitive.
-
-## Un prodotto standard
-
-Si installa sulla postazione del funzionario, non richiede progetti di integrazione con il gestionale e riceve gli aggiornamenti del software e degli agenti dal canale di distribuzione Aviolab. I dati di lavoro restano sulla macchina dell'Ente: ad Aviolab non arriva nulla, a parte il collegamento che il funzionario stesso apre quando chiede assistenza. L'assistenza remota è integrata: su chiamata del funzionario il tecnico si collega e, se il funzionario lo abilita, opera sulla postazione come se fosse presente, senza software di terze parti. L'installazione si fa da remoto: si scarica l'applicativo dall'area download del sito e si chiede l'attivazione. Il fascicolo informatico di ogni pratica si esporta in formato standard (UNI 11386, SInCRO), quindi è protocollabile e archiviabile nel gestionale che l'Ente già usa.
-
-## La localizzazione sull'Ente
-
-Alla prima messa in servizio un passo di localizzazione registra l'Ente e i suoi dati IPA, la popolazione, gli attributi del territorio (zona sismica, zona climatica, vincoli paesaggistici e idrogeologici, carattere montano, costiero o turistico), gli uffici e i loro responsabili. La procedura è condotta da un agente apposito, che chiede conferma a chi installa prima di salvare i dati raccolti. Da quel momento ogni risposta è riferita a quel Comune e non a un Comune generico. La normativa regionale segue il territorio dell'Ente: oggi la Suite lavora con quella della Liguria e della Lombardia, e quella del Piemonte è prevista entro la fine del 2026.
-
-## GDPR e AI Act
-
-La documentazione di conformità è pubblica nell'area download del sito: scheda tecnica del sistema, classificazione del rischio e informativa di trasparenza ai sensi dell'AI Act, DPA con Zero Data Retention ai sensi del GDPR (https://aviolab.ai/downloads.html#certificazioni).
-
-## Facile da usare
-
-A chi lavora bastano poche nozioni per sfruttare a fondo il novanta per cento delle funzioni. Le guide rapide sono tre, una pagina A4 ciascuna: con le prime due accanto al monitor si è subito operativi, senza corsi sullo strumento. La terza riguarda solo la pseudonimizzazione: dentro la Suite non serve, perché il contratto con il fornitore di inferenza prevede la cancellazione dei dati a risposta trasmessa e il trasporto è cifrato; torna utile se si vuole portare un documento in uno strumento di IA esterno.
-
-- Guida rapida 1: https://aviolab.ai/assets/downloads/ttr-suite-guida-rapida-1.pdf
-- Guida rapida 2: https://aviolab.ai/assets/downloads/ttr-suite-guida-rapida-2.pdf
-- Guida rapida 3: https://aviolab.ai/assets/downloads/ttr-suite-guida-rapida-3.pdf
-- Guida rapida 4 (la Biblioteca dell'Ente): https://aviolab.ai/assets/downloads/ttr-suite-guida-rapida-4.pdf
-- Filmato «TTR-SUITE in otto minuti, che cos'è e come lavora» (brochure video per il primo contatto; 8:23, MP4): https://aviolab.ai/download/brochure-ttr-suite.mp4
-- Filmato tutorial sulla Biblioteca dell'Ente (che cos'è, come si attiva, come si usa; 5:45, MP4): https://aviolab.ai/download/tutorial-biblioteca-ente.mp4
-
-## Dove trovare le informazioni
-
-- Comunicato del Comune di Pieve Ligure (1° settembre 2026, testo integrale): https://mailchi.mp/b6b0a3531dc2/ilcomune-di-pieve-ligure-adotta-lintelligenza-artificiale-pratiche-pi-rapide-e-pi-tempo-per-i-cittadini-e-le-cittadine
-- Film del Comune di Pieve Ligure per il convegno ANCI Lombardia del 12 novembre 2026, «L'intelligenza artificiale negli uffici: quattro mesi di lavoro vero.» (7:36, MP4): https://aviolab.ai/download/anci-pieve-ligure.mp4
-- Secondo comunicato del Comune di Pieve Ligure, dopo il convegno ANCI Lombardia (20 novembre 2026, testo integrale): https://mailchi.mp/80658dbdc8cb/intelligenza-artificiale-in-comune-quattro-mesi-dopo-pieve-ligure-porta-i-risultati-ad-anci-lombardia-21565784
-- Dicono di noi (comunicati e rassegna stampa): https://aviolab.ai/dicono-di-noi.html
-- Una sessione di lavoro reale in screenshot commentati: https://aviolab.ai/pa-locale-in-azione.html
-- La pagina del prodotto: https://aviolab.ai/pa-locale.html
-- Scheda comparativa a supporto dell'infungibilità (Linee guida AgID in via di adozione): https://aviolab.ai/assets/downloads/ttr-suite-pa-scheda-agid.pdf
-
-## Come vederla al lavoro
-
-Bastano 45-60 minuti in videoconferenza su un caso scelto dall'Ente, anche ipotetico, anche senza comunicarlo prima: si vede come il sistema ragiona, quali fonti cita, dove si ferma e cosa chiede al funzionario.
-
-## I risultati a Pieve Ligure
-
-Il Comune di Pieve Ligure (Città Metropolitana di Genova) ha adottato la Suite «dopo una sperimentazione conclusa con esito positivo» condotta in Segreteria Generale, Polizia Locale e Ufficio Tecnico, e ne ha esteso l'uso «a tutti gli altri servizi comunali, nell'ambito delle risorse ordinarie di bilancio». Sindaca Paola Negro: «I responsabili dei servizi hanno provato il sistema sul campo e sono stati loro a chiederci di mantenerlo stabilmente in dotazione agli uffici». Sulle pratiche complesse il tempo restituito fra istruttoria, ricerca delle fonti e revisione si misura in ore per pratica, non in minuti; le misure per tipologia di atto sono in corso di formalizzazione con gli uffici.
-
-Il 12 novembre 2026 Pieve Ligure è stata l'unico Comune non lombardo alla tavola rotonda del convegno «L'intelligenza artificiale agentica nei Comuni» di ANCI Lombardia, a Milano, dove il Comune ha presentato il film «L'intelligenza artificiale negli uffici: quattro mesi di lavoro vero» (https://aviolab.ai/download/anci-pieve-ligure.mp4). Nel comunicato del 20 novembre 2026 il Comune riferisce che l'uso è cresciuto di mese in mese e che «tutti gli uffici che l'hanno adottato continuano a usarlo».
-
-## La memoria dell'Ente: la Biblioteca
-
-Dall'autunno 2026 la Suite ha anche la memoria dell'Ente, la Biblioteca dell'Ente, in tre parti: i modelli di atto (un atto ben riuscito vi entra con un clic del funzionario, i dati del caso diventano segnaposto; i modelli restano nel Comune, sono condivisi fra le postazioni e a ogni riuso vengono sottoposti alla verifica normativa), lo statuto e i regolamenti comunali (ogni postazione carica quelli che ha e li mette in comune con le altre, così redazione e revisione tengono conto di tutti quelli caricati nell'Ente) e gli atti dell'ufficio (atti puntuali con i dati reali, che restano sulla postazione che li ha aggiunti e non vengono mai condivisi). Le postazioni si scambiano modelli e regolamenti automaticamente, sulla rete del Comune, senza un server; basta attivare la Biblioteca una volta per postazione. Il Segretario comunale, se vuole, può esercitare poteri di indirizzo sull'uso degli elementi della Biblioteca. Guida rapida 4 e filmato nell'area Download.
-
-## Sui costi
-
-È un prodotto: il prezzo è un listino, non un preventivo. Il criterio è un canone di servizio annuo per l'intero Ente, non per postazione, proporzionato alla dimensione reale dell'Ente e comprensivo di uso, aggiornamenti e assistenza. Per natura è un servizio di supporto giuridico-amministrativo più che una licenza software. Nei Comuni fino a 5.000 abitanti è dello stesso ordine di grandezza del compenso annuo del revisore dei conti, e resta comunque sotto quanto un Comune normalmente spende ogni anno per la convenzione software del proprio gestionale. Si ripaga con le ore restituite agli uffici, con gli errori che non arrivano più all'atto e con il minor ricorso a consulenze esterne. Le condizioni si comunicano su richiesta, di norma a valle della sessione. Per Unioni, consorzi e società in house che servono più Comuni la struttura del listino si definisce insieme.
-
-## Il passo dopo: la prova
-
-Un'installazione di prova di due o tre settimane, nel formato già sperimentato a Pieve Ligure: fino a tre funzionari scelti dall'Ente, pratiche scelte dall'Ente, costi di inferenza a carico di Aviolab, a titolo gratuito e senza procedura di affidamento. Bastano una lettera di accettazione e la nomina a responsabile del trattamento ai sensi dell'art. 28 GDPR, preparata da Aviolab. Se l'Ente è fuori Liguria, a quel punto si prepara la configurazione regionale e la prova si fa su quella.
-
-Contatti: Riccardo Parenti, Founder & Technical Lead, r.parenti@aviolab.ai, +39 335 605 0950.
+Chieda una prova gratuita
+Torna alla pagina del prodotto
 
 ---
 
 # Le domande del funzionario
-URL: https://aviolab.ai/le-domande-del-funzionario.html (pagina in italiano)
+URL: https://aviolab.ai/le-domande-del-funzionario.html
 
-## Cosa chiede un funzionario comunale all'intelligenza artificiale?
+Cosa chiede un funzionario comunale all'intelligenza artificiale?
 
 Un secondo parere, prima di firmare?
+
 Sapere se la Corte dei conti potrebbe contestargli quell'atto?
+
 Sapere se l'atto è impugnabile e quali parti andrebbero cambiate?
+
 Far controllare l'atto preparato da un collega, ma che deve firmare lui?
+
 Una lista chiara e ordinata di passi da seguire?
 
 Impostare una pratica che non ha mai fatto, senza chiedere aiuto a nessuno?
+
 Non dover chiedere sempre al collega più anziano?
+
 Mandare al PC del collega la pratica completa, fonti comprese, per avere un parere?
+
 Una risposta concreta, completa, operativa, con le fonti e la lista delle criticità?
+
 Stesure e risposte in linguaggio amministrativo, non in gergo da chatbot?
 
 Non passare un altro venerdì pomeriggio su Normattiva?
+
 La norma vigente, con articolo e comma precisi?
+
 Sapere se quell'articolo è stato abrogato o modificato?
+
 La fonte ufficiale, non un riassunto trovato in rete?
 
 Un atto già definitivo, con premesse, motivazione e dispositivo?
+
 Uno strumento che tenga conto della prassi del suo Comune?
+
 …e del fatto che gli abitanti sono duemila, non ventimila?
+
 Partire dal modello giusto, già compilato con i dati di questa pratica?
 
 Non dover riscrivere da capo una determina quasi identica a quella di marzo?
+
 Sapere se le norme della determina dell'anno scorso valgono ancora?
+
 Sapere se un modello è superato, prima di compilarlo?
 
 Poter usare il PDF scansionato male, così com'è?
+
 Trascinare il documento nella finestra e basta?
+
 Una risposta direttamente in Word, da aprire, correggere e stampare?
+
 Non dover imparare un'altra interfaccia?
+
 Un'assistenza che gli risolva un dubbio sul suo PC, da remoto, mentre è al telefono?
 
 Poter spiegare al Segretario e al DPO dove finiscono i dati?
+
 Sapere che i dati dei cittadini sono conservati solo sul computer in ufficio?
+
 Mandare fuori un documento coprendo i dati riservati?
+
 Avere il fascicolo pronto quando gli chiedono su che norme si è basato?
 
 Che il suo lavoro serva ancora all'ufficio, anche dopo la sua pensione?
+
 Uno strumento che tenga sempre conto di tutti i regolamenti del suo Comune?
+
 Usare un modello già pronto, messo a punto dai colleghi, e lasciare che loro usino i suoi?
+
 Lavorare con la collega sulla stessa pratica, ognuno dal proprio PC, parlandosi?
+
 Ripartire, dopo tre mesi, esattamente da dove si era fermato?
+
 Poter riaprire tutta la pratica con facilità, fra tre o cinque anni?
+
 Che risulti chiaro che a decidere è stato lui?
 
 Farsi aiutare, mantenendo sua la decisione finale?
+
 Un aiuto, ma senza essere controllato da nessuno mentre lavora?
+
 Più tempo per seguire lo sportello?
 
 TTR-SUITE PA LOCALE fa tutto questo. E lo fa già oggi, in un Comune come il vostro.
 
-Per chiedere una prova gratuita: modulo contatti della homepage, https://aviolab.ai/#contact
+Chiedete una prova gratuita
 
 ---
 
-# Downloads
+# TTR-SUITE IP Legal
+URL: https://aviolab.ai/ip-legal.html
+
+TTR-SUITE IP Legal
+
+Agenti AI che analizzano, redigono e validano. NDA, accordi di ricerca e accordi commerciali, contratti di licenza, revisione contrattuale e preparazione end-to-end di domande di brevetto. Un solo motore, un solo flusso, output con fonti sempre verificate.
+
+Brochure (PDF)
+Documentazione: GDPR, AI Act
+
+## La pressione sul lavoro legale e di proprietà intellettuale
+
+Tre tipici problemi che sentiamo ripetutamente esporre da team legali, dipartimenti IP e partner di studi di medie dimensioni.
+
+Ogni settimana mi arrivano sulla scrivania tre nuovi accordi. Esaminarli clausola per clausola voleva dire un giorno ciascuno. Quel giorno non ce l'ho.
+
+Responsabile Legale, gruppo industriale di medie dimensioni
+
+L'inventore tecnico conosce la tecnologia. Io devo tradurla in claim. La traduzione è dove se ne vanno le settimane.
+
+Consulente brevettuale, ufficio trasferimento tecnologico
+
+Non posso permettermi uno specialista interno per ogni dominio con cui mi arrivano i clienti, pharma, software, automotive, e tutti si aspettano un livello di output da specialista del dominio.
+
+Partner, studio boutique IP
+
+## Quattro capacità, calibrate sulla Sua IP policy
+
+TTR-SUITE IP Legal legge, analizza, redige brevetti e li sottopone a stress test sullo stesso motore. Ogni agente viene specializzato sulla policy IP interna del Suo gruppo e sulle Sue preferenze prima della consegna, in modo che l'output sia conforme ai Suoi standard interno da subito.
+
+### Analisi documentale
+
+Sei agenti specialisti, uno per famiglia di documenti.
+- NDA, unilaterali, bilaterali, multi-party
+- Accordi di ricerca con enti accademici
+- Accordi commerciali, licenze, trasferimento tecnologico
+- Presentazioni, paper, tesi (con analisi delle figure)
+
+Clausola per clausola, multilingua, misura di rischio 0–100%.
+
+### Stesura assistita
+
+Dalla pagina bianca al draft pronto alla negoziazione.
+- NDA, accordi di ricerca, accordi commerciali
+- Redatti SEMPRE secondo la Sua IP policy
+- Valutazione della controparte (accademica vs commerciale)
+- Placeholder solo dove mancano dati o serve una decisione umana
+
+Stesura adversariale, con ALMENO due agenti cooperanti.
+
+### Stesura brevettuale
+
+Dall'invenzione alla domanda pronta al deposito.
+- Intervista strutturata all'inventore, senza gergo brevettuale richiesto
+- Ricerca di anteriorità con i riferimenti più prossimi mappati
+- Claim indipendenti e dipendenti, descrizione completa, abstract
+- Multi-dominio, multi-giurisdizione (IT, EP, US, PCT)
+
+Ogni brevetto citato verificato su banca dati: Espacenet, EPO Register, WIPO PATENTSCOPE, Google, Lens.org, UIBM, USPTO.
+
+Programma early access
+
+### Stress test del brevetto
+
+Demolire la bozza prima che lo faccia l'esaminatore.
+- Anteriorità aggressiva mirata all'invalidazione
+- Attacchi a ciascun claim con combinazioni di brevetti esistenti e stato dell'arte
+- Report dei punti deboli con ranking di severità
+- Suggerimenti di narrowing che preservano l'ampiezza difendibile
+
+Fattori di rischio strutturati su novità, attività inventiva, sufficienza, chiarezza, eligibility, ampiezza vs difendibilità.
+
+Programma early access
+
+## Cosa produce la TTR-SUITE in concreto?
+
+Pratiche diverse richiedono output documentali diversi. Caso per caso, ecco che cosa produce la suite.
+
+Dalla pagina bianca al draft pronto alla negoziazione
+
+### NDA, Accordi di Ricerca, Accordi Commerciali, nuova bozza
+
+Quando l'accordo non esiste ancora e Le serve una prima versione da cui partire per negoziare.
+- Testo completo della bozza (in docx, md, pdf) nella lingua più utile per Lei, strutturata attentamente sul framework della Sua IP policy
+- Mappa dei placeholder inseriti dalla TTR-SUITE per i campi che richiedono informazioni al momento non disponibili o una decisione umana specifica
+- Ciclo di revisione interno incorporato: il drafter emette il primo draft, lo passa al reviewer specialista del tipo di accordo (NDA, ricerca o commerciale), incorpora le modifiche e consegna la bozza revisionata
+- Interazione per affinare clausole specifiche o per attivare un ulteriore giro di revisione su punti specifici
+
+Analisi di un documento esistente rispetto a policy/convenienza
+
+### NDA, Accordi di Ricerca, Accordi Commerciali, analisi di un documento esistente
+
+Quando la controparte Le ha mandato una bozza, oppure ha ereditato un accordo e ha bisogno di sapere che cosa sta firmando.
+- Executive summary con livello di rischio complessivo, Fairness Level (0–3) e principali criticità in ordine di priorità
+- Tabella di analisi clausola per clausola con score di rischio numerico (0–100), categoria di rischio, stima dell'impatto economico, allineamento con la Sua IP policy
+- Azione raccomandata per clausola, rimuovere, modificare, accettare, con testo alternativo proposto nella lingua del documento
+- Verifica di compliance ed export control, OFAC, Reg. UE 833/2014, applicabilità di ITAR/EAR e Reg. UE 2021/821 (dual-use) per controparti extra-UE
+
+Analisi di compliance pre-disclosure
+
+### Presentazioni, paper scientifici, tesi, revisione IP del documento
+
+Quando l'azienda vuole pubblicare qualcosa, condividerlo a una conferenza, o discuterlo in università, e Lei deve sapere cosa è sicuro divulgare.
+- Revisione elemento per elemento, slide per slide, sezione per sezione, capitolo per capitolo, figura per figura, con score di rischio e replicabilità competitor
+- Verifica di contenuto vietato rispetto alla Sua policy di disclosure (dati di stabilimento, procedure interne, specifiche non pubblicate, metodologie proprietarie)
+- Raccomandazioni audience-specifiche, cosa è sicuro internamente, con partner tecnici sotto NDA, con controparti commerciali, con il pubblico generale
+- Testo alternativo compliant per le sezioni sopra-soglia, preservando il valore scientifico o comunicativo
+
+Stesura brevettuale
+
+### Domanda di brevetto, dall'invenzione alla bozza pronta al deposito
+
+Quando ha un'invenzione e vuole una domanda di brevetto depositabile redatta end-to-end.
+- Invention disclosure form da intervista strutturata, senza fluenza gergale richiesta all'inventore
+- Report di anteriorità con i riferimenti più prossimi mappati rispetto al concetto inventivo (ogni numero citato verificato alla fonte)
+- Triage di brevettabilità, se l'invenzione non sopravvive all'anteriorità, lo scopre prima di redigere i claim
+- Domanda completa: claim indipendenti e dipendenti, descrizione completa, abstract, redatti secondo le formalità UIBM, EPO o USPTO
+- Modalità di iterazione contro obiezioni dell'esaminatore o brevetti di terzi, con delimitazione dei claim che rispetta la disclosure originaria (no added matter)
+
+Stress test del brevetto
+
+### Domanda di brevetto, revisione adversariale di una bozza
+
+Quando ha una bozza di domanda e vuole sapere se sopravviverà all'esame prima di depositarla.
+- Ricerca di anteriorità aggressiva finalizzata a demolire il concetto inventivo
+- Attacchi a ciascun claim usando combinazioni di brevetti esistenti e stato dell'arte, anche in combinazione fra loro
+- Report dei punti deboli con ranking di severità sui claim che non hanno superato l'attacco
+- Suggerimenti di narrowing sui claim che vanno stretti, preservando l'ampiezza difendibile più larga possibile
+- Sintesi di merito strutturata (novità, attività inventiva, ampiezza vs difendibilità, eligibility), nessuna percentuale puntuale di concedibilità, nessun narrowing forzato quando i claim sopravvivono già com'è
+
+## Esempi di colloquio
+
+Esempi concreti, dalla domanda dell'operatore a quello che TTR-SUITE IP Legal fa dopo.
+
+La controparte mi ha mandato questo NDA. Firmo venerdì. Cosa sto accettando?
+
+Analisi clausola per clausola dell'NDA. Score di rischio per clausola, Fairness Level complessivo, controllo OFAC, controllo divieto di training AI/ML, deviazioni rispetto alla Sua IP policy evidenziate. Testo alternativo proposto dove la clausola è sotto target.
+
+Stiamo per avviare una partnership di ricerca con questa università. L'accordo non c'è ancora.
+
+Stesura da pagina bianca, ambito, deliverable, IP background e foreground, modello di finanziamento, diritti di pubblicazione, governance, responsabilità, exit. Internamente validato rispetto al framework di riferimento prima della consegna, placeholder lasciati solo nei campi che richiedono una decisione umana.
+
+Devo rivedere questo accordo di licenza con un fornitore statunitense entro la settimana prossima.
+
+Analisi di accordo commerciale, allocazione IP, modello royalty, esclusiva, diritti di audit, SLA, limitazione di responsabilità, legge applicabile e foro. Verifica verbatim della clausola di export control (Reg. UE 833/2014); clausola raccomandata dove manca. Implicazioni ITAR/EAR statunitensi segnalate per verifica esterna quando la controparte è extra-UE.
+
+Voglio proteggere quest'invenzione. Da dove partiamo?
+
+Pipeline in sei fasi, intervista strutturata all'inventore, ricerca di anteriorità, triage di brevettabilità, stesura dei claim (indipendenti + dipendenti), descrizione completa con abstract, iterazione contro obiezioni dell'esaminatore. Multi-dominio, multi-giurisdizione. Ogni numero di brevetto citato è verificato su banche dati ufficiali prima di entrare nella bozza.
+
+Abbiamo la bozza di una domanda di brevetto. È davvero innovativa?
+
+Stress test aggressivo. Il sistema tenta di invalidare i claim usando combinazioni di brevetti esistenti e stato dell'arte. Se un claim non sopravvive, il report dice esattamente quali feature sono vulnerabili e come restringere il claim per preservare la validità con l'ampiezza difendibile più larga.
+
+Sto per pubblicare questo paper tecnico. Sto bruciando la mia stessa brevettabilità?
+
+Revisione del paper, ogni sezione scorata su rischio IP, con mitigazioni che preservano il valore scientifico. Parametri specifici che accelererebbero la R&D di un competitor segnalati, con alternative scientifiche compliant proposte. Allineamento con la strategia brevettuale, cosa depositare prima della pubblicazione, cosa può aspettare.
+
+Questo studente di dottorato sta chiudendo la tesi usando nostri dati interni. Cosa può rimanerci dentro?
+
+Revisione IP della tesi, informazioni organizzative, dati di stabilimento, specifiche non pubblicate, metodologie proprietarie e contenuti vietati verificati esplicitamente. Le raccomandazioni preservano l'integrità accademica proteggendo il perimetro IP dell'azienda.
+
+Devo presentare questo slide deck a una conferenza il mese prossimo.
+
+Revisione della presentazione, slide per slide. Score di replicabilità rispetto ai competitor, verifica di contenuti vietati (foto di stabilimento, procedure interne, specifiche non pubblicate), raccomandazioni audience-specifiche, interna, tecnica-con-NDA, commerciale, pubblica.
+
+Questo accordo è in tedesco, controparte svizzera. Le clausole IP che rischi nascondono?
+
+Analisi clausola per clausola direttamente in tedesco, nessuna traduzione preliminare. Valutazione rispetto alla Sua IP policy: score di rischio per clausola (proprietà, licenze, riservatezza, post-termination), Fairness Level. Verifica verbatim della clausola di export control (Reg. UE 833/2014); implicazioni ITAR/EAR statunitensi segnalate per verifica esterna quando la controparte è extra-UE. Testo alternativo proposto nella lingua originale.
+
+## Sotto al cofano: un'orchestra di specialisti
+
+TTR-SUITE IP Legal non è un chatbot AI generalista, dove un'unica AI prova a rispondere a tutto. È una squadra di agenti specialisti che collaborano, coordinati da ARBITER. Ogni agente è un'AI distinta, specializzata e addestrata per un compito preciso nel lavoro IP e contrattuale.
+
+9 + 2
+
+8 specialisti attivi + 1 in early access (revisore brevettuale) + 2 coordinatori
+
+Una squadra di agenti specialisti dedicati che presidia il dominio IP e contrattuale. Ogni caso è gestito dagli agenti con il perimetro giusto, con verifiche indipendenti tra i passaggi e tracciabilità completa del ragionamento.
+
+Sette aree IP sono presidiate, dalla riservatezza alle domande di brevetto, con agenti specialisti focalizzati ciascuno esclusivamente su una di esse. Trasversalmente alle aree, sei modalità operative vengono applicate dove servono, in modo che ogni output porti gli stessi controlli di qualità a prescindere dalla famiglia documentale.
+
+### Coordinamento agenti
+
+ARBITER
+
+Classifica la richiesta dell'operatore e si assicura, ad ogni passaggio, che le risposte siano prodotte dagli agenti più competenti.
+
+INTERPRES
+
+Interpreta in profondità la richiesta dell'utente e fa emergere le competenze specialistiche necessarie a rispondere.
+
+### Sette aree IP presidiate
+
+Accordi di riservatezza
+
+Accordi di ricerca accademica
+
+Accordi commerciali e licensing
+
+Presentazioni e slide deck esterni
+
+Paper scientifici e pubblicazioni
+
+Tesi accademiche
+
+Domande di brevetto
+
+### Sei modalità operative trasversali
+
+Analisi clausola per clausola con risk scoring
+
+Stesura assistita conforme alla Sua IP policy
+
+Stress test adversariale sui brevetti
+
+Conformità regolamentare ed export control
+
+Citazioni e numeri di brevetto verificati alla fonte
+
+Workspace di sessione ispezionabile
+
+## Costruita per il lavoro legale reale
+
+Vincoli scolpiti dentro ciascun agente, in modo che l'output che riceve sia utilizzabile su casi reali, non impressionante in demo e inaffidabile alla scrivania.
+
+### Niente riferimenti inventati
+
+Ogni agente opera sotto regole esplicite no-hallucination su articoli di legge, clausole contrattuali, citazioni e numeri di brevetto. Quando l'informazione manca, l'output lo dichiara esplicitamente. Un onesto «non verificabile» sostituisce un'invenzione sicura di sé.
+
+### Verifica dei numeri di brevetto alla fonte
+
+Ogni numero di brevetto citato in una bozza, in una tabella di anteriorità o in un confronto fra claim viene verificato su banche dati pubbliche (Espacenet, EPO Register, WIPO PATENTSCOPE, Google, Lens.org, UIBM, USPTO) prima di apparire nell'output. I numeri non verificabili vengono rimossi e segnalati.
+
+### Scoring numerico, non scenico
+
+I rischi vengono scorati 0–100 su una rubrica fissa, con esempi di calibrazione che impongono riproducibilità. Il Fairness Level 0–3 è derivato matematicamente da pesi di categoria, non può essere alterato da spin qualitativo.
+
+### Livelli di confidenza su ogni finding
+
+Ogni asserzione porta un'etichetta di confidenza, certo, probabile, incerto, non verificabile. A colpo d'occhio vede di cosa l'agente è sicuro e cosa segnala per revisione umana.
+
+### Bias conservativo sul rischio IP
+
+Un rischio IP mancato costa più di un rischio segnalato. Nel dubbio fra due bande di severità, l'agente sceglie la più alta. I falsi positivi rubano un'ora, i falsi negativi rubano il brevetto.
+
+### Robusta contro prompt injection
+
+Cinque livelli di protezione (L1–L5) bloccano i tentativi di estrarre le istruzioni interne tramite riformulazione, role-play, encoding, traduzione o istruzioni nascoste nei documenti sottoposti. Gli override embeddati nei documenti vengono segnalati nel report, non eseguiti.
+
+## Test sul campo: dipartimento IP di un grande gruppo industriale multinazionale
+
+### Trasformazione della gestione documentale IP in un gruppo industriale internazionale
+
+Un deployment Aviolab AI all'interno del dipartimento IP di un grande gruppo industriale multinazionale, risultati nell'arco di un trimestre di operatività:
+- Tempo di analisi contratti ridotto da giorni a ore, talvolta minuti
+- Livello di rischio valutato per singola criticità, non per contratto
+- Gestione di accordi multi-documento resa affidabile e ripetibile
+- Commenti legali prodotti in modo pulito in più lingue
+- Coordinamento fluido fra team legali internazionali sullo stesso caso
+- Maggiore controllo sugli asset IP e sicurezza nella negoziazione contrattuale
+
+## Come ottenere l'accesso
+
+Due percorsi, a seconda della capacità.
+
+Disponibilità commerciale
+
+### Analisi, stesura e stress test
+
+Contratto commerciale standard, deployment cloud o confinato on-premise all'interno della Sua infrastruttura IT, a seconda dei requisiti di riservatezza.
+- Pricing per postazione o per ingaggio
+- Opzione on-premise per portafogli riservati
+- Integrazione con la gestione documentale esistente
+- Formazione e onboarding del Suo team
+
+Programma early access
+
+### Preparazione end-to-end di domande di brevetto
+
+Disponibile a partner selezionati su richiesta. Lavoriamo a fianco dei Suoi inventori, consulenti brevettuali e responsabili IP per affinare il flusso su domande reali.
+- Accesso partner-on-request
+- Formalità UIBM ed EPO supportate
+- Linea diretta col team di ingegneria
+- Condizioni preferenziali sul rilascio commerciale
+
+Cerca la versione per la Pubblica Amministrazione italiana?
+Visiti la pagina dedicata a TTR-SUITE PA Locale, la versione per i Comuni italiani: pareri e bozze di atti con la norma vigente citata dalle fonti ufficiali, fascicolo informatico SInCRO.
+
+## Documentazione e certificazioni
+
+Documentazione pubblica di compliance per TTR-SUITE Enterprise Edition v7.0: PDF firmati allineati all'AI Act UE (Regolamento 2024/1689) e al GDPR (Regolamento 2016/679). Lo stesso set è condiviso con ogni Cliente Enterprise; gli addenda cliente-specifici (integrazione policy IP, licensing) vengono consegnati separatamente.
+
+### Brochure di Aviolab AI
+
+Panoramica aziendale: chi siamo, cosa rilasciamo, come affrontiamo l'AI nell'IP e nel settore pubblico. Disponibile in inglese e italiano.
+
+English
+Italiano
+
+### Classificazione del rischio AI Act
+
+Classificazione formale del rischio ai sensi del Regolamento UE 2024/1689: verifica art. 5 (pratiche vietate), art. 6/Allegato III (alto rischio), classificazione finale a Rischio Limitato (art. 50).
+
+PDF firmato · 327 KB
+
+### Informativa di Trasparenza AI Act
+
+Informativa per gli utenti finali ai sensi dell'art. 50 AI Act: come funziona l'AI, capacità, limitazioni, ruolo dell'operatore umano, dati di accuratezza, regole d'uso.
+
+PDF firmato · 340 KB
+
+### DPA: Zero Data Retention (GDPR)
+
+Data Processing Addendum con architettura Zero Data Retention: ruoli GDPR, flussi dati, cifratura, Provider di Inferenza, trasferimenti extra-UE, gestione data breach.
+
+PDF firmato · 311 KB
+
+### Scheda tecnica del sistema AI
+
+Documentazione tecnica ai sensi dell'art. 50 AI Act: architettura, modello AI, sicurezza, capacità (~95% accuratezza, 1200 pagine), limitazioni, human oversight.
+
+PDF firmato · 351 KB
+
+## Pronto a trasformare i flussi IP e contrattuali del Suo gruppo?
+
+Ci contatti. Le mostriamo il sistema su un Suo caso reale, un NDA, una licenza, una bozza di claim, qualsiasi cosa ha sulla scrivania questa settimana.
+
+info@aviolab.ai
+Usi il form di contatto
+
+---
+
+# Download
 URL: https://aviolab.ai/downloads.html
 
-Access our resources and client software.
+Download
 
-## Public resources: documentation
+Documenti, filmati e software di TTR-SUITE
 
-- Aviolab AI company brochure: company overview, who we are, what we ship, how we approach AI in IP and the public sector. English: https://aviolab.ai/assets/brochures/aviolab-ai-company-overview-en.pdf / Italiano: https://aviolab.ai/assets/brochures/aviolab-ai-company-overview-it.pdf
-- TTR-SUITE per la PA Locale brochure: commercial overview of the suite for Italian municipalities (capabilities, use cases, installation model, licensing). https://aviolab.ai/assets/downloads/ttr-suite-pa-brochure.pdf
-- TTR-SUITE per la PA Locale, AGID comparative sheet: digitally signed comparative sheet drafted under the AGID evaluation scheme for software solutions for the Italian Public Administration. https://aviolab.ai/assets/downloads/ttr-suite-pa-scheda-agid.pdf
-- AI Act risk classification (TTR-SUITE PA Locale): formal risk classification under EU Regulation 2024/1689 (art. 5, art. 6/Annex III, final classification at Limited Risk, art. 50). Signed PDF. https://aviolab.ai/assets/downloads/ttr-suite-classificazione-rischio-ai-act.pdf
-- AI Act transparency notice (TTR-SUITE PA Locale): end-user notice under AI Act art. 50 (how the AI works, capabilities, limitations, role of the human operator, accuracy figures). Signed PDF. https://aviolab.ai/assets/downloads/ttr-suite-informativa-trasparenza-ai-act.pdf
-- DPA Zero Data Retention GDPR (TTR-SUITE PA Locale): Data Processing Addendum with Zero Data Retention architecture (GDPR roles, data flows, encryption, Inference Provider, extra-EU transfers, data breach handling). Signed PDF. https://aviolab.ai/assets/downloads/ttr-suite-dpa-zdr-gdpr.pdf
-- Technical specification (TTR-SUITE PA Locale): technical documentation under AI Act art. 50 (architecture, AI model, security, capabilities with ~95% accuracy and 1200 pages, limitations, human oversight). Signed PDF. https://aviolab.ai/assets/downloads/ttr-suite-scheda-tecnica.pdf
+## Risorse Pubbliche
 
-## Client area
+Software e risorse gratuite disponibili per tutti
 
-Dedicated software and resources for clients, accessed with a Client ID. Files may be password protected (credentials sent by email). All software is provided under the standard license agreement. If you don't have a Client ID or need technical support, contact info@aviolab.ai.
+## Documentazione
+
+Brochure, guide rapide, filmati e documentazione tecnica
+
+### Brochure di TTR-SUITE
+
+Sintesi commerciale per i Comuni italiani: che cosa fa la Suite, casi d'uso, modello di installazione, licenze.
+
+PDF (1 MB)
+
+### Scheda comparativa
+
+Scheda comparativa a supporto dell'infungibilità (Linee guida AgID in via di adozione), firmata digitalmente.
+
+PDF firmato (291 KB)
+
+### Guida rapida 1: i primi passi
+
+Foglio A4 da tenere accanto al monitor: una sessione per ogni pratica, la richiesta scritta in italiano corrente, gli allegati, l'esportazione dell'atto in Word, il ritorno su un lavoro dei giorni prima.
+
+PDF (319 KB)
+
+### Guida rapida 2: un passo avanti
+
+Secondo foglio A4, per chi ha superato i primi giorni: i revisori Corte dei Conti e Impugnabilità, la lettura di un'intera cartella dell'ufficio, le frasi che affinano l'analisi, il Fascicolo Informatico SInCRO, la richiesta di assistenza.
+
+PDF (156 KB)
+
+### Guida rapida 3: usare un documento in ChatGPT
+
+Terzo foglio A4: portare in ChatGPT (o in un altro strumento esterno) un documento che contiene dati personali. La Suite sostituisce i dati con segnaposto sul tuo computer, salva le istruzioni per ripristinare accanto alla copia e rimette i valori veri da sola quando il testo torna.
+
+PDF (115 KB)
+
+### Guida rapida 4: la Biblioteca dell'Ente
+
+Quarto foglio A4: lo statuto e i regolamenti da citare, i modelli di atto da riusare, gli atti dell'ufficio a portata di mano. Tutto resta nel Comune; lo statuto, i regolamenti e i modelli di atto sono condivisi fra le postazioni senza un server. Gli agenti consultano la Biblioteca da soli e ricontrollano le norme citate a ogni riuso.
+
+PDF (250 KB)
+
+### Filmato: TTR-SUITE in otto minuti, che cos'è e come lavora
+
+Brochure video per chi incontra la Suite per la prima volta: la postazione e dove restano i dati, una domanda vera con analisi, verifica normativa e report, le 43 intelligenze artificiali, i dati personali sostituiti da etichette prima di uscire dal Comune, il Fascicolo Informatico, la Biblioteca dell'Ente, l'assistenza, gli aggiornamenti, la documentazione di conformità, e come si comincia. Solo in italiano.
+
+MP4 (8:23, 43 MB)
+
+### Filmato: la Biblioteca dell'Ente, che cos'è, come si attiva, come si usa
+
+Tutorial di cinque minuti con le schermate vere della Suite: che cosa fa la Biblioteca dell'Ente, come si attiva la postazione in due passi (l'aggiornamento da amministratore e il nodo dal menu Biblioteca) e come si condividono regolamenti e modelli di atto con le altre postazioni. Solo in italiano.
+
+MP4 (5:45, 49 MB)
+
+## Documenti di conformità
+
+Il set di conformità completo delle due edizioni di TTR-SUITE, firmato digitalmente dal produttore, nella stessa forma in cui viene consegnato ai clienti: classificazione del rischio e informativa sulla trasparenza ai sensi dell'AI Act, accordo sul trattamento dei dati in regime di Zero Data Retention, scheda tecnica e documenti di corredo.
+
+### TTR-SUITE PA Locale: documentazione v7.0
+
+### Documentazione di conformità: contenuto del set
+
+La mappa dell'intero set: quale documento risponde a quale norma, dall'AI Act al GDPR, dalla legge quadro 132/2025 alle linee guida AgID per le pubbliche amministrazioni.
+
+PDF firmato (260 KB)
+
+### Classificazione del rischio AI Act
+
+Classificazione formale del rischio ai sensi del Regolamento UE 2024/1689: pratiche vietate dall'art. 5, art. 6 e Allegato III, classificazione finale a Rischio Limitato ai sensi dell'art. 50.
+
+PDF firmato (354 KB)
+
+### Scheda tecnica
+
+Documentazione tecnica ai sensi dell'art. 50 AI Act: architettura, modello di intelligenza artificiale, misure di sicurezza, capacità e limiti, sorveglianza umana.
+
+PDF firmato (354 KB)
+
+### Informativa sulla trasparenza AI Act
+
+Informativa per chi usa il sistema, ai sensi dell'art. 50 AI Act: come funziona l'intelligenza artificiale, che cosa sa e non sa fare, il ruolo dell'operatore, i dati di accuratezza.
+
+PDF firmato (342 KB)
+
+### Accordo sul trattamento dei dati in Zero Data Retention (GDPR)
+
+Accordo sul trattamento dei dati fondato sull'architettura Zero Data Retention: ruoli GDPR, flussi dei dati, cifratura, fornitore di inferenza, trasferimenti fuori dall'Unione europea, gestione delle violazioni.
+
+PDF firmato (332 KB)
+
+### Scheda comparativa
+
+Scheda comparativa per l'istruttoria di acquisizione degli enti pubblici, ai sensi del Codice dell'Amministrazione Digitale (artt. 68-69) e dell'art. 77 del D.Lgs. 36/2023.
+
+PDF firmato (291 KB)
+
+### Testi pronti per l'interfaccia AI Act
+
+L'informativa dell'art. 50 già scritta in tre misure, completa, banner e piè di pagina, pronta da inserire nell'interfaccia e nei documenti generati.
+
+PDF firmato (259 KB)
+
+### Supporto linguistico
+
+Quali lingue il sistema gestisce su tre piani distinti: i documenti che legge e scrive, la chat, e l'interfaccia.
+
+PDF firmato (252 KB)
+
+### TTR-SUITE Enterprise: documentazione v7.0
+
+### Documentazione di conformità: contenuto del set
+
+La mappa dell'intero set: quale documento risponde a quale norma, dall'AI Act al GDPR, dalla legge quadro 132/2025 alle linee guida AgID per le pubbliche amministrazioni.
+
+PDF firmato (258 KB)
+
+### Classificazione del rischio AI Act
+
+Classificazione formale del rischio ai sensi del Regolamento UE 2024/1689: pratiche vietate dall'art. 5, art. 6 e Allegato III, classificazione finale a Rischio Limitato ai sensi dell'art. 50.
+
+PDF firmato (340 KB)
+
+### Scheda tecnica
+
+Documentazione tecnica ai sensi dell'art. 50 AI Act: architettura, modello di intelligenza artificiale, misure di sicurezza, capacità e limiti, sorveglianza umana.
+
+PDF firmato (345 KB)
+
+### Informativa sulla trasparenza AI Act
+
+Informativa per chi usa il sistema, ai sensi dell'art. 50 AI Act: come funziona l'intelligenza artificiale, che cosa sa e non sa fare, il ruolo dell'operatore, i dati di accuratezza.
+
+PDF firmato (337 KB)
+
+### Accordo sul trattamento dei dati in Zero Data Retention (GDPR)
+
+Accordo sul trattamento dei dati fondato sull'architettura Zero Data Retention: ruoli GDPR, flussi dei dati, cifratura, fornitore di inferenza, trasferimenti fuori dall'Unione europea, gestione delle violazioni.
+
+PDF firmato (324 KB)
+
+### Testi pronti per l'interfaccia AI Act
+
+L'informativa dell'art. 50 già scritta in tre misure, completa, banner e piè di pagina, pronta da inserire nell'interfaccia e nei documenti generati.
+
+PDF firmato (260 KB)
+
+### Supporto linguistico
+
+Quali lingue il sistema gestisce su tre piani distinti: i documenti che legge e scrive, la chat, e l'interfaccia.
+
+PDF firmato (253 KB)
+
+## Area Clienti
+
+Software e risorse dedicati ai nostri clienti
+
+ID Cliente
+
+Acceda ai file
+
+Se non ha un ID Cliente, ci contatti all'indirizzo info@aviolab.ai
+
+### Client Files
+
+## Istruzioni
+
+I file potrebbero essere protetti da password. Controlli la Sua email per le credenziali di accesso.
+
+Tutto il software è fornito secondo il nostro accordo di licenza standard.
+
+Per il supporto tecnico scriva a info@aviolab.ai
 
 ---
 

@@ -206,53 +206,53 @@ one_click_note: <span style="font-size:1.2rem;font-weight:bold;color:#ff0000;">O
 
 ## Downloads Section
 downloads_title: Download
-downloads_subtitle: Accedi alle nostre risorse e software per clienti
+downloads_subtitle: Documenti, filmati e software di TTR-SUITE
 downloads_public_title: Risorse Pubbliche
 downloads_public_description: Software e risorse gratuite disponibili per tutti
 downloads_doc_title: Documentazione
-downloads_doc_description: Brochure aziendali e documentazione tecnica
+downloads_doc_description: Brochure, guide rapide, filmati e documentazione tecnica
 downloads_client_title: Area Clienti
 downloads_client_description: Software e risorse dedicati ai nostri clienti
 downloads_client_id_label: ID Cliente
 downloads_client_id_placeholder: Inserisca il Suo ID Cliente
-downloads_access_btn: Accedi ai File
+downloads_access_btn: Acceda ai file
 downloads_help_text: Se non ha un ID Cliente, ci contatti all'indirizzo <a href="mailto:info@aviolab.ai">info@aviolab.ai</a>
 downloads_instructions_title: Istruzioni
 downloads_instruction_1: I file potrebbero essere protetti da password. Controlli la Sua email per le credenziali di accesso.
 downloads_instruction_2: Tutto il software è fornito secondo il nostro accordo di licenza standard.
-downloads_instruction_3: Per supporto tecnico, contatta <a href="mailto:info@aviolab.ai">info@aviolab.ai</a>
+downloads_instruction_3: Per il supporto tecnico scriva a <a href="mailto:info@aviolab.ai">info@aviolab.ai</a>
 download_brochure: Aviolab AI &mdash; Brochure aziendale
 download_brochure_desc: Panoramica aziendale: chi siamo, cosa rilasciamo, come affrontiamo l'AI nell'IP e nel settore pubblico. Disponibile in inglese e italiano.
 download_signed_pdf: PDF firmato
 download_pdf: PDF
-download_quickstart1: Guida rapida 1: i primi passi &mdash; TTR-SUITE per la PA Locale
+download_quickstart1: Guida rapida 1: i primi passi
 download_quickstart1_desc: Foglio A4 da tenere accanto al monitor: una sessione per ogni pratica, la richiesta scritta in italiano corrente, gli allegati, l'esportazione dell'atto in Word, il ritorno su un lavoro dei giorni prima.
-download_quickstart2: Guida rapida 2: un passo avanti &mdash; TTR-SUITE per la PA Locale
+download_quickstart2: Guida rapida 2: un passo avanti
 download_quickstart2_desc: Secondo foglio A4, per chi ha superato i primi giorni: i revisori Corte dei Conti e Impugnabilità, la lettura di un'intera cartella dell'ufficio, le frasi che affinano l'analisi, il Fascicolo Informatico SInCRO, la richiesta di assistenza.
-download_quickstart3: Guida rapida 3: usare un documento in ChatGPT &mdash; TTR-SUITE per la PA Locale
+download_quickstart3: Guida rapida 3: usare un documento in ChatGPT
 download_quickstart3_desc: Terzo foglio A4: portare in ChatGPT (o in un altro strumento esterno) un documento che contiene dati personali. La Suite sostituisce i dati con segnaposto sul tuo computer, salva le istruzioni per ripristinare accanto alla copia e rimette i valori veri da sola quando il testo torna.
-download_quickstart4: Guida rapida 4: la Biblioteca dell'Ente &mdash; TTR-SUITE per la PA Locale
+download_quickstart4: Guida rapida 4: la Biblioteca dell'Ente
 download_quickstart4_desc: Quarto foglio A4: lo statuto e i regolamenti da citare, i modelli di atto da riusare, gli atti dell'ufficio a portata di mano. Tutto resta nel Comune; lo statuto, i regolamenti e i modelli di atto sono condivisi fra le postazioni senza un server. Gli agenti consultano la Biblioteca da soli e ricontrollano le norme citate a ogni riuso.
-download_brochure_film: Filmato: TTR-SUITE in otto minuti, che cos'è e come lavora &mdash; TTR-SUITE per la PA Locale
+download_brochure_film: Filmato: TTR-SUITE in otto minuti, che cos'è e come lavora
 download_brochure_film_desc: Brochure video per chi incontra la Suite per la prima volta: la postazione e dove restano i dati, una domanda vera con analisi, verifica normativa e report, le 43 intelligenze artificiali, i dati personali sostituiti da etichette prima di uscire dal Comune, il Fascicolo Informatico, la Biblioteca dell'Ente, l'assistenza, gli aggiornamenti, la documentazione di conformità, e come si comincia. Solo in italiano.
-download_tutorial_bib: Filmato: la Biblioteca dell'Ente, che cos'è, come si attiva, come si usa &mdash; TTR-SUITE per la PA Locale
+download_tutorial_bib: Filmato: la Biblioteca dell'Ente, che cos'è, come si attiva, come si usa
 download_tutorial_bib_desc: Tutorial di cinque minuti con le schermate vere della Suite: che cosa fa la Biblioteca dell'Ente, come si attiva la postazione in due passi (l'aggiornamento da amministratore e il nodo dal menu Biblioteca) e come si condividono regolamenti e modelli di atto con le altre postazioni. Solo in italiano.
-download_pa_brochure: TTR-SUITE per la PA Locale &mdash; Brochure
-download_pa_brochure_desc: Sintesi commerciale della suite per i Comuni italiani: capability, casi d'uso, modello di installazione, licensing.
-download_pa_agid: TTR-SUITE per la PA Locale &mdash; Scheda comparativa AGID
-download_pa_agid_desc: Scheda comparativa firmata digitalmente, redatta secondo lo schema di valutazione AGID per le soluzioni software destinate alla Pubblica Amministrazione italiana.
-downloads_cert_title: Certificazioni
-cert_readme: Documentazione di conformità &mdash; contenuto del set
+download_pa_brochure: Brochure di TTR-SUITE
+download_pa_brochure_desc: Sintesi commerciale per i Comuni italiani: che cosa fa la Suite, casi d'uso, modello di installazione, licenze.
+download_pa_agid: Scheda comparativa
+download_pa_agid_desc: Scheda comparativa a supporto dell'infungibilità (Linee guida AgID in via di adozione), firmata digitalmente.
+downloads_cert_title: Documenti di conformità
+cert_readme: Documentazione di conformità: contenuto del set
 cert_readme_desc: La mappa dell'intero set: quale documento risponde a quale norma, dall'AI Act al GDPR, dalla legge quadro 132/2025 alle linee guida AgID per le pubbliche amministrazioni.
-cert_agid: Scheda comparativa AGID
+cert_agid: Scheda comparativa
 cert_agid_desc: Scheda comparativa per l'istruttoria di acquisizione degli enti pubblici, ai sensi del Codice dell'Amministrazione Digitale (artt. 68-69) e dell'art. 77 del D.Lgs. 36/2023.
 cert_uitexts: Testi pronti per l'interfaccia AI Act
 cert_uitexts_desc: L'informativa dell'art. 50 già scritta in tre misure, completa, banner e piè di pagina, pronta da inserire nell'interfaccia e nei documenti generati.
 cert_multilang: Supporto linguistico
 cert_multilang_desc: Quali lingue il sistema gestisce su tre piani distinti: i documenti che legge e scrive, la chat, e l'interfaccia.
 downloads_cert_description: Il set di conformità completo delle due edizioni di TTR-SUITE, firmato digitalmente dal produttore, nella stessa forma in cui viene consegnato ai clienti: classificazione del rischio e informativa sulla trasparenza ai sensi dell'AI Act, accordo sul trattamento dei dati in regime di Zero Data Retention, scheda tecnica e documenti di corredo.
-cert_group_pa: TTR-SUITE per la PA Locale &mdash; documentazione v7.0
-cert_group_ent: TTR-SUITE Enterprise &mdash; documentazione v7.0
+cert_group_pa: TTR-SUITE PA Locale: documentazione v7.0
+cert_group_ent: TTR-SUITE Enterprise: documentazione v7.0
 cert_classrisk: Classificazione del rischio AI Act
 cert_classrisk_desc: Classificazione formale del rischio ai sensi del Regolamento UE 2024/1689: pratiche vietate dall'art. 5, art. 6 e Allegato III, classificazione finale a Rischio Limitato ai sensi dell'art. 50.
 cert_transparency: Informativa sulla trasparenza AI Act
@@ -266,7 +266,7 @@ download_troubleshooting_desc: Guida di supporto tecnico per installazione e uti
 ttr_suite_user_guide_desc: Guida utente completa per TTR-SUITE - descrizione interfaccia, funzionalità e istruzioni d'uso
 ttr_updater_desc: Programma di installazione automatica TTR-SUITE (scarica e installa automaticamente l'ultima versione)
 ttr_network_diagnostic_desc: Strumento diagnostico di connettività di rete per TTR-SUITE - testa download licenze e accesso API LLM in ambienti aziendali
-copyright_finder_desc: Prima di pubblicare la tua immagine, cerca opere uguali o molto simili e riduci il rischio di violare diritti altrui. Se non emergono corrispondenze rilevanti, IMAGE COPYRIGHT FINDER documenta in un report PDF datato le verifiche svolte in buona fede, così puoi conservare una traccia del controllo e pubblicare l’opera con la tua indicazione di copyright. Lo strumento gratuito offerto da Aviolab AI combina ricerche visuali e semantiche, analisi di immagini e cartelle, descrizioni AI modificabili e un archivio visivo locale. Le ricerche online richiedono chiavi API personali e non garantiscono l’assenza di diritti di terzi.
+copyright_finder_desc: Prima di pubblicare un'immagine, cerchi opere uguali o molto simili e riduca il rischio di violare diritti altrui. Se non emergono corrispondenze rilevanti, IMAGE COPYRIGHT FINDER documenta in un report PDF datato le verifiche svolte in buona fede, così può conservare una traccia del controllo e pubblicare l’opera con la Sua indicazione di copyright. Lo strumento gratuito offerto da Aviolab AI combina ricerche visuali e semantiche, analisi di immagini e cartelle, descrizioni AI modificabili e un archivio visivo locale. Le ricerche online richiedono chiavi API personali e non garantiscono l’assenza di diritti di terzi.
 md_to_docx_desc: Convertitore Markdown a Word - tool drag & drop con integrazione automatica pandoc
 download_english: English
 download_italian: Italiano
@@ -401,11 +401,11 @@ ipl2_hero_cta_explore: Scopra le capacità
 ipl2_pain_title: La pressione sul lavoro legale e di proprietà intellettuale
 ipl2_pain_subtitle: <strong>Tre tipici problemi che sentiamo ripetutamente esporre</strong> da team legali, dipartimenti IP e partner di studi di medie dimensioni.
 ipl2_pain_q1: Ogni settimana mi arrivano sulla scrivania tre nuovi accordi. Esaminarli clausola per clausola voleva dire un giorno ciascuno. Quel giorno non ce l'ho.
-ipl2_pain_attr1: — Responsabile Legale, gruppo industriale di medie dimensioni
+ipl2_pain_attr1: Responsabile Legale, gruppo industriale di medie dimensioni
 ipl2_pain_q2: L'inventore tecnico conosce la tecnologia. Io devo tradurla in claim. La traduzione è dove se ne vanno le settimane.
-ipl2_pain_attr2: — Consulente brevettuale, ufficio trasferimento tecnologico
+ipl2_pain_attr2: Consulente brevettuale, ufficio trasferimento tecnologico
 ipl2_pain_q3: Non posso permettermi uno specialista interno per ogni dominio con cui mi arrivano i clienti, pharma, software, automotive, e tutti si aspettano un livello di output da specialista del dominio.
-ipl2_pain_attr3: — Partner, studio boutique IP
+ipl2_pain_attr3: Partner, studio boutique IP
 ipl2_cap_title: Quattro capacità, calibrate sulla Sua IP policy
 ipl2_cap_subtitle: TTR-SUITE IP Legal legge, <strong>analizza</strong>, redige brevetti e li sottopone a stress test sullo stesso motore. <strong>Ogni agente viene specializzato sulla policy IP interna del Suo gruppo e sulle Sue preferenze prima della consegna</strong>, in modo che l'output sia conforme ai Suoi standard interno da subito.
 ipl2_cap1_title: Analisi documentale
@@ -563,7 +563,7 @@ ipl2_hero_cta_brochure: Brochure (PDF)
 ipl2_hero_cta_docs: Documentazione: GDPR, AI Act
 ipl2_doc_title: Documentazione e certificazioni
 ipl2_doc_subtitle: Documentazione pubblica di compliance per TTR-SUITE Enterprise Edition v7.0: PDF firmati allineati all'AI Act UE (Regolamento 2024/1689) e al GDPR (Regolamento 2016/679). Lo stesso set è condiviso con ogni Cliente Enterprise; gli addenda cliente-specifici (integrazione policy IP, licensing) vengono consegnati separatamente.
-ipl2_doc_brochure_title: Aviolab AI &mdash; Brochure aziendale
+ipl2_doc_brochure_title: Brochure di Aviolab AI
 ipl2_doc_brochure_text: Panoramica aziendale: chi siamo, cosa rilasciamo, come affrontiamo l'AI nell'IP e nel settore pubblico. Disponibile in inglese e italiano.
 ipl2_doc_classrisk_title: Classificazione del rischio AI Act
 ipl2_doc_classrisk_text: Classificazione formale del rischio ai sensi del Regolamento UE 2024/1689: verifica art. 5 (pratiche vietate), art. 6/Allegato III (alto rischio), classificazione finale a Rischio Limitato (art. 50).
@@ -571,14 +571,14 @@ ipl2_doc_classrisk_meta: PDF firmato &middot; 327 KB
 ipl2_doc_transparency_title: Informativa di Trasparenza AI Act
 ipl2_doc_transparency_text: Informativa per gli utenti finali ai sensi dell'art. 50 AI Act: come funziona l'AI, capacità, limitazioni, ruolo dell'operatore umano, dati di accuratezza, regole d'uso.
 ipl2_doc_transparency_meta: PDF firmato &middot; 340 KB
-ipl2_doc_dpa_title: DPA &mdash; Zero Data Retention (GDPR)
+ipl2_doc_dpa_title: DPA: Zero Data Retention (GDPR)
 ipl2_doc_dpa_text: Data Processing Addendum con architettura Zero Data Retention: ruoli GDPR, flussi dati, cifratura, Provider di Inferenza, trasferimenti extra-UE, gestione data breach.
 ipl2_doc_dpa_meta: PDF firmato &middot; 311 KB
 ipl2_doc_techspec_title: Scheda tecnica del sistema AI
 ipl2_doc_techspec_text: Documentazione tecnica ai sensi dell'art. 50 AI Act: architettura, modello AI, sicurezza, capacità (~95% accuratezza, 1200 pagine), limitazioni, human oversight.
 ipl2_doc_techspec_meta: PDF firmato &middot; 351 KB
 ipl2_xlink_title: Cerca la versione per la Pubblica Amministrazione italiana?
-ipl2_xlink_text: Visiti la pagina dedicata di <a href="pa-locale.html">TTR-SUITE per la PA Locale</a>, la nostra suite per i Comuni italiani, consulenza giuridica e amministrativa con AI, fonti normative certificate, fascicolo informatico SInCRO.
+ipl2_xlink_text: Visiti la pagina dedicata a <a href="pa-locale.html">TTR-SUITE PA Locale</a>, la versione per i Comuni italiani: pareri e bozze di atti con la norma vigente citata dalle fonti ufficiali, fascicolo informatico SInCRO.
 ipl2_cta_title: Pronto a trasformare i flussi IP e contrattuali del Suo gruppo?
 ipl2_cta_text: Ci contatti. Le mostriamo il sistema su un Suo caso reale, un NDA, una licenza, una bozza di claim, qualsiasi cosa ha sulla scrivania questa settimana.
 ipl2_cta_btn_form: Usi il form di contatto

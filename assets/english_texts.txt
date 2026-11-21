@@ -210,12 +210,12 @@ downloads_subtitle: Access our resources and client software
 downloads_public_title: Public Resources
 downloads_public_description: Free software and resources available for everyone
 downloads_doc_title: Documentation
-downloads_doc_description: Company brochures and technical documentation
+downloads_doc_description: Brochures, quick guides, videos and technical documentation
 downloads_client_title: Client Area
 downloads_client_description: Dedicated software and resources for our clients
 downloads_client_id_label: Client ID
 downloads_client_id_placeholder: Enter your Client ID
-downloads_access_btn: Access Files
+downloads_access_btn: Access files
 downloads_help_text: If you don't have a Client ID, please contact us at <a href="mailto:info@aviolab.ai">info@aviolab.ai</a>
 downloads_instructions_title: Instructions
 downloads_instruction_1: Files may be password protected. Check your email for access credentials.
@@ -225,34 +225,34 @@ download_brochure: Aviolab AI &mdash; Company brochure
 download_brochure_desc: Company overview: who we are, what we ship, how we approach AI in IP and the public sector. Available in English and Italian.
 download_signed_pdf: Signed PDF
 download_pdf: PDF
-download_quickstart1: Quick start 1: first steps &mdash; TTR-SUITE PA Locale
+download_quickstart1: Quick start 1: first steps
 download_quickstart1_desc: One-page A4 sheet to keep next to the monitor: open one session per case, write the request in plain language, attach documents, export the act to Word, reopen earlier work. Italian only.
-download_quickstart2: Quick start 2: one step further &mdash; TTR-SUITE PA Locale
+download_quickstart2: Quick start 2: one step further
 download_quickstart2_desc: Second A4 sheet for users past the first days: the Court of Auditors and appealability reviewers, reading a whole folder of office documents, phrasings that sharpen the analysis, the SInCRO digital file, remote assistance. Italian only.
-download_quickstart3: Quick start 3: using a document in ChatGPT &mdash; TTR-SUITE PA Locale
+download_quickstart3: Quick start 3: using a document in ChatGPT
 download_quickstart3_desc: Third A4 sheet: taking a document that contains personal data to ChatGPT or another external AI tool. The Suite replaces the data with placeholders on your computer, writes the restore instructions next to the copy, and puts the real values back by itself when the text returns. Italian only.
-download_quickstart4: Quick start 4: the Entity Library &mdash; TTR-SUITE PA Locale
+download_quickstart4: Quick start 4: the Entity Library
 download_quickstart4_desc: Fourth A4 sheet: statute and regulations to cite, act templates to reuse, office acts at hand. Everything stays inside the municipality; statute, regulations and templates are shared across workstations with no server. The agents consult the Library on their own and recheck the cited rules at every reuse.
-download_brochure_film: Video: TTR-SUITE in eight minutes, what it is and how it works &mdash; TTR-SUITE PA Locale
+download_brochure_film: Video: TTR-SUITE in eight minutes, what it is and how it works
 download_brochure_film_desc: Video brochure for a first encounter with the Suite: the workstation and where the data stays, a real question with analysis, legal check and report, the 43 artificial intelligences, personal data replaced by labels before leaving the municipality, the Electronic File, the Entity Library, support, updates, the compliance documentation, and how to get started. Italian only.
-download_tutorial_bib: Video: the Entity Library, what it is, how to switch it on, how to use it &mdash; TTR-SUITE PA Locale
+download_tutorial_bib: Video: the Entity Library, what it is, how to switch it on, how to use it
 download_tutorial_bib_desc: Five-minute tutorial with real screenshots of the Suite: what the Entity Library does, how a workstation is activated in two steps (the updater run as administrator, then the node from the Library menu) and how regulations and act templates are shared with the other workstations. Italian only.
-download_pa_brochure: TTR-SUITE per la PA Locale &mdash; Brochure
+download_pa_brochure: TTR-SUITE brochure
 download_pa_brochure_desc: Commercial overview of the suite for Italian municipalities: capabilities, use cases, installation model, licensing.
-download_pa_agid: TTR-SUITE per la PA Locale &mdash; AGID comparative sheet
-download_pa_agid_desc: Digitally signed comparative sheet drafted under the AGID evaluation scheme for software solutions for the Italian Public Administration.
-downloads_cert_title: Certifications
-cert_readme: Compliance documentation &mdash; contents of the set
+download_pa_agid: Comparative sheet
+download_pa_agid_desc: Digitally signed comparative sheet supporting the non-fungibility assessment (AgID guidelines pending adoption).
+downloads_cert_title: Compliance documents
+cert_readme: Compliance documentation: contents of the set
 cert_readme_desc: Map of the whole set: which document answers which rule, from the AI Act to the GDPR, the Italian AI framework law 132/2025 and the AgID guidelines for public administrations.
-cert_agid: AGID comparative sheet
+cert_agid: Comparative sheet
 cert_agid_desc: Comparative sheet for the procurement process of Italian public bodies, under the Digital Administration Code (artt. 68-69) and art. 77 of Legislative Decree 36/2023.
 cert_uitexts: Ready-made AI Act interface texts
 cert_uitexts_desc: The art. 50 transparency notice already written in three lengths, full, banner and footer, ready to be placed in the interface and in generated documents.
 cert_multilang: Language support
 cert_multilang_desc: Which languages the system handles at three separate levels: the documents it reads and writes, the chat, and the interface itself.
 downloads_cert_description: The full compliance set of the two editions of TTR-SUITE, digitally signed by the producer, exactly as it is handed to customers: AI Act risk classification and transparency notice, GDPR Data Processing Agreement under Zero Data Retention, technical specification and supporting documents.
-cert_group_pa: TTR-SUITE per la PA Locale &mdash; documentation v7.0
-cert_group_ent: TTR-SUITE Enterprise &mdash; documentation v7.0
+cert_group_pa: TTR-SUITE PA Locale: documentation v7.0
+cert_group_ent: TTR-SUITE Enterprise: documentation v7.0
 cert_classrisk: AI Act risk classification
 cert_classrisk_desc: Formal risk classification under EU Regulation 2024/1689: art. 5 prohibited practices, art. 6 and Annex III, final classification at Limited Risk under art. 50.
 cert_transparency: AI Act transparency notice
@@ -576,7 +576,7 @@ ipl2_doc_techspec_title: Technical specification
 ipl2_doc_techspec_text: Technical documentation under AI Act art. 50: architecture, AI model, security, capabilities (~95% accuracy, 1200 pages), limitations, human oversight.
 ipl2_doc_techspec_meta: Signed PDF &middot; 345 KB
 ipl2_xlink_title: Looking for the Italian Public Administration version?
-ipl2_xlink_text: Visit the dedicated page for <a href="pa-locale.html">TTR-SUITE per la PA Locale</a>, our suite for Italian municipalities, legal and administrative consulting AI with certified normative sources and SInCRO-compliant digital filing.
+ipl2_xlink_text: Visit the dedicated page for <a href="pa-locale.html">TTR-SUITE PA Locale</a>, the version for Italian municipalities: legal opinions and draft administrative acts citing the law in force from official sources, SInCRO digital filing.
 ipl2_cta_title: Ready to transform your IP and contract workflows?
 ipl2_cta_text: Talk to us. We'll show you the system on one of your real cases, an NDA, a license, a draft claim, whatever is on your desk this week.
 ipl2_cta_btn_form: Use the contact form
