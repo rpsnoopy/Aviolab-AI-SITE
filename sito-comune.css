@@ -1,0 +1,210 @@
+/* aviolab.ai, sistema grafico 2027: le parti comuni a tutte le pagine.
+   Caratteri, colori, fuoco da tastiera, comandi, cartellino, testata e piede di pagina.
+   - La home carica prima questo file e poi sito.css, che ha i reset di elemento e le sue sezioni.
+   - Le pagine col vecchio aspetto lo caricano dopo styles.css e prima di sito-ponte.css.
+   Qui non ci sono reset validi per tutta la pagina: quelli che servono a testata e piede
+   sono limitati a quei due componenti, perche' le pagine vecchie hanno elenchi e margini propri.
+   Due caratteri ospitati sul sito, senza chiamate a servizi esterni:
+   - Archivo: la voce di Aviolab (titoli, testi, comandi);
+   - Source Serif 4: le parole che non sono nostre (gli atti, il Comune, il funzionario).
+   Il rosso pieno #ff0000 resta solo nel logo; nei testi si usa --rubrica, che sul
+   bianco raggiunge il contrasto richiesto. */
+
+@font-face {
+    font-family: "Archivo";
+    src: url("fonts/archivo/archivo-latin-wdth-normal.woff2") format("woff2");
+    font-weight: 100 900;
+    font-stretch: 62% 125%;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Source Serif 4";
+    src: url("fonts/source-serif-4/source-serif-4-latin-wght-normal.woff2") format("woff2");
+    font-weight: 200 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --carta: #ffffff;
+    --fondo: #f1f5fd;
+    --notte: #0f1b33;
+    --blu: #1b3a93;
+    --tenue-su-blu: #cdd8f3;
+    /* I cinque colori delle schede della serie «Le domande del funzionario». */
+    --serie-1: #e11d2a; --serie-1-fondo: #fadbdd;
+    --serie-2: #7b2d8e; --serie-2-fondo: #eadded;
+    --serie-3: #c98a1b; --serie-3-fondo: #f6ecdb;
+    --serie-4: #0f766e; --serie-4-fondo: #d9e9e8;
+    --serie-5: #1e40af; --serie-5-fondo: #dbe0f2;
+    --filo-su-blu: rgba(255, 255, 255, 0.3);
+    --inchiostro: #0f1b33;
+    --tenue: #4a566e;
+    --filo: #d7deee;
+    --rubrica: #c2001b;
+    --rubrica-scura: #9a0016;
+    --su-notte: #eef1f6;
+    --tenue-su-notte: #b3bdd0;
+    --filo-su-notte: #2d3a57;
+    --evidenza: #ffe9a8;
+
+    --sans: "Archivo", "Helvetica Neue", Arial, sans-serif;
+    --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+
+    --margine: clamp(1.25rem, 4vw, 3rem);
+    --larghezza: 1180px;
+    --spazio-sezione: clamp(3.5rem, 7.5vw, 6.5rem);
+}
+
+:focus-visible { outline: 3px solid var(--rubrica); outline-offset: 3px; border-radius: 2px; }
+.su-notte :focus-visible { outline-color: #ffffff; }
+
+.solo-lettori {
+    position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
+    overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+.salta {
+    position: absolute; left: var(--margine); top: -4rem; z-index: 20;
+    background: var(--carta); color: var(--inchiostro); padding: 0.6rem 1rem;
+    /* Carattere e sottolineatura dichiarati qui: sulle pagine vecchie il corpo e i link sono diversi. */
+    font-family: var(--sans); font-size: 1.125rem; line-height: 1.6;
+    text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.18em;
+}
+.salta:focus { top: 0.5rem; }
+.salta:hover { color: var(--inchiostro); }
+
+.contenitore {
+    width: min(100% - 2 * var(--margine), var(--larghezza));
+    margin-inline: auto;
+}
+
+/* Le parole citate da altri (il Comune) sono in carattere con le grazie. */
+.citato { font-family: var(--serif); font-size: 1.03em; }
+
+.su-notte { background: var(--notte); color: var(--su-notte); }
+/* Il blu dello scudo e del sito: campo pieno, senza sfumature. */
+.su-blu { background: var(--blu); color: #ffffff; }
+.su-blu :focus-visible { outline-color: #ffffff; }
+.su-blu .pulsante { background: #ffffff; color: var(--blu); }
+.su-blu .pulsante:hover { background: var(--tenue-su-blu); }
+
+/* Un cartellino rosso sopra un titolo, come quello del prodotto in apertura. Non e' un comando.
+   Va usato in pochi punti, altrimenti non segnala piu' nulla. */
+.cartellino {
+    display: inline-block; margin-bottom: 1.6rem;
+    background: var(--rubrica); color: #ffffff;
+    padding: 0.5rem 0.95rem 0.55rem; border-radius: 4px;
+    font-size: clamp(1.05rem, 0.92rem + 0.6vw, 1.35rem); font-weight: 680; line-height: 1.2; letter-spacing: 0.01em;
+}
+
+/* ------------------------------------------------------------ comandi */
+.pulsante {
+    display: inline-block;
+    background: var(--rubrica);
+    color: #ffffff;
+    font-family: var(--sans);
+    font-size: 1.0625rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: none;
+    padding: 0.95rem 1.5rem;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.pulsante:hover { background: var(--rubrica-scura); }
+.pulsante--piccolo { font-size: 0.975rem; padding: 0.65rem 1.05rem; }
+.pulsante--contorno {
+    background: transparent;
+    color: var(--inchiostro);
+    box-shadow: inset 0 0 0 1.5px var(--inchiostro);
+}
+.pulsante--contorno:hover { background: var(--inchiostro); color: #ffffff; }
+
+/* ------------------------------------------------------------ testata e piede: reset limitati */
+.testata,
+.piede { font-family: var(--sans); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+.testata { font-size: 1.125rem; }
+.testata,
+.testata *,
+.testata *::before,
+.testata *::after,
+.piede,
+.piede *,
+.piede *::before,
+.piede *::after { box-sizing: border-box; }
+:where(.testata, .piede) :where(h2, p, ul, li) { margin: 0; }
+:where(.testata, .piede) ul { padding: 0; list-style: none; }
+:where(.testata, .piede) img { max-width: 100%; height: auto; display: block; }
+:where(.testata, .piede) a:not(.pulsante),
+:where(.testata, .piede) a:not(.pulsante):hover {
+    color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.18em;
+}
+
+/* ------------------------------------------------------------ testata */
+.testata { position: sticky; top: 0; z-index: 10; }
+.testata__riga {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 1.5rem; min-height: 4.25rem;
+}
+/* Il logo sta a se': scudo e scritta in Verdana Bold, come su carta intestata e nella Suite.
+   La scritta e' un disegno vettoriale, quindi e' identica anche dove Verdana non c'e'. */
+.marchio { display: inline-flex; align-items: center; gap: 0.75rem; text-decoration: none; }
+.marchio__scudo { width: auto; height: 2.5rem; }
+.marchio__scritta { width: auto; height: 1.14rem; }
+
+.menu { display: flex; align-items: center; gap: 1.75rem; }
+.menu__voci { display: flex; gap: 1.6rem; font-size: 0.975rem; font-weight: 500; }
+.menu__voci a { text-decoration: none; white-space: nowrap; }
+.menu__voci a:hover { text-decoration: underline; text-underline-offset: 0.35em; }
+/* La voce della pagina in cui si e': in bianco pieno, piu' marcata e sottolineata. */
+.menu__voci a[aria-current="page"] {
+    color: #ffffff; font-weight: 650;
+    text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 0.35em;
+}
+.menu__apri {
+    display: none;
+    background: transparent; color: inherit; font: inherit; font-size: 0.975rem; font-weight: 600;
+    padding: 0.5rem 0.9rem; border: 1.5px solid var(--tenue-su-notte); border-radius: 4px; cursor: pointer;
+}
+
+@media (max-width: 1080px) {
+    .menu__apri { display: inline-block; }
+    .menu {
+        display: none;
+        position: absolute; left: 0; right: 0; top: 100%;
+        flex-direction: column; align-items: stretch; gap: 0;
+        background: var(--notte); border-top: 1px solid var(--filo-su-notte);
+        padding: 0.5rem var(--margine) 1.5rem;
+    }
+    .menu.aperto { display: flex; }
+    .menu__voci { flex-direction: column; gap: 0; font-size: 1.0625rem; }
+    .menu__voci a { display: block; padding: 0.9rem 0; border-bottom: 1px solid var(--filo-su-notte); }
+    .menu .pulsante { margin-top: 1.25rem; text-align: center; }
+}
+
+/* ------------------------------------------------------------ piede */
+.piede { border-top: 1px solid var(--filo-su-notte); padding-block: 3rem 2rem; font-size: 0.975rem; }
+.piede__griglia { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 4fr) minmax(0, 3fr); gap: 2rem clamp(1.5rem, 4vw, 4rem); }
+.piede__motto { margin-top: 0.9rem; max-width: 24rem; }
+.piede__legale { margin-top: 1.2rem; color: var(--tenue-su-notte); line-height: 1.5; }
+/* Carattere del titoletto dichiarato per intero: sulle pagine vecchie gli h2 hanno altre regole. */
+.piede h2 {
+    margin: 0 0 0.6rem;
+    font-family: var(--sans); font-size: 0.975rem; font-weight: 650; font-stretch: 100%;
+    line-height: 1.6; letter-spacing: normal; text-wrap: wrap;
+}
+.piede li { padding: 0.22rem 0; }
+.piede a { text-decoration: none; }
+.piede a:hover { text-decoration: underline; }
+.piede__fondo {
+    display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem 2rem;
+    margin-top: 2.5rem; padding-top: 1.2rem; border-top: 1px solid var(--filo-su-notte);
+    color: var(--tenue-su-notte); font-size: 0.9rem;
+}
+/* Il numero di versione si legge come il resto della riga (styles.css lo vorrebbe in monospazio). */
+.piede__fondo .version-number { font: inherit; color: inherit; }
+@media (max-width: 820px) { .piede__griglia { grid-template-columns: minmax(0, 1fr); } }

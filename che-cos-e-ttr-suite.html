@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="it" data-solo-italiano>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#1e40af">
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <meta name="theme-color" content="#1b3a93">
     <meta name="description" content="Che cos'è TTR-SUITE PA Locale, spiegata in linguaggio piano: com'è fatta, come si installa, dove restano i dati, la conformità GDPR e AI Act, come vederla al lavoro su un caso del Suo Ente e come si prova senza impegno.">
     <meta name="author" content="Riccardo Parenti">
     <meta name="keywords" content="TTR-SUITE, che cos'è, PA Locale, Comuni, intelligenza artificiale Comuni, agenti AI, atti amministrativi, determine, delibere, GDPR, AI Act, Pieve Ligure, Aviolab AI">
@@ -54,203 +53,130 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <meta name="apple-mobile-web-app-title" content="Aviolab.ai">
 
-    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="fonts/fonts.css">
+    <!-- Sistema grafico 2027: styles.css (vecchio), poi le parti comuni, poi il ponte. -->
+    <link rel="preload" href="fonts/archivo/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="styles.css?v=145">
-    <script defer src="script.js?v=142"></script>
+    <link rel="stylesheet" href="sito-comune.css?v=1">
+    <link rel="stylesheet" href="sito-ponte.css?v=1">
+    <script defer src="js/sito.js?v=1"></script>
 
     <style>
-        /* Stili specifici per che-cos-e-ttr-suite (pagina IT-only) */
-        .cc-hero {
-            background: linear-gradient(135deg, #0f172a 0%, #1e40af 100%);
-            color: #fff;
-            padding: 8rem 0 4rem;
-            text-align: center;
-        }
-        .cc-hero h1 { font-size: 2.8rem; margin-bottom: 1rem; }
-        .cc-hero h1 .highlight { color: #ff0000; }
-        .cc-hero .lead {
-            font-size: 1.2rem;
-            max-width: 860px;
-            margin: 0 auto;
-            color: #e2e8f0;
-            line-height: 1.6;
-        }
-        .cc-hero .lead strong { color: #fff; }
-
-        /* Indice della pagina */
-        .cc-toc {
-            background: #fff;
-            border-bottom: 1px solid #e2e8f0;
-            padding: 1rem 0;
-        }
-        .cc-toc ul {
-            list-style: none; margin: 0; padding: 0;
-            display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem 0.6rem;
-        }
-        .cc-toc a {
-            display: inline-block;
-            padding: 0.35rem 0.9rem;
-            border: 1px solid #e2e8f0; border-radius: 999px;
-            color: #1e40af; font-size: 0.9rem; font-weight: 600; text-decoration: none;
-            transition: background 0.2s ease, color 0.2s ease;
-        }
-        .cc-toc a:hover { background: #1e40af; color: #fff; }
-
-        /* Corpo del testo */
-        .cc-article { max-width: 860px; margin: 0 auto; padding: 3rem 0 2rem; }
-        .cc-article section { scroll-margin-top: 90px; }
-        .cc-article h2 {
-            font-size: 1.75rem; color: #0f172a; line-height: 1.3;
-            margin: 2.8rem 0 0.4rem; padding-bottom: 0.6rem; position: relative;
-        }
-        .cc-article h2::after {
-            content: ""; display: block; width: 60px; height: 4px; background: #ff0000;
-            border-radius: 2px; margin-top: 0.7rem;
-        }
-        .cc-article section:first-child h2 { margin-top: 0; }
-        .cc-article p { color: #334155; line-height: 1.75; margin: 1rem 0; font-size: 1.05rem; }
-        .cc-article p a { color: #1e40af; font-weight: 600; text-decoration: none; }
-        .cc-article p a:hover { text-decoration: underline; }
-        .cc-article ul.cc-plain { margin: 0.6rem 0 1rem 1.3rem; color: #334155; line-height: 1.7; }
-        .cc-article ul.cc-plain li { margin-bottom: 0.4rem; }
-
-        /* Le otto aree */
-        .cc-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0 1.2rem; }
-        .cc-chip {
-            background: #fff; border: 1px solid #e2e8f0; border-radius: 999px;
-            padding: 0.4rem 0.9rem; font-size: 0.92rem; color: #0f172a; font-weight: 600;
-        }
-        .cc-chip i { color: #ff0000; margin-right: 0.35rem; }
-
-        /* Riquadro del numero */
-        .cc-fact {
-            display: grid; grid-template-columns: 140px 1fr; gap: 1.4rem; align-items: center;
-            background: #f8fafc; border: 1px solid #e2e8f0; border-left: 6px solid #ff0000;
-            border-radius: 12px; padding: 1.4rem 1.6rem; margin: 1.6rem 0;
-        }
-        .cc-fact__n { font-size: 3.6rem; font-weight: 800; color: #ff0000; line-height: 1; text-align: center; }
-        .cc-fact__t { color: #334155; line-height: 1.6; }
-        .cc-fact__t strong { color: #0f172a; }
-        .cc-fact__t a { color: #1e40af; font-weight: 600; text-decoration: none; }
-        .cc-fact__t a:hover { text-decoration: underline; }
-
-        /* Riquadro in evidenza */
-        .cc-note {
-            background: #fff; border: 1px solid #e2e8f0; border-left: 4px solid #1e40af;
-            border-radius: 8px; padding: 1rem 1.3rem; margin: 1.2rem 0; color: #334155; line-height: 1.7;
-        }
-        .cc-note strong { color: #0f172a; }
-
-        /* Citazione */
-        .cc-article blockquote {
-            margin: 1.4rem 0; padding: 1rem 1.4rem;
-            background: #f8fafc; border-left: 4px solid #1e40af; border-radius: 6px;
-            color: #0f172a; font-style: italic; line-height: 1.7;
-        }
-        .cc-article blockquote cite {
-            display: block; margin-top: 0.6rem; font-style: normal; font-weight: 600; color: #1e40af; font-size: 0.95rem;
-        }
-
-        /* Schede con link (guide, materiali) */
-        .cc-cards {
-            display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            gap: 1rem; margin: 1.2rem 0 1.4rem;
-        }
-        .cc-card {
-            display: block; background: #fff; border: 1px solid #e2e8f0; border-radius: 10px;
-            padding: 1.1rem 1.2rem; text-decoration: none; color: inherit;
-            transition: box-shadow 0.2s ease, transform 0.2s ease;
-        }
-        .cc-card:hover { box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08); transform: translateY(-2px); }
-        .cc-card i { color: #ff0000; font-size: 1.3rem; margin-bottom: 0.5rem; display: block; }
-        .cc-card h3 { font-size: 1.02rem; color: #0f172a; margin-bottom: 0.35rem; line-height: 1.4; }
-        .cc-card p { color: #475569; font-size: 0.92rem; line-height: 1.55; margin: 0; }
-        .cc-card .cc-card__meta { display: block; margin-top: 0.5rem; font-size: 0.8rem; color: #64748b; text-transform: uppercase; letter-spacing: 1px; }
-
-        /* Elenco dei materiali */
-        .cc-links { list-style: none; margin: 1rem 0 1.4rem; padding: 0; }
-        .cc-links li {
-            display: grid; grid-template-columns: 2rem 1fr; gap: 0.4rem; align-items: start;
-            padding: 0.7rem 0; border-bottom: 1px solid #e2e8f0; color: #334155; line-height: 1.6;
-        }
-        .cc-links li:last-child { border-bottom: none; }
-        .cc-links i { color: #ff0000; padding-top: 0.3rem; }
-        .cc-links a { color: #1e40af; font-weight: 600; text-decoration: none; }
-        .cc-links a:hover { text-decoration: underline; }
-
-        /* Pulsanti dentro il testo */
-        .cc-article .cta-buttons { display: flex; gap: 1rem; flex-wrap: wrap; margin: 1.2rem 0 0.4rem; }
-        .cc-article .btn-secondary { color: #1e40af; border-color: #1e40af; background: transparent; }
-        .cc-article .btn-secondary:hover { background: #1e40af; color: #fff; }
-
-        /* Firma */
+        /* Pagina «Che cos'è TTR-SUITE» (solo in italiano). L'articolo e' fatto di sezioni:
+           il titolo a sinistra e il testo a destra, come «Che cosa fa» nella home. */
+        .cc-article { padding-block: clamp(2.5rem, 5vw, 4rem) clamp(3.5rem, 7vw, 5.5rem); }
+        .cc-article section,
         .cc-sign {
-            margin: 3rem 0 0; padding-top: 1.4rem; border-top: 1px solid #e2e8f0;
-            color: #334155; line-height: 1.6;
+            display: grid;
+            grid-template-columns: minmax(0, 4fr) minmax(0, 7fr);
+            gap: 1rem clamp(1.5rem, 5vw, 4.5rem);
+            align-items: start;
         }
-        .cc-sign strong { color: #0f172a; display: block; font-size: 1.05rem; }
-        .cc-sign a { color: #1e40af; text-decoration: none; }
-        .cc-sign a:hover { text-decoration: underline; }
+        .cc-article section { padding-block: 2rem 2.25rem; border-bottom: 1px solid var(--filo); }
+        .cc-article section:first-child { border-top: 1.5px solid var(--inchiostro); }
+        .cc-article h2 { margin: 0; max-width: 22ch; font-size: clamp(1.35rem, 1rem + 1vw, 1.7rem); line-height: 1.2; }
+        .cc-testo { max-width: 42rem; }
+        .cc-testo > * + * { margin-top: 1.1rem; }
 
-        /* Chiusura */
-        .cc-cta {
-            background: linear-gradient(135deg, #1e40af 0%, #ff0000 100%);
-            color: #fff; text-align: center; padding: 4.5rem 0;
+        /* Le otto aree del Comune: un elenco a due colonne, come l'indice del film nella home. */
+        .cc-aree { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 2rem; border-top: 1px solid var(--filo); }
+        .cc-aree li { padding: 0.5rem 0; border-bottom: 1px solid var(--filo); line-height: 1.4; }
+        .cc-aree li::before {
+            content: ""; display: inline-block; width: 0.55rem; height: 0.55rem; margin-right: 0.8rem;
+            border-radius: 50%; background: var(--blu); vertical-align: 0.08em;
         }
-        .cc-cta h2 { color: #fff; font-size: 2.1rem; margin-bottom: 1rem; }
-        .cc-cta p { font-size: 1.12rem; max-width: 720px; margin: 0 auto 1.8rem; line-height: 1.65; }
-        .cc-cta .btn { margin: 0.4rem; }
 
-        @media (max-width: 768px) {
-            .cc-hero { padding: 6rem 0 3rem; }
-            .cc-hero h1 { font-size: 2rem; }
-            .cc-article { padding: 2rem 0 1.5rem; }
-            .cc-article h2 { font-size: 1.45rem; }
-            .cc-fact { grid-template-columns: 1fr; text-align: center; }
-            .cc-cta h2 { font-size: 1.6rem; }
+        /* Il numero delle intelligenze artificiali. */
+        .cc-fact {
+            display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 0.5rem 1.5rem; align-items: center;
+            padding-block: 1.25rem; border-top: 1.5px solid var(--inchiostro); border-bottom: 1px solid var(--filo);
+        }
+        .cc-fact__n {
+            font-size: clamp(3rem, 2.2rem + 2.5vw, 4.25rem); font-weight: 300; font-stretch: 112%;
+            line-height: 1; color: var(--blu); font-variant-numeric: lining-nums;
+        }
+        .cc-fact__t strong { font-weight: 650; }
+
+        /* Citazione in blocco: l'unico posto della pagina in carattere con le grazie. */
+        .cc-article blockquote {
+            padding-left: clamp(1rem, 2.5vw, 1.5rem); border-left: 4px solid var(--blu);
+            font-size: clamp(1.25rem, 1rem + 0.8vw, 1.5rem); line-height: 1.35;
+        }
+        .cc-article blockquote cite { display: block; margin-top: 0.8rem; font-size: 0.95rem; line-height: 1.45; color: var(--tenue); }
+
+        /* Le guide rapide: schede con un link ciascuna. */
+        .cc-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1rem; }
+        .cc-card {
+            display: block; padding: 1.1rem 1.25rem 1.2rem;
+            border: 1px solid var(--filo); border-radius: 4px; background: var(--carta);
+            color: inherit; text-decoration: none;
+        }
+        .cc-card:hover { color: inherit; border-color: var(--blu); }
+        .cc-card:hover h3 { text-decoration: underline; text-underline-offset: 0.18em; }
+        .cc-card h3 { margin: 0 0 0.35rem; font-size: 1.1rem; font-weight: 650; line-height: 1.3; }
+        .cc-card p { font-size: 0.975rem; line-height: 1.5; color: var(--tenue); }
+        .cc-card__meta { display: block; margin-top: 0.6rem; font-size: 0.875rem; color: var(--tenue); }
+
+        /* Elenco dei materiali. */
+        .cc-links { border-top: 1px solid var(--filo); }
+        .cc-links li { padding: 0.7rem 0; border-bottom: 1px solid var(--filo); line-height: 1.5; }
+
+        .cta-buttons { display: flex; flex-wrap: wrap; gap: 1rem; }
+        .cta-buttons .btn { margin: 0; }
+
+        /* Firma: nella colonna del testo. */
+        .cc-sign { padding-top: 2rem; }
+        .cc-sign .cc-testo { grid-column: 2; }
+        .cc-sign strong { display: block; font-weight: 650; }
+
+        /* Chiusura, sul blu. */
+        .cc-cta { padding-block: var(--spazio-sezione); }
+        .cc-cta h2 { margin: 0; max-width: 22ch; color: #ffffff; }
+        .cc-cta p { margin-top: 1.4rem; max-width: 40rem; font-size: 1.2rem; line-height: 1.55; }
+        .cc-cta .cta-buttons { margin-top: 2.2rem; }
+
+        /* Il titolo della sezione resta in vista mentre si legge il testo. */
+        @media (min-width: 901px) {
+            .cc-article h2 { position: sticky; top: 5.75rem; }
+        }
+        @media (max-width: 900px) {
+            .cc-article section,
+            .cc-sign { grid-template-columns: minmax(0, 1fr); }
+            .cc-sign .cc-testo { grid-column: 1; }
+        }
+        @media (max-width: 420px) {
+            .cc-aree { grid-template-columns: minmax(0, 1fr); }
         }
     </style>
 </head>
-<body class="it">
-    <header id="header">
-        <div class="header-container">
-            <a href="index.html#home" class="logo-link">
-                <img src="assets/logo.png" alt="Aviolab AI Logo">
-                <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+<body>
+    <a class="salta" href="#contenuto">Vai al contenuto</a>
+
+    <header class="testata su-notte">
+        <div class="contenitore testata__riga">
+            <a class="marchio" href="index.html" aria-label="Aviolab AI, pagina iniziale">
+                <img class="marchio__scudo" src="assets/logo-144.png" alt="" width="118" height="144">
+                <img class="marchio__scritta" src="assets/logo-scritta.svg" alt="" width="170" height="18">
             </a>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="index.html#mission" class="nav-link">Mission</a></li>
-                    <li><a href="index.html#products" class="nav-link">Soluzioni</a></li>
-                    <li><a href="pa-locale.html" class="nav-link active">PA Locale</a></li>
-                    <li><a href="ip-legal.html" class="nav-link">IP Legal</a></li>
-                    <li><a href="index.html#about" class="nav-link">Chi siamo</a></li>
-                    <li><a href="index.html#contact" class="nav-link">Contatti</a></li>
-                    <li><a href="dicono-di-noi.html" class="nav-link">Dicono di noi</a></li>
-                    <li><a href="downloads.html" class="nav-link" style="color: var(--highlight-color) !important; font-weight: bold;">Download</a></li>
+            <button class="menu__apri" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+            <nav class="menu" id="menu" aria-label="Sezioni del sito">
+                <ul class="menu__voci">
+                    <li><a href="pa-locale.html" data-i18n="m_prodotto">Il prodotto</a></li>
+                    <li><a href="pa-locale-in-azione.html" data-i18n="m_lavora">Come lavora</a></li>
+                    <li><a href="che-cos-e-ttr-suite.html" aria-current="page" data-i18n="m_semplice">In parole semplici</a></li>
+                    <li><a href="dicono-di-noi.html" data-i18n="m_stampa">Dicono di noi</a></li>
+                    <li><a href="downloads.html" data-i18n="m_download">Download</a></li>
                 </ul>
+                <a class="pulsante pulsante--piccolo" href="index.html#contact" data-i18n="azione_prova">Chieda una prova gratuita</a>
             </nav>
-            <div class="language-selector">
-                <div class="lang-option" data-lang="en">
-                    <img src="assets/images/flags/flag-gb.svg" alt="English" class="flag-icon" loading="lazy" decoding="async"> EN
-                </div>
-                <div class="lang-option" data-lang="it">
-                    <img src="assets/images/flags/flag-it.svg" alt="Italiano" class="flag-icon" loading="lazy" decoding="async"> IT
-                </div>
-            </div>
-            <div class="mobile-menu-btn">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
         </div>
     </header>
 
-    <!-- HERO -->
-    <section class="cc-hero">
+    <main id="contenuto">
+
+    <!-- APERTURA -->
+    <section class="apertura-pagina su-blu">
         <div class="container">
-            <h1>Che cos'è <span class="highlight">TTR-SUITE</span></h1>
+            <h1>Che cos'è TTR-SUITE</h1>
             <p class="lead">
                 Una spiegazione in linguaggio piano, per chi deve capire in pochi minuti di cosa si tratta
                 e decidere se vale la pena vederla al lavoro. Il prodotto è <strong>TTR-SUITE PA Locale</strong>,
@@ -260,7 +186,7 @@
     </section>
 
     <!-- INDICE -->
-    <nav class="cc-toc" aria-label="Indice della pagina">
+    <nav class="indice-pagina" aria-label="Indice della pagina">
         <div class="container">
             <ul>
                 <li><a href="#di-cosa-si-tratta">Di cosa si tratta</a></li>
@@ -285,6 +211,7 @@
 
             <section id="di-cosa-si-tratta">
                 <h2>Di cosa si tratta</h2>
+                <div class="cc-testo">
                 <p>
                     TTR-SUITE PA Locale è un assistente giuridico e amministrativo da scrivania, pensato per i Comuni
                     sotto i 5.000 abitanti e costruito attorno agli atti amministrativi e a ciò che li accompagna:
@@ -295,10 +222,12 @@
                     citando articoli e commi, redige la bozza dell'atto, la sottopone a una revisione indipendente e prepara
                     il fascicolo. Il funzionario resta l'unico responsabile della decisione e della firma.
                 </p>
+                </div>
             </section>
 
             <section id="come-e-fatta">
                 <h2>Com'è fatta: gli agenti</h2>
+                <div class="cc-testo">
                 <p>
                     È fatta di «agenti», cioè configurazioni di intelligenza artificiale distinte e indipendenti, ciascuna con
                     un mandato preciso, una base normativa propria e regole su ciò che può e non può fare. Non sono programmi
@@ -309,16 +238,16 @@
                     Il cuore è un gruppo di agenti specialisti di funzione amministrativa. Per ciascuna delle otto aree del
                     Comune c'è almeno un agente che redige e uno che revisiona:
                 </p>
-                <div class="cc-chips">
-                    <span class="cc-chip"><i class="fas fa-building"></i>Segreteria</span>
-                    <span class="cc-chip"><i class="fas fa-users-cog"></i>Personale</span>
-                    <span class="cc-chip"><i class="fas fa-calculator"></i>Ragioneria</span>
-                    <span class="cc-chip"><i class="fas fa-hard-hat"></i>Ufficio Tecnico</span>
-                    <span class="cc-chip"><i class="fas fa-id-card"></i>Servizi Demografici</span>
-                    <span class="cc-chip"><i class="fas fa-hand-holding-heart"></i>Servizi Sociali</span>
-                    <span class="cc-chip"><i class="fas fa-graduation-cap"></i>Istruzione e Cultura</span>
-                    <span class="cc-chip"><i class="fas fa-shield-alt"></i>Polizia Locale</span>
-                </div>
+                <ul class="cc-aree">
+                    <li>Segreteria</li>
+                    <li>Personale</li>
+                    <li>Ragioneria</li>
+                    <li>Ufficio Tecnico</li>
+                    <li>Servizi Demografici</li>
+                    <li>Servizi Sociali</li>
+                    <li>Istruzione e Cultura</li>
+                    <li>Polizia Locale</li>
+                </ul>
                 <p>
                     A questi si aggiungono revisori indipendenti di seconda battuta, fra cui uno orientato al controllo
                     contabile della Corte dei Conti e uno al rischio di impugnazione.
@@ -332,15 +261,17 @@
                 <div class="cc-fact">
                     <div class="cc-fact__n">43</div>
                     <div class="cc-fact__t">
-                        <strong>Sono, in tutto, le «43 intelligenze artificiali» di cui parla il comunicato del Comune di Pieve Ligure:</strong>
+                        <strong>In tutto sono 43 intelligenze artificiali:</strong>
                         24 agenti specialisti e 19 funzioni cognitive.
                         <a href="pa-locale.html#agenti">Il dettaglio degli agenti e delle funzioni</a> è nella pagina del prodotto.
                     </div>
+                </div>
                 </div>
             </section>
 
             <section id="prodotto-standard">
                 <h2>Un prodotto standard</h2>
+                <div class="cc-testo">
                 <p>
                     Si installa sulla postazione del funzionario, non richiede progetti di integrazione con il gestionale e
                     riceve gli aggiornamenti del software e degli agenti dal nostro canale di distribuzione.
@@ -359,10 +290,12 @@
                     Il fascicolo informatico di ogni pratica si esporta in formato standard (UNI 11386, SInCRO), quindi è
                     protocollabile e archiviabile nel gestionale che l'Ente già usa.
                 </p>
+                </div>
             </section>
 
             <section id="localizzazione">
                 <h2>La localizzazione sull'Ente</h2>
+                <div class="cc-testo">
                 <p>
                     È prevista una personalizzazione alla prima messa in servizio, in un passo di localizzazione in cui si
                     registrano l'Ente e i suoi dati IPA, la popolazione, gli attributi del territorio (zona sismica, zona
@@ -372,25 +305,29 @@
                     Comune generico.
                 </p>
                 <p>
-                    La normativa regionale è invece una configurazione a parte, per territorio: oggi è pronta quella ligure.
-                    Le altre si preparano quando un Ente decide di provare la Suite.
+                    La normativa regionale segue il territorio dell'Ente: oggi la Suite lavora con quella della Liguria e
+                    della Lombardia, e quella del Piemonte è prevista entro la fine del 2026.
                 </p>
+                </div>
             </section>
 
             <section id="gdpr-ai-act">
                 <h2>GDPR e AI Act</h2>
+                <div class="cc-testo">
                 <p>
                     La documentazione di conformità è pubblica e la teniamo aggiornata nell'area download del sito:
                     scheda tecnica del sistema, classificazione del rischio e informativa di trasparenza ai sensi
                     dell'AI Act, DPA con Zero Data Retention ai sensi del GDPR.
                 </p>
                 <div class="cta-buttons">
-                    <a href="downloads.html#certificazioni" class="btn btn-secondary"><i class="fas fa-file-shield"></i> Documentazione GDPR e AI Act</a>
+                    <a href="downloads.html#certificazioni" class="btn btn-secondary">Documentazione GDPR e AI Act</a>
+                </div>
                 </div>
             </section>
 
             <section id="facile">
                 <h2>Una cosa che conta parecchio: è molto facile da usare</h2>
+                <div class="cc-testo">
                 <p>
                     Sotto il cofano c'è parecchia tecnologia, ma a chi lavora bastano davvero poche nozioni per sfruttare a
                     fondo il novanta per cento delle funzioni. Le guide rapide sono quattro, una pagina A4 ciascuna, poche voci
@@ -410,64 +347,60 @@
                 </p>
                 <div class="cc-cards">
                     <a href="assets/downloads/ttr-suite-guida-rapida-1.pdf" class="cc-card" target="_blank" rel="noopener">
-                        <i class="fas fa-rocket"></i>
                         <h3>Guida rapida 1</h3>
                         <p>I primi passi: una sessione per ogni pratica, la richiesta scritta in italiano corrente, gli allegati, l'esportazione dell'atto in Word.</p>
                         <span class="cc-card__meta">PDF, una pagina A4</span>
                     </a>
                     <a href="assets/downloads/ttr-suite-guida-rapida-2.pdf" class="cc-card" target="_blank" rel="noopener">
-                        <i class="fas fa-graduation-cap"></i>
                         <h3>Guida rapida 2</h3>
                         <p>Un passo avanti: i revisori Corte dei Conti e Impugnabilità, la lettura di un'intera cartella dell'ufficio, il Fascicolo Informatico SInCRO, la richiesta di assistenza.</p>
                         <span class="cc-card__meta">PDF, una pagina A4</span>
                     </a>
                     <a href="assets/downloads/ttr-suite-guida-rapida-3.pdf" class="cc-card" target="_blank" rel="noopener">
-                        <i class="fas fa-user-secret"></i>
                         <h3>Guida rapida 3</h3>
                         <p>Portare in uno strumento di IA esterno un documento con dati personali: la Suite li sostituisce con segnaposto sul computer dell'Ente e li rimette da sola quando il testo torna.</p>
                         <span class="cc-card__meta">PDF, una pagina A4</span>
                     </a>
                     <a href="assets/downloads/ttr-suite-guida-rapida-4.pdf" class="cc-card" target="_blank" rel="noopener">
-                        <i class="fas fa-book"></i>
                         <h3>Guida rapida 4</h3>
                         <p>La Biblioteca dell'Ente: regolamenti da citare e modelli di atto da riusare, condivisi fra le postazioni del Comune; atti dell'ufficio a portata di mano. Gli agenti la consultano da soli e ricontrollano le norme a ogni riuso.</p>
                         <span class="cc-card__meta">PDF, una pagina A4</span>
                     </a>
                 </div>
+                </div>
             </section>
 
             <section id="materiali">
                 <h2>Dove trovare le informazioni</h2>
+                <div class="cc-testo">
                 <ul class="cc-links">
-                    <li><i class="fas fa-landmark"></i><span>Il comunicato del Comune di Pieve Ligure, nel testo integrale:
-                        <a href="https://mailchi.mp/b6b0a3531dc2/ilcomune-di-pieve-ligure-adotta-lintelligenza-artificiale-pratiche-pi-rapide-e-pi-tempo-per-i-cittadini-e-le-cittadine" target="_blank" rel="noopener noreferrer">Il Comune di Pieve Ligure adotta l'intelligenza artificiale</a></span></li>
-                    <li><i class="fas fa-newspaper"></i><span>La pagina <a href="dicono-di-noi.html">Dicono di noi</a>, con il comunicato e la rassegna stampa che lo riprende; la aggiorniamo man mano che escono nuovi articoli.</span></li>
-                    <li><i class="fas fa-photo-film"></i><span>Una sessione di lavoro reale, in screenshot commentati: <a href="pa-locale-in-azione.html">TTR-SUITE in azione</a>. Risale a qualche versione fa, ma dà bene l'idea.</span></li>
-                    <li><i class="fas fa-file-lines"></i><span>La <a href="pa-locale.html">pagina del prodotto</a>, con il catalogo degli agenti, gli esempi di domanda e risposta e la documentazione.</span></li>
-                    <li><i class="fas fa-file-signature"></i><span>La <a href="assets/downloads/ttr-suite-pa-scheda-agid.pdf" target="_blank" rel="noopener">scheda comparativa</a> a supporto dell'infungibilità (Linee guida AgID in via di adozione).</span></li>
+                    <li>Il comunicato del Comune di Pieve Ligure, nel testo integrale:
+                        <a href="https://mailchi.mp/b6b0a3531dc2/ilcomune-di-pieve-ligure-adotta-lintelligenza-artificiale-pratiche-pi-rapide-e-pi-tempo-per-i-cittadini-e-le-cittadine" target="_blank" rel="noopener noreferrer">Il Comune di Pieve Ligure adotta l'intelligenza artificiale</a></li>
+                    <li>La pagina <a href="dicono-di-noi.html">Dicono di noi</a>, con il comunicato e la rassegna stampa che lo riprende; la aggiorniamo man mano che escono nuovi articoli.</li>
+                    <li>Una sessione di lavoro reale, in screenshot commentati: <a href="pa-locale-in-azione.html">TTR-SUITE in azione</a>. Risale a qualche versione fa, ma dà bene l'idea.</li>
+                    <li>La <a href="pa-locale.html">pagina del prodotto</a>, con il catalogo degli agenti, gli esempi di domanda e risposta e la documentazione.</li>
+                    <li>La <a href="assets/downloads/ttr-suite-pa-scheda-agid.pdf" target="_blank" rel="noopener">scheda comparativa</a> a supporto dell'infungibilità (Linee guida AgID in via di adozione).</li>
                 </ul>
+                </div>
             </section>
 
             <section id="sessione">
                 <h2>Come vederla al lavoro</h2>
+                <div class="cc-testo">
                 <p>
                     Bastano 45-60 minuti in videoconferenza su un caso scelto dal Suo Ente, anche ipotetico, anche senza
                     comunicarcelo prima. Vedrà come il sistema ragiona, quali fonti cita, dove si ferma e cosa chiede al
                     funzionario. È il modo più onesto che abbiamo per far capire cosa fa.
                 </p>
-                <div class="cc-note">
-                    <strong>Se il Suo Ente non è in Liguria.</strong> La versione in produzione è configurata sulla normativa
-                    regionale ligure. Preparare un'altra configurazione regionale richiede tempo e non vogliamo farLa
-                    aspettare: la sessione si tiene sul Suo caso risolto come se il Comune fosse in Liguria. Il risultato non
-                    sarà spendibile sul piano regionale, ma lo scopo è vedere il metodo, non ottenere un atto pronto.
-                </div>
                 <div class="cta-buttons">
-                    <a href="index.html#contact" class="btn btn-primary"><i class="fas fa-calendar-check"></i> Proponga un caso e due o tre finestre</a>
+                    <a href="index.html#contact" class="btn btn-primary">Proponga un caso e due o tre finestre</a>
+                </div>
                 </div>
             </section>
 
             <section id="pieve">
                 <h2>I risultati a Pieve Ligure</h2>
+                <div class="cc-testo">
                 <p>
                     Il Comune di Pieve Ligure, nella Città Metropolitana di Genova, ha adottato la Suite «dopo una
                     sperimentazione conclusa con esito positivo» condotta in Segreteria Generale, Polizia Locale e Ufficio
@@ -485,10 +418,12 @@
                     La revisione indipendente serve proprio a far emergere, prima della firma, ciò che altrimenti finirebbe
                     nell'atto. Nella sessione raccontiamo volentieri i casi concreti, numeri compresi.
                 </p>
+                </div>
             </section>
 
             <section id="memoria-ente">
                 <h2>La memoria dell'Ente: la Biblioteca</h2>
+                <div class="cc-testo">
                 <p>
                     Dall'autunno 2026 la Suite ha anche la memoria dell'Ente: la Biblioteca dell'Ente, in tre parti.
                 </p>
@@ -515,10 +450,12 @@
                     spiegato nella <a href="downloads.html">Guida rapida 4 e nel filmato di cinque minuti</a>,
                     entrambi nell'area Download.
                 </p>
+                </div>
             </section>
 
             <section id="costi">
                 <h2>Sui costi</h2>
+                <div class="cc-testo">
                 <p>
                     È un prodotto: il prezzo è un listino, non un preventivo. Il criterio è un canone di servizio annuo per
                     l'intero Ente, non per postazione, proporzionato alla dimensione reale dell'Ente e comprensivo di uso,
@@ -531,80 +468,81 @@
                     richiesta, di norma a valle della sessione. Per le realtà che servono più Comuni, come Unioni, consorzi
                     e società in house, la struttura del listino si definisce insieme, su basi adatte a una realtà aggregata.
                 </p>
+                </div>
             </section>
 
             <section id="prova">
                 <h2>Il passo dopo, se la sessione La convince</h2>
+                <div class="cc-testo">
                 <p>
                     Un'installazione di prova di due o tre settimane, nel formato già sperimentato a Pieve Ligure: fino a
                     tre funzionari scelti dall'Ente, pratiche scelte dall'Ente, costi di inferenza a nostro carico, a titolo
                     gratuito e senza procedura di affidamento. Bastano una lettera di accettazione e la nomina a responsabile
                     del trattamento ai sensi dell'art. 28 GDPR, che prepariamo noi.
                 </p>
-                <p>
-                    Se l'Ente è fuori Liguria, a quel punto prepariamo la configurazione regionale e la prova si fa su quella.
-                </p>
+                </div>
             </section>
 
             <div class="cc-sign">
+                <div class="cc-testo">
                 <strong>Riccardo Parenti</strong>
                 Founder &amp; Technical Lead, Aviolab AI<br>
                 <a href="mailto:r.parenti@aviolab.ai">r.parenti@aviolab.ai</a> · <a href="tel:+393356050950">+39 335 605 0950</a>
+                </div>
             </div>
 
         </article>
     </div>
 
     <!-- CHIUSURA -->
-    <section class="cc-cta" id="contatti">
+    <section class="cc-cta su-blu" id="contatti">
         <div class="container">
             <h2>Scelga un caso, il resto lo facciamo noi</h2>
             <p>
                 Una sessione di 45-60 minuti in videoconferenza su una pratica del Suo Ente, senza impegno.
                 Ci indichi due o tre finestre possibili.
             </p>
-            <a href="index.html#contact" class="btn btn-primary"><i class="fas fa-envelope"></i> Richieda la sessione</a>
-            <a href="pa-locale-in-azione.html" class="btn btn-secondary"><i class="fas fa-photo-film"></i> Veda TTR-SUITE in azione</a>
+            <div class="cta-buttons">
+                <a href="index.html#contact" class="btn btn-primary">Richieda la sessione</a>
+                <a href="pa-locale-in-azione.html" class="btn btn-secondary">Veda TTR-SUITE in azione</a>
+            </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <a href="index.html#home" class="logo-link">
-                        <img src="assets/logo.png" alt="Aviolab AI Logo">
-                        <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+    </main>
+
+    <footer class="piede su-notte">
+        <div class="contenitore">
+            <div class="piede__griglia">
+                <div>
+                    <a class="marchio" href="index.html" aria-label="Aviolab AI, pagina iniziale">
+                        <img class="marchio__scudo" src="assets/logo-144.png" alt="" width="118" height="144" loading="lazy">
+                        <img class="marchio__scritta" src="assets/logo-scritta.svg" alt="" width="170" height="18">
                     </a>
-                    <p>AI applicata al diritto e alla Pubblica Amministrazione</p>
-                    <div class="legal-info">
-                        <p>AVIOLAB AI DI PARENTI RICCARDO</p>
-                        <p>Via XXV Aprile 251</p>
-                        <p>IT16031 Pieve Ligure (GE)</p>
-                        <p>P.IVA 02997110990</p>
-                        <p>REA GE - 525625</p>
-                    </div>
+                    <p class="piede__motto" data-i18n="piede_motto">Intelligenza artificiale per i pareri e gli atti dei Comuni.</p>
+                    <p class="piede__legale">AVIOLAB AI DI PARENTI RICCARDO<br>Via XXV Aprile 251, 16031 Pieve Ligure (GE)<br>P.IVA 02997110990, REA GE 525625</p>
                 </div>
-                <div class="footer-links">
-                    <h3>Soluzioni</h3>
+                <div>
+                    <h2 data-i18n="piede_prodotto">TTR-SUITE PA Locale</h2>
                     <ul>
-                        <li><a href="pa-locale.html">TTR-SUITE PA Locale</a></li>
-                        <li><a href="che-cos-e-ttr-suite.html">Che cos'è TTR-SUITE</a></li>
-                        <li><a href="pa-locale-in-azione.html">TTR-SUITE in azione</a></li>
-                        <li><a href="ip-legal.html">TTR-SUITE IP Legal</a></li>
+                        <li><a href="pa-locale.html">Il prodotto</a></li>
+                        <li><a href="pa-locale-in-azione.html">Come lavora</a></li>
+                        <li><a href="che-cos-e-ttr-suite.html">In parole semplici</a></li>
+                        <li><a href="le-domande-del-funzionario.html">Le domande del funzionario</a></li>
                         <li><a href="dicono-di-noi.html">Dicono di noi</a></li>
                         <li><a href="downloads.html">Download</a></li>
-                        <li><a href="index.html#contact">Contatti</a></li>
                     </ul>
                 </div>
-                <div class="footer-social">
-                    <h3>Resti in contatto</h3>
-                    <p><a href="mailto:info@aviolab.ai" style="color:inherit;"><i class="fas fa-envelope"></i> info@aviolab.ai</a></p>
-                    <p><a href="https://www.aviolab.ai" target="_blank" style="color:inherit;"><i class="fas fa-globe"></i> www.aviolab.ai</a></p>
+                <div>
+                    <h2 data-i18n="piede_altro">Aviolab AI</h2>
+                    <ul>
+                        <li><a href="ip-legal.html">TTR-SUITE IP Legal</a></li>
+                        <li><a href="privacy.html">Privacy</a></li>
+                        <li><a href="mailto:info@aviolab.ai">info@aviolab.ai</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="footer-bottom">
+            <div class="piede__fondo">
                 <p>&copy; 2026 Aviolab AI. Tutti i diritti riservati.</p>
                 <p class="version-number">v1.3.43</p>
             </div>

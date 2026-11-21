@@ -1,0 +1,157 @@
+/* aviolab.ai: il ponte dal vecchio aspetto (styles.css) al sistema grafico 2027.
+   Lo caricano solo le pagine che hanno ancora styles.css, in quest'ordine:
+     styles.css, sito-comune.css, sito-ponte.css, poi il <style> della pagina.
+   Porta verso il nuovo le variabili e le classi di styles.css senza riscrivere le pagine,
+   e offre due componenti per le pagine interne: la fascia d'apertura e l'indice della pagina.
+   Qui solo regole che valgono per piu' pagine: cio' che riguarda una pagina sola
+   va nel <style> di quella pagina. */
+
+/* ------------------------------------------------------------ le variabili vecchie, sui valori nuovi */
+:root {
+    --primary-color: var(--blu);
+    --secondary-color: var(--blu);
+    --accent-color: var(--blu);
+    --light-color: var(--carta);
+    --dark-color: var(--inchiostro);
+    --gray-color: var(--tenue);
+    --light-gray: var(--filo);
+    --font-primary: var(--sans);
+    --font-secondary: var(--sans);
+    --transition: none;
+    --shadow: none;
+    --border-radius: 4px;
+    --highlight-color: var(--rubrica);
+    --one-click-color: var(--rubrica);
+}
+
+/* La testata nuova non e' fissa ma «sticky»: un'ancora si ferma appena sotto di lei. */
+html { scroll-padding-top: 5.5rem; }
+
+body {
+    font-family: var(--sans);
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: var(--inchiostro);
+    background: var(--carta);
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Sopra a ogni elemento posizionato delle pagine vecchie, come la testata di prima;
+   il link «Vai al contenuto» resta sopra alla testata. */
+.testata { z-index: 1000; }
+.salta { z-index: 1001; }
+
+/* ------------------------------------------------------------ titoli, come nella home */
+h1, h2, h3 {
+    font-family: var(--sans);
+    font-weight: 620;
+    font-stretch: 106%;
+    letter-spacing: -0.012em;
+    text-wrap: balance;
+}
+h1 { font-size: clamp(2.1rem, 1.1rem + 2.9vw, 3.3rem); font-weight: 640; font-stretch: 108%; line-height: 1.05; letter-spacing: -0.02em; }
+h2 { font-size: clamp(1.75rem, 1.1rem + 2.1vw, 2.75rem); line-height: 1.12; }
+h3 { font-size: 1.3rem; line-height: 1.25; }
+
+/* Le parole altrui (citazioni) in carattere con le grazie, mai in corsivo finto:
+   Source Serif 4 e' ospitato solo in tondo. La fonte della citazione resta nella nostra voce. */
+blockquote { font-family: var(--serif); font-style: normal; }
+blockquote cite { font-family: var(--sans); font-style: normal; }
+
+/* I link nel testo sono sottolineati e prendono il colore del testo, come nella home.
+   Valgono dentro <main>; i link con una classe (pulsanti, schede) restano alle loro regole.
+   Specificita' bassa apposta: una regola della pagina con una classe le scavalca. */
+:where(main) a:not([class]) {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.18em;
+}
+:where(main) a:not([class]):hover { color: inherit; text-decoration-thickness: 2px; }
+
+/* Niente barrette sotto i titoli, niente parole colorate con l'ombra. */
+.underline { display: none; }
+.highlight,
+.highlight-text { color: inherit; text-shadow: none; font-weight: inherit; white-space: normal; }
+
+/* ------------------------------------------------------------ impaginazione */
+/* Il contenitore vecchio si allinea a quello nuovo: stessi margini della testata e del piede. */
+.container {
+    width: min(100% - 2 * var(--margine), var(--larghezza));
+    max-width: none;
+    margin-inline: auto;
+    padding-inline: 0;
+}
+.section { padding-block: var(--spazio-sezione); }
+.section-header { text-align: left; margin-bottom: clamp(2rem, 4vw, 3rem); }
+
+/* ------------------------------------------------------------ i pulsanti: .btn come .pulsante */
+.btn {
+    display: inline-block;
+    font-family: var(--sans);
+    font-size: 1.0625rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    padding: 0.95rem 1.5rem;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: none;
+}
+.btn:hover { transform: none; }
+.btn-primary { background: var(--rubrica); color: #ffffff; }
+.btn-primary:hover { background: var(--rubrica-scura); color: #ffffff; box-shadow: none; }
+.btn-secondary {
+    background: transparent; color: var(--inchiostro);
+    border: 0; box-shadow: inset 0 0 0 1.5px var(--inchiostro);
+}
+.btn-secondary:hover { background: var(--inchiostro); color: #ffffff; box-shadow: inset 0 0 0 1.5px var(--inchiostro); }
+/* Sul blu, come nella home: il pulsante pieno e' bianco con la scritta blu, quello a contorno e' bianco. */
+.su-blu .btn-primary { background: #ffffff; color: var(--blu); }
+.su-blu .btn-primary:hover { background: var(--tenue-su-blu); color: var(--blu); }
+.su-blu .btn-secondary { color: #ffffff; box-shadow: inset 0 0 0 1.5px #ffffff; }
+.su-blu .btn-secondary:hover { background: #ffffff; color: var(--blu); box-shadow: inset 0 0 0 1.5px #ffffff; }
+
+/* styles.css colora i link al passaggio del mouse: i pulsanti nuovi tengono il loro colore. */
+.pulsante:hover { color: #ffffff; }
+.su-blu .pulsante:hover { color: var(--blu); }
+
+/* ------------------------------------------------------------ la fascia d'apertura delle pagine interne
+   <section class="apertura-pagina su-blu"><div class="contenitore">
+       <h1>…</h1> <p class="lead">…</p>
+   </div></section>
+   Blu pieno, titolo bianco allineato a sinistra, nessuna parola in rosso. Un'eventuale
+   riga sopra il titolo diventa un <p class="cartellino">. */
+.apertura-pagina { padding-block: clamp(2.75rem, 6vw, 5rem) clamp(3rem, 6vw, 4.5rem); text-align: left; }
+.apertura-pagina h1 { margin: 0; max-width: 24ch; color: #ffffff; }
+.apertura-pagina .lead { margin: 1.5rem 0 0; max-width: 44rem; font-size: 1.2rem; line-height: 1.55; color: #ffffff; }
+.apertura-pagina .lead strong { color: inherit; font-weight: 650; }
+.apertura-pagina a:not([class]) { color: inherit; text-decoration: underline; text-underline-offset: 0.18em; }
+
+/* ------------------------------------------------------------ l'indice della pagina, sotto l'apertura
+   <nav class="indice-pagina" aria-label="Indice della pagina"><div class="contenitore">
+       <ol> o <ul> con un link per voce; un eventuale numero in <span class="num">.
+   </div></nav> */
+.indice-pagina { background: var(--carta); border-bottom: 1px solid var(--filo); }
+.indice-pagina ol,
+.indice-pagina ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+    gap: 0 clamp(1.25rem, 3vw, 2.5rem);
+    margin: 0;
+    padding: 1.25rem 0 1.5rem;
+    list-style: none;
+}
+.indice-pagina li { border-top: 1px solid var(--filo); }
+.indice-pagina a {
+    display: block; padding: 0.55rem 0;
+    color: var(--inchiostro); font-size: 0.975rem; font-weight: 550; line-height: 1.35; text-decoration: none;
+}
+.indice-pagina a:hover { color: var(--inchiostro); text-decoration: underline; text-underline-offset: 0.18em; }
+.indice-pagina .num { margin-right: 0.35rem; color: var(--blu); font-weight: 650; font-variant-numeric: tabular-nums; }
+@media (max-width: 700px) {
+    .indice-pagina ol,
+    .indice-pagina ul { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}

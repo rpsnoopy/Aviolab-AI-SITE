@@ -402,7 +402,7 @@ TTR-SUITE PA Locale è un assistente giuridico e amministrativo da scrivania, pe
 
 Il cuore è un gruppo di agenti specialisti di funzione amministrativa. Per ciascuna delle otto aree del Comune (Segreteria, Personale, Ragioneria, Ufficio Tecnico, Servizi Demografici, Servizi Sociali, Istruzione e Cultura, Polizia Locale) c'è almeno un agente che redige e uno che revisiona. A questi si aggiungono revisori indipendenti di seconda battuta, fra cui uno orientato al controllo contabile della Corte dei Conti e uno al rischio di impugnazione.
 
-Attorno al cuore lavorano alcuni agenti di supporto, che smistano le richieste e pseudonimizzano i documenti da portare fuori dal sistema, insieme a una serie di funzioni di controllo. Alcune si appoggiano a un modello linguistico, altre sono cognitive e deterministiche, cioè codice che a parità di dati dà sempre la stessa risposta: la Suite le combina per arrivare al risultato. Sono, in tutto, le «43 intelligenze artificiali» di cui parla il comunicato del Comune di Pieve Ligure: 24 agenti specialisti e 19 funzioni cognitive.
+Attorno al cuore lavorano alcuni agenti di supporto, che smistano le richieste e pseudonimizzano i documenti da portare fuori dal sistema, insieme a una serie di funzioni di controllo. Alcune si appoggiano a un modello linguistico, altre sono cognitive e deterministiche, cioè codice che a parità di dati dà sempre la stessa risposta: la Suite le combina per arrivare al risultato. In tutto sono 43 intelligenze artificiali: 24 agenti specialisti e 19 funzioni cognitive.
 
 ## Un prodotto standard
 
@@ -410,7 +410,7 @@ Si installa sulla postazione del funzionario, non richiede progetti di integrazi
 
 ## La localizzazione sull'Ente
 
-Alla prima messa in servizio un passo di localizzazione registra l'Ente e i suoi dati IPA, la popolazione, gli attributi del territorio (zona sismica, zona climatica, vincoli paesaggistici e idrogeologici, carattere montano, costiero o turistico), gli uffici e i loro responsabili. La procedura è condotta da un agente apposito, che chiede conferma a chi installa prima di salvare i dati raccolti. Da quel momento ogni risposta è riferita a quel Comune e non a un Comune generico. La normativa regionale è una configurazione a parte, per territorio: oggi è pronta quella ligure; le altre si preparano quando un Ente decide di provare la Suite.
+Alla prima messa in servizio un passo di localizzazione registra l'Ente e i suoi dati IPA, la popolazione, gli attributi del territorio (zona sismica, zona climatica, vincoli paesaggistici e idrogeologici, carattere montano, costiero o turistico), gli uffici e i loro responsabili. La procedura è condotta da un agente apposito, che chiede conferma a chi installa prima di salvare i dati raccolti. Da quel momento ogni risposta è riferita a quel Comune e non a un Comune generico. La normativa regionale segue il territorio dell'Ente: oggi la Suite lavora con quella della Liguria e della Lombardia, e quella del Piemonte è prevista entro la fine del 2026.
 
 ## GDPR e AI Act
 
@@ -439,7 +439,7 @@ A chi lavora bastano poche nozioni per sfruttare a fondo il novanta per cento de
 
 ## Come vederla al lavoro
 
-Bastano 45-60 minuti in videoconferenza su un caso scelto dall'Ente, anche ipotetico, anche senza comunicarlo prima: si vede come il sistema ragiona, quali fonti cita, dove si ferma e cosa chiede al funzionario. Se l'Ente non è in Liguria, la sessione si tiene sul caso risolto come se il Comune fosse in Liguria: il risultato non è spendibile sul piano regionale, ma lo scopo è vedere il metodo.
+Bastano 45-60 minuti in videoconferenza su un caso scelto dall'Ente, anche ipotetico, anche senza comunicarlo prima: si vede come il sistema ragiona, quali fonti cita, dove si ferma e cosa chiede al funzionario.
 
 ## I risultati a Pieve Ligure
 
