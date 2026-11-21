@@ -574,7 +574,7 @@ ipl2_doc_dpa_text: Data Processing Addendum with Zero Data Retention architectur
 ipl2_doc_dpa_meta: Signed PDF &middot; 324 KB
 ipl2_doc_techspec_title: Technical specification
 ipl2_doc_techspec_text: Technical documentation under AI Act art. 50: architecture, AI model, security, capabilities (~95% accuracy, 1200 pages), limitations, human oversight.
-ipl2_doc_techspec_meta: Signed PDF &middot; 345 KB
+ipl2_doc_techspec_meta: Signed PDF &middot; 284 KB
 ipl2_xlink_title: Looking for the Italian Public Administration version?
 ipl2_xlink_text: Visit the dedicated page for <a href="pa-locale.html">TTR-SUITE PA Locale</a>, the version for Italian municipalities: legal opinions and draft administrative acts citing the law in force from official sources, SInCRO digital filing.
 ipl2_cta_title: Ready to transform your IP and contract workflows?

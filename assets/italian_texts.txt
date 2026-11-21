@@ -576,7 +576,7 @@ ipl2_doc_dpa_text: Data Processing Addendum con architettura Zero Data Retention
 ipl2_doc_dpa_meta: PDF firmato &middot; 311 KB
 ipl2_doc_techspec_title: Scheda tecnica del sistema AI
 ipl2_doc_techspec_text: Documentazione tecnica ai sensi dell'art. 50 AI Act: architettura, modello AI, sicurezza, capacità (~95% accuratezza, 1200 pagine), limitazioni, human oversight.
-ipl2_doc_techspec_meta: PDF firmato &middot; 351 KB
+ipl2_doc_techspec_meta: PDF firmato &middot; 284 KB
 ipl2_xlink_title: Cerca la versione per la Pubblica Amministrazione italiana?
 ipl2_xlink_text: Visiti la pagina dedicata a <a href="pa-locale.html">TTR-SUITE PA Locale</a>, la versione per i Comuni italiani: pareri e bozze di atti con la norma vigente citata dalle fonti ufficiali, fascicolo informatico SInCRO.
 ipl2_cta_title: Pronto a trasformare i flussi IP e contrattuali del Suo gruppo?
