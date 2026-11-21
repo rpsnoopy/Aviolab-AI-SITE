@@ -741,7 +741,7 @@ PDF firmato · 332 KB
 
 Documentazione tecnica ai sensi dell'art. 50 AI Act: architettura, modello AI, sicurezza, capacità (~95% accuratezza, 1200 pagine), limitazioni, human oversight.
 
-PDF firmato · 354 KB
+PDF firmato · 293 KB
 
 ## Vuole vederla in azione nel Suo Comune?
 
@@ -1652,7 +1652,7 @@ PDF firmato (354 KB)
 
 Documentazione tecnica ai sensi dell'art. 50 AI Act: architettura, modello di intelligenza artificiale, misure di sicurezza, capacità e limiti, sorveglianza umana.
 
-PDF firmato (354 KB)
+PDF firmato (293 KB)
 
 ### Informativa sulla trasparenza AI Act
 
