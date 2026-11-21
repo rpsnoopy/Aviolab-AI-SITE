@@ -260,7 +260,7 @@ home_products_subtitle: Due suite progettate per due pubblici distinti
 home_card_pa_badge: Novità
 home_card_pa_title: TTR-SUITE per la PA Locale
 home_card_pa_tagline: Consulenza giuridica e amministrativa AI per i Comuni italiani
-home_card_pa_text: Progettata per i Comuni italiani sotto i 5.000 abitanti e per i funzionari che li presidiano. Pareri sulla norma vigente, atti redatti e pronti per la firma, fascicolo digitale conforme allo standard SInCRO. Architettura coperta da domanda di brevetto.
+home_card_pa_text: Progettata per i Comuni italiani sotto i 5.000 abitanti e per i funzionari che li presidiano. Pareri sulla norma vigente, atti redatti e pronti per la firma, fascicolo digitale conforme allo standard SInCRO.
 home_card_pa_feat1: 16+1 agenti specialisti per aree tematiche e ruoli
 home_card_pa_feat2: Fonti normative certificate — zero errori sulle citazioni
 home_card_pa_feat3: Redazione atti: delibere, determine, ordinanze, titoli edilizi
