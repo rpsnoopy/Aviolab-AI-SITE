@@ -39,7 +39,7 @@ Aviolab AI è specializzata nell'applicare architetture fortemente agentiche a p
 ## Dati, responsabilità, trasparenza
 
 - È uno strumento di supporto: non assume decisioni, non protocolla e non invia nulla in autonomia. Ogni testo è dichiarato come prodotto con l'intelligenza artificiale e il funzionario lo può modificare per intero.
-- La Suite si installa sul computer del funzionario. Sessioni, fascicoli, allegati e fonti scaricate restano sulle macchine dell'Ente, cifrati. Non serve un server. L'elaborazione dei testi avviene presso il fornitore del modello di intelligenza artificiale, che per contratto cancella i contenuti appena trasmessa la risposta.
+- La Suite si installa sul computer del funzionario. Sessioni, fascicoli, allegati e fonti scaricate restano sulle macchine dell'Ente. Non serve un server. L'elaborazione dei testi avviene presso il fornitore del modello di intelligenza artificiale, che per contratto cancella i contenuti appena trasmessa la risposta.
 - Le citazioni normative sono confrontate con il testo delle fonti ufficiali prima della consegna, e un revisore indipendente rilegge il risultato.
 
 AVIOLAB AI DI PARENTI RICCARDO, Via XXV Aprile 251, 16031 Pieve Ligure (GE), Italia. P.IVA 02997110990, REA GE 525625.

@@ -199,7 +199,7 @@ Dove stanno i dati del Comune?
 
 ## Sul computer dell'ufficio. E decide il funzionario.
 
-La Suite si installa sul computer del funzionario. Sessioni, fascicoli, allegati e fonti scaricate restano sulle macchine dell'Ente, cifrati. Non serve un server.
+La Suite si installa sul computer del funzionario. Sessioni, fascicoli, allegati e fonti scaricate restano sulle macchine dell'Ente. Non serve un server.
 
 Gli aggiornamenti arrivano in automatico. L'assistenza si collega da remoto alla postazione solo su richiesta del funzionario e con il suo consenso.
 
@@ -666,7 +666,7 @@ GDPR
 - Storage esclusivamente locale sul PC del funzionario, area riservata SO + binding hardware
 - Nessun log di analisi sui server Aviolab (server usati solo per validazione licenza)
 - Comunicazioni cifrate TLS 1.3, DPA scaricabile da questa pagina
-- Sessioni, fascicoli, allegati e fonti scaricate restano sulle macchine dell'Ente, cifrati
+- Sessioni, fascicoli, allegati e fonti scaricate restano sulle macchine dell'Ente
 
 ### Documentazione di compliance consegnata al cliente
 
