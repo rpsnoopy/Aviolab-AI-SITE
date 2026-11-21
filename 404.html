@@ -1,54 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it" data-solo-italiano>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex">
-    <title>404 | Aviolab AI</title>
+    <meta name="theme-color" content="#1b3a93">
+    <title>Pagina non trovata | Aviolab AI</title>
+
+    <!-- Questa pagina viene servita a qualunque indirizzo che non esiste, anche annidato
+         (/a/b/c): tutti i percorsi sono assoluti dalla radice. -->
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <!-- Sistema grafico 2027: solo le parti comuni (testata, piede, pulsanti, colori). -->
+    <link rel="preload" href="/fonts/archivo/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/sito-comune.css?v=1">
+    <script defer src="/js/sito.js?v=1"></script>
+
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        /* Reset di elemento, gli stessi di sito.css: la pagina non carica styles.css. */
+        *, *::before, *::after { box-sizing: border-box; }
+        html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-            color: #212529;
-            background: #F8F9FA;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 24px;
+            margin: 0; min-height: 100vh; display: flex; flex-direction: column;
+            background: var(--carta); color: var(--inchiostro);
+            font-family: var(--sans); font-size: 1.125rem; line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
         }
-        .box { text-align: center; max-width: 560px; }
-        .code {
-            font-size: 96px;
-            font-weight: 800;
-            color: #FF0000;
-            line-height: 1;
-            margin-bottom: 16px;
+        h1, p { margin: 0; }
+        a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+
+        /* La pagina: una sola fascia blu fra testata e piede, che riempie lo schermo. */
+        main { flex: 1; display: flex; flex-direction: column; }
+        .non-trovata { flex: 1; padding-block: clamp(3.5rem, 9vw, 7rem); }
+        .non-trovata h1 {
+            max-width: 20ch; color: #ffffff;
+            font-size: clamp(2.1rem, 1.1rem + 2.9vw, 3.3rem); font-weight: 640; font-stretch: 108%;
+            line-height: 1.05; letter-spacing: -0.02em; text-wrap: balance;
         }
-        h1 { font-size: 24px; margin-bottom: 12px; }
-        p { font-size: 16px; color: #6C757D; margin-bottom: 8px; }
-        a.home {
-            display: inline-block;
-            margin-top: 24px;
-            padding: 12px 28px;
-            background: #212529;
-            color: #FFFFFF;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: 600;
-        }
-        a.home:hover { background: #FF0000; }
-        .brand { margin-top: 40px; font-size: 13px; color: #ADB5BD; }
+        .non-trovata p { margin-top: 1.5rem; max-width: 40rem; font-size: 1.2rem; line-height: 1.55; }
+        .non-trovata .pulsante { margin-top: 2.2rem; }
     </style>
 </head>
 <body>
-    <div class="box">
-        <div class="code">404</div>
-        <h1>Page or resource not found</h1>
-        <p>The page or file you requested does not exist on this server.</p>
-        <p>La pagina o il file richiesto non esiste su questo server.</p>
-        <a class="home" href="/">Aviolab AI — Home</a>
-        <div class="brand">&copy; 2026 Aviolab AI — All rights reserved</div>
-    </div>
+    <a class="salta" href="#contenuto">Vai al contenuto</a>
+
+    <header class="testata su-notte">
+        <div class="contenitore testata__riga">
+            <a class="marchio" href="/index.html" aria-label="Aviolab AI, pagina iniziale">
+                <img class="marchio__scudo" src="/assets/logo-144.png" alt="" width="118" height="144">
+                <img class="marchio__scritta" src="/assets/logo-scritta.svg" alt="" width="170" height="18">
+            </a>
+            <button class="menu__apri" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+            <nav class="menu" id="menu" aria-label="Sezioni del sito">
+                <ul class="menu__voci">
+                    <li><a href="/pa-locale.html" data-i18n="m_prodotto">Il prodotto</a></li>
+                    <li><a href="/pa-locale-in-azione.html" data-i18n="m_lavora">Come lavora</a></li>
+                    <li><a href="/che-cos-e-ttr-suite.html" data-i18n="m_semplice">In parole semplici</a></li>
+                    <li><a href="/dicono-di-noi.html" data-i18n="m_stampa">Dicono di noi</a></li>
+                    <li><a href="/downloads.html" data-i18n="m_download">Download</a></li>
+                </ul>
+                <a class="pulsante pulsante--piccolo" href="/index.html#contact" data-i18n="azione_prova">Chieda una prova gratuita</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenuto">
+        <section class="non-trovata su-blu">
+            <div class="contenitore">
+                <h1>Pagina non trovata</h1>
+                <p>L'indirizzo che ha aperto non corrisponde a nessuna pagina del sito.</p>
+                <a class="pulsante" href="/">Torni alla pagina iniziale</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="piede su-notte">
+        <div class="contenitore">
+            <div class="piede__griglia">
+                <div>
+                    <a class="marchio" href="/index.html" aria-label="Aviolab AI, pagina iniziale">
+                        <img class="marchio__scudo" src="/assets/logo-144.png" alt="" width="118" height="144" loading="lazy">
+                        <img class="marchio__scritta" src="/assets/logo-scritta.svg" alt="" width="170" height="18">
+                    </a>
+                    <p class="piede__motto" data-i18n="piede_motto">Intelligenza artificiale per i pareri e gli atti dei Comuni.</p>
+                    <p class="piede__legale">AVIOLAB AI DI PARENTI RICCARDO<br>Via XXV Aprile 251, 16031 Pieve Ligure (GE)<br>P.IVA 02997110990, REA GE 525625</p>
+                </div>
+                <div>
+                    <h2 data-i18n="piede_prodotto">TTR-SUITE PA Locale</h2>
+                    <ul>
+                        <li><a href="/pa-locale.html">Il prodotto</a></li>
+                        <li><a href="/pa-locale-in-azione.html">Come lavora</a></li>
+                        <li><a href="/che-cos-e-ttr-suite.html">In parole semplici</a></li>
+                        <li><a href="/le-domande-del-funzionario.html">Le domande del funzionario</a></li>
+                        <li><a href="/dicono-di-noi.html">Dicono di noi</a></li>
+                        <li><a href="/downloads.html">Download</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 data-i18n="piede_altro">Aviolab AI</h2>
+                    <ul>
+                        <li><a href="/ip-legal.html">TTR-SUITE IP Legal</a></li>
+                        <li><a href="/privacy.html">Privacy</a></li>
+                        <li><a href="mailto:info@aviolab.ai">info@aviolab.ai</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="piede__fondo">
+                <p>&copy; 2026 Aviolab AI. Tutti i diritti riservati.</p>
+                <p class="version-number">v1.3.43</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

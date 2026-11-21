@@ -1,21 +1,20 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="it" data-solo-italiano>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#1e40af">
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-    <meta name="description" content="TTR-SUITE per la PA Locale in azione: una sessione reale dal quesito del funzionario alla bozza di atto, alla verifica indipendente, fino al fascicolo digitale conforme SInCRO. Screenshot reali, tempi reali, citazioni puntuali.">
+    <meta name="theme-color" content="#1b3a93">
+    <meta name="description" content="TTR-SUITE in azione: una sessione reale dal quesito del funzionario alla bozza di atto, alla verifica indipendente, fino al fascicolo digitale conforme SInCRO. Screenshot reali, tempi reali, citazioni puntuali.">
     <meta name="author" content="Riccardo Parenti">
-    <meta name="keywords" content="TTR-SUITE in azione, screenshot, demo PA, fascicolo digitale, SInCRO, UNI 11386, art. 41 CAD, refezione scolastica, proroga tecnica, art. 120 D.Lgs. 36/2023, Halley, Maggioli">
-    <title>TTR-SUITE per la PA Locale in azione, una sessione reale | Aviolab AI</title>
+    <meta name="keywords" content="TTR-SUITE in azione, screenshot, fascicolo digitale, SInCRO, UNI 11386, art. 41 CAD, refezione scolastica, proroga tecnica, art. 120 D.Lgs. 36/2023, Halley, Maggioli">
+    <title>TTR-SUITE in azione, una sessione reale | Aviolab AI</title>
 
     <link rel="canonical" href="https://aviolab.ai/pa-locale-in-azione.html">
 
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="Aviolab AI">
     <meta property="og:url" content="https://aviolab.ai/pa-locale-in-azione.html">
-    <meta property="og:title" content="TTR-SUITE per la PA Locale in azione, una sessione reale">
+    <meta property="og:title" content="TTR-SUITE in azione, una sessione reale">
     <meta property="og:description" content="Dal quesito del funzionario alla bozza dell'atto, alla verifica indipendente, fino al fascicolo digitale SInCRO. Screenshot, tempi e citazioni reali.">
     <meta property="og:image" content="https://aviolab.ai/assets/images/pa-locale/screenshot-sessione.jpg">
     <meta property="og:locale" content="it_IT">
@@ -27,424 +26,198 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <meta name="apple-mobile-web-app-title" content="Aviolab.ai">
 
-    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="fonts/fonts.css">
+    <!-- Sistema grafico 2027: styles.css (vecchio), poi le parti comuni, poi il ponte. -->
+    <link rel="preload" href="fonts/archivo/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="styles.css?v=145">
-    <script defer src="script.js?v=142"></script>
+    <link rel="stylesheet" href="sito-comune.css?v=1">
+    <link rel="stylesheet" href="sito-ponte.css?v=1">
+    <script defer src="js/sito.js?v=1"></script>
 
     <style>
-        /* Stili specifici per pa-locale-in-azione (pagina IT-only) */
-        .ia-hero {
-            background: linear-gradient(135deg, #0f172a 0%, #1e40af 100%);
-            color: #fff;
-            padding: 7rem 0 4rem;
-            text-align: center;
-        }
-        .ia-hero .ia-eyebrow {
-            display: inline-block;
-            background: rgba(255,255,255,0.1);
-            color: #e2e8f0;
-            font-size: 0.8rem;
-            font-weight: 600;
-            letter-spacing: 1.5px;
-            text-transform: uppercase;
-            padding: 0.4rem 1rem;
-            border-radius: 20px;
-            margin-bottom: 1.2rem;
-            border: 1px solid rgba(255,255,255,0.15);
-        }
-        .ia-hero h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-            line-height: 1.2;
-        }
-        .ia-hero h1 .highlight { color: #ff0000; }
-        .ia-hero .lead {
-            font-size: 1.15rem;
-            max-width: 880px;
-            margin: 0 auto 2rem;
-            color: #e2e8f0;
-            line-height: 1.6;
-        }
+        /* Pagina «TTR-SUITE in azione» (solo in italiano). Quattro passi di una sessione:
+           in ogni passo il titolo a sinistra e il racconto a destra, come nella pagina
+           «Che cos'è TTR-SUITE»; sotto, a tutta larghezza, la schermata e i dati. */
+
+        /* Apertura: il link di ritorno al prodotto, sotto il sommario. */
         .ia-hero .ia-back-link {
-            display: inline-block;
-            color: #cbd5e1;
-            text-decoration: none;
-            font-size: 0.95rem;
-            margin-top: 1.2rem;
+            display: inline-block; margin-top: 1.5rem;
+            color: #ffffff; font-size: 1rem;
+            text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.18em;
         }
-        .ia-hero .ia-back-link i { margin-right: 0.4rem; }
-        .ia-hero .ia-back-link:hover { color: #fff; }
+        .ia-hero .ia-back-link:hover { color: #ffffff; text-decoration-thickness: 2px; }
 
-        /* Mini-toc visual */
-        .ia-toc {
-            background: #fff;
-            border-bottom: 1px solid #e2e8f0;
-            padding: 1.2rem 0;
-            position: sticky;
-            top: 0;
-            z-index: 50;
-            box-shadow: 0 2px 8px -2px rgba(0,0,0,0.05);
-        }
-        .ia-toc ol {
-            list-style: none;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 0.8rem 2rem;
-            padding: 0;
-            margin: 0;
-            font-size: 0.9rem;
-        }
-        .ia-toc ol li a {
-            color: #475569;
-            text-decoration: none;
-            font-weight: 500;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            transition: color 0.2s ease;
-        }
-        .ia-toc ol li a:hover { color: #1e40af; }
-        .ia-toc ol li .num {
-            background: #1e40af;
-            color: #fff;
-            font-weight: 700;
-            border-radius: 50%;
-            width: 22px;
-            height: 22px;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 0.75rem;
-        }
+        /* I quattro passi, a fondo alterno. */
+        .ia-section { padding-block: clamp(3rem, 6vw, 5rem); }
+        .ia-section--alt { background: var(--fondo); }
 
-        /* Sezioni narrative numerate */
-        .ia-section {
-            padding: 5rem 0;
-        }
-        .ia-section--alt {
-            background: #f8fafc;
-        }
-        .ia-step-head {
+        .ia-step-intro {
             display: grid;
-            grid-template-columns: auto 1fr;
-            gap: 1.3rem;
-            align-items: center;
-            margin-bottom: 1.5rem;
-            max-width: 1100px;
-            margin-left: auto;
-            margin-right: auto;
+            grid-template-columns: minmax(0, 4fr) minmax(0, 7fr);
+            gap: 1rem clamp(1.5rem, 5vw, 4.5rem);
+            align-items: start;
+            padding-top: 2rem;
+            border-top: 1.5px solid var(--inchiostro);
         }
         .ia-step-num {
-            font-size: 2.6rem;
-            font-weight: 800;
-            color: #1e40af;
-            line-height: 1;
-            font-family: var(--font-primary, 'Montserrat'), sans-serif;
-            background: linear-gradient(135deg, #1e40af, #3b82f6);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            min-width: 4rem;
+            font-size: clamp(3rem, 2.2rem + 2.5vw, 4.25rem); font-weight: 300; font-stretch: 112%;
+            line-height: 1; color: var(--blu); font-variant-numeric: lining-nums;
         }
         .ia-step-head h2 {
-            font-size: 1.9rem;
-            color: #0f172a;
-            margin: 0 0 0.3rem;
-            line-height: 1.25;
+            margin: 0.9rem 0 0; max-width: 22ch;
+            font-size: clamp(1.35rem, 1rem + 1vw, 1.7rem); line-height: 1.2;
         }
-        .ia-step-head .ia-step-sub {
-            color: #64748b;
-            font-size: 1rem;
-            margin: 0;
-        }
+        .ia-step-head .ia-step-sub { margin: 0.7rem 0 0; max-width: 30rem; color: var(--tenue); font-size: 1rem; line-height: 1.5; }
 
-        .ia-narrative {
-            max-width: 820px;
-            margin: 0 auto 2rem;
-            color: #334155;
-            font-size: 1.02rem;
-            line-height: 1.7;
-        }
-        .ia-narrative p { margin: 0 0 1rem; }
+        .ia-narrative { max-width: 42rem; }
+        .ia-narrative > * + * { margin-top: 1.1rem; }
+        .ia-narrative strong { font-weight: 650; }
+        .ia-narrative em { font-style: normal; }
+        /* La domanda del funzionario: l'unico posto della pagina in carattere con le grazie. */
         .ia-narrative blockquote {
-            background: #fef2f2;
-            border-left: 4px solid #ff0000;
-            margin: 1.2rem 0;
-            padding: 1rem 1.3rem;
-            font-style: italic;
-            color: #0f172a;
-            font-size: 1.05rem;
-            border-radius: 0 6px 6px 0;
+            padding-left: clamp(1rem, 2.5vw, 1.5rem); border-left: 4px solid var(--blu);
+            font-size: clamp(1.25rem, 1rem + 0.8vw, 1.5rem); line-height: 1.35;
         }
-        .ia-narrative blockquote::before {
-            content: '\f10d';
-            font-family: "Font Awesome 6 Free";
-            font-weight: 900;
-            color: #fecaca;
-            margin-right: 0.5rem;
-        }
-        .ia-narrative strong { color: #0f172a; }
 
-        /* Screenshot frame */
-        .ia-screenshot-wrap {
-            max-width: 1200px;
-            margin: 2rem auto;
-        }
-        .ia-screenshot-wrap picture {
-            display: block;
-        }
+        /* Le schermate: a tutta larghezza, con la didascalia sotto. */
+        .ia-screenshot-wrap { margin: clamp(2rem, 4vw, 3rem) 0 0; }
+        .ia-screenshot-wrap picture { display: block; }
         .ia-screenshot-wrap img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-            box-shadow: 0 22px 50px -15px rgba(15,23,42,0.3);
-            border: 1px solid #e2e8f0;
-            background: #fff;
-            display: block;
+            display: block; width: 100%; height: auto;
+            border: 1px solid var(--filo); border-radius: 4px; background: var(--carta);
         }
-        .ia-screenshot-wrap figcaption {
-            color: #64748b;
-            font-size: 0.9rem;
-            font-style: italic;
-            text-align: center;
-            margin-top: 1rem;
-            padding: 0 1rem;
-            line-height: 1.5;
-        }
-
-        /* Two-dialog row (fascicolo) */
-        .ia-dialogs {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
-            max-width: 1100px;
-            margin: 2rem auto;
-        }
-        .ia-dialog-card {
-            text-align: center;
-        }
-        .ia-dialog-card img {
-            width: 100%;
-            max-width: 480px;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 18px 40px -12px rgba(15,23,42,0.25);
-            border: 1px solid #e2e8f0;
-            background: #fff;
-        }
+        .ia-screenshot-wrap figcaption,
         .ia-dialog-card figcaption {
-            color: #1e40af;
-            font-weight: 600;
-            font-size: 0.95rem;
-            margin-top: 0.9rem;
+            margin-top: 0.9rem; max-width: 48rem;
+            color: var(--tenue); font-size: 0.975rem; line-height: 1.5;
         }
-        .ia-dialog-card figcaption .ia-dialog-sub {
-            display: block;
-            color: #64748b;
-            font-weight: 400;
-            font-size: 0.85rem;
-            font-style: italic;
-            margin-top: 0.2rem;
-        }
+        .ia-screenshot-wrap figcaption strong { color: var(--inchiostro); font-weight: 650; }
 
-        /* Stats/highlights inline */
+        /* I dati della sessione: tre numeri in fila. */
         .ia-stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 1rem;
-            max-width: 900px;
-            margin: 2rem auto;
+            display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 1.25rem clamp(1.5rem, 4vw, 3rem);
+            margin-top: clamp(2rem, 4vw, 2.75rem);
         }
-        .ia-stat {
-            background: #fff;
-            border-top: 4px solid #ff0000;
-            border-radius: 8px;
-            padding: 1.2rem 1rem;
-            text-align: center;
-            box-shadow: 0 4px 12px -4px rgba(0,0,0,0.08);
-        }
+        .ia-stat { padding-top: 0.9rem; border-top: 1.5px solid var(--inchiostro); }
         .ia-stat .ia-stat-num {
-            font-size: 1.7rem;
-            font-weight: 800;
-            color: #1e40af;
-            line-height: 1.1;
-            margin-bottom: 0.3rem;
-            font-family: var(--font-primary, 'Montserrat'), sans-serif;
+            font-size: clamp(1.6rem, 1.2rem + 1.2vw, 2.25rem); font-weight: 300; font-stretch: 108%;
+            line-height: 1.1; color: var(--blu); font-variant-numeric: lining-nums;
         }
-        .ia-stat .ia-stat-label {
-            color: #475569;
-            font-size: 0.88rem;
-            line-height: 1.4;
-        }
+        .ia-stat .ia-stat-label { margin-top: 0.45rem; color: var(--tenue); font-size: 0.975rem; line-height: 1.45; }
 
-        /* SInCRO bullet box */
+        /* Il fascicolo: a sinistra la finestra lunga, a destra quella corta, il contenuto
+           del pacchetto e i gestionali; la nota di trasparenza sotto, a tutta larghezza. */
+        .ia-materiali {
+            display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 2rem clamp(1.5rem, 4vw, 3rem);
+            align-items: start;
+            margin-top: clamp(2rem, 4vw, 3rem);
+        }
+        .ia-dialogs { display: contents; }
+        .ia-dialog-card { margin: 0; }
+        .ia-dialog-card:first-child { grid-column: 1; grid-row: 1 / span 3; }
+        .ia-dialog-card img {
+            display: block; width: 100%; height: auto;
+            border: 1px solid var(--filo); border-radius: 4px; background: var(--carta);
+        }
+        .ia-dialog-card figcaption { color: var(--inchiostro); font-weight: 650; }
+        .ia-dialog-card figcaption .ia-dialog-sub { display: block; margin-top: 0.2rem; color: var(--tenue); font-weight: 400; }
+
         .ia-sincro-box {
-            background: #fff;
-            border: 1px solid #e2e8f0;
-            border-radius: 10px;
-            padding: 2rem;
-            max-width: 900px;
-            margin: 2rem auto 0;
-            box-shadow: 0 10px 25px -10px rgba(0,0,0,0.08);
+            grid-column: 2;
+            padding: 1.4rem 1.5rem 1.5rem;
+            border: 1px solid var(--filo); border-radius: 4px; background: var(--carta);
         }
-        .ia-sincro-box h3 {
-            color: #1e40af;
-            font-size: 1.2rem;
-            margin: 0 0 1rem;
-            display: flex;
-            align-items: center;
-            gap: 0.6rem;
-        }
+        .ia-sincro-box h3 { margin: 0 0 0.9rem; font-size: 1.2rem; font-weight: 650; line-height: 1.3; }
         .ia-sincro-box ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            gap: 0.6rem 1.5rem;
+            display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 1.5rem;
+            margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--filo);
         }
-        .ia-sincro-box ul li {
-            padding-left: 1.6rem;
-            position: relative;
-            color: #334155;
-            font-size: 0.95rem;
-            line-height: 1.5;
+        .ia-sincro-box li {
+            position: relative; padding: 0.5rem 0 0.5rem 1.35rem;
+            border-bottom: 1px solid var(--filo); font-size: 0.975rem; line-height: 1.4;
         }
-        .ia-sincro-box ul li::before {
-            content: '\f00c';
-            font-family: "Font Awesome 6 Free";
-            font-weight: 900;
-            color: #22c55e;
-            position: absolute;
-            left: 0;
-            top: 0.15rem;
+        .ia-sincro-box li::before {
+            content: ""; position: absolute; left: 0; top: 0.95rem;
+            width: 0.55rem; height: 0.55rem; border-radius: 50%; background: var(--blu);
         }
 
-        /* Gestionali ribbon */
-        .ia-vendors {
-            background: #0f172a;
-            color: #cbd5e1;
-            border-radius: 10px;
-            padding: 1.5rem 2rem;
-            max-width: 900px;
-            margin: 1.5rem auto 0;
-            text-align: center;
-        }
-        .ia-vendors h4 {
-            color: #fff;
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            margin: 0 0 0.6rem;
-        }
-        .ia-vendors p {
-            margin: 0;
-            font-size: 0.95rem;
-            line-height: 1.6;
-        }
-        .ia-vendors p strong { color: #fff; }
+        .ia-vendors { grid-column: 2; padding: 1.4rem 1.5rem 1.5rem; border-radius: 4px; }
+        .ia-vendors h4 { margin: 0 0 0.6rem; color: #ffffff; font-size: 1.05rem; font-weight: 650; line-height: 1.35; }
+        .ia-vendors p { margin: 0; color: var(--tenue-su-blu); font-size: 0.975rem; line-height: 1.6; }
+        .ia-vendors p strong { color: #ffffff; font-weight: 600; }
 
-        /* CTA finale */
-        .ia-cta {
-            background: linear-gradient(135deg, #1e40af 0%, #ff0000 100%);
-            color: #fff;
-            text-align: center;
-            padding: 5rem 0;
-        }
-        .ia-cta h2 {
-            color: #fff;
-            font-size: 2.1rem;
-            margin-bottom: 1rem;
-        }
-        .ia-cta p {
-            font-size: 1.1rem;
-            max-width: 720px;
-            margin: 0 auto 2rem;
-            line-height: 1.6;
-        }
-        .ia-cta .btn { margin: 0.4rem; }
-
-        /* Disclaimer/honesty note */
         .ia-honesty-note {
-            max-width: 820px;
-            margin: 2.5rem auto 0;
-            background: #f1f5f9;
-            border-left: 3px solid #1e40af;
-            padding: 1rem 1.3rem;
-            border-radius: 0 6px 6px 0;
-            color: #475569;
-            font-size: 0.88rem;
-            line-height: 1.55;
+            max-width: 48rem; margin-top: clamp(2rem, 4vw, 3rem);
+            padding: 1rem 1.3rem; border-left: 3px solid var(--blu); background: var(--carta);
+            color: var(--tenue); font-size: 0.95rem; line-height: 1.55;
         }
-        .ia-honesty-note strong { color: #0f172a; }
+        .ia-honesty-note strong { color: var(--inchiostro); font-weight: 650; }
 
-        @media (max-width: 768px) {
-            .ia-hero { padding: 6rem 0 3rem; }
-            .ia-hero h1 { font-size: 1.8rem; }
-            .ia-hero .lead { font-size: 1rem; }
-            .ia-toc { display: none; }
-            .ia-step-head { grid-template-columns: 1fr; gap: 0.5rem; text-align: center; }
-            .ia-step-num { margin: 0 auto; }
-            .ia-step-head h2 { font-size: 1.4rem; }
-            .ia-section { padding: 3.5rem 0; }
+        /* Chiusura, sul blu. */
+        .ia-cta { padding-block: var(--spazio-sezione); }
+        .ia-cta h2 { margin: 0; max-width: 22ch; color: #ffffff; }
+        .ia-cta p { margin-top: 1.4rem; max-width: 40rem; font-size: 1.2rem; line-height: 1.55; }
+        .cta-buttons { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 2.2rem; }
+        .cta-buttons .btn { margin: 0; }
+
+        @media (max-width: 900px) {
+            .ia-step-intro { grid-template-columns: minmax(0, 1fr); }
+            .ia-materiali { grid-template-columns: minmax(0, 1fr); }
+            .ia-dialog-card:first-child,
+            .ia-sincro-box,
+            .ia-vendors { grid-column: 1; grid-row: auto; }
+            .ia-dialog-card img { max-width: 520px; }
+        }
+        @media (max-width: 640px) {
+            .ia-stats { grid-template-columns: minmax(0, 1fr); }
+        }
+        @media (max-width: 420px) {
+            .ia-sincro-box ul { grid-template-columns: minmax(0, 1fr); }
         }
     </style>
 </head>
-<body class="it">
+<body>
+    <a class="salta" href="#contenuto">Vai al contenuto</a>
 
-    <!-- Navigation Bar -->
-    <header id="header">
-        <div class="header-container">
-            <a href="index.html#home" class="logo-link">
-                <img src="assets/logo.png" alt="Aviolab AI Logo">
-                <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+    <header class="testata su-notte">
+        <div class="contenitore testata__riga">
+            <a class="marchio" href="index.html" aria-label="Aviolab AI, pagina iniziale">
+                <img class="marchio__scudo" src="assets/logo-144.png" alt="" width="118" height="144">
+                <img class="marchio__scritta" src="assets/logo-scritta.svg" alt="" width="170" height="18">
             </a>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="index.html#mission" class="nav-link">Mission</a></li>
-                    <li><a href="index.html#products" class="nav-link">Soluzioni</a></li>
-                    <li><a href="pa-locale.html" class="nav-link active">PA Locale</a></li>
-                    <li><a href="ip-legal.html" class="nav-link">IP Legal</a></li>
-                    <li><a href="index.html#about" class="nav-link">Chi siamo</a></li>
-                    <li><a href="index.html#contact" class="nav-link">Contatti</a></li>
-                    <li><a href="dicono-di-noi.html" class="nav-link">Dicono di noi</a></li>
-                    <li><a href="downloads.html" class="nav-link" style="color: var(--highlight-color) !important; font-weight: bold;">Download</a></li>
+            <button class="menu__apri" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+            <nav class="menu" id="menu" aria-label="Sezioni del sito">
+                <ul class="menu__voci">
+                    <li><a href="pa-locale.html" data-i18n="m_prodotto">Il prodotto</a></li>
+                    <li><a href="pa-locale-in-azione.html" aria-current="page" data-i18n="m_lavora">Come lavora</a></li>
+                    <li><a href="che-cos-e-ttr-suite.html" data-i18n="m_semplice">In parole semplici</a></li>
+                    <li><a href="dicono-di-noi.html" data-i18n="m_stampa">Dicono di noi</a></li>
+                    <li><a href="downloads.html" data-i18n="m_download">Download</a></li>
                 </ul>
+                <a class="pulsante pulsante--piccolo" href="index.html#contact" data-i18n="azione_prova">Chieda una prova gratuita</a>
             </nav>
-            <div class="language-selector">
-                <div class="lang-option" data-lang="en">
-                    <img src="assets/images/flags/flag-gb.svg" alt="English" class="flag-icon" loading="lazy" decoding="async"> EN
-                </div>
-                <div class="lang-option" data-lang="it">
-                    <img src="assets/images/flags/flag-it.svg" alt="Italiano" class="flag-icon" loading="lazy" decoding="async"> IT
-                </div>
-            </div>
-            <div class="mobile-menu-btn">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
         </div>
     </header>
 
-    <!-- HERO -->
-    <section class="ia-hero">
+    <main id="contenuto">
+
+    <!-- APERTURA -->
+    <section class="apertura-pagina su-blu ia-hero">
         <div class="container">
-            <span class="ia-eyebrow"><i class="fas fa-circle-play"></i> &nbsp;Una sessione reale</span>
-            <h1>TTR-SUITE per la PA Locale, <span class="highlight">in azione</span></h1>
+            <p class="cartellino">Una sessione reale</p>
+            <h1>TTR-SUITE in azione</h1>
             <p class="lead">
                 Dal quesito del funzionario alla bozza dell'atto, dalla verifica indipendente
                 al fascicolo digitale conforme SInCRO. Quattro passaggi, una sessione reale,
                 tempi e citazioni effettivi.
             </p>
-            <a href="pa-locale.html" class="ia-back-link"><i class="fas fa-arrow-left"></i> Torna al profilo di TTR-SUITE per la PA Locale</a>
+            <a href="pa-locale.html" class="ia-back-link">Torna alla pagina del prodotto</a>
         </div>
     </section>
 
-    <!-- Mini-TOC -->
-    <nav class="ia-toc" aria-label="Indice della pagina">
+    <!-- INDICE -->
+    <nav class="indice-pagina" aria-label="Indice della pagina">
         <div class="container">
             <ol>
                 <li><a href="#caso"><span class="num">1</span> Il quesito e l'analisi</a></li>
@@ -458,40 +231,40 @@
     <!-- ============ §1 IL CASO ============ -->
     <section class="ia-section" id="caso">
         <div class="container">
-            <div class="ia-step-head">
-                <div class="ia-step-num">01</div>
-                <div>
+            <div class="ia-step-intro">
+                <div class="ia-step-head">
+                    <div class="ia-step-num">01</div>
                     <h2>Il quesito del funzionario e l'analisi strutturata</h2>
                     <p class="ia-step-sub">Refezione scolastica &middot; proroga tecnica del contratto in scadenza</p>
                 </div>
-            </div>
 
-            <div class="ia-narrative">
-                <p>
-                    Il funzionario allega i documenti utili per inquadrare la pratica, descrive il
-                    contesto in linguaggio naturale e formula il quesito direttamente in chat.
-                </p>
-                <blockquote>
-                    Possiamo prorogare per 6 mesi il contratto di refezione scolastica al gestore uscente,
-                    in attesa della nuova gara? Quali condizioni cumulative dobbiamo rispettare e quali
-                    atti adottare?
-                </blockquote>
-                <p>
-                    L'agente specialista di area classifica il caso (<strong>proroga tecnica del contratto
-                    di refezione scolastica</strong>), individua il quadro normativo applicabile
-                    (<strong>art. 120 co. 11 D.Lgs. 36/2023</strong>, Codice dei Contratti Pubblici),
-                    e attraverso una tabella verifica una per una le <strong>6 condizioni cumulative di
-                    legittimità</strong>, segnalando con un esito puntuale (✓ verificata, ⚠️ da
-                    documentare) il punto critico, in questo caso la condizione B che richiede di
-                    motivare espressamente l'impedimento al completamento della stazione appaltante.
-                </p>
+                <div class="ia-narrative">
+                    <p>
+                        Il funzionario allega i documenti utili per inquadrare la pratica, descrive il
+                        contesto in linguaggio naturale e formula il quesito direttamente in chat.
+                    </p>
+                    <blockquote>
+                        Possiamo prorogare per 6 mesi il contratto di refezione scolastica al gestore uscente,
+                        in attesa della nuova gara? Quali condizioni cumulative dobbiamo rispettare e quali
+                        atti adottare?
+                    </blockquote>
+                    <p>
+                        L'agente specialista di area classifica il caso (<strong>proroga tecnica del contratto
+                        di refezione scolastica</strong>), individua il quadro normativo applicabile
+                        (<strong>art. 120 co. 11 D.Lgs. 36/2023</strong>, Codice dei Contratti Pubblici),
+                        e attraverso una tabella verifica una per una le <strong>6 condizioni cumulative di
+                        legittimità</strong>, segnalando con un esito puntuale (✓ verificata, ⚠️ da
+                        documentare) il punto critico, in questo caso la condizione B che richiede di
+                        motivare espressamente l'impedimento al completamento della stazione appaltante.
+                    </p>
+                </div>
             </div>
 
             <figure class="ia-screenshot-wrap">
                 <picture>
                     <source type="image/webp" srcset="assets/images/pa-locale/screenshot-sessione.webp">
                     <img src="assets/images/pa-locale/screenshot-sessione.jpg"
-                         alt="Screenshot di una sessione di TTR-SUITE per la PA Locale: in alto la domanda del funzionario sulla proroga tecnica del contratto di refezione scolastica; al centro l'analisi strutturata dell'agente con il quadro normativo (art. 120 D.Lgs. 36/2023) e la tabella delle 6 condizioni cumulative di legittimità, ciascuna con esito Verde (verificata) o Giallo (da documentare)."
+                         alt="Screenshot di una sessione di TTR-SUITE: in alto la domanda del funzionario sulla proroga tecnica del contratto di refezione scolastica; al centro l'analisi strutturata dell'agente con il quadro normativo (art. 120 D.Lgs. 36/2023) e la tabella delle 6 condizioni cumulative di legittimità, ciascuna con esito Verde (verificata) o Giallo (da documentare)."
                          loading="lazy" decoding="async"
                          width="2400" height="970">
                 </picture>
@@ -521,28 +294,28 @@
     <!-- ============ §2 LA VERIFICA ============ -->
     <section class="ia-section ia-section--alt" id="verifica">
         <div class="container">
-            <div class="ia-step-head">
-                <div class="ia-step-num">02</div>
-                <div>
-                    <h2>La verifica indipendente, su richiesta del funzionario</h2>
+            <div class="ia-step-intro">
+                <div class="ia-step-head">
+                    <div class="ia-step-num">02</div>
+                    <h2>La verifica indipendente</h2>
                     <p class="ia-step-sub">«Verificami questa risposta» &middot; un secondo agente recupera il testo letterale dalla fonte istituzionale</p>
                 </div>
-            </div>
 
-            <div class="ia-narrative">
-                <p>
-                    Quando il funzionario vuole un controllo di sicurezza in più, può chiedere il
-                    <strong>doppio controllo</strong>. Un revisore indipendente recupera il testo letterale
-                    dell'<strong>art. 120 co. 11 da Normattiva</strong> (vigente alla data della sessione),
-                    lo confronta voce per voce con la risposta precedente, segnala eventuali imprecisioni
-                    e chiude con un esito di conformità per ciascuna sezione esaminata.
-                </p>
-                <p>
-                    Nella sessione mostrata il revisore conferma: <strong>RISCONTRO COMPLETO</strong> sul
-                    riferimento normativo principale, sulla distinzione tra comma 10 (proroga contrattuale)
-                    e comma 11 (proroga tecnica), sulla natura «auto-esecutiva» della proroga tecnica, e
-                    sulla giurisprudenza citata (TAR e Consiglio di Stato).
-                </p>
+                <div class="ia-narrative">
+                    <p>
+                        Il <strong>secondo controllo indipendente</strong> fa parte del processo; qui il funzionario
+                        lo richiama anche espressamente. Un revisore indipendente recupera il testo letterale
+                        dell'<strong>art. 120 co. 11 da Normattiva</strong> (vigente alla data della sessione),
+                        lo confronta voce per voce con la risposta precedente, segnala eventuali imprecisioni
+                        e chiude con un esito di conformità per ciascuna sezione esaminata.
+                    </p>
+                    <p>
+                        Nella sessione mostrata il revisore conferma: <strong>RISCONTRO COMPLETO</strong> sul
+                        riferimento normativo principale, sulla distinzione tra comma 10 (proroga contrattuale)
+                        e comma 11 (proroga tecnica), sulla natura «auto-esecutiva» della proroga tecnica, e
+                        sulla giurisprudenza citata (TAR e Consiglio di Stato).
+                    </p>
+                </div>
             </div>
 
             <figure class="ia-screenshot-wrap">
@@ -579,29 +352,29 @@
     <!-- ============ §3 L'ATTO ============ -->
     <section class="ia-section" id="atto">
         <div class="container">
-            <div class="ia-step-head">
-                <div class="ia-step-num">03</div>
-                <div>
-                    <h2>La bozza dell'atto, pronta per la firma</h2>
+            <div class="ia-step-intro">
+                <div class="ia-step-head">
+                    <div class="ia-step-num">03</div>
+                    <h2>La bozza dell'atto</h2>
                     <p class="ia-step-sub">Determinazione del Responsabile del Servizio &middot; intestazione, VISTI, RICHIAMATI, premesse, dispositivo, impegno di spesa</p>
                 </div>
-            </div>
 
-            <div class="ia-narrative">
-                <p>
-                    Oltre alla consulenza, l'agente specialista <strong>redige direttamente la bozza
-                    dell'atto</strong> richiesto. Determinazioni, deliberazioni, ordinanze, verbali,
-                    regolamenti: la bozza arriva completa di intestazione, oggetto, premesse, richiamo
-                    normativo puntuale, parte dispositiva, allegati e predisposizione al protocollo.
-                </p>
-                <p>
-                    Nella sessione mostrata, dalla stessa pratica di refezione scolastica, l'agente
-                    produce in <strong>altri 3 minuti circa</strong> la bozza di <em>Determinazione del
-                    Responsabile del Servizio</em>, già strutturata con i campi compilati dove
-                    determinabili e <strong>placeholder evidenziati</strong> dove serve un completamento
-                    manuale del funzionario (nomi, codici, importi). La bozza è prodotta in
-                    <strong>MS Word, Markdown o PDF</strong>, pronta da rivedere e firmare.
-                </p>
+                <div class="ia-narrative">
+                    <p>
+                        Oltre alla consulenza, l'agente specialista <strong>redige direttamente la bozza
+                        dell'atto</strong> richiesto. Determinazioni, deliberazioni, ordinanze, verbali,
+                        regolamenti: la bozza arriva completa di intestazione, oggetto, premesse, richiamo
+                        normativo puntuale, parte dispositiva, allegati e predisposizione al protocollo.
+                    </p>
+                    <p>
+                        Nella sessione mostrata, dalla stessa pratica di refezione scolastica, l'agente
+                        produce in <strong>altri 3 minuti circa</strong> la bozza di <em>Determinazione del
+                        Responsabile del Servizio</em>, già strutturata con i campi compilati dove
+                        determinabili e <strong>placeholder evidenziati</strong> dove serve un completamento
+                        manuale del funzionario (nomi, codici, importi). La bozza è prodotta in
+                        <strong>MS Word, Markdown o PDF</strong>, pronta da rivedere e firmare.
+                    </p>
+                </div>
             </div>
 
             <figure class="ia-screenshot-wrap">
@@ -638,72 +411,74 @@
     <!-- ============ §4 IL FASCICOLO ============ -->
     <section class="ia-section ia-section--alt" id="fascicolo">
         <div class="container">
-            <div class="ia-step-head">
-                <div class="ia-step-num">04</div>
-                <div>
+            <div class="ia-step-intro">
+                <div class="ia-step-head">
+                    <div class="ia-step-num">04</div>
                     <h2>Dalla sessione al fascicolo digitale</h2>
                     <p class="ia-step-sub">Pacchetto SInCRO conforme UNI 11386 &middot; art. 41 CAD &middot; integrabile direttamente nel gestionale comunale</p>
                 </div>
+
+                <div class="ia-narrative">
+                    <p>
+                        Quando la sessione si chiude, il funzionario può estrarre l'intero fascicolo
+                        informatico della pratica come <strong>pacchetto SInCRO conforme allo standard
+                        UNI 11386</strong>, pronto per essere importato nel gestionale documentale del
+                        Comune. La configurazione si fa <strong>una sola volta per Ente</strong>;
+                        l'estrazione di ogni singola pratica richiede pochi campi e un clic.
+                    </p>
+                    <p>
+                        Il vantaggio strutturale: <strong>a distanza di anni</strong> si può reimportare
+                        il fascicolo informatico nella suite, rigenerare la sessione e ripartire da dove
+                        era stata interrotta, oppure estrarre dati a supporto di un eventuale rilievo o
+                        contenzioso.
+                    </p>
+                </div>
             </div>
 
-            <div class="ia-narrative">
-                <p>
-                    Quando la sessione si chiude, il funzionario può estrarre l'intero fascicolo
-                    informatico della pratica come <strong>pacchetto SInCRO conforme allo standard
-                    UNI 11386</strong>, pronto per essere importato nel gestionale documentale del
-                    Comune. La configurazione si fa <strong>una sola volta per Ente</strong>;
-                    l'estrazione di ogni singola pratica richiede pochi campi e un click.
-                </p>
-                <p>
-                    Il vantaggio strutturale: <strong>a distanza di anni</strong> si può reimportare
-                    il fascicolo informatico nella suite, rigenerare la sessione e ripartire da dove
-                    era stata interrotta, oppure estrarre dati a supporto di un eventuale rilievo o
-                    contenzioso.
-                </p>
-            </div>
+            <div class="ia-materiali">
+                <div class="ia-dialogs">
+                    <figure class="ia-dialog-card">
+                        <img src="assets/images/pa-locale/dialog-fascicolo-config.png"
+                             alt="Dialog «Fascicolo Informatico — Estrazione/Import» di TTR-SUITE: campi obbligatori per la configurazione dell'amministrazione (Denominazione amministrazione, Codice IPA con bottone «Cerca su IPA», Area Organizzativa Omogenea AOO, Operatore pratica, Cartella di destinazione pacchetti, Titolario di classificazione XML con bottone «Sfoglia», Sistema documentale di provenienza con dropdown «Halley Informatica — S.I.C. Protocollo» e bottone «Standard Comuni 2005», Logo del Comune opzionale). In basso conferma del titolario caricato: 14 titoli, 112 classi, formato XML, provider Halley Informatica — S.I.C."
+                             loading="lazy" decoding="async"
+                             width="800" height="1383">
+                        <figcaption>
+                            Configurazione provider e titolario
+                            <span class="ia-dialog-sub">Una sola volta per Ente &middot; codice IPA, AOO, gestionale, titolario di classificazione</span>
+                        </figcaption>
+                    </figure>
+                    <figure class="ia-dialog-card">
+                        <img src="assets/images/pa-locale/dialog-fascicolo-pratica.png"
+                             alt="Dialog «Dati pratica per il fascicolo» di TTR-SUITE: campi opzionali N° Pratica e N° Protocollo (con nota che di norma li assegna il gestionale documentale a valle dell'import), dropdown «Classificazione (titolario)» con nota «74 codici disponibili dal titolario caricato — Halley Informatica — S.I.C. Protocollo. Si può scegliere», campo «Responsabile del procedimento», area di testo «Note del funzionario (opzionale)», bottoni «Annulla» e «Estrai fascicolo»."
+                             loading="lazy" decoding="async"
+                             width="800" height="700">
+                        <figcaption>
+                            Per ogni pratica, classificazione di titolario
+                            <span class="ia-dialog-sub">Numero pratica, protocollo, codice titolario, responsabile, note &middot; un clic ed esce il pacchetto SInCRO</span>
+                        </figcaption>
+                    </figure>
+                </div>
 
-            <div class="ia-dialogs">
-                <figure class="ia-dialog-card">
-                    <img src="assets/images/pa-locale/dialog-fascicolo-config.png"
-                         alt="Dialog «Fascicolo Informatico — Estrazione/Import» di TTR-SUITE: campi obbligatori per la configurazione dell'amministrazione (Denominazione amministrazione, Codice IPA con bottone «Cerca su IPA», Area Organizzativa Omogenea AOO, Operatore pratica, Cartella di destinazione pacchetti, Titolario di classificazione XML con bottone «Sfoglia», Sistema documentale di provenienza con dropdown «Halley Informatica — S.I.C. Protocollo» e bottone «Standard Comuni 2005», Logo del Comune opzionale). In basso conferma del titolario caricato: 14 titoli, 112 classi, formato XML, provider Halley Informatica — S.I.C."
-                         loading="lazy" decoding="async"
-                         width="800" height="1383">
-                    <figcaption>
-                        Configurazione provider e titolario
-                        <span class="ia-dialog-sub">Una sola volta per Ente &middot; codice IPA, AOO, gestionale, titolario di classificazione</span>
-                    </figcaption>
-                </figure>
-                <figure class="ia-dialog-card">
-                    <img src="assets/images/pa-locale/dialog-fascicolo-pratica.png"
-                         alt="Dialog «Dati pratica per il fascicolo» di TTR-SUITE: campi opzionali N° Pratica e N° Protocollo (con nota che di norma li assegna il gestionale documentale a valle dell'import), dropdown «Classificazione (titolario)» con nota «74 codici disponibili dal titolario caricato — Halley Informatica — S.I.C. Protocollo. Si può scegliere», campo «Responsabile del procedimento», area di testo «Note del funzionario (opzionale)», bottoni «Annulla» e «Estrai fascicolo»."
-                         loading="lazy" decoding="async"
-                         width="800" height="700">
-                    <figcaption>
-                        Per ogni pratica, classificazione di titolario
-                        <span class="ia-dialog-sub">Numero pratica, protocollo, codice titolario, responsabile, note &middot; un click ed esce il pacchetto SInCRO</span>
-                    </figcaption>
-                </figure>
-            </div>
+                <div class="ia-sincro-box">
+                    <h3>Cosa contiene il pacchetto SInCRO estratto</h3>
+                    <ul>
+                        <li>Manifest XML conforme UNI 11386</li>
+                        <li>Distinta PDF/A firmata digitalmente</li>
+                        <li>Hash SHA-256 di integrità su ogni componente</li>
+                        <li>Atto e/o parere prodotto dalla suite</li>
+                        <li>Riferimenti normativi consultati</li>
+                        <li>Classificazione di titolario per il gestionale</li>
+                    </ul>
+                </div>
 
-            <div class="ia-sincro-box">
-                <h3><i class="fas fa-box-archive"></i> Cosa contiene il pacchetto SInCRO estratto</h3>
-                <ul>
-                    <li>Manifest XML conforme UNI 11386</li>
-                    <li>Distinta PDF/A firmata digitalmente</li>
-                    <li>Hash SHA-256 di integrità su ogni componente</li>
-                    <li>Atto e/o parere prodotto dalla suite</li>
-                    <li>Riferimenti normativi consultati</li>
-                    <li>Classificazione di titolario per il gestionale</li>
-                </ul>
-            </div>
-
-            <div class="ia-vendors">
-                <h4><i class="fas fa-plug"></i> &nbsp;Gestionali documentali italiani supportati</h4>
-                <p>
-                    <strong>Halley Informatica &middot; Maggioli &middot; Dedagroup Public Services
-                    &middot; GPI &middot; PA Digitale &middot; 3D Informatica &middot; Engineering</strong>,
-                    più i quattro formati standard XML, CSV, XLSX, JSON come fallback universale.
-                </p>
+                <div class="ia-vendors su-blu">
+                    <h4>Gestionali documentali italiani supportati</h4>
+                    <p>
+                        <strong>Halley Informatica &middot; Maggioli &middot; Dedagroup Public Services
+                        &middot; GPI &middot; PA Digitale &middot; 3D Informatica &middot; Engineering</strong>,
+                        più i quattro formati standard XML, CSV, XLSX, JSON come fallback universale.
+                    </p>
+                </div>
             </div>
 
             <div class="ia-honesty-note">
@@ -718,57 +493,56 @@
         </div>
     </section>
 
-    <!-- ============ CTA FINALE ============ -->
-    <section class="ia-cta">
+    <!-- ============ CHIUSURA ============ -->
+    <section class="ia-cta su-blu">
         <div class="container">
             <h2>Vuole vederlo sul Suo caso?</h2>
             <p>
-                Organizziamo una demo concreta sul Suo Ente, partendo da una pratica reale che ha
+                Organizziamo una prima prova in videoconferenza, partendo da una pratica reale che ha
                 sulla scrivania questa settimana. Le mostriamo l'intera sequenza, dalla domanda
                 al fascicolo digitale, senza impegno e senza costo.
             </p>
-            <a href="index.html#contact" class="btn btn-primary"><i class="fas fa-envelope"></i> Richieda una demo</a>
-            <a href="pa-locale.html" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Torna al profilo prodotto</a>
+            <div class="cta-buttons">
+                <a href="index.html#contact" class="btn btn-primary">Chieda una prova gratuita</a>
+                <a href="pa-locale.html" class="btn btn-secondary">Torna alla pagina del prodotto</a>
+            </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <a href="index.html#home" class="logo-link">
-                        <img src="assets/logo.png" alt="Aviolab AI Logo">
-                        <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+    </main>
+
+    <footer class="piede su-notte">
+        <div class="contenitore">
+            <div class="piede__griglia">
+                <div>
+                    <a class="marchio" href="index.html" aria-label="Aviolab AI, pagina iniziale">
+                        <img class="marchio__scudo" src="assets/logo-144.png" alt="" width="118" height="144" loading="lazy">
+                        <img class="marchio__scritta" src="assets/logo-scritta.svg" alt="" width="170" height="18">
                     </a>
-                    <p>AI applicata al diritto e alla Pubblica Amministrazione</p>
-                    <div class="legal-info">
-                        <p>AVIOLAB AI DI PARENTI RICCARDO</p>
-                        <p>Via XXV Aprile 251</p>
-                        <p>IT16031 Pieve Ligure (GE)</p>
-                        <p>P.IVA 02997110990</p>
-                        <p>REA GE - 525625</p>
-                    </div>
+                    <p class="piede__motto" data-i18n="piede_motto">Intelligenza artificiale per i pareri e gli atti dei Comuni.</p>
+                    <p class="piede__legale">AVIOLAB AI DI PARENTI RICCARDO<br>Via XXV Aprile 251, 16031 Pieve Ligure (GE)<br>P.IVA 02997110990, REA GE 525625</p>
                 </div>
-                <div class="footer-links">
-                    <h3>Soluzioni</h3>
+                <div>
+                    <h2 data-i18n="piede_prodotto">TTR-SUITE PA Locale</h2>
                     <ul>
-                        <li><a href="pa-locale.html">TTR-SUITE PA Locale</a></li>
-                        <li><a href="che-cos-e-ttr-suite.html">Che cos'è TTR-SUITE</a></li>
-                        <li><a href="pa-locale-in-azione.html">TTR-SUITE in azione</a></li>
-                        <li><a href="ip-legal.html">TTR-SUITE IP Legal</a></li>
+                        <li><a href="pa-locale.html">Il prodotto</a></li>
+                        <li><a href="pa-locale-in-azione.html">Come lavora</a></li>
+                        <li><a href="che-cos-e-ttr-suite.html">In parole semplici</a></li>
+                        <li><a href="le-domande-del-funzionario.html">Le domande del funzionario</a></li>
                         <li><a href="dicono-di-noi.html">Dicono di noi</a></li>
                         <li><a href="downloads.html">Download</a></li>
-                        <li><a href="index.html#contact">Contatti</a></li>
                     </ul>
                 </div>
-                <div class="footer-social">
-                    <h3>Resti in contatto</h3>
-                    <p><a href="mailto:info@aviolab.ai" style="color:inherit;"><i class="fas fa-envelope"></i> info@aviolab.ai</a></p>
-                    <p><a href="https://www.aviolab.ai" target="_blank" style="color:inherit;"><i class="fas fa-globe"></i> www.aviolab.ai</a></p>
+                <div>
+                    <h2 data-i18n="piede_altro">Aviolab AI</h2>
+                    <ul>
+                        <li><a href="ip-legal.html">TTR-SUITE IP Legal</a></li>
+                        <li><a href="privacy.html">Privacy</a></li>
+                        <li><a href="mailto:info@aviolab.ai">info@aviolab.ai</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="footer-bottom">
+            <div class="piede__fondo">
                 <p>&copy; 2026 Aviolab AI. Tutti i diritti riservati.</p>
                 <p class="version-number">v1.3.43</p>
             </div>

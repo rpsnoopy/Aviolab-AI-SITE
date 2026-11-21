@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#1e40af">
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <meta name="theme-color" content="#1b3a93">
     <meta name="description" content="Un secondo parere, prima di firmare? Sapere se la Corte dei conti potrebbe contestargli quell'atto? Sapere se l'atto è impugnabile e quali parti andrebbero cambiate?">
     <meta name="author" content="Riccardo Parenti">
     <meta name="keywords" content="funzionario comunale, Comuni, atti amministrativi, determine, Corte dei conti, impugnabilità, norma vigente, modelli di atto, regolamenti comunali, TTR-SUITE PA Locale, Aviolab AI">
@@ -53,196 +52,199 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <meta name="apple-mobile-web-app-title" content="Aviolab.ai">
 
-    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="fonts/fonts.css">
+    <!-- Sistema grafico 2027: styles.css (vecchio), poi le parti comuni, poi il ponte. -->
+    <link rel="preload" href="fonts/archivo/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="styles.css?v=145">
-    <script defer src="script.js?v=143"></script>
+    <link rel="stylesheet" href="sito-comune.css?v=1">
+    <link rel="stylesheet" href="sito-ponte.css?v=1">
+    <script defer src="js/sito.js?v=1"></script>
 
     <style>
-        /* Stili specifici per le-domande-del-funzionario (pagina IT-only, solo testo).
-           Testo «41 domande» v7 del 18/11/2026: domanda d'apertura come titolo, le domande
-           una per riga a gruppi, la chiusa in evidenza, una sola azione in fondo. */
-        .ld-page { background: #fff; padding: 8.5rem 0 5rem; }
-        .ld-text { max-width: 760px; margin: 0 auto; }
-        .ld-text h1 {
-            font-size: 2.3rem; color: #0f172a; line-height: 1.3; margin-bottom: 3rem;
+        /* Pagina «Le domande del funzionario» (solo in italiano).
+           Testo «41 domande» v7 del 18/11/2026, approvato dal committente, alla lettera:
+           la domanda d'apertura come titolo, le domande una per riga a gruppi, la chiusa sul blu.
+           Ogni gruppo ha un filo a sinistra nel colore della serie (gli stessi cinque della home):
+           il colore e' quello del post LinkedIn in cui escono quelle domande. */
+        .ld-testo { padding-block: clamp(2.5rem, 5vw, 4rem) clamp(3.5rem, 7vw, 5.5rem); }
+        .ld-gruppo {
+            --c: var(--serie-1);
+            max-width: 52rem;
+            padding: 0.1rem 0 0.1rem clamp(1rem, 2.5vw, 1.6rem);
+            border-left: 4px solid var(--c);
         }
-        .ld-text h1::after {
-            content: ""; display: block; width: 60px; height: 4px; background: #ff0000;
-            border-radius: 2px; margin-top: 1.1rem;
-        }
-        .ld-gruppo { margin: 0 0 2.4rem; }
-        .ld-gruppo p {
-            color: #334155; font-size: 1.2rem; line-height: 1.6;
-            margin: 0 0 0.45rem; padding-left: 1.2rem; text-indent: -1.2rem;
-        }
-        .ld-chiusa {
-            font-family: var(--font-primary); font-size: 1.45rem; line-height: 1.45;
-            color: #0f172a; margin: 3.6rem 0 2.2rem;
-        }
-        .ld-chiusa strong { font-weight: 700; }
+        .ld-gruppo + .ld-gruppo { margin-top: clamp(1.75rem, 3.5vw, 2.4rem); }
+        .ld-gruppo--2 { --c: var(--serie-2); }
+        .ld-gruppo--3 { --c: var(--serie-3); }
+        .ld-gruppo--4 { --c: var(--serie-4); }
+        .ld-gruppo--5 { --c: var(--serie-5); }
+        /* Fra una domanda e l'altra piu' spazio che fra le righe di una stessa domanda. */
+        /* Le domande sono parole del funzionario: in graziato, come nella home. */
+        .ld-gruppo p { font-family: var(--serif); font-size: clamp(1.15rem, 1rem + 0.55vw, 1.4rem); line-height: 1.35; }
+        .ld-gruppo p + p { margin-top: 0.75rem; }
 
-        @media (max-width: 768px) {
-            .ld-page { padding: 6.5rem 0 3.5rem; }
-            .ld-text h1 { font-size: 1.75rem; margin-bottom: 2.2rem; }
-            .ld-gruppo { margin-bottom: 2rem; }
-            .ld-gruppo p { font-size: 1.1rem; margin-bottom: 0.6rem; }
-            .ld-chiusa { font-size: 1.25rem; margin-top: 2.8rem; }
+        /* La chiusa, sul blu, con la sola azione della pagina. */
+        .ld-cta { padding-block: var(--spazio-sezione); }
+        .ld-chiusa {
+            max-width: 30ch; color: #ffffff;
+            font-size: clamp(1.5rem, 1.05rem + 1.5vw, 2.25rem); font-weight: 620; font-stretch: 106%;
+            line-height: 1.2; letter-spacing: -0.012em; text-wrap: balance;
         }
+        .ld-chiusa strong { font-weight: inherit; }
+        .cta-buttons { display: flex; flex-wrap: wrap; gap: 1rem; }
+        .cta-buttons .btn { margin: 0; }
+        .ld-cta .cta-buttons { margin-top: 2.2rem; }
     </style>
 </head>
-<body class="it">
-    <header id="header">
-        <div class="header-container">
-            <a href="index.html#home" class="logo-link">
-                <img src="assets/logo.png" alt="Aviolab AI Logo">
-                <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+<body>
+    <a class="salta" href="#contenuto">Vai al contenuto</a>
+
+    <header class="testata su-notte">
+        <div class="contenitore testata__riga">
+            <a class="marchio" href="index.html" aria-label="Aviolab AI, pagina iniziale">
+                <img class="marchio__scudo" src="assets/logo-144.png" alt="" width="118" height="144">
+                <img class="marchio__scritta" src="assets/logo-scritta.svg" alt="" width="170" height="18">
             </a>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="index.html#mission" class="nav-link">Mission</a></li>
-                    <li><a href="index.html#products" class="nav-link">Soluzioni</a></li>
-                    <li><a href="pa-locale.html" class="nav-link active">PA Locale</a></li>
-                    <li><a href="ip-legal.html" class="nav-link">IP Legal</a></li>
-                    <li><a href="index.html#about" class="nav-link">Chi siamo</a></li>
-                    <li><a href="index.html#contact" class="nav-link">Contatti</a></li>
-                    <li><a href="dicono-di-noi.html" class="nav-link">Dicono di noi</a></li>
-                    <li><a href="downloads.html" class="nav-link" style="color: var(--highlight-color) !important; font-weight: bold;">Download</a></li>
+            <button class="menu__apri" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+            <nav class="menu" id="menu" aria-label="Sezioni del sito">
+                <ul class="menu__voci">
+                    <li><a href="pa-locale.html" data-i18n="m_prodotto">Il prodotto</a></li>
+                    <li><a href="pa-locale-in-azione.html" data-i18n="m_lavora">Come lavora</a></li>
+                    <li><a href="che-cos-e-ttr-suite.html" data-i18n="m_semplice">In parole semplici</a></li>
+                    <li><a href="dicono-di-noi.html" data-i18n="m_stampa">Dicono di noi</a></li>
+                    <li><a href="downloads.html" data-i18n="m_download">Download</a></li>
                 </ul>
+                <a class="pulsante pulsante--piccolo" href="index.html#contact" data-i18n="azione_prova">Chieda una prova gratuita</a>
             </nav>
-            <div class="language-selector">
-                <div class="lang-option" data-lang="en">
-                    <img src="assets/images/flags/flag-gb.svg" alt="English" class="flag-icon" loading="lazy" decoding="async"> EN
-                </div>
-                <div class="lang-option" data-lang="it">
-                    <img src="assets/images/flags/flag-it.svg" alt="Italiano" class="flag-icon" loading="lazy" decoding="async"> IT
-                </div>
-            </div>
-            <div class="mobile-menu-btn">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
         </div>
     </header>
 
+    <main id="contenuto">
+
     <!-- TESTO: «41 domande» v7 del 18/11/2026, approvato dal committente, alla lettera -->
-    <section class="ld-page">
+    <section class="apertura-pagina su-blu">
         <div class="container">
-            <article class="ld-text">
-                <h1>Cosa chiede un funzionario comunale all'intelligenza artificiale?</h1>
-
-                <div class="ld-gruppo">
-                    <p>Un secondo parere, prima di firmare?</p>
-                    <p>Sapere se la Corte dei conti potrebbe contestargli quell'atto?</p>
-                    <p>Sapere se l'atto è impugnabile e quali parti andrebbero cambiate?</p>
-                    <p>Far controllare l'atto preparato da un collega, ma che deve firmare lui?</p>
-                    <p>Una lista chiara e ordinata di passi da seguire?</p>
-                </div>
-
-                <div class="ld-gruppo">
-                    <p>Impostare una pratica che non ha mai fatto, senza chiedere aiuto a nessuno?</p>
-                    <p>Non dover chiedere sempre al collega più anziano?</p>
-                    <p>Mandare al PC del collega la pratica completa, fonti comprese, per avere un parere?</p>
-                    <p>Una risposta concreta, completa, operativa, con le fonti e la lista delle criticità?</p>
-                    <p>Stesure e risposte in linguaggio amministrativo, non in gergo da chatbot?</p>
-                </div>
-
-                <div class="ld-gruppo">
-                    <p>Non passare un altro venerdì pomeriggio su Normattiva?</p>
-                    <p>La norma vigente, con articolo e comma precisi?</p>
-                    <p>Sapere se quell'articolo è stato abrogato o modificato?</p>
-                    <p>La fonte ufficiale, non un riassunto trovato in rete?</p>
-                </div>
-
-                <div class="ld-gruppo">
-                    <p>Un atto già definitivo, con premesse, motivazione e dispositivo?</p>
-                    <p>Uno strumento che tenga conto della prassi del suo Comune?</p>
-                    <p>…e del fatto che gli abitanti sono duemila, non ventimila?</p>
-                    <p>Partire dal modello giusto, già compilato con i dati di questa pratica?</p>
-                </div>
-
-                <div class="ld-gruppo">
-                    <p>Non dover riscrivere da capo una determina quasi identica a quella di marzo?</p>
-                    <p>Sapere se le norme della determina dell'anno scorso valgono ancora?</p>
-                    <p>Sapere se un modello è superato, prima di compilarlo?</p>
-                </div>
-
-                <div class="ld-gruppo">
-                    <p>Poter usare il PDF scansionato male, così com'è?</p>
-                    <p>Trascinare il documento nella finestra e basta?</p>
-                    <p>Una risposta direttamente in Word, da aprire, correggere e stampare?</p>
-                    <p>Non dover imparare un'altra interfaccia?</p>
-                    <p>Un'assistenza che gli risolva un dubbio sul suo PC, da remoto, mentre è al telefono?</p>
-                </div>
-
-                <div class="ld-gruppo">
-                    <p>Poter spiegare al Segretario e al DPO dove finiscono i dati?</p>
-                    <p>Sapere che i dati dei cittadini sono conservati solo sul computer in ufficio?</p>
-                    <p>Mandare fuori un documento coprendo i dati riservati?</p>
-                    <p>Avere il fascicolo pronto quando gli chiedono su che norme si è basato?</p>
-                </div>
-
-                <div class="ld-gruppo">
-                    <p>Che il suo lavoro serva ancora all'ufficio, anche dopo la sua pensione?</p>
-                    <p>Uno strumento che tenga sempre conto di tutti i regolamenti del suo Comune?</p>
-                    <p>Usare un modello già pronto, messo a punto dai colleghi, e lasciare che loro usino i suoi?</p>
-                    <p>Lavorare con la collega sulla stessa pratica, ognuno dal proprio PC, parlandosi?</p>
-                    <p>Ripartire, dopo tre mesi, esattamente da dove si era fermato?</p>
-                    <p>Poter riaprire tutta la pratica con facilità, fra tre o cinque anni?</p>
-                    <p>Che risulti chiaro che a decidere è stato lui?</p>
-                </div>
-
-                <div class="ld-gruppo">
-                    <p>Farsi aiutare, mantenendo sua la decisione finale?</p>
-                    <p>Un aiuto, ma senza essere controllato da nessuno mentre lavora?</p>
-                    <p>Più tempo per seguire lo sportello?</p>
-                </div>
-
-                <p class="ld-chiusa"><strong>TTR-SUITE PA LOCALE fa tutto questo. E lo fa già oggi, in un Comune come il vostro.</strong></p>
-
-                <a href="index.html#contact" class="btn btn-primary"><i class="fas fa-envelope"></i> Chiedete una prova gratuita</a>
-            </article>
+            <h1>Cosa chiede un funzionario comunale all'intelligenza artificiale?</h1>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
+    <div class="container">
+        <article class="ld-testo">
+
+            <div class="ld-gruppo">
+                <p>Un secondo parere, prima di firmare?</p>
+                <p>Sapere se la Corte dei conti potrebbe contestargli quell'atto?</p>
+                <p>Sapere se l'atto è impugnabile e quali parti andrebbero cambiate?</p>
+                <p>Far controllare l'atto preparato da un collega, ma che deve firmare lui?</p>
+                <p>Una lista chiara e ordinata di passi da seguire?</p>
+            </div>
+
+            <div class="ld-gruppo ld-gruppo--2">
+                <p>Impostare una pratica che non ha mai fatto, senza chiedere aiuto a nessuno?</p>
+                <p>Non dover chiedere sempre al collega più anziano?</p>
+                <p>Mandare al PC del collega la pratica completa, fonti comprese, per avere un parere?</p>
+                <p>Una risposta concreta, completa, operativa, con le fonti e la lista delle criticità?</p>
+                <p>Stesure e risposte in linguaggio amministrativo, non in gergo da chatbot?</p>
+            </div>
+
+            <div class="ld-gruppo ld-gruppo--2">
+                <p>Non passare un altro venerdì pomeriggio su Normattiva?</p>
+                <p>La norma vigente, con articolo e comma precisi?</p>
+                <p>Sapere se quell'articolo è stato abrogato o modificato?</p>
+                <p>La fonte ufficiale, non un riassunto trovato in rete?</p>
+            </div>
+
+            <div class="ld-gruppo ld-gruppo--3">
+                <p>Un atto già definitivo, con premesse, motivazione e dispositivo?</p>
+                <p>Uno strumento che tenga conto della prassi del suo Comune?</p>
+                <p>…e del fatto che gli abitanti sono duemila, non ventimila?</p>
+                <p>Partire dal modello giusto, già compilato con i dati di questa pratica?</p>
+            </div>
+
+            <div class="ld-gruppo ld-gruppo--3">
+                <p>Non dover riscrivere da capo una determina quasi identica a quella di marzo?</p>
+                <p>Sapere se le norme della determina dell'anno scorso valgono ancora?</p>
+                <p>Sapere se un modello è superato, prima di compilarlo?</p>
+            </div>
+
+            <div class="ld-gruppo ld-gruppo--3">
+                <p>Poter usare il PDF scansionato male, così com'è?</p>
+                <p>Trascinare il documento nella finestra e basta?</p>
+                <p>Una risposta direttamente in Word, da aprire, correggere e stampare?</p>
+                <p>Non dover imparare un'altra interfaccia?</p>
+                <p>Un'assistenza che gli risolva un dubbio sul suo PC, da remoto, mentre è al telefono?</p>
+            </div>
+
+            <div class="ld-gruppo ld-gruppo--4">
+                <p>Poter spiegare al Segretario e al DPO dove finiscono i dati?</p>
+                <p>Sapere che i dati dei cittadini sono conservati solo sul computer in ufficio?</p>
+                <p>Mandare fuori un documento coprendo i dati riservati?</p>
+                <p>Avere il fascicolo pronto quando gli chiedono su che norme si è basato?</p>
+            </div>
+
+            <div class="ld-gruppo ld-gruppo--5">
+                <p>Che il suo lavoro serva ancora all'ufficio, anche dopo la sua pensione?</p>
+                <p>Uno strumento che tenga sempre conto di tutti i regolamenti del suo Comune?</p>
+                <p>Usare un modello già pronto, messo a punto dai colleghi, e lasciare che loro usino i suoi?</p>
+                <p>Lavorare con la collega sulla stessa pratica, ognuno dal proprio PC, parlandosi?</p>
+                <p>Ripartire, dopo tre mesi, esattamente da dove si era fermato?</p>
+                <p>Poter riaprire tutta la pratica con facilità, fra tre o cinque anni?</p>
+                <p>Che risulti chiaro che a decidere è stato lui?</p>
+            </div>
+
+            <div class="ld-gruppo ld-gruppo--5">
+                <p>Farsi aiutare, mantenendo sua la decisione finale?</p>
+                <p>Un aiuto, ma senza essere controllato da nessuno mentre lavora?</p>
+                <p>Più tempo per seguire lo sportello?</p>
+            </div>
+
+        </article>
+    </div>
+
+    <!-- CHIUSURA -->
+    <section class="ld-cta su-blu">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <a href="index.html#home" class="logo-link">
-                        <img src="assets/logo.png" alt="Aviolab AI Logo">
-                        <span class="logo-text">AVIOLAB <span class="logo-text-highlight">AI</span></span>
+            <p class="ld-chiusa"><strong>TTR-SUITE PA LOCALE fa tutto questo. E lo fa già oggi, in un Comune come il vostro.</strong></p>
+
+            <div class="cta-buttons">
+                <a href="index.html#contact" class="btn btn-primary">Chiedete una prova gratuita</a>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <footer class="piede su-notte">
+        <div class="contenitore">
+            <div class="piede__griglia">
+                <div>
+                    <a class="marchio" href="index.html" aria-label="Aviolab AI, pagina iniziale">
+                        <img class="marchio__scudo" src="assets/logo-144.png" alt="" width="118" height="144" loading="lazy">
+                        <img class="marchio__scritta" src="assets/logo-scritta.svg" alt="" width="170" height="18">
                     </a>
-                    <p>AI applicata al diritto e alla Pubblica Amministrazione</p>
-                    <div class="legal-info">
-                        <p>AVIOLAB AI DI PARENTI RICCARDO</p>
-                        <p>Via XXV Aprile 251</p>
-                        <p>IT16031 Pieve Ligure (GE)</p>
-                        <p>P.IVA 02997110990</p>
-                        <p>REA GE - 525625</p>
-                    </div>
+                    <p class="piede__motto" data-i18n="piede_motto">Intelligenza artificiale per i pareri e gli atti dei Comuni.</p>
+                    <p class="piede__legale">AVIOLAB AI DI PARENTI RICCARDO<br>Via XXV Aprile 251, 16031 Pieve Ligure (GE)<br>P.IVA 02997110990, REA GE 525625</p>
                 </div>
-                <div class="footer-links">
-                    <h3>Soluzioni</h3>
+                <div>
+                    <h2 data-i18n="piede_prodotto">TTR-SUITE PA Locale</h2>
                     <ul>
-                        <li><a href="pa-locale.html">TTR-SUITE PA Locale</a></li>
-                        <li><a href="che-cos-e-ttr-suite.html">Che cos'è TTR-SUITE</a></li>
-                        <li><a href="pa-locale-in-azione.html">TTR-SUITE in azione</a></li>
-                        <li><a href="ip-legal.html">TTR-SUITE IP Legal</a></li>
+                        <li><a href="pa-locale.html">Il prodotto</a></li>
+                        <li><a href="pa-locale-in-azione.html">Come lavora</a></li>
+                        <li><a href="che-cos-e-ttr-suite.html">In parole semplici</a></li>
+                        <li><a href="le-domande-del-funzionario.html">Le domande del funzionario</a></li>
                         <li><a href="dicono-di-noi.html">Dicono di noi</a></li>
                         <li><a href="downloads.html">Download</a></li>
-                        <li><a href="index.html#contact">Contatti</a></li>
                     </ul>
                 </div>
-                <div class="footer-social">
-                    <h3>Resti in contatto</h3>
-                    <p><a href="mailto:info@aviolab.ai" style="color:inherit;"><i class="fas fa-envelope"></i> info@aviolab.ai</a></p>
-                    <p><a href="https://www.aviolab.ai" target="_blank" style="color:inherit;"><i class="fas fa-globe"></i> www.aviolab.ai</a></p>
+                <div>
+                    <h2 data-i18n="piede_altro">Aviolab AI</h2>
+                    <ul>
+                        <li><a href="ip-legal.html">TTR-SUITE IP Legal</a></li>
+                        <li><a href="privacy.html">Privacy</a></li>
+                        <li><a href="mailto:info@aviolab.ai">info@aviolab.ai</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="footer-bottom">
+            <div class="piede__fondo">
                 <p>&copy; 2026 Aviolab AI. Tutti i diritti riservati.</p>
                 <p class="version-number">v1.3.43</p>
             </div>
