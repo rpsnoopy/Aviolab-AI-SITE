@@ -255,7 +255,7 @@ const translations = {
         "home_card_pa_badge": "New",
         "home_card_pa_title": "TTR-SUITE per la PA Locale",
         "home_card_pa_tagline": "AI legal and administrative consulting for Italian municipalities",
-        "home_card_pa_text": "Mainly designed for Italian municipalities under 5,000 inhabitants and the officials who run them. Legal opinions and analytical problem-solving under current law, drafted acts ready for signature, SInCRO-compliant digital filing. Patent-pending architecture.",
+        "home_card_pa_text": "Mainly designed for Italian municipalities under 5,000 inhabitants and the officials who run them. Legal opinions and analytical problem-solving under current law, drafted acts ready for signature, SInCRO-compliant digital filing.",
         "home_card_pa_feat1": "Legal opinions and analytical studies on concrete administrative problems under current law",
         "home_card_pa_feat2": "43 different AI agents working together on every result",
         "home_card_pa_feat3": "Certified normative sources, zero citation errors",
@@ -584,7 +584,7 @@ const translations = {
         "home_card_pa_badge": "Novità",
         "home_card_pa_title": "TTR-SUITE per la PA Locale",
         "home_card_pa_tagline": "Consulenza giuridica e amministrativa AI per i Comuni italiani",
-        "home_card_pa_text": "Pensata principalmente per i Comuni italiani sotto i 5.000 abitanti e per i funzionari che li presidiano. Pareri giuridici, studio analitico di problemi amministrativi alla luce della norma vigente, atti redatti e pronti per la firma, fascicolo digitale conforme allo standard SInCRO. Architettura coperta da domanda di brevetto.",
+        "home_card_pa_text": "Pensata principalmente per i Comuni italiani sotto i 5.000 abitanti e per i funzionari che li presidiano. Pareri giuridici, studio analitico di problemi amministrativi alla luce della norma vigente, atti redatti e pronti per la firma, fascicolo digitale conforme allo standard SInCRO.",
         "home_card_pa_feat1": "Pareri giuridici e studi analitici su problemi amministrativi concreti alla luce della legislazione vigente",
         "home_card_pa_feat2": "43 diverse intelligenze artificiali che collaborano al risultato",
         "home_card_pa_feat3": "Fonti normative certificate, zero errori sulle citazioni",
@@ -662,7 +662,6 @@ const translations = {
 
         "ipl2_hero_title": "TTR-SUITE <span class=\"highlight\">IP Legal</span>",
         "ipl2_hero_lead": "Agenti AI che analizzano, redigono e validano. NDA, accordi di ricerca e accordi commerciali, contratti di licenza, revisione contrattuale e preparazione end-to-end di domande di brevetto. Un solo motore, un solo flusso, output con fonti sempre verificate.",
-        "ipl2_hero_proof": "Validato sul nostro stesso brevetto, depositato all'UIBM in 11 ore.",
         "ipl2_hero_cta_contact": "Ci contatti",
         "ipl2_hero_cta_explore": "Scopra le capacità",
 
@@ -801,8 +800,6 @@ const translations = {
         "ipl2_arch_mode4": "Conformità regolamentare ed export control",
         "ipl2_arch_mode5": "Citazioni e numeri di brevetto verificati alla fonte",
         "ipl2_arch_mode6": "Workspace di sessione ispezionabile",
-        "ipl2_arch_patent_note": "Questa architettura multi-agente è oggetto della domanda di brevetto Aviolab ",
-        "ipl2_arch_patent_note2": " depositata l'8 maggio 2026.",
 
         "ipl2_trust_title": "Costruita per il lavoro legale reale",
         "ipl2_trust_subtitle": "Vincoli scolpiti dentro ciascun agente, in modo che l'output che riceve sia utilizzabile su casi reali, non impressionante in demo e inaffidabile alla scrivania.",
@@ -819,13 +816,6 @@ const translations = {
         "ipl2_trust6_title": "Robusta contro prompt injection",
         "ipl2_trust6_text": "Cinque livelli di protezione (L1&ndash;L5) bloccano i tentativi di estrarre le istruzioni interne tramite riformulazione, role-play, encoding, traduzione o istruzioni nascoste nei documenti sottoposti. Gli override embeddati nei documenti vengono segnalati nel report, non eseguiti.",
 
-        "ipl2_sv_title": "Auto-validata sul nostro stesso brevetto",
-        "ipl2_sv_subtitle": "La prova più rigorosa che potessimo immaginare: abbiamo usato il sistema per preparare la sua stessa domanda di brevetto.",
-        "ipl2_sv_text": "Il brevetto che protegge l'architettura multi-agente alla base di TTR-SUITE è stato redatto, attaccato e validato dalla TTR-SUITE stessa in interazione <strong>DIRETTA</strong> con il sistema di coding agentico usato per lo sviluppo del SW. Sotto stretta sorveglianza umana, il flusso dall'intervista all'inventore al deposito UIBM è stato eseguito in interazione <strong>MCP</strong> tra i due sistemi AI: un flusso continuo con pochi interventi umani, un solo operatore al fianco, un solo motore a produrre gli artefatti.",
-        "ipl2_sv_office": "Ufficio",
-        "ipl2_sv_number": "N. domanda",
-        "ipl2_sv_date": "Data deposito",
-        "ipl2_sv_cycle": "Avvio &rarr; deposito",
 
         "ipl2_case_title": "Test sul campo: dipartimento IP di un grande gruppo industriale multinazionale",
         "ipl2_case_heading": "Trasformazione della gestione documentale IP in un gruppo industriale internazionale",

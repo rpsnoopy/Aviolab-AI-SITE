@@ -260,7 +260,7 @@ home_products_subtitle: Two purpose-built suites for two distinct audiences
 home_card_pa_badge: New
 home_card_pa_title: TTR-SUITE per la PA Locale
 home_card_pa_tagline: AI legal and administrative consulting for Italian municipalities
-home_card_pa_text: Designed for Italian municipalities under 5,000 inhabitants and the officials who run them. Legal advice on current law, drafted acts ready for signature, SInCRO-compliant digital filing. Patent-pending architecture.
+home_card_pa_text: Designed for Italian municipalities under 5,000 inhabitants and the officials who run them. Legal advice on current law, drafted acts ready for signature, SInCRO-compliant digital filing.
 home_card_pa_feat1: 16+1 specialist agents for thematic areas and roles
 home_card_pa_feat2: Certified normative sources — zero citation errors
 home_card_pa_feat3: Drafting of acts: resolutions, determinations, ordinances, building titles

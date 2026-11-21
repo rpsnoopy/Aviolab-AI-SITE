@@ -1,6 +1,6 @@
 # Aviolab AI
 
-> Agentic AI for IP Legal and public administration. Two specialized suites built on the same multi-agent engine: **TTR-SUITE IP Legal** for legal teams, IP departments and technology transfer offices, and **TTR-SUITE per la PA Locale** for Italian municipalities, mainly those under 5,000 inhabitants. Source-verified, traceable, professional-grade results. Multi-agent architecture covered by patent application UIBM 102026000013123, filed 08 May 2026.
+> Agentic AI for IP Legal and public administration. Two specialized suites built on the same multi-agent engine: **TTR-SUITE IP Legal** for legal teams, IP departments and technology transfer offices, and **TTR-SUITE per la PA Locale** for Italian municipalities, mainly those under 5,000 inhabitants. Source-verified, traceable, professional-grade results.
 
 This file contains the complete text content of the main pages of https://aviolab.ai/ in a single markdown document, so that an LLM can read the whole site without navigating. Pages: Homepage (EN), TTR-SUITE IP Legal (EN), TTR-SUITE per la PA Locale (IT), TTR-SUITE per la PA Locale in azione (IT), Che cos'è TTR-SUITE (IT), Le domande del funzionario (IT), Downloads (EN), Privacy (IT/EN summary).
 
@@ -32,7 +32,7 @@ Focused Agentic AI for two distinct domains:
 ## Our Solutions: two purpose-built suites for two distinct audiences
 
 ### TTR-SUITE per la PA Locale
-Consulenza giuridica e amministrativa AI per i Comuni italiani. Mainly designed for Italian municipalities under 5,000 inhabitants and the officials who run them. Legal opinions and analytical problem-solving under current law, drafted acts ready for signature, SInCRO-compliant digital filing. Patent-pending architecture.
+Consulenza giuridica e amministrativa AI per i Comuni italiani. Mainly designed for Italian municipalities under 5,000 inhabitants and the officials who run them. Legal opinions and analytical problem-solving under current law, drafted acts ready for signature, SInCRO-compliant digital filing.
 
 - Legal opinions and analytical studies on concrete administrative problems under current law
 - 43 different AI agents working together on every result (24 specialist agents + 19 cognitive functions)
@@ -80,7 +80,7 @@ Company data: AVIOLAB AI DI PARENTI RICCARDO, Via XXV Aprile 251, IT16031 Pieve 
 # TTR-SUITE IP Legal
 URL: https://aviolab.ai/ip-legal.html (page in English, Italian translation available on site)
 
-AI agents that analyse, draft and validate. NDAs, research and commercial agreements, license deals, contract review, and end-to-end patent application preparation. One engine, one workflow, source-verified outputs. Validated on our own patent, filed at UIBM in 11 hours.
+AI agents that analyse, draft and validate. NDAs, research and commercial agreements, license deals, contract review, and end-to-end patent application preparation. One engine, one workflow, source-verified outputs.
 
 ## The pressure on legal and IP work
 
@@ -189,8 +189,6 @@ Seven IP areas presided: non-disclosure agreements; academic research agreements
 
 Six operating modes across the areas: clause-by-clause analysis with risk scoring; assisted drafting to your IP policy; adversarial stress test on patents; regulatory and export-control compliance; source-verified citations and patent numbers; inspectable session workspace.
 
-This multi-agent architecture is covered by Aviolab's pending patent application UIBM 102026000013123 filed 08 May 2026.
-
 ## Built for production legal work
 
 - No fabricated references: every agent operates under explicit no-hallucination rules on legal articles, contract clauses, citations and patent numbers. Where information is missing, the output says so explicitly. An honest "unverifiable" replaces a confident invention.
@@ -199,15 +197,6 @@ This multi-agent architecture is covered by Aviolab's pending patent application
 - Confidence levels on every finding: each assertion carries a confidence tag (certain, probable, uncertain, unverifiable).
 - Conservative bias on IP risk: when in doubt between two severity bands, the agent picks the higher one.
 - Hardened against prompt injection: five-level system protection (L1 to L5) blocks attempts to extract internal instructions through reformulation, role-play, encoding, translation or instructions embedded in submitted documents. Embedded overrides are flagged in the report, not executed.
-
-## Self-validated on our own patent
-
-The patent protecting the multi-agent architecture behind TTR-SUITE was drafted, attacked and validated by TTR-SUITE itself, in direct interaction with the agentic coding system used to develop the software. Under close human supervision, the flow from the inventor interview to the UIBM filing was executed as an MCP interaction between the two AI systems: a continuous flow with minimal human intervention.
-
-- Office: UIBM, MIMIT
-- Application no.: 102026000013123
-- Filing date: 08 May 2026
-- Inception to filing: 11 hours
 
 ## Field test: IP department of a major international industrial group
 
@@ -333,14 +322,6 @@ GDPR, protezione dei dati:
 - Comunicazioni cifrate TLS 1.3, DPA disponibile in fase di contratto
 
 Documentazione di compliance consegnata al cliente: Data Processing Addendum (DPA), Classificazione del Rischio AI Act, Scheda Tecnica del Sistema AI, Informativa Trasparenza AI Act, indice documentazione.
-
-## Tecnologia coperta da domanda di brevetto
-
-L'architettura multi-agente di TTR-SUITE è oggetto di una domanda di brevetto per invenzione industriale depositata presso UIBM.
-- Numero domanda: 102026000013123
-- Data deposito: 08 maggio 2026
-- Ente: UIBM, MIMIT
-- Architettura soggetta a riservatezza brevettuale (18 mesi dalla data di deposito); pubblicazione UIBM successiva alla scadenza del periodo di segretezza.
 
 ## Modello di installazione
 
