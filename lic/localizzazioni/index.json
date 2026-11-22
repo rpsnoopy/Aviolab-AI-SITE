@@ -1,6 +1,6 @@
 {
   "formato": "ttr-localizzazioni-indice/1",
-  "aggiornatoIl": "2026-11-22T16:04:34Z",
+  "aggiornatoIl": "2026-11-22T17:06:35Z",
   "comuni": [
     {
       "id": "010002",
@@ -37,6 +37,15 @@
       "regione": "Liguria",
       "versione": "2026-11-22T16:04:34Z",
       "sha256": "afe785fcb16d3bbe59e55c69f24dccb1b6cb8299ed298d44034b394a4d87af13"
+    },
+    {
+      "id": "010009",
+      "slug": "campomorone",
+      "denominazione": "Campomorone",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "versione": "2026-11-22T17:06:35Z",
+      "sha256": "1c5119bc151c29ec3c74c2d743f499d11acb813bd1fafdfc0b1ee7a68490ffe0"
     },
     {
       "id": "020015",
@@ -98,8 +107,8 @@
       "denominazione": "Offanengo",
       "provincia": "CR",
       "regione": "Lombardia",
-      "versione": "2026-11-22T16:04:33Z",
-      "sha256": "98cfe7b31a414b55f1e28bc895b5b57c2b4cb743d07ef858675f8f8de398dfba"
+      "versione": "2026-11-22T17:06:35Z",
+      "sha256": "9e7a7284651964c118794392643c273a4390f3641e6ef3c443b12c4e10d4d6a4"
     },
     {
       "id": "010043",
@@ -161,8 +170,8 @@
       "denominazione": "Tremosine sul Garda",
       "provincia": "BS",
       "regione": "Lombardia",
-      "versione": "2026-11-22T16:04:33Z",
-      "sha256": "43dec9ab2c95edb2373142db23c19418921fdf150b0c10395bef48e864acc092"
+      "versione": "2026-11-22T17:06:35Z",
+      "sha256": "ec8a4d9e0e14928e7cdbd691654383c53a48cceb2389f23d9afe38a5c20d480d"
     },
     {
       "id": "010064",
