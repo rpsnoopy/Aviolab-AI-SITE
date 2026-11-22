@@ -1,7 +1,25 @@
 {
   "formato": "ttr-localizzazioni-indice/1",
-  "aggiornatoIl": "2026-10-13T11:20:20Z",
+  "aggiornatoIl": "2026-11-22T16:04:34Z",
   "comuni": [
+    {
+      "id": "010002",
+      "slug": "avegno",
+      "denominazione": "Avegno",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "versione": "2026-11-22T16:04:33Z",
+      "sha256": "e9c6d8a4023992588b241a9ab6e2dd6be96c3ba420a42283a01826051ae6bee3"
+    },
+    {
+      "id": "017018",
+      "slug": "bienno",
+      "denominazione": "Bienno",
+      "provincia": "BS",
+      "regione": "Lombardia",
+      "versione": "2026-11-22T16:04:25Z",
+      "sha256": "b35419cf937396b4d85d1d295db210bc9a20f96390d9b90c5883cee893901e12"
+    },
     {
       "id": "010004",
       "slug": "bogliasco",
@@ -12,6 +30,24 @@
       "sha256": "fa42f7adb71b06df4c852396dbd692f913d2be288aa58acd8692ba119e6eb83f"
     },
     {
+      "id": "010007",
+      "slug": "camogli",
+      "denominazione": "Camogli",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "versione": "2026-11-22T16:04:34Z",
+      "sha256": "afe785fcb16d3bbe59e55c69f24dccb1b6cb8299ed298d44034b394a4d87af13"
+    },
+    {
+      "id": "020015",
+      "slug": "castel-goffredo",
+      "denominazione": "Castel Goffredo",
+      "provincia": "MN",
+      "regione": "Lombardia",
+      "versione": "2026-11-22T16:04:33Z",
+      "sha256": "7c06b9103c70b232259e4d62bc10216f8969401e237ef7d10d23780875ad7307"
+    },
+    {
       "id": "010015",
       "slug": "chiavari",
       "denominazione": "Chiavari",
@@ -19,6 +55,51 @@
       "regione": "Liguria",
       "versione": "2026-10-13T08:27:26Z",
       "sha256": "e1f877b6587a52b7981023e26b9a76cc2ce5164a3a65db04080beded1521ed0c"
+    },
+    {
+      "id": "010016",
+      "slug": "cicagna",
+      "denominazione": "Cicagna",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "versione": "2026-11-22T16:04:34Z",
+      "sha256": "c83030e69f02c41a022d843e4796e5d4fd10b0c96716bc1eacdfdcc2d5de7cf4"
+    },
+    {
+      "id": "010029",
+      "slug": "leivi",
+      "denominazione": "Leivi",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "versione": "2026-11-22T16:04:34Z",
+      "sha256": "5ba6975f08f7e4242b7adc9869784542cadcda4c2126dad239d3fbdd78f624b1"
+    },
+    {
+      "id": "010031",
+      "slug": "lumarzo",
+      "denominazione": "Lumarzo",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "versione": "2026-11-22T16:04:34Z",
+      "sha256": "4c12376242d3fece38c641a28a42615c4d2784b094cc04f963aff8a7db642458"
+    },
+    {
+      "id": "010036",
+      "slug": "moconesi",
+      "denominazione": "Moconesi",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "versione": "2026-11-22T16:04:34Z",
+      "sha256": "88a3e0eb2a454fa5111b53538498b4950c00595aa652789753424683981f2d7b"
+    },
+    {
+      "id": "019062",
+      "slug": "offanengo",
+      "denominazione": "Offanengo",
+      "provincia": "CR",
+      "regione": "Lombardia",
+      "versione": "2026-11-22T16:04:33Z",
+      "sha256": "98cfe7b31a414b55f1e28bc895b5b57c2b4cb743d07ef858675f8f8de398dfba"
     },
     {
       "id": "010043",
@@ -73,6 +154,33 @@
       "regione": "Liguria",
       "versione": "2026-10-13T08:27:26Z",
       "sha256": "c108a74767444efbed27ec837914b2ca12ee1d61b8a57eb23c791c5da6eecbcc"
+    },
+    {
+      "id": "017189",
+      "slug": "tremosine-sul-garda",
+      "denominazione": "Tremosine sul Garda",
+      "provincia": "BS",
+      "regione": "Lombardia",
+      "versione": "2026-11-22T16:04:33Z",
+      "sha256": "43dec9ab2c95edb2373142db23c19418921fdf150b0c10395bef48e864acc092"
+    },
+    {
+      "id": "010064",
+      "slug": "uscio",
+      "denominazione": "Uscio",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "versione": "2026-11-22T16:04:34Z",
+      "sha256": "ae6a4c258533ea889fa83b5261f189f1b5b39eb29f9058ca57aca2689cc4b214"
+    },
+    {
+      "id": "010067",
+      "slug": "zoagli",
+      "denominazione": "Zoagli",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "versione": "2026-11-22T16:04:34Z",
+      "sha256": "bdc6fd6f6caac987882b417bc98fbdc5fbe0278e4b35827a092adfbe0828d859"
     }
   ]
 }
