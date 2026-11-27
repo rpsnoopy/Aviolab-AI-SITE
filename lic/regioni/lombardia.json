@@ -154,12 +154,100 @@
           "note": "NON VERIFICATA: estremi dalla ricerca del 2026-06-20, non riaperti oggi."
         }
       ]
+    },
+    "funeraria_cimiteriale": {
+      "norme": [
+        {
+          "estremi": "L.R. 30 dicembre 2009, n. 33, Titolo VI bis (artt. 67-77)",
+          "compatto": "L.R. 33/2009 Tit. VI bis",
+          "titolo": "Testo unico delle leggi regionali in materia di sanità - Norme in materia di medicina legale, polizia mortuaria e attività funebre",
+          "note": "Titolo introdotto dalla L.R. 4/2019 (abrogato il Capo III del Titolo VI), modificato dalla L.R. 15/2019. Art. 70 bis case funerarie; art. 72 trasporto funebre (autorizzazione del comune del decesso); art. 73 cremazione e dispersione delle ceneri (ufficiale di stato civile); art. 74 attività funebre con SCIA al comune; art. 75 cimiteri; art. 77 sanzioni. Letto sul BURL nel testo del 2019. Testo coordinato non riletto (NormeLombardia respinge l'accesso automatico): confermare gli articoli sul testo vigente."
+        },
+        {
+          "estremi": "R.R. 14 giugno 2022, n. 4",
+          "compatto": "R.R. 4/2022",
+          "titolo": "Regolamento di attuazione del Titolo VI bis della legge regionale 30 dicembre 2009, n. 33 (Testo unico delle leggi regionali in materia di sanità)",
+          "note": "Sostituisce il R.R. 6/2004, abrogato dall'art. 34. Art. 2 avvio dell'attività funebre; artt. 12-15 cremazione, dispersione e affidamento dell'urna; art. 16 vigilanza; art. 18 piani cimiteriali; art. 24 zona di rispetto; art. 27 concessioni cimiteriali; art. 28 sepolture fuori dai cimiteri; art. 30 soppressione dei cimiteri."
+        }
+      ]
+    },
+    "enti_locali_associazioni": {
+      "norme": [
+        {
+          "estremi": "L.R. 27 giugno 2008, n. 19",
+          "compatto": "L.R. 19/2008",
+          "titolo": "Riordino delle Comunità montane della Lombardia, disciplina delle unioni di comuni lombarde e sostegno all'esercizio associato di funzioni e servizi comunali",
+          "note": "Art. 18 unioni di comuni lombarde (testo della L.R. 20/2015); art. 20 contributi, attuato dal R.R. 2/2009. Estremi, titolo e artt. 18 e 20 riscontrati sulle leggi di modifica pubblicate sul BURL. Testo coordinato non riletto (NormeLombardia respinge l'accesso automatico): confermare gli articoli sul testo vigente."
+        },
+        {
+          "estremi": "L.R. 15 dicembre 2006, n. 29",
+          "compatto": "L.R. 29/2006",
+          "titolo": "Testo unico delle leggi regionali in materia di circoscrizioni comunali e provinciali",
+          "note": "Fusioni, incorporazioni, modifiche dei confini e della denominazione: art. 7 procedura (referendum comunale prima della richiesta di incorporazione); art. 9 referendum regionale. Riscontrata sulla L.R. 20/2015 e sulle pagine della Regione. Testo coordinato non riletto (NormeLombardia respinge l'accesso automatico): confermare gli articoli sul testo vigente."
+        },
+        {
+          "estremi": "L.R. 8 luglio 2015, n. 19",
+          "compatto": "L.R. 19/2015",
+          "titolo": "Riforma del sistema delle autonomie della Regione e disposizioni per il riconoscimento della specificità dei territori montani in attuazione della legge 7 aprile 2014, n. 56",
+          "note": "Da citare solo se l'atto tocca funzioni provinciali o la montagna: art. 2 funzioni confermate alle province; art. 6 territorio montano. Per i Comuni della Città metropolitana di Milano vedi anche L.R. 32/2015."
+        }
+      ]
+    },
+    "commercio_attivita_produttive": {
+      "norme": [
+        {
+          "estremi": "L.R. 2 febbraio 2010, n. 6",
+          "compatto": "L.R. 6/2010",
+          "titolo": "Testo unico delle leggi regionali in materia di commercio e fiere",
+          "note": "Aree pubbliche artt. 16-33 (art. 18 bis calendario delle fiere e delle sagre; art. 18 ter regolamento comunale delle sagre; art. 21 autorizzazioni); somministrazione Titolo II Capo III (art. 72 somministrazione temporanea); art. 103 orari; artt. 121 e seguenti manifestazioni fieristiche. Riscontrata sulle leggi di modifica pubblicate sul BURL (L.R. 10/2016, L.R. 5/2019). Testo coordinato non riletto (NormeLombardia respinge l'accesso automatico): confermare gli articoli sul testo vigente."
+        },
+        {
+          "estremi": "L.R. 19 febbraio 2014, n. 11",
+          "compatto": "L.R. 11/2014",
+          "titolo": "Impresa Lombardia: per la libertà di impresa, il lavoro e la competitività",
+          "note": "Art. 6 semplificazione (comunicazione unica al SUAP); art. 7 amministrazione unica (SUAP, anche associato). Letta nel testo del 2014."
+        },
+        {
+          "estremi": "L.R. 4 aprile 2012, n. 6",
+          "compatto": "L.R. 6/2012",
+          "titolo": "Disciplina del settore dei trasporti",
+          "note": "Taxi e NCC: art. 24 sanzioni (sospensione e revoca del sindaco); artt. 24 bis-24 quinquies criteri, tariffe e bacini; art. 25 ruolo dei conducenti. Testo rivisto dalla L.R. 2/2026."
+        },
+        {
+          "estremi": "L.R. 27 febbraio 2012, n. 3",
+          "compatto": "L.R. 3/2012",
+          "titolo": "Disposizioni in materia di artigianato e commercio e attuazioni della Direttiva 2006/123/CE",
+          "note": "Titolo III: art. 3 estetista, art. 4 acconciatore, sostituiti dalla L.R. 17/2026 (SCIA al SUAP, regolamento comunale, sospensione o divieto di prosecuzione). La L.R. 48/1989 (estetiste) e la L.R. 73/1989 (artigianato) sono abrogate dal 2026: non citarle."
+        }
+      ]
+    },
+    "turismo_ricettivita": {
+      "norme": [
+        {
+          "estremi": "L.R. 1 ottobre 2015, n. 27",
+          "compatto": "L.R. 27/2015",
+          "titolo": "Politiche regionali in materia di turismo e attrattività del territorio lombardo",
+          "note": "Art. 7 competenze dei comuni; art. 12 pro loco; art. 18 tipologie di strutture; art. 38 SCIA al comune, comunicazione per case e appartamenti per vacanze e locazioni turistiche, CIR (commi 8 bis e 8 ter, da L.R. 7/2018); art. 39 vigilanza e sanzioni del comune; artt. 42-47 aria aperta. Ha abrogato la L.R. 15/2007."
+        },
+        {
+          "estremi": "R.R. 5 agosto 2016, n. 7",
+          "compatto": "R.R. 7/2016",
+          "titolo": "",
+          "note": "Standard e dotazioni minime di ostelli, case e appartamenti per vacanze, foresterie, locande, bed and breakfast e alloggi in locazione turistica, in attuazione dell'art. 37 L.R. 27/2015. Modificato dal R.R. 6/2025: art. 3 bis requisiti minimi delle locazioni turistiche; art. 8 modulistica di SCIA e comunicazioni."
+        },
+        {
+          "estremi": "L.R. 2 novembre 2026, n. 28",
+          "compatto": "L.R. 28/2026",
+          "titolo": "Testo unico in materia di agricoltura, foreste, pesca e sviluppo rurale",
+          "note": "Agriturismo: Titolo XVI Capo II, artt. 213-226 (art. 215 SCIA allo sportello unico del comune; art. 225 sanzioni applicate dai comuni). In vigore dal 3/11/2026; l'art. 252 abroga la L.R. 31/2008: non citarla."
+        }
+      ]
     }
   },
   "verifica": {
     "data": "2026-11-03",
     "fonte": "NormeLombardia (iddoc cablati verificati il 2026-07-12) e mapping del 2026-06-20; riscontro odierno su fonti secondarie",
     "verificato_da": "agente delegato della sessione Claude (Opus 5.5)",
-    "note": "Il 2026-11-03 NormeLombardia ha rifiutato l'accesso automatico (Request Rejected): nessuna pagina riaperta oggi. Estremi e titoli di L.R. 19/2007, 6/2015 e 4/2016 riscontrati su fonti secondarie (ANCI Lombardia, sito della Regione, Legislazione Tecnica); iddoc nuovi da provare a mano. Caveat: artt. 50 e 52 L.R. 6/2012 dopo L.R. 2/2026; numeri d'articolo edilizi della L.R. 12/2005."
+    "note": "Il 2026-11-03 NormeLombardia ha rifiutato l'accesso automatico (Request Rejected): nessuna pagina riaperta oggi. Estremi e titoli di L.R. 19/2007, 6/2015 e 4/2016 riscontrati su fonti secondarie (ANCI Lombardia, sito della Regione, Legislazione Tecnica); iddoc nuovi da provare a mano. Caveat: artt. 50 e 52 L.R. 6/2012 dopo L.R. 2/2026; numeri d'articolo edilizi della L.R. 12/2005. Il 2026-11-26 aggiunte le materie funeraria e cimiteriale, enti locali e forme associative, commercio e attività produttive, turismo e strutture ricettive. Fonte: PDF ufficiali del BURL dal 2012 (API della consultazione BURL) e catalogo delle leggi del Consiglio regionale (dati.lombardia.it); NormeLombardia respinge ancora l'accesso automatico. Per L.R. 29/2006, 19/2008, 33/2009 e 6/2010 non è stato letto il testo originario né quello coordinato: estremi, titoli e articoli riscontrati sulle leggi di modifica pubblicate sul BURL. Non accertato: quali regolamenti attuativi della L.R. 31/2008 restino applicabili dopo la L.R. 28/2026."
   }
 }

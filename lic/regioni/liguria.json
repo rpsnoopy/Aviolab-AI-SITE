@@ -129,12 +129,127 @@
           "note": "Art. 23 istituti e luoghi di cultura, art. 24 organizzazione bibliotecaria. Il titolo «biblioteche e archivi degli enti locali» dei prompt è errato."
         }
       ]
+    },
+    "funeraria_cimiteriale": {
+      "norme": [
+        {
+          "estremi": "L.R. 10 luglio 2020, n. 15",
+          "compatto": "L.R. 15/2020",
+          "titolo": "Disciplina in materia di attività e servizi necroscopici, funebri e cimiteriali e norme relative alla tumulazione degli animali di affezione",
+          "note": "Art. 4 funzioni del Comune (regolamento di polizia mortuaria, concessioni, pianificazione cimiteriale, vigilanza); art. 6 attività funebre con SCIA al Comune; artt. 16-17 casa funeraria e sala del commiato; art. 19 trasporto funebre; artt. 27-28 cimiteri; art. 38 sepolture private; artt. 39-40 esumazioni ed estumulazioni straordinarie; art. 46 autorizzazione alla cremazione dell'Ufficiale di stato civile; artt. 48-49 ceneri e dispersione; art. 55 vigilanza e ordinanze del Sindaco. Modificata da L.R. 32/2020 e L.R. 14/2021. Non abroga espressamente la L.R. 24/2007."
+        },
+        {
+          "estremi": "L.R. 4 luglio 2007, n. 24",
+          "compatto": "L.R. 24/2007",
+          "titolo": "Disposizioni in materia di cremazione, affidamento e dispersione delle ceneri",
+          "note": "Vigente in banca dati, da leggere insieme alla L.R. 15/2020. Art. 3 co. 3 registro comunale degli affidamenti; art. 4 co. 3 nulla osta del Comune di dispersione; art. 4 co. 7 cinerario comune dopo 90 giorni; art. 5 bis sanzioni. L'art. 6 bis (autorizzazione comunale all'attività funebre) è ancora nel testo ma contrasta con la SCIA dell'art. 6 L.R. 15/2020: segnalare, non applicare."
+        },
+        {
+          "estremi": "Regolamento regionale 11 marzo 2008, n. 1",
+          "compatto": "Reg. reg. 1/2008",
+          "titolo": "Regolamento in materia di cremazione, affidamento e dispersione delle ceneri ai sensi dell'articolo 6 della legge regionale 4 luglio 2007, n. 24",
+          "note": "Art. 3 registro comunale delle ceneri affidate e disperse; art. 4 dispersione alla presenza dell'incaricato comunale; art. 5 deposito dell'urna e avvio al cinerario comune."
+        }
+      ]
+    },
+    "enti_locali_associazioni": {
+      "norme": [
+        {
+          "estremi": "L.R. 10 aprile 2015, n. 15",
+          "compatto": "L.R. 15/2015",
+          "titolo": "Disposizioni di riordino delle funzioni conferite alle province in attuazione della legge 7 aprile 2014, n. 56",
+          "note": "Art. 2 favore per l'esercizio associato; art. 3 Città metropolitana di Genova; art. 4 funzioni delle Province; art. 5 funzioni riattribuite alla Regione; art. 6 funzioni dei Comuni, di norma in forma associata. Artt. 39-40 abrogati da L.R. 1/2024."
+        },
+        {
+          "estremi": "L.R. 6 luglio 2020, n. 12",
+          "compatto": "L.R. 12/2020",
+          "titolo": "Norme per l'attuazione dello Statuto in materia di iniziativa popolare e referendum e procedure per l'istituzione di nuovi Comuni e per la modificazione delle circoscrizioni e delle denominazioni comunali",
+          "note": "Titolo IV, artt. 48-56: fusioni, istituzione di nuovi Comuni, incorporazione (art. 54), successione nei rapporti (art. 55), rettifica dei confini (art. 56). Art. 57 abroga L.R. 12/1994 e L.R. 44/1977."
+        },
+        {
+          "estremi": "L.R. 12 aprile 2011, n. 7",
+          "compatto": "L.R. 7/2011",
+          "titolo": "Disciplina di riordino e razionalizzazione delle funzioni svolte dalle comunità montane soppresse e norme di attuazione per la liquidazione",
+          "note": "Art. 5 funzioni delle ex Comunità montane esercitate dai Comuni in forma associata (commi 3-4 abrogati da L.R. 40/2014); art. 6 Comune capofila dell'Ambito Territoriale Sociale. Art. 16 abroga la L.R. 24/2008."
+        }
+      ],
+      "fatti": {
+        "legge_regionale_organica_su_unioni_di_comuni_e_convenzioni": "non individuata alla verifica del 26/11/2026 (L.R. 24/2008 abrogata): per Unioni e convenzioni valgono le norme statali"
+      }
+    },
+    "commercio_attivita_produttive": {
+      "norme": [
+        {
+          "estremi": "L.R. 2 gennaio 2007, n. 1",
+          "compatto": "L.R. 1/2007",
+          "titolo": "Testo Unico in materia di commercio",
+          "note": "Art. 4 funzioni del Comune; art. 4 bis SUAP; art. 5 piano commerciale comunale; aree pubbliche: artt. 29-30 posteggi e bandi, art. 32 fiere, art. 32 bis hobbisti, art. 36 regolamento comunale; mercati all'ingrosso artt. 39-49; somministrazione artt. 54-55. Le sagre non sono disciplinate. Ultime modifiche registrate: L.R. 20/2023, L.R. 7/2024."
+        },
+        {
+          "estremi": "L.R. 5 aprile 2012, n. 10",
+          "compatto": "L.R. 10/2012",
+          "titolo": "Disciplina per l'esercizio delle attività produttive e riordino dello sportello unico",
+          "note": "Art. 2 SUAP obbligatorio, preferibilmente associato; art. 3 procedimento telematico; art. 7 regimi edilizi semplificati; art. 10 procedimento unico (sostituito da L.R. 1/2020)."
+        },
+        {
+          "estremi": "L.R. 4 luglio 2007, n. 25",
+          "compatto": "L.R. 25/2007",
+          "titolo": "Testo unico in materia di trasporto di persone mediante servizi pubblici non di linea",
+          "note": "Taxi e NCC. Art. 14 competenze comunali; art. 15 commissione consultiva; art. 16 regolamenti comunali; art. 17 tariffe; art. 18 numero delle licenze. Modificata da L.R. 10/2019."
+        },
+        {
+          "estremi": "L.R. 5 giugno 2009, n. 23",
+          "compatto": "L.R. 23/2009",
+          "titolo": "Disciplina dell'attività di acconciatore in attuazione della legge 17 agosto 2005, n. 174",
+          "note": "Art. 6 SCIA al SUAP; art. 8 regolamento comunale; artt. 9-10 vigilanza e sanzioni."
+        },
+        {
+          "estremi": "L.R. 2 gennaio 2003, n. 3",
+          "compatto": "L.R. 3/2003",
+          "titolo": "Riordino e semplificazione della normativa in materia di artigianato",
+          "note": "Estetisti: Titolo III Capo I, artt. 24-33 (art. 25 SCIA al SUAP, art. 27 regolamento comunale, art. 32 diffida e divieto)."
+        }
+      ]
+    },
+    "turismo_ricettivita": {
+      "norme": [
+        {
+          "estremi": "L.R. 6 febbraio 2024, n. 1",
+          "compatto": "L.R. 1/2024",
+          "titolo": "Testo unico in materia di strutture turistico ricettive e di locazioni brevi",
+          "note": "Sostituisce la L.R. 32/2014, abrogata dall'art. 75. Art. 4 codici identificativi; artt. 22-24 affittacamere, B&B, case e appartamenti per vacanze; art. 29 appartamenti ammobiliati a uso turistico (non sono strutture ricettive); art. 49 SCIA al SUAP; art. 50 comunicazione alla Regione; art. 51 sospensione e cessazione disposte dal Comune; art. 64 co. 4 vigilanza e sanzioni dei Comuni; art. 74 restano in via transitoria le disposizioni attuative della L.R. 32/2014."
+        },
+        {
+          "estremi": "L.R. 4 ottobre 2006, n. 28",
+          "compatto": "L.R. 28/2006",
+          "titolo": "Organizzazione turistica regionale",
+          "note": "Art. 5 funzioni di Città metropolitana, Comuni ed enti Parco; art. 16 IAT e comuni turistici (imposta di soggiorno, art. 4 D.Lgs. 23/2011). Artt. 3-4 e 11-15 abrogati da L.R. 15/2015."
+        },
+        {
+          "estremi": "L.R. 21 novembre 2007, n. 37",
+          "compatto": "L.R. 37/2007",
+          "titolo": "Disciplina dell'attività agrituristica, enoturistica, oleoturistica, di fattoria didattica, del pescaturismo e dell'ittiturismo",
+          "note": "Titolo sostituito da L.R. 14/2026. Art. 10 SCIA al SUAP; art. 15 sospensione e revoca del Comune; art. 16 vigilanza comunale; art. 17 sanzioni."
+        },
+        {
+          "estremi": "L.R. 11 aprile 1996, n. 17",
+          "compatto": "L.R. 17/1996",
+          "titolo": "Disciplina delle Associazioni Pro Loco",
+          "note": "Art. 2 albo regionale con parere del Comune sede."
+        },
+        {
+          "estremi": "L.R. 7 febbraio 2008, n. 1",
+          "compatto": "L.R. 1/2008",
+          "titolo": "Misure per la salvaguardia e la valorizzazione degli alberghi e disposizioni relative alla disciplina e alla programmazione dell'offerta turistico-ricettiva negli strumenti urbanistici comunali",
+          "note": "Vincolo alberghiero: art. 2 censimento comunale e istanza di svincolo al Comune; art. 4 PUC. Corte cost. 143/2025: illegittimo l'art. 2 co. 2 dove non ammette lo svincolo per non convenienza economico-produttiva."
+        }
+      ]
     }
   },
   "verifica": {
     "data": "2026-11-03",
     "fonte": "Raccolta Normativa del Consiglio regionale della Liguria (lrv.regione.liguria.it, URN NIR, testo coordinato vigente)",
     "verificato_da": "agente delegato della sessione Claude (Opus 5.5)",
-    "note": "Tutte le L.R. aperte sul testo vigente: estremi, titolo e stato «Documento vigente» confermati. Restano NON VERIFICATE le due DGR (222/2015, 339/2023). Scartate: L.R. 19/2017 (è il rendiconto regionale 2016), L.R. 3/2007 (caccia), L.R. 1/2007 (testo unico del commercio)."
+    "note": "Tutte le L.R. aperte sul testo vigente: estremi, titolo e stato «Documento vigente» confermati. Restano NON VERIFICATE le due DGR (222/2015, 339/2023). Scartate: L.R. 19/2017 (è il rendiconto regionale 2016), L.R. 3/2007 (caccia), L.R. 1/2007 (testo unico del commercio). Il 2026-11-26 aggiunte le materie funeraria e cimiteriale, enti locali e forme associative, commercio e attività produttive, turismo e strutture ricettive (per il commercio entra la L.R. 1/2007, prima scartata perché estranea alle sette materie): estremi, titolo e stato «Documento vigente» letti sulla stessa banca dati. Non accertate: D.G.R. attuative della L.R. 15/2020 e della L.R. 1/2024; esistenza di una legge sugli ambiti dell'esercizio associato."
   }
 }

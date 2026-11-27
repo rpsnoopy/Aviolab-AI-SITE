@@ -1,6 +1,6 @@
 {
   "formato": "ttr-regioni-indice/1",
-  "aggiornatoIl": "2026-11-05T06:08:01Z",
+  "aggiornatoIl": "2026-11-27T12:39:19Z",
   "regioni": [
     {
       "chiave": "abruzzo",
@@ -63,16 +63,16 @@
       "regione": "Liguria",
       "statuto": "ordinario",
       "schema_version": 1,
-      "sha256": "7a23e2860d1aff89ae3b574a3c5dd05930575a1fa7b289ea7a8e01503f844368",
-      "bytes": 5661
+      "sha256": "d88dac9ae81b6632adf85b8a2539057798627cf40d812c846269b3e1f780bea6",
+      "bytes": 14476
     },
     {
       "chiave": "lombardia",
       "regione": "Lombardia",
       "statuto": "ordinario",
       "schema_version": 1,
-      "sha256": "e86a46897036a32c614c93d8261f26c3652197cc9a004a87ac6c43d8f709c69a",
-      "bytes": 7310
+      "sha256": "63f899d686460b6afb39812bb5c873efa59e712feb652f0ca25f5358927dae56",
+      "bytes": 14841
     },
     {
       "chiave": "marche",
