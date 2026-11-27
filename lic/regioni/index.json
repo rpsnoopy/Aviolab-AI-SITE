@@ -1,6 +1,6 @@
 {
   "formato": "ttr-regioni-indice/1",
-  "aggiornatoIl": "2026-11-27T12:39:19Z",
+  "aggiornatoIl": "2026-11-27T13:02:57Z",
   "regioni": [
     {
       "chiave": "abruzzo",
@@ -71,8 +71,8 @@
       "regione": "Lombardia",
       "statuto": "ordinario",
       "schema_version": 1,
-      "sha256": "63f899d686460b6afb39812bb5c873efa59e712feb652f0ca25f5358927dae56",
-      "bytes": 14841
+      "sha256": "c0247cd8f8589ad734f840e4364fb53fc947cb5330e0422353f3fcfd59563a89",
+      "bytes": 15327
     },
     {
       "chiave": "marche",
